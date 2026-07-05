@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LawLingo — Gamified Law Revision Platform
 
-## Getting Started
+A Duolingo-style interactive platform for mastering English and Welsh law, covering the SQE syllabus and self-represented litigant skills.
 
-First, run the development server:
+## Quick Start
 
 ```bash
+npm install
+cp .env.example .env.local
+# Fill in .env.local with your Supabase credentials
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Environment Variables
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+| Variable | Description |
+|----------|-------------|
+| `NEXT_PUBLIC_SUPABASE_URL` | Your Supabase project URL |
+| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Supabase anonymous key |
+| `SUPABASE_SERVICE_ROLE_KEY` | Supabase service role key (server only) |
+| `NEXTAUTH_URL` | `http://localhost:3000` (local) or production URL |
+| `NEXTAUTH_SECRET` | Random secret for NextAuth.js |
+| `GOOGLE_CLIENT_ID` | (Optional) Google OAuth client ID |
+| `GOOGLE_CLIENT_SECRET` | (Optional) Google OAuth secret |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Database Setup
 
-## Learn More
+1. Create a Supabase project at [supabase.com](https://supabase.com)
+2. Run the migration SQL in `supabase/migrations/001_initial_schema.sql` in the Supabase SQL Editor
+3. Seed sample questions: `npx tsx scripts/seed.ts`
 
-To learn more about Next.js, take a look at the following resources:
+## Seeding Content
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The complete legal curriculum is in `../pages/` (relative to the app directory). To seed:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+# Parse markdown files and insert questions
+node scripts/parse-content.js
+```
 
-## Deploy on Vercel
+Or manually seed with the reference modules:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npx tsx scripts/seed.ts
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Deployment
+
+1. Push to GitHub
+2. Connect repo to Vercel
+3. Set environment variables in Vercel project settings
+4. Deploy
+
+## Tech Stack
+
+- **Frontend:** Next.js 14 (App Router), TypeScript, Tailwind CSS, Framer Motion
+- **Backend:** Supabase (PostgreSQL, Auth, RLS)
+- **State:** Zustand, React Query
+- **Spaced Repetition:** SM-2 algorithm
+- **Auth:** NextAuth.js + Supabase adapter
+
+## Features
+
+- 10-page comprehensive legal curriculum
+- Interactive lesson player (MCQ, MSQ, T/F, scenario, drag-match, fill-blank)
+- 5 Crown Levels per page (Bronze → Diamond)
+- Mastery Gates with 80% pass threshold and 24-hour cooldown
+- Spaced repetition with SM-2 algorithm
+- Gamification: XP, gems, hearts, streaks, leagues, badges
+- Duolingo-style interactive legal stories
+- Loopholes Guard with ethics pledge
+- Mobile-responsive design
+- Skill tree with progressive unlocks
+- Weekly league leaderboards
+
+## Pages
+
+| Page | Subject | Sections |
+|------|---------|----------|
+| A | Contract Law | 28 |
+| B | Tort & Civil Wrongs | 22 |
+| C | Criminal Law – Homicide | 7 |
+| D | Criminal Law – Financial Crime | 12 |
+| E | Civil-Criminal Overlap | 3 |
+| F | Tax & Offshore Structures | 14 |
+| G | Money Laundering & POCA | 11 |
+| H | Loopholes & Defensive Lawyering | 15 |
+| I | Civil Procedure | 18 |
+| J | Criminal Procedure | 14 |
+
+## License
+
+Proprietary. All rights reserved.
