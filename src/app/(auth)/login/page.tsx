@@ -2,21 +2,22 @@
 
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { useRouter } from 'next/navigation'
-import Link from 'next/link'
+import { Loader2 } from 'lucide-react'
 import { createClient } from '@/lib/supabase/client'
 import toast from 'react-hot-toast'
 
 export default function LoginPage() {
-  const router = useRouter()
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [loading, setLoading] = useState(false)
+  const [redirecting, setRedirecting] = useState(false)
+  const [message, setMessage] = useState('')
   const [mode, setMode] = useState<'login' | 'register'>('login')
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
     setLoading(true)
+    setMessage('')
 
     const supabase = createClient()
 
@@ -31,19 +32,34 @@ export default function LoginPage() {
       if (error) {
         toast.error(error.message)
       } else {
-        toast.success('Check your email for a confirmation link!')
+        setMessage('Account created! Check your email to confirm your account, then sign in.')
+        toast.success('Check your email for the confirmation link!')
       }
+      setLoading(false)
     } else {
       const { error } = await supabase.auth.signInWithPassword({ email, password })
       if (error) {
-        toast.error(error.message)
+        toast.error(error.message === 'Invalid login credentials'
+          ? 'Invalid email or password'
+          : error.message)
+        setLoading(false)
       } else {
-        router.push('/dashboard')
-        router.refresh()
+        setRedirecting(true)
+        window.location.href = '/dashboard'
       }
     }
+  }
 
-    setLoading(false)
+  if (redirecting) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-b from-green-50 to-white">
+        <div className="text-center">
+          <Loader2 className="w-10 h-10 animate-spin text-[#58CC02] mx-auto mb-4" />
+          <h2 className="text-lg font-bold text-gray-700">Signing in...</h2>
+          <p className="text-sm text-gray-400 mt-1">Redirecting to your dashboard</p>
+        </div>
+      </div>
+    )
   }
 
   return (
@@ -61,6 +77,7 @@ export default function LoginPage() {
         <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
           <div className="flex mb-6 bg-gray-50 rounded-xl p-1">
             <button
+              type="button"
               onClick={() => setMode('login')}
               className={`flex-1 py-2 text-sm font-bold rounded-lg transition-all ${
                 mode === 'login' ? 'bg-white shadow-sm' : 'text-gray-500'
@@ -69,6 +86,7 @@ export default function LoginPage() {
               Sign In
             </button>
             <button
+              type="button"
               onClick={() => setMode('register')}
               className={`flex-1 py-2 text-sm font-bold rounded-lg transition-all ${
                 mode === 'register' ? 'bg-white shadow-sm' : 'text-gray-500'
@@ -77,6 +95,12 @@ export default function LoginPage() {
               Sign Up
             </button>
           </div>
+
+          {message && (
+            <div className="mb-4 p-3 bg-blue-50 border border-blue-100 rounded-xl text-sm text-blue-700">
+              {message}
+            </div>
+          )}
 
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
@@ -105,9 +129,16 @@ export default function LoginPage() {
             <button
               type="submit"
               disabled={loading}
-              className="w-full bg-[#58CC02] text-white font-bold py-3.5 rounded-xl hover:bg-[#46A302] transition-colors disabled:opacity-50"
+              className="w-full bg-[#58CC02] text-white font-bold py-3.5 rounded-xl hover:bg-[#46A302] transition-colors disabled:opacity-50 flex items-center justify-center gap-2"
             >
-              {loading ? 'Loading...' : mode === 'login' ? 'Sign In' : 'Create Account'}
+              {loading ? (
+                <>
+                  <Loader2 className="w-5 h-5 animate-spin" />
+                  {mode === 'login' ? 'Signing in...' : 'Creating account...'}
+                </>
+              ) : (
+                mode === 'login' ? 'Sign In' : 'Create Account'
+              )}
             </button>
           </form>
         </div>
