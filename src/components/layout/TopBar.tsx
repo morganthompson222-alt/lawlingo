@@ -1,6 +1,6 @@
 'use client'
 
-import { Heart, Gem, Flame, X } from 'lucide-react'
+import { Heart, Gem, Flame, Scale, UserCircle } from 'lucide-react'
 import Link from 'next/link'
 import { useUserStore } from '@/store/user'
 import { useEffect } from 'react'
@@ -28,7 +28,7 @@ export default function TopBar() {
           <span className="text-xl font-extrabold text-[#58CC02]">LawLingo</span>
         </Link>
 
-        <div className="flex items-center gap-5">
+        <div className="flex items-center gap-4">
           <div className="flex items-center gap-1 text-sm font-semibold">
             <Flame className="w-4 h-4 text-orange-500" />
             <span>{profile.streak}</span>
@@ -39,6 +39,11 @@ export default function TopBar() {
             <span>{profile.gems}</span>
           </div>
 
+          <div className="flex items-center gap-1 text-sm font-semibold">
+            <Scale className="w-4 h-4 text-amber-600" />
+            <span>{profile.lawcoins || 0}</span>
+          </div>
+
           <div className="flex items-center gap-0.5">
             {Array.from({ length: 5 }).map((_, i) => (
               <Heart
@@ -47,6 +52,14 @@ export default function TopBar() {
               />
             ))}
           </div>
+
+          <Link
+            href="/avatar"
+            className="w-8 h-8 rounded-full bg-gradient-to-br from-green-400 to-[#58CC02] flex items-center justify-center text-white"
+            title="Avatar Editor"
+          >
+            <UserCircle className="w-5 h-5" />
+          </Link>
 
           <Link
             href="/profile"

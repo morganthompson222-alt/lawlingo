@@ -22,6 +22,7 @@ export async function GET() {
         id: user.id,
         xp: 0,
         gems: 500,
+        lawcoins: 0,
         streak: 0,
         league: 'bronze',
         hearts: 5,

@@ -3,8 +3,8 @@
 import { useEffect, useState, Suspense, use } from 'react'
 import { useSearchParams, useRouter } from 'next/navigation'
 import { motion } from 'framer-motion'
-import { ArrowLeft, Loader2, Play } from 'lucide-react'
-import LessonPlayer from '@/components/lesson/LessonPlayer'
+import { ArrowLeft, Loader2, Play, BookOpen } from 'lucide-react'
+import SenecaLessonPlayer from '@/components/lesson/SenecaLessonPlayer'
 import LessonResult from '@/components/lesson/LessonResult'
 import type { Question } from '@/types'
 import { CROWN_EMOJI, CROWN_NAMES } from '@/types'
@@ -16,38 +16,38 @@ function LearnPageContent({ page }: { page: string }) {
   const router = useRouter()
   const { profile, addXP, addGems } = useUserStore()
 
-  const crownParam = searchParams.get('crown')
-  const [crownLevel, setCrownLevel] = useState<number>(crownParam ? parseInt(crownParam) : 1)
-  const [questions, setQuestions] = useState<Question[]>([])
+  const crownParam = searchParams.get('crown') || '1'
+  const crownLevel = parseInt(crownParam)
+
+  const [lesson, setLesson] = useState<any>(null)
+  const [allQuestions, setAllQuestions] = useState<any[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
   const [phase, setPhase] = useState<'select' | 'playing' | 'results'>('select')
-  const [results, setResults] = useState<{
-    correct: number
-    total: number
-    mistakes: string[]
-    xpEarned: number
-    gemsEarned: number
-  } | null>(null)
+  const [results, setResults] = useState<any>(null)
+
+  const lessonId = `lesson-${page}1-1` // e.g., lesson-A1-1, lesson-B1-1
 
   useEffect(() => {
     async function load() {
       setLoading(true)
       setError('')
       try {
-        const res = await fetch(`/api/questions?page=${page}&crown_level=${crownLevel}&limit=8`)
+        const res = await fetch(`/api/lessons?lessonId=${lessonId}&microSkill=${page}1.1`)
         if (res.ok) {
           const data = await res.json()
-          if (Array.isArray(data)) {
-            setQuestions(data)
-          } else {
-            setError('Received invalid data')
-          }
+          setLesson(data)
+          // Flatten all questions for the player
+          const all = [
+            ...data.blocks.flatMap((b: any) => [b.teaching, ...b.questions]),
+            ...(data.consolidation?.questions || []),
+          ].filter(Boolean)
+          setAllQuestions(all)
         } else {
-          setError('Failed to load questions')
+          setError('No Seneca-style lesson available yet. Try a different page.')
         }
-      } catch (e) {
-        setError('Could not connect to server')
+      } catch {
+        setError('Could not load lesson data')
       }
       setLoading(false)
     }
@@ -55,67 +55,31 @@ function LearnPageContent({ page }: { page: string }) {
   }, [page, crownLevel])
 
   function startLesson() {
-    if (questions.length === 0) return
+    if (allQuestions.length === 0) return
     setPhase('playing')
   }
 
   async function handleComplete(r: { correct: number; total: number; mistakes: string[] }) {
     const xp = calculateLessonXP(profile?.streak ?? 0, 60)
     const gems = r.correct >= Math.ceil(r.total * 0.7) ? 10 : 3
-
     setResults({ ...r, xpEarned: xp.total, gemsEarned: gems })
     addXP(xp.total)
     addGems(gems)
     setPhase('results')
-
-    await fetch('/api/progress/lessons', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        lessonId: `${page}-crown${crownLevel}-lesson`,
-        score: Math.round((r.correct / r.total) * 100),
-        mistakes: r.mistakes,
-      }),
-    })
   }
 
   return (
     <div>
       {phase === 'select' && (
         <div className="px-4 py-6">
-          <button
-            onClick={() => router.push('/dashboard')}
-            className="text-gray-400 hover:text-gray-600 mb-4 flex items-center gap-1"
-          >
+          <button onClick={() => router.push('/dashboard')} className="text-gray-400 hover:text-gray-600 mb-4 flex items-center gap-1">
             <ArrowLeft className="w-4 h-4" /> Back
           </button>
 
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="text-center"
-          >
+          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="text-center">
             <div className="text-5xl mb-4">{CROWN_EMOJI[crownLevel]}</div>
-            <h1 className="text-2xl font-extrabold text-gray-900 mb-1">
-              {CROWN_NAMES[crownLevel]} Crown
-            </h1>
-            <p className="text-gray-500 mb-6">Page {page} — Crown Level {crownLevel}</p>
-
-            <div className="flex justify-center gap-2 mb-8">
-              {[1, 2, 3, 4, 5].map((level) => (
-                <button
-                  key={level}
-                  onClick={() => { setCrownLevel(level); setQuestions([]) }}
-                  className={`w-14 h-14 rounded-xl flex items-center justify-center text-2xl transition-all ${
-                    level === crownLevel
-                      ? 'bg-green-100 ring-2 ring-green-500 scale-110'
-                      : 'bg-gray-100 hover:bg-gray-200'
-                  }`}
-                >
-                  {CROWN_EMOJI[level]}
-                </button>
-              ))}
-            </div>
+            <h1 className="text-2xl font-extrabold text-gray-900 mb-1">{CROWN_NAMES[crownLevel]} Crown</h1>
+            <p className="text-gray-500 mb-8">Page {page} — Seneca-Style Lesson</p>
 
             {loading ? (
               <div className="flex items-center justify-center py-12">
@@ -123,13 +87,15 @@ function LearnPageContent({ page }: { page: string }) {
               </div>
             ) : error ? (
               <div className="bg-red-50 rounded-xl p-4 text-red-600 text-sm">{error}</div>
-            ) : questions.length > 0 ? (
+            ) : allQuestions.length > 0 ? (
               <div className="space-y-4">
                 <div className="bg-white rounded-xl p-4 border border-gray-100 text-left">
-                  <p className="text-sm text-gray-500">{questions.length} questions ready</p>
-                  <p className="text-sm text-gray-500">
-                    {[...new Set(questions.map((q) => q.micro_skill))].length} legal topics covered
-                  </p>
+                  <div className="flex items-center gap-3 mb-2">
+                    <BookOpen className="w-5 h-5 text-green-600" />
+                    <span className="font-semibold text-gray-900">{lesson?.microSkill} — {lesson?.blocks?.length || 3} Teaching Blocks</span>
+                  </div>
+                  <p className="text-sm text-gray-500">{allQuestions.filter((q: any) => q.type !== 'teaching').length} practice questions</p>
+                  <p className="text-sm text-gray-500">3 teaching summaries + consolidation + mistake review</p>
                 </div>
                 <button
                   onClick={startLesson}
@@ -140,17 +106,18 @@ function LearnPageContent({ page }: { page: string }) {
               </div>
             ) : (
               <div className="bg-amber-50 rounded-xl p-6 border border-amber-200">
-                <p className="text-amber-700 font-semibold">No questions available</p>
-                <p className="text-amber-600 text-sm mt-1">Try a different Crown Level or page.</p>
+                <p className="text-amber-700 font-semibold">Seneca-Style Lesson Coming Soon</p>
+                <p className="text-amber-600 text-sm mt-1">This page hasn't been converted to the new format yet. Only Page A, Micro-Skill A1.1 has the gold-standard Seneca lesson. More coming soon.</p>
               </div>
             )}
           </motion.div>
         </div>
       )}
 
-      {phase === 'playing' && questions.length > 0 && (
-        <LessonPlayer
-          questions={questions}
+      {phase === 'playing' && allQuestions.length > 0 && (
+        <SenecaLessonPlayer
+          lessonId={lessonId}
+          questions={allQuestions}
           onComplete={handleComplete}
           onExit={() => setPhase('select')}
         />
@@ -174,11 +141,7 @@ function LearnPageContent({ page }: { page: string }) {
 export default function LearnPage({ params }: { params: Promise<{ page: string }> }) {
   const { page } = use(params)
   return (
-    <Suspense fallback={
-      <div className="flex items-center justify-center min-h-[60vh]">
-        <Loader2 className="w-8 h-8 animate-spin text-[#58CC02]" />
-      </div>
-    }>
+    <Suspense fallback={<div className="flex items-center justify-center min-h-[60vh]"><Loader2 className="w-8 h-8 animate-spin text-[#58CC02]" /></div>}>
       <LearnPageContent page={page} />
     </Suspense>
   )

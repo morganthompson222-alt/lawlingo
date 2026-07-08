@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="transparent"/>
+  <circle cx="256" cy="220" r="120" fill="#FF6B6B" opacity="0.3"/>
+  <circle cx="256" cy="220" r="120" fill="none" stroke="#FF6B6B" stroke-width="4"/>
+  <text x="256" y="230" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#FF6B6B" font-weight="600">Sustained!</text>
+</svg>
