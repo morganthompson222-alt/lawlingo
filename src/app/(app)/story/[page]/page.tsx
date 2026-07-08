@@ -1,17 +1,13 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, use } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useRouter } from 'next/navigation'
 import { ArrowLeft, ArrowRight } from 'lucide-react'
 import type { Story, StoryScene, Question } from '@/types'
 
-interface StoryPageProps {
-  params: { page: string }
-}
-
-export default function StoryPage({ params }: StoryPageProps) {
-  const { page } = params
+export default function StoryPage({ params }: { params: Promise<{ page: string }> }) {
+  const { page } = use(params)
   const router = useRouter()
   const [story, setStory] = useState<Story | null>(null)
   const [sceneIndex, setSceneIndex] = useState(0)

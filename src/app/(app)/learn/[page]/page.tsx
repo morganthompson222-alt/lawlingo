@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useState, Suspense } from 'react'
+import { useEffect, useState, Suspense, use } from 'react'
 import { useSearchParams, useRouter } from 'next/navigation'
 import { motion } from 'framer-motion'
 import { ArrowLeft, Loader2, Play } from 'lucide-react'
@@ -10,10 +10,6 @@ import type { Question } from '@/types'
 import { CROWN_EMOJI, CROWN_NAMES } from '@/types'
 import { calculateLessonXP } from '@/lib/gamification'
 import { useUserStore } from '@/store/user'
-
-interface PageParams {
-  params: { page: string }
-}
 
 function LearnPageContent({ page }: { page: string }) {
   const searchParams = useSearchParams()
@@ -175,14 +171,15 @@ function LearnPageContent({ page }: { page: string }) {
   )
 }
 
-export default function LearnPage({ params }: PageParams) {
+export default function LearnPage({ params }: { params: Promise<{ page: string }> }) {
+  const { page } = use(params)
   return (
     <Suspense fallback={
       <div className="flex items-center justify-center min-h-[60vh]">
         <Loader2 className="w-8 h-8 animate-spin text-[#58CC02]" />
       </div>
     }>
-      <LearnPageContent page={params.page} />
+      <LearnPageContent page={page} />
     </Suspense>
   )
 }
