@@ -1,9 +1,9 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useEffect, useState, Suspense } from 'react'
 import { useSearchParams, useRouter } from 'next/navigation'
 import { motion } from 'framer-motion'
-import { ArrowLeft, Lock, Play, Crown as CrownIcon } from 'lucide-react'
+import { ArrowLeft, Loader2, Play } from 'lucide-react'
 import LessonPlayer from '@/components/lesson/LessonPlayer'
 import LessonResult from '@/components/lesson/LessonResult'
 import type { Question } from '@/types'
@@ -15,8 +15,7 @@ interface PageParams {
   params: { page: string }
 }
 
-export default function LearnPage({ params }: PageParams) {
-  const { page } = params
+function LearnPageContent({ page }: { page: string }) {
   const searchParams = useSearchParams()
   const router = useRouter()
   const { profile, addXP, addGems } = useUserStore()
@@ -25,6 +24,7 @@ export default function LearnPage({ params }: PageParams) {
   const [crownLevel, setCrownLevel] = useState<number>(crownParam ? parseInt(crownParam) : 1)
   const [questions, setQuestions] = useState<Question[]>([])
   const [loading, setLoading] = useState(true)
+  const [error, setError] = useState('')
   const [phase, setPhase] = useState<'select' | 'playing' | 'results'>('select')
   const [results, setResults] = useState<{
     correct: number
@@ -37,12 +37,22 @@ export default function LearnPage({ params }: PageParams) {
   useEffect(() => {
     async function load() {
       setLoading(true)
+      setError('')
       try {
         const res = await fetch(`/api/questions?page=${page}&crown_level=${crownLevel}&limit=8`)
         if (res.ok) {
-          setQuestions(await res.json())
+          const data = await res.json()
+          if (Array.isArray(data)) {
+            setQuestions(data)
+          } else {
+            setError('Received invalid data')
+          }
+        } else {
+          setError('Failed to load questions')
         }
-      } catch {}
+      } catch (e) {
+        setError('Could not connect to server')
+      }
       setLoading(false)
     }
     load()
@@ -73,20 +83,12 @@ export default function LearnPage({ params }: PageParams) {
     })
   }
 
-  function handleRetry() {
-    setPhase('select')
-  }
-
-  function handleContinue() {
-    setPhase('select')
-  }
-
   return (
     <div>
       {phase === 'select' && (
         <div className="px-4 py-6">
           <button
-            onClick={() => router.back()}
+            onClick={() => router.push('/dashboard')}
             className="text-gray-400 hover:text-gray-600 mb-4 flex items-center gap-1"
           >
             <ArrowLeft className="w-4 h-4" /> Back
@@ -101,14 +103,13 @@ export default function LearnPage({ params }: PageParams) {
             <h1 className="text-2xl font-extrabold text-gray-900 mb-1">
               {CROWN_NAMES[crownLevel]} Crown
             </h1>
-            <p className="text-gray-500 mb-8">Page {page} — Crown Level {crownLevel}</p>
+            <p className="text-gray-500 mb-6">Page {page} — Crown Level {crownLevel}</p>
 
-            {/* Crown selection */}
             <div className="flex justify-center gap-2 mb-8">
               {[1, 2, 3, 4, 5].map((level) => (
                 <button
                   key={level}
-                  onClick={() => setCrownLevel(level)}
+                  onClick={() => { setCrownLevel(level); setQuestions([]) }}
                   className={`w-14 h-14 rounded-xl flex items-center justify-center text-2xl transition-all ${
                     level === crownLevel
                       ? 'bg-green-100 ring-2 ring-green-500 scale-110'
@@ -121,15 +122,17 @@ export default function LearnPage({ params }: PageParams) {
             </div>
 
             {loading ? (
-              <div className="animate-pulse">
-                <div className="w-48 h-12 bg-gray-200 rounded-xl mx-auto" />
+              <div className="flex items-center justify-center py-12">
+                <Loader2 className="w-8 h-8 animate-spin text-[#58CC02]" />
               </div>
+            ) : error ? (
+              <div className="bg-red-50 rounded-xl p-4 text-red-600 text-sm">{error}</div>
             ) : questions.length > 0 ? (
               <div className="space-y-4">
                 <div className="bg-white rounded-xl p-4 border border-gray-100 text-left">
-                  <p className="text-sm text-gray-500">{questions.length} questions</p>
+                  <p className="text-sm text-gray-500">{questions.length} questions ready</p>
                   <p className="text-sm text-gray-500">
-                    Micro-skills: {[...new Set(questions.map((q) => q.micro_skill))].length} topics
+                    {[...new Set(questions.map((q) => q.micro_skill))].length} legal topics covered
                   </p>
                 </div>
                 <button
@@ -140,7 +143,10 @@ export default function LearnPage({ params }: PageParams) {
                 </button>
               </div>
             ) : (
-              <p className="text-gray-400">No questions available for this Crown Level yet.</p>
+              <div className="bg-amber-50 rounded-xl p-6 border border-amber-200">
+                <p className="text-amber-700 font-semibold">No questions available</p>
+                <p className="text-amber-600 text-sm mt-1">Try a different Crown Level or page.</p>
+              </div>
             )}
           </motion.div>
         </div>
@@ -161,10 +167,22 @@ export default function LearnPage({ params }: PageParams) {
           xpEarned={results.xpEarned}
           gemsEarned={results.gemsEarned}
           mistakes={results.mistakes}
-          onRetry={handleRetry}
-          onContinue={handleContinue}
+          onRetry={() => setPhase('select')}
+          onContinue={() => { setPhase('select'); router.push('/dashboard') }}
         />
       )}
     </div>
+  )
+}
+
+export default function LearnPage({ params }: PageParams) {
+  return (
+    <Suspense fallback={
+      <div className="flex items-center justify-center min-h-[60vh]">
+        <Loader2 className="w-8 h-8 animate-spin text-[#58CC02]" />
+      </div>
+    }>
+      <LearnPageContent page={params.page} />
+    </Suspense>
   )
 }

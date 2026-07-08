@@ -3,55 +3,53 @@
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { useRouter } from 'next/navigation'
-import { Flame, Trophy, Star, ArrowRight, BookOpen, Brain, Target } from 'lucide-react'
+import { Flame, Star, ArrowRight, BookOpen, Brain, Loader2 } from 'lucide-react'
 import Link from 'next/link'
 import { useUserStore } from '@/store/user'
 import { calculateLevel, xpProgressInLevel, xpForNextLevel } from '@/lib/gamification'
-import type { ReviewCard, CrownProgress } from '@/types'
-import { PAGE_NAMES, PAGE_EMOJI, CROWN_EMOJI } from '@/types'
+import type { ReviewCard } from '@/types'
+import { PAGE_NAMES, PAGE_EMOJI } from '@/types'
 
 export default function DashboardPage() {
   const router = useRouter()
-  const { profile, setProfile, crowns } = useUserStore()
+  const { profile, setProfile } = useUserStore()
   const [reviews, setReviews] = useState<ReviewCard[]>([])
   const [loading, setLoading] = useState(true)
+  const [error, setError] = useState('')
 
   useEffect(() => {
     async function load() {
       try {
-        const [profileRes, reviewsRes] = await Promise.all([
-          fetch('/api/progress'),
-          fetch('/api/reviews'),
-        ])
-        if (profileRes.ok) setProfile(await profileRes.json())
-        if (reviewsRes.ok) setReviews(await reviewsRes.json())
+        const res = await fetch('/api/progress')
+        if (res.ok) {
+          setProfile(await res.json())
+        } else if (res.status === 401) {
+          setError('unauthorized')
+        }
+      } catch {}
+      try {
+        const revRes = await fetch('/api/reviews')
+        if (revRes.ok) setReviews(await revRes.json())
       } catch {}
       setLoading(false)
     }
-    if (!profile) load()
-    else {
-      setLoading(false)
-      fetch('/api/reviews').then(async (r) => { if (r.ok) setReviews(await r.json()) })
-    }
+    load()
   }, [])
 
   if (loading) {
     return (
       <div className="flex items-center justify-center min-h-[60vh]">
-        <div className="animate-pulse space-y-4">
-          <div className="w-32 h-8 bg-gray-200 rounded mx-auto" />
-          <div className="w-64 h-4 bg-gray-200 rounded mx-auto" />
-        </div>
+        <Loader2 className="w-8 h-8 animate-spin text-[#58CC02]" />
       </div>
     )
   }
 
-  if (!profile) {
+  if (error === 'unauthorized' || !profile) {
     return (
       <div className="flex items-center justify-center min-h-[60vh] px-4">
         <div className="text-center">
           <h1 className="text-2xl font-extrabold text-gray-900 mb-4">Welcome to LawLingo</h1>
-          <p className="text-gray-500 mb-6">Log in to start learning</p>
+          <p className="text-gray-500 mb-6">Sign in to start mastering the law</p>
           <Link
             href="/login"
             className="inline-flex items-center gap-2 bg-[#58CC02] text-white font-bold py-3 px-8 rounded-xl"
@@ -66,15 +64,14 @@ export default function DashboardPage() {
   const level = calculateLevel(profile.xp)
   const progressXP = xpProgressInLevel(profile.xp)
   const nextLevelXP = xpForNextLevel(profile.xp)
-  const progressPercent = (progressXP / nextLevelXP) * 100
+  const progressPercent = Math.min(100, (progressXP / nextLevelXP) * 100)
 
   return (
     <div className="px-4 py-6 space-y-6">
-      {/* Greeting + streak */}
       <div className="flex items-center justify-between">
         <div>
           <h1 className="text-2xl font-extrabold text-gray-900">LawLingo</h1>
-          <p className="text-sm text-gray-500">Continue your legal mastery</p>
+          <p className="text-sm text-gray-500">Master English & Welsh Law</p>
         </div>
         <div className="flex items-center gap-1 bg-orange-50 px-3 py-1.5 rounded-full">
           <Flame className="w-4 h-4 text-orange-500" />
@@ -82,7 +79,6 @@ export default function DashboardPage() {
         </div>
       </div>
 
-      {/* XP Progress */}
       <motion.div
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
@@ -98,6 +94,9 @@ export default function DashboardPage() {
               <p className="text-lg font-bold">{profile.xp} XP</p>
             </div>
           </div>
+          <div className="flex items-center gap-1 text-sm font-semibold text-blue-500">
+            💎 {profile.gems}
+          </div>
         </div>
         <div className="h-2.5 bg-gray-100 rounded-full overflow-hidden">
           <motion.div
@@ -107,10 +106,9 @@ export default function DashboardPage() {
             transition={{ duration: 1 }}
           />
         </div>
-        <p className="text-xs text-gray-400 mt-1.5">Next level: {nextLevelXP} XP</p>
+        <p className="text-xs text-gray-400 mt-1.5">{progressXP} / {nextLevelXP} XP to next level</p>
       </motion.div>
 
-      {/* Practice button if reviews due */}
       {reviews.length > 0 && (
         <Link
           href="/practice"
@@ -127,7 +125,6 @@ export default function DashboardPage() {
         </Link>
       )}
 
-      {/* Skill Tree shortcut */}
       <Link
         href="/skill-tree"
         className="block bg-white rounded-2xl p-5 border border-gray-100 shadow-sm hover:shadow-md transition-shadow"
@@ -138,17 +135,16 @@ export default function DashboardPage() {
           </div>
           <div className="flex-1">
             <p className="font-bold text-gray-900">Skill Tree</p>
-            <p className="text-sm text-gray-500">Continue your legal education</p>
+            <p className="text-sm text-gray-500">10 pages of legal mastery</p>
           </div>
           <ArrowRight className="w-5 h-5 text-gray-300" />
         </div>
       </Link>
 
-      {/* Quick access: recently studied */}
       <div>
-        <h2 className="text-sm font-bold text-gray-400 uppercase tracking-wide mb-3">Continue Learning</h2>
+        <h2 className="text-sm font-bold text-gray-400 uppercase tracking-wide mb-3">Start Learning</h2>
         <div className="space-y-2">
-          {Object.entries(PAGE_NAMES).slice(0, 4).map(([key, name]) => (
+          {Object.entries(PAGE_NAMES).slice(0, 6).map(([key, name]) => (
             <button
               key={key}
               onClick={() => router.push(`/learn/${key}`)}

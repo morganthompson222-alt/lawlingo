@@ -1,0 +1,5725 @@
+[
+  {
+    "id": "j-c1-001",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J1.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "stop-and-search",
+      "pace",
+      "code-a",
+      "reasonable-suspicion"
+    ],
+    "question": "Under PACE 1984, s.1, a police officer may stop and search a person or vehicle in a public place for:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Any item the officer considers suspicious",
+        "correct": false,
+        "feedback": "This is too broad. The power is specific to stolen or prohibited articles as defined in PACE s.1."
+      },
+      {
+        "id": "b",
+        "text": "Stolen or prohibited articles, including offensive weapons and items for use in theft or burglary",
+        "correct": true,
+        "feedback": "Correct. PACE 1984, s.1(2)-(7) specifies stolen articles, offensive weapons, bladed/pointed articles, and articles for use in theft, burglary, or criminal damage."
+      },
+      {
+        "id": "c",
+        "text": "Any item that could be used as evidence in criminal proceedings",
+        "correct": false,
+        "feedback": "PACE s.1 does not confer a general evidence-gathering power \u2014 it is limited to stolen and prohibited articles."
+      },
+      {
+        "id": "d",
+        "text": "Controlled drugs only",
+        "correct": false,
+        "feedback": "Stop and search for drugs is governed by separate legislation, such as the Misuse of Drugs Act 1971, s.23."
+      }
+    ],
+    "oscoa_references": [
+      "PACE 1984, s.1"
+    ]
+  },
+  {
+    "id": "j-c1-002",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J1.1",
+    "crown_level": 1,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "stop-and-search",
+      "reasonable-suspicion",
+      "code-a"
+    ],
+    "question": "'Under PACE Code A, a police officer may base reasonable suspicion solely on a person's race, age, or previous convictions.' \u2014 True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": false,
+        "feedback": "Code A, para 2.2-2.2B expressly prohibits reliance on generalisations, stereotypes, or protected characteristics as the sole basis for reasonable suspicion."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": true,
+        "feedback": "Correct. PACE Code A, para 2.2B states that reasonable suspicion cannot be supported on the basis of personal factors alone, including race, age, or previous convictions, without supporting intelligence or information."
+      }
+    ],
+    "oscoa_references": [
+      "PACE 1984, Code A, paras 2.2-2.6B"
+    ]
+  },
+  {
+    "id": "j-c1-003",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J1.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "stop-and-search",
+      "s60",
+      "cjpoa-1994",
+      "reasonable-suspicion"
+    ],
+    "question": "Under s.60 of the Criminal Justice and Public Order Act 1994, a senior officer may authorise stop and search powers without reasonable suspicion in a designated area. Which must be established for such authorisation?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The officer reasonably believes incidents involving serious violence may occur, or persons are carrying dangerous instruments or offensive weapons",
+        "correct": true,
+        "feedback": "Correct. s.60(1) CJPOA 1994 requires the authorising officer to reasonably believe incidents involving serious violence may occur, or persons are carrying dangerous instruments or offensive weapons in the locality."
+      },
+      {
+        "id": "b",
+        "text": "A general increase in local crime rates",
+        "correct": false,
+        "feedback": "A general increase in crime is insufficient. There must be a specific belief regarding serious violence or weapons."
+      },
+      {
+        "id": "c",
+        "text": "A request from two or more members of the public",
+        "correct": false,
+        "feedback": "Public requests are not the statutory trigger \u2014 the statutory test depends on the authorising officer's reasonable belief."
+      },
+      {
+        "id": "d",
+        "text": "Approval from a magistrates' court",
+        "correct": false,
+        "feedback": "s.60 does not require judicial approval; authorisation is by a senior police officer of at least inspector rank."
+      }
+    ],
+    "oscoa_references": [
+      "Criminal Justice and Public Order Act 1994, s.60"
+    ]
+  },
+  {
+    "id": "j-c1-004",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J1.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "stop-and-search",
+      "safeguards",
+      "code-a",
+      "s78"
+    ],
+    "question": "A police officer stops and searches a person but fails to provide their name, station, and the grounds for the search. Controlled drugs are found. At trial, the defence applies to exclude the evidence. What is the most likely ground for exclusion?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The search was unlawful and the evidence must be excluded automatically",
+        "correct": false,
+        "feedback": "There is no automatic exclusion rule. Exclusion is discretionary under s.78."
+      },
+      {
+        "id": "b",
+        "text": "Application under PACE s.78 \u2014 the breach of Code A safeguards renders admission unfair",
+        "correct": true,
+        "feedback": "Correct. A breach of the Code A safeguards may support a s.78 application that admission would have an adverse effect on the fairness of proceedings."
+      },
+      {
+        "id": "c",
+        "text": "The search is automatically void under s.60 CJPOA",
+        "correct": false,
+        "feedback": "s.60 concerns authorisation for suspicionless searches, not the safeguards applicable to all searches."
+      },
+      {
+        "id": "d",
+        "text": "Habeas corpus",
+        "correct": false,
+        "feedback": "Habeas corpus challenges the lawfulness of detention, not the admissibility of evidence found in a search."
+      }
+    ],
+    "oscoa_references": [
+      "PACE 1984, s.78",
+      "PACE 1984, Code A, paras 3.1-3.11"
+    ]
+  },
+  {
+    "id": "j-c1-005",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J1.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "stop-and-search",
+      "safeguards",
+      "code-a"
+    ],
+    "question": "Under PACE Code A, after a stop and search the officer must provide the person searched with:",
+    "options": [
+      {
+        "id": "a",
+        "text": "A verbal explanation only",
+        "correct": false,
+        "feedback": "Verbal information is part of the procedure, but a written record is also required."
+      },
+      {
+        "id": "b",
+        "text": "A written record or a copy of the record of the search",
+        "correct": true,
+        "feedback": "Correct. Code A, paras 3.1-3.11 require the officer to make a written record and provide a copy to the person searched or explain how they may obtain one."
+      },
+      {
+        "id": "c",
+        "text": "A copy of their warrant card",
+        "correct": false,
+        "feedback": "The officer must identify themselves but is not required to provide a copy of their warrant card."
+      },
+      {
+        "id": "d",
+        "text": "A formal apology if nothing is found",
+        "correct": false,
+        "feedback": "No such requirement exists in PACE or the Codes of Practice."
+      }
+    ],
+    "oscoa_references": [
+      "PACE 1984, Code A, paras 3.1-3.11"
+    ]
+  },
+  {
+    "id": "j-c1-006",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J1.2",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "arrest",
+      "pace-s24",
+      "socpa-2005"
+    ],
+    "question": "Under PACE 1984, s.24 (as amended by SOCPA 2005), a constable may arrest:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Anyone the constable believes may have committed an offence, regardless of grounds",
+        "correct": false,
+        "feedback": "A mere belief without reasonable grounds is insufficient under s.24."
+      },
+      {
+        "id": "b",
+        "text": "Anyone who is about to commit an offence, is committing an offence, or anyone the constable has reasonable grounds to suspect is committing or has committed an offence",
+        "correct": true,
+        "feedback": "Correct. s.24(1)-(3) PACE 1984 (as amended) sets out these three categories."
+      },
+      {
+        "id": "c",
+        "text": "Only persons who have been charged with an offence",
+        "correct": false,
+        "feedback": "Arrest typically precedes charge, not follows it."
+      },
+      {
+        "id": "d",
+        "text": "Any person whose name the constable does not know",
+        "correct": false,
+        "feedback": "Uncertainty about identity is a necessity criterion (Code G), not the foundational power of arrest under s.24."
+      }
+    ],
+    "oscoa_references": [
+      "PACE 1984, s.24",
+      "Serious Organised Crime and Police Act 2005"
+    ]
+  },
+  {
+    "id": "j-c1-007",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J1.2",
+    "crown_level": 1,
+    "type": "msq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "arrest",
+      "necessity",
+      "code-g"
+    ],
+    "question": "Under PACE Code G, an arrest must be necessary for one of specified reasons. Which of the following are valid necessity grounds? (Select all that apply.)",
+    "options": [
+      {
+        "id": "a",
+        "text": "To ascertain the person's name or address",
+        "correct": true,
+        "feedback": "Correct. Code G, para 2.9(e)(i)."
+      },
+      {
+        "id": "b",
+        "text": "To prevent the person causing physical injury to themselves or another",
+        "correct": true,
+        "feedback": "Correct. Code G, para 2.9(e)(ii)."
+      },
+      {
+        "id": "c",
+        "text": "To allow the prompt and effective investigation of the offence",
+        "correct": true,
+        "feedback": "Correct. Code G, para 2.9(e)(v)."
+      },
+      {
+        "id": "d",
+        "text": "To deter others from committing similar offences",
+        "correct": false,
+        "feedback": "General deterrence is not a necessity ground under Code G."
+      },
+      {
+        "id": "e",
+        "text": "To prevent the person's disappearance",
+        "correct": true,
+        "feedback": "Correct. Code G, para 2.9(e)(iii)."
+      }
+    ],
+    "oscoa_references": [
+      "PACE 1984, Code G, para 2.9"
+    ]
+  },
+  {
+    "id": "j-c1-008",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J1.2",
+    "crown_level": 1,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "arrest",
+      "s28",
+      "information-at-arrest"
+    ],
+    "question": "'Under PACE s.28, a person must be told they are under arrest and the grounds, even if those grounds are obvious.' \u2014 True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. PACE s.28(1) requires the person be informed of the fact of arrest and the ground(s), even if obvious. Failure to do so renders the arrest unlawful."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "s.28 applies regardless of whether the grounds are obvious. The requirement is mandatory."
+      }
+    ],
+    "oscoa_references": [
+      "PACE 1984, s.28"
+    ]
+  },
+  {
+    "id": "j-c1-009",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J1.2",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "arrest",
+      "caution",
+      "code-c"
+    ],
+    "question": "At the moment of arrest, under PACE Code C, para 10.4, the arresting officer must caution the suspect. The correct wording of the caution is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "'You have the right to remain silent. Anything you say can and will be used against you in court'",
+        "correct": false,
+        "feedback": "This is the US Miranda warning, not the English caution under PACE."
+      },
+      {
+        "id": "b",
+        "text": "'You do not have to say anything. But it may harm your defence if you do not mention when questioned something which you later rely on in court. Anything you do say may be given in evidence'",
+        "correct": true,
+        "feedback": "Correct. This is the standard caution prescribed by Code C, para 10.4, incorporating the s.34 CJPOA 1994 adverse inference warning."
+      },
+      {
+        "id": "c",
+        "text": "'You are not obliged to say anything unless you wish to do so, but what you say may be put into writing and given in evidence'",
+        "correct": false,
+        "feedback": "This is the old Judges' Rules caution, replaced by PACE 1984."
+      },
+      {
+        "id": "d",
+        "text": "'I am arresting you on suspicion of an offence. You have the right to legal advice. Do you understand?'",
+        "correct": false,
+        "feedback": "This is part of the arrest procedure but does not include the full caution wording."
+      }
+    ],
+    "oscoa_references": [
+      "PACE 1984, Code C, para 10.4",
+      "Criminal Justice and Public Order Act 1994, s.34"
+    ]
+  },
+  {
+    "id": "j-c1-010",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J1.2",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "arrest",
+      "unlawful-arrest",
+      "code-g",
+      "false-imprisonment"
+    ],
+    "question": "A police officer arrests a suspect for shoplifting when the suspect could easily be dealt with by summons. The officer records no necessity ground. The suspect is detained 4 hours and released without charge. What claim may the suspect bring?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A claim for breach of contract",
+        "correct": false,
+        "feedback": "There is no contractual relationship between the suspect and the police."
+      },
+      {
+        "id": "b",
+        "text": "A civil claim for false imprisonment \u2014 the arrest was unlawful because no necessity ground was satisfied",
+        "correct": true,
+        "feedback": "Correct. An arrest without a valid necessity ground under Code G is unlawful and may found a civil claim for false imprisonment."
+      },
+      {
+        "id": "c",
+        "text": "A claim under the Human Rights Act 1998 for breach of privacy",
+        "correct": false,
+        "feedback": "Article 8 may be engaged, but false imprisonment is the primary and more direct cause of action."
+      },
+      {
+        "id": "d",
+        "text": "No claim \u2014 the police have immunity for arrests made in good faith",
+        "correct": false,
+        "feedback": "Police do not have blanket immunity. An unlawful arrest may give rise to civil liability."
+      }
+    ],
+    "oscoa_references": [
+      "PACE 1984, s.24",
+      "PACE 1984, Code G"
+    ]
+  },
+  {
+    "id": "j-c1-011",
+    "page": "J",
+    "section": "J2",
+    "micro_skill": "J2.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "detention",
+      "time-limits",
+      "s41",
+      "24-hours"
+    ],
+    "question": "Under PACE 1984, s.41, the maximum period for which a person may be detained without charge is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "12 hours from the relevant time",
+        "correct": false,
+        "feedback": "The initial limit is longer \u2014 24 hours from the relevant time."
+      },
+      {
+        "id": "b",
+        "text": "24 hours from the relevant time",
+        "correct": true,
+        "feedback": "Correct. s.41 PACE 1984 sets the general limit at 24 hours from the relevant time."
+      },
+      {
+        "id": "c",
+        "text": "36 hours from the relevant time",
+        "correct": false,
+        "feedback": "36 hours is available only on extension by a superintendent for indictable offences under s.42."
+      },
+      {
+        "id": "d",
+        "text": "48 hours from the relevant time",
+        "correct": false,
+        "feedback": "There is no single 48-hour provision. Extensions beyond 36 hours require a magistrates' warrant."
+      }
+    ],
+    "oscoa_references": [
+      "PACE 1984, s.41"
+    ]
+  },
+  {
+    "id": "j-c1-012",
+    "page": "J",
+    "section": "J2",
+    "micro_skill": "J2.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "detention",
+      "review",
+      "s40",
+      "custody-officer"
+    ],
+    "question": "Under PACE 1984, s.40, a review officer must review a person's detention. At what intervals must reviews occur?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Every 3 hours",
+        "correct": false,
+        "feedback": "The first review is at 6 hours, not 3 hours."
+      },
+      {
+        "id": "b",
+        "text": "First review at 6 hours after detention authorised, then every 9 hours thereafter",
+        "correct": true,
+        "feedback": "Correct. s.40(3) PACE requires the first review at 6 hours and subsequent reviews every 9 hours. The review officer must not be involved in the investigation."
+      },
+      {
+        "id": "c",
+        "text": "Every 12 hours",
+        "correct": false,
+        "feedback": "Reviews are more frequent \u2014 first at 6 hours, then 9-hourly."
+      },
+      {
+        "id": "d",
+        "text": "At the custody officer's discretion",
+        "correct": false,
+        "feedback": "The intervals are prescribed by statute, not discretionary."
+      }
+    ],
+    "oscoa_references": [
+      "PACE 1984, s.40"
+    ]
+  },
+  {
+    "id": "j-c1-013",
+    "page": "J",
+    "section": "J2",
+    "micro_skill": "J2.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "detention",
+      "extension",
+      "warrant",
+      "s43-s44",
+      "96-hours"
+    ],
+    "question": "A person arrested for an indictable offence has been detained for 36 hours. The police require further detention. What is the maximum total period of detention that may be authorised by magistrates' warrants under ss.43-44 PACE?",
+    "options": [
+      {
+        "id": "a",
+        "text": "48 hours",
+        "correct": false,
+        "feedback": "Warrants of further detention can extend beyond 48 hours."
+      },
+      {
+        "id": "b",
+        "text": "72 hours",
+        "correct": false,
+        "feedback": "The total maximum is 96 hours, not 72."
+      },
+      {
+        "id": "c",
+        "text": "96 hours from the relevant time",
+        "correct": true,
+        "feedback": "Correct. ss.43-44 PACE provide for warrants of further detention up to a total maximum of 96 hours from the relevant time."
+      },
+      {
+        "id": "d",
+        "text": "120 hours from the relevant time",
+        "correct": false,
+        "feedback": "PACE does not provide for detention beyond 96 hours."
+      }
+    ],
+    "oscoa_references": [
+      "PACE 1984, ss.43-44"
+    ]
+  },
+  {
+    "id": "j-c1-014",
+    "page": "J",
+    "section": "J2",
+    "micro_skill": "J2.1",
+    "crown_level": 1,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "detention",
+      "unlawful-detention",
+      "s78"
+    ],
+    "question": "'If a person is detained beyond the statutory time limits under PACE, any evidence obtained during the period of unlawful detention is automatically inadmissible.' \u2014 True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": false,
+        "feedback": "There is no rule of automatic exclusion. The court has discretion under s.78 PACE."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": true,
+        "feedback": "Correct. Unlawful detention beyond time limits does not automatically exclude evidence. The defence must apply under s.78."
+      }
+    ],
+    "oscoa_references": [
+      "PACE 1984, ss.41-44",
+      "PACE 1984, s.78"
+    ]
+  },
+  {
+    "id": "j-c1-015",
+    "page": "J",
+    "section": "J2",
+    "micro_skill": "J2.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "detention",
+      "extension",
+      "superintendent",
+      "indictable"
+    ],
+    "question": "A suspect is arrested for common assault (summary only). After 20 hours, the police apply to a superintendent for an extension of detention up to 36 hours. Is the extension lawful?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yes \u2014 any offence permits extension to 36 hours",
+        "correct": false,
+        "feedback": "s.42 extension is only available for indictable offences."
+      },
+      {
+        "id": "b",
+        "text": "No \u2014 s.42 extension applies only to indictable offences; common assault is summary only",
+        "correct": true,
+        "feedback": "Correct. s.42(1) PACE 1984 limits the superintendent's power to extend detention to indictable offences. For summary offences, the 24-hour limit under s.41 is absolute."
+      },
+      {
+        "id": "c",
+        "text": "Yes \u2014 the superintendent has discretion for any offence",
+        "correct": false,
+        "feedback": "The superintendent's discretion is confined to indictable offences by s.42."
+      },
+      {
+        "id": "d",
+        "text": "No \u2014 but only because 24 hours have not yet expired",
+        "correct": false,
+        "feedback": "The 24-hour limit is the maximum for summary offences, not merely a threshold for extension application."
+      }
+    ],
+    "oscoa_references": [
+      "PACE 1984, s.41",
+      "PACE 1984, s.42"
+    ]
+  },
+  {
+    "id": "j-c1-016",
+    "page": "J",
+    "section": "J2",
+    "micro_skill": "J2.2",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "legal-advice",
+      "s58",
+      "pace",
+      "solicitor"
+    ],
+    "question": "Under PACE 1984, s.58, a person arrested and held in custody is entitled to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Consult a solicitor only after charge",
+        "correct": false,
+        "feedback": "The right arises at any time while in custody, not only after charge."
+      },
+      {
+        "id": "b",
+        "text": "Consult a solicitor privately at any time",
+        "correct": true,
+        "feedback": "Correct. s.58(1) PACE provides that a person arrested and held in custody shall be entitled, if they so request, to consult a solicitor privately at any time."
+      },
+      {
+        "id": "c",
+        "text": "Consult a solicitor only during an interview",
+        "correct": false,
+        "feedback": "The right is not confined to interview periods."
+      },
+      {
+        "id": "d",
+        "text": "Consult a solicitor only if charged with an indictable offence",
+        "correct": false,
+        "feedback": "s.58 applies regardless of the offence classification."
+      }
+    ],
+    "oscoa_references": [
+      "PACE 1984, s.58"
+    ]
+  },
+  {
+    "id": "j-c1-017",
+    "page": "J",
+    "section": "J2",
+    "micro_skill": "J2.2",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "legal-advice",
+      "delay",
+      "s58(8)",
+      "superintendent"
+    ],
+    "question": "Under PACE s.58(8), the right to consult a solicitor may be delayed. Which conditions must ALL be satisfied for a lawful delay?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The offence must be serious and the suspect must have previous convictions",
+        "correct": false,
+        "feedback": "Previous convictions are not a relevant criterion under s.58(8)."
+      },
+      {
+        "id": "b",
+        "text": "The offence must be an indictable offence, authorised by a superintendent, and there must be reasonable grounds to believe exercising the right will lead to interference with evidence, injury, alerting accomplices, or hindering recovery of property",
+        "correct": true,
+        "feedback": "Correct. s.58(8) and (8A) PACE require all three conditions: indictable offence, superintendent authorisation, and specific reasonable grounds."
+      },
+      {
+        "id": "c",
+        "text": "The suspect must have been offered a solicitor and refused",
+        "correct": false,
+        "feedback": "Delay under s.58(8) concerns police authorisation, not suspect refusal."
+      },
+      {
+        "id": "d",
+        "text": "The suspect must be a foreign national",
+        "correct": false,
+        "feedback": "Nationality is irrelevant to the legal test under s.58(8)."
+      }
+    ],
+    "oscoa_references": [
+      "PACE 1984, s.58(8)"
+    ]
+  },
+  {
+    "id": "j-c1-018",
+    "page": "J",
+    "section": "J2",
+    "micro_skill": "J2.2",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "legal-advice",
+      "r-v-samuel",
+      "confession",
+      "s78"
+    ],
+    "question": "A suspect requests a solicitor while in custody. The police refuse access. During interview, the suspect makes a full confession. Applying R v Samuel [1988] QB 615, what is the likely outcome on appeal?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The conviction is safe \u2014 the confession was voluntary",
+        "correct": false,
+        "feedback": "Samuel established that refusal of a solicitor may render the conviction unsafe."
+      },
+      {
+        "id": "b",
+        "text": "The appeal would be allowed \u2014 denial of the right to a solicitor is a fundamental breach and the confession should have been excluded",
+        "correct": true,
+        "feedback": "Correct. R v Samuel [1988] held the right to a solicitor is fundamental. A confession obtained after denial of access may be excluded under s.78, and the conviction quashed."
+      },
+      {
+        "id": "c",
+        "text": "The appeal would be dismissed because the suspect was cautioned",
+        "correct": false,
+        "feedback": "A valid caution does not cure a breach of the right to legal advice."
+      },
+      {
+        "id": "d",
+        "text": "The confession is admissible because it was reliable",
+        "correct": false,
+        "feedback": "Reliability does not excuse the procedural breach. Samuel focuses on fairness."
+      }
+    ],
+    "oscoa_references": [
+      "R v Samuel [1988] QB 615",
+      "PACE 1984, s.58",
+      "PACE 1984, s.78"
+    ]
+  },
+  {
+    "id": "j-c1-019",
+    "page": "J",
+    "section": "J2",
+    "micro_skill": "J2.2",
+    "crown_level": 1,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "legal-advice",
+      "duty-solicitor",
+      "telephone"
+    ],
+    "question": "'The duty solicitor scheme provides free, independent legal advice to persons detained at a police station, including by telephone.' \u2014 True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. The duty solicitor scheme provides free, independent legal advice. Under Code C, this may be provided by telephone."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "The duty solicitor scheme does provide free independent legal advice, and telephone advice is available subject to safeguards in Code C."
+      }
+    ],
+    "oscoa_references": [
+      "PACE 1984, s.58",
+      "PACE 1984, Code C"
+    ]
+  },
+  {
+    "id": "j-c1-020",
+    "page": "J",
+    "section": "J2",
+    "micro_skill": "J2.2",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "legal-advice",
+      "delay",
+      "s58(8)",
+      "loophole"
+    ],
+    "question": "A superintendent authorises delay of the right to legal advice under s.58(8) PACE, asserting a solicitor may 'inadvertently alert accomplices'. The justification is based on speculative concern without specific intelligence. On a challenge, what is the likely outcome?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The delay is valid \u2014 a superintendent's decision is conclusive",
+        "correct": false,
+        "feedback": "Superintendent authorisation is necessary but not sufficient \u2014 the grounds must be reasonable."
+      },
+      {
+        "id": "b",
+        "text": "The delay is unlawful \u2014 s.58(8) requires reasonable grounds, not speculation; speculative fear is insufficient",
+        "correct": true,
+        "feedback": "Correct. This is a recognised loophole. s.58(8) requires 'reasonable grounds' \u2014 a speculative fear does not satisfy the statutory test."
+      },
+      {
+        "id": "c",
+        "text": "The delay is valid because the superintendent acted in good faith",
+        "correct": false,
+        "feedback": "Good faith alone does not cure a failure to establish reasonable grounds."
+      },
+      {
+        "id": "d",
+        "text": "The delay is only unlawful if the suspect was charged with a summary offence",
+        "correct": false,
+        "feedback": "The requirement for reasonable grounds applies to all relevant offences."
+      }
+    ],
+    "oscoa_references": [
+      "PACE 1984, s.58(8)",
+      "R v Samuel [1988] QB 615"
+    ]
+  },
+  {
+    "id": "j-c1-021",
+    "page": "J",
+    "section": "J2",
+    "micro_skill": "J2.3",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "custody-record",
+      "code-c",
+      "detainee"
+    ],
+    "question": "Under PACE Code C, para 2.1, a custody record must be opened for each detainee. Which of the following must be recorded?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Only the time of arrest and the arresting officer's name",
+        "correct": false,
+        "feedback": "The custody record must include far more detail than this."
+      },
+      {
+        "id": "b",
+        "text": "All decisions, reviews, meals, exercise, medical attention, solicitor visits and phone calls",
+        "correct": true,
+        "feedback": "Correct. Code C, para 2.1 requires a comprehensive log of all significant events and decisions throughout detention."
+      },
+      {
+        "id": "c",
+        "text": "Only matters related to the interview",
+        "correct": false,
+        "feedback": "The custody record is far broader than interview-related matters."
+      },
+      {
+        "id": "d",
+        "text": "Only the detainee's name and the alleged offence",
+        "correct": false,
+        "feedback": "This is a small subset of the information required."
+      }
+    ],
+    "oscoa_references": [
+      "PACE 1984, Code C, para 2.1"
+    ]
+  },
+  {
+    "id": "j-c1-022",
+    "page": "J",
+    "section": "J2",
+    "micro_skill": "J2.3",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "custody-record",
+      "rights",
+      "s56",
+      "notification"
+    ],
+    "question": "Under s.56 PACE 1984, a person arrested and held in custody has the right to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Have one named person informed of their arrest as soon as practicable",
+        "correct": true,
+        "feedback": "Correct. s.56(1) PACE provides entitlement to have one friend, relative or other person likely to take an interest in their welfare told of their detention."
+      },
+      {
+        "id": "b",
+        "text": "Have their arrest published in the local newspaper",
+        "correct": false,
+        "feedback": "There is no such obligation."
+      },
+      {
+        "id": "c",
+        "text": "Notify anyone they choose, including the media",
+        "correct": false,
+        "feedback": "The right is limited to one named person."
+      },
+      {
+        "id": "d",
+        "text": "Have the police inform their employer automatically",
+        "correct": false,
+        "feedback": "There is no automatic obligation to inform an employer."
+      }
+    ],
+    "oscoa_references": [
+      "PACE 1984, s.56"
+    ]
+  },
+  {
+    "id": "j-c1-023",
+    "page": "J",
+    "section": "J2",
+    "micro_skill": "J2.3",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "vulnerable-detainee",
+      "appropriate-adult",
+      "code-c",
+      "juvenile"
+    ],
+    "question": "Under PACE Code C, an appropriate adult is required for interviews when the detainee is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Any person under 21",
+        "correct": false,
+        "feedback": "The threshold is under 18 (juvenile), not under 21."
+      },
+      {
+        "id": "b",
+        "text": "A juvenile (under 18) or a person who is mentally disordered or otherwise mentally vulnerable",
+        "correct": true,
+        "feedback": "Correct. Code C, paras 1.4-1.7 and 11.15-11.18 require an appropriate adult for juveniles and mentally vulnerable persons."
+      },
+      {
+        "id": "c",
+        "text": "Only persons with a diagnosed mental illness",
+        "correct": false,
+        "feedback": "The definition of mentally vulnerable is broader than diagnosed mental illness."
+      },
+      {
+        "id": "d",
+        "text": "Any person who appears nervous",
+        "correct": false,
+        "feedback": "Mere nervousness does not engage the appropriate adult requirement."
+      }
+    ],
+    "oscoa_references": [
+      "PACE 1984, Code C, paras 1.4-1.7, 11.15-11.18"
+    ]
+  },
+  {
+    "id": "j-c1-024",
+    "page": "J",
+    "section": "J2",
+    "micro_skill": "J2.3",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "custody-record",
+      "irregularity",
+      "s78",
+      "defence"
+    ],
+    "question": "During trial, the defence inspects the custody record and discovers no reviews of detention were recorded for 15 consecutive hours, and the suspect was denied food for 12 hours. What is the most effective tactical use of these findings?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cross-examine the custody officer to discredit them personally",
+        "correct": false,
+        "feedback": "The primary tactical goal is to challenge admissibility of evidence, not personal credibility."
+      },
+      {
+        "id": "b",
+        "text": "Apply under s.78 PACE to exclude interview evidence \u2014 the breaches render admission unfair",
+        "correct": true,
+        "feedback": "Correct. Significant breaches of custody record requirements and conditions of detention may support a s.78 application."
+      },
+      {
+        "id": "c",
+        "text": "Demand that the trial be adjourned",
+        "correct": false,
+        "feedback": "An adjournment does not address the admissibility of the evidence."
+      },
+      {
+        "id": "d",
+        "text": "Make a complaint to the Independent Office for Police Conduct",
+        "correct": false,
+        "feedback": "A complaint is a separate remedy and does not directly affect admissibility in the current trial."
+      }
+    ],
+    "oscoa_references": [
+      "PACE 1984, s.78",
+      "PACE 1984, Code C, para 2.1"
+    ]
+  },
+  {
+    "id": "j-c2-001",
+    "page": "J",
+    "section": "J3",
+    "micro_skill": "J3.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "interview",
+      "code-c",
+      "caution",
+      "police-station"
+    ],
+    "question": "Under PACE Code C, para 11.1A, an interview is defined as:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Any conversation between a police officer and a suspect",
+        "correct": false,
+        "feedback": "An informal conversation is not an interview. An interview has specific characteristics."
+      },
+      {
+        "id": "b",
+        "text": "The questioning of a person regarding their involvement or suspected involvement in a criminal offence, which must be carried out under caution at a police station",
+        "correct": true,
+        "feedback": "Correct. Code C, para 11.1A defines an interview as questioning regarding involvement in an offence, which must be under caution."
+      },
+      {
+        "id": "c",
+        "text": "Any recording made of a suspect's statement",
+        "correct": false,
+        "feedback": "Not all recorded statements constitute an interview under the Code definition."
+      },
+      {
+        "id": "d",
+        "text": "An interrogation conducted only by a detective",
+        "correct": false,
+        "feedback": "The rank of the officer is not a defining characteristic of an interview under PACE."
+      }
+    ],
+    "oscoa_references": [
+      "PACE 1984, Code C, para 11.1A"
+    ]
+  },
+  {
+    "id": "j-c2-002",
+    "page": "J",
+    "section": "J3",
+    "micro_skill": "J3.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "interview",
+      "recording",
+      "code-e",
+      "code-f"
+    ],
+    "question": "Under PACE Codes of Practice, the recording requirements for interviews are:",
+    "options": [
+      {
+        "id": "a",
+        "text": "A written summary by the interviewing officer is sufficient",
+        "correct": false,
+        "feedback": "Code E requires contemporaneous audio recording for all interviews."
+      },
+      {
+        "id": "b",
+        "text": "Interviews must be contemporaneously recorded by audio (Code E), and by visual recording (Code F) for vulnerable suspects or serious offences",
+        "correct": true,
+        "feedback": "Correct. Code E mandates audio recording. Code F mandates visual recording for vulnerable suspects and indictable offences."
+      },
+      {
+        "id": "c",
+        "text": "Recording is optional and at the discretion of the custody officer",
+        "correct": false,
+        "feedback": "Recording is mandatory under Codes E and F, not discretionary."
+      },
+      {
+        "id": "d",
+        "text": "Only written notes signed by the suspect are required",
+        "correct": false,
+        "feedback": "Written notes alone are insufficient; contemporaneous recording is required."
+      }
+    ],
+    "oscoa_references": [
+      "PACE 1984, Code E",
+      "PACE 1984, Code F"
+    ]
+  },
+  {
+    "id": "j-c2-003",
+    "page": "J",
+    "section": "J3",
+    "micro_skill": "J3.1",
+    "crown_level": 2,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "interview",
+      "breaks",
+      "code-c",
+      "rest"
+    ],
+    "question": "'Under PACE Code C, para 12.8, there must be a break of at least 15 minutes every 2 hours and an 8-hour rest period in any 24-hour period during an interview.' \u2014 True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. Code C, para 12.8 requires interview breaks of at least 15 minutes every 2 hours and an 8-hour continuous rest period in any 24-hour period."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "This is the correct provision of Code C, para 12.8."
+      }
+    ],
+    "oscoa_references": [
+      "PACE 1984, Code C, para 12.8"
+    ]
+  },
+  {
+    "id": "j-c2-004",
+    "page": "J",
+    "section": "J3",
+    "micro_skill": "J3.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "interview",
+      "oppression",
+      "r-v-fulling",
+      "code-c"
+    ],
+    "question": "In R v Fulling [1987] QB 426, the Court of Appeal defined 'oppression' for the purposes of PACE s.76(2)(a) as:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Any questioning that is persistent or robust",
+        "correct": false,
+        "feedback": "Persistent or robust questioning may not amount to oppression if it does not cross the threshold."
+      },
+      {
+        "id": "b",
+        "text": "The exercise of authority or power in a burdensome, harsh or wrongful manner",
+        "correct": true,
+        "feedback": "Correct. Fulling adopted the dictionary definition: exercise of authority or power in a burdensome, harsh or wrongful manner. It must be something more than mere breach of the Codes."
+      },
+      {
+        "id": "c",
+        "text": "Any breach of PACE Code C",
+        "correct": false,
+        "feedback": "Not every breach of Code C amounts to oppression."
+      },
+      {
+        "id": "d",
+        "text": "Questioning that leads to a confession",
+        "correct": false,
+        "feedback": "The result does not by itself render the questioning oppressive."
+      }
+    ],
+    "oscoa_references": [
+      "R v Fulling [1987] QB 426",
+      "PACE 1984, s.76(2)(a)"
+    ]
+  },
+  {
+    "id": "j-c2-005",
+    "page": "J",
+    "section": "J3",
+    "micro_skill": "J3.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "interview",
+      "no-caution",
+      "s78",
+      "defence"
+    ],
+    "question": "Police officers speak to a suspect informally at their home for 30 minutes about an alleged burglary without administering a caution. The suspect makes incriminating statements. How should the defence challenge admissibility?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The statements are automatically inadmissible because no caution was given",
+        "correct": false,
+        "feedback": "There is no automatic exclusion for this type of breach."
+      },
+      {
+        "id": "b",
+        "text": "Apply under s.76 PACE \u2014 the statements constitute a confession obtained by oppression",
+        "correct": false,
+        "feedback": "An informal conversation without a caution may not rise to the level of oppression."
+      },
+      {
+        "id": "c",
+        "text": "Apply under s.78 PACE \u2014 the breach of Code C (no caution) renders admission unfair",
+        "correct": true,
+        "feedback": "Correct. A breach of the requirement to caution before questioning may support a s.78 application, particularly where the conversation was functionally an interview without safeguards."
+      },
+      {
+        "id": "d",
+        "text": "Cross-examine the officers and ask the jury to disregard the statements",
+        "correct": false,
+        "feedback": "A formal application for exclusion is the proper mechanism."
+      }
+    ],
+    "oscoa_references": [
+      "PACE 1984, s.78",
+      "PACE 1984, Code C, para 10.4"
+    ]
+  },
+  {
+    "id": "j-c2-006",
+    "page": "J",
+    "section": "J3",
+    "micro_skill": "J3.2",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "adverse-inference",
+      "s34",
+      "cjpoa-1994",
+      "silence"
+    ],
+    "question": "Under s.34 of the Criminal Justice and Public Order Act 1994, an adverse inference may be drawn where the defendant:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Remains completely silent at trial",
+        "correct": false,
+        "feedback": "Silence at trial is governed by s.35, not s.34."
+      },
+      {
+        "id": "b",
+        "text": "Fails to mention any fact later relied upon in their defence when questioned under caution or on charge, provided they could reasonably have been expected to mention it",
+        "correct": true,
+        "feedback": "Correct. s.34 permits an adverse inference where the defendant failed to mention a fact later relied on at trial, in circumstances where they could reasonably have been expected to mention it."
+      },
+      {
+        "id": "c",
+        "text": "Refuses to provide a sample for DNA testing",
+        "correct": false,
+        "feedback": "Refusal to provide a sample engages different provisions (PACE ss.62-63)."
+      },
+      {
+        "id": "d",
+        "text": "Declines to speak to the police before arrest",
+        "correct": false,
+        "feedback": "s.34 applies to questioning under caution or on charge, not pre-arrest."
+      }
+    ],
+    "oscoa_references": [
+      "Criminal Justice and Public Order Act 1994, s.34"
+    ]
+  },
+  {
+    "id": "j-c2-007",
+    "page": "J",
+    "section": "J3",
+    "micro_skill": "J3.2",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "adverse-inference",
+      "r-v-condron",
+      "solicitor-advice",
+      "silence"
+    ],
+    "question": "In R v Condron [1997] 1 WLR 827, the defendants remained silent during interview on the advice of their solicitor. The Court of Appeal held that:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The solicitor's advice renders a s.34 inference impermissible in all circumstances",
+        "correct": false,
+        "feedback": "Solicitor's advice does not create an automatic bar."
+      },
+      {
+        "id": "b",
+        "text": "The jury must consider whether the defendant's silence was a genuine exercise of the right to silence; if so, no inference, but the jury must assess whether it was reasonable to rely on the solicitor's advice",
+        "correct": true,
+        "feedback": "Correct. Condron established the jury must assess whether reliance on advice was genuine and reasonable."
+      },
+      {
+        "id": "c",
+        "text": "Solicitor's advice to remain silent is professional misconduct",
+        "correct": false,
+        "feedback": "Condron did not hold that advising silence is misconduct."
+      },
+      {
+        "id": "d",
+        "text": "The solicitor's advice was irrelevant to the admissibility of silence evidence",
+        "correct": false,
+        "feedback": "The advice is highly relevant \u2014 the jury must evaluate whether reliance was reasonable."
+      }
+    ],
+    "oscoa_references": [
+      "R v Condron [1997] 1 WLR 827",
+      "Criminal Justice and Public Order Act 1994, s.34"
+    ]
+  },
+  {
+    "id": "j-c2-008",
+    "page": "J",
+    "section": "J3",
+    "micro_skill": "J3.2",
+    "crown_level": 2,
+    "type": "msq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "adverse-inference",
+      "r-v-argent",
+      "s34",
+      "conditions"
+    ],
+    "question": "In R v Argent [1997] 2 Cr App R 27, the Court of Appeal identified conditions for a s.34 CJPOA 1994 adverse inference to apply. Which of the following are among those conditions? (Select all that apply.)",
+    "options": [
+      {
+        "id": "a",
+        "text": "There must be proceedings against the defendant for an offence",
+        "correct": true,
+        "feedback": "Correct. This is the first of the six Argent conditions."
+      },
+      {
+        "id": "b",
+        "text": "The alleged failure to mention facts must have occurred before the defendant was charged",
+        "correct": true,
+        "feedback": "Correct. s.34 applies to pre-charge silence or failure to mention at charge."
+      },
+      {
+        "id": "c",
+        "text": "The defendant must have been under no legal obligation to speak at the time",
+        "correct": false,
+        "feedback": "The absence of a legal obligation to speak is not a bar \u2014 s.34 inference is available despite the right to silence."
+      },
+      {
+        "id": "d",
+        "text": "The fact not mentioned must be one later relied on by the defendant in their defence",
+        "correct": true,
+        "feedback": "Correct. s.34 applies only where the defendant relies at trial on a fact not mentioned earlier."
+      },
+      {
+        "id": "e",
+        "text": "The fact must be one which, in the circumstances existing at the time, the defendant could reasonably have been expected to mention",
+        "correct": true,
+        "feedback": "Correct. The 'reasonably could have been expected to mention' test is central to s.34."
+      }
+    ],
+    "oscoa_references": [
+      "R v Argent [1997] 2 Cr App R 27",
+      "Criminal Justice and Public Order Act 1994, s.34"
+    ]
+  },
+  {
+    "id": "j-c2-009",
+    "page": "J",
+    "section": "J3",
+    "micro_skill": "J3.2",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "adverse-inference",
+      "s35",
+      "defendant",
+      "failure-to-testify"
+    ],
+    "question": "Under s.35 of the Criminal Justice and Public Order Act 1994, the court or jury may draw an adverse inference where:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The defendant refuses to answer police questions",
+        "correct": false,
+        "feedback": "That is covered by s.34. s.35 deals with a different stage."
+      },
+      {
+        "id": "b",
+        "text": "The defendant fails to give evidence at trial or refuses without good cause to answer any question",
+        "correct": true,
+        "feedback": "Correct. s.35 permits an adverse inference where the defendant does not give evidence or refuses to answer a question at trial without good cause."
+      },
+      {
+        "id": "c",
+        "text": "The defendant's solicitor fails to attend the trial",
+        "correct": false,
+        "feedback": "s.35 is directed at the defendant personally."
+      },
+      {
+        "id": "d",
+        "text": "The defendant changes their account between interview and trial",
+        "correct": false,
+        "feedback": "This relates to s.34 (failure to mention at interview), not s.35."
+      }
+    ],
+    "oscoa_references": [
+      "Criminal Justice and Public Order Act 1994, s.35"
+    ]
+  },
+  {
+    "id": "j-c2-010",
+    "page": "J",
+    "section": "J3",
+    "micro_skill": "J3.2",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "adverse-inference",
+      "s36",
+      "s37",
+      "objects",
+      "presence"
+    ],
+    "question": "A suspect is arrested and has a peculiar substance on their clothing. Under which CJPOA 1994 provision may an adverse inference be drawn if they fail to account for the substance?",
+    "options": [
+      {
+        "id": "a",
+        "text": "s.34 \u2014 failure to mention facts",
+        "correct": false,
+        "feedback": "s.34 concerns facts later relied on in defence."
+      },
+      {
+        "id": "b",
+        "text": "s.36 \u2014 failure to account for objects, substances or marks",
+        "correct": true,
+        "feedback": "Correct. s.36 permits an adverse inference where a person fails to account for objects, substances or marks found on their person, clothing or in their possession at the time of arrest."
+      },
+      {
+        "id": "c",
+        "text": "s.37 \u2014 failure to account for presence",
+        "correct": false,
+        "feedback": "s.37 concerns presence at a location, not substances on clothing."
+      },
+      {
+        "id": "d",
+        "text": "s.35 \u2014 failure to give evidence",
+        "correct": false,
+        "feedback": "s.35 applies to failure to testify at trial."
+      }
+    ],
+    "oscoa_references": [
+      "Criminal Justice and Public Order Act 1994, s.36"
+    ]
+  },
+  {
+    "id": "j-c2-011",
+    "page": "J",
+    "section": "J3",
+    "micro_skill": "J3.2",
+    "crown_level": 2,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "adverse-inference",
+      "condron",
+      "solicitor-advice",
+      "loophole",
+      "silence"
+    ],
+    "question": "'A solicitor's advice to remain silent during interview always prevents the drawing of an adverse inference under s.34 CJPOA 1994.' \u2014 True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": false,
+        "feedback": "Condron [1997] established that solicitor's advice is not an absolute shield. The jury must assess whether reliance on the advice was reasonable and genuine."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": true,
+        "feedback": "Correct. This is a key loophole \u2014 solicitor's advice to remain silent does not automatically prevent an adverse inference. Under R v Condron [1997], the jury must consider whether the silence was genuine and reasonable."
+      }
+    ],
+    "oscoa_references": [
+      "R v Condron [1997] 1 WLR 827",
+      "Criminal Justice and Public Order Act 1994, s.34"
+    ]
+  },
+  {
+    "id": "j-c2-012",
+    "page": "J",
+    "section": "J4",
+    "micro_skill": "J4.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "confession",
+      "s76",
+      "exclusion",
+      "oppression"
+    ],
+    "question": "Under PACE 1984, s.76(2), a confession must be excluded if it was obtained:",
+    "options": [
+      {
+        "id": "a",
+        "text": "In breach of PACE Code C",
+        "correct": false,
+        "feedback": "A breach of Code C may engage s.78 but does not automatically require exclusion under s.76."
+      },
+      {
+        "id": "b",
+        "text": "By oppression, or in consequence of anything said or done likely to render the confession unreliable",
+        "correct": true,
+        "feedback": "Correct. s.76(2) identifies two mandatory grounds: oppression (s.76(2)(a)) and unreliability (s.76(2)(b))."
+      },
+      {
+        "id": "c",
+        "text": "Without the suspect's solicitor present",
+        "correct": false,
+        "feedback": "Absence of a solicitor does not automatically render a confession inadmissible under s.76."
+      },
+      {
+        "id": "d",
+        "text": "During an interview not recorded on video",
+        "correct": false,
+        "feedback": "Lack of video recording may affect admissibility under s.78 but is not a s.76(2) ground in itself."
+      }
+    ],
+    "oscoa_references": [
+      "PACE 1984, s.76(2)"
+    ]
+  },
+  {
+    "id": "j-c2-013",
+    "page": "J",
+    "section": "J4",
+    "micro_skill": "J4.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "confession",
+      "r-v-goldenberg",
+      "unreliability",
+      "heroin",
+      "solicitor"
+    ],
+    "question": "A suspect in heroin withdrawal requests a solicitor but is denied access. During interview, the suspect confesses. Applying R v Goldenberg (1988) 88 Cr App R 285, what is the best argument for exclusion?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The confession was obtained by oppression because the suspect was in pain",
+        "correct": false,
+        "feedback": "Physical discomfort alone does not necessarily constitute oppression."
+      },
+      {
+        "id": "b",
+        "text": "The confession is unreliable under s.76(2)(b) \u2014 the refusal of a solicitor in the context of heroin withdrawal was 'something said or done' likely to render the confession unreliable",
+        "correct": true,
+        "feedback": "Correct. Goldenberg established that refusing a solicitor to a suspect in heroin withdrawal was likely to render the confession unreliable under s.76(2)(b)."
+      },
+      {
+        "id": "c",
+        "text": "The confession must be excluded because the suspect was a drug user",
+        "correct": false,
+        "feedback": "Drug use alone is insufficient \u2014 the link between the refusal and unreliability is key."
+      },
+      {
+        "id": "d",
+        "text": "The confession is inadmissible because no appropriate adult was present",
+        "correct": false,
+        "feedback": "Goldenberg did not turn on the absence of an appropriate adult."
+      }
+    ],
+    "oscoa_references": [
+      "R v Goldenberg (1988) 88 Cr App R 285",
+      "PACE 1984, s.76(2)(b)"
+    ]
+  },
+  {
+    "id": "j-c2-014",
+    "page": "J",
+    "section": "J4",
+    "micro_skill": "J4.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "confession",
+      "s76",
+      "burden-of-proof",
+      "prosecution"
+    ],
+    "question": "Under PACE s.76(2), where the defence raises the issue of oppression or unreliability, the burden of proof rests on:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The defence, on the balance of probabilities",
+        "correct": false,
+        "feedback": "The burden is on the prosecution under s.76(2)."
+      },
+      {
+        "id": "b",
+        "text": "The defence, beyond reasonable doubt",
+        "correct": false,
+        "feedback": "The defence never bears the burden beyond reasonable doubt for this issue."
+      },
+      {
+        "id": "c",
+        "text": "The prosecution, to prove beyond reasonable doubt that the confession was not obtained by oppression or in circumstances likely to render it unreliable",
+        "correct": true,
+        "feedback": "Correct. s.76(2) expressly places the legal burden on the prosecution to prove beyond reasonable doubt."
+      },
+      {
+        "id": "d",
+        "text": "The judge, who must determine admissibility on the court's own motion",
+        "correct": false,
+        "feedback": "While the judge determines admissibility, the burden of proof rests on the prosecution."
+      }
+    ],
+    "oscoa_references": [
+      "PACE 1984, s.76(2)"
+    ]
+  },
+  {
+    "id": "j-c2-015",
+    "page": "J",
+    "section": "J4",
+    "micro_skill": "J4.1",
+    "crown_level": 2,
+    "type": "msq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "confession",
+      "s76",
+      "voir-dire",
+      "defence-tactic"
+    ],
+    "question": "In a voir dire (trial within a trial) to determine admissibility of a confession under s.76 PACE, which of the following are correct? (Select all that apply.)",
+    "options": [
+      {
+        "id": "a",
+        "text": "The jury is excused during the voir dire",
+        "correct": true,
+        "feedback": "Correct. A voir dire on confession admissibility is heard in the absence of the jury to avoid prejudice."
+      },
+      {
+        "id": "b",
+        "text": "The defence must prove the confession was obtained by oppression",
+        "correct": false,
+        "feedback": "The burden is on the prosecution to prove beyond reasonable doubt that it was not obtained by oppression."
+      },
+      {
+        "id": "c",
+        "text": "The judge determines admissibility as a question of law",
+        "correct": true,
+        "feedback": "Correct. Admissibility is a question of law for the judge."
+      },
+      {
+        "id": "d",
+        "text": "If ruled admissible, the defence may still argue its weight before the jury",
+        "correct": true,
+        "feedback": "Correct. Even if admitted, the defence may challenge weight and reliability before the jury."
+      }
+    ],
+    "oscoa_references": [
+      "PACE 1984, s.76"
+    ]
+  },
+  {
+    "id": "j-c2-016",
+    "page": "J",
+    "section": "J4",
+    "micro_skill": "J4.1",
+    "crown_level": 2,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "confession",
+      "oppression",
+      "r-v-fulling",
+      "torture"
+    ],
+    "question": "'Oppression' under s.76(2)(a) PACE includes torture, inhuman or degrading treatment, and the use or threat of violence, as established in R v Fulling [1987]. \u2014 True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. R v Fulling [1987] QB 426 confirmed that oppression within s.76 includes these categories."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "This is a correct statement of the law as established in Fulling [1987]."
+      }
+    ],
+    "oscoa_references": [
+      "R v Fulling [1987] QB 426",
+      "PACE 1984, s.76(2)(a)"
+    ]
+  },
+  {
+    "id": "j-c2-017",
+    "page": "J",
+    "section": "J4",
+    "micro_skill": "J4.2",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "s78",
+      "exclusion",
+      "unfair-evidence",
+      "discretion"
+    ],
+    "question": "Under PACE 1984, s.78(1), the court may exclude evidence if:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The evidence was obtained in breach of any statutory provision",
+        "correct": false,
+        "feedback": "A statutory breach does not automatically lead to exclusion. s.78 requires an assessment of fairness."
+      },
+      {
+        "id": "b",
+        "text": "Having regard to all the circumstances, including how the evidence was obtained, its admission would have such an adverse effect on the fairness of proceedings that the court ought not to admit it",
+        "correct": true,
+        "feedback": "Correct. s.78(1) provides a broad discretion to exclude evidence where admission would render proceedings unfair."
+      },
+      {
+        "id": "c",
+        "text": "The defendant objects to its admission",
+        "correct": false,
+        "feedback": "The defendant's objection alone is not a ground for exclusion."
+      },
+      {
+        "id": "d",
+        "text": "The evidence is hearsay",
+        "correct": false,
+        "feedback": "Hearsay is governed by the CJA 2003, not s.78 PACE."
+      }
+    ],
+    "oscoa_references": [
+      "PACE 1984, s.78(1)"
+    ]
+  },
+  {
+    "id": "j-c2-018",
+    "page": "J",
+    "section": "J4",
+    "micro_skill": "J4.2",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "s78",
+      "r-v-khan",
+      "surveillance",
+      "art8"
+    ],
+    "question": "Police install a covert listening device in a private home without lawful authority, recording incriminating conversations. Applying R v Khan (Sultan) [1997] AC 558, the defence applies to exclude. What is the basis?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The evidence is irrelevant",
+        "correct": false,
+        "feedback": "The recordings are highly relevant \u2014 the issue is fairness, not relevance."
+      },
+      {
+        "id": "b",
+        "text": "The evidence is hearsay",
+        "correct": false,
+        "feedback": "The defendant's own admissions are not hearsay."
+      },
+      {
+        "id": "c",
+        "text": "The evidence was obtained unlawfully (breach of Article 8 ECHR) and should be excluded under s.78 PACE because its admission would render the trial unfair",
+        "correct": true,
+        "feedback": "Correct. R v Khan [1997] confirmed a breach of Article 8 through unlawful surveillance may lead to exclusion under s.78."
+      },
+      {
+        "id": "d",
+        "text": "The evidence must be excluded automatically under the Human Rights Act 1998",
+        "correct": false,
+        "feedback": "Breach of Convention rights does not lead to automatic exclusion."
+      }
+    ],
+    "oscoa_references": [
+      "R v Khan (Sultan) [1997] AC 558",
+      "PACE 1984, s.78"
+    ]
+  },
+  {
+    "id": "j-c2-019",
+    "page": "J",
+    "section": "J4",
+    "micro_skill": "J4.2",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "s78",
+      "entrapment",
+      "r-v-loosely",
+      "stay"
+    ],
+    "question": "In R v Loosely [2001] UKHL 53, the House of Lords considered the distinction between legitimate undercover operations and entrapment. The test is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Whether the police officer told any lies during the operation",
+        "correct": false,
+        "feedback": "The test is not based on whether officers were untruthful."
+      },
+      {
+        "id": "b",
+        "text": "Whether the state merely provided an opportunity to commit crime, or instigated/incited a crime that otherwise would not have been committed",
+        "correct": true,
+        "feedback": "Correct. Loosely distinguished providing an opportunity (legitimate) from instigating an offence (entrapment). Evidence may be excluded under s.78 or proceedings stayed."
+      },
+      {
+        "id": "c",
+        "text": "Whether the defendant had previous convictions",
+        "correct": false,
+        "feedback": "The defendant's criminal record is not the determinative test."
+      },
+      {
+        "id": "d",
+        "text": "Whether the surveillance was authorised under RIPA 2000",
+        "correct": false,
+        "feedback": "RIPA compliance is relevant but Loosely addressed the substantive distinction."
+      }
+    ],
+    "oscoa_references": [
+      "R v Loosely [2001] UKHL 53",
+      "PACE 1984, s.78"
+    ]
+  },
+  {
+    "id": "j-c2-020",
+    "page": "J",
+    "section": "J4",
+    "micro_skill": "J4.2",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "s78",
+      "breach-code-c",
+      "significant-and-substantial",
+      "r-v-keenan"
+    ],
+    "question": "Defence counsel argues a breach of PACE Code C during interview should lead to exclusion under s.78. Applying R v Keenan [1990] 2 QB 54, what must the defence establish?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Any breach of Code C requires automatic exclusion",
+        "correct": false,
+        "feedback": "Not every breach leads to exclusion \u2014 Keenan and Walsh set a higher threshold."
+      },
+      {
+        "id": "b",
+        "text": "The breach must be significant and substantial \u2014 a technical or minor breach may not suffice",
+        "correct": true,
+        "feedback": "Correct. This is a critical loophole. R v Keenan [1990] and R v Walsh (1989) establish the breach must be 'significant and substantial' before s.78 will exclude evidence."
+      },
+      {
+        "id": "c",
+        "text": "The breach must have caused actual prejudice to the defendant",
+        "correct": false,
+        "feedback": "The test is whether the breach was significant and substantial, not whether it caused specific prejudice."
+      },
+      {
+        "id": "d",
+        "text": "Any breach of Code C requires the judge to warn the jury",
+        "correct": false,
+        "feedback": "The remedy is exclusion under s.78, not a jury warning."
+      }
+    ],
+    "oscoa_references": [
+      "R v Keenan [1990] 2 QB 54",
+      "R v Walsh (1989) 91 Cr App R 161",
+      "PACE 1984, s.78"
+    ]
+  },
+  {
+    "id": "j-c2-021",
+    "page": "J",
+    "section": "J4",
+    "micro_skill": "J4.2",
+    "crown_level": 2,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "s78",
+      "discretion",
+      "unfair-evidence"
+    ],
+    "question": "'Section 78 PACE provides a general discretion to exclude any prosecution evidence if its admission would unfairly prejudice the defendant.' \u2014 True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": false,
+        "feedback": "The test is not whether admission would unfairly prejudice the defendant. It requires an adverse effect on the fairness of the proceedings such that the court ought not to admit it."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": true,
+        "feedback": "Correct. s.78 is narrower than general unfair prejudice. The test requires admission would have 'such an adverse effect on the fairness of the proceedings' that the court ought not to admit it."
+      }
+    ],
+    "oscoa_references": [
+      "PACE 1984, s.78(1)"
+    ]
+  },
+  {
+    "id": "j-c2-022",
+    "page": "J",
+    "section": "J5",
+    "micro_skill": "J5.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "bail",
+      "presumption",
+      "bail-act-1976",
+      "s4"
+    ],
+    "question": "Under s.4 of the Bail Act 1976, there is a presumption that:",
+    "options": [
+      {
+        "id": "a",
+        "text": "All defendants should be remanded in custody pending trial",
+        "correct": false,
+        "feedback": "The Bail Act creates a presumption in favour of bail, not custody."
+      },
+      {
+        "id": "b",
+        "text": "A person shall be granted bail except where one of the statutory exceptions applies",
+        "correct": true,
+        "feedback": "Correct. s.4 Bail Act 1976 establishes the general right to bail, subject to exceptions in Schedule 1."
+      },
+      {
+        "id": "c",
+        "text": "Bail shall be granted only for summary offences",
+        "correct": false,
+        "feedback": "The presumption applies to all offences."
+      },
+      {
+        "id": "d",
+        "text": "Bail must be granted unconditionally in all cases",
+        "correct": false,
+        "feedback": "Bail may be conditional \u2014 the presumption is for bail, not necessarily unconditional bail."
+      }
+    ],
+    "oscoa_references": [
+      "Bail Act 1976, s.4"
+    ]
+  },
+  {
+    "id": "j-c2-023",
+    "page": "J",
+    "section": "J5",
+    "micro_skill": "J5.1",
+    "crown_level": 2,
+    "type": "msq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "bail",
+      "exceptions",
+      "schedule-1",
+      "bail-act-1976"
+    ],
+    "question": "Under Schedule 1, Part I of the Bail Act 1976, bail may be refused where there are substantial grounds for believing the defendant will, if released on bail: (Select all that apply.)",
+    "options": [
+      {
+        "id": "a",
+        "text": "Fail to surrender to custody",
+        "correct": true,
+        "feedback": "Correct. This is the most commonly invoked exception."
+      },
+      {
+        "id": "b",
+        "text": "Commit an offence while on bail",
+        "correct": true,
+        "feedback": "Correct. The risk of re-offending on bail is a statutory ground for refusal."
+      },
+      {
+        "id": "c",
+        "text": "Interfere with witnesses or otherwise obstruct the course of justice",
+        "correct": true,
+        "feedback": "Correct. This ground is used where there is a risk of witness intimidation."
+      },
+      {
+        "id": "d",
+        "text": "Exercise their right to legal advice",
+        "correct": false,
+        "feedback": "Exercising the right to legal advice is not a ground for refusing bail."
+      },
+      {
+        "id": "e",
+        "text": "For their own protection (where already serving a custodial sentence)",
+        "correct": true,
+        "feedback": "Correct. This ground applies where the defendant is already in custody."
+      }
+    ],
+    "oscoa_references": [
+      "Bail Act 1976, Schedule 1, Part I"
+    ]
+  },
+  {
+    "id": "j-c2-024",
+    "page": "J",
+    "section": "J5",
+    "micro_skill": "J5.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "bail",
+      "conditions",
+      "s3",
+      "bail-act-1976"
+    ],
+    "question": "Under s.3 of the Bail Act 1976, bail may be made subject to conditions. Which is NOT a condition that may be imposed?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Residence at a specified address",
+        "correct": false,
+        "feedback": "Residence conditions are expressly permitted under s.3."
+      },
+      {
+        "id": "b",
+        "text": "Reporting to a police station at specified times",
+        "correct": false,
+        "feedback": "Reporting conditions are expressly permitted."
+      },
+      {
+        "id": "c",
+        "text": "A requirement to pay a financial penalty to the court before release",
+        "correct": true,
+        "feedback": "Correct. A pre-release financial penalty is not among the conditions permitted. A surety or security may be required."
+      },
+      {
+        "id": "d",
+        "text": "Surrender of passport",
+        "correct": false,
+        "feedback": "Surrender of passport is a common condition imposed under s.3."
+      }
+    ],
+    "oscoa_references": [
+      "Bail Act 1976, s.3"
+    ]
+  },
+  {
+    "id": "j-c2-025",
+    "page": "J",
+    "section": "J5",
+    "micro_skill": "J5.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "bail",
+      "factors",
+      "schedule-1",
+      "assessment"
+    ],
+    "question": "A Magistrates' Court is considering bail for a defendant charged with burglary. They have two previous failures to surrender and no fixed address. What is the most likely outcome?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bail must be granted \u2014 the right to bail is absolute",
+        "correct": false,
+        "feedback": "The right to bail is qualified by the exceptions in Schedule 1."
+      },
+      {
+        "id": "b",
+        "text": "Bail is likely refused \u2014 substantial grounds the defendant will fail to surrender given previous failures and no fixed address",
+        "correct": true,
+        "feedback": "Correct. Previous failures to surrender and no fixed address provide substantial grounds under Schedule 1, Part I, para 9."
+      },
+      {
+        "id": "c",
+        "text": "Bail must be granted if a surety is offered",
+        "correct": false,
+        "feedback": "A surety is relevant but does not compel the grant of bail."
+      },
+      {
+        "id": "d",
+        "text": "Bail must be refused \u2014 burglary is an offence for which bail is never available",
+        "correct": false,
+        "feedback": "No category of offence makes bail absolutely unavailable."
+      }
+    ],
+    "oscoa_references": [
+      "Bail Act 1976, s.4",
+      "Bail Act 1976, Schedule 1, Part I"
+    ]
+  },
+  {
+    "id": "j-c2-026",
+    "page": "J",
+    "section": "J5",
+    "micro_skill": "J5.1",
+    "crown_level": 2,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "bail",
+      "breach",
+      "s7",
+      "arrest"
+    ],
+    "question": "'Under s.7 of the Bail Act 1976, a police officer may arrest without warrant a person who has been released on bail and is likely to breach, or has breached, any condition of bail.' \u2014 True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. s.7(3) Bail Act 1976 confers a power of arrest without warrant where a constable has reasonable grounds for believing breach of a bail condition."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "s.7(3) does confer this power of arrest without warrant."
+      }
+    ],
+    "oscoa_references": [
+      "Bail Act 1976, s.7"
+    ]
+  },
+  {
+    "id": "j-c2-027",
+    "page": "J",
+    "section": "J5",
+    "micro_skill": "J5.2",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "bail",
+      "police-bail",
+      "s38",
+      "pace",
+      "pre-charge"
+    ],
+    "question": "Under PACE 1984, s.38, a custody officer may grant bail. Police bail pre-charge:",
+    "options": [
+      {
+        "id": "a",
+        "text": "May only be granted by a magistrates' court",
+        "correct": false,
+        "feedback": "The custody officer has authority to grant police bail."
+      },
+      {
+        "id": "b",
+        "text": "May be granted by the custody officer pending further investigation, who may also impose conditions",
+        "correct": true,
+        "feedback": "Correct. Under PACE s.37 and s.38, the custody officer may grant police bail pre-charge and impose conditions."
+      },
+      {
+        "id": "c",
+        "text": "Is available only for summary offences",
+        "correct": false,
+        "feedback": "Police bail is available regardless of offence classification."
+      },
+      {
+        "id": "d",
+        "text": "Requires consent of a superintendent",
+        "correct": false,
+        "feedback": "The custody officer may authorise police bail without referral to a superintendent."
+      }
+    ],
+    "oscoa_references": [
+      "PACE 1984, s.38",
+      "Bail Act 1976, s.3A"
+    ]
+  },
+  {
+    "id": "j-c2-028",
+    "page": "J",
+    "section": "J5",
+    "micro_skill": "J5.2",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "bail",
+      "tactics",
+      "bail-package",
+      "mitigation"
+    ],
+    "question": "A defence solicitor prepares a bail application for a client with a significant record of failing to surrender. What is the most effective approach?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Argue previous failures are irrelevant to the current application",
+        "correct": false,
+        "feedback": "Previous bail record is a mandatory consideration under Schedule 1, para 9."
+      },
+      {
+        "id": "b",
+        "text": "Propose a comprehensive bail package including residence at a family address, daily reporting to a police station, a significant surety, and electronic monitoring",
+        "correct": true,
+        "feedback": "Correct. The best tactic is addressing each substantial ground with conditions that mitigate the specific risk."
+      },
+      {
+        "id": "c",
+        "text": "Apply for bail without conditions to show the client can be trusted",
+        "correct": false,
+        "feedback": "Given the history, unconditional bail would be unlikely to succeed."
+      },
+      {
+        "id": "d",
+        "text": "Advise the client to lodge an appeal immediately without a fresh application",
+        "correct": false,
+        "feedback": "An appeal requires a bail refusal first."
+      }
+    ],
+    "oscoa_references": [
+      "Bail Act 1976, s.4",
+      "Bail Act 1976, Schedule 1"
+    ]
+  },
+  {
+    "id": "j-c2-029",
+    "page": "J",
+    "section": "J5",
+    "micro_skill": "J5.2",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "bail",
+      "custody-time-limit",
+      "loophole",
+      "summary-trial"
+    ],
+    "question": "Custody time limits provide a critical loophole for securing release. In the Magistrates' Court, the custody time limit from first appearance to the start of summary trial is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "28 days",
+        "correct": false,
+        "feedback": "The limit is significantly longer."
+      },
+      {
+        "id": "b",
+        "text": "56 days",
+        "correct": true,
+        "feedback": "Correct. The custody time limit for summary trial is 56 days from first appearance. If the prosecution cannot start trial within this period, the defendant must be released on bail."
+      },
+      {
+        "id": "c",
+        "text": "90 days",
+        "correct": false,
+        "feedback": "90 days is not the custody time limit for summary trials."
+      },
+      {
+        "id": "d",
+        "text": "182 days",
+        "correct": false,
+        "feedback": "182 days is the extended custody time limit for trials on indictment."
+      }
+    ],
+    "oscoa_references": [
+      "Prosecution of Offences Act 1985, s.22",
+      "Prosecution of Offences (Custody Time Limits) Regulations 1987"
+    ]
+  },
+  {
+    "id": "j-c2-030",
+    "page": "J",
+    "section": "J5",
+    "micro_skill": "J5.2",
+    "crown_level": 2,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "bail",
+      "appeal",
+      "crown-court",
+      "s81"
+    ],
+    "question": "'If bail is refused by the Magistrates' Court, the defendant may appeal the refusal to the Crown Court under s.81 of the Supreme Court Act 1981.' \u2014 True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. s.81 of the Supreme Court Act 1981 provides a right of appeal from a Magistrates' Court bail decision to the Crown Court."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "This is a correct statement of the law."
+      }
+    ],
+    "oscoa_references": [
+      "Supreme Court Act 1981, s.81"
+    ]
+  },
+  {
+    "id": "j-c3-001",
+    "page": "J",
+    "section": "J6",
+    "micro_skill": "J6.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "allocation",
+      "summary-only",
+      "classification"
+    ],
+    "question": "Which of the following is a summary-only offence, triable only in the Magistrates' Court?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Theft",
+        "correct": false,
+        "feedback": "Theft is an either-way offence under the Theft Act 1968."
+      },
+      {
+        "id": "b",
+        "text": "Common assault",
+        "correct": true,
+        "feedback": "Correct. Common assault (s.39 Criminal Justice Act 1988) is summary only."
+      },
+      {
+        "id": "c",
+        "text": "Robbery",
+        "correct": false,
+        "feedback": "Robbery is an indictable-only offence."
+      },
+      {
+        "id": "d",
+        "text": "Burglary",
+        "correct": false,
+        "feedback": "Burglary is either way (s.9 Theft Act 1968)."
+      }
+    ],
+    "oscoa_references": [
+      "Criminal Justice Act 1988, s.39",
+      "Magistrates' Courts Act 1980"
+    ]
+  },
+  {
+    "id": "j-c3-002",
+    "page": "J",
+    "section": "J6",
+    "micro_skill": "J6.1",
+    "crown_level": 3,
+    "type": "msq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "allocation",
+      "indictable-only",
+      "classification"
+    ],
+    "question": "Which of the following are indictable-only offences that must be tried in the Crown Court? (Select all that apply.)",
+    "options": [
+      {
+        "id": "a",
+        "text": "Murder",
+        "correct": true,
+        "feedback": "Correct. Murder is an indictable-only offence."
+      },
+      {
+        "id": "b",
+        "text": "Manslaughter",
+        "correct": true,
+        "feedback": "Correct. Manslaughter is an indictable-only offence."
+      },
+      {
+        "id": "c",
+        "text": "Robbery",
+        "correct": true,
+        "feedback": "Correct. Robbery (s.8 Theft Act 1968) is indictable only."
+      },
+      {
+        "id": "d",
+        "text": "Rape",
+        "correct": true,
+        "feedback": "Correct. Rape (s.1 Sexual Offences Act 2003) is indictable only."
+      },
+      {
+        "id": "e",
+        "text": "Section 20 GBH",
+        "correct": false,
+        "feedback": "s.20 GBH (wounding) is an either-way offence. s.18 GBH (wounding with intent) is indictable only."
+      }
+    ],
+    "oscoa_references": [
+      "Offences Against the Person Act 1861, ss.18, 20",
+      "Theft Act 1968, s.8",
+      "Sexual Offences Act 2003, s.1"
+    ]
+  },
+  {
+    "id": "j-c3-003",
+    "page": "J",
+    "section": "J6",
+    "micro_skill": "J6.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "allocation",
+      "either-way",
+      "plea-before-venue",
+      "election"
+    ],
+    "question": "A defendant is charged with theft (value \u00a32,000). At the Magistrates' Court, they indicate a not guilty plea. The Magistrates accept jurisdiction. What is the significance of the defendant's election?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The defendant may only be tried in the Magistrates' Court",
+        "correct": false,
+        "feedback": "Even where Magistrates accept jurisdiction, the defendant retains the right to elect Crown Court trial."
+      },
+      {
+        "id": "b",
+        "text": "The defendant may elect trial by jury in the Crown Court, even though Magistrates accepted jurisdiction",
+        "correct": true,
+        "feedback": "Correct. Under s.20 MCA 1980, the defendant has the right to elect Crown Court trial for either-way offences."
+      },
+      {
+        "id": "c",
+        "text": "The defendant's election is irrelevant \u2014 the prosecution decides the venue",
+        "correct": false,
+        "feedback": "The prosecution does not decide venue after the allocation procedure."
+      },
+      {
+        "id": "d",
+        "text": "The defendant may only elect Crown Court trial if the value exceeds \u00a35,000",
+        "correct": false,
+        "feedback": "The right of election applies regardless of value."
+      }
+    ],
+    "oscoa_references": [
+      "Magistrates' Courts Act 1980, s.20",
+      "Magistrates' Courts Act 1980, s.19"
+    ]
+  },
+  {
+    "id": "j-c3-004",
+    "page": "J",
+    "section": "J6",
+    "micro_skill": "J6.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "allocation",
+      "magistrates",
+      "sentencing",
+      "12-months"
+    ],
+    "question": "What is the maximum custodial sentence a Magistrates' Court may impose for a single either-way offence?",
+    "options": [
+      {
+        "id": "a",
+        "text": "6 months",
+        "correct": false,
+        "feedback": "The maximum was historically 6 months but has been increased."
+      },
+      {
+        "id": "b",
+        "text": "12 months",
+        "correct": true,
+        "feedback": "Correct. Under s.224 Sentencing Act 2020, the maximum for a single either-way offence is 12 months."
+      },
+      {
+        "id": "c",
+        "text": "2 years",
+        "correct": false,
+        "feedback": "2 years exceeds the Magistrates' sentencing powers."
+      },
+      {
+        "id": "d",
+        "text": "5 years",
+        "correct": false,
+        "feedback": "This is beyond the Magistrates' jurisdiction."
+      }
+    ],
+    "oscoa_references": [
+      "Sentencing Act 2020, s.224"
+    ]
+  },
+  {
+    "id": "j-c3-005",
+    "page": "J",
+    "section": "J6",
+    "micro_skill": "J6.2",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "sending-for-trial",
+      "s51",
+      "crime-and-disorder-act",
+      "indictable-only"
+    ],
+    "question": "Under s.51 of the Crime and Disorder Act 1998, indictable-only offences are:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sent directly to the Crown Court \u2014 no mode of trial determination in the Magistrates' Court",
+        "correct": true,
+        "feedback": "Correct. s.51 provides indictable-only offences are sent directly to the Crown Court."
+      },
+      {
+        "id": "b",
+        "text": "First heard in the Magistrates' Court for a mode of trial determination",
+        "correct": false,
+        "feedback": "This applies to either-way offences, not indictable-only."
+      },
+      {
+        "id": "c",
+        "text": "Sent to the Crown Court only if the Magistrates decline jurisdiction",
+        "correct": false,
+        "feedback": "Indictable-only offences cannot be tried summarily."
+      },
+      {
+        "id": "d",
+        "text": "Sent to the Crown Court only if the defendant elects",
+        "correct": false,
+        "feedback": "The defendant has no right to elect Magistrates' Court trial for indictable-only offences."
+      }
+    ],
+    "oscoa_references": [
+      "Crime and Disorder Act 1998, s.51"
+    ]
+  },
+  {
+    "id": "j-c3-006",
+    "page": "J",
+    "section": "J6",
+    "micro_skill": "J6.2",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "pcmh",
+      "plea-and-case-management",
+      "cpia",
+      "crown-court"
+    ],
+    "question": "The Plea and Case Management Hearing (PCMH) in the Crown Court is governed by:",
+    "options": [
+      {
+        "id": "a",
+        "text": "PACE 1984, Code G",
+        "correct": false,
+        "feedback": "Code G relates to arrest procedures."
+      },
+      {
+        "id": "b",
+        "text": "CPIA 1996, Part III and Criminal Procedure Rules Part 3",
+        "correct": true,
+        "feedback": "Correct. The PCMH is governed by CPIA 1996, Part III and CPR Part 3. The defendant enters a plea, and directions are given for disclosure, defence statement, witnesses, and trial preparation."
+      },
+      {
+        "id": "c",
+        "text": "Bail Act 1976, Schedule 1",
+        "correct": false,
+        "feedback": "This relates to bail, not the PCMH."
+      },
+      {
+        "id": "d",
+        "text": "Sentencing Act 2020, Part 2",
+        "correct": false,
+        "feedback": "The Sentencing Act governs sentencing, not pre-trial case management."
+      }
+    ],
+    "oscoa_references": [
+      "CPIA 1996, Part III",
+      "Criminal Procedure Rules, Part 3"
+    ]
+  },
+  {
+    "id": "j-c3-007",
+    "page": "J",
+    "section": "J6",
+    "micro_skill": "J6.2",
+    "crown_level": 3,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "sending-for-trial",
+      "s51",
+      "related-offences"
+    ],
+    "question": "'When an indictable-only offence is sent to the Crown Court under s.51 Crime and Disorder Act 1998, related either-way and summary offences may also be sent.' \u2014 True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. s.51(3) permits related either-way and summary offences to be sent alongside the main indictable-only offence."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "s.51(3) does permit related offences to be sent alongside the main indictable-only offence."
+      }
+    ],
+    "oscoa_references": [
+      "Crime and Disorder Act 1998, s.51"
+    ]
+  },
+  {
+    "id": "j-c3-008",
+    "page": "J",
+    "section": "J7",
+    "micro_skill": "J7.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "disclosure",
+      "cpia-1996",
+      "s3",
+      "prosecution"
+    ],
+    "question": "Under s.3 of the Criminal Procedure and Investigations Act 1996, initial prosecution disclosure requires the prosecutor to disclose:",
+    "options": [
+      {
+        "id": "a",
+        "text": "All material in the prosecution's possession",
+        "correct": false,
+        "feedback": "The prosecutor is not required to disclose everything \u2014 only material meeting the s.3 test."
+      },
+      {
+        "id": "b",
+        "text": "Material which might reasonably be considered capable of undermining the prosecution case or assisting the defence case",
+        "correct": true,
+        "feedback": "Correct. s.3(1)(a) CPIA 1996 requires disclosure of previously undisclosed material which might undermine the prosecution case or assist the defence."
+      },
+      {
+        "id": "c",
+        "text": "Only material the prosecutor intends to rely on at trial",
+        "correct": false,
+        "feedback": "That is the prosecution case. s.3 deals with unused material."
+      },
+      {
+        "id": "d",
+        "text": "All statements taken by the police during the investigation",
+        "correct": false,
+        "feedback": "Only statements meeting the s.3 test must be disclosed as unused material."
+      }
+    ],
+    "oscoa_references": [
+      "CPIA 1996, s.3"
+    ]
+  },
+  {
+    "id": "j-c3-009",
+    "page": "J",
+    "section": "J7",
+    "micro_skill": "J7.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "disclosure",
+      "unused-material",
+      "schedule",
+      "mg6c"
+    ],
+    "question": "Unused material in a criminal case is listed by the disclosure officer on which schedules?",
+    "options": [
+      {
+        "id": "a",
+        "text": "MG5 \u2014 case summary",
+        "correct": false,
+        "feedback": "The MG5 is the case summary."
+      },
+      {
+        "id": "b",
+        "text": "MG6C (non-sensitive material) or MG6D (sensitive material)",
+        "correct": true,
+        "feedback": "Correct. MG6C lists non-sensitive unused material; MG6D lists sensitive material for which the prosecution may seek non-disclosure on public interest grounds."
+      },
+      {
+        "id": "c",
+        "text": "MG3 \u2014 charging advice",
+        "correct": false,
+        "feedback": "The MG3 is the charging advice form from the CPS."
+      },
+      {
+        "id": "d",
+        "text": "MG11 \u2014 witness statement",
+        "correct": false,
+        "feedback": "The MG11 is the standard witness statement form."
+      }
+    ],
+    "oscoa_references": [
+      "CPIA 1996, s.3"
+    ]
+  },
+  {
+    "id": "j-c3-010",
+    "page": "J",
+    "section": "J7",
+    "micro_skill": "J7.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "disclosure",
+      "pii",
+      "r-v-h-r-v-c",
+      "public-interest-immunity"
+    ],
+    "question": "In R v H; R v C [2004] UKHL 3, the House of Lords considered Public Interest Immunity (PII). The correct approach is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The prosecution alone decides whether material is covered by PII",
+        "correct": false,
+        "feedback": "The court makes the ultimate determination on PII."
+      },
+      {
+        "id": "b",
+        "text": "The court balances the public interest in disclosure against non-disclosure; if non-disclosure would render the trial unfair, the prosecution must disclose or discontinue",
+        "correct": true,
+        "feedback": "Correct. R v H; R v C [2004] established a structured balancing approach. If non-disclosure would render the trial unfair, the prosecution must either disclose or discontinue."
+      },
+      {
+        "id": "c",
+        "text": "Sensitive material is never disclosable",
+        "correct": false,
+        "feedback": "Sensitive material may still be disclosable if the balancing exercise favours disclosure."
+      },
+      {
+        "id": "d",
+        "text": "The defence is entitled to attend all PII hearings",
+        "correct": false,
+        "feedback": "PII hearings may proceed ex parte, without the defence present."
+      }
+    ],
+    "oscoa_references": [
+      "R v H; R v C [2004] UKHL 3",
+      "CPIA 1996, s.3(6)"
+    ]
+  },
+  {
+    "id": "j-c3-011",
+    "page": "J",
+    "section": "J7",
+    "micro_skill": "J7.1",
+    "crown_level": 3,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "disclosure",
+      "cpia",
+      "prosecution-duty"
+    ],
+    "question": "'The prosecution's duty of initial disclosure under s.3 CPIA 1996 is a continuing duty throughout the proceedings.' \u2014 True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. s.7A CPIA 1996 imposes a continuing duty on the prosecutor to keep disclosure under review throughout the proceedings."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "s.7A does impose a continuing duty."
+      }
+    ],
+    "oscoa_references": [
+      "CPIA 1996, s.3",
+      "CPIA 1996, s.7A"
+    ]
+  },
+  {
+    "id": "j-c3-012",
+    "page": "J",
+    "section": "J7",
+    "micro_skill": "J7.2",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "disclosure",
+      "defence-statement",
+      "cpia",
+      "s5",
+      "s6"
+    ],
+    "question": "Under CPIA 1996, a defence statement is mandatory in which court, and voluntary in which court?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Mandatory in Crown Court; voluntary in Magistrates' Court (unless the prosecution requests one)",
+        "correct": true,
+        "feedback": "Correct. s.5 CPIA makes it mandatory in Crown Court; s.6 makes it voluntary in Magistrates' Court unless triggered by prosecution request."
+      },
+      {
+        "id": "b",
+        "text": "Mandatory in both Crown Court and Magistrates' Court",
+        "correct": false,
+        "feedback": "The defence statement is not mandatory in the Magistrates' Court."
+      },
+      {
+        "id": "c",
+        "text": "Voluntary in both Crown Court and Magistrates' Court",
+        "correct": false,
+        "feedback": "The defence statement is mandatory in the Crown Court."
+      },
+      {
+        "id": "d",
+        "text": "Mandatory only for offences triable either way",
+        "correct": false,
+        "feedback": "The distinction is based on the court, not the offence classification."
+      }
+    ],
+    "oscoa_references": [
+      "CPIA 1996, s.5",
+      "CPIA 1996, s.6"
+    ]
+  },
+  {
+    "id": "j-c3-013",
+    "page": "J",
+    "section": "J7",
+    "micro_skill": "J7.2",
+    "crown_level": 3,
+    "type": "msq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "disclosure",
+      "defence-statement",
+      "contents",
+      "s6a"
+    ],
+    "question": "Under s.6A CPIA 1996, the defence statement must include: (Select all that apply.)",
+    "options": [
+      {
+        "id": "a",
+        "text": "The nature of the defence",
+        "correct": true,
+        "feedback": "Correct. s.6A(a) requires the nature of the accused's defence."
+      },
+      {
+        "id": "b",
+        "text": "The matters of fact on which the accused takes issue with the prosecution and why",
+        "correct": true,
+        "feedback": "Correct. s.6A(b) requires matters of fact and reasons for taking issue."
+      },
+      {
+        "id": "c",
+        "text": "The points of law the accused wishes to argue",
+        "correct": true,
+        "feedback": "Correct. s.6A(c) requires any point of law, including any authority relied on."
+      },
+      {
+        "id": "d",
+        "text": "A list of character witnesses the defence intends to call",
+        "correct": false,
+        "feedback": "Character witness details are not required as part of the defence statement."
+      },
+      {
+        "id": "e",
+        "text": "Details of any alibi, including name and address of any alibi witness",
+        "correct": true,
+        "feedback": "Correct. s.6A(d) requires particulars of any alibi, including witness details."
+      }
+    ],
+    "oscoa_references": [
+      "CPIA 1996, s.6A"
+    ]
+  },
+  {
+    "id": "j-c3-014",
+    "page": "J",
+    "section": "J7",
+    "micro_skill": "J7.2",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "disclosure",
+      "adverse-inference",
+      "s11",
+      "cpia",
+      "failure-to-disclose"
+    ],
+    "question": "A defendant fails to serve a defence statement in Crown Court proceedings. At trial, they seek to rely on an alibi for the first time. Under s.11 CPIA 1996, what may the court do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Exclude the alibi evidence automatically",
+        "correct": false,
+        "feedback": "Exclusion is not automatic \u2014 the court has a range of options."
+      },
+      {
+        "id": "b",
+        "text": "Draw an adverse inference from the failure to disclose, unless the defendant has a reasonable excuse",
+        "correct": true,
+        "feedback": "Correct. s.11(5) CPIA 1996 permits the court or jury to draw such inferences as appear proper from the failure to disclose."
+      },
+      {
+        "id": "c",
+        "text": "Strike out the defence and enter a conviction",
+        "correct": false,
+        "feedback": "The court has no power to strike out a defence and enter a conviction on this basis."
+      },
+      {
+        "id": "d",
+        "text": "Refer the solicitor to the Solicitors Regulation Authority",
+        "correct": false,
+        "feedback": "Professional discipline is a separate matter."
+      }
+    ],
+    "oscoa_references": [
+      "CPIA 1996, s.11"
+    ]
+  },
+  {
+    "id": "j-c3-015",
+    "page": "J",
+    "section": "J7",
+    "micro_skill": "J7.2",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "disclosure",
+      "s8-cpia",
+      "specific-disclosure",
+      "defence-application"
+    ],
+    "question": "If the prosecution fails to disclose material which the defence believes should be disclosed, the defence may apply for specific disclosure under:",
+    "options": [
+      {
+        "id": "a",
+        "text": "PACE 1984, s.78",
+        "correct": false,
+        "feedback": "s.78 is an exclusionary discretion, not a disclosure mechanism."
+      },
+      {
+        "id": "b",
+        "text": "CPIA 1996, s.8",
+        "correct": true,
+        "feedback": "Correct. s.8 CPIA permits the accused to apply for an order requiring the prosecutor to disclose material satisfying the s.3 test."
+      },
+      {
+        "id": "c",
+        "text": "Criminal Justice Act 2003, s.114",
+        "correct": false,
+        "feedback": "s.114 CJA 2003 relates to hearsay admissibility."
+      },
+      {
+        "id": "d",
+        "text": "Magistrates' Courts Act 1980, s.19",
+        "correct": false,
+        "feedback": "s.19 MCA 1980 relates to mode of trial."
+      }
+    ],
+    "oscoa_references": [
+      "CPIA 1996, s.8"
+    ]
+  },
+  {
+    "id": "j-c3-016",
+    "page": "J",
+    "section": "J7",
+    "micro_skill": "J7.3",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "disclosure",
+      "third-party",
+      "r-v-alibhai",
+      "witness-summons"
+    ],
+    "question": "In R v Alibhai [2004] EWCA Crim 681, the Court of Appeal considered material held by third parties. The procedure for obtaining such material is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "An application to the Information Commissioner under FOIA 2000",
+        "correct": false,
+        "feedback": "FOIA is a separate regime and may not be appropriate during criminal proceedings."
+      },
+      {
+        "id": "b",
+        "text": "An application to the court for a witness summons requiring the third party to produce the material, under s.2 CPIA 1996 and s.97 MCA 1980",
+        "correct": true,
+        "feedback": "Correct. Alibhai confirmed the proper procedure is an application for a witness summons where material is likely to be material evidence."
+      },
+      {
+        "id": "c",
+        "text": "A direct request from the defence to the third party \u2014 no court order required",
+        "correct": false,
+        "feedback": "A direct request may be refused; a witness summons compels production."
+      },
+      {
+        "id": "d",
+        "text": "A PII application to the Crown Court",
+        "correct": false,
+        "feedback": "PII is used by the prosecution to withhold material, not by the defence to obtain it."
+      }
+    ],
+    "oscoa_references": [
+      "R v Alibhai [2004] EWCA Crim 681",
+      "CPIA 1996, s.2",
+      "Magistrates' Courts Act 1980, s.97"
+    ]
+  },
+  {
+    "id": "j-c3-017",
+    "page": "J",
+    "section": "J7",
+    "micro_skill": "J7.3",
+    "crown_level": 3,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "disclosure",
+      "third-party",
+      "test",
+      "material-evidence"
+    ],
+    "question": "'The test for obtaining third-party material via a witness summons is that the material is likely to be material evidence and is necessary for the fair determination of the case.' \u2014 True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. This is the test confirmed in R v Alibhai [2004] and applied under CPR r.28."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "This is the correct legal test."
+      }
+    ],
+    "oscoa_references": [
+      "R v Alibhai [2004] EWCA Crim 681",
+      "Criminal Procedure Rules, Part 28"
+    ]
+  },
+  {
+    "id": "j-c3-018",
+    "page": "J",
+    "section": "J7",
+    "micro_skill": "J7.3",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "disclosure",
+      "third-party",
+      "social-services",
+      "medical-records"
+    ],
+    "question": "The defence wishes to obtain the complainant's social services records which may contain material undermining the allegation. The local authority refuses disclosure. What is the correct procedure?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Issue a subpoena directly \u2014 no court application required",
+        "correct": false,
+        "feedback": "A subpoena cannot be issued without a court application."
+      },
+      {
+        "id": "b",
+        "text": "Apply to the court for a witness summons, demonstrating the material is likely to be material evidence and necessary for a fair trial",
+        "correct": true,
+        "feedback": "Correct. The defence must apply for a witness summons satisfying the statutory test. The court decides."
+      },
+      {
+        "id": "c",
+        "text": "There is no mechanism to compel third-party disclosure",
+        "correct": false,
+        "feedback": "CPIA 1996 and MCA 1980 provide mechanisms for compelling third-party production."
+      },
+      {
+        "id": "d",
+        "text": "Complain to the local authority's ombudsman",
+        "correct": false,
+        "feedback": "This does not address the urgent need for disclosure in ongoing proceedings."
+      }
+    ],
+    "oscoa_references": [
+      "CPIA 1996, s.2",
+      "Magistrates' Courts Act 1980, s.97",
+      "R v Alibhai [2004] EWCA Crim 681"
+    ]
+  },
+  {
+    "id": "j-c3-019",
+    "page": "J",
+    "section": "J8",
+    "micro_skill": "J8.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "abuse-of-process",
+      "stay",
+      "inherent-jurisdiction"
+    ],
+    "question": "The court's power to stay proceedings as an abuse of process is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "A statutory power under PACE 1984",
+        "correct": false,
+        "feedback": "PACE does not confer a general power to stay proceedings."
+      },
+      {
+        "id": "b",
+        "text": "A power derived from the court's inherent jurisdiction to prevent misuse of its process, where a trial would be fundamentally unfair or contrary to public interest",
+        "correct": true,
+        "feedback": "Correct. The power is inherent. A stay may be granted where a fair trial is impossible or proceedings would offend the court's conscience."
+      },
+      {
+        "id": "c",
+        "text": "A power exercisable only by the High Court on judicial review",
+        "correct": false,
+        "feedback": "Both the Crown Court and Magistrates' Court have this power."
+      },
+      {
+        "id": "d",
+        "text": "Limited to cases of double jeopardy",
+        "correct": false,
+        "feedback": "Abuse of process is broader than autrefois acquit/convict."
+      }
+    ],
+    "oscoa_references": [
+      "R v Horseferry Road Magistrates' Court ex p Bennett [1994] 1 AC 42"
+    ]
+  },
+  {
+    "id": "j-c3-020",
+    "page": "J",
+    "section": "J8",
+    "micro_skill": "J8.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "abuse-of-process",
+      "delay",
+      "r-v-beckford",
+      "stay"
+    ],
+    "question": "In R v Beckford [1996] 1 Cr App R 94, the Court of Appeal considered delay as a ground for abuse. What was the outcome?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Delay alone is never sufficient to stay proceedings",
+        "correct": false,
+        "feedback": "In Beckford the court did grant a stay."
+      },
+      {
+        "id": "b",
+        "text": "A delay of 7 years between offence and complaint, causing actual prejudice to the defence, justified a stay for abuse",
+        "correct": true,
+        "feedback": "Correct. Beckford held that a 7-year delay causing significant prejudice rendered a fair trial impossible and justified a stay."
+      },
+      {
+        "id": "c",
+        "text": "The defendant was entitled to compensation for the delay",
+        "correct": false,
+        "feedback": "The abuse jurisdiction does not provide compensation."
+      },
+      {
+        "id": "d",
+        "text": "The prosecution was ordered to pay the defendant's legal costs",
+        "correct": false,
+        "feedback": "Costs orders are distinct from the remedy of a stay."
+      }
+    ],
+    "oscoa_references": [
+      "R v Beckford [1996] 1 Cr App R 94"
+    ]
+  },
+  {
+    "id": "j-c3-021",
+    "page": "J",
+    "section": "J8",
+    "micro_skill": "J8.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "abuse-of-process",
+      "categories",
+      "fair-trial",
+      "conscience-of-court"
+    ],
+    "question": "The two recognised categories of abuse of process are:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Prejudicial conduct and unlawful conduct",
+        "correct": false,
+        "feedback": "The recognised categories are not framed in these terms."
+      },
+      {
+        "id": "b",
+        "text": "Category 1: where a fair trial is impossible; Category 2: where it would be contrary to the public interest/offend the conscience of the court, even if a fair trial is possible",
+        "correct": true,
+        "feedback": "Correct. This formulation is derived from Beckford and other authorities."
+      },
+      {
+        "id": "c",
+        "text": "Pre-charge abuse and post-conviction abuse",
+        "correct": false,
+        "feedback": "Abuse is not categorised by procedural stage."
+      },
+      {
+        "id": "d",
+        "text": "Procedural abuse and substantive abuse",
+        "correct": false,
+        "feedback": "While useful, this is not the formal categorisation."
+      }
+    ],
+    "oscoa_references": [
+      "R v Beckford [1996] 1 Cr App R 94",
+      "R v Horseferry Road Magistrates' Court ex p Bennett [1994] 1 AC 42"
+    ]
+  },
+  {
+    "id": "j-c3-022",
+    "page": "J",
+    "section": "J8",
+    "micro_skill": "J8.1",
+    "crown_level": 3,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "abuse-of-process",
+      "stay",
+      "application"
+    ],
+    "question": "'An application to stay proceedings for abuse of process may be made at any stage, including pre-PCMH, during trial, or at first appearance.' \u2014 True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. A stay application may be made at any time, though it is often most effective pre-trial."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "There is no restriction on when an abuse application may be made."
+      }
+    ],
+    "oscoa_references": [
+      "R v Beckford [1996] 1 Cr App R 94"
+    ]
+  },
+  {
+    "id": "j-c3-023",
+    "page": "J",
+    "section": "J8",
+    "micro_skill": "J8.2",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "abuse-of-process",
+      "extradition",
+      "r-v-bennett",
+      "stay"
+    ],
+    "question": "UK authorities wish to prosecute a defendant brought to the UK through unlawful extradition (kidnapping from a foreign jurisdiction), bypassing the Extradition Act. Applying R v Horseferry Road Magistrates ex p Bennett [1994] 1 AC 42, what is the likely outcome?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The proceedings continue \u2014 the manner of arrival is irrelevant to trial fairness",
+        "correct": false,
+        "feedback": "Bennett established the manner of bringing a defendant before the court can constitute abuse."
+      },
+      {
+        "id": "b",
+        "text": "The proceedings are stayed \u2014 the court will not condone deliberate manipulation or circumvention of the extradition process",
+        "correct": true,
+        "feedback": "Correct. Bennett held the court should stay where the defendant was brought before it in deliberate disregard of extradition procedures."
+      },
+      {
+        "id": "c",
+        "text": "The court will order the defendant's immediate deportation",
+        "correct": false,
+        "feedback": "The remedy is a stay of proceedings, not deportation."
+      },
+      {
+        "id": "d",
+        "text": "The prosecution must obtain retroactive approval from the foreign jurisdiction",
+        "correct": false,
+        "feedback": "There is no such procedure. The stay prevents the prosecution proceeding."
+      }
+    ],
+    "oscoa_references": [
+      "R v Horseferry Road Magistrates' Court ex p Bennett [1994] 1 AC 42"
+    ]
+  },
+  {
+    "id": "j-c3-024",
+    "page": "J",
+    "section": "J8",
+    "micro_skill": "J8.2",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "abuse-of-process",
+      "r-v-loosely",
+      "entrapment",
+      "test"
+    ],
+    "question": "In R v Loosely [2001] UKHL 53, the critical distinction between legitimate operations and entrapment is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Whether officers were authorised under RIPA",
+        "correct": false,
+        "feedback": "The Loosely test is not based on RIPA authorisation."
+      },
+      {
+        "id": "b",
+        "text": "Whether the state provided an opportunity (permissible) or instigated/incited a crime that otherwise would not have been committed (entrapment)",
+        "correct": true,
+        "feedback": "Correct. Loosely distinguished providing an unexceptional opportunity from instigating an offence."
+      },
+      {
+        "id": "c",
+        "text": "Whether the defendant is a professional criminal or first-time offender",
+        "correct": false,
+        "feedback": "The defendant's status is relevant context but not the defining test."
+      },
+      {
+        "id": "d",
+        "text": "Whether the investigation resulted in a conviction",
+        "correct": false,
+        "feedback": "The outcome does not determine whether conduct was entrapment."
+      }
+    ],
+    "oscoa_references": [
+      "R v Loosely [2001] UKHL 53"
+    ]
+  },
+  {
+    "id": "j-c3-025",
+    "page": "J",
+    "section": "J8",
+    "micro_skill": "J8.2",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "abuse-of-process",
+      "r-v-asiedu",
+      "non-prosecution-agreement"
+    ],
+    "question": "In R v Asiedu [2015] EWCA Crim 714, the prosecution entered into a non-prosecution agreement then later prosecuted. The Court of Appeal held:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The prosecution is entitled to resile from any agreement before trial",
+        "correct": false,
+        "feedback": "Asiedu did not give the prosecution unlimited freedom to renege."
+      },
+      {
+        "id": "b",
+        "text": "Where the prosecution breaches a clear and unequivocal representation not to prosecute, the proceedings may be stayed as an abuse",
+        "correct": true,
+        "feedback": "Correct. Asiedu confirmed reneging on a non-prosecution agreement may constitute abuse where the defendant acted in reliance."
+      },
+      {
+        "id": "c",
+        "text": "Non-prosecution agreements are never enforceable",
+        "correct": false,
+        "feedback": "While not enforceable as contracts, they may give rise to abuse if breached."
+      },
+      {
+        "id": "d",
+        "text": "The prosecution was ordered to pay substantial damages",
+        "correct": false,
+        "feedback": "The remedy was a stay of proceedings, not damages."
+      }
+    ],
+    "oscoa_references": [
+      "R v Asiedu [2015] EWCA Crim 714"
+    ]
+  },
+  {
+    "id": "j-c3-026",
+    "page": "J",
+    "section": "J8",
+    "micro_skill": "J8.2",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "abuse-of-process",
+      "lost-evidence",
+      "cctv",
+      "r-v-dobson"
+    ],
+    "question": "The police lose CCTV footage which the defence says would have exonerated the defendant. Applying R v Dobson [2018] EWCA Crim 1988, what is the correct approach?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The loss of evidence automatically requires a stay",
+        "correct": false,
+        "feedback": "Loss of evidence does not lead to an automatic stay."
+      },
+      {
+        "id": "b",
+        "text": "The court must assess whether the loss makes a fair trial impossible; if a jury direction can cure the prejudice, a stay may be unnecessary",
+        "correct": true,
+        "feedback": "Correct. Dobson demonstrates the court assesses whether a fair trial remains possible. Where a jury direction suffices, a stay may be refused."
+      },
+      {
+        "id": "c",
+        "text": "The prosecution must reconstruct the lost evidence or discontinue",
+        "correct": false,
+        "feedback": "There is no duty to reconstruct. The issue is fairness."
+      },
+      {
+        "id": "d",
+        "text": "The defence is entitled to an acquittal",
+        "correct": false,
+        "feedback": "The loss of evidence alone does not entitle the defendant to an acquittal."
+      }
+    ],
+    "oscoa_references": [
+      "R v Dobson [2018] EWCA Crim 1988"
+    ]
+  },
+  {
+    "id": "j-c4-001",
+    "page": "J",
+    "section": "J9",
+    "micro_skill": "J9.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "no-case",
+      "galbraith",
+      "submission",
+      "test"
+    ],
+    "question": "In R v Galbraith [1981] 1 WLR 1039, the Court of Appeal set out the test for a submission of no case to answer. Under Galbraith, the judge should stop the case where:",
+    "options": [
+      {
+        "id": "a",
+        "text": "There is any defence evidence available",
+        "correct": false,
+        "feedback": "The test is applied at the close of the prosecution case, not based on defence evidence."
+      },
+      {
+        "id": "b",
+        "text": "There is no evidence the defendant committed the crime, or the evidence is so tenuous/weak that a properly directed jury could not properly convict",
+        "correct": true,
+        "feedback": "Correct. Galbraith established two limbs: (a) no evidence, or (b) evidence so tenuous that no reasonable jury could convict."
+      },
+      {
+        "id": "c",
+        "text": "The judge prefers the defence's account",
+        "correct": false,
+        "feedback": "The judge does not assess credibility at this stage \u2014 that is for the jury."
+      },
+      {
+        "id": "d",
+        "text": "The defendant has a good character",
+        "correct": false,
+        "feedback": "Good character is relevant to sentencing, not to a no-case submission."
+      }
+    ],
+    "oscoa_references": [
+      "R v Galbraith [1981] 1 WLR 1039"
+    ]
+  },
+  {
+    "id": "j-c4-002",
+    "page": "J",
+    "section": "J9",
+    "micro_skill": "J9.1",
+    "crown_level": 4,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "no-case",
+      "galbraith",
+      "credibility",
+      "jury"
+    ],
+    "question": "'Where the prosecution case depends substantially on the credibility of witnesses, the judge should withdraw the case from the jury on a no-case submission.' \u2014 True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": false,
+        "feedback": "Galbraith established that issues of credibility are generally for the jury, not the judge on a no-case submission."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": true,
+        "feedback": "Correct. Galbraith held that where the case depends on witness credibility, this is a matter for the jury. The judge should not usurp the jury's function."
+      }
+    ],
+    "oscoa_references": [
+      "R v Galbraith [1981] 1 WLR 1039"
+    ]
+  },
+  {
+    "id": "j-c4-003",
+    "page": "J",
+    "section": "J9",
+    "micro_skill": "J9.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "no-case",
+      "procedure",
+      "jury",
+      "half-time"
+    ],
+    "question": "A submission of no case to answer is made:",
+    "options": [
+      {
+        "id": "a",
+        "text": "At the opening of the prosecution case",
+        "correct": false,
+        "feedback": "The submission is made at the close of the prosecution case."
+      },
+      {
+        "id": "b",
+        "text": "At the close of the prosecution case; the jury is excused; it is argued in the jury's absence",
+        "correct": true,
+        "feedback": "Correct. The submission is made at the close of the prosecution case. The jury is excused and the argument is heard in their absence."
+      },
+      {
+        "id": "c",
+        "text": "After the defence has presented its case",
+        "correct": false,
+        "feedback": "A no-case submission is made before the defence presents evidence."
+      },
+      {
+        "id": "d",
+        "text": "Only after the summing-up",
+        "correct": false,
+        "feedback": "The submission must be made at the close of the prosecution case, well before summing-up."
+      }
+    ],
+    "oscoa_references": [
+      "R v Galbraith [1981] 1 WLR 1039"
+    ]
+  },
+  {
+    "id": "j-c4-004",
+    "page": "J",
+    "section": "J9",
+    "micro_skill": "J9.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "no-case",
+      "evidential-gap",
+      "identification",
+      "galbraith"
+    ],
+    "question": "The prosecution case for robbery relies solely on a single eyewitness who saw the offender for 'a split second' from 50 metres away at night. No forensic evidence links the defendant. The defence makes a no-case submission. Applying Galbraith, what is the likely ruling?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The submission succeeds \u2014 the identification evidence is inherently weak and tenuous",
+        "correct": true,
+        "feedback": "Correct. Under the second limb of Galbraith, where the prosecution evidence is so inherently weak or tenuous that a jury properly directed could not properly convict, the case should be stopped."
+      },
+      {
+        "id": "b",
+        "text": "The submission fails \u2014 identification is always a matter for the jury",
+        "correct": false,
+        "feedback": "While identification is typically for the jury, Galbraith's second limb applies where the evidence is so weak no reasonable jury could convict."
+      },
+      {
+        "id": "c",
+        "text": "The submission fails because a no-case submission cannot be based on the quality of identification evidence",
+        "correct": false,
+        "feedback": "Galbraith applies to all types of evidence, including identification."
+      },
+      {
+        "id": "d",
+        "text": "The judge must allow the case to proceed because a conviction is theoretically possible",
+        "correct": false,
+        "feedback": "The test is whether a properly directed jury could properly convict, not whether conviction is theoretically possible."
+      }
+    ],
+    "oscoa_references": [
+      "R v Galbraith [1981] 1 WLR 1039"
+    ]
+  },
+  {
+    "id": "j-c4-005",
+    "page": "J",
+    "section": "J9",
+    "micro_skill": "J9.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "no-case",
+      "tactical-risk",
+      "defence"
+    ],
+    "question": "If a no-case submission fails, what is the tactical consequence for the defendant?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The defendant is automatically convicted",
+        "correct": false,
+        "feedback": "A failed no-case submission does not result in automatic conviction."
+      },
+      {
+        "id": "b",
+        "text": "The defendant must then present their defence evidence \u2014 there is a risk the submission highlights weaknesses, but the trial continues",
+        "correct": true,
+        "feedback": "Correct. If the submission fails, the defendant must decide whether to give evidence and call witnesses. The tactical decision is whether making the submission is worthwhile."
+      },
+      {
+        "id": "c",
+        "text": "The defendant is entitled to a retrial",
+        "correct": false,
+        "feedback": "A failed submission does not entitle the defendant to a retrial."
+      },
+      {
+        "id": "d",
+        "text": "The judge must discharge the jury",
+        "correct": false,
+        "feedback": "A failed submission does not require jury discharge."
+      }
+    ],
+    "oscoa_references": [
+      "R v Galbraith [1981] 1 WLR 1039"
+    ]
+  },
+  {
+    "id": "j-c4-006",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J10.1",
+    "crown_level": 4,
+    "type": "msq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "sentencing",
+      "purposes",
+      "s57",
+      "sentencing-act-2020"
+    ],
+    "question": "Under s.57 of the Sentencing Act 2020, which of the following are statutory purposes of sentencing? (Select all that apply.)",
+    "options": [
+      {
+        "id": "a",
+        "text": "Punishment of offenders",
+        "correct": true,
+        "feedback": "Correct. s.57(2)(a) lists punishment as a purpose."
+      },
+      {
+        "id": "b",
+        "text": "Reduction of crime (including deterrence)",
+        "correct": true,
+        "feedback": "Correct. s.57(2)(b) lists reduction of crime, including deterrence."
+      },
+      {
+        "id": "c",
+        "text": "Reform and rehabilitation of offenders",
+        "correct": true,
+        "feedback": "Correct. s.57(2)(c) lists reform and rehabilitation."
+      },
+      {
+        "id": "d",
+        "text": "Protection of the public",
+        "correct": true,
+        "feedback": "Correct. s.57(2)(d) lists protection of the public."
+      },
+      {
+        "id": "e",
+        "text": "Making of reparation by offenders to persons affected",
+        "correct": true,
+        "feedback": "Correct. s.57(2)(e) lists reparation."
+      }
+    ],
+    "oscoa_references": [
+      "Sentencing Act 2020, s.57"
+    ]
+  },
+  {
+    "id": "j-c4-007",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J10.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "sentencing",
+      "sentencing-council",
+      "culpability",
+      "harm"
+    ],
+    "question": "Under the Sentencing Council guidelines, the court must assess:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Only the defendant's plea",
+        "correct": false,
+        "feedback": "The plea is relevant to credit, but the guideline assessment is broader."
+      },
+      {
+        "id": "b",
+        "text": "Culpability (high/medium/lesser) and harm (category 1/2/3)",
+        "correct": true,
+        "feedback": "Correct. Sentencing Council guidelines require assessment of culpability and harm to determine the starting point and category range."
+      },
+      {
+        "id": "c",
+        "text": "Only the value of property involved",
+        "correct": false,
+        "feedback": "Value is one factor but not the framework for assessment."
+      },
+      {
+        "id": "d",
+        "text": "Only the defendant's income",
+        "correct": false,
+        "feedback": "Income is relevant to fines, not the primary assessment."
+      }
+    ],
+    "oscoa_references": [
+      "Sentencing Act 2020"
+    ]
+  },
+  {
+    "id": "j-c4-008",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J10.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "sentencing",
+      "aggravating-factors",
+      "mitigating-factors"
+    ],
+    "question": "Which of the following is an aggravating factor in sentencing?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No previous convictions",
+        "correct": false,
+        "feedback": "This is a mitigating factor, not aggravating."
+      },
+      {
+        "id": "b",
+        "text": "Previous convictions, particularly of a similar nature",
+        "correct": true,
+        "feedback": "Correct. Previous convictions are a statutory aggravating factor, as are commission on bail, hostility based on protected characteristics, and breach of trust."
+      },
+      {
+        "id": "c",
+        "text": "Early guilty plea",
+        "correct": false,
+        "feedback": "An early guilty plea reduces the sentence \u2014 this is mitigation, not aggravation."
+      },
+      {
+        "id": "d",
+        "text": "Genuine remorse",
+        "correct": false,
+        "feedback": "Remorse is a mitigating factor."
+      }
+    ],
+    "oscoa_references": [
+      "Sentencing Act 2020"
+    ]
+  },
+  {
+    "id": "j-c4-009",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J10.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "sentencing",
+      "mitigation",
+      "factors"
+    ],
+    "question": "Which of the following is NOT a recognised mitigating factor under the Sentencing Council guidelines?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Good character and no previous convictions",
+        "correct": false,
+        "feedback": "Good character is a recognised mitigating factor."
+      },
+      {
+        "id": "b",
+        "text": "Remorse and cooperation with the investigation",
+        "correct": false,
+        "feedback": "Both are recognised mitigating factors."
+      },
+      {
+        "id": "c",
+        "text": "The defendant's refusal to accept the jury's verdict",
+        "correct": true,
+        "feedback": "Correct. Refusal to accept guilt after trial is not mitigating. However, a guilty plea (accepting responsibility) attracts credit."
+      },
+      {
+        "id": "d",
+        "text": "Minor role in the offending",
+        "correct": false,
+        "feedback": "A minor or peripheral role is a recognised mitigating factor."
+      }
+    ],
+    "oscoa_references": [
+      "Sentencing Act 2020"
+    ]
+  },
+  {
+    "id": "j-c4-010",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J10.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "sentencing",
+      "assessment",
+      "totality"
+    ],
+    "question": "A defendant is sentenced for three offences: burglary, handling stolen goods, and assault on a police officer. The total custodial terms under the guidelines would be 5 years. The judge must apply the totality principle. What does this require?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Impose the maximum sentence for each offence to run concurrently",
+        "correct": false,
+        "feedback": "The totality principle does not require maximum concurrent sentences."
+      },
+      {
+        "id": "b",
+        "text": "Ensure the total sentence is just and proportionate to the overall offending behaviour, adjusting either by making sentences concurrent or reducing individual sentences",
+        "correct": true,
+        "feedback": "Correct. The totality principle requires the total sentence to reflect all offending behaviour but remain just and proportionate."
+      },
+      {
+        "id": "c",
+        "text": "Impose consecutive sentences for all offences without reduction",
+        "correct": false,
+        "feedback": "This may result in a disproportionate total sentence."
+      },
+      {
+        "id": "d",
+        "text": "Sentence only for the most serious offence",
+        "correct": false,
+        "feedback": "The court must sentence for all offences, applying totality to the aggregate."
+      }
+    ],
+    "oscoa_references": [
+      "Sentencing Act 2020"
+    ]
+  },
+  {
+    "id": "j-c4-011",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J10.2",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "guilty-plea",
+      "credit",
+      "s73",
+      "sentencing-act-2020"
+    ],
+    "question": "Under s.73 of the Sentencing Act 2020, a guilty plea at the first reasonable opportunity (first hearing) attracts a reduction of up to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "1/5",
+        "correct": false,
+        "feedback": "The maximum reduction at first hearing is greater."
+      },
+      {
+        "id": "b",
+        "text": "1/3",
+        "correct": true,
+        "feedback": "Correct. A guilty plea at the first reasonable opportunity attracts a maximum 1/3 reduction."
+      },
+      {
+        "id": "c",
+        "text": "1/2",
+        "correct": false,
+        "feedback": "1/2 exceeds the statutory maximum."
+      },
+      {
+        "id": "d",
+        "text": "1/4",
+        "correct": false,
+        "feedback": "1/4 is the reduction for a plea after the first hearing but before PCMH."
+      }
+    ],
+    "oscoa_references": [
+      "Sentencing Act 2020, s.73"
+    ]
+  },
+  {
+    "id": "j-c4-012",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J10.2",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "guilty-plea",
+      "credit",
+      "timing",
+      "reduction"
+    ],
+    "question": "A defendant pleads guilty after the first hearing but before the PCMH (trial date set). What is the maximum reduction available?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1/3",
+        "correct": false,
+        "feedback": "1/3 is for plea at the first reasonable opportunity."
+      },
+      {
+        "id": "b",
+        "text": "1/4",
+        "correct": true,
+        "feedback": "Correct. A plea after the first hearing but before PCMH or trial date is set attracts a maximum 1/4 reduction."
+      },
+      {
+        "id": "c",
+        "text": "1/10",
+        "correct": false,
+        "feedback": "1/10 is for a plea at the door of court on the trial day."
+      },
+      {
+        "id": "d",
+        "text": "No reduction \u2014 the opportunity for credit is lost",
+        "correct": false,
+        "feedback": "Credit is still available at reduced levels for later pleas."
+      }
+    ],
+    "oscoa_references": [
+      "Sentencing Act 2020, s.73"
+    ]
+  },
+  {
+    "id": "j-c4-013",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J10.2",
+    "crown_level": 4,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "guilty-plea",
+      "credit",
+      "mandatory"
+    ],
+    "question": "'The 1/3 reduction for a guilty plea at the first opportunity is always available, even in the strongest prosecution cases.' \u2014 True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. The maximum 1/3 reduction is always available at the earliest opportunity, regardless of the strength of the prosecution case."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "The 1/3 reduction is discretionary, but as a general principle should be given at the earliest reasonable opportunity even in strong cases."
+      }
+    ],
+    "oscoa_references": [
+      "Sentencing Act 2020, s.73"
+    ]
+  },
+  {
+    "id": "j-c4-014",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J10.2",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "guilty-plea",
+      "tactics",
+      "delay",
+      "credit"
+    ],
+    "question": "A defendant is charged with a serious either-way offence. The evidence is strong. The solicitor advises pleading guilty at the first hearing. What is the primary benefit?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The defendant avoids the stress of a trial and community service",
+        "correct": false,
+        "feedback": "These are secondary benefits, not the primary sentencing advantage."
+      },
+      {
+        "id": "b",
+        "text": "Maximum 1/3 credit on sentence, which on a custodial sentence can significantly reduce the length of imprisonment",
+        "correct": true,
+        "feedback": "Correct. The primary benefit is the 1/3 reduction on sentence. On a significant custodial term, this makes a substantial difference."
+      },
+      {
+        "id": "c",
+        "text": "The defendant cannot be sent to prison if they plead guilty at the first hearing",
+        "correct": false,
+        "feedback": "A guilty plea does not immunise the defendant from custody."
+      },
+      {
+        "id": "d",
+        "text": "The prosecution may drop the charges entirely",
+        "correct": false,
+        "feedback": "A guilty plea at first hearing does not necessarily lead to charges being dropped."
+      }
+    ],
+    "oscoa_references": [
+      "Sentencing Act 2020, s.73"
+    ]
+  },
+  {
+    "id": "j-c4-015",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J10.3",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "sentencing",
+      "mitigation-bundle",
+      "contents"
+    ],
+    "question": "A comprehensive mitigation bundle for sentencing should include:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Only a letter from the defendant expressing remorse",
+        "correct": false,
+        "feedback": "A mitigation bundle should contain more than just a remorse letter."
+      },
+      {
+        "id": "b",
+        "text": "Character references, medical evidence, proof of employment/education, remorse letter, certificates of courses completed, and proof of charitable work",
+        "correct": true,
+        "feedback": "Correct. A comprehensive bundle addresses all aspects of personal mitigation and rehabilitation."
+      },
+      {
+        "id": "c",
+        "text": "Only a list of previous convictions",
+        "correct": false,
+        "feedback": "Previous convictions are aggravating, not mitigating. The bundle focuses on mitigation."
+      },
+      {
+        "id": "d",
+        "text": "A copy of the prosecution's case summary",
+        "correct": false,
+        "feedback": "This is not mitigation material."
+      }
+    ],
+    "oscoa_references": [
+      "Sentencing Act 2020"
+    ]
+  },
+  {
+    "id": "j-c4-016",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J10.3",
+    "crown_level": 4,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "sentencing",
+      "suspended-sentence",
+      "sentencing-act-2020"
+    ],
+    "question": "'Under the Sentencing Act 2020, a custodial sentence may be suspended for up to 2 years with requirements.' \u2014 True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. Part 2, Chapter 4 of the Sentencing Act 2020 permits suspension of a custodial sentence for up to 2 years with requirements."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "The Sentencing Act 2020 does permit suspension for up to 2 years."
+      }
+    ],
+    "oscoa_references": [
+      "Sentencing Act 2020, Part 2, Ch 4"
+    ]
+  },
+  {
+    "id": "j-c4-017",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J10.3",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "sentencing",
+      "exceptional-circumstances",
+      "statutory-minimum"
+    ],
+    "question": "A defendant is convicted of an offence carrying a statutory minimum sentence. When can the court depart from the statutory minimum?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Never \u2014 statutory minimum sentences are absolute",
+        "correct": false,
+        "feedback": "The court may depart in exceptional circumstances."
+      },
+      {
+        "id": "b",
+        "text": "Where there are exceptional circumstances relating to the offence or the offender that justify not imposing the minimum",
+        "correct": true,
+        "feedback": "Correct. The court may depart from a statutory minimum where there are particular exceptional circumstances which would make it unjust to impose the minimum."
+      },
+      {
+        "id": "c",
+        "text": "Where the defendant pleads guilty",
+        "correct": false,
+        "feedback": "A guilty plea provides credit but does not by itself create exceptional circumstances."
+      },
+      {
+        "id": "d",
+        "text": "Where the defendant has no previous convictions",
+        "correct": false,
+        "feedback": "Lack of previous convictions is a mitigating factor but rarely constitutes exceptional circumstances alone."
+      }
+    ],
+    "oscoa_references": [
+      "Sentencing Act 2020"
+    ]
+  },
+  {
+    "id": "j-c4-018",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J10.3",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "sentencing",
+      "suspended-sentence",
+      "loophole",
+      "mitigation"
+    ],
+    "question": "A defendant convicted of a serious offence faces a custodial sentence of 18 months. The defence argues for a suspended sentence. What must the defence demonstrate to persuade the court to suspend?",
+    "options": [
+      {
+        "id": "a",
+        "text": "That the defendant promises not to reoffend",
+        "correct": false,
+        "feedback": "A bare promise is insufficient. The court requires more concrete factors."
+      },
+      {
+        "id": "b",
+        "text": "That the defendant poses a low risk of reoffending, there is a realistic prospect of rehabilitation, and appropriate requirements (unpaid work, curfew, programme) can be imposed",
+        "correct": true,
+        "feedback": "Correct. The court considers whether suspension is appropriate having regard to the offender's risk, rehabilitation prospects, and suitability of community requirements. This is a key tactical loophole for avoiding immediate custody."
+      },
+      {
+        "id": "c",
+        "text": "That the offence was not serious",
+        "correct": false,
+        "feedback": "If the offence itself is not serious, a non-custodial sentence may be more appropriate than a suspended sentence."
+      },
+      {
+        "id": "d",
+        "text": "That the defendant has employment \u2014 suspension is automatic for employed defendants",
+        "correct": false,
+        "feedback": "Employment is relevant but does not mandate suspension."
+      }
+    ],
+    "oscoa_references": [
+      "Sentencing Act 2020, Part 2, Ch 4"
+    ]
+  },
+  {
+    "id": "j-c4-019",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J11.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "confiscation",
+      "poca-2002",
+      "benefit",
+      "available-amount"
+    ],
+    "question": "Under POCA 2002, Part 2, a confiscation order is calculated as:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The total value of all benefits from criminal conduct",
+        "correct": false,
+        "feedback": "This is the benefit figure, but the order may be lower."
+      },
+      {
+        "id": "b",
+        "text": "The lower of the benefit figure or the available amount (the defendant's realisable assets)",
+        "correct": true,
+        "feedback": "Correct. The confiscation order is the lower of the benefit figure and the available amount at the time of the hearing."
+      },
+      {
+        "id": "c",
+        "text": "A fixed percentage of the defendant's income",
+        "correct": false,
+        "feedback": "Confiscation is not income-based."
+      },
+      {
+        "id": "d",
+        "text": "The value of the offence as determined by the jury",
+        "correct": false,
+        "feedback": "The jury does not determine confiscation. It is determined by the judge at a separate hearing."
+      }
+    ],
+    "oscoa_references": [
+      "Proceeds of Crime Act 2002, Part 2"
+    ]
+  },
+  {
+    "id": "j-c4-020",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J11.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "confiscation",
+      "criminal-lifestyle",
+      "s10",
+      "assumptions"
+    ],
+    "question": "Under POCA 2002, s.10, where the defendant has a criminal lifestyle, which statutory assumptions apply?",
+    "options": [
+      {
+        "id": "a",
+        "text": "All property held by the defendant is automatically forfeit",
+        "correct": false,
+        "feedback": "This is too broad and inaccurate."
+      },
+      {
+        "id": "b",
+        "text": "All property received and expenditure incurred by the defendant in the 6 years before proceedings are assumed to be the benefit of criminal conduct (unless the defendant proves otherwise or there is a serious risk of injustice)",
+        "correct": true,
+        "feedback": "Correct. s.10 creates statutory assumptions for criminal lifestyle cases, covering property and expenditure over 6 years, rebuttable by the defendant."
+      },
+      {
+        "id": "c",
+        "text": "Only property traceable to the specific offence of conviction",
+        "correct": false,
+        "feedback": "The criminal lifestyle provisions go beyond the specific offence."
+      },
+      {
+        "id": "d",
+        "text": "The assumptions apply only to cash assets",
+        "correct": false,
+        "feedback": "The assumptions cover all property transfers and expenditure."
+      }
+    ],
+    "oscoa_references": [
+      "Proceeds of Crime Act 2002, s.10"
+    ]
+  },
+  {
+    "id": "j-c4-021",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J11.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "confiscation",
+      "hidden-assets",
+      "s10a",
+      "burden"
+    ],
+    "question": "Under POCA 2002, s.10A(2), where the prosecution alleges the defendant has hidden assets (available amount exceeds the disclosed assets), the burden of proof rests on:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The prosecution, beyond reasonable doubt",
+        "correct": false,
+        "feedback": "The burden is not on the prosecution for this specific issue."
+      },
+      {
+        "id": "b",
+        "text": "The defendant, on the balance of probabilities, to prove the available amount is less than the benefit figure",
+        "correct": true,
+        "feedback": "Correct. s.10A(2) places the legal burden on the defendant to prove on the balance of probabilities that the available amount is insufficient to meet the benefit figure. A critical loophole to be aware of."
+      },
+      {
+        "id": "c",
+        "text": "The court, to determine the matter on its own initiative",
+        "correct": false,
+        "feedback": "The court determines after evidence, but the burden is on the defendant."
+      },
+      {
+        "id": "d",
+        "text": "An independent forensic accountant appointed by the court",
+        "correct": false,
+        "feedback": "An accountant may assist but does not bear the legal burden."
+      }
+    ],
+    "oscoa_references": [
+      "Proceeds of Crime Act 2002, s.10A"
+    ]
+  },
+  {
+    "id": "j-c4-022",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J11.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "confiscation",
+      "benefit-figure",
+      "net-profit",
+      "challenge"
+    ],
+    "question": "A defendant convicted of fraud obtained \u00a3500,000 from victims but spent \u00a3200,000 on running the fraudulent scheme (legitimate business expenses). When calculating the benefit figure, what is the correct tactical argument for the defence?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The benefit figure is \u00a3300,000 \u2014 net profit only",
+        "correct": false,
+        "feedback": "Generally, POCA calculates benefit as gross receipts, not net profit."
+      },
+      {
+        "id": "b",
+        "text": "The benefit figure is \u00a3500,000 \u2014 gross receipts, but argue that the figure is disproportionate and seek a reduced order",
+        "correct": true,
+        "feedback": "Correct. The general rule is gross receipts. However, the defence may argue the available amount is lower and seek proportionality in the order."
+      },
+      {
+        "id": "c",
+        "text": "The benefit figure is zero \u2014 the expenses cancel out the proceeds",
+        "correct": false,
+        "feedback": "POCA does not adopt a net profit approach for fraud."
+      },
+      {
+        "id": "d",
+        "text": "Only the amount actually recovered from victims can be the benefit figure",
+        "correct": false,
+        "feedback": "POCA calculates the benefit as the total obtained, not the amount retained."
+      }
+    ],
+    "oscoa_references": [
+      "Proceeds of Crime Act 2002, s.76"
+    ]
+  },
+  {
+    "id": "j-c4-023",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J11.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "confiscation",
+      "rebuttal",
+      "statutory-assumptions",
+      "loophole"
+    ],
+    "question": "The prosecution relies on s.10 POCA 2002 statutory assumptions (criminal lifestyle). What is the best defence tactic to rebut the assumptions?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Argue the assumptions do not apply because the defendant was not a professional criminal",
+        "correct": false,
+        "feedback": "Criminal lifestyle is defined by specific triggers, not by the defendant's self-characterisation."
+      },
+      {
+        "id": "b",
+        "text": "Demonstrate specific property came from a legitimate source \u2014 inheritance, legitimate business, pre-criminal earnings \u2014 with documentary evidence",
+        "correct": true,
+        "feedback": "Correct. The statutory assumptions are rebuttable. The defence should adduce evidence of legitimate income sources to demonstrate specific property was not derived from crime. This is a key tactical loophole."
+      },
+      {
+        "id": "c",
+        "text": "Refuse to participate in the confiscation proceedings",
+        "correct": false,
+        "feedback": "Non-participation does not rebut the assumptions."
+      },
+      {
+        "id": "d",
+        "text": "Argue the assumptions violate Article 6 ECHR",
+        "correct": false,
+        "feedback": "The assumptions have been held compatible with Article 6, subject to the serious risk of injustice safeguard."
+      }
+    ],
+    "oscoa_references": [
+      "Proceeds of Crime Act 2002, s.10"
+    ]
+  },
+  {
+    "id": "j-c5-001",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J12.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "appeals",
+      "magistrates-court",
+      "crown-court",
+      "de-novo"
+    ],
+    "question": "An appeal from the Magistrates' Court to the Crown Court against conviction or sentence is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Limited to points of law only",
+        "correct": false,
+        "feedback": "An appeal by way of case stated is limited to points of law. Crown Court appeal is different."
+      },
+      {
+        "id": "b",
+        "text": "A re-hearing de novo \u2014 the Crown Court hears the case afresh, and the defendant has an automatic right",
+        "correct": true,
+        "feedback": "Correct. Appeal to the Crown Court is a full re-hearing de novo. The defendant has an automatic right (no leave required)."
+      },
+      {
+        "id": "c",
+        "text": "Available only with leave of the Crown Court",
+        "correct": false,
+        "feedback": "No leave is required for appeal to the Crown Court."
+      },
+      {
+        "id": "d",
+        "text": "Limited to appealing sentence, not conviction",
+        "correct": false,
+        "feedback": "Both conviction and sentence may be appealed."
+      }
+    ],
+    "oscoa_references": [
+      "Magistrates' Courts Act 1980",
+      "Criminal Procedure Rules, Part 63"
+    ]
+  },
+  {
+    "id": "j-c5-002",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J12.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "appeals",
+      "magistrates-court",
+      "case-stated",
+      "high-court"
+    ],
+    "question": "An appeal by way of case stated from the Magistrates' Court to the High Court (Divisional Court) is appropriate where:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The defendant wants a re-hearing of the facts",
+        "correct": false,
+        "feedback": "A case stated appeal does not involve a factual re-hearing."
+      },
+      {
+        "id": "b",
+        "text": "There is an alleged error of law or excess of jurisdiction \u2014 the Magistrates state the case and the High Court rules on legal correctness",
+        "correct": true,
+        "feedback": "Correct. Case stated is the mechanism for challenging legal errors. The Magistrates state the facts found and the question of law, and the High Court determines whether the decision was legally correct."
+      },
+      {
+        "id": "c",
+        "text": "The defendant wants to call new witnesses",
+        "correct": false,
+        "feedback": "Case stated is not the mechanism for fresh evidence."
+      },
+      {
+        "id": "d",
+        "text": "The defendant missed the 21-day time limit for Crown Court appeal",
+        "correct": false,
+        "feedback": "Case stated has its own time limit (21 days) and is not an alternative for missed Crown Court appeals."
+      }
+    ],
+    "oscoa_references": [
+      "Magistrates' Courts Act 1980, s.111",
+      "Criminal Procedure Rules, Part 63"
+    ]
+  },
+  {
+    "id": "j-c5-003",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J12.1",
+    "crown_level": 5,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "appeals",
+      "magistrates-court",
+      "time-limit",
+      "21-days"
+    ],
+    "question": "'An appeal from the Magistrates' Court to the Crown Court must be lodged within 21 days of the decision.' \u2014 True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. CPR 63.2 and 63.4 provide a 21-day time limit from the date of sentence or decision."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "The time limit is 21 days under the Criminal Procedure Rules."
+      }
+    ],
+    "oscoa_references": [
+      "Criminal Procedure Rules 63.2, 63.4"
+    ]
+  },
+  {
+    "id": "j-c5-004",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J12.2",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "appeals",
+      "crown-court",
+      "court-of-appeal",
+      "leave"
+    ],
+    "question": "An appeal against conviction from the Crown Court to the Court of Appeal (Criminal Division) requires:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Automatic right \u2014 no leave required",
+        "correct": false,
+        "feedback": "Unlike Magistrates' Court appeals, Crown Court appeals require leave."
+      },
+      {
+        "id": "b",
+        "text": "Leave of the Court of Appeal (or a single judge), and the conviction must be unsafe",
+        "correct": true,
+        "feedback": "Correct. s.1 CAA 1968 requires leave. s.2(1) provides the test: the Court shall allow an appeal if the conviction is unsafe."
+      },
+      {
+        "id": "c",
+        "text": "Leave of the trial judge only",
+        "correct": false,
+        "feedback": "Leave is from the Court of Appeal or a single judge, not the trial judge."
+      },
+      {
+        "id": "d",
+        "text": "A certificate from the Attorney General",
+        "correct": false,
+        "feedback": "No AG certificate is required for a defendant's appeal."
+      }
+    ],
+    "oscoa_references": [
+      "Criminal Appeal Act 1968, s.1"
+    ]
+  },
+  {
+    "id": "j-c5-005",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J12.2",
+    "crown_level": 5,
+    "type": "msq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "appeals",
+      "crown-court",
+      "fresh-evidence",
+      "test"
+    ],
+    "question": "Under the Criminal Appeal Act 1968, fresh evidence may be received on appeal if it meets certain conditions. Which of the following are required? (Select all that apply.)",
+    "options": [
+      {
+        "id": "a",
+        "text": "The evidence appears to be capable of belief (credible)",
+        "correct": true,
+        "feedback": "Correct. The evidence must be apparently credible."
+      },
+      {
+        "id": "b",
+        "text": "The evidence would have been admissible at trial",
+        "correct": true,
+        "feedback": "Correct. The evidence must be of a type admissible in the proceedings."
+      },
+      {
+        "id": "c",
+        "text": "The evidence affords a ground for allowing the appeal",
+        "correct": true,
+        "feedback": "Correct. The evidence must be capable of affecting the safety of the conviction."
+      },
+      {
+        "id": "d",
+        "text": "There is a reasonable explanation for the failure to adduce the evidence at trial",
+        "correct": true,
+        "feedback": "Correct. The failure to adduce at trial must be explained."
+      },
+      {
+        "id": "e",
+        "text": "The evidence must have been discovered by the police",
+        "correct": false,
+        "feedback": "The evidence need not have been discovered by the police; it may come from any source."
+      }
+    ],
+    "oscoa_references": [
+      "Criminal Appeal Act 1968, s.23"
+    ]
+  },
+  {
+    "id": "j-c5-006",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J12.2",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "appeals",
+      "crown-court",
+      "misdirection",
+      "unsafe"
+    ],
+    "question": "At trial, the judge misdirected the jury on the burden of proof, stating the defendant must 'prove their innocence'. On appeal, the Court of Appeal applies s.2(1) CAA 1968. What is the likely outcome?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The conviction is upheld if there was other strong evidence of guilt",
+        "correct": false,
+        "feedback": "A misdirection on the burden of proof is a fundamental error."
+      },
+      {
+        "id": "b",
+        "text": "The conviction is quashed \u2014 a misdirection on the burden of proof renders the conviction unsafe under s.2(1)",
+        "correct": true,
+        "feedback": "Correct. A misdirection on the burden of proof is a fundamental error going to the heart of trial fairness, rendering the conviction unsafe."
+      },
+      {
+        "id": "c",
+        "text": "The court orders a retrial with the same judge",
+        "correct": false,
+        "feedback": "If a retrial is ordered, it would not be with the same judge."
+      },
+      {
+        "id": "d",
+        "text": "The appeal is dismissed because the jury would have convicted anyway",
+        "correct": false,
+        "feedback": "The 'would have convicted anyway' proviso is very rarely applied to burden of proof misdirections."
+      }
+    ],
+    "oscoa_references": [
+      "Criminal Appeal Act 1968, s.2(1)"
+    ]
+  },
+  {
+    "id": "j-c5-007",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J12.2",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "appeals",
+      "crown-court",
+      "out-of-time",
+      "loophole"
+    ],
+    "question": "A defendant wishes to appeal a Crown Court conviction 3 months after the 28-day time limit has expired. What must the defendant establish?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Time limits are absolute \u2014 late appeals are never permitted",
+        "correct": false,
+        "feedback": "The Court of Appeal has discretion to extend time."
+      },
+      {
+        "id": "b",
+        "text": "The court has discretion to extend time on application \u2014 the defendant must demonstrate a reasonable explanation for the delay and that the appeal has merit. This is a critical loophole for cases where fresh evidence or a change of law emerges late",
+        "correct": true,
+        "feedback": "Correct. Out-of-time appeals are permitted where there is a reasonable explanation and the interests of justice require an extension. This is a key appellate loophole."
+      },
+      {
+        "id": "c",
+        "text": "Late appeals are only permitted for sentence, not conviction",
+        "correct": false,
+        "feedback": "Extension applies to both conviction and sentence appeals."
+      },
+      {
+        "id": "d",
+        "text": "A late appeal requires the Attorney General's consent",
+        "correct": false,
+        "feedback": "No AG consent is required."
+      }
+    ],
+    "oscoa_references": [
+      "R v Thorsby [2014] EWCA Crim 1651",
+      "Criminal Procedure Rules, Part 39"
+    ]
+  },
+  {
+    "id": "j-c5-008",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J12.3",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "appeals",
+      "attorney-general",
+      "unduly-lenient",
+      "s36"
+    ],
+    "question": "Under s.36 of the Criminal Justice Act 1988, the Attorney General may refer a sentence to the Court of Appeal if:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The sentence is unduly lenient \u2014 and the Court of Appeal may increase it",
+        "correct": true,
+        "feedback": "Correct. s.36 permits the AG to refer an unduly lenient sentence. Unlike a defendant's appeal, the Court of Appeal may increase the sentence."
+      },
+      {
+        "id": "b",
+        "text": "The defendant has appealed against conviction",
+        "correct": false,
+        "feedback": "An AG Reference is independent of any defendant appeal."
+      },
+      {
+        "id": "c",
+        "text": "The sentence was imposed by the Magistrates' Court",
+        "correct": false,
+        "feedback": "AG References apply to Crown Court sentences for specified offences."
+      },
+      {
+        "id": "d",
+        "text": "The prosecution disagrees with the sentence for any reason",
+        "correct": false,
+        "feedback": "The test is 'unduly lenient', not mere disagreement."
+      }
+    ],
+    "oscoa_references": [
+      "Criminal Justice Act 1988, s.36"
+    ]
+  },
+  {
+    "id": "j-c5-009",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J12.3",
+    "crown_level": 5,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "appeals",
+      "attorney-general",
+      "risk",
+      "sentence-increase"
+    ],
+    "question": "'A defendant who appeals their own sentence to the Court of Appeal risks their sentence being increased.' \u2014 True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": false,
+        "feedback": "The Court of Appeal may not increase a sentence on a defendant's own appeal. The risk of increase only arises on an AG Reference."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": true,
+        "feedback": "Correct. The Court of Appeal has no power to increase a sentence on a defendant's own appeal. Only the Attorney General may seek an increase via s.36 CJA 1988."
+      }
+    ],
+    "oscoa_references": [
+      "Criminal Appeal Act 1968, s.9"
+    ]
+  },
+  {
+    "id": "j-c5-010",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J13.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "ccrc",
+      "criminal-appeal-act-1995",
+      "miscarriage",
+      "referral"
+    ],
+    "question": "The Criminal Cases Review Commission (CCRC) was established under which Act?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Criminal Justice Act 2003",
+        "correct": false,
+        "feedback": "The CCRC was established earlier."
+      },
+      {
+        "id": "b",
+        "text": "Criminal Appeal Act 1995, Part II",
+        "correct": true,
+        "feedback": "Correct. The CCRC was established by the Criminal Appeal Act 1995 as an independent body to review potential miscarriages of justice."
+      },
+      {
+        "id": "c",
+        "text": "Police and Criminal Evidence Act 1984",
+        "correct": false,
+        "feedback": "PACE 1984 concerns police powers, not the CCRC."
+      },
+      {
+        "id": "d",
+        "text": "Human Rights Act 1998",
+        "correct": false,
+        "feedback": "The CCRC pre-dates the HRA 1998 by three years."
+      }
+    ],
+    "oscoa_references": [
+      "Criminal Appeal Act 1995, Part II"
+    ]
+  },
+  {
+    "id": "j-c5-011",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J13.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "ccrc",
+      "test",
+      "real-possibility",
+      "pearson"
+    ],
+    "question": "The test for the CCRC to refer a case to the Court of Appeal is that there is a 'real possibility' the conviction would not be upheld. In R v CCRC ex p Pearson [2000] 1 Cr App R 141, 'real possibility' means:",
+    "options": [
+      {
+        "id": "a",
+        "text": "More likely than not",
+        "correct": false,
+        "feedback": "The test is lower than the balance of probabilities."
+      },
+      {
+        "id": "b",
+        "text": "More than an outside chance or bare possibility \u2014 a real (not fanciful) possibility",
+        "correct": true,
+        "feedback": "Correct. Pearson defined 'real possibility' as more than an outside chance but not requiring proof on balance of probabilities."
+      },
+      {
+        "id": "c",
+        "text": "Any possibility, however remote",
+        "correct": false,
+        "feedback": "A remote or fanciful possibility is insufficient."
+      },
+      {
+        "id": "d",
+        "text": "A certainty of acquittal",
+        "correct": false,
+        "feedback": "The test is far lower than certainty."
+      }
+    ],
+    "oscoa_references": [
+      "R v CCRC ex p Pearson [2000] 1 Cr App R 141",
+      "Criminal Appeal Act 1995, s.13"
+    ]
+  },
+  {
+    "id": "j-c5-012",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J13.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "ccrc",
+      "fresh-evidence",
+      "new-technique",
+      "referral"
+    ],
+    "question": "5 years after conviction, new DNA analysis techniques become available. The defendant applies to the CCRC, having exhausted all appeals. What must the CCRC consider?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Whether the defendant has served their sentence \u2014 if so, the CCRC cannot act",
+        "correct": false,
+        "feedback": "The CCRC can refer regardless of whether the sentence has been served."
+      },
+      {
+        "id": "b",
+        "text": "Whether the new evidence or argument gives rise to a real possibility the conviction would not be upheld, and whether there is a reasonable explanation for not raising it at trial or on appeal",
+        "correct": true,
+        "feedback": "Correct. The CCRC must find a real possibility and that the new evidence/argument was not raised at trial or on appeal."
+      },
+      {
+        "id": "c",
+        "text": "Whether the trial judge is still available to hear a retrial",
+        "correct": false,
+        "feedback": "Judge availability is not a CCRC consideration."
+      },
+      {
+        "id": "d",
+        "text": "Whether the defendant can afford legal representation for the appeal",
+        "correct": false,
+        "feedback": "CCRC referral does not depend on the defendant's means."
+      }
+    ],
+    "oscoa_references": [
+      "Criminal Appeal Act 1995, s.13"
+    ]
+  },
+  {
+    "id": "j-c5-013",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J14.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "loophole",
+      "abuse-of-process",
+      "r-v-bennett",
+      "extradition"
+    ],
+    "question": "A state agent lures the defendant from Country X to the UK under false pretences, circumventing the Extradition Act 2003, to arrest them on arrival. Applying R v Horseferry Road Magistrates ex p Bennett [1994] 1 AC 42, what is the strongest defence application?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A submission of no case to answer",
+        "correct": false,
+        "feedback": "This does not address the manner in which the defendant was brought before the court."
+      },
+      {
+        "id": "b",
+        "text": "An application to stay proceedings as an abuse of process \u2014 the deliberate circumvention of extradition procedures offends the conscience of the court",
+        "correct": true,
+        "feedback": "Correct. Bennett is the leading authority. Deliberate manipulation of extradition may warrant a stay."
+      },
+      {
+        "id": "c",
+        "text": "An application for bail",
+        "correct": false,
+        "feedback": "Bail addresses detention pending trial, not the fundamental legitimacy of the proceedings."
+      },
+      {
+        "id": "d",
+        "text": "A diplomatic complaint to Country X",
+        "correct": false,
+        "feedback": "A diplomatic complaint does not provide a remedy in the criminal proceedings."
+      }
+    ],
+    "oscoa_references": [
+      "R v Horseferry Road Magistrates' Court ex p Bennett [1994] 1 AC 42"
+    ]
+  },
+  {
+    "id": "j-c5-014",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J14.2",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "loophole",
+      "s78",
+      "entrapment",
+      "r-v-loosely"
+    ],
+    "question": "An undercover officer befriends the defendant over 3 months and persistently encourages them to commit a burglary, providing plans, tools, and a getaway vehicle. The defendant, who has no criminal history, eventually commits the offence. At trial, applying R v Loosely [2001] UKHL 53:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The evidence is admissible \u2014 the defendant chose to commit the crime",
+        "correct": false,
+        "feedback": "Loosely distinguishes between opportunity and instigation."
+      },
+      {
+        "id": "b",
+        "text": "This is entrapment \u2014 the state instigated the crime. The evidence should be excluded under s.78 and the proceedings stayed as an abuse",
+        "correct": true,
+        "feedback": "Correct. Providing plans, tools, a vehicle, and persistent encouragement goes beyond providing an opportunity. This constitutes instigation under Loosely."
+      },
+      {
+        "id": "c",
+        "text": "The defendant may rely on the defence of duress",
+        "correct": false,
+        "feedback": "Duress requires a threat of death or serious injury, which is not present here."
+      },
+      {
+        "id": "d",
+        "text": "The officer's conduct is lawful because it was authorised under RIPA 2000",
+        "correct": false,
+        "feedback": "RIPA authorisation does not validate entrapment as defined in Loosely."
+      }
+    ],
+    "oscoa_references": [
+      "R v Loosely [2001] UKHL 53",
+      "PACE 1984, s.78"
+    ]
+  },
+  {
+    "id": "j-c5-015",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J14.3",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "loophole",
+      "disclosure",
+      "r-v-ward",
+      "non-disclosure",
+      "appeal"
+    ],
+    "question": "In R v Ward [1993] 1 WLR 619, the Court of Appeal quashed a conviction for which key reason?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The jury was biased",
+        "correct": false,
+        "feedback": "Jury bias was not the issue in Ward."
+      },
+      {
+        "id": "b",
+        "text": "The prosecution failed to disclose scientific evidence which would have assisted the defence \u2014 material non-disclosure rendered the conviction unsafe",
+        "correct": true,
+        "feedback": "Correct. Ward is the leading authority on the catastrophic consequences of prosecution non-disclosure of scientific evidence. The conviction was quashed for material non-disclosure."
+      },
+      {
+        "id": "c",
+        "text": "The defendant was not legally represented",
+        "correct": false,
+        "feedback": "The defendant was legally represented."
+      },
+      {
+        "id": "d",
+        "text": "The trial judge fell asleep during the evidence",
+        "correct": false,
+        "feedback": "This was not the issue in Ward."
+      }
+    ],
+    "oscoa_references": [
+      "R v Ward [1993] 1 WLR 619"
+    ]
+  },
+  {
+    "id": "j-c5-016",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J14.4",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "loophole",
+      "custody-time-limit",
+      "bail",
+      "release"
+    ],
+    "question": "A defendant has been in custody for 60 days awaiting summary trial. The prosecution has not obtained an extension of the custody time limit (56 days). What must the court do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The defendant may remain in custody \u2014 custody time limits are directory only",
+        "correct": false,
+        "feedback": "Custody time limits are mandatory, not directory."
+      },
+      {
+        "id": "b",
+        "text": "The defendant must be released on bail unless the prosecution obtains an extension \u2014 the 56-day limit has expired",
+        "correct": true,
+        "feedback": "Correct. This is a critical loophole. Once the custody time limit expires without extension, the defendant is entitled to be released on bail."
+      },
+      {
+        "id": "c",
+        "text": "The court must dismiss the charges",
+        "correct": false,
+        "feedback": "Expiry of custody time limits does not result in dismissal of charges."
+      },
+      {
+        "id": "d",
+        "text": "The defendant must be sentenced to time served",
+        "correct": false,
+        "feedback": "The remedy is release on bail, not sentencing."
+      }
+    ],
+    "oscoa_references": [
+      "Prosecution of Offences Act 1985, s.22",
+      "Prosecution of Offences (Custody Time Limits) Regulations 1987"
+    ]
+  },
+  {
+    "id": "j-c5-017",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J14.5",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "loophole",
+      "fitness-to-plead",
+      "insanity",
+      "cpia-1964"
+    ],
+    "question": "Under the Criminal Procedure (Insanity) Act 1964, a defendant is unfit to plead if they are unable to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Attend court in person",
+        "correct": false,
+        "feedback": "Physical attendance is not the test for fitness to plead."
+      },
+      {
+        "id": "b",
+        "text": "Understand the charge, understand pleas, challenge jurors, instruct lawyers, follow proceedings, or give evidence",
+        "correct": true,
+        "feedback": "Correct. These are the six criteria derived from the CP(I)A 1964. If the defendant cannot do any one, they may be found unfit."
+      },
+      {
+        "id": "c",
+        "text": "Recall the events of the alleged offence",
+        "correct": false,
+        "feedback": "Amnesia alone does not render a defendant unfit to plead."
+      },
+      {
+        "id": "d",
+        "text": "Speak English fluently",
+        "correct": false,
+        "feedback": "Language difficulties are addressed by interpreters, not fitness to plead."
+      }
+    ],
+    "oscoa_references": [
+      "Criminal Procedure (Insanity) Act 1964, s.4"
+    ]
+  },
+  {
+    "id": "j-c5-018",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J14.6",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "loophole",
+      "diplomatic-immunity",
+      "state-immunity",
+      "vcdr"
+    ],
+    "question": "Under the Diplomatic Privileges Act 1964 (incorporating the Vienna Convention on Diplomatic Relations), a diplomatic agent:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Has immunity from criminal jurisdiction for all acts, including serious crimes",
+        "correct": false,
+        "feedback": "Immunity is broad but the sending state may waive it."
+      },
+      {
+        "id": "b",
+        "text": "Enjoys complete immunity from the criminal jurisdiction of the receiving state, but this immunity may be waived by the sending state",
+        "correct": true,
+        "feedback": "Correct. Art 31 VCDR provides full criminal immunity for diplomatic agents. The sending state may waive it. This is a critical loophole applicable at the earliest opportunity."
+      },
+      {
+        "id": "c",
+        "text": "Only has immunity for acts performed in an official capacity",
+        "correct": false,
+        "feedback": "Diplomatic agents have broader immunity than functional immunity."
+      },
+      {
+        "id": "d",
+        "text": "Has no immunity for serious violent or sexual offences",
+        "correct": false,
+        "feedback": "There is no exception for serious offences \u2014 immunity is complete, subject to waiver."
+      }
+    ],
+    "oscoa_references": [
+      "Diplomatic Privileges Act 1964",
+      "Vienna Convention on Diplomatic Relations 1961"
+    ]
+  },
+  {
+    "id": "j-c5-019",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J14.7",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": [
+      "loophole",
+      "special-measures",
+      "vulnerable-defendant",
+      "intermediary"
+    ],
+    "question": "A defendant has significant learning disabilities affecting their ability to follow proceedings and give evidence. The defence applies for special measures under the Youth Justice and Criminal Evidence Act 1999. Which measure is most appropriate?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A screen to shield the defendant from the public gallery",
+        "correct": false,
+        "feedback": "Screens are commonly used for witnesses. The defendant's needs here relate to communication, not shielding."
+      },
+      {
+        "id": "b",
+        "text": "An intermediary to assist the defendant in communicating and following proceedings, together with a ground rules hearing",
+        "correct": true,
+        "feedback": "Correct. For a defendant with communication difficulties, an intermediary and ground rules hearing are the key special measures. This is a tactical loophole to ensure a fair trial."
+      },
+      {
+        "id": "c",
+        "text": "An order that the trial be held in private",
+        "correct": false,
+        "feedback": "While possible, this does not address the communication difficulties."
+      },
+      {
+        "id": "d",
+        "text": "Expedited proceedings to reduce the defendant's anxiety",
+        "correct": false,
+        "feedback": "Expedition does not address the underlying communication difficulties."
+      }
+    ],
+    "oscoa_references": [
+      "Youth Justice and Criminal Evidence Act 1999"
+    ]
+  },
+  {
+    "id": "j-c5-020",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J12.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "appeals",
+      "magistrates",
+      "conviction",
+      "sentence"
+    ],
+    "question": "A defendant convicted and sentenced in the Magistrates' Court may appeal to the Crown Court against:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Conviction only",
+        "correct": false,
+        "feedback": "Both conviction and sentence may be appealed."
+      },
+      {
+        "id": "b",
+        "text": "Sentence only",
+        "correct": false,
+        "feedback": "Both conviction and sentence may be appealed."
+      },
+      {
+        "id": "c",
+        "text": "Both conviction and sentence \u2014 a full re-hearing de novo",
+        "correct": true,
+        "feedback": "Correct. The Crown Court hears the case afresh, and the defendant may appeal against conviction, sentence, or both."
+      },
+      {
+        "id": "d",
+        "text": "Only points of law",
+        "correct": false,
+        "feedback": "An appeal on points of law is by way of case stated to the High Court."
+      }
+    ],
+    "oscoa_references": [
+      "Magistrates' Courts Act 1980",
+      "Criminal Procedure Rules, Part 63"
+    ]
+  },
+  {
+    "id": "j-c5-021",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J12.1",
+    "crown_level": 5,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "appeals",
+      "case-stated",
+      "high-court",
+      "magistrates"
+    ],
+    "question": "'An appeal by way of case stated from the Magistrates' Court may be brought by either the prosecution or the defence.' \u2014 True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. Both prosecution and defence may appeal by way of case stated to the High Court on a point of law or excess of jurisdiction."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "s.111 MCA 1980 permits either party to appeal by way of case stated."
+      }
+    ],
+    "oscoa_references": [
+      "Magistrates' Courts Act 1980, s.111"
+    ]
+  },
+  {
+    "id": "j-c5-022",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J12.2",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "appeals",
+      "crown-court",
+      "sentence",
+      "manifestly-excessive"
+    ],
+    "question": "Under s.9 of the Criminal Appeal Act 1968, an appeal against sentence from the Crown Court may be brought where the sentence is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Longer than the defendant expected",
+        "correct": false,
+        "feedback": "Subjective expectation is not the test."
+      },
+      {
+        "id": "b",
+        "text": "Manifestly excessive or wrong in principle",
+        "correct": true,
+        "feedback": "Correct. s.9 CAA 1968 permits appeal where the sentence is manifestly excessive or wrong in principle."
+      },
+      {
+        "id": "c",
+        "text": "Any custodial sentence regardless of length",
+        "correct": false,
+        "feedback": "Not all custodial sentences are appealable \u2014 there must be an arguable error."
+      },
+      {
+        "id": "d",
+        "text": "Less than the prosecution requested",
+        "correct": false,
+        "feedback": "Under-sentencing is addressed by Attorney General Reference, not defendant appeal."
+      }
+    ],
+    "oscoa_references": [
+      "Criminal Appeal Act 1968, s.9"
+    ]
+  },
+  {
+    "id": "j-c5-023",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J12.3",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "appeals",
+      "attorney-general",
+      "unduly-lenient",
+      "procedure"
+    ],
+    "question": "An Attorney General's reference of an unduly lenient sentence may only be made for:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Any offence \u2014 there is no restriction",
+        "correct": false,
+        "feedback": "The power is limited to specified offences."
+      },
+      {
+        "id": "b",
+        "text": "Offences triable only on indictment and certain specified either-way offences, and the AG must apply within 28 days of sentence",
+        "correct": true,
+        "feedback": "Correct. s.36 CJA 1988 limits AG References to specified offences, and the application must be made within 28 days."
+      },
+      {
+        "id": "c",
+        "text": "Only murder cases",
+        "correct": false,
+        "feedback": "The power extends beyond murder."
+      },
+      {
+        "id": "d",
+        "text": "Only where the sentence was a non-custodial sentence",
+        "correct": false,
+        "feedback": "The AG can refer any sentence type if unduly lenient."
+      }
+    ],
+    "oscoa_references": [
+      "Criminal Justice Act 1988, s.36"
+    ]
+  },
+  {
+    "id": "j-c5-024",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J13.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "ccrc",
+      "referral",
+      "appeal",
+      "fresh-appeal"
+    ],
+    "question": "If the CCRC refers a case to the Court of Appeal, the referral is treated as:",
+    "options": [
+      {
+        "id": "a",
+        "text": "An application for judicial review",
+        "correct": false,
+        "feedback": "A CCRC referral is not a judicial review application."
+      },
+      {
+        "id": "b",
+        "text": "A fresh appeal against conviction \u2014 the Court of Appeal considers the case as if it were an appeal brought by the defendant",
+        "correct": true,
+        "feedback": "Correct. Under s.9 CAA 1995, a CCRC referral is treated as a fresh appeal. The Court of Appeal may quash the conviction, receive fresh evidence, or order a retrial."
+      },
+      {
+        "id": "c",
+        "text": "A recommendation to the Home Secretary to grant a pardon",
+        "correct": false,
+        "feedback": "The CCRC refers to the Court of Appeal, not the executive."
+      },
+      {
+        "id": "d",
+        "text": "A re-trial in the Crown Court",
+        "correct": false,
+        "feedback": "A retrial may be ordered by the Court of Appeal, but the referral itself is treated as an appeal."
+      }
+    ],
+    "oscoa_references": [
+      "Criminal Appeal Act 1995, s.9"
+    ]
+  },
+  {
+    "id": "j-c5-025",
+    "page": "J",
+    "section": "J1",
+    "micro_skill": "J14.6",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "loophole",
+      "diplomatic-immunity",
+      "state-immunity",
+      "functional"
+    ],
+    "question": "In R v Khurts Bat [2011] EWHC 2029 (Admin), a Mongolian official allegedly abducted a person in the UK. The court held:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The official was entitled to diplomatic immunity",
+        "correct": false,
+        "feedback": "The court rejected the immunity claim."
+      },
+      {
+        "id": "b",
+        "text": "The official was not entitled to immunity \u2014 the alleged conduct was outside official functions, and functional immunity did not apply to abduction",
+        "correct": true,
+        "feedback": "Correct. Khurts Bat established that functional immunity does not extend to criminal acts such as abduction, which lie outside official capacity."
+      },
+      {
+        "id": "c",
+        "text": "State immunity barred all criminal proceedings against foreign officials",
+        "correct": false,
+        "feedback": "The State Immunity Act has exceptions, and criminal acts are generally outside immunity."
+      },
+      {
+        "id": "d",
+        "text": "The official was immune because Mongolia claimed immunity",
+        "correct": false,
+        "feedback": "A claim by the sending state is not determinative; the court decides."
+      }
+    ],
+    "oscoa_references": [
+      "R v Khurts Bat [2011] EWHC 2029 (Admin)",
+      "State Immunity Act 1978"
+    ]
+  }
+]

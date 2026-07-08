@@ -1,0 +1,4530 @@
+[
+  {
+    "id": "f-c1-001",
+    "page": "F",
+    "section": "F1",
+    "micro_skill": "F1.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "income-tax",
+      "framework"
+    ],
+    "question": "Under the Income Tax Act 2007, which types of income are subject to income tax?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Trading income and employment income only",
+        "correct": false,
+        "feedback": "Income tax also covers property, savings, and investment income."
+      },
+      {
+        "id": "b",
+        "text": "Trading income, property income, savings income, and investment income",
+        "correct": true,
+        "feedback": "Correct. Income Tax Act 2007 charges income tax on all these categories."
+      },
+      {
+        "id": "c",
+        "text": "Employment income and investment income only",
+        "correct": false,
+        "feedback": "This omits trading income and property income, which are also chargeable."
+      },
+      {
+        "id": "d",
+        "text": "Only income derived from a trade or profession",
+        "correct": false,
+        "feedback": "Income tax is not limited to trading income."
+      }
+    ],
+    "oscoa_references": [
+      "Income Tax Act 2007, s.3"
+    ]
+  },
+  {
+    "id": "f-c1-002",
+    "page": "F",
+    "section": "F1",
+    "micro_skill": "F1.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "income-tax",
+      "personal-allowance"
+    ],
+    "question": "What is the personal allowance for income tax in the 2024/25 tax year?",
+    "options": [
+      {
+        "id": "a",
+        "text": "£10,000",
+        "correct": false,
+        "feedback": "The personal allowance is higher than £10,000."
+      },
+      {
+        "id": "b",
+        "text": "£12,570",
+        "correct": true,
+        "feedback": "Correct. Personal allowance is £12,570 with tapering above £100,000."
+      },
+      {
+        "id": "c",
+        "text": "£15,000",
+        "correct": false,
+        "feedback": "The personal allowance is £12,570, not £15,000."
+      },
+      {
+        "id": "d",
+        "text": "£11,500",
+        "correct": false,
+        "feedback": "This was the allowance in an earlier tax year."
+      }
+    ],
+    "oscoa_references": [
+      "Income Tax Act 2007, s.35"
+    ]
+  },
+  {
+    "id": "f-c1-003",
+    "page": "F",
+    "section": "F1",
+    "micro_skill": "F1.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "income-tax",
+      "rates",
+      "bands"
+    ],
+    "question": "Which correctly states the UK income tax bands?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Basic rate 20%, higher rate 40%, top rate 43%",
+        "correct": false,
+        "feedback": "The additional rate is 45%, not 43%."
+      },
+      {
+        "id": "b",
+        "text": "Basic rate 20%, intermediate rate 30%, higher rate 45%",
+        "correct": false,
+        "feedback": "There is no intermediate rate of 30%."
+      },
+      {
+        "id": "c",
+        "text": "Basic rate 20%, higher rate 40%, additional rate 45%",
+        "correct": true,
+        "feedback": "Correct. UK tax bands: basic 20%, higher 40%, additional 45%."
+      },
+      {
+        "id": "d",
+        "text": "Basic rate 22%, higher rate 40%, additional rate 50%",
+        "correct": false,
+        "feedback": "The basic rate is 20% and additional rate is 45%; these rates are out of date."
+      }
+    ],
+    "oscoa_references": [
+      "Income Tax Act 2007, ss.6–10"
+    ]
+  },
+  {
+    "id": "f-c1-004",
+    "page": "F",
+    "section": "F1",
+    "micro_skill": "F1.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "income-tax",
+      "benefits-in-kind",
+      "itepa"
+    ],
+    "question": "Under which Part of ITEPA 2003 are employment benefits in kind taxed?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Part 2",
+        "correct": false,
+        "feedback": "Part 2 deals with employment income generally; benefits in kind are in Part 3."
+      },
+      {
+        "id": "b",
+        "text": "Part 3",
+        "correct": true,
+        "feedback": "Correct. ITEPA 2003, Part 3 covers employment benefits in kind."
+      },
+      {
+        "id": "c",
+        "text": "Part 5",
+        "correct": false,
+        "feedback": "Part 5 concerns pension income."
+      },
+      {
+        "id": "d",
+        "text": "Part 7",
+        "correct": false,
+        "feedback": "Part 7 deals with employment-related securities."
+      }
+    ],
+    "oscoa_references": [
+      "Income Tax (Earnings and Pensions) Act 2003, Part 3"
+    ]
+  },
+  {
+    "id": "f-c1-005",
+    "page": "F",
+    "section": "F1",
+    "micro_skill": "F1.1",
+    "crown_level": 1,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": [
+      "income-tax",
+      "loophole",
+      "cash-basis"
+    ],
+    "question": "A sole trader may choose the cash basis rather than the accruals basis to defer taxable income by delaying invoicing and managing cash receipts timing.",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. Under the cash basis (ITTOIA 2005, Part 2), income is taxed when received rather than when earned, enabling legitimate timing management."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "The cash basis does allow profit calculation on a receipts basis, so deferring income through cash management is a legitimate technique."
+      }
+    ],
+    "oscoa_references": [
+      "Income Tax (Trading and Other Income) Act 2005, Part 2"
+    ]
+  },
+  {
+    "id": "f-c1-006",
+    "page": "F",
+    "section": "F1",
+    "micro_skill": "F1.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "income-tax",
+      "loophole",
+      "allowance-tapering"
+    ],
+    "question": "An individual with income of £110,000 faces personal allowance tapering. Which strategy legitimately restores some or all of the personal allowance?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Deferring all income to the following tax year",
+        "correct": false,
+        "feedback": "Deferring all income is generally not possible for employees."
+      },
+      {
+        "id": "b",
+        "text": "Making pension contributions to bring adjusted net income below £100,000",
+        "correct": true,
+        "feedback": "Correct. Pension contributions reduce adjusted net income, restoring the personal allowance beneath the taper threshold."
+      },
+      {
+        "id": "c",
+        "text": "Claiming the remittance basis to exclude UK-source income",
+        "correct": false,
+        "feedback": "The remittance basis applies to foreign income, not UK-source income causing the tapering."
+      },
+      {
+        "id": "d",
+        "text": "Transferring income to a spouse to reduce taxable income",
+        "correct": false,
+        "feedback": "Settlements legislation would attribute the income back to the transferor."
+      }
+    ],
+    "oscoa_references": [
+      "Income Tax Act 2007, s.35",
+      "Finance Act 2004, ss.188–194"
+    ]
+  },
+  {
+    "id": "f-c1-007",
+    "page": "F",
+    "section": "F1",
+    "micro_skill": "F1.2",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "ir35",
+      "off-payroll",
+      "employment-status"
+    ],
+    "question": "What is the core test for determining whether IR35 applies to a worker providing services through a personal service company?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Whether the worker's company has more than one client",
+        "correct": false,
+        "feedback": "Multiple clients is a factor but not the core IR35 test."
+      },
+      {
+        "id": "b",
+        "text": "Whether the worker would be regarded as an employee of the client but for the intermediary company",
+        "correct": true,
+        "feedback": "Correct. The hypothetical contract test under ITEPA 2003, Part 2, Ch 8–10."
+      },
+      {
+        "id": "c",
+        "text": "Whether the worker's company pays corporation tax at the small profits rate",
+        "correct": false,
+        "feedback": "The CT rate paid by the intermediary is irrelevant to IR35."
+      },
+      {
+        "id": "d",
+        "text": "Whether the worker earns more than £50,000 per year",
+        "correct": false,
+        "feedback": "There is no earnings threshold for IR35; it depends on employment status factors."
+      }
+    ],
+    "oscoa_references": [
+      "Income Tax (Earnings and Pensions) Act 2003, Part 2, Chapters 8–10"
+    ]
+  },
+  {
+    "id": "f-c1-008",
+    "page": "F",
+    "section": "F1",
+    "micro_skill": "F1.2",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "ir35",
+      "public-sector",
+      "status-determination"
+    ],
+    "question": "Following the 2017 IR35 reform for the public sector, which party is responsible for determining the employment status of a contractor engaged via a personal service company?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The contractor's personal service company",
+        "correct": false,
+        "feedback": "Under pre-2017 rules the intermediary determined status, but the 2017 reform shifted this responsibility."
+      },
+      {
+        "id": "b",
+        "text": "The public authority client",
+        "correct": true,
+        "feedback": "Correct. Since the 2017 reform, the public authority must determine whether IR35 applies and account for PAYE and NICs (ITEPA 2003, Ch 10)."
+      },
+      {
+        "id": "c",
+        "text": "HMRC on a case-by-case referral basis",
+        "correct": false,
+        "feedback": "HMRC may investigate but the statutory duty to determine status rests with the public authority client."
+      },
+      {
+        "id": "d",
+        "text": "The contractor personally",
+        "correct": false,
+        "feedback": "The contractor does not determine their own status under the public sector IR35 rules."
+      }
+    ],
+    "oscoa_references": [
+      "Income Tax (Earnings and Pensions) Act 2003, Chapter 10"
+    ]
+  },
+  {
+    "id": "f-c1-009",
+    "page": "F",
+    "section": "F1",
+    "micro_skill": "F1.2",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "ir35",
+      "case-law",
+      "hypothetical-contract"
+    ],
+    "question": "In HMRC v Atholl House Productions Ltd [2022] EWCA Civ 1237, what was the critical factor in determining the IR35 status of Kaye Adams?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Whether the BBC provided her with equipment",
+        "correct": false,
+        "feedback": "Equipment provision was not the central issue; the court focused on the hypothetical contract analysis."
+      },
+      {
+        "id": "b",
+        "text": "Whether the terms of the hypothetical contract between Ms Adams and the BBC would have been a contract of employment or self-employment",
+        "correct": true,
+        "feedback": "Correct. The Court of Appeal held that the correct approach is to construct the hypothetical contract between the individual and the end client."
+      },
+      {
+        "id": "c",
+        "text": "Whether the personal service company had other clients",
+        "correct": false,
+        "feedback": "While relevant, this was not the critical factor identified by the Court of Appeal."
+      },
+      {
+        "id": "d",
+        "text": "Whether the BBC exercised day-to-day control over her work",
+        "correct": false,
+        "feedback": "Control is one factor but the critical holding was about the methodology of the hypothetical contract."
+      }
+    ],
+    "oscoa_references": [
+      "HMRC v Atholl House Productions Ltd [2022] EWCA Civ 1237"
+    ]
+  },
+  {
+    "id": "f-c1-010",
+    "page": "F",
+    "section": "F1",
+    "micro_skill": "F1.2",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "ir35",
+      "case-law",
+      "mutuality-of-obligation"
+    ],
+    "question": "Which factor is a key indicator against an employment relationship in the IR35 context?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The worker uses their own laptop",
+        "correct": false,
+        "feedback": "Providing minor equipment is a weak indicator and not determinative of self-employment."
+      },
+      {
+        "id": "b",
+        "text": "Absence of mutuality of obligation — the client is not obliged to offer work and the worker is not obliged to accept it",
+        "correct": true,
+        "feedback": "Correct. Mutuality of obligation (MOO) is a fundamental requirement for a contract of employment. Its absence strongly points towards self-employment — Pimlico Plumbers v Smith [2018] UKSC 29."
+      },
+      {
+        "id": "c",
+        "text": "The contract is for a fixed term of under 12 months",
+        "correct": false,
+        "feedback": "A fixed-term contract can still be a contract of employment; duration alone is not determinative."
+      },
+      {
+        "id": "d",
+        "text": "The worker has a company registered at Companies House",
+        "correct": false,
+        "feedback": "The mere fact of incorporation is not sufficient to avoid employment status."
+      }
+    ],
+    "oscoa_references": [
+      "Pimlico Plumbers Ltd v Smith [2018] UKSC 29",
+      "Christa Ackroyd Media Ltd v HMRC [2018] UKUT 69 (TCC)"
+    ]
+  },
+  {
+    "id": "f-c1-011",
+    "page": "F",
+    "section": "F1",
+    "micro_skill": "F1.2",
+    "crown_level": 1,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "ir35",
+      "loophole",
+      "substitution-clause"
+    ],
+    "question": "Including a genuine and realistic substitution clause in a contractor's contract, combined with drafting that explicitly excludes mutuality of obligation, is a complete and unassailable defence to IR35.",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": false,
+        "feedback": "While these are strong factors, they are not a complete defence. Pimlico Plumbers v Smith [2018] UKSC 29 emphasised substance over form. If in practice the substitution right is illusory, IR35 may still apply."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": true,
+        "feedback": "Correct. Substitution and MOO clauses are powerful factors but not conclusive. Courts look at substance over form — Pimlico Plumbers v Smith [2018] UKSC 29."
+      }
+    ],
+    "oscoa_references": [
+      "Pimlico Plumbers Ltd v Smith [2018] UKSC 29",
+      "HMRC v Atholl House Productions Ltd [2022] EWCA Civ 1237"
+    ]
+  },
+  {
+    "id": "f-c1-012",
+    "page": "F",
+    "section": "F1",
+    "micro_skill": "F1.2",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": [
+      "ir35",
+      "loophole",
+      "substitution",
+      "structure"
+    ],
+    "question": "A contractor wants to structure their engagement to minimise IR35 risk. Which combination of measures is most effective?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Genuine unfettered substitution right, multiple unrelated clients, fixed-price project work, and real absence of mutuality of obligation",
+        "correct": true,
+        "feedback": "Correct. Genuine substitution, multiple clients, project-based deliverables, and real absence of MOO provide the strongest case against employment status. Key: genuine substance, not just contractual wording."
+      },
+      {
+        "id": "b",
+        "text": "Registering the PSC with a generic business name to obscure the connection to the individual",
+        "correct": false,
+        "feedback": "The name of the intermediary is irrelevant — the IR35 test looks through the corporate structure."
+      },
+      {
+        "id": "c",
+        "text": "Ensuring the contract expressly states the worker is self-employed and not subject to IR35",
+        "correct": false,
+        "feedback": "Contractual labels are not determinative; courts look at the substance of the relationship."
+      },
+      {
+        "id": "d",
+        "text": "Contracting for less than 6 months to avoid the appearance of a permanent role",
+        "correct": false,
+        "feedback": "Duration alone does not determine employment status. Short engagements may still be contracts of employment."
+      }
+    ],
+    "oscoa_references": [
+      "Pimlico Plumbers Ltd v Smith [2018] UKSC 29",
+      "Income Tax (Earnings and Pensions) Act 2003, Part 2, Chapter 8"
+    ]
+  },
+  {
+    "id": "f-c1-013",
+    "page": "F",
+    "section": "F1",
+    "micro_skill": "F1.3",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "disguised-remuneration",
+      "loan-charge",
+      "ebt"
+    ],
+    "question": "Under which legislation were disguised remuneration provisions introduced to target loan arrangements through employee benefit trusts?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Finance Act 2015",
+        "correct": false,
+        "feedback": "Finance Act 2015 introduced Diverted Profits Tax."
+      },
+      {
+        "id": "b",
+        "text": "Finance Act 2011, Schedule 2",
+        "correct": true,
+        "feedback": "Correct. Finance Act 2011, Schedule 2 introduced the disguised remuneration rules targeting EBTs and third-party structures."
+      },
+      {
+        "id": "c",
+        "text": "Income Tax (Earnings and Pensions) Act 2003, Schedule 7",
+        "correct": false,
+        "feedback": "Schedule 7 of ITEPA does not deal with disguised remuneration."
+      },
+      {
+        "id": "d",
+        "text": "Finance Act 2019",
+        "correct": false,
+        "feedback": "FA 2019 is too late; the rules were introduced in FA 2011."
+      }
+    ],
+    "oscoa_references": [
+      "Finance Act 2011, Schedule 2"
+    ]
+  },
+  {
+    "id": "f-c1-014",
+    "page": "F",
+    "section": "F1",
+    "micro_skill": "F1.3",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "disguised-remuneration",
+      "loan-charge",
+      "human-rights"
+    ],
+    "question": "In Hoey v HMRC [2022] UKUT 188 (TCC), on what basis did the taxpayer challenge the loan charge?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The loan charge exceeded Parliament's legislative competence under EU law",
+        "correct": false,
+        "feedback": "The challenge was not based on EU law but on human rights grounds."
+      },
+      {
+        "id": "b",
+        "text": "Breach of rights under A1P1 (peaceful enjoyment of possessions) and Article 6 (right to a fair trial) of the ECHR",
+        "correct": true,
+        "feedback": "Correct. Mr Hoey argued the loan charge breached A1P1 and Art 6, but the Upper Tribunal held the charge was proportionate."
+      },
+      {
+        "id": "c",
+        "text": "The loan charge was an unreasonable exercise of HMRC's discretionary powers",
+        "correct": false,
+        "feedback": "The challenge was on human rights grounds, not administrative law."
+      },
+      {
+        "id": "d",
+        "text": "Double taxation of the same income in multiple tax years",
+        "correct": false,
+        "feedback": "The challenge was under the Human Rights Act 1998 based on A1P1 and Article 6 ECHR."
+      }
+    ],
+    "oscoa_references": [
+      "Hoey v HMRC [2022] UKUT 188 (TCC)",
+      "Finance (No 2) Act 2017"
+    ]
+  },
+  {
+    "id": "f-c1-015",
+    "page": "F",
+    "section": "F1",
+    "micro_skill": "F1.3",
+    "crown_level": 1,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "easy",
+    "tags": [
+      "disguised-remuneration",
+      "loophole",
+      "settlement",
+      "clso"
+    ],
+    "question": "Taxpayers with outstanding disguised remuneration loans can settle their tax affairs with HMRC through a Contractual Loan Settlement Opportunity (CLSO) or similar disclosure facility, avoiding litigation.",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. HMRC has offered settlement opportunities including CLSO for taxpayers seeking to resolve disguised remuneration liabilities without litigation."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "HMRC has indeed provided settlement facilities such as CLSO for resolving outstanding disguised remuneration tax positions."
+      }
+    ],
+    "oscoa_references": [
+      "Finance Act 2011, Schedule 2",
+      "Finance (No 2) Act 2017"
+    ]
+  },
+  {
+    "id": "f-c1-016",
+    "page": "F",
+    "section": "F1",
+    "micro_skill": "F1.3",
+    "crown_level": 1,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "disguised-remuneration",
+      "loophole",
+      "retrospective"
+    ],
+    "question": "A taxpayer may argue that the disguised remuneration provisions in Finance Act 2011 should not apply to loans made before 9 December 2010 on the basis that the legislation is not retrospective.",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. This is a known argument: the disguised remuneration rules were introduced with effect from 9 December 2010, and pre-existing arrangements may arguably fall outside scope, though HMRC contests this vigorously."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "Taxpayers can and do argue that pre-9 December 2010 arrangements fall outside scope, though the loan charge (F(No 2)A 2017) captures outstanding loans at 5 April 2019 regardless of origination date."
+      }
+    ],
+    "oscoa_references": [
+      "Finance Act 2011, Schedule 2",
+      "Finance (No 2) Act 2017"
+    ]
+  },
+  {
+    "id": "f-c2-001",
+    "page": "F",
+    "section": "F2",
+    "micro_skill": "F2.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "cgt",
+      "framework",
+      "tcga1992"
+    ],
+    "question": "Under which statute is capital gains tax charged on the disposal of assets?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Income Tax Act 2007",
+        "correct": false,
+        "feedback": "The Income Tax Act 2007 deals with income tax, not capital gains."
+      },
+      {
+        "id": "b",
+        "text": "Taxation of Chargeable Gains Act 1992",
+        "correct": true,
+        "feedback": "Correct. TCGA 1992 is the primary legislation governing CGT on asset disposals."
+      },
+      {
+        "id": "c",
+        "text": "Corporation Tax Act 2009",
+        "correct": false,
+        "feedback": "CTA 2009 deals with corporation tax, though chargeable gains of companies are also governed by TCGA 1992."
+      },
+      {
+        "id": "d",
+        "text": "Inheritance Tax Act 1984",
+        "correct": false,
+        "feedback": "IHTA 1984 deals with inheritance tax, not capital gains tax."
+      }
+    ],
+    "oscoa_references": [
+      "Taxation of Chargeable Gains Act 1992, s.1"
+    ]
+  },
+  {
+    "id": "f-c2-002",
+    "page": "F",
+    "section": "F2",
+    "micro_skill": "F2.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "cgt",
+      "annual-exempt-amount"
+    ],
+    "question": "What is the annual exempt amount for capital gains tax in the 2024/25 tax year?",
+    "options": [
+      {
+        "id": "a",
+        "text": "£12,300",
+        "correct": false,
+        "feedback": "This was the AEA for an earlier tax year."
+      },
+      {
+        "id": "b",
+        "text": "£6,000",
+        "correct": false,
+        "feedback": "This was the 2023/24 AEA."
+      },
+      {
+        "id": "c",
+        "text": "£3,000",
+        "correct": true,
+        "feedback": "Correct. The AEA was reduced to £3,000 for 2024/25 (from £6,000 in 2023/24)."
+      },
+      {
+        "id": "d",
+        "text": "£1,500",
+        "correct": false,
+        "feedback": "The AEA has not yet been reduced to £1,500; it is £3,000 for 2024/25."
+      }
+    ],
+    "oscoa_references": [
+      "Taxation of Chargeable Gains Act 1992, s.1K"
+    ]
+  },
+  {
+    "id": "f-c2-003",
+    "page": "F",
+    "section": "F2",
+    "micro_skill": "F2.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "cgt",
+      "rates",
+      "residential-property"
+    ],
+    "question": "A higher-rate taxpayer sells a residential investment property realising a capital gain. What CGT rate applies?",
+    "options": [
+      {
+        "id": "a",
+        "text": "10%",
+        "correct": false,
+        "feedback": "10% is for basic rate taxpayers on non-residential property gains."
+      },
+      {
+        "id": "b",
+        "text": "20%",
+        "correct": false,
+        "feedback": "20% is the higher rate for non-residential property gains."
+      },
+      {
+        "id": "c",
+        "text": "24%",
+        "correct": true,
+        "feedback": "Correct. Residential property gains for higher-rate taxpayers are taxed at 24% (reduced from 28% from April 2024)."
+      },
+      {
+        "id": "d",
+        "text": "28%",
+        "correct": false,
+        "feedback": "Rates were reduced from 18%/28% to 18%/24% from April 2024."
+      }
+    ],
+    "oscoa_references": [
+      "Taxation of Chargeable Gains Act 1992, s.4"
+    ]
+  },
+  {
+    "id": "f-c2-004",
+    "page": "F",
+    "section": "F2",
+    "micro_skill": "F2.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": [
+      "cgt",
+      "loophole",
+      "share-matching",
+      "bed-and-breakfasting"
+    ],
+    "question": "How can a taxpayer achieve the economic effect of 'bed and breakfasting' shares without triggering the 30-day share matching rules?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Selling shares and repurchasing identical shares the following day",
+        "correct": false,
+        "feedback": "The 30-day matching rules (TCGA 1992, s.106A) prevent this."
+      },
+      {
+        "id": "b",
+        "text": "Selling shares and instructing a spouse to repurchase identical shares",
+        "correct": false,
+        "feedback": "The 30-day matching rules apply to acquisitions by spouses and connected persons."
+      },
+      {
+        "id": "c",
+        "text": "Selling shares and repurchasing shares in a different company in the same sector, or waiting 31 days before repurchasing",
+        "correct": true,
+        "feedback": "Correct. Different shares avoid matching rules entirely; waiting 31+ days also works but sacrifices market exposure."
+      },
+      {
+        "id": "d",
+        "text": "Selling shares within an ISA and immediately repurchasing outside the ISA",
+        "correct": false,
+        "feedback": "Sales within an ISA are CGT-free, so no gain is realised. This does not use the AEA."
+      }
+    ],
+    "oscoa_references": [
+      "Taxation of Chargeable Gains Act 1992, s.106A"
+    ]
+  },
+  {
+    "id": "f-c2-005",
+    "page": "F",
+    "section": "F2",
+    "micro_skill": "F2.2",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "cgt",
+      "ppr",
+      "principal-private-residence"
+    ],
+    "question": "Under which sections of TCGA 1992 is principal private residence relief (PPR) available?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sections 100–110",
+        "correct": false,
+        "feedback": "PPR relief is in sections 222–226, not 100–110."
+      },
+      {
+        "id": "b",
+        "text": "Sections 152–160",
+        "correct": false,
+        "feedback": "Sections 152–160 deal with roll-over relief on replacement of business assets."
+      },
+      {
+        "id": "c",
+        "text": "Sections 222–226",
+        "correct": true,
+        "feedback": "Correct. TCGA 1992, ss.222–226 provide PPR, exempting from CGT any gain on disposal of a main residence."
+      },
+      {
+        "id": "d",
+        "text": "Sections 165–169",
+        "correct": false,
+        "feedback": "Section 165 deals with hold-over relief on gifts of business assets."
+      }
+    ],
+    "oscoa_references": [
+      "Taxation of Chargeable Gains Act 1992, ss.222–226"
+    ]
+  },
+  {
+    "id": "f-c2-006",
+    "page": "F",
+    "section": "F2",
+    "micro_skill": "F2.2",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "cgt",
+      "badr",
+      "entrepreneurs-relief"
+    ],
+    "question": "What is the lifetime limit for Business Asset Disposal Relief (formerly entrepreneurs' relief) under TCGA 1992?",
+    "options": [
+      {
+        "id": "a",
+        "text": "£10 million",
+        "correct": false,
+        "feedback": "The lifetime limit was previously £10 million but has been reduced."
+      },
+      {
+        "id": "b",
+        "text": "£5 million",
+        "correct": false,
+        "feedback": "The limit was reduced to £1 million, not £5 million."
+      },
+      {
+        "id": "c",
+        "text": "£1 million",
+        "correct": true,
+        "feedback": "Correct. BADR applies a 10% rate to qualifying gains up to a lifetime limit of £1 million (TCGA 1992, s.169H–169S)."
+      },
+      {
+        "id": "d",
+        "text": "£500,000",
+        "correct": false,
+        "feedback": "The lifetime limit is £1 million, not £500,000."
+      }
+    ],
+    "oscoa_references": [
+      "Taxation of Chargeable Gains Act 1992, ss.169H–169S"
+    ]
+  },
+  {
+    "id": "f-c2-007",
+    "page": "F",
+    "section": "F2",
+    "micro_skill": "F2.2",
+    "crown_level": 2,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": [
+      "cgt",
+      "loophole",
+      "badr",
+      "qualifying-conditions"
+    ],
+    "question": "A taxpayer can qualify for Business Asset Disposal Relief by holding at least 5% of the shares and being an employee or director of the company for at least 2 years prior to disposal.",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. Under TCGA 1992, s.169I, key qualifying conditions for BADR include at least 5% shareholding, being an employee or office holder, and meeting the 2-year holding period."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "This is a correct statement of the key qualifying conditions for BADR under TCGA 1992."
+      }
+    ],
+    "oscoa_references": [
+      "Taxation of Chargeable Gains Act 1992, s.169I"
+    ]
+  },
+  {
+    "id": "f-c2-008",
+    "page": "F",
+    "section": "F2",
+    "micro_skill": "F2.2",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": [
+      "cgt",
+      "loophole",
+      "hold-over-relief",
+      "gifts"
+    ],
+    "question": "A father gifts shares in his trading company to his daughter (embedded gain £200,000). Which CGT relief defers the gain?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Principal Private Residence Relief",
+        "correct": false,
+        "feedback": "PPR relief applies to residential property, not shares."
+      },
+      {
+        "id": "b",
+        "text": "Business Asset Disposal Relief — the father pays 10% on the gain",
+        "correct": false,
+        "feedback": "BADR gives a 10% rate but does not defer the gain; it is taxed now."
+      },
+      {
+        "id": "c",
+        "text": "Hold-over relief under TCGA 1992, s.165 — the gain is held over and the daughter acquires at the father's base cost",
+        "correct": true,
+        "feedback": "Correct. Section 165 hold-over relief defers the gain; the donee takes the donor's base cost and pays CGT on eventual disposal."
+      },
+      {
+        "id": "d",
+        "text": "Roll-over relief under TCGA 1992, ss.152–160",
+        "correct": false,
+        "feedback": "Roll-over relief applies when proceeds are reinvested in replacement business assets, not to gifts."
+      }
+    ],
+    "oscoa_references": [
+      "Taxation of Chargeable Gains Act 1992, s.165"
+    ]
+  },
+  {
+    "id": "f-c2-009",
+    "page": "F",
+    "section": "F2",
+    "micro_skill": "F2.3",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "cgt",
+      "non-resident",
+      "nrcgt",
+      "uk-property"
+    ],
+    "question": "From which date did non-resident CGT (NRCGT) extend to all UK property, including commercial?",
+    "options": [
+      {
+        "id": "a",
+        "text": "April 2015",
+        "correct": false,
+        "feedback": "NRCGT was introduced in April 2015 but only for residential property."
+      },
+      {
+        "id": "b",
+        "text": "April 2019",
+        "correct": true,
+        "feedback": "Correct. From April 2019, NRCGT was extended to all UK property including commercial."
+      },
+      {
+        "id": "c",
+        "text": "April 2021",
+        "correct": false,
+        "feedback": "The extension to all UK property occurred in April 2019."
+      },
+      {
+        "id": "d",
+        "text": "April 2017",
+        "correct": false,
+        "feedback": "April 2017 saw other tax reforms but not the NRCGT extension to all property types."
+      }
+    ],
+    "oscoa_references": [
+      "Taxation of Chargeable Gains Act 1992, s.14B"
+    ]
+  },
+  {
+    "id": "f-c2-010",
+    "page": "F",
+    "section": "F2",
+    "micro_skill": "F2.3",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "cgt",
+      "non-resident",
+      "property-rich-entities"
+    ],
+    "question": "When do shares in a company become subject to UK CGT for non-residents under the property-rich entity rules?",
+    "options": [
+      {
+        "id": "a",
+        "text": "When the company is incorporated in the UK",
+        "correct": false,
+        "feedback": "The test is based on value derived from UK land, not place of incorporation."
+      },
+      {
+        "id": "b",
+        "text": "When 75% or more of the company's gross asset value is derived from UK land",
+        "correct": true,
+        "feedback": "Correct. Under TCGA 1992, s.1A, if 75%+ of value derives from UK land, shares are within NRCGT scope."
+      },
+      {
+        "id": "c",
+        "text": "When the company owns any UK residential property regardless of value",
+        "correct": false,
+        "feedback": "The rule requires a 75% threshold."
+      },
+      {
+        "id": "d",
+        "text": "When the company is listed on the London Stock Exchange",
+        "correct": false,
+        "feedback": "Listing location is irrelevant; the test is based on value derived from UK land."
+      }
+    ],
+    "oscoa_references": [
+      "Taxation of Chargeable Gains Act 1992, s.1A"
+    ]
+  },
+  {
+    "id": "f-c2-011",
+    "page": "F",
+    "section": "F2",
+    "micro_skill": "F2.3",
+    "crown_level": 2,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "cgt",
+      "loophole",
+      "offshore",
+      "property-rich"
+    ],
+    "question": "A non-resident can avoid UK CGT on the disposal of shares in a company holding UK property by ensuring UK real estate represents less than 75% of the company's gross asset value.",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. NRCGT on shares (TCGA 1992, s.1A) applies only where 75%+ of value derives from UK land. Keeping below this threshold means the share disposal falls outside the UK CGT charge, though HMRC may scrutinise this."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "This is a recognised structuring technique. By keeping UK property below 75% of gross assets (e.g. adding non-UK assets), the NRCGT charge on share disposals may be avoided. Anti-fragmentation and GAAR rules should be considered."
+      }
+    ],
+    "oscoa_references": [
+      "Taxation of Chargeable Gains Act 1992, s.1A",
+      "Finance Act 2013, Part 5 (GAAR)"
+    ]
+  },
+  {
+    "id": "f-c2-012",
+    "page": "F",
+    "section": "F2",
+    "micro_skill": "F2.3",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "cgt",
+      "non-resident",
+      "computation",
+      "rebasing"
+    ],
+    "question": "For a non-resident disposing of UK residential property, how is the chargeable gain computed?",
+    "options": [
+      {
+        "id": "a",
+        "text": "On the full gain from date of acquisition to date of disposal",
+        "correct": false,
+        "feedback": "For non-residents, gains are rebased — pre-April 2015 gains are not normally taxable."
+      },
+      {
+        "id": "b",
+        "text": "On the gain from April 2015, with the property rebased to market value at that date (or actual cost if acquired after April 2015)",
+        "correct": true,
+        "feedback": "Correct. Gains for NRCGT are calculated from April 2015 rebasing date, or from acquisition if later. A time-apportionment election may also be available."
+      },
+      {
+        "id": "c",
+        "text": "On the gain from the date the owner became non-UK resident",
+        "correct": false,
+        "feedback": "The rebasing date is April 2015, not the date of becoming non-resident."
+      },
+      {
+        "id": "d",
+        "text": "On the full gain but at reduced rates compared to UK residents",
+        "correct": false,
+        "feedback": "Non-residents pay CGT at the same rates as UK residents on UK property gains."
+      }
+    ],
+    "oscoa_references": [
+      "Taxation of Chargeable Gains Act 1992, s.14B",
+      "Taxation of Chargeable Gains Act 1992, Schedule 4ZZB"
+    ]
+  },
+  {
+    "id": "f-c2-013",
+    "page": "F",
+    "section": "F3",
+    "micro_skill": "F3.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "iht",
+      "nil-rate-band"
+    ],
+    "question": "What is the nil-rate band for inheritance tax under IHTA 1984?",
+    "options": [
+      {
+        "id": "a",
+        "text": "£250,000",
+        "correct": false,
+        "feedback": "The nil-rate band is £325,000, not £250,000."
+      },
+      {
+        "id": "b",
+        "text": "£325,000",
+        "correct": true,
+        "feedback": "Correct. The nil-rate band (0% rate) is £325,000 under IHTA 1984."
+      },
+      {
+        "id": "c",
+        "text": "£500,000",
+        "correct": false,
+        "feedback": "£500,000 is the combined nil-rate band plus residence nil-rate band."
+      },
+      {
+        "id": "d",
+        "text": "£175,000",
+        "correct": false,
+        "feedback": "£175,000 is the residence nil-rate band (RNRB), not the standard nil-rate band."
+      }
+    ],
+    "oscoa_references": [
+      "Inheritance Tax Act 1984, s.7",
+      "Inheritance Tax Act 1984, Schedule 1"
+    ]
+  },
+  {
+    "id": "f-c2-014",
+    "page": "F",
+    "section": "F3",
+    "micro_skill": "F3.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "iht",
+      "rate",
+      "death-estate"
+    ],
+    "question": "What is the rate of inheritance tax on the death estate above the nil-rate band?",
+    "options": [
+      {
+        "id": "a",
+        "text": "20%",
+        "correct": false,
+        "feedback": "20% is the rate for chargeable lifetime transfers, not the death estate rate."
+      },
+      {
+        "id": "b",
+        "text": "40%",
+        "correct": true,
+        "feedback": "Correct. IHT is charged at 40% on the value of the death estate above available nil-rate bands."
+      },
+      {
+        "id": "c",
+        "text": "45%",
+        "correct": false,
+        "feedback": "45% is the additional rate of income tax, not the IHT rate."
+      },
+      {
+        "id": "d",
+        "text": "25%",
+        "correct": false,
+        "feedback": "The standard IHT death rate is 40%."
+      }
+    ],
+    "oscoa_references": [
+      "Inheritance Tax Act 1984, s.7"
+    ]
+  },
+  {
+    "id": "f-c2-015",
+    "page": "F",
+    "section": "F3",
+    "micro_skill": "F3.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "iht",
+      "rnrb",
+      "residence"
+    ],
+    "question": "What is the amount and purpose of the residence nil-rate band (RNRB)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "£150,000 — available to all estates regardless of beneficiaries",
+        "correct": false,
+        "feedback": "The RNRB requires a residence to be left to direct descendants."
+      },
+      {
+        "id": "b",
+        "text": "£175,000 — available where a residence is left to direct descendants",
+        "correct": true,
+        "feedback": "Correct. The RNRB provides an additional £175,000 (2024/25) where a residence passes to direct descendants."
+      },
+      {
+        "id": "c",
+        "text": "£325,000 — in addition to the standard nil-rate band",
+        "correct": false,
+        "feedback": "£325,000 is the standard nil-rate band. The RNRB is £175,000, totalling £500,000."
+      },
+      {
+        "id": "d",
+        "text": "£100,000 — available for any property left to any beneficiary",
+        "correct": false,
+        "feedback": "The RNRB is £175,000 and requires the residence to pass to direct descendants."
+      }
+    ],
+    "oscoa_references": [
+      "Inheritance Tax Act 1984, ss.8D–8M"
+    ]
+  },
+  {
+    "id": "f-c2-016",
+    "page": "F",
+    "section": "F3",
+    "micro_skill": "F3.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": [
+      "iht",
+      "loophole",
+      "nil-rate-band",
+      "transferable"
+    ],
+    "question": "A widow dies leaving her estate to her children. Her late husband died 10 years earlier leaving everything to her, using none of his nil-rate band. How much nil-rate band is available?",
+    "options": [
+      {
+        "id": "a",
+        "text": "£325,000 only — the husband's unused band expired",
+        "correct": false,
+        "feedback": "The transferable nil-rate band does not expire."
+      },
+      {
+        "id": "b",
+        "text": "£650,000 — she can claim her husband's unused nil-rate band in addition to her own",
+        "correct": true,
+        "feedback": "Correct. Under IHTA 1984, s.8A, the transferable nil-rate band allows the surviving spouse to claim the unused proportion from the first spouse, doubling it to £650,000."
+      },
+      {
+        "id": "c",
+        "text": "£1,000,000 — including RNRB from both spouses",
+        "correct": false,
+        "feedback": "This would be the maximum combined total but the question specifically asks about the nil-rate band."
+      },
+      {
+        "id": "d",
+        "text": "£500,000 — she can claim only 50% of the unused band",
+        "correct": false,
+        "feedback": "The transferable nil-rate band allows 100% of the proportion unused to be transferred."
+      }
+    ],
+    "oscoa_references": [
+      "Inheritance Tax Act 1984, s.8A"
+    ]
+  },
+  {
+    "id": "f-c2-017",
+    "page": "F",
+    "section": "F3",
+    "micro_skill": "F3.2",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "iht",
+      "pet",
+      "potentially-exempt-transfer"
+    ],
+    "question": "What is a potentially exempt transfer (PET) for inheritance tax purposes?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A transfer into any form of trust that may become exempt if the settlor survives 7 years",
+        "correct": false,
+        "feedback": "Transfers into most trusts are chargeable lifetime transfers, not PETs."
+      },
+      {
+        "id": "b",
+        "text": "A gift from one individual to another that is exempt from IHT if the donor survives 7 years from the gift",
+        "correct": true,
+        "feedback": "Correct. A PET is a gift between individuals. If the donor survives 7 years, no IHT is payable. If death occurs within 7 years, taper relief may apply."
+      },
+      {
+        "id": "c",
+        "text": "A transfer of any value between spouses or civil partners",
+        "correct": false,
+        "feedback": "Transfers between spouses are exempt, not PETs. The exemption is immediate and unlimited."
+      },
+      {
+        "id": "d",
+        "text": "A transfer by a non-UK domiciled individual of non-UK situs assets",
+        "correct": false,
+        "feedback": "Gifts of excluded property may not be within IHT scope at all, rather than being PETs."
+      }
+    ],
+    "oscoa_references": [
+      "Inheritance Tax Act 1984, s.3A"
+    ]
+  },
+  {
+    "id": "f-c2-018",
+    "page": "F",
+    "section": "F3",
+    "micro_skill": "F3.2",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "iht",
+      "bpr",
+      "business-property-relief"
+    ],
+    "question": "What rates of Business Property Relief (BPR) are available under IHTA 1984, ss.103–114?",
+    "options": [
+      {
+        "id": "a",
+        "text": "100% only",
+        "correct": false,
+        "feedback": "BPR can be at 100% or 50% depending on the type of business property."
+      },
+      {
+        "id": "b",
+        "text": "50% only",
+        "correct": false,
+        "feedback": "100% relief is available for qualifying unincorporated businesses and unquoted shares."
+      },
+      {
+        "id": "c",
+        "text": "100% or 50% depending on the nature of the business property",
+        "correct": true,
+        "feedback": "Correct. 100% for unincorporated businesses, unquoted shares, and certain partnerships; 50% for controlling shareholdings in quoted companies and certain other assets."
+      },
+      {
+        "id": "d",
+        "text": "20%, 50%, or 100% depending on the value of the business",
+        "correct": false,
+        "feedback": "There is no 20% rate of BPR; the rates are 100% or 50%."
+      }
+    ],
+    "oscoa_references": [
+      "Inheritance Tax Act 1984, ss.103–114"
+    ]
+  },
+  {
+    "id": "f-c2-019",
+    "page": "F",
+    "section": "F3",
+    "micro_skill": "F3.2",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "iht",
+      "spouse-exemption"
+    ],
+    "question": "Which section of IHTA 1984 provides the unlimited exemption for transfers between spouses and civil partners?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Section 10",
+        "correct": false,
+        "feedback": "Section 10 deals with dispositions not intended to confer gratuitous benefit."
+      },
+      {
+        "id": "b",
+        "text": "Section 18",
+        "correct": true,
+        "feedback": "Correct. IHTA 1984, s.18 provides an unlimited exemption for transfers between spouses and civil partners."
+      },
+      {
+        "id": "c",
+        "text": "Section 21",
+        "correct": false,
+        "feedback": "Section 21 provides the normal expenditure out of income exemption."
+      },
+      {
+        "id": "d",
+        "text": "Section 26",
+        "correct": false,
+        "feedback": "Section 26 deals with the exemption for gifts to charities."
+      }
+    ],
+    "oscoa_references": [
+      "Inheritance Tax Act 1984, s.18"
+    ]
+  },
+  {
+    "id": "f-c2-020",
+    "page": "F",
+    "section": "F3",
+    "micro_skill": "F3.2",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": [
+      "iht",
+      "loophole",
+      "normal-expenditure",
+      "out-of-income"
+    ],
+    "question": "Under IHTA 1984, s.21, what are the requirements for the 'normal expenditure out of income' exemption?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The gift must be under £3,000 and made to a single individual",
+        "correct": false,
+        "feedback": "The £3,000 annual exemption is under s.19, not the normal expenditure exemption."
+      },
+      {
+        "id": "b",
+        "text": "The expenditure must be part of the donor's normal expenditure, made out of income, and leave the donor with sufficient income to maintain their usual standard of living",
+        "correct": true,
+        "feedback": "Correct. The s.21 exemption requires a regular pattern of gifting from income (not capital) that does not impact the donor's lifestyle. There is no monetary limit, making it a powerful IHT planning tool."
+      },
+      {
+        "id": "c",
+        "text": "The gift must be under £250 per donee and made only once per year",
+        "correct": false,
+        "feedback": "This describes the small gifts exemption under s.20."
+      },
+      {
+        "id": "d",
+        "text": "The expenditure must be a one-off payment to a dependant relative",
+        "correct": false,
+        "feedback": "The s.21 exemption requires a pattern or regular commitment, not a one-off payment."
+      }
+    ],
+    "oscoa_references": [
+      "Inheritance Tax Act 1984, s.21"
+    ]
+  },
+  {
+    "id": "f-c2-021",
+    "page": "F",
+    "section": "F3",
+    "micro_skill": "F3.3",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "iht",
+      "non-dom",
+      "deemed-domicile"
+    ],
+    "question": "Under IHTA 1984, s.267, when does an individual become deemed domiciled in the UK for IHT purposes?",
+    "options": [
+      {
+        "id": "a",
+        "text": "After 7 years of UK residence",
+        "correct": false,
+        "feedback": "The threshold is 15 out of 20 years, not 7."
+      },
+      {
+        "id": "b",
+        "text": "After 15 out of the last 20 tax years of UK residence",
+        "correct": true,
+        "feedback": "Correct. Deemed domicile for IHT occurs after 15 years of UK residence out of the last 20 tax years (reduced from 17 years in 2017)."
+      },
+      {
+        "id": "c",
+        "text": "Immediately upon acquiring UK residence if owning UK property",
+        "correct": false,
+        "feedback": "Property ownership does not trigger deemed domicile."
+      },
+      {
+        "id": "d",
+        "text": "After 10 years of continuous UK residence",
+        "correct": false,
+        "feedback": "The threshold is 15 out of 20 years."
+      }
+    ],
+    "oscoa_references": [
+      "Inheritance Tax Act 1984, s.267"
+    ]
+  },
+  {
+    "id": "f-c2-022",
+    "page": "F",
+    "section": "F3",
+    "micro_skill": "F3.3",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "iht",
+      "non-dom",
+      "uk-situs",
+      "excluded-property"
+    ],
+    "question": "While non-UK domiciled, on what assets is an individual subject to UK inheritance tax?",
+    "options": [
+      {
+        "id": "a",
+        "text": "All worldwide assets",
+        "correct": false,
+        "feedback": "Full worldwide IHT applies only to UK-domiciled (or deemed-domiciled) individuals."
+      },
+      {
+        "id": "b",
+        "text": "UK situs assets only",
+        "correct": true,
+        "feedback": "Correct. Non-UK domiciled individuals are subject to IHT only on UK-situated assets. Non-UK situs assets remain outside scope until deemed domicile."
+      },
+      {
+        "id": "c",
+        "text": "Only assets with a value exceeding £325,000",
+        "correct": false,
+        "feedback": "The nil-rate band applies regardless of domicile, but scope is determined by domicile status."
+      },
+      {
+        "id": "d",
+        "text": "No UK inheritance tax applies to non-doms under any circumstances",
+        "correct": false,
+        "feedback": "Non-doms are subject to UK IHT on UK situs assets."
+      }
+    ],
+    "oscoa_references": [
+      "Inheritance Tax Act 1984, s.6",
+      "Inheritance Tax Act 1984, s.267"
+    ]
+  },
+  {
+    "id": "f-c2-023",
+    "page": "F",
+    "section": "F3",
+    "micro_skill": "F3.3",
+    "crown_level": 2,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "iht",
+      "loophole",
+      "excluded-property-trust"
+    ],
+    "question": "A non-UK domiciled individual who settles non-UK situs assets into an offshore trust before becoming deemed UK domiciled can keep those assets permanently outside the UK IHT charge.",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. Under IHTA 1984, s.48(3), non-UK situs property settled by a non-dom before becoming deemed domiciled qualifies as excluded property, remaining outside UK IHT indefinitely — a powerful and widely-used IHT planning tool."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "This is correct. Excluded property trusts under IHTA 1984, s.48(3) provide permanent IHT protection for non-UK situs assets settled before deemed domicile."
+      }
+    ],
+    "oscoa_references": [
+      "Inheritance Tax Act 1984, s.48(3)",
+      "Inheritance Tax Act 1984, s.267"
+    ]
+  },
+  {
+    "id": "f-c2-024",
+    "page": "F",
+    "section": "F3",
+    "micro_skill": "F3.3",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": [
+      "iht",
+      "loophole",
+      "discounted-gift-trust"
+    ],
+    "question": "What is the principal IHT advantage of an offshore life insurance bond combined with a discounted gift trust?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The bond is exempt from all income tax regardless of gain",
+        "correct": false,
+        "feedback": "Offshore bonds defer income tax until a chargeable event; gains are still taxable at that point."
+      },
+      {
+        "id": "b",
+        "text": "The settlor's retained right to regular withdrawals is discounted in value for IHT purposes, reducing the transfer value, while the trust keeps the bond outside the death estate after 7 years",
+        "correct": true,
+        "feedback": "Correct. The discounting mechanism recognises the settlor's retained income right reduces the gift for IHT, while the bond grows outside the estate."
+      },
+      {
+        "id": "c",
+        "text": "The bond is completely exempt from IHT from the date of settlement",
+        "correct": false,
+        "feedback": "The gift into trust is still a PET or CLT; the IHT advantage comes from discounting the settlor's retained rights."
+      },
+      {
+        "id": "d",
+        "text": "The bond proceeds are paid directly to beneficiaries without going through probate",
+        "correct": false,
+        "feedback": "While avoiding probate is an advantage, the principal IHT benefit lies in the discounting mechanism."
+      }
+    ],
+    "oscoa_references": [
+      "Inheritance Tax Act 1984, s.3A",
+      "Inheritance Tax Act 1984, s.21"
+    ]
+  },
+  {
+    "id": "f-c3-001",
+    "page": "F",
+    "section": "F4",
+    "micro_skill": "F4.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "corporation-tax",
+      "framework",
+      "cta-2009"
+    ],
+    "question": "Under CTA 2009, which of the following is NOT chargeable to corporation tax?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Trading income",
+        "correct": false,
+        "feedback": "Trading income is chargeable to corporation tax."
+      },
+      {
+        "id": "b",
+        "text": "Loan relationship profits",
+        "correct": false,
+        "feedback": "Loan relationship profits are chargeable under CTA 2009, Part 5."
+      },
+      {
+        "id": "c",
+        "text": "Dividend income from UK-resident subsidiaries",
+        "correct": true,
+        "feedback": "Correct. Dividends from UK subsidiaries are generally exempt from CT under the dividend exemption rules."
+      },
+      {
+        "id": "d",
+        "text": "Profits from intangible fixed assets",
+        "correct": false,
+        "feedback": "Intangible fixed asset profits are chargeable under CTA 2009, Part 8."
+      }
+    ],
+    "oscoa_references": [
+      "Corporation Tax Act 2009, s.2",
+      "Corporation Tax Act 2010, Part 9A"
+    ]
+  },
+  {
+    "id": "f-c3-002",
+    "page": "F",
+    "section": "F4",
+    "micro_skill": "F4.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "corporation-tax",
+      "rates",
+      "marginal-relief"
+    ],
+    "question": "From April 2023, what is the main rate of corporation tax and for which profit bracket does the small profits rate of 19% apply?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Main rate 25%; small profits rate 19% for profits up to £50,000",
+        "correct": true,
+        "feedback": "Correct. Main rate 25%, small profits rate 19% up to £50,000, marginal relief between £50,000 and £250,000."
+      },
+      {
+        "id": "b",
+        "text": "Main rate 25%; small profits rate 19% for profits up to £100,000",
+        "correct": false,
+        "feedback": "The small profits rate applies up to £50,000, not £100,000."
+      },
+      {
+        "id": "c",
+        "text": "Main rate 19%; small profits rate 10% for profits up to £50,000",
+        "correct": false,
+        "feedback": "The main rate is 25%, not 19%."
+      },
+      {
+        "id": "d",
+        "text": "Main rate 20%; small profits rate 19% for profits up to £300,000",
+        "correct": false,
+        "feedback": "These are pre-April 2023 rates and thresholds."
+      }
+    ],
+    "oscoa_references": [
+      "Corporation Tax Act 2010, s.18A",
+      "Finance (No 2) Act 2023"
+    ]
+  },
+  {
+    "id": "f-c3-003",
+    "page": "F",
+    "section": "F4",
+    "micro_skill": "F4.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "corporation-tax",
+      "accounting-periods"
+    ],
+    "question": "What is the maximum length of one corporation tax accounting period?",
+    "options": [
+      {
+        "id": "a",
+        "text": "6 months",
+        "correct": false,
+        "feedback": "Company accounting periods can be longer than 6 months."
+      },
+      {
+        "id": "b",
+        "text": "12 months",
+        "correct": true,
+        "feedback": "Correct. An accounting period for CT cannot exceed 12 months. If a period of account is longer, it is split."
+      },
+      {
+        "id": "c",
+        "text": "18 months",
+        "correct": false,
+        "feedback": "An accounting period cannot exceed 12 months."
+      },
+      {
+        "id": "d",
+        "text": "There is no maximum length",
+        "correct": false,
+        "feedback": "There is a maximum of 12 months for one CT accounting period."
+      }
+    ],
+    "oscoa_references": [
+      "Corporation Tax Act 2009, s.9"
+    ]
+  },
+  {
+    "id": "f-c3-004",
+    "page": "F",
+    "section": "F4",
+    "micro_skill": "F4.2",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "corporation-tax",
+      "loan-relationships",
+      "cta-2009"
+    ],
+    "question": "Under which Part of CTA 2009 is the loan relationships regime found?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Part 2",
+        "correct": false,
+        "feedback": "Part 2 deals with trading income."
+      },
+      {
+        "id": "b",
+        "text": "Part 5",
+        "correct": true,
+        "feedback": "Correct. CTA 2009, Part 5 governs the taxation of loan relationships."
+      },
+      {
+        "id": "c",
+        "text": "Part 8",
+        "correct": false,
+        "feedback": "Part 8 deals with intangible fixed assets."
+      },
+      {
+        "id": "d",
+        "text": "Part 13",
+        "correct": false,
+        "feedback": "Part 13 deals with R&D tax relief."
+      }
+    ],
+    "oscoa_references": [
+      "Corporation Tax Act 2009, Part 5"
+    ]
+  },
+  {
+    "id": "f-c3-005",
+    "page": "F",
+    "section": "F4",
+    "micro_skill": "F4.2",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "corporation-tax",
+      "corporate-interest-restriction",
+      "tiopa"
+    ],
+    "question": "What is the general rule for the corporate interest restriction under TIOPA 2010, Part 10?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Net interest deductions restricted to 20% of turnover",
+        "correct": false,
+        "feedback": "The restriction is linked to EBITDA, not turnover."
+      },
+      {
+        "id": "b",
+        "text": "Net interest deductions restricted to 30% of tax-EBITDA (or £2 million de minimis)",
+        "correct": true,
+        "feedback": "Correct. The corporate interest restriction limits net interest deductions to 30% of tax-EBITDA, with a £2m de minimis."
+      },
+      {
+        "id": "c",
+        "text": "All interest payments are fully deductible regardless of amount",
+        "correct": false,
+        "feedback": "The corporate interest restriction imposes a limit on interest deductibility."
+      },
+      {
+        "id": "d",
+        "text": "Net interest deductions restricted to 50% of net profits",
+        "correct": false,
+        "feedback": "The restriction is 30% of tax-EBITDA, not 50% of net profits."
+      }
+    ],
+    "oscoa_references": [
+      "Taxation (International and Other Provisions) Act 2010, Part 10"
+    ]
+  },
+  {
+    "id": "f-c3-006",
+    "page": "F",
+    "section": "F4",
+    "micro_skill": "F4.2",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": [
+      "corporation-tax",
+      "loophole",
+      "debt-push-down",
+      "thin-capitalisation"
+    ],
+    "question": "A multinational wants to reduce UK tax via debt push-down. Which anti-avoidance provisions are most relevant?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Only the GAAR under Finance Act 2013",
+        "correct": false,
+        "feedback": "While GAAR may apply, there are more specific provisions targeting debt push-down."
+      },
+      {
+        "id": "b",
+        "text": "Thin capitalisation rules (TIOPA 2010, s.152), transfer pricing rules (TIOPA 2010, Part 4), and the corporate interest restriction (TIOPA 2010, Part 10)",
+        "correct": true,
+        "feedback": "Correct. Debt push-down faces three layers of scrutiny: thin capitalisation (arm's length debt), transfer pricing (arm's length interest rate), and the CIR (30% EBITDA limit)."
+      },
+      {
+        "id": "c",
+        "text": "Only Diverted Profits Tax under Finance Act 2015",
+        "correct": false,
+        "feedback": "DPT is a separate provision; the primary rules targeting debt push-down are thin cap, transfer pricing, and CIR."
+      },
+      {
+        "id": "d",
+        "text": "No anti-avoidance provisions apply if the debt is from a parent in a treaty jurisdiction",
+        "correct": false,
+        "feedback": "Treaty protection does not override domestic thin cap and transfer pricing rules."
+      }
+    ],
+    "oscoa_references": [
+      "Taxation (International and Other Provisions) Act 2010, s.152",
+      "TIOPA 2010, Part 4",
+      "TIOPA 2010, Part 10"
+    ]
+  },
+  {
+    "id": "f-c3-007",
+    "page": "F",
+    "section": "F4",
+    "micro_skill": "F4.3",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "corporation-tax",
+      "rd-tax-relief"
+    ],
+    "question": "Under which Part of CTA 2009 is R&D tax relief for companies found?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Part 5",
+        "correct": false,
+        "feedback": "Part 5 deals with loan relationships."
+      },
+      {
+        "id": "b",
+        "text": "Part 8",
+        "correct": false,
+        "feedback": "Part 8 deals with intangible fixed assets."
+      },
+      {
+        "id": "c",
+        "text": "Part 13",
+        "correct": true,
+        "feedback": "Correct. CTA 2009, Part 13 provides for enhanced deductions for qualifying R&D expenditure."
+      },
+      {
+        "id": "d",
+        "text": "Part 15",
+        "correct": false,
+        "feedback": "Part 15 is not the R&D relief provision."
+      }
+    ],
+    "oscoa_references": [
+      "Corporation Tax Act 2009, Part 13"
+    ]
+  },
+  {
+    "id": "f-c3-008",
+    "page": "F",
+    "section": "F4",
+    "micro_skill": "F4.3",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "corporation-tax",
+      "rd-tax-relief",
+      "sme-scheme",
+      "rdec"
+    ],
+    "question": "A small UK company spends £100,000 on qualifying R&D. Under the SME enhanced deduction scheme, what is the effective total deduction?",
+    "options": [
+      {
+        "id": "a",
+        "text": "£100,000 — 100% deduction",
+        "correct": false,
+        "feedback": "The SME scheme provides an enhanced deduction above 100%."
+      },
+      {
+        "id": "b",
+        "text": "£130,000 — 130% deduction",
+        "correct": false,
+        "feedback": "The enhanced deduction is higher than 130%."
+      },
+      {
+        "id": "c",
+        "text": "£186,000 — 186% deduction",
+        "correct": true,
+        "feedback": "Correct. As of 2023, the SME R&D scheme provides a 186% enhanced deduction. £100,000 × 186% = £186,000."
+      },
+      {
+        "id": "d",
+        "text": "£230,000 — 230% deduction",
+        "correct": false,
+        "feedback": "The enhanced deduction is 186%, not 230%."
+      }
+    ],
+    "oscoa_references": [
+      "Corporation Tax Act 2009, Part 13"
+    ]
+  },
+  {
+    "id": "f-c3-009",
+    "page": "F",
+    "section": "F4",
+    "micro_skill": "F4.3",
+    "crown_level": 3,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "corporation-tax",
+      "loophole",
+      "rd-tax-relief",
+      "advance-in-science"
+    ],
+    "question": "A company carrying out routine software development using established techniques can claim R&D tax relief if the project involves a technical challenge the developers have not personally faced before.",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": false,
+        "feedback": "R&D for tax purposes requires that the project seeks an advance in overall science or technology, not merely that the particular company has not done it before. Routine development using established techniques does not qualify."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": true,
+        "feedback": "Correct. The test is whether the project seeks an advance in science or technology overall, not whether it is new to the company. Routine development using established techniques does not qualify for R&D tax relief."
+      }
+    ],
+    "oscoa_references": [
+      "Corporation Tax Act 2009, Part 13",
+      "HMRC CIRD Manual"
+    ]
+  },
+  {
+    "id": "f-c3-010",
+    "page": "F",
+    "section": "F5",
+    "micro_skill": "F5.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "vat",
+      "registration",
+      "threshold"
+    ],
+    "question": "What is the current VAT registration threshold for taxable supplies?",
+    "options": [
+      {
+        "id": "a",
+        "text": "£70,000",
+        "correct": false,
+        "feedback": "The VAT registration threshold is higher than £70,000."
+      },
+      {
+        "id": "b",
+        "text": "£85,000",
+        "correct": false,
+        "feedback": "The threshold was increased from £85,000."
+      },
+      {
+        "id": "c",
+        "text": "£90,000",
+        "correct": true,
+        "feedback": "Correct. The current VAT registration threshold is £90,000 of taxable turnover."
+      },
+      {
+        "id": "d",
+        "text": "£100,000",
+        "correct": false,
+        "feedback": "The threshold is £90,000, not £100,000."
+      }
+    ],
+    "oscoa_references": [
+      "Value Added Tax Act 1994, Schedule 1"
+    ]
+  },
+  {
+    "id": "f-c3-011",
+    "page": "F",
+    "section": "F5",
+    "micro_skill": "F5.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "vat",
+      "rates"
+    ],
+    "question": "What is the standard rate of VAT in the UK?",
+    "options": [
+      {
+        "id": "a",
+        "text": "15%",
+        "correct": false,
+        "feedback": "The standard rate was temporarily 15% during the 2008 crisis but has since increased."
+      },
+      {
+        "id": "b",
+        "text": "17.5%",
+        "correct": false,
+        "feedback": "This was the standard rate prior to 2011."
+      },
+      {
+        "id": "c",
+        "text": "20%",
+        "correct": true,
+        "feedback": "Correct. The standard rate of VAT is 20%."
+      },
+      {
+        "id": "d",
+        "text": "21%",
+        "correct": false,
+        "feedback": "The UK standard rate is 20%, not 21%."
+      }
+    ],
+    "oscoa_references": [
+      "Value Added Tax Act 1994, s.2"
+    ]
+  },
+  {
+    "id": "f-c3-012",
+    "page": "F",
+    "section": "F5",
+    "micro_skill": "F5.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": [
+      "vat",
+      "loophole",
+      "vat-grouping",
+      "cross-border"
+    ],
+    "question": "How can VAT grouping reduce VAT leakage on cross-border supplies within a multinational group?",
+    "options": [
+      {
+        "id": "a",
+        "text": "By allowing the group to charge VAT at 0% on all intra-group supplies globally",
+        "correct": false,
+        "feedback": "VAT grouping only applies to UK members."
+      },
+      {
+        "id": "b",
+        "text": "By treating UK group members as a single taxable person, so supplies between them are disregarded — eliminating VAT on UK intra-group supplies that would otherwise be partially irrecoverable",
+        "correct": true,
+        "feedback": "Correct. VAT grouping eliminates VAT on intra-group supplies between UK members — valuable where a member has partial exemption and cannot fully recover input VAT."
+      },
+      {
+        "id": "c",
+        "text": "By exempting all exports from the group from VAT",
+        "correct": false,
+        "feedback": "Exports are typically zero-rated under general VAT rules, not due to VAT grouping."
+      },
+      {
+        "id": "d",
+        "text": "By allowing the group to reclaim VAT paid in all jurisdictions",
+        "correct": false,
+        "feedback": "VAT grouping is a domestic UK provision and does not affect VAT recovery in other jurisdictions."
+      }
+    ],
+    "oscoa_references": [
+      "Value Added Tax Act 1994, s.43"
+    ]
+  },
+  {
+    "id": "f-c3-013",
+    "page": "F",
+    "section": "F5",
+    "micro_skill": "F5.2",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "vat",
+      "property",
+      "option-to-tax"
+    ],
+    "question": "What is the default VAT treatment of supplies of commercial property?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Standard-rated — all commercial property is taxable at 20%",
+        "correct": false,
+        "feedback": "The default is exemption, not standard rating."
+      },
+      {
+        "id": "b",
+        "text": "Exempt — but the landowner may opt to tax, making supplies standard-rated",
+        "correct": true,
+        "feedback": "Correct. Commercial property supplies are exempt by default. The landowner may opt to tax under VATA 1994, Sch 10, enabling input tax recovery."
+      },
+      {
+        "id": "c",
+        "text": "Zero-rated — no VAT charged and input VAT recoverable",
+        "correct": false,
+        "feedback": "Commercial property is not zero-rated; the default is exempt, subject to the option to tax."
+      },
+      {
+        "id": "d",
+        "text": "Outside the scope of VAT entirely",
+        "correct": false,
+        "feedback": "Commercial property supplies are within the scope of VAT but generally exempt."
+      }
+    ],
+    "oscoa_references": [
+      "Value Added Tax Act 1994, Schedule 10"
+    ]
+  },
+  {
+    "id": "f-c3-014",
+    "page": "F",
+    "section": "F5",
+    "micro_skill": "F5.2",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "vat",
+      "togc",
+      "transfer-of-going-concern"
+    ],
+    "question": "When is the sale of a property business treated as a Transfer of a Going Concern (TOGC) for VAT purposes?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Whenever the sale involves any commercial property",
+        "correct": false,
+        "feedback": "TOGC requires more than just commercial property; the entire business must be transferred."
+      },
+      {
+        "id": "b",
+        "text": "When a business is sold as a going concern, assets are used by the buyer to carry on the same kind of business, and (if opted to tax) the buyer has also opted to tax by the relevant date",
+        "correct": true,
+        "feedback": "Correct. TOGC requires the business as a whole to be transferred and the buyer to continue the same kind of business. The supply is outside the scope of VAT."
+      },
+      {
+        "id": "c",
+        "text": "Only when the seller is VAT-registered and the buyer is not",
+        "correct": false,
+        "feedback": "TOGC can apply regardless of the parties' respective VAT registration status."
+      },
+      {
+        "id": "d",
+        "text": "Automatically when a property portfolio is sold",
+        "correct": false,
+        "feedback": "TOGC is not automatic; it requires specific conditions to be satisfied."
+      }
+    ],
+    "oscoa_references": [
+      "Value Added Tax Act 1994, s.49"
+    ]
+  },
+  {
+    "id": "f-c3-015",
+    "page": "F",
+    "section": "F5",
+    "micro_skill": "F5.2",
+    "crown_level": 3,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "vat",
+      "loophole",
+      "togc",
+      "property-transaction"
+    ],
+    "question": "Structuring a property sale as a transfer of a going concern (TOGC) can eliminate the VAT cash flow cost on the transaction, even where the property is opted to tax.",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. If properly structured as a TOGC, the sale is outside the scope of VAT, so the buyer does not need to fund 20% VAT on the purchase price and then wait for recovery — a significant cash flow advantage."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "This is correct. TOGC treatment avoids charging VAT on the transaction, eliminating the cash flow burden of upfront VAT payment."
+      }
+    ],
+    "oscoa_references": [
+      "Value Added Tax Act 1994, s.49",
+      "HMRC VAT Notice 700/9"
+    ]
+  },
+  {
+    "id": "f-c3-016",
+    "page": "F",
+    "section": "F6",
+    "micro_skill": "F6.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "sdlt",
+      "non-uk-resident-surcharge"
+    ],
+    "question": "Under FA 2021, s.88, what is the additional SDLT surcharge for non-UK residents purchasing residential property?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1%",
+        "correct": false,
+        "feedback": "The non-UK resident surcharge is 2%, not 1%."
+      },
+      {
+        "id": "b",
+        "text": "2%",
+        "correct": true,
+        "feedback": "Correct. From April 2021, non-UK residents pay an additional 2% SDLT surcharge."
+      },
+      {
+        "id": "c",
+        "text": "3%",
+        "correct": false,
+        "feedback": "3% is the additional dwellings surcharge, not the non-UK resident surcharge."
+      },
+      {
+        "id": "d",
+        "text": "5%",
+        "correct": false,
+        "feedback": "The surcharge is 2%, not 5%."
+      }
+    ],
+    "oscoa_references": [
+      "Finance Act 2021, s.88"
+    ]
+  },
+  {
+    "id": "f-c3-017",
+    "page": "F",
+    "section": "F6",
+    "micro_skill": "F6.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "sdlt",
+      "enveloped-dwellings",
+      "15-percent"
+    ],
+    "question": "Under what circumstances does the 15% flat rate SDLT apply to residential property purchased by companies?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Whenever a UK company purchases any residential property",
+        "correct": false,
+        "feedback": "The 15% rate does not apply to all company purchases."
+      },
+      {
+        "id": "b",
+        "text": "When the property is over £500,000 and purchased by a company or non-natural person, unless a relief applies (e.g. property rental business, property development)",
+        "correct": true,
+        "feedback": "Correct. The 15% rate (FA 2013, s.116; FA 2014, s.112) targets enveloped dwellings. Reliefs exist for genuine commercial activities."
+      },
+      {
+        "id": "c",
+        "text": "When the company is non-UK resident regardless of property value",
+        "correct": false,
+        "feedback": "The 15% rate is not conditional on the company being non-UK resident."
+      },
+      {
+        "id": "d",
+        "text": "When the property is purchased with a mortgage from an overseas lender",
+        "correct": false,
+        "feedback": "The source of financing does not determine the 15% rate."
+      }
+    ],
+    "oscoa_references": [
+      "Finance Act 2013, s.116",
+      "Finance Act 2014, s.112"
+    ]
+  },
+  {
+    "id": "f-c3-018",
+    "page": "F",
+    "section": "F6",
+    "micro_skill": "F6.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "sdlt",
+      "mdr",
+      "multiple-dwellings-relief"
+    ],
+    "question": "Multiple Dwellings Relief (MDR) under FA 2003, Schedule 6B allows what for the purchase of six or more separate dwellings?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Complete SDLT exemption",
+        "correct": false,
+        "feedback": "MDR does not provide a complete exemption; it changes the calculation method."
+      },
+      {
+        "id": "b",
+        "text": "SDLT calculated on the average price per dwelling rather than the aggregate consideration, resulting in a lower effective rate",
+        "correct": true,
+        "feedback": "Correct. MDR allows SDLT to be calculated on average consideration per dwelling, significantly reducing the overall liability."
+      },
+      {
+        "id": "c",
+        "text": "Non-residential rates apply instead of residential rates",
+        "correct": false,
+        "feedback": "MDR does not change the type of rates; it changes the method of calculation."
+      },
+      {
+        "id": "d",
+        "text": "SDLT reduced by 50% for each dwelling beyond the first",
+        "correct": false,
+        "feedback": "This is not how MDR operates."
+      }
+    ],
+    "oscoa_references": [
+      "Finance Act 2003, Schedule 6B"
+    ]
+  },
+  {
+    "id": "f-c3-019",
+    "page": "F",
+    "section": "F6",
+    "micro_skill": "F6.2",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "sdlt",
+      "sub-sale-relief"
+    ],
+    "question": "Under FA 2003, s.45, when is sub-sale relief available for SDLT?",
+    "options": [
+      {
+        "id": "a",
+        "text": "When the original purchaser sells after completing their purchase",
+        "correct": false,
+        "feedback": "Sub-sale relief applies before completion of the first purchase."
+      },
+      {
+        "id": "b",
+        "text": "When the original purchaser contracts to buy and then sells the property on (or sub-sells the contract) before completing their own purchase",
+        "correct": true,
+        "feedback": "Correct. Sub-sale relief prevents double SDLT where the original purchaser onward-sells before completing their own purchase."
+      },
+      {
+        "id": "c",
+        "text": "When the property is sold to a connected company within the same group",
+        "correct": false,
+        "feedback": "Group relief is a separate provision."
+      },
+      {
+        "id": "d",
+        "text": "When the property is mixed-use with both residential and commercial elements",
+        "correct": false,
+        "feedback": "Mixed-use property is charged at non-residential rates; unrelated to sub-sale relief."
+      }
+    ],
+    "oscoa_references": [
+      "Finance Act 2003, s.45"
+    ]
+  },
+  {
+    "id": "f-c3-020",
+    "page": "F",
+    "section": "F6",
+    "micro_skill": "F6.2",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "sdlt",
+      "avoidance",
+      "dotas",
+      "follower-notice"
+    ],
+    "question": "What combination of HMRC powers targets SDLT avoidance schemes?",
+    "options": [
+      {
+        "id": "a",
+        "text": "GAAR only",
+        "correct": false,
+        "feedback": "GAAR is one tool, but HMRC has multiple powers."
+      },
+      {
+        "id": "b",
+        "text": "DOTAS disclosure obligations, follower notices, accelerated payment notices (APNs), and the GAAR",
+        "correct": true,
+        "feedback": "Correct. HMRC uses DOTAS to identify schemes, follower notices after lead cases, APNs requiring upfront payment, and the GAAR for abusive arrangements."
+      },
+      {
+        "id": "c",
+        "text": "Criminal proceedings as the only remedy",
+        "correct": false,
+        "feedback": "HMRC has a range of civil powers before resorting to criminal proceedings."
+      },
+      {
+        "id": "d",
+        "text": "SDLT penalties are limited to interest on late payment",
+        "correct": false,
+        "feedback": "HMRC has more extensive powers than merely charging interest on late payment."
+      }
+    ],
+    "oscoa_references": [
+      "Finance Act 2004, Part 7 (DOTAS)",
+      "Finance Act 2013, Part 5 (GAAR)",
+      "Finance Act 2014, Part 4 (Follower Notices and APNs)"
+    ]
+  },
+  {
+    "id": "f-c3-021",
+    "page": "F",
+    "section": "F6",
+    "micro_skill": "F6.2",
+    "crown_level": 3,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": [
+      "sdlt",
+      "loophole",
+      "mdr",
+      "bulk-purchase"
+    ],
+    "question": "A property investor purchasing a block of 8 residential flats in a single transaction can claim Multiple Dwellings Relief to calculate SDLT based on the average price per flat rather than the total consideration.",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. MDR under FA 2003, Sch 6B allows SDLT calculation based on average consideration per dwelling, preventing the aggregate price from pushing into higher bands."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "This correctly describes the operation of MDR for bulk purchases of multiple dwellings."
+      }
+    ],
+    "oscoa_references": [
+      "Finance Act 2003, Schedule 6B"
+    ]
+  },
+  {
+    "id": "f-c4-001",
+    "page": "F",
+    "section": "F7",
+    "micro_skill": "F7.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "offshore",
+      "trusts",
+      "discretionary"
+    ],
+    "question": "What is a key characteristic of a discretionary offshore trust?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Beneficiaries have a fixed entitlement to trust income and capital",
+        "correct": false,
+        "feedback": "Fixed entitlement describes an interest-in-possession trust, not a discretionary trust."
+      },
+      {
+        "id": "b",
+        "text": "Trustees have discretion over distributions and beneficiaries have no entitlement until a distribution is made",
+        "correct": true,
+        "feedback": "Correct. Trustees decide whether, when, and to whom distributions are made. Beneficiaries have no legal entitlement until a distribution is made in their favour."
+      },
+      {
+        "id": "c",
+        "text": "The settlor retains full control over all trust decisions",
+        "correct": false,
+        "feedback": "Settlor retaining full control risks the trust being declared a sham — Rahman v Chase Bank (CI) Trust [1991] JLR 103."
+      },
+      {
+        "id": "d",
+        "text": "Beneficiaries automatically acquire trust assets upon reaching age 18",
+        "correct": false,
+        "feedback": "This describes a bare trust, not a discretionary trust."
+      }
+    ],
+    "oscoa_references": [
+      "Rahman v Chase Bank (CI) Trust Company Limited [1991] JLR 103"
+    ]
+  },
+  {
+    "id": "f-c4-002",
+    "page": "F",
+    "section": "F7",
+    "micro_skill": "F7.1",
+    "crown_level": 4,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "offshore",
+      "loophole",
+      "bvi",
+      "vista-trust"
+    ],
+    "question": "Under the BVI VISTA trust legislation, a settlor can retain control over the appointment and removal of directors of an underlying company held by the trust, without invalidating the trust or causing a sham.",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. The Virgin Islands Special Trusts Act 2003 (VISTA) specifically allows settlor control over the board of an underlying BVI company, disapplying the trustee's duty to monitor the company."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "This is correct under VISTA. The legislation was designed to allow settlor control over underlying company boards without invalidating the trust."
+      }
+    ],
+    "oscoa_references": [
+      "Virgin Islands Special Trusts Act 2003",
+      "Rahman v Chase Bank (CI) Trust Company Limited [1991] JLR 103"
+    ]
+  },
+  {
+    "id": "f-c4-003",
+    "page": "F",
+    "section": "F7",
+    "micro_skill": "F7.1",
+    "crown_level": 4,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": [
+      "offshore",
+      "loophole",
+      "discretionary-trust",
+      "asset-protection"
+    ],
+    "question": "Discretionary offshore trusts provide asset protection because trust assets are segregated from the settlor's personal estate, protecting them from creditors.",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. Properly constituted offshore trusts ring-fence assets from the settlor's personal estate, providing protection from creditors. However, transfers at undervalue to defeat creditors may be challenged under insolvency laws."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "This correctly describes the asset protection function of offshore trusts, though transfers made to defeat existing creditors or within relevant clawback periods may still be challenged."
+      }
+    ],
+    "oscoa_references": [
+      "Rahman v Chase Bank (CI) Trust Company Limited [1991] JLR 103"
+    ]
+  },
+  {
+    "id": "f-c4-004",
+    "page": "F",
+    "section": "F7",
+    "micro_skill": "F7.2",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "offshore",
+      "companies",
+      "eccta",
+      "register"
+    ],
+    "question": "Under the Economic Crime (Transparency and Enforcement) Act 2022, which overseas entities must register at Companies House?",
+    "options": [
+      {
+        "id": "a",
+        "text": "All overseas companies holding any UK assets",
+        "correct": false,
+        "feedback": "The obligation is triggered by ownership of UK property, not any UK assets."
+      },
+      {
+        "id": "b",
+        "text": "Overseas entities that own or acquire UK property",
+        "correct": true,
+        "feedback": "Correct. ECCTA 2022 requires overseas entities owning UK property to register and disclose beneficial owners."
+      },
+      {
+        "id": "c",
+        "text": "Only entities registered in jurisdictions on the EU blacklist",
+        "correct": false,
+        "feedback": "The requirement applies based on property ownership, not the incorporation jurisdiction."
+      },
+      {
+        "id": "d",
+        "text": "All overseas entities regardless of UK connection",
+        "correct": false,
+        "feedback": "The Register specifically targets entities owning UK property."
+      }
+    ],
+    "oscoa_references": [
+      "Economic Crime (Transparency and Enforcement) Act 2022"
+    ]
+  },
+  {
+    "id": "f-c4-005",
+    "page": "F",
+    "section": "F7",
+    "micro_skill": "F7.2",
+    "crown_level": 4,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "offshore",
+      "loophole",
+      "spv",
+      "trust",
+      "beneficial-ownership"
+    ],
+    "question": "Using a trust as the shareholder of an SPV that owns UK property prevents the identification of ultimate beneficial owners on the Register of Overseas Entities.",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": false,
+        "feedback": "The Register of Overseas Entities requires disclosure of beneficial owners behind trust structures. ECCTA 2022 mandates disclosure of individuals with significant control including through trust arrangements."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": true,
+        "feedback": "Correct. ECCTA 2022 requires disclosure through to beneficial owners, including individuals who control or benefit through trusts. Trustees are registered as legal owners, but rules look through to ultimate individuals."
+      }
+    ],
+    "oscoa_references": [
+      "Economic Crime (Transparency and Enforcement) Act 2022",
+      "Trust Registration Service (5MLD)"
+    ]
+  },
+  {
+    "id": "f-c4-006",
+    "page": "F",
+    "section": "F7",
+    "micro_skill": "F7.3",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "tax-residency",
+      "srt",
+      "automatic-uk-test"
+    ],
+    "question": "Under the Statutory Residence Test (FA 2013, Sch 45), which is an automatic UK test?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Spending more than 90 days in the UK",
+        "correct": false,
+        "feedback": "90 days is a sufficient tie, not an automatic UK test."
+      },
+      {
+        "id": "b",
+        "text": "Spending 183 or more days in the UK in the tax year",
+        "correct": true,
+        "feedback": "Correct. 183+ days in a tax year is an automatic UK test — the individual is conclusively UK tax resident."
+      },
+      {
+        "id": "c",
+        "text": "Owning a UK residential property",
+        "correct": false,
+        "feedback": "Property ownership alone does not trigger automatic UK residence."
+      },
+      {
+        "id": "d",
+        "text": "Being a British citizen",
+        "correct": false,
+        "feedback": "Citizenship is not a test for tax residence under the SRT."
+      }
+    ],
+    "oscoa_references": [
+      "Finance Act 2013, Schedule 45"
+    ]
+  },
+  {
+    "id": "f-c4-007",
+    "page": "F",
+    "section": "F7",
+    "micro_skill": "F7.3",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "tax-residency",
+      "srt",
+      "automatic-overseas-test"
+    ],
+    "question": "Which satisfies the automatic overseas test so that an individual is conclusively non-UK resident?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Spending 90 days or fewer and having a UK home available for 30+ days",
+        "correct": false,
+        "feedback": "Having a UK home available is an automatic UK test that may override low day counts."
+      },
+      {
+        "id": "b",
+        "text": "Spending fewer than 16 days in the UK in the tax year",
+        "correct": true,
+        "feedback": "Correct. Under the SRT automatic overseas tests, fewer than 16 days means the individual is conclusively non-UK resident."
+      },
+      {
+        "id": "c",
+        "text": "Being employed by a non-UK company and spending up to 120 days in the UK",
+        "correct": false,
+        "feedback": "120 days exceeds the thresholds for automatic overseas tests."
+      },
+      {
+        "id": "d",
+        "text": "Spending fewer than 90 days with no UK accommodation",
+        "correct": false,
+        "feedback": "90 days is not an automatic overseas test; it is relevant under the sufficient ties test."
+      }
+    ],
+    "oscoa_references": [
+      "Finance Act 2013, Schedule 45, Part 2"
+    ]
+  },
+  {
+    "id": "f-c4-008",
+    "page": "F",
+    "section": "F7",
+    "micro_skill": "F7.3",
+    "crown_level": 4,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": [
+      "tax-residency",
+      "loophole",
+      "srt",
+      "day-count"
+    ],
+    "question": "An individual can legitimately maintain non-UK tax residence by carefully managing day counts to stay within the automatic overseas test or sufficient ties thresholds under the SRT.",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. SRT planning involves tracking UK days and managing ties. The test is mechanical and based on objective factors, making day-count and ties management a recognised residency planning technique."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "This is a legitimate approach. The SRT is mechanical and day/hour counting is central. Managing day counts and ties is standard practice for individuals seeking non-UK residence."
+      }
+    ],
+    "oscoa_references": [
+      "Finance Act 2013, Schedule 45"
+    ]
+  },
+  {
+    "id": "f-c4-009",
+    "page": "F",
+    "section": "F7",
+    "micro_skill": "F7.3",
+    "crown_level": 4,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": [
+      "tax-residency",
+      "loophole",
+      "remittance-basis",
+      "non-dom"
+    ],
+    "question": "A non-UK domiciled individual can defer UK income tax on foreign investment income indefinitely by keeping funds offshore, provided they pay the applicable remittance basis charge.",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. Under the remittance basis (ITEPA 2003, ss.809B–809Z), foreign income is taxed only when remitted to the UK. Note the government announcement to abolish this from April 2025, replacing it with a 4-year FIG regime."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "This correctly describes the remittance basis mechanism, though the government has announced its abolition from April 2025."
+      }
+    ],
+    "oscoa_references": [
+      "Income Tax (Earnings and Pensions) Act 2003, ss.809B–809Z"
+    ]
+  },
+  {
+    "id": "f-c4-010",
+    "page": "F",
+    "section": "F7",
+    "micro_skill": "F7.4",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "corporation-tax",
+      "residency",
+      "cmc",
+      "de-beers"
+    ],
+    "question": "According to De Beers Consolidated Mines Ltd v Howe [1906] AC 455, where is a company tax resident?",
+    "options": [
+      {
+        "id": "a",
+        "text": "In its jurisdiction of incorporation",
+        "correct": false,
+        "feedback": "While incorporation is one factor, the De Beers test looks at where CMC is exercised."
+      },
+      {
+        "id": "b",
+        "text": "Where its real business is carried on and where central management and control actually abides",
+        "correct": true,
+        "feedback": "Correct. De Beers establishes that a company is resident where central management and control (CMC) actually abides — typically where the board meets and makes strategic decisions."
+      },
+      {
+        "id": "c",
+        "text": "Where the majority of its shareholders reside",
+        "correct": false,
+        "feedback": "Shareholder residence is not the test for corporate tax residence."
+      },
+      {
+        "id": "d",
+        "text": "At the location of its registered office only",
+        "correct": false,
+        "feedback": "The registered office is a formal matter; the CMC test looks at substance."
+      }
+    ],
+    "oscoa_references": [
+      "De Beers Consolidated Mines Ltd v Howe [1906] AC 455"
+    ]
+  },
+  {
+    "id": "f-c4-011",
+    "page": "F",
+    "section": "F7",
+    "micro_skill": "F7.4",
+    "crown_level": 4,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "corporation-tax",
+      "loophole",
+      "cmc",
+      "wood-v-holden"
+    ],
+    "question": "Following Wood v Holden [2006] EWCA Civ 26, a UK-incorporated company can be non-UK tax resident if board meetings are genuinely held outside the UK and directors exercise central management and control in that offshore jurisdiction.",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. Wood v Holden confirmed that if the board genuinely meets and makes strategic decisions outside the UK, the company can be non-UK resident even if UK-incorporated, provided directors are not merely rubber-stamping."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "Wood v Holden [2006] established that corporate residence follows where CMC is genuinely exercised, not where the company is incorporated."
+      }
+    ],
+    "oscoa_references": [
+      "Wood v Holden [2006] EWCA Civ 26",
+      "De Beers Consolidated Mines Ltd v Howe [1906] AC 455"
+    ]
+  },
+  {
+    "id": "f-c4-012",
+    "page": "F",
+    "section": "F8",
+    "micro_skill": "F8.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "treaty",
+      "double-tax",
+      "oecd",
+      "tie-breaker"
+    ],
+    "question": "What is the primary purpose of bilateral double tax treaties based on the OECD Model Tax Convention?",
+    "options": [
+      {
+        "id": "a",
+        "text": "To harmonise tax rates across signatory states",
+        "correct": false,
+        "feedback": "Treaties do not harmonise rates; they allocate taxing rights between states."
+      },
+      {
+        "id": "b",
+        "text": "To prevent double taxation by allocating taxing rights between the residence and source states, and providing relief through credits, exemptions, or reduced withholding rates",
+        "correct": true,
+        "feedback": "Correct. Treaties allocate taxing rights and provide mechanisms (credits, exemptions, reduced rates) to eliminate double taxation."
+      },
+      {
+        "id": "c",
+        "text": "To exempt multinational enterprises from all taxation in the source state",
+        "correct": false,
+        "feedback": "Treaties do not provide blanket exemptions from source-state taxation."
+      },
+      {
+        "id": "d",
+        "text": "To create a single global tax rate for all signatory states",
+        "correct": false,
+        "feedback": "Treaties do not set tax rates; that is a matter of domestic law."
+      }
+    ],
+    "oscoa_references": [
+      "OECD Model Tax Convention on Income and Capital"
+    ]
+  },
+  {
+    "id": "f-c4-013",
+    "page": "F",
+    "section": "F8",
+    "micro_skill": "F8.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "treaty",
+      "dual-residence",
+      "tie-breaker",
+      "poem"
+    ],
+    "question": "How does the OECD Model Convention (post-2017 MLI) resolve dual corporate residence?",
+    "options": [
+      {
+        "id": "a",
+        "text": "By the place of incorporation",
+        "correct": false,
+        "feedback": "The post-MLI approach has moved beyond a simple rule."
+      },
+      {
+        "id": "b",
+        "text": "By the place of effective management (POEM)",
+        "correct": false,
+        "feedback": "POEM was the pre-2017 approach. The MLI changed this."
+      },
+      {
+        "id": "c",
+        "text": "By mutual agreement between the competent authorities of the two contracting states",
+        "correct": true,
+        "feedback": "Correct. Post-2017 MLI, the tie-breaker for dual-resident companies is determined by competent authority mutual agreement, considering POEM, incorporation, and other factors."
+      },
+      {
+        "id": "d",
+        "text": "By the location of the company's largest shareholder",
+        "correct": false,
+        "feedback": "Shareholder location is not the tie-breaker under any version of the OECD Model."
+      }
+    ],
+    "oscoa_references": [
+      "OECD Model Tax Convention, Art 4",
+      "Multilateral Instrument (MLI)"
+    ]
+  },
+  {
+    "id": "f-c4-014",
+    "page": "F",
+    "section": "F8",
+    "micro_skill": "F8.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "treaty",
+      "uk-treaty-network",
+      "relief"
+    ],
+    "question": "Approximately how many bilateral double tax treaties does the UK have in force?",
+    "options": [
+      {
+        "id": "a",
+        "text": "50+",
+        "correct": false,
+        "feedback": "The UK network is larger."
+      },
+      {
+        "id": "b",
+        "text": "130+",
+        "correct": true,
+        "feedback": "Correct. The UK has one of the world's largest treaty networks with over 130 bilateral double tax treaties."
+      },
+      {
+        "id": "c",
+        "text": "90+",
+        "correct": false,
+        "feedback": "The UK network exceeds 130 agreements."
+      },
+      {
+        "id": "d",
+        "text": "200+",
+        "correct": false,
+        "feedback": "The UK network is large but does not reach 200+ treaties."
+      }
+    ],
+    "oscoa_references": [
+      "OECD Model Tax Convention"
+    ]
+  },
+  {
+    "id": "f-c4-015",
+    "page": "F",
+    "section": "F8",
+    "micro_skill": "F8.2",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "treaty",
+      "pe",
+      "permanent-establishment"
+    ],
+    "question": "Under OECD Model Art 5, what constitutes a permanent establishment (PE)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A subsidiary company incorporated in the source state",
+        "correct": false,
+        "feedback": "A subsidiary is a separate legal entity, not a PE of its parent."
+      },
+      {
+        "id": "b",
+        "text": "A fixed place of business through which the business of the enterprise is wholly or partly carried on",
+        "correct": true,
+        "feedback": "Correct. OECD Model Art 5 defines PE as a fixed place of business through which the business is wholly or partly carried on, subject to exceptions for preparatory/auxiliary activities."
+      },
+      {
+        "id": "c",
+        "text": "Any commercial presence in the source state regardless of duration",
+        "correct": false,
+        "feedback": "PE requires a fixed place and a degree of permanence; not every commercial presence qualifies."
+      },
+      {
+        "id": "d",
+        "text": "Only a registered branch office in the source state",
+        "correct": false,
+        "feedback": "PE is broader than registered branches; it includes any fixed place of business with sufficient substance."
+      }
+    ],
+    "oscoa_references": [
+      "OECD Model Tax Convention, Art 5"
+    ]
+  },
+  {
+    "id": "f-c4-016",
+    "page": "F",
+    "section": "F8",
+    "micro_skill": "F8.2",
+    "crown_level": 4,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "treaty",
+      "loophole",
+      "pe-avoidance",
+      "preparatory",
+      "auxiliary"
+    ],
+    "question": "A foreign company can avoid creating a UK permanent establishment by ensuring its UK activities are limited to preparatory or auxiliary activities such as storage, display, or delivery of goods.",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. OECD Model Art 5(4) excludes preparatory and auxiliary activities from PE. However, BEPS Action 7 (post-2017 MLI) targets fragmentation of activities to prevent splitting a cohesive business into artificially separate preparatory activities."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "This is a recognised technique under Art 5(4), though post-BEPS MLI anti-fragmentation rules need to be considered. Activities must genuinely be preparatory/auxiliary, not merely labelled as such."
+      }
+    ],
+    "oscoa_references": [
+      "OECD Model Tax Convention, Art 5(4)",
+      "BEPS Action 7"
+    ]
+  },
+  {
+    "id": "f-c4-017",
+    "page": "F",
+    "section": "F8",
+    "micro_skill": "F8.3",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "treaty",
+      "treaty-shopping",
+      "ppt",
+      "lob"
+    ],
+    "question": "Under the MLI, what is the Principal Purpose Test (PPT) for treaty benefits?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Treaty benefits are granted only if the taxpayer is a resident of the treaty state",
+        "correct": false,
+        "feedback": "Residence is a threshold requirement; PPT is an additional anti-abuse test."
+      },
+      {
+        "id": "b",
+        "text": "Treaty benefits are denied if obtaining the benefit was one of the principal purposes of the arrangement, unless granting the benefit is consistent with the object and purpose of the treaty",
+        "correct": true,
+        "feedback": "Correct. MLI Art 7 adds the PPT: treaty benefit denied if one principal purpose was obtaining it, unless consistent with treaty purposes."
+      },
+      {
+        "id": "c",
+        "text": "Treaty benefits require pre-approval from both contracting states",
+        "correct": false,
+        "feedback": "The PPT operates as a self-executing anti-abuse rule, not a pre-approval mechanism."
+      },
+      {
+        "id": "d",
+        "text": "Treaty benefits are automatically granted to all residents of signatory states",
+        "correct": false,
+        "feedback": "The PPT is an anti-abuse provision that can deny treaty benefits even to residents."
+      }
+    ],
+    "oscoa_references": [
+      "Multilateral Instrument, Art 7",
+      "OECD Model Tax Convention"
+    ]
+  },
+  {
+    "id": "f-c4-018",
+    "page": "F",
+    "section": "F8",
+    "micro_skill": "F8.3",
+    "crown_level": 4,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "treaty",
+      "loophole",
+      "treaty-shopping",
+      "substance",
+      "ppt"
+    ],
+    "question": "A company can satisfy the Principal Purpose Test (PPT) for treaty benefits by ensuring genuine commercial substance in the treaty jurisdiction, including real office space, staff, and board-level decision-making.",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. The PPT is not a per se anti-treaty-shopping rule. Where genuine commercial substance exists and obtaining treaty benefits was not a principal purpose, or granting benefits is consistent with treaty objectives, the PPT is satisfied. Substance is key."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "This correctly describes the substance-over-form approach to satisfying the PPT. Genuine commercial operations in the treaty jurisdiction effectively counter PPT-based denial of treaty benefits."
+      }
+    ],
+    "oscoa_references": [
+      "Multilateral Instrument, Art 7",
+      "Indofood International Finance Ltd v JP Morgan Chase Bank [2006] EWCA Civ 158"
+    ]
+  },
+  {
+    "id": "f-c5-001",
+    "page": "F",
+    "section": "F9",
+    "micro_skill": "F9.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "transfer-pricing",
+      "arms-length",
+      "tiopa"
+    ],
+    "question": "Under which Part of TIOPA 2010 is the arm's length principle for transfer pricing found?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Part 2",
+        "correct": false,
+        "feedback": "Part 2 deals with other international provisions."
+      },
+      {
+        "id": "b",
+        "text": "Part 4",
+        "correct": true,
+        "feedback": "Correct. TIOPA 2010, Part 4 contains the UK transfer pricing rules, requiring transactions between related parties to be priced at arm's length."
+      },
+      {
+        "id": "c",
+        "text": "Part 9A",
+        "correct": false,
+        "feedback": "Part 9A deals with Controlled Foreign Companies."
+      },
+      {
+        "id": "d",
+        "text": "Part 10",
+        "correct": false,
+        "feedback": "Part 10 deals with the corporate interest restriction."
+      }
+    ],
+    "oscoa_references": [
+      "Taxation (International and Other Provisions) Act 2010, Part 4"
+    ]
+  },
+  {
+    "id": "f-c5-002",
+    "page": "F",
+    "section": "F9",
+    "micro_skill": "F9.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "transfer-pricing",
+      "oecd-guidelines",
+      "methods"
+    ],
+    "question": "Which of the following is NOT one of the five recognised OECD transfer pricing methods?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Comparable Uncontrolled Price (CUP)",
+        "correct": false,
+        "feedback": "CUP is one of the five recognised OECD TP methods."
+      },
+      {
+        "id": "b",
+        "text": "Resale Price Method",
+        "correct": false,
+        "feedback": "The Resale Price Method is one of the five OECD methods."
+      },
+      {
+        "id": "c",
+        "text": "Full Cost Method",
+        "correct": true,
+        "feedback": "Correct. Full Cost Method is not an OECD-recognised transfer pricing method. The five methods are CUP, Resale Price, Cost Plus, Profit Split, and TNMM."
+      },
+      {
+        "id": "d",
+        "text": "Transactional Net Margin Method (TNMM)",
+        "correct": false,
+        "feedback": "TNMM is one of the five OECD methods."
+      }
+    ],
+    "oscoa_references": [
+      "OECD Transfer Pricing Guidelines",
+      "TIOPA 2010, Part 4"
+    ]
+  },
+  {
+    "id": "f-c5-003",
+    "page": "F",
+    "section": "F9",
+    "micro_skill": "F9.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": [
+      "transfer-pricing",
+      "loophole",
+      "inter-company-financing",
+      "thin-cap"
+    ],
+    "question": "In cross-border inter-company financing, what is the key constraint on maximising interest deductions in the UK through debt push-down?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The UK company must be profitable to claim any interest deduction",
+        "correct": false,
+        "feedback": "Loss-making companies can still accumulate interest deductions to carry forward."
+      },
+      {
+        "id": "b",
+        "text": "Thin capitalisation rules (TIOPA 2010, s.152) require debt to be at arm's length, and the corporate interest restriction limits deductions to 30% of tax-EBITDA",
+        "correct": true,
+        "feedback": "Correct. Thin cap and CIR together limit how much interest can be deducted. Debt must be at arm's length and deductions capped at 30% of EBITDA."
+      },
+      {
+        "id": "c",
+        "text": "All inter-company interest is disallowed under CFC rules",
+        "correct": false,
+        "feedback": "CFC rules target low-taxed profits, not all inter-company interest."
+      },
+      {
+        "id": "d",
+        "text": "Interest must be paid within 6 months of the year-end to be deductible",
+        "correct": false,
+        "feedback": "The timing of payment is relevant to the loan relationship rules but is not the primary constraint on debt push-down."
+      }
+    ],
+    "oscoa_references": [
+      "TIOPA 2010, s.152",
+      "TIOPA 2010, Part 4",
+      "TIOPA 2010, Part 10"
+    ]
+  },
+  {
+    "id": "f-c5-004",
+    "page": "F",
+    "section": "F9",
+    "micro_skill": "F9.2",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "cfc",
+      "tiopa",
+      "controlled-foreign-company"
+    ],
+    "question": "Under TIOPA 2010, Part 9A, what is the 'gateway' test for applying the CFC charge?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Whether the CFC is incorporated in a zero-tax jurisdiction",
+        "correct": false,
+        "feedback": "The CFC regime does not depend solely on the jurisdiction's tax rate."
+      },
+      {
+        "id": "b",
+        "text": "Whether the CFC's profits are attributable to UK significant people functions (SPFs)",
+        "correct": true,
+        "feedback": "Correct. The gateway test examines whether profits are attributable to UK SPFs — if the key activities generating the profits occur in the UK, the CFC charge may apply."
+      },
+      {
+        "id": "c",
+        "text": "Whether the CFC has more than £1 million in annual profits",
+        "correct": false,
+        "feedback": "The gateway is based on SPFs, not a profit threshold."
+      },
+      {
+        "id": "d",
+        "text": "Whether the CFC's parent company is UK-listed",
+        "correct": false,
+        "feedback": "Listing status is not relevant to the CFC gateway test."
+      }
+    ],
+    "oscoa_references": [
+      "Taxation (International and Other Provisions) Act 2010, Part 9A"
+    ]
+  },
+  {
+    "id": "f-c5-005",
+    "page": "F",
+    "section": "F9",
+    "micro_skill": "F9.2",
+    "crown_level": 5,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "cfc",
+      "loophole",
+      "economic-substance",
+      "exemption"
+    ],
+    "question": "A UK-parented subsidiary in a low-tax jurisdiction can avoid the CFC charge by ensuring genuine economic substance — adequate staff, premises, and management in that jurisdiction.",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. The CFC regime is designed to target artificially diverted profits, not genuine offshore operations. Adequate substance in the form of real staff, premises, and management satisfies exemptions and counters the SPF gateway."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "Genuine economic substance is the key defence against CFC charges. The regime targets profits attributable to UK SPFs; if the functions are genuinely performed offshore with real substance, the CFC charge should not apply."
+      }
+    ],
+    "oscoa_references": [
+      "Taxation (International and Other Provisions) Act 2010, Part 9A"
+    ]
+  },
+  {
+    "id": "f-c5-006",
+    "page": "F",
+    "section": "F10",
+    "micro_skill": "F10.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "dpt",
+      "diverted-profits-tax",
+      "fa-2015"
+    ],
+    "question": "Under which piece of legislation was Diverted Profits Tax (DPT) introduced?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Finance Act 2013",
+        "correct": false,
+        "feedback": "FA 2013 introduced the GAAR."
+      },
+      {
+        "id": "b",
+        "text": "Finance Act 2015",
+        "correct": true,
+        "feedback": "Correct. DPT was introduced by Finance Act 2015, charging 25% (now 31%) on profits artificially diverted from the UK."
+      },
+      {
+        "id": "c",
+        "text": "Finance Act 2017",
+        "correct": false,
+        "feedback": "FA 2017 introduced other measures but not DPT."
+      },
+      {
+        "id": "d",
+        "text": "Corporation Tax Act 2010",
+        "correct": false,
+        "feedback": "CTA 2010 does not contain the DPT provisions."
+      }
+    ],
+    "oscoa_references": [
+      "Finance Act 2015"
+    ]
+  },
+  {
+    "id": "f-c5-007",
+    "page": "F",
+    "section": "F10",
+    "micro_skill": "F10.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "dpt",
+      "limbs",
+      "pe-avoidance",
+      "economic-substance"
+    ],
+    "question": "What are the two limbs of the Diverted Profits Tax under Finance Act 2015?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Transfer pricing adjustment and CFC charge",
+        "correct": false,
+        "feedback": "These are separate regimes; the two DPT limbs are different."
+      },
+      {
+        "id": "b",
+        "text": "UK PE avoidance by foreign companies, and tax avoidance through entities or transactions lacking economic substance",
+        "correct": true,
+        "feedback": "Correct. DPT has two limbs: (1) foreign companies avoiding a UK PE with insufficient economic substance and a tax mismatch; (2) transactions with connected parties lacking economic substance with a tax mismatch."
+      },
+      {
+        "id": "c",
+        "text": "Non-payment of CT and late filing of returns",
+        "correct": false,
+        "feedback": "DPT targets specific avoidance structures, not general compliance failures."
+      },
+      {
+        "id": "d",
+        "text": "Offshore IP holding and intra-group financing",
+        "correct": false,
+        "feedback": "While these may be caught, the two statutory limbs are PE avoidance and entities/transactions lacking economic substance."
+      }
+    ],
+    "oscoa_references": [
+      "Finance Act 2015",
+      "Finance Act 2016"
+    ]
+  },
+  {
+    "id": "f-c5-008",
+    "page": "F",
+    "section": "F11",
+    "micro_skill": "F11.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "gaar",
+      "finance-act-2013",
+      "abusive"
+    ],
+    "question": "Under Finance Act 2013, Part 5, what is the threshold for the GAAR to apply?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Any arrangement that reduces tax",
+        "correct": false,
+        "feedback": "GAAR does not apply to all tax-reducing arrangements; it targets 'abusive' ones."
+      },
+      {
+        "id": "b",
+        "text": "Arrangements that, viewed objectively, cannot reasonably be regarded as a reasonable course of action considering all circumstances",
+        "correct": true,
+        "feedback": "Correct. The GAAR applies where arrangements are 'abusive' — they cannot be regarded as a reasonable course of action. The double reasonableness test involves the GAAR Advisory Panel and HMRC."
+      },
+      {
+        "id": "c",
+        "text": "Arrangements that result in tax savings exceeding £100,000",
+        "correct": false,
+        "feedback": "There is no monetary threshold for GAAR application."
+      },
+      {
+        "id": "d",
+        "text": "Any arrangement using an offshore structure",
+        "correct": false,
+        "feedback": "GAAR is not limited to offshore arrangements."
+      }
+    ],
+    "oscoa_references": [
+      "Finance Act 2013, Part 5"
+    ]
+  },
+  {
+    "id": "f-c5-009",
+    "page": "F",
+    "section": "F11",
+    "micro_skill": "F11.1",
+    "crown_level": 5,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": [
+      "gaar",
+      "loophole",
+      "reasonable-course-of-action"
+    ],
+    "question": "A taxpayer can resist GAAR application by arguing that the tax planning arrangement represents a reasonable course of action within the spirit of the legislation, and the GAAR is not a general anti-avoidance rule.",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. The GAAR targets only abusive arrangements. If the taxpayer can show the arrangement is a reasonable course of action within the spirit of the legislation, the GAAR should not apply. The GAAR is not a general anti-avoidance rule applying to all tax planning."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "This is a valid argument. The double reasonableness test requires HMRC to show the arrangement is not a reasonable course of action. Tax planning within the spirit of the law falls outside GAAR."
+      }
+    ],
+    "oscoa_references": [
+      "Finance Act 2013, Part 5",
+      "R (on the application of Haworth) v HMRC [2021] EWCA Civ 113"
+    ]
+  },
+  {
+    "id": "f-c5-010",
+    "page": "F",
+    "section": "F11",
+    "micro_skill": "F11.2",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "dotas",
+      "disclosure",
+      "hallmarks",
+      "fa-2004"
+    ],
+    "question": "Under DOTAS (FA 2004, Part 7), which of the following is a hallmark requiring disclosure of a tax avoidance scheme?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The scheme involves any form of tax planning",
+        "correct": false,
+        "feedback": "Not all tax planning requires DOTAS disclosure; only schemes bearing prescribed hallmarks."
+      },
+      {
+        "id": "b",
+        "text": "Confidentiality — the promoter wishes to keep the scheme confidential from HMRC, or a premium fee is charged",
+        "correct": true,
+        "feedback": "Correct. The confidentiality hallmark and premium fee hallmark are two of the main DOTAS triggers, along with standardised tax products, loss schemes, leasing, and employment income schemes."
+      },
+      {
+        "id": "c",
+        "text": "The scheme involves an offshore element",
+        "correct": false,
+        "feedback": "An offshore element alone is not a DOTAS hallmark."
+      },
+      {
+        "id": "d",
+        "text": "The scheme results in any tax saving whatsoever",
+        "correct": false,
+        "feedback": "DOTAS is not triggered by mere tax savings; it requires specific hallmarks."
+      }
+    ],
+    "oscoa_references": [
+      "Finance Act 2004, Part 7"
+    ]
+  },
+  {
+    "id": "f-c5-011",
+    "page": "F",
+    "section": "F11",
+    "micro_skill": "F11.2",
+    "crown_level": 5,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "dotas",
+      "loophole",
+      "legal-professional-privilege",
+      "lpp"
+    ],
+    "question": "Legal professional privilege can exempt a tax adviser from the obligation to disclose a tax avoidance scheme under DOTAS, where the advice is covered by LPP. Bell v HMRC [2021] UKFTT 100 (TC).",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. LPP is a recognised exemption from DOTAS disclosure obligations. In Bell v HMRC [2021], the FTT considered the interaction between LPP and disclosure requirements."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "This is correct. LPP provides a defence to non-disclosure under DOTAS, though the scope has been litigated and may depend on whether the advice is truly privileged."
+      }
+    ],
+    "oscoa_references": [
+      "Finance Act 2004, Part 7",
+      "Bell v HMRC [2021] UKFTT 100 (TC)"
+    ]
+  },
+  {
+    "id": "f-c5-012",
+    "page": "F",
+    "section": "F12",
+    "micro_skill": "F12.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "crs",
+      "common-reporting-standard",
+      "oecd"
+    ],
+    "question": "What is the purpose of the OECD Common Reporting Standard (CRS)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "To set a global minimum corporate tax rate",
+        "correct": false,
+        "feedback": "Global minimum tax is Pillar 2, not CRS."
+      },
+      {
+        "id": "b",
+        "text": "To require financial institutions to report account information to tax authorities for automatic exchange between participating jurisdictions",
+        "correct": true,
+        "feedback": "Correct. CRS mandates financial institutions to identify and report account holders' tax residencies for automatic information exchange."
+      },
+      {
+        "id": "c",
+        "text": "To harmonise VAT rules across OECD countries",
+        "correct": false,
+        "feedback": "CRS is focused on financial account information exchange, not VAT."
+      },
+      {
+        "id": "d",
+        "text": "To eliminate withholding taxes on cross-border interest payments",
+        "correct": false,
+        "feedback": "CRS is about information exchange, not withholding tax elimination."
+      }
+    ],
+    "oscoa_references": [
+      "OECD Common Reporting Standard"
+    ]
+  },
+  {
+    "id": "f-c5-013",
+    "page": "F",
+    "section": "F12",
+    "micro_skill": "F12.1",
+    "crown_level": 5,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": [
+      "crs",
+      "loophole",
+      "non-participating-jurisdictions"
+    ],
+    "question": "CRS reporting obligations only apply between participating jurisdictions, so assets held in financial institutions in non-participating jurisdictions are not reported under CRS.",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. CRS is based on reciprocal exchange between participating jurisdictions. However, this gap is narrowing as more jurisdictions join, and FATCA and bilateral agreements may cover some non-CRS jurisdictions."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "CRS exchange is indeed between participating jurisdictions. Non-participating jurisdictions are not in the CRS framework, though other reporting obligations (FATCA, bilateral) may apply."
+      }
+    ],
+    "oscoa_references": [
+      "OECD Common Reporting Standard"
+    ]
+  },
+  {
+    "id": "f-c5-014",
+    "page": "F",
+    "section": "F12",
+    "micro_skill": "F12.2",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "fatca",
+      "us",
+      "iga",
+      "withholding"
+    ],
+    "question": "What is the consequence for a financial institution that does not comply with FATCA reporting?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A fine of up to £1 million",
+        "correct": false,
+        "feedback": "The primary FATCA penalty is not a fixed fine."
+      },
+      {
+        "id": "b",
+        "text": "30% withholding tax on US-source income",
+        "correct": true,
+        "feedback": "Correct. Non-compliant foreign financial institutions face 30% withholding on US-source income."
+      },
+      {
+        "id": "c",
+        "text": "Mandatory closure of all US customer accounts",
+        "correct": false,
+        "feedback": "FATCA does not require account closure; the penalty is withholding."
+      },
+      {
+        "id": "d",
+        "text": "Suspension of the institution's banking licence",
+        "correct": false,
+        "feedback": "FATCA penalties are financial (withholding), not regulatory suspension."
+      }
+    ],
+    "oscoa_references": [
+      "US-UK Intergovernmental Agreement (FATCA)"
+    ]
+  },
+  {
+    "id": "f-c5-015",
+    "page": "F",
+    "section": "F13",
+    "micro_skill": "F13.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "beneficial-ownership",
+      "register",
+      "eccta-2022"
+    ],
+    "question": "Under ECCTA 2022, what constitutes a beneficial owner for the Register of Overseas Entities?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Any person who has ever held shares in the entity",
+        "correct": false,
+        "feedback": "The threshold is 25%+ or significant control, not any shareholding."
+      },
+      {
+        "id": "b",
+        "text": "Persons holding 25% or more of shares or voting rights, or exercising significant influence or control over the entity",
+        "correct": true,
+        "feedback": "Correct. Beneficial owners are those with 25%+ shares/votes/rights, or significant influence/control, mirroring the PSC regime."
+      },
+      {
+        "id": "c",
+        "text": "Only directors of the overseas entity",
+        "correct": false,
+        "feedback": "Directors may be registrable but the test is based on ownership and control, not merely directorship."
+      },
+      {
+        "id": "d",
+        "text": "Only shareholders resident in the UK",
+        "correct": false,
+        "feedback": "Residence is irrelevant; the test is based on ownership and control thresholds."
+      }
+    ],
+    "oscoa_references": [
+      "Economic Crime (Transparency and Enforcement) Act 2022"
+    ]
+  },
+  {
+    "id": "f-c5-016",
+    "page": "F",
+    "section": "F13",
+    "micro_skill": "F13.1",
+    "crown_level": 5,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": [
+      "beneficial-ownership",
+      "loophole",
+      "25-percent-threshold"
+    ],
+    "question": "A person holding 24% of shares in an overseas entity is not a registrable beneficial owner for the Register of Overseas Entities.",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. The threshold is 25% or more. However, if the 24% holder exercises significant influence or control through other means (e.g. veto rights, board control), they may still be registrable."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "A 24% shareholding is below the 25% threshold. However, the analysis should also consider whether the person has significant control through other means (rights, influence), which could make them registrable regardless of the shareholding percentage."
+      }
+    ],
+    "oscoa_references": [
+      "Economic Crime (Transparency and Enforcement) Act 2022"
+    ]
+  },
+  {
+    "id": "f-c5-017",
+    "page": "F",
+    "section": "F13",
+    "micro_skill": "F13.2",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "uwo",
+      "unexplained-wealth-order",
+      "criminal-finances-act"
+    ],
+    "question": "Under the Criminal Finances Act 2017, against whom may an Unexplained Wealth Order (UWO) be obtained?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Any UK taxpayer with assets exceeding £500,000",
+        "correct": false,
+        "feedback": "UWOs are not available against any wealthy person; specific criteria apply."
+      },
+      {
+        "id": "b",
+        "text": "Politically Exposed Persons (non-EEA) and those suspected of involvement in serious crime, where property exceeds £50,000 and known lawful income appears insufficient",
+        "correct": true,
+        "feedback": "Correct. UWOs target PEPs (non-EEA) and those suspected of serious crime, with property over £50,000 and reasonable grounds to suspect lawful income is insufficient."
+      },
+      {
+        "id": "c",
+        "text": "Any individual who has been UK resident for more than 7 years",
+        "correct": false,
+        "feedback": "Residence duration is not a trigger for a UWO."
+      },
+      {
+        "id": "d",
+        "text": "Any company director whose company has unpaid tax liabilities",
+        "correct": false,
+        "feedback": "UWOs are not a tax collection mechanism; they target unexplained wealth of PEPs and serious crime suspects."
+      }
+    ],
+    "oscoa_references": [
+      "Criminal Finances Act 2017, ss.362A–362T"
+    ]
+  },
+  {
+    "id": "f-c5-018",
+    "page": "F",
+    "section": "F13",
+    "micro_skill": "F13.2",
+    "crown_level": 5,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": [
+      "uwo",
+      "loophole",
+      "compliance",
+      "discharge"
+    ],
+    "question": "A respondent to an Unexplained Wealth Order can have the order discharged by providing a satisfactory explanation of the lawful source of the wealth — with no criminal penalty for complying.",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. The UWO is directed at property, not the person. If the respondent provides a satisfactory explanation of the source, the order is discharged. Compliance itself does not attract criminal penalties — the UWO is investigative, not punitive."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "This is correct. The UWO mechanism is designed to compel explanation. Satisfactory compliance results in discharge of the order without criminal penalty. However, false or misleading responses may constitute a criminal offence."
+      }
+    ],
+    "oscoa_references": [
+      "Criminal Finances Act 2017, ss.362A–362T"
+    ]
+  },
+  {
+    "id": "f-c5-019",
+    "page": "F",
+    "section": "F14",
+    "micro_skill": "F14.1",
+    "crown_level": 5,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "loophole",
+      "excluded-property-trust",
+      "non-dom",
+      "iht"
+    ],
+    "question": "Non-UK situs assets settled by a non-dom into an offshore discretionary trust before becoming deemed UK domiciled are permanently outside the scope of UK inheritance tax.",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. Under IHTA 1984, s.48(3), excluded property trusts provide permanent IHT protection for non-UK situs assets settled before deemed domicile. This is one of the most powerful IHT planning tools for non-doms."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "This is correct. Excluded property trusts under IHTA 1984, s.48(3) permanently remove non-UK situs assets from the UK IHT net if settled before deemed domicile arises."
+      }
+    ],
+    "oscoa_references": [
+      "Inheritance Tax Act 1984, s.48(3)",
+      "Inheritance Tax Act 1984, s.267"
+    ]
+  },
+  {
+    "id": "f-c5-020",
+    "page": "F",
+    "section": "F14",
+    "micro_skill": "F14.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": [
+      "loophole",
+      "discounted-gift-trust",
+      "iht-planning"
+    ],
+    "question": "What is the key advantage of a discounted gift trust for IHT planning?",
+    "options": [
+      {
+        "id": "a",
+        "text": "All trust income is tax-free for the settlor",
+        "correct": false,
+        "feedback": "The settlor may still be taxable on trust income under the settlements code."
+      },
+      {
+        "id": "b",
+        "text": "The settlor's retained right to regular income payments is discounted from the transfer value for IHT, reducing the chargeable transfer, and the trust is outside the estate after 7 years",
+        "correct": true,
+        "feedback": "Correct. The discounting mechanism values the settlor's retained income right, reducing the gift element for IHT. The trust fund grows outside the estate after the PET period expires."
+      },
+      {
+        "id": "c",
+        "text": "The trust is completely exempt from all taxes",
+        "correct": false,
+        "feedback": "Discounted gift trusts are subject to the usual trust tax regime (income tax on trustees, periodic IHT charges for relevant property)."
+      },
+      {
+        "id": "d",
+        "text": "The settlor can access the trust capital at any time",
+        "correct": false,
+        "feedback": "Access to capital would cause a gift with reservation of benefit, undermining the IHT planning."
+      }
+    ],
+    "oscoa_references": [
+      "Inheritance Tax Act 1984, s.3A",
+      "Inheritance Tax Act 1984, s.102ZA"
+    ]
+  },
+  {
+    "id": "f-c5-021",
+    "page": "F",
+    "section": "F14",
+    "micro_skill": "F14.2",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "loophole",
+      "debt-push-down",
+      "interest-deduction"
+    ],
+    "question": "A UK subsidiary borrows from its offshore parent to finance its UK operations. What are the main constraints on the tax effectiveness of this debt push-down?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The UK subsidiary must have a UK banking licence",
+        "correct": false,
+        "feedback": "A banking licence is not required for intra-group lending."
+      },
+      {
+        "id": "b",
+        "text": "Transfer pricing (arm's length interest), thin capitalisation (arm's length debt), corporate interest restriction (30% EBITDA), and potential DPT/GAAR challenge",
+        "correct": true,
+        "feedback": "Correct. Debt push-down must navigate transfer pricing, thin cap, CIR, and anti-avoidance provisions. The interest must reflect arm's length terms, the debt level must be commercially justifiable, and deductions are capped."
+      },
+      {
+        "id": "c",
+        "text": "The parent must be resident in a jurisdiction with a double tax treaty with the UK",
+        "correct": false,
+        "feedback": "While treaty residence affects withholding taxes, it is not a constraint on deductibility of interest."
+      },
+      {
+        "id": "d",
+        "text": "There are no constraints — inter-company interest is always fully deductible",
+        "correct": false,
+        "feedback": "There are significant constraints: transfer pricing, thin cap, CIR, and anti-avoidance rules all apply."
+      }
+    ],
+    "oscoa_references": [
+      "TIOPA 2010, s.152",
+      "TIOPA 2010, Part 4",
+      "TIOPA 2010, Part 10",
+      "Finance Act 2015 (DPT)"
+    ]
+  },
+  {
+    "id": "f-c5-022",
+    "page": "F",
+    "section": "F14",
+    "micro_skill": "F14.2",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "loophole",
+      "ip-holding-company",
+      "royalty",
+      "patent-box"
+    ],
+    "question": "A multinational group places its IP in an offshore holding company that charges royalties to the UK operating entity. What mitigations are available against potential UK tax challenges?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The UK entity can simply refuse to pay royalties",
+        "correct": false,
+        "feedback": "Refusing to pay contractual royalties would not be commercially viable."
+      },
+      {
+        "id": "b",
+        "text": "Ensuring the IP holding company has genuine substance (staff, premises, DEMPE functions), arm's length royalty rates, and considering the UK Patent Box (10% rate) as an alternative",
+        "correct": true,
+        "feedback": "Correct. Substance and DEMPE (Development, Enhancement, Maintenance, Protection, Exploitation) functions at the IP holder level, arm's length pricing, and robust documentation are essential. The UK Patent Box offers a 10% CT rate on qualifying IP income as an onshore alternative."
+      },
+      {
+        "id": "c",
+        "text": "Registering the IP in a jurisdiction outside the CRS network",
+        "correct": false,
+        "feedback": "CRS registration is irrelevant to the substantive tax analysis of IP holding structures."
+      },
+      {
+        "id": "d",
+        "text": "Using a cost-sharing agreement to allocate all IP development costs to the offshore entity",
+        "correct": false,
+        "feedback": "Cost-sharing agreements require arm's length contributions and may still be challenged if the substance of DEMPE functions does not support the allocation."
+      }
+    ],
+    "oscoa_references": [
+      "TIOPA 2010, Part 4",
+      "Finance Act 2015 (DPT)",
+      "Corporation Tax Act 2010, Part 8A (Patent Box)"
+    ]
+  },
+  {
+    "id": "f-c5-023",
+    "page": "F",
+    "section": "F14",
+    "micro_skill": "F14.3",
+    "crown_level": 5,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": [
+      "loophole",
+      "srt",
+      "residency-planning",
+      "day-count"
+    ],
+    "question": "An individual can legitimately break UK tax residence by managing day counts below SRT thresholds and maintaining sufficient ties in another country.",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. The SRT is an objective, mechanical test. By managing day counts and ties, individuals can legitimately establish non-UK residence. This is a standard and lawful approach to residence planning."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "SRT planning through day-count management and ties is a well-established, lawful approach to establishing non-UK residence. The test was specifically designed to provide certainty."
+      }
+    ],
+    "oscoa_references": [
+      "Finance Act 2013, Schedule 45"
+    ]
+  },
+  {
+    "id": "f-c5-024",
+    "page": "F",
+    "section": "F14",
+    "micro_skill": "F14.3",
+    "crown_level": 5,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "loophole",
+      "corporate-residency",
+      "cmc",
+      "offshore"
+    ],
+    "question": "A company can establish non-UK tax residence by holding substantive board meetings offshore where strategic decisions are genuinely made, per Wood v Holden [2006] EWCA Civ 26.",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. Wood v Holden confirmed that genuine offshore board meetings where CMC is actually exercised can establish non-UK residence. However, Development Securities [2019] emphasises that substance matters — HMRC will look behind merely formal meetings."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "This correctly reflects the principle in Wood v Holden, though the requirement is for genuine substantive decision-making, not merely holding formal board meetings offshore."
+      }
+    ],
+    "oscoa_references": [
+      "Wood v Holden [2006] EWCA Civ 26",
+      "Development Securities plc v HMRC [2019] UKUT 169 (TCC)"
+    ]
+  },
+  {
+    "id": "f-c5-025",
+    "page": "F",
+    "section": "F14",
+    "micro_skill": "F14.4",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "tax-avoidance",
+      "tax-evasion",
+      "ramsay"
+    ],
+    "question": "Which case established the Ramsay principle for interpreting tax avoidance schemes?",
+    "options": [
+      {
+        "id": "a",
+        "text": "IRC v Duke of Westminster [1936] AC 1",
+        "correct": false,
+        "feedback": "Duke of Westminster established that taxpayers may arrange their affairs to minimise tax, but this principle has been constrained by Ramsay."
+      },
+      {
+        "id": "b",
+        "text": "WT Ramsay Ltd v IRC [1982] AC 300",
+        "correct": true,
+        "feedback": "Correct. The Ramsay principle requires viewing composite transactions as a whole; pre-ordained steps with no commercial purpose may be disregarded."
+      },
+      {
+        "id": "c",
+        "text": "Furniss v Dawson [1984] AC 474",
+        "correct": false,
+        "feedback": "Furniss v Dawson extended Ramsay but did not establish the original principle."
+      },
+      {
+        "id": "d",
+        "text": "Barclays Mercantile Business Finance Ltd v Mawson [2004] UKHL 51",
+        "correct": false,
+        "feedback": "BMBF v Mawson refined and clarified Ramsay but did not establish it."
+      }
+    ],
+    "oscoa_references": [
+      "WT Ramsay Ltd v IRC [1982] AC 300"
+    ]
+  },
+  {
+    "id": "f-c5-026",
+    "page": "F",
+    "section": "F14",
+    "micro_skill": "F14.4",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "loophole",
+      "ramsay",
+      "commercial-purpose",
+      "tax-avoidance"
+    ],
+    "question": "According to MacNiven v Westmoreland Investments Ltd [2001] UKHL 6, when does the Ramsay principle NOT apply to disregard tax planning steps?",
+    "options": [
+      {
+        "id": "a",
+        "text": "When the steps result in a tax saving of less than £100,000",
+        "correct": false,
+        "feedback": "There is no monetary threshold for Ramsay."
+      },
+      {
+        "id": "b",
+        "text": "When the inserted steps have an independent commercial purpose beyond tax avoidance",
+        "correct": true,
+        "feedback": "Correct. MacNiven held that if inserted steps have a genuine, independent commercial purpose, Ramsay does not permit them to be disregarded. The key distinction is between steps inserted solely for tax purposes and those with real commercial substance."
+      },
+      {
+        "id": "c",
+        "text": "When the arrangement is disclosed to HMRC under DOTAS",
+        "correct": false,
+        "feedback": "DOTAS disclosure does not immunise a scheme from Ramsay."
+      },
+      {
+        "id": "d",
+        "text": "When implemented by a qualified tax adviser",
+        "correct": false,
+        "feedback": "The involvement of a qualified adviser does not protect from Ramsay."
+      }
+    ],
+    "oscoa_references": [
+      "MacNiven v Westmoreland Investments Ltd [2001] UKHL 6",
+      "WT Ramsay Ltd v IRC [1982] AC 300"
+    ]
+  },
+  {
+    "id": "f-c5-027",
+    "page": "F",
+    "section": "F14",
+    "micro_skill": "F14.5",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": [
+      "loophole",
+      "investor-migration",
+      "non-dom",
+      "fig-regime"
+    ],
+    "question": "With the announced abolition of the UK remittance basis from April 2025, what replacement regime has been proposed for new UK arrivals?",
+    "options": [
+      {
+        "id": "a",
+        "text": "An indefinite tax holiday for all foreign income and gains",
+        "correct": false,
+        "feedback": "No indefinite tax holiday has been proposed."
+      },
+      {
+        "id": "b",
+        "text": "A 4-year Foreign Income and Gains (FIG) regime for new arrivals who have been non-UK resident for at least 10 years",
+        "correct": true,
+        "feedback": "Correct. The government has proposed a 4-year FIG regime from April 2025, allowing new UK arrivals with 10+ years of non-residence to receive foreign income and gains tax-free during their first 4 years of UK residence."
+      },
+      {
+        "id": "c",
+        "text": "An immediate worldwide taxation system for all UK arrivals",
+        "correct": false,
+        "feedback": "The government has proposed a transitional regime, not immediate worldwide taxation for all."
+      },
+      {
+        "id": "d",
+        "text": "A flat 15% tax rate on all foreign income",
+        "correct": false,
+        "feedback": "No flat 15% rate on foreign income has been announced as the replacement."
+      }
+    ],
+    "oscoa_references": [
+      "Finance Act 2025 (anticipated)",
+      "Income Tax (Earnings and Pensions) Act 2003, ss.809B–809Z"
+    ]
+  }
+]

@@ -1,0 +1,4781 @@
+[
+  {
+    "id": "i-c1-001",
+    "page": "I",
+    "section": "I1",
+    "micro_skill": "I1.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "overriding-objective",
+      "cpr-1",
+      "justly-and-proportionate"
+    ],
+    "question": "Under CPR 1.1(1), what is the overriding objective of the Civil Procedure Rules?",
+    "options": [
+      {
+        "id": "a",
+        "text": "To ensure all claims reach trial within 12 months",
+        "correct": false,
+        "feedback": "There is no fixed 12-month requirement — the overriding objective focuses on enabling the court to deal with cases justly and at proportionate cost."
+      },
+      {
+        "id": "b",
+        "text": "To enable the court to deal with cases justly and at proportionate cost",
+        "correct": true,
+        "feedback": "Correct — CPR 1.1(1) states the overriding objective is to enable the court to deal with cases justly and at proportionate cost."
+      },
+      {
+        "id": "c",
+        "text": "To guarantee every litigant legal representation",
+        "correct": false,
+        "feedback": "There is no guarantee of representation — the overriding objective concerns the court's approach to managing cases."
+      },
+      {
+        "id": "d",
+        "text": "To maximise the number of claims that proceed to a full trial",
+        "correct": false,
+        "feedback": "The overriding objective encourages proportionate use of court resources, which may involve early settlement or summary disposal."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 1.1(1)"
+    ]
+  },
+  {
+    "id": "i-c1-002",
+    "page": "I",
+    "section": "I1",
+    "micro_skill": "I1.1",
+    "crown_level": 1,
+    "type": "msq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "overriding-objective",
+      "cpr-1",
+      "factors"
+    ],
+    "question": "Which of the following are factors the court must consider under CPR 1.1(2) when furthering the overriding objective? (Select all that apply.)",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ensuring parties are on an equal footing",
+        "correct": true,
+        "feedback": "Correct — CPR 1.1(2)(a)."
+      },
+      {
+        "id": "b",
+        "text": "Saving expense",
+        "correct": true,
+        "feedback": "Correct — CPR 1.1(2)(b)."
+      },
+      {
+        "id": "c",
+        "text": "Dealing with the case proportionately to the amount of money involved, importance, complexity, and financial position of each party",
+        "correct": true,
+        "feedback": "Correct — CPR 1.1(2)(c)."
+      },
+      {
+        "id": "d",
+        "text": "Allotting an appropriate share of the court's resources",
+        "correct": true,
+        "feedback": "Correct — CPR 1.1(2)(e)."
+      },
+      {
+        "id": "e",
+        "text": "Prioritising cases involving represented parties over litigants in person",
+        "correct": false,
+        "feedback": "There is no such priority — the court must ensure equality of arms including for LiPs."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 1.1(2)"
+    ]
+  },
+  {
+    "id": "i-c1-003",
+    "page": "I",
+    "section": "I1",
+    "micro_skill": "I1.1",
+    "crown_level": 1,
+    "type": "scenario",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "overriding-objective",
+      "cpr-1.3",
+      "duty-to-help",
+      "lip"
+    ],
+    "question": "A litigant in person repeatedly fails to comply with case management directions, arguing that as an unrepresented party they should not be held to the same standard. What does CPR 1.3 require?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The court must excuse all non-compliance by litigants in person",
+        "correct": false,
+        "feedback": "There is no blanket exemption — CPR 1.3 applies to all parties."
+      },
+      {
+        "id": "b",
+        "text": "Parties have a duty to help the court further the overriding objective",
+        "correct": true,
+        "feedback": "Correct — CPR 1.3 imposes a duty on all parties (including LiPs) to help the court further the overriding objective. Non-compliance can attract sanctions."
+      },
+      {
+        "id": "c",
+        "text": "Only represented parties have a duty to comply with court directions",
+        "correct": false,
+        "feedback": "The duty under CPR 1.3 applies to all parties, represented or not."
+      },
+      {
+        "id": "d",
+        "text": "The overriding objective does not apply to small claims",
+        "correct": false,
+        "feedback": "The overriding objective applies to all proceedings governed by the CPR."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 1.3"
+    ]
+  },
+  {
+    "id": "i-c1-004",
+    "page": "I",
+    "section": "I2",
+    "micro_skill": "I2.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "pre-action",
+      "letter-of-claim",
+      "response-time"
+    ],
+    "question": "Under the Practice Direction – Pre-Action Conduct, what is the generally expected response time to a straightforward letter of claim?",
+    "options": [
+      {
+        "id": "a",
+        "text": "7 days",
+        "correct": false,
+        "feedback": "The Practice Direction allows 14 days for a straightforward claim."
+      },
+      {
+        "id": "b",
+        "text": "14 days",
+        "correct": true,
+        "feedback": "Correct — the Practice Direction states that for straightforward claims a response is expected within 14 days (3 months for complex claims)."
+      },
+      {
+        "id": "c",
+        "text": "28 days",
+        "correct": false,
+        "feedback": "28 days is the extended time for filing a defence after acknowledgment, not the pre-action response period."
+      },
+      {
+        "id": "d",
+        "text": "3 months",
+        "correct": false,
+        "feedback": "3 months applies to complex claims only, not straightforward ones."
+      }
+    ],
+    "oscoa_references": [
+      "Practice Direction – Pre-Action Conduct and Protocols"
+    ]
+  },
+  {
+    "id": "i-c1-005",
+    "page": "I",
+    "section": "I2",
+    "micro_skill": "I2.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "pre-action",
+      "costs",
+      "cpr-44",
+      "failure-to-comply"
+    ],
+    "question": "What consequences may follow a party's failure to comply with a pre-action protocol?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Automatic strike out of the claim",
+        "correct": false,
+        "feedback": "Failure to comply does not result in automatic strike out."
+      },
+      {
+        "id": "b",
+        "text": "The claim is void ab initio",
+        "correct": false,
+        "feedback": "Non-compliance does not void the claim."
+      },
+      {
+        "id": "c",
+        "text": "Costs sanctions under CPR 44.3(5)(a) and a stay of proceedings until compliance",
+        "correct": true,
+        "feedback": "Correct — consequences include costs sanctions and the court may stay proceedings pending compliance."
+      },
+      {
+        "id": "d",
+        "text": "Automatic default judgment for the opponent",
+        "correct": false,
+        "feedback": "Default judgment arises from failure to file an acknowledgment or defence, not pre-action protocol non-compliance."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 44.3(5)(a)",
+      "Practice Direction – Pre-Action Conduct and Protocols"
+    ]
+  },
+  {
+    "id": "i-c1-006",
+    "page": "I",
+    "section": "I2",
+    "micro_skill": "I2.1",
+    "crown_level": 1,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "pre-action",
+      "lip",
+      "records",
+      "certificate-of-service"
+    ],
+    "question": "'A litigant in person should keep records of pre-action compliance, including certificates of service and email records, to support later costs arguments.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct — contemporaneous records of pre-action compliance support costs arguments and demonstrate adherence to the protocol."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "Records of pre-action compliance are important evidence if costs issues arise later."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 44.3(5)(a)",
+      "Practice Direction – Pre-Action Conduct and Protocols"
+    ]
+  },
+  {
+    "id": "i-c1-007",
+    "page": "I",
+    "section": "I3",
+    "micro_skill": "I3.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "part-7",
+      "claim-form",
+      "N1",
+      "issuing"
+    ],
+    "question": "Under CPR 7.2, when is a claim form issued by the court?",
+    "options": [
+      {
+        "id": "a",
+        "text": "When the claimant completes the N1 form",
+        "correct": false,
+        "feedback": "Completing the form is a prerequisite but does not constitute issue."
+      },
+      {
+        "id": "b",
+        "text": "On the date the court receives the claim form and seals it",
+        "correct": true,
+        "feedback": "Correct — CPR 7.2 provides that the court issues the claim form on the date it receives it, evidenced by sealing."
+      },
+      {
+        "id": "c",
+        "text": "When the defendant is served with the claim form",
+        "correct": false,
+        "feedback": "Issue and service are separate steps — the claim is issued before service."
+      },
+      {
+        "id": "d",
+        "text": "14 days after the court receives the claim form",
+        "correct": false,
+        "feedback": "There is no 14-day waiting period — issue occurs on the date of receipt and sealing."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 7.2"
+    ]
+  },
+  {
+    "id": "i-c1-008",
+    "page": "I",
+    "section": "I3",
+    "micro_skill": "I3.1",
+    "crown_level": 1,
+    "type": "fill_blank",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "part-7",
+      "statement-of-truth",
+      "cpr-22",
+      "verification"
+    ],
+    "question": "Under CPR 22, every statement of case must be verified by a statement of ______, signed by the party or legal representative, and stating 'I believe that the facts stated in this document are true'.",
+    "options": [],
+    "feedback": "The correct answer is 'truth'. A knowingly false statement of truth may amount to contempt of court.",
+    "oscoa_references": [
+      "CPR 22"
+    ]
+  },
+  {
+    "id": "i-c1-009",
+    "page": "I",
+    "section": "I3",
+    "micro_skill": "I3.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "part-7",
+      "value",
+      "claim-form",
+      "bands"
+    ],
+    "question": "An N1 claim form requires the claimant to state the value of the claim. Which of the following is NOT a valid value statement under the CPR?",
+    "options": [
+      {
+        "id": "a",
+        "text": "'Cannot say'",
+        "correct": false,
+        "feedback": "This is a valid option."
+      },
+      {
+        "id": "b",
+        "text": "'Not more than £10,000'",
+        "correct": false,
+        "feedback": "This is a valid option."
+      },
+      {
+        "id": "c",
+        "text": "'More than £25,000 but not more than £50,000'",
+        "correct": true,
+        "feedback": "Correct — the standard value bands are: not more than £10,000, more than £10,000 but not more than £25,000, and more than £25,000. There is no separate £25,000–£50,000 band."
+      },
+      {
+        "id": "d",
+        "text": "'More than £25,000'",
+        "correct": false,
+        "feedback": "This is a valid option — indicating the claim likely falls on the multi-track."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 7.2",
+      "CPR 16.4"
+    ]
+  },
+  {
+    "id": "i-c1-010",
+    "page": "I",
+    "section": "I3",
+    "micro_skill": "I3.2",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "part-8",
+      "alternative-procedure",
+      "no-substantial-dispute"
+    ],
+    "question": "When is the Part 8 alternative procedure appropriate?",
+    "options": [
+      {
+        "id": "a",
+        "text": "When the claim involves complex factual disputes",
+        "correct": false,
+        "feedback": "Part 8 is for claims without substantial dispute of fact — complex disputes should use Part 7."
+      },
+      {
+        "id": "b",
+        "text": "When there is no substantial dispute of fact or a rule or statute permits its use",
+        "correct": true,
+        "feedback": "Correct — Part 8 is designed for claims where no substantial dispute of fact exists, or where specific provisions permit it."
+      },
+      {
+        "id": "c",
+        "text": "When the claim exceeds £25,000",
+        "correct": false,
+        "feedback": "The value of the claim does not determine Part 7 vs Part 8 applicability."
+      },
+      {
+        "id": "d",
+        "text": "When the claimant wants to avoid filing a Particulars of Claim",
+        "correct": false,
+        "feedback": "While Part 8 does not require a PoC, the choice should be based on the nature of the claim."
+      }
+    ],
+    "oscoa_references": [
+      "CPR Part 8"
+    ]
+  },
+  {
+    "id": "i-c1-011",
+    "page": "I",
+    "section": "I3",
+    "micro_skill": "I3.2",
+    "crown_level": 1,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "part-8",
+      "witness-statement",
+      "no-poc",
+      "no-defence"
+    ],
+    "question": "'In a Part 8 claim, evidence is provided by witness statement rather than by Particulars of Claim and Defence.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct — Part 8 dispenses with formal PoC and Defence; evidence is set out in witness statements."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "Part 8 does not require a PoC or Defence; evidence is given through witness statements instead."
+      }
+    ],
+    "oscoa_references": [
+      "CPR Part 8"
+    ]
+  },
+  {
+    "id": "i-c1-012",
+    "page": "I",
+    "section": "I4",
+    "micro_skill": "I4.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "service",
+      "claim-form",
+      "validity",
+      "cpr-7.5",
+      "four-months"
+    ],
+    "question": "For how long is a claim form valid for service within the jurisdiction under CPR 7.5?",
+    "options": [
+      {
+        "id": "a",
+        "text": "14 days from the date of issue",
+        "correct": false,
+        "feedback": "14 days is the period for filing a defence or acknowledgment, not the claim form validity period."
+      },
+      {
+        "id": "b",
+        "text": "4 months from the date of issue",
+        "correct": true,
+        "feedback": "Correct — CPR 7.5 provides a 4-month validity period for service within the jurisdiction (6 months for service out of the jurisdiction)."
+      },
+      {
+        "id": "c",
+        "text": "6 months from the date of issue",
+        "correct": false,
+        "feedback": "6 months applies to service out of the jurisdiction, not within."
+      },
+      {
+        "id": "d",
+        "text": "12 months from the date of issue",
+        "correct": false,
+        "feedback": "There is no 12-month validity period under the CPR."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 7.5"
+    ]
+  },
+  {
+    "id": "i-c1-013",
+    "page": "I",
+    "section": "I4",
+    "micro_skill": "I4.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "service",
+      "deemed-date",
+      "cpr-6.26",
+      "first-class-post"
+    ],
+    "question": "A claim form is served by first-class post on a Monday. Under CPR 6.26, what is the deemed date of service?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Monday (same day)",
+        "correct": false,
+        "feedback": "First-class post has a deemed service period of two business days."
+      },
+      {
+        "id": "b",
+        "text": "Wednesday (the second day after posting)",
+        "correct": true,
+        "feedback": "Correct — CPR 6.26 provides that service by first-class post is deemed to occur on the second business day after posting."
+      },
+      {
+        "id": "c",
+        "text": "Thursday (the third day after posting)",
+        "correct": false,
+        "feedback": "The deemed service period for first-class post is two days, not three."
+      },
+      {
+        "id": "d",
+        "text": "Saturday (fifth day after posting)",
+        "correct": false,
+        "feedback": "The deemed service period for first-class post is two business days."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 6.26"
+    ]
+  },
+  {
+    "id": "i-c1-014",
+    "page": "I",
+    "section": "I4",
+    "micro_skill": "I4.1",
+    "crown_level": 1,
+    "type": "scenario",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "service",
+      "expired-claim-form",
+      "cpr-7.6",
+      "exceptional-circumstances"
+    ],
+    "question": "A claimant issues a claim form but fails to serve it within the 4-month validity period. They apply for an extension under CPR 7.6(3). What must they show?",
+    "options": [
+      {
+        "id": "a",
+        "text": "That they were merely forgetful",
+        "correct": false,
+        "feedback": "Forgetfulness does not constitute exceptional circumstances."
+      },
+      {
+        "id": "b",
+        "text": "Exceptional circumstances for the failure to serve in time",
+        "correct": true,
+        "feedback": "Correct — CPR 7.6(3) provides that after the validity period has expired, an extension will only be granted in exceptional circumstances. This is a high threshold."
+      },
+      {
+        "id": "c",
+        "text": "That the defendant had actual notice of the claim",
+        "correct": false,
+        "feedback": "Actual notice alone is insufficient — the rule requires exceptional circumstances."
+      },
+      {
+        "id": "d",
+        "text": "That the claim has reasonable prospects of success",
+        "correct": false,
+        "feedback": "The test under CPR 7.6(3) is exceptional circumstances, not the merits of the claim."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 7.5",
+      "CPR 7.6(3)"
+    ]
+  },
+  {
+    "id": "i-c1-015",
+    "page": "I",
+    "section": "I5",
+    "micro_skill": "I5.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "acknowledgment",
+      "cpr-10",
+      "defendant",
+      "N9",
+      "14-days"
+    ],
+    "question": "Under CPR 10, within what period must a defendant file an acknowledgment of service if the Particulars of Claim are served with the claim form?",
+    "options": [
+      {
+        "id": "a",
+        "text": "7 days from service of the claim form",
+        "correct": false,
+        "feedback": "The period is 14 days."
+      },
+      {
+        "id": "b",
+        "text": "14 days from service of the claim form",
+        "correct": true,
+        "feedback": "Correct — CPR 10.3 provides that if the PoC are served with the claim form, the acknowledgment must be filed within 14 days of service."
+      },
+      {
+        "id": "c",
+        "text": "28 days from service of the claim form",
+        "correct": false,
+        "feedback": "28 days is the deadline for the defence after filing an acknowledgment."
+      },
+      {
+        "id": "d",
+        "text": "14 days from service of the Particulars of Claim",
+        "correct": false,
+        "feedback": "This applies only if the PoC are served separately from the claim form."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 10.3"
+    ]
+  },
+  {
+    "id": "i-c1-016",
+    "page": "I",
+    "section": "I5",
+    "micro_skill": "I5.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "acknowledgment",
+      "jurisdiction",
+      "cpr-11",
+      "challenge",
+      "waiver"
+    ],
+    "question": "A defendant files an N9 acknowledgment of service but wishes to dispute the court's jurisdiction. How long do they have to make a Part 11 application after filing the acknowledgment?",
+    "options": [
+      {
+        "id": "a",
+        "text": "7 days",
+        "correct": false,
+        "feedback": "The period is 14 days."
+      },
+      {
+        "id": "b",
+        "text": "14 days",
+        "correct": true,
+        "feedback": "Correct — CPR 11(4) requires a Part 11 application to be made within 14 days of filing the acknowledgment. Otherwise the right to dispute jurisdiction is waived."
+      },
+      {
+        "id": "c",
+        "text": "28 days",
+        "correct": false,
+        "feedback": "28 days is the defence deadline after acknowledgment, not the time for challenging jurisdiction."
+      },
+      {
+        "id": "d",
+        "text": "There is no time limit",
+        "correct": false,
+        "feedback": "There is a strict time limit — failing to apply within 14 days waives the right."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 11"
+    ]
+  },
+  {
+    "id": "i-c1-017",
+    "page": "I",
+    "section": "I5",
+    "micro_skill": "I5.1",
+    "crown_level": 1,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "acknowledgment",
+      "default-judgment",
+      "defence",
+      "cpr-15.4"
+    ],
+    "question": "'A defendant who files an acknowledgment of service is protected from default judgment even if they later fail to file a defence.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": false,
+        "feedback": "Filing an acknowledgment merely extends the time to file a defence. If no defence is filed, the claimant may still obtain default judgment."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": true,
+        "feedback": "Correct — an acknowledgment is not a substitute for a defence. The defendant must still file a defence within 28 days of service of the PoC."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 10",
+      "CPR 12",
+      "CPR 15.4"
+    ]
+  },
+  {
+    "id": "i-c1-018",
+    "page": "I",
+    "section": "I5",
+    "micro_skill": "I5.2",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "default-judgment",
+      "cpr-12",
+      "conditions"
+    ],
+    "question": "Under CPR 12, a claimant may obtain default judgment when:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The defendant has not filed an acknowledgment of service or defence within the time permitted",
+        "correct": true,
+        "feedback": "Correct — CPR 12.3 sets out the conditions for default judgment, including failure to file an acknowledgment or defence in time."
+      },
+      {
+        "id": "b",
+        "text": "The defendant has filed a defence admitting the claim in full",
+        "correct": false,
+        "feedback": "If the defendant admits the claim, the claimant applies for judgment on admission under CPR 14, not default judgment."
+      },
+      {
+        "id": "c",
+        "text": "The defendant has applied for summary judgment",
+        "correct": false,
+        "feedback": "If the defendant has made an application, the claimant cannot obtain default judgment."
+      },
+      {
+        "id": "d",
+        "text": "The claim form was issued more than 6 months ago",
+        "correct": false,
+        "feedback": "The length of time since issue is not the test — the trigger is failure to file acknowledgment or defence."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 12.3"
+    ]
+  },
+  {
+    "id": "i-c1-019",
+    "page": "I",
+    "section": "I5",
+    "micro_skill": "I5.2",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "default-judgment",
+      "set-aside",
+      "cpr-13.3",
+      "real-prospect"
+    ],
+    "question": "Under CPR 13.3, what must a defendant show to set aside a default judgment?",
+    "options": [
+      {
+        "id": "a",
+        "text": "That they were unaware of the proceedings",
+        "correct": false,
+        "feedback": "While this may be relevant, it is not one of the two specific grounds under CPR 13.3."
+      },
+      {
+        "id": "b",
+        "text": "A real prospect of successfully defending the claim, or some other good reason, and that the application was made promptly",
+        "correct": true,
+        "feedback": "Correct — CPR 13.3 requires (a) a real prospect of successfully defending, or (b) some other good reason, and promptness."
+      },
+      {
+        "id": "c",
+        "text": "That the claim form was not properly served",
+        "correct": false,
+        "feedback": "Improper service is a mandatory ground for setting aside under CPR 13.2, not the discretionary ground under CPR 13.3."
+      },
+      {
+        "id": "d",
+        "text": "That the claim exceeds £10,000",
+        "correct": false,
+        "feedback": "The value of the claim is irrelevant to the test for setting aside."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 13.3"
+    ]
+  },
+  {
+    "id": "i-c1-020",
+    "page": "I",
+    "section": "I5",
+    "micro_skill": "I5.2",
+    "crown_level": 1,
+    "type": "scenario",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "default-judgment",
+      "defendant",
+      "tactic",
+      "set-aside",
+      "apply-promptly"
+    ],
+    "question": "A defendant receives a claim form on 1 June but does nothing. On 25 June, the claimant obtains default judgment. The defendant now wishes to defend. What is the best tactical step?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ignore the judgment — the court will automatically set it aside after 28 days",
+        "correct": false,
+        "feedback": "Default judgments are not set aside automatically — the defendant must apply proactively."
+      },
+      {
+        "id": "b",
+        "text": "Apply promptly to set aside under CPR 13.3, explaining the delay and showing a real prospect of success",
+        "correct": true,
+        "feedback": "Correct — the defendant must apply under CPR 13.3 promptly, explain the reason for the default, and demonstrate a real prospect of successfully defending."
+      },
+      {
+        "id": "c",
+        "text": "File an acknowledgment of service — this retroactively cures the default",
+        "correct": false,
+        "feedback": "A late acknowledgment does not automatically set aside a default judgment — a formal application is required."
+      },
+      {
+        "id": "d",
+        "text": "File a defence and counterclaim immediately",
+        "correct": false,
+        "feedback": "Once default judgment has been entered, the defendant must first apply to set it aside before filing a defence."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 12",
+      "CPR 13.3"
+    ]
+  },
+  {
+    "id": "i-c1-021",
+    "page": "I",
+    "section": "I5",
+    "micro_skill": "I5.2",
+    "crown_level": 1,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "default-judgment",
+      "part-8",
+      "cpr-12"
+    ],
+    "question": "'A claimant can obtain default judgment in a Part 8 claim if the defendant fails to file an acknowledgment of service.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct — default judgment is available in Part 8 claims; the defendant must file an acknowledgment within the relevant period."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "Default judgment can be obtained in Part 8 claims — it is not limited to Part 7."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 12",
+      "CPR Part 8"
+    ]
+  },
+  {
+    "id": "i-c2-001",
+    "page": "I",
+    "section": "I6",
+    "micro_skill": "I6.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "particulars-of-claim",
+      "cpr-16.4",
+      "contents"
+    ],
+    "question": "Under CPR 16.4, the Particulars of Claim must include:",
+    "options": [
+      {
+        "id": "a",
+        "text": "A concise statement of the facts relied on, details of any interest claim, and the remedy sought",
+        "correct": true,
+        "feedback": "Correct — CPR 16.4 requires a concise statement of facts, details of any interest claim, and the remedy."
+      },
+      {
+        "id": "b",
+        "text": "A full transcript of every conversation with the defendant",
+        "correct": false,
+        "feedback": "The PoC should be a concise summary, not a verbatim transcript."
+      },
+      {
+        "id": "c",
+        "text": "Expert evidence in support of the claim",
+        "correct": false,
+        "feedback": "Expert evidence comes later, after permission is granted under CPR 35.4."
+      },
+      {
+        "id": "d",
+        "text": "A draft of the claimant's proposed witness statement",
+        "correct": false,
+        "feedback": "Witness statements are exchanged later — they are not part of the PoC."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 16.4"
+    ]
+  },
+  {
+    "id": "i-c2-002",
+    "page": "I",
+    "section": "I6",
+    "micro_skill": "I6.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "particulars-of-claim",
+      "mcphilemy",
+      "summary",
+      "identify-issues"
+    ],
+    "question": "In _McPhilemy v Times Newspapers Ltd_ [1999] 3 All ER 775, the court held that the Particulars of Claim should:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Include every piece of evidence the claimant intends to rely on",
+        "correct": false,
+        "feedback": "The PoC is a summary of the case, not a repository of all evidence."
+      },
+      {
+        "id": "b",
+        "text": "Set out the case in summary and identify the issues",
+        "correct": true,
+        "feedback": "Correct — _McPhilemy_ held that the PoC must set out the case in summary and enable the court and opponent to identify the issues."
+      },
+      {
+        "id": "c",
+        "text": "Be verified by a solicitor",
+        "correct": false,
+        "feedback": "The PoC must be verified by a statement of truth, which can be signed by the party (including LiPs)."
+      },
+      {
+        "id": "d",
+        "text": "Include a schedule of the defendant's assets",
+        "correct": false,
+        "feedback": "The defendant's assets are relevant to enforcement, not the PoC."
+      }
+    ],
+    "oscoa_references": [
+      "McPhilemy v Times Newspapers Ltd [1999] 3 All ER 775",
+      "CPR 16.4"
+    ]
+  },
+  {
+    "id": "i-c2-003",
+    "page": "I",
+    "section": "I6",
+    "micro_skill": "I6.1",
+    "crown_level": 2,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "particulars-of-claim",
+      "lip",
+      "drafting",
+      "concise"
+    ],
+    "question": "'A litigant in person drafting their own Particulars of Claim should use a bullet-point structure, attach key documents, and include a statement of truth.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct — a clear bullet-point structure, attached key documents, and a proper statement of truth (CPR 22) are effective drafting practices for LiPs."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "These are all good practice recommendations — a concise, structured PoC is more effective and compliant with CPR 16.4."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 16.4",
+      "CPR 22"
+    ]
+  },
+  {
+    "id": "i-c2-004",
+    "page": "I",
+    "section": "I6",
+    "micro_skill": "I6.2",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "defence",
+      "cpr-15.4",
+      "filing-deadline",
+      "28-days"
+    ],
+    "question": "Under CPR 15.4, if a defendant files an acknowledgment of service, what is the deadline for filing the defence?",
+    "options": [
+      {
+        "id": "a",
+        "text": "14 days from service of the Particulars of Claim",
+        "correct": false,
+        "feedback": "This is the deadline where no acknowledgment is filed. Filing an acknowledgment extends the time."
+      },
+      {
+        "id": "b",
+        "text": "28 days from service of the Particulars of Claim",
+        "correct": true,
+        "feedback": "Correct — CPR 15.4(1)(b) provides that where an acknowledgment is filed, the defence must be filed within 28 days of service of the PoC."
+      },
+      {
+        "id": "c",
+        "text": "21 days from the date of the acknowledgment",
+        "correct": false,
+        "feedback": "The time runs from service of the PoC, not from the acknowledgment date."
+      },
+      {
+        "id": "d",
+        "text": "14 days from the date of the acknowledgment",
+        "correct": false,
+        "feedback": "The deadline is 28 days from service of the PoC."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 15.4"
+    ]
+  },
+  {
+    "id": "i-c2-005",
+    "page": "I",
+    "section": "I6",
+    "micro_skill": "I6.2",
+    "crown_level": 2,
+    "type": "msq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "defence",
+      "cpr-16.5",
+      "admit",
+      "deny",
+      "require-proof"
+    ],
+    "question": "Under CPR 16.5, a defence must state which of the following in respect of each allegation in the Particulars of Claim? (Select all that apply.)",
+    "options": [
+      {
+        "id": "a",
+        "text": "Which allegations are admitted",
+        "correct": true,
+        "feedback": "Correct — CPR 16.5(1)(a)."
+      },
+      {
+        "id": "b",
+        "text": "Which allegations are denied, with reasons for denial",
+        "correct": true,
+        "feedback": "Correct — CPR 16.5(1)(b) and 16.5(2)."
+      },
+      {
+        "id": "c",
+        "text": "Which allegations the defendant neither admits nor denies, requiring the claimant to prove",
+        "correct": true,
+        "feedback": "Correct — CPR 16.5(1)(b)."
+      },
+      {
+        "id": "d",
+        "text": "The defendant's counterclaim",
+        "correct": false,
+        "feedback": "A counterclaim is separate from the defence (under Part 20), though it may be filed with it."
+      },
+      {
+        "id": "e",
+        "text": "A list of the defendant's witnesses",
+        "correct": false,
+        "feedback": "Witness lists come at a later stage in case management, not in the defence."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 16.5"
+    ]
+  },
+  {
+    "id": "i-c2-006",
+    "page": "I",
+    "section": "I6",
+    "micro_skill": "I6.2",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "defence",
+      "cpr-16.5",
+      "deemed-admission",
+      "failure-to-deal"
+    ],
+    "question": "Under CPR 16.5(5), what is the consequence if a defendant fails to deal with an allegation in the Particulars of Claim?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The claim is automatically struck out",
+        "correct": false,
+        "feedback": "Failure to deal with an allegation does not strike out the claim."
+      },
+      {
+        "id": "b",
+        "text": "The allegation is deemed to be admitted",
+        "correct": true,
+        "feedback": "Correct — CPR 16.5(5) provides that an allegation not dealt with in the defence is deemed admitted. Address each paragraph individually."
+      },
+      {
+        "id": "c",
+        "text": "The court grants an automatic extension to file an amended defence",
+        "correct": false,
+        "feedback": "There is no automatic extension — the defendant must apply for permission to amend."
+      },
+      {
+        "id": "d",
+        "text": "The defendant is liable for costs on an indemnity basis automatically",
+        "correct": false,
+        "feedback": "Indemnity costs are a separate sanction for misconduct, not an automatic consequence."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 16.5(5)"
+    ]
+  },
+  {
+    "id": "i-c2-007",
+    "page": "I",
+    "section": "I6",
+    "micro_skill": "I6.3",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "reply",
+      "defence",
+      "cpr-15.8",
+      "optional"
+    ],
+    "question": "Under CPR 15.8, a reply to a defence is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Mandatory in all claims",
+        "correct": false,
+        "feedback": "A reply is optional, not mandatory."
+      },
+      {
+        "id": "b",
+        "text": "Optional, but may not raise new claims",
+        "correct": true,
+        "feedback": "Correct — CPR 15.8 provides that a reply is optional. If served, it should respond to matters raised in the defence without introducing new claims."
+      },
+      {
+        "id": "c",
+        "text": "Only available in multi-track cases",
+        "correct": false,
+        "feedback": "A reply can be filed in any track, though it is less common in small claims."
+      },
+      {
+        "id": "d",
+        "text": "Required when the defendant files a counterclaim",
+        "correct": false,
+        "feedback": "A counterclaim is dealt with by a defence to counterclaim, not a reply."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 15.8"
+    ]
+  },
+  {
+    "id": "i-c2-008",
+    "page": "I",
+    "section": "I6",
+    "micro_skill": "I6.3",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "amendment",
+      "cpr-17",
+      "permission",
+      "consent"
+    ],
+    "question": "A party seeks to amend its statement of case after it has been served. Under CPR 17, what is required?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The amendment can be made at any time without permission",
+        "correct": false,
+        "feedback": "After service, permission is required — either from the other party or the court."
+      },
+      {
+        "id": "b",
+        "text": "The written consent of all other parties, or the permission of the court",
+        "correct": true,
+        "feedback": "Correct — CPR 17.1(2) provides that after service, a party may amend only with the consent of all parties or with the court's permission."
+      },
+      {
+        "id": "c",
+        "text": "The amendment can only be made at the case management conference",
+        "correct": false,
+        "feedback": "Amendments can be made at any stage with permission."
+      },
+      {
+        "id": "d",
+        "text": "Permission from the Master of the Rolls",
+        "correct": false,
+        "feedback": "The court in which proceedings are brought can grant permission — not the Master of the Rolls."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 17.1"
+    ]
+  },
+  {
+    "id": "i-c2-009",
+    "page": "I",
+    "section": "I6",
+    "micro_skill": "I6.3",
+    "crown_level": 2,
+    "type": "scenario",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "counterclaim",
+      "part-20",
+      "defence",
+      "same-proceedings"
+    ],
+    "question": "A defendant has a claim against the claimant arising from the same contract at issue in the proceedings. What is the correct procedural step?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Issue a separate claim form — counterclaims must be brought in separate proceedings",
+        "correct": false,
+        "feedback": "A counterclaim can be brought in the same proceedings under Part 20."
+      },
+      {
+        "id": "b",
+        "text": "File a counterclaim under Part 20, typically with the defence",
+        "correct": true,
+        "feedback": "Correct — Part 20 allows a defendant to bring a counterclaim against the claimant, usually filed with the defence."
+      },
+      {
+        "id": "c",
+        "text": "Include the counterclaim in the acknowledgment of service",
+        "correct": false,
+        "feedback": "An acknowledgment is not the correct vehicle — the counterclaim must be a statement of case."
+      },
+      {
+        "id": "d",
+        "text": "Apply for permission under CPR 24 before filing the counterclaim",
+        "correct": false,
+        "feedback": "A counterclaim does not require permission — it may be filed as of right with the defence."
+      }
+    ],
+    "oscoa_references": [
+      "CPR Part 20"
+    ]
+  },
+  {
+    "id": "i-c2-010",
+    "page": "I",
+    "section": "I7",
+    "micro_skill": "I7.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "allocation",
+      "cpr-26",
+      "small-claims",
+      "threshold"
+    ],
+    "question": "Under CPR 26, what is the general financial threshold for the small claims track (excluding personal injury and housing disrepair)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Not more than £5,000",
+        "correct": false,
+        "feedback": "The small claims threshold is £10,000 for general claims."
+      },
+      {
+        "id": "b",
+        "text": "Not more than £10,000",
+        "correct": true,
+        "feedback": "Correct — the small claims track generally covers claims up to £10,000. PI claims are limited to £1,000 and housing disrepair to £1,000."
+      },
+      {
+        "id": "c",
+        "text": "Not more than £25,000",
+        "correct": false,
+        "feedback": "£25,000 is the upper limit for the fast track, not the small claims track."
+      },
+      {
+        "id": "d",
+        "text": "Not more than £50,000",
+        "correct": false,
+        "feedback": "£50,000 is not a CPR track threshold."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 26.6"
+    ]
+  },
+  {
+    "id": "i-c2-011",
+    "page": "I",
+    "section": "I7",
+    "micro_skill": "I7.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "allocation",
+      "directions-questionnaire",
+      "N180",
+      "N181"
+    ],
+    "question": "Which directions questionnaire form is used for the small claims track?",
+    "options": [
+      {
+        "id": "a",
+        "text": "N180",
+        "correct": true,
+        "feedback": "Correct — Form N180 is the directions questionnaire for the small claims track."
+      },
+      {
+        "id": "b",
+        "text": "N181",
+        "correct": false,
+        "feedback": "N181 is for fast track and multi-track."
+      },
+      {
+        "id": "c",
+        "text": "N244",
+        "correct": false,
+        "feedback": "N244 is the application notice for interim applications."
+      },
+      {
+        "id": "d",
+        "text": "N265",
+        "correct": false,
+        "feedback": "N265 is the standard disclosure list."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 26",
+      "Practice Direction 26"
+    ]
+  },
+  {
+    "id": "i-c2-012",
+    "page": "I",
+    "section": "I7",
+    "micro_skill": "I7.1",
+    "crown_level": 2,
+    "type": "scenario",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "allocation",
+      "fast-track",
+      "multi-track",
+      "trial-length"
+    ],
+    "question": "A claim is valued at £20,000 with a trial estimated at 2 days and multiple experts. Which track is most appropriate?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Small claims track — the value is under £25,000",
+        "correct": false,
+        "feedback": "Small claims track covers claims up to £10,000 (general)."
+      },
+      {
+        "id": "b",
+        "text": "Fast track — the value falls within the fast track band",
+        "correct": false,
+        "feedback": "Fast track trials should be limited to 1 day — a 2-day estimate points to multi-track."
+      },
+      {
+        "id": "c",
+        "text": "Multi-track — given the trial length and complexity",
+        "correct": true,
+        "feedback": "Correct — while the value falls within the fast track range, the trial length (over 1 day) and complexity suggest multi-track."
+      },
+      {
+        "id": "d",
+        "text": "The claimant can choose whichever track they prefer",
+        "correct": false,
+        "feedback": "Allocation is a matter for the court, not the parties' choice."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 26",
+      "CPR 28",
+      "CPR 29"
+    ]
+  },
+  {
+    "id": "i-c2-013",
+    "page": "I",
+    "section": "I7",
+    "micro_skill": "I7.2",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "sanctions",
+      "relief",
+      "cpr-3.9",
+      "denton",
+      "three-stage"
+    ],
+    "question": "Which case established the three-stage test for relief from sanctions under CPR 3.9?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Barton v Wright Hassall LLP [2018] UKSC 12",
+        "correct": false,
+        "feedback": "Barton concerned service by email on an LiP, not the three-stage relief test."
+      },
+      {
+        "id": "b",
+        "text": "Denton v TH White Ltd [2014] EWCA Civ 906",
+        "correct": true,
+        "feedback": "Correct — Denton established the three-stage approach: (1) seriousness/significance, (2) why breach occurred, (3) all circumstances."
+      },
+      {
+        "id": "c",
+        "text": "Swain v Hillman [2001] 1 All ER 91",
+        "correct": false,
+        "feedback": "Swain concerned summary judgment (realistic vs fanciful prospect)."
+      },
+      {
+        "id": "d",
+        "text": "American Cyanamid Co v Ethicon Ltd [1975] AC 396",
+        "correct": false,
+        "feedback": "American Cyanamid concerns interim injunctions, not relief from sanctions."
+      }
+    ],
+    "oscoa_references": [
+      "Denton v TH White Ltd [2014] EWCA Civ 906",
+      "CPR 3.9"
+    ]
+  },
+  {
+    "id": "i-c2-014",
+    "page": "I",
+    "section": "I7",
+    "micro_skill": "I7.2",
+    "crown_level": 2,
+    "type": "msq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "sanctions",
+      "relief",
+      "cpr-3.9",
+      "denton",
+      "stages"
+    ],
+    "question": "Which of the following are stages of the _Denton v TH White Ltd_ [2014] three-stage test for relief from sanctions? (Select all that apply.)",
+    "options": [
+      {
+        "id": "a",
+        "text": "Assess the seriousness or significance of the breach",
+        "correct": true,
+        "feedback": "Correct — Stage 1 of the Denton test."
+      },
+      {
+        "id": "b",
+        "text": "Consider why the breach occurred",
+        "correct": true,
+        "feedback": "Correct — Stage 2."
+      },
+      {
+        "id": "c",
+        "text": "Consider all the circumstances of the case, including the need for litigation to be conducted efficiently and to enforce compliance",
+        "correct": true,
+        "feedback": "Correct — Stage 3, referencing CPR 3.9(1)(a) and (b)."
+      },
+      {
+        "id": "d",
+        "text": "Assess the value of the claim",
+        "correct": false,
+        "feedback": "Value is not a standalone stage, though it may be relevant under 'all circumstances'."
+      },
+      {
+        "id": "e",
+        "text": "Determine whether the party has legal representation",
+        "correct": false,
+        "feedback": "LiP status may be relevant under Stage 3 but is not a standalone stage."
+      }
+    ],
+    "oscoa_references": [
+      "Denton v TH White Ltd [2014] EWCA Civ 906",
+      "CPR 3.9"
+    ]
+  },
+  {
+    "id": "i-c2-015",
+    "page": "I",
+    "section": "I7",
+    "micro_skill": "I7.2",
+    "crown_level": 2,
+    "type": "scenario",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "sanctions",
+      "unless-order",
+      "tactic",
+      "breach",
+      "self-executing"
+    ],
+    "question": "The defendant serves witness statements 2 weeks after the court-ordered deadline. The claimant wants to apply pressure. What is the most effective tactical application?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Apply for the defendant's costs to be disallowed",
+        "correct": false,
+        "feedback": "This may be a consequence, but it is less potent than an unless order."
+      },
+      {
+        "id": "b",
+        "text": "Apply for an unless order — requiring service by a further deadline, failing which the defence is automatically struck out",
+        "correct": true,
+        "feedback": "Correct — an unless order is self-executing. If the defendant fails by the new deadline, the sanction takes effect without a further application."
+      },
+      {
+        "id": "c",
+        "text": "Write to the defendant threatening contempt proceedings",
+        "correct": false,
+        "feedback": "Failure to serve a witness statement on time does not generally constitute contempt."
+      },
+      {
+        "id": "d",
+        "text": "Apply for default judgment",
+        "correct": false,
+        "feedback": "Default judgment applies where no defence has been filed, not where witness statements are late."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 3.9",
+      "Denton v TH White Ltd [2014] EWCA Civ 906"
+    ]
+  },
+  {
+    "id": "i-c2-016",
+    "page": "I",
+    "section": "I8",
+    "micro_skill": "I8.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "disclosure",
+      "cpr-31.6",
+      "standard-disclosure",
+      "adverse"
+    ],
+    "question": "Under CPR 31.6, standard disclosure requires a party to disclose documents that:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Only support their own case",
+        "correct": false,
+        "feedback": "Standard disclosure is broader — it includes adverse documents."
+      },
+      {
+        "id": "b",
+        "text": "They rely on, which adversely affect their own or another party's case, or which support another party's case",
+        "correct": true,
+        "feedback": "Correct — CPR 31.6 defines standard disclosure to include documents relied on, adverse to one's own or another's case, and supportive of another party's case."
+      },
+      {
+        "id": "c",
+        "text": "Only documents requested by the other side",
+        "correct": false,
+        "feedback": "Standard disclosure is automatic — the party must disclose without waiting for a request."
+      },
+      {
+        "id": "d",
+        "text": "All documents in their possession relating to the dispute (Peruvian Guano)",
+        "correct": false,
+        "feedback": "Standard disclosure is narrower than Peruvian Guano 'train of inquiry' — it is limited to the CPR 31.6 categories."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 31.6"
+    ]
+  },
+  {
+    "id": "i-c2-017",
+    "page": "I",
+    "section": "I8",
+    "micro_skill": "I8.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "disclosure",
+      "N265",
+      "schedule-3",
+      "privilege"
+    ],
+    "question": "On the standard disclosure list (Form N265), documents for which privilege is claimed should be listed in:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Schedule 1 — documents in possession",
+        "correct": false,
+        "feedback": "Schedule 1 is for documents available for inspection."
+      },
+      {
+        "id": "b",
+        "text": "Schedule 2 — documents no longer in possession",
+        "correct": false,
+        "feedback": "Schedule 2 is for documents once but no longer in the party's control."
+      },
+      {
+        "id": "c",
+        "text": "Schedule 3 — with grounds for the privilege claim stated",
+        "correct": true,
+        "feedback": "Correct — Schedule 3 lists documents for which privilege is claimed, with the grounds stated (e.g. legal advice privilege, litigation privilege, without prejudice)."
+      },
+      {
+        "id": "d",
+        "text": "Privileged documents need not be listed at all",
+        "correct": false,
+        "feedback": "They must be listed in Schedule 3 — failure to list may waive privilege."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 31",
+      "Practice Direction 31A"
+    ]
+  },
+  {
+    "id": "i-c2-018",
+    "page": "I",
+    "section": "I8",
+    "micro_skill": "I8.1",
+    "crown_level": 2,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "disclosure",
+      "cpr-31.11",
+      "ongoing-duty",
+      "continuing"
+    ],
+    "question": "'The duty of disclosure under CPR 31.11 continues until the proceedings are concluded, requiring parties to disclose documents that come to their attention after the initial disclosure.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct — CPR 31.11 imposes a continuing duty. Newly discovered documents must be disclosed."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "The duty is ongoing — CPR 31.11 expressly states the duty continues until proceedings are concluded."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 31.11"
+    ]
+  },
+  {
+    "id": "i-c2-019",
+    "page": "I",
+    "section": "I8",
+    "micro_skill": "I8.2",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "privilege",
+      "disclosure",
+      "waiver",
+      "schedule-3"
+    ],
+    "question": "A defendant fails to list a privileged document in Schedule 3 of the N265 disclosure list. What is the likely consequence?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The court automatically imposes a financial penalty",
+        "correct": false,
+        "feedback": "There is no automatic financial penalty."
+      },
+      {
+        "id": "b",
+        "text": "The privilege is waived, and the document must be produced for inspection",
+        "correct": true,
+        "feedback": "Correct — failure to assert privilege in the disclosure list generally constitutes waiver. The document must be produced."
+      },
+      {
+        "id": "c",
+        "text": "The document is deemed not to exist",
+        "correct": false,
+        "feedback": "The document exists — the privilege is lost, not the document."
+      },
+      {
+        "id": "d",
+        "text": "The party may retroactively assert privilege without consequence",
+        "correct": false,
+        "feedback": "Once privilege is waived, it is very difficult to retroactively assert."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 31",
+      "Practice Direction 31A"
+    ]
+  },
+  {
+    "id": "i-c2-020",
+    "page": "I",
+    "section": "I8",
+    "micro_skill": "I8.2",
+    "crown_level": 2,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "disclosure",
+      "electronic",
+      "PD31B",
+      "reasonable-search"
+    ],
+    "question": "'Under PD31B on electronic disclosure, a party must conduct a reasonable search for relevant electronic documents using keywords, metadata, and date ranges.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct — PD31B requires a reasonable and proportionate search of electronic documents."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "PD31B does impose a duty to conduct a reasonable search for relevant electronic documents."
+      }
+    ],
+    "oscoa_references": [
+      "Practice Direction 31B"
+    ]
+  },
+  {
+    "id": "i-c3-001",
+    "page": "I",
+    "section": "I9",
+    "micro_skill": "I9.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "witness-statement",
+      "cpr-32.4",
+      "evidence-in-chief"
+    ],
+    "question": "Under CPR 32.4, the purpose of a witness statement is to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Provide the witness's evidence in chief at trial",
+        "correct": true,
+        "feedback": "Correct — CPR 32.4 provides that a witness statement stands as the witness's evidence in chief unless the court orders otherwise."
+      },
+      {
+        "id": "b",
+        "text": "Provide the witness's opinion on the legal merits",
+        "correct": false,
+        "feedback": "Witness statements deal with facts — legal opinions are not for lay witnesses."
+      },
+      {
+        "id": "c",
+        "text": "Replace the need for the witness to attend trial",
+        "correct": false,
+        "feedback": "The witness may still be cross-examined at trial."
+      },
+      {
+        "id": "d",
+        "text": "Provide submissions on the applicable law",
+        "correct": false,
+        "feedback": "Submissions on law are made by advocates, not in witness statements."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 32.4"
+    ]
+  },
+  {
+    "id": "i-c3-002",
+    "page": "I",
+    "section": "I9",
+    "micro_skill": "I9.1",
+    "crown_level": 3,
+    "type": "msq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "witness-statement",
+      "pd32",
+      "contents",
+      "statement-of-truth"
+    ],
+    "question": "Under Practice Direction 32, which of the following must a witness statement contain? (Select all that apply.)",
+    "options": [
+      {
+        "id": "a",
+        "text": "The witness's name, address, and occupation",
+        "correct": true,
+        "feedback": "Correct — PD32 requires personal details."
+      },
+      {
+        "id": "b",
+        "text": "Facts within the witness's own knowledge",
+        "correct": true,
+        "feedback": "Correct — the statement must contain facts within the witness's knowledge."
+      },
+      {
+        "id": "c",
+        "text": "The source of any information or belief not within the witness's own knowledge",
+        "correct": true,
+        "feedback": "Correct — if relying on information from others, the source must be identified."
+      },
+      {
+        "id": "d",
+        "text": "A statement of truth signed and dated by the witness",
+        "correct": true,
+        "feedback": "Correct — CPR 22 requires a statement of truth."
+      },
+      {
+        "id": "e",
+        "text": "A draft of the questions the witness wishes to be asked",
+        "correct": false,
+        "feedback": "No such requirement exists — the witness statement is evidence, not a guide for examination."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 32.4",
+      "Practice Direction 32",
+      "CPR 22"
+    ]
+  },
+  {
+    "id": "i-c3-003",
+    "page": "I",
+    "section": "I9",
+    "micro_skill": "I9.1",
+    "crown_level": 3,
+    "type": "scenario",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "witness-statement",
+      "cpr-32.9",
+      "witness-summary",
+      "unavailability"
+    ],
+    "question": "A litigant in person is unable to obtain a witness statement from a key witness before the exchange deadline. What should they do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Do nothing — the court will grant an automatic extension",
+        "correct": false,
+        "feedback": "There is no automatic extension."
+      },
+      {
+        "id": "b",
+        "text": "Serve a witness summary under CPR 32.9, stating the witness's details and the evidence they could give",
+        "correct": true,
+        "feedback": "Correct — CPR 32.9 allows a witness summary where a full statement is not available."
+      },
+      {
+        "id": "c",
+        "text": "File for summary judgment instead",
+        "correct": false,
+        "feedback": "A missing witness statement is not a ground for summary judgment."
+      },
+      {
+        "id": "d",
+        "text": "Ask the court to compel the witness to provide a statement under CPR 34",
+        "correct": false,
+        "feedback": "CPR 34 concerns witness summonses for trial attendance, not pre-trial statements."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 32.9"
+    ]
+  },
+  {
+    "id": "i-c3-004",
+    "page": "I",
+    "section": "I9",
+    "micro_skill": "I9.2",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "expert-evidence",
+      "cpr-35.1",
+      "reasonably-required"
+    ],
+    "question": "Under CPR 35.1, expert evidence is restricted to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Any matter the party wishes to support with expert opinion",
+        "correct": false,
+        "feedback": "The court controls the use of expert evidence — parties cannot introduce it at will."
+      },
+      {
+        "id": "b",
+        "text": "What is reasonably required to resolve the proceedings",
+        "correct": true,
+        "feedback": "Correct — CPR 35.1 restates the overriding objective: expert evidence should be restricted to what is reasonably required."
+      },
+      {
+        "id": "c",
+        "text": "Issues of law",
+        "correct": false,
+        "feedback": "Expert evidence is generally not admissible on questions of law."
+      },
+      {
+        "id": "d",
+        "text": "Any claim valued at over £25,000",
+        "correct": false,
+        "feedback": "The value of the claim does not determine admissibility."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 35.1"
+    ]
+  },
+  {
+    "id": "i-c3-005",
+    "page": "I",
+    "section": "I9",
+    "micro_skill": "I9.2",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "expert-evidence",
+      "cpr-35.3",
+      "duty-to-court",
+      "overriding-duty"
+    ],
+    "question": "Under CPR 35.3, to whom is the expert's overriding duty owed?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The party instructing the expert",
+        "correct": false,
+        "feedback": "While the expert is paid by the instructing party, their duty overrides this."
+      },
+      {
+        "id": "b",
+        "text": "The expert's professional body",
+        "correct": false,
+        "feedback": "Professional rules apply but the CPR imposes a specific overriding duty."
+      },
+      {
+        "id": "c",
+        "text": "The court",
+        "correct": true,
+        "feedback": "Correct — CPR 35.3 states the expert's overriding duty is to the court, taking precedence over any obligation to the instructing party."
+      },
+      {
+        "id": "d",
+        "text": "The Legal Aid Agency",
+        "correct": false,
+        "feedback": "The LAA may fund the expert but is not the object of the overriding duty."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 35.3"
+    ]
+  },
+  {
+    "id": "i-c3-006",
+    "page": "I",
+    "section": "I9",
+    "micro_skill": "I9.2",
+    "crown_level": 3,
+    "type": "scenario",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "expert-evidence",
+      "cpr-35.7",
+      "single-joint-expert",
+      "sje"
+    ],
+    "question": "Both parties in a multi-track claim need expert evidence on land valuation. The court encourages a single joint expert under CPR 35.7. What is the effect?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Each party can still instruct their own expert additionally",
+        "correct": false,
+        "feedback": "If an SJE is ordered, parties generally cannot instruct separate experts on the same issue."
+      },
+      {
+        "id": "b",
+        "text": "The expert is jointly instructed, and both parties are bound by the findings",
+        "correct": true,
+        "feedback": "Correct — an SJE is jointly instructed, and the report binds both parties unless the court permits separate expert evidence."
+      },
+      {
+        "id": "c",
+        "text": "The court pays for the SJE",
+        "correct": false,
+        "feedback": "The parties bear the SJE cost, typically shared equally."
+      },
+      {
+        "id": "d",
+        "text": "The SJE cannot be cross-examined at trial",
+        "correct": false,
+        "feedback": "An SJE may be cross-examined if the court permits."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 35.7"
+    ]
+  },
+  {
+    "id": "i-c3-007",
+    "page": "I",
+    "section": "I10",
+    "micro_skill": "I10.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "interim-application",
+      "N244",
+      "cpr-23.7",
+      "notice"
+    ],
+    "question": "Under CPR 23.7, what is generally the minimum notice period for an interim application hearing?",
+    "options": [
+      {
+        "id": "a",
+        "text": "At least 1 clear day",
+        "correct": false,
+        "feedback": "The general requirement is at least 3 clear days."
+      },
+      {
+        "id": "b",
+        "text": "At least 3 clear days",
+        "correct": true,
+        "feedback": "Correct — CPR 23.7 provides that an application notice must be served at least 3 clear days before the hearing."
+      },
+      {
+        "id": "c",
+        "text": "At least 7 clear days",
+        "correct": false,
+        "feedback": "7 days is not the general minimum."
+      },
+      {
+        "id": "d",
+        "text": "At least 14 clear days",
+        "correct": false,
+        "feedback": "14 days is the defence filing period, not the notice period for interim applications."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 23.7"
+    ]
+  },
+  {
+    "id": "i-c3-008",
+    "page": "I",
+    "section": "I10",
+    "micro_skill": "I10.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "interim-application",
+      "without-notice",
+      "full-and-frank-disclosure",
+      "siporex"
+    ],
+    "question": "What duty does an applicant owe the court on a without-notice interim application, per _Siporex Trade SA v Comdel Commodities Ltd_ [1986]?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A duty to minimise the court's time",
+        "correct": false,
+        "feedback": "The key duty relates to disclosure, not time efficiency."
+      },
+      {
+        "id": "b",
+        "text": "A duty of full and frank disclosure of all material facts, including those adverse to the application",
+        "correct": true,
+        "feedback": "Correct — _Siporex_ established the duty of full and frank disclosure. Failure may result in discharge of the order and adverse costs."
+      },
+      {
+        "id": "c",
+        "text": "A duty to obtain the respondent's consent before applying",
+        "correct": false,
+        "feedback": "The purpose of a without-notice application is precisely that notice is not given."
+      },
+      {
+        "id": "d",
+        "text": "A duty to file a cross-undertaking in damages",
+        "correct": false,
+        "feedback": "A cross-undertaking applies to interim injunctions specifically, not all without-notice applications."
+      }
+    ],
+    "oscoa_references": [
+      "Siporex Trade SA v Comdel Commodities Ltd [1986] 2 Lloyd's Rep 428",
+      "CPR 25.3"
+    ]
+  },
+  {
+    "id": "i-c3-009",
+    "page": "I",
+    "section": "I10",
+    "micro_skill": "I10.1",
+    "crown_level": 3,
+    "type": "scenario",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "interim-application",
+      "without-notice",
+      "freezing-order",
+      "non-disclosure"
+    ],
+    "question": "A claimant applies without notice for a freezing injunction, knowing of a contractual clause arguably permitting the defendant to dispose of the assets but not disclosing it. The injunction is granted. What is the likely consequence at the return date?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The court will continue the injunction because the defendant can raise the point",
+        "correct": false,
+        "feedback": "The applicant's failure to disclose undermines the basis of the without-notice order."
+      },
+      {
+        "id": "b",
+        "text": "The injunction will be discharged and adverse costs awarded against the claimant for breach of the duty of full and frank disclosure",
+        "correct": true,
+        "feedback": "Correct — failure to disclose material adverse facts breaches the Siporex duty. The injunction will likely be discharged with adverse costs."
+      },
+      {
+        "id": "c",
+        "text": "The injunction is automatically void",
+        "correct": false,
+        "feedback": "It is not automatically void but will be discharged at the return date."
+      },
+      {
+        "id": "d",
+        "text": "The claimant can cure the non-disclosure by belatedly disclosing the clause without consequence",
+        "correct": false,
+        "feedback": "Late disclosure does not necessarily cure the breach — discharge and adverse costs may still follow."
+      }
+    ],
+    "oscoa_references": [
+      "Siporex Trade SA v Comdel Commodities Ltd [1986] 2 Lloyd's Rep 428",
+      "CPR 25.3"
+    ]
+  },
+  {
+    "id": "i-c3-010",
+    "page": "I",
+    "section": "I10",
+    "micro_skill": "I10.2",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "interim-injunction",
+      "american-cyanamid",
+      "serious-question"
+    ],
+    "question": "Under the _American Cyanamid Co v Ethicon Ltd_ [1975] AC 396 guidelines, what must the claimant first establish?",
+    "options": [
+      {
+        "id": "a",
+        "text": "That the defendant will suffer no prejudice",
+        "correct": false,
+        "feedback": "The test focuses on the claimant's case first."
+      },
+      {
+        "id": "b",
+        "text": "That there is a serious question to be tried",
+        "correct": true,
+        "feedback": "Correct — Stage 1 of American Cyanamid requires the claimant to show a serious question to be tried."
+      },
+      {
+        "id": "c",
+        "text": "That the claimant will inevitably win at trial",
+        "correct": false,
+        "feedback": "The test is a serious question, not inevitable success."
+      },
+      {
+        "id": "d",
+        "text": "That the defendant has no assets within the jurisdiction",
+        "correct": false,
+        "feedback": "This is relevant to freezing injunctions, not the general Cyanamid test."
+      }
+    ],
+    "oscoa_references": [
+      "American Cyanamid Co v Ethicon Ltd [1975] AC 396"
+    ]
+  },
+  {
+    "id": "i-c3-011",
+    "page": "I",
+    "section": "I10",
+    "micro_skill": "I10.2",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "interim-injunction",
+      "cross-undertaking",
+      "damages",
+      "claimant-promise"
+    ],
+    "question": "What is a cross-undertaking in damages in the context of an interim injunction?",
+    "options": [
+      {
+        "id": "a",
+        "text": "An undertaking by the defendant not to breach the injunction",
+        "correct": false,
+        "feedback": "The defendant is bound by the injunction order itself."
+      },
+      {
+        "id": "b",
+        "text": "An undertaking by the claimant to compensate the defendant if the injunction is later found to have been wrongly granted",
+        "correct": true,
+        "feedback": "Correct — the cross-undertaking is the claimant's promise to pay damages for losses caused if the court later finds the injunction should not have been granted."
+      },
+      {
+        "id": "c",
+        "text": "An undertaking by the court to expedite the trial",
+        "correct": false,
+        "feedback": "The court may expedite but this is not a cross-undertaking."
+      },
+      {
+        "id": "d",
+        "text": "An undertaking by the defendant's solicitors not to dissipate assets",
+        "correct": false,
+        "feedback": "That relates to freezing injunctions, not the cross-undertaking in damages."
+      }
+    ],
+    "oscoa_references": [
+      "American Cyanamid Co v Ethicon Ltd [1975] AC 396",
+      "CPR 25.1"
+    ]
+  },
+  {
+    "id": "i-c3-012",
+    "page": "I",
+    "section": "I10",
+    "micro_skill": "I10.2",
+    "crown_level": 3,
+    "type": "msq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "freezing-injunction",
+      "cpr-25.1",
+      "mareva",
+      "conditions"
+    ],
+    "question": "To obtain a freezing injunction under CPR 25.1(1)(f), the applicant must show which of the following? (Select all that apply.)",
+    "options": [
+      {
+        "id": "a",
+        "text": "A good arguable case",
+        "correct": true,
+        "feedback": "Correct — the applicant must show a good arguable case on the merits."
+      },
+      {
+        "id": "b",
+        "text": "Assets within the jurisdiction",
+        "correct": true,
+        "feedback": "Correct — there must be assets within the jurisdiction."
+      },
+      {
+        "id": "c",
+        "text": "A real risk of dissipation of assets",
+        "correct": true,
+        "feedback": "Correct — there must be evidence of a real risk the respondent will dissipate assets."
+      },
+      {
+        "id": "d",
+        "text": "That the claim is worth more than £100,000",
+        "correct": false,
+        "feedback": "There is no minimum value threshold."
+      },
+      {
+        "id": "e",
+        "text": "That the respondent has a criminal fraud conviction",
+        "correct": false,
+        "feedback": "A conviction is not required — the test is civil evidence showing risk."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 25.1(1)(f)"
+    ]
+  },
+  {
+    "id": "i-c3-013",
+    "page": "I",
+    "section": "I11",
+    "micro_skill": "I11.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "summary-judgment",
+      "cpr-24.2",
+      "no-real-prospect"
+    ],
+    "question": "Under CPR 24.2, the court may give summary judgment if:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The claim is complex and will take more than 1 day at trial",
+        "correct": false,
+        "feedback": "Complexity generally weighs against summary judgment."
+      },
+      {
+        "id": "b",
+        "text": "The party has no real prospect of success and there is no other compelling reason for a trial",
+        "correct": true,
+        "feedback": "Correct — CPR 24.2 requires (a) no real prospect of success and (b) no other compelling reason for trial."
+      },
+      {
+        "id": "c",
+        "text": "The claim exceeds £25,000",
+        "correct": false,
+        "feedback": "The value does not determine whether summary judgment is appropriate."
+      },
+      {
+        "id": "d",
+        "text": "The defendant is a litigant in person",
+        "correct": false,
+        "feedback": "LiP status is not a ground — the court may scrutinise more carefully."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 24.2"
+    ]
+  },
+  {
+    "id": "i-c3-014",
+    "page": "I",
+    "section": "I11",
+    "micro_skill": "I11.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "summary-judgment",
+      "swain-v-hillman",
+      "realistic",
+      "fanciful"
+    ],
+    "question": "In _Swain v Hillman_ [2001] 1 All ER 91, the court distinguished between which two concepts?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Legitimate and illegitimate claims",
+        "correct": false,
+        "feedback": "The distinction was about the quality of the claim's prospects."
+      },
+      {
+        "id": "b",
+        "text": "Realistic and fanciful prospects of success",
+        "correct": true,
+        "feedback": "Correct — the court held the test requires a 'realistic' as opposed to a 'fanciful' prospect of success."
+      },
+      {
+        "id": "c",
+        "text": "Represented and unrepresented parties",
+        "correct": false,
+        "feedback": "Swain did not draw this distinction."
+      },
+      {
+        "id": "d",
+        "text": "Small claims and multi-track claims",
+        "correct": false,
+        "feedback": "The distinction was about the quality of prospects, not the procedural track."
+      }
+    ],
+    "oscoa_references": [
+      "Swain v Hillman [2001] 1 All ER 91",
+      "CPR 24.2"
+    ]
+  },
+  {
+    "id": "i-c3-015",
+    "page": "I",
+    "section": "I11",
+    "micro_skill": "I11.1",
+    "crown_level": 3,
+    "type": "scenario",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "summary-judgment",
+      "defence",
+      "triable-issue",
+      "factual-dispute"
+    ],
+    "question": "A claimant seeks summary judgment on a contractual debt of £8,000. The defendant files a witness statement stating they paid in cash and has a receipt. The claimant says the receipt is forged. What is the likely outcome?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Summary judgment granted — the claimant's case is stronger on paper",
+        "correct": false,
+        "feedback": "Summary judgment is not a mini-trial — a genuine factual dispute should go to trial."
+      },
+      {
+        "id": "b",
+        "text": "Summary judgment refused — there is a triable issue as to whether the debt was paid",
+        "correct": true,
+        "feedback": "Correct — the defendant has raised a factual dispute. The authenticity of the receipt cannot be resolved on a summary application."
+      },
+      {
+        "id": "c",
+        "text": "The court will order the defendant to produce the original receipt at a further hearing",
+        "correct": false,
+        "feedback": "While this may happen, the summary judgment application itself will be dismissed."
+      },
+      {
+        "id": "d",
+        "text": "Summary judgment granted for part of the claim only",
+        "correct": false,
+        "feedback": "The dispute is about the whole debt — there is no basis to sever."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 24.2",
+      "Swain v Hillman [2001] 1 All ER 91"
+    ]
+  },
+  {
+    "id": "i-c3-016",
+    "page": "I",
+    "section": "I11",
+    "micro_skill": "I11.2",
+    "crown_level": 3,
+    "type": "msq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "strike-out",
+      "cpr-3.4",
+      "grounds",
+      "abuse-of-process"
+    ],
+    "question": "Under CPR 3.4, a statement of case may be struck out on which grounds? (Select all that apply.)",
+    "options": [
+      {
+        "id": "a",
+        "text": "It discloses no reasonable grounds for bringing or defending",
+        "correct": true,
+        "feedback": "Correct — CPR 3.4(2)(a)."
+      },
+      {
+        "id": "b",
+        "text": "It is an abuse of the court's process",
+        "correct": true,
+        "feedback": "Correct — CPR 3.4(2)(b)."
+      },
+      {
+        "id": "c",
+        "text": "Failure to comply with a rule, practice direction, or court order",
+        "correct": true,
+        "feedback": "Correct — CPR 3.4(2)(c)."
+      },
+      {
+        "id": "d",
+        "text": "The claim is unlikely to succeed at trial on balance of probabilities",
+        "correct": false,
+        "feedback": "This is the trial standard — strike out requires no reasonable grounds, a higher threshold."
+      },
+      {
+        "id": "e",
+        "text": "The defendant has not made a Part 36 offer",
+        "correct": false,
+        "feedback": "Part 36 offers are voluntary — failing to make one is not a ground for strike out."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 3.4"
+    ]
+  },
+  {
+    "id": "i-c3-017",
+    "page": "I",
+    "section": "I11",
+    "micro_skill": "I11.2",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "strike-out",
+      "unless-order",
+      "self-executing",
+      "debarring"
+    ],
+    "question": "What is the primary tactical advantage of obtaining an unless order?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The defaulting party is automatically debarred if they fail to comply by the deadline, without the need for a further application",
+        "correct": true,
+        "feedback": "Correct — an unless order is self-executing: if the defaulting party fails to comply, the sanction takes effect automatically."
+      },
+      {
+        "id": "b",
+        "text": "It immediately terminates the proceedings",
+        "correct": false,
+        "feedback": "It gives a final chance — termination occurs only if the deadline is missed."
+      },
+      {
+        "id": "c",
+        "text": "It automatically awards costs on the indemnity basis",
+        "correct": false,
+        "feedback": "Indemnity costs must be sought separately."
+      },
+      {
+        "id": "d",
+        "text": "It prevents the other party from appealing",
+        "correct": false,
+        "feedback": "An appeal against an unless order remains possible."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 3.4",
+      "CPR 3.9"
+    ]
+  },
+  {
+    "id": "i-c3-018",
+    "page": "I",
+    "section": "I11",
+    "micro_skill": "I11.2",
+    "crown_level": 3,
+    "type": "scenario",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "strike-out",
+      "lip",
+      "relief-from-sanctions",
+      "cpr-3.9"
+    ],
+    "question": "A litigant in person faces a strike out application for failing to comply with a disclosure order. What should they do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ignore the application — the court will favour the LiP",
+        "correct": false,
+        "feedback": "LiP status does not confer immunity from sanctions."
+      },
+      {
+        "id": "b",
+        "text": "Apply for relief from sanctions under CPR 3.9, explaining the default and showing a real prospect of success",
+        "correct": true,
+        "feedback": "Correct — the LiP should apply under CPR 3.9 applying the Denton test, explaining the default candidly."
+      },
+      {
+        "id": "c",
+        "text": "File a new defence without addressing the default",
+        "correct": false,
+        "feedback": "A fresh defence does not cure the original default."
+      },
+      {
+        "id": "d",
+        "text": "Apply for the judge to recuse themselves",
+        "correct": false,
+        "feedback": "No grounds for recusal arise simply because an application has been made against the LiP."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 3.4",
+      "CPR 3.9",
+      "Denton v TH White Ltd [2014] EWCA Civ 906"
+    ]
+  },
+  {
+    "id": "i-c4-001",
+    "page": "I",
+    "section": "I12",
+    "micro_skill": "I12.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "part-36",
+      "offer",
+      "N242A",
+      "form"
+    ],
+    "question": "What form is used to make a Part 36 offer under the CPR?",
+    "options": [
+      {
+        "id": "a",
+        "text": "N1",
+        "correct": false,
+        "feedback": "N1 is the claim form."
+      },
+      {
+        "id": "b",
+        "text": "N242A",
+        "correct": true,
+        "feedback": "Correct — Form N242A is the Part 36 offer form. A compliant letter meeting CPR 36.5 may also be used."
+      },
+      {
+        "id": "c",
+        "text": "N244",
+        "correct": false,
+        "feedback": "N244 is the application notice."
+      },
+      {
+        "id": "d",
+        "text": "N265",
+        "correct": false,
+        "feedback": "N265 is the disclosure list."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 36.5"
+    ]
+  },
+  {
+    "id": "i-c4-002",
+    "page": "I",
+    "section": "I12",
+    "micro_skill": "I12.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "part-36",
+      "barton",
+      "lip",
+      "compliance"
+    ],
+    "question": "Which Supreme Court case confirmed that Part 36 applies fully to litigants in person?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Denton v TH White Ltd [2014] EWCA Civ 906",
+        "correct": false,
+        "feedback": "Denton concerned relief from sanctions."
+      },
+      {
+        "id": "b",
+        "text": "Barton v Wright Hassall LLP [2018] UKSC 12",
+        "correct": true,
+        "feedback": "Correct — Barton confirmed LiPs are expected to comply with the CPR, including Part 36 — no special exemption for unrepresented status."
+      },
+      {
+        "id": "c",
+        "text": "Swain v Hillman [2001] 1 All ER 91",
+        "correct": false,
+        "feedback": "Swain concerned summary judgment."
+      },
+      {
+        "id": "d",
+        "text": "Wagenaar v Weekend Travel Ltd [2014] EWCA Civ 1105",
+        "correct": false,
+        "feedback": "Wagenaar concerned QOCS."
+      }
+    ],
+    "oscoa_references": [
+      "Barton v Wright Hassall LLP [2018] UKSC 12",
+      "CPR 36"
+    ]
+  },
+  {
+    "id": "i-c4-003",
+    "page": "I",
+    "section": "I12",
+    "micro_skill": "I12.1",
+    "crown_level": 4,
+    "type": "scenario",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "part-36",
+      "cost-consequences",
+      "cpr-36.17",
+      "beating-offer"
+    ],
+    "question": "A claimant makes a Part 36 offer of £50,000. The defendant does not accept. At trial the claimant is awarded £55,000. Under CPR 36.17, what cost consequences follow?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No special costs consequences — the defendant acted reasonably",
+        "correct": false,
+        "feedback": "Part 36 has specific cost consequences when the claimant beats their own offer."
+      },
+      {
+        "id": "b",
+        "text": "The defendant pays indemnity costs from expiry of the relevant period, an additional sum (up to £75,000), and enhanced interest (up to 10% above base rate)",
+        "correct": true,
+        "feedback": "Correct — CPR 36.17 provides these enhanced consequences where a claimant beats their own Part 36 offer."
+      },
+      {
+        "id": "c",
+        "text": "The claimant receives standard costs only",
+        "correct": false,
+        "feedback": "Part 36 offers that are beaten attract enhanced, not merely standard, consequences."
+      },
+      {
+        "id": "d",
+        "text": "The claimant is penalised for not accepting the defendant's counter-offer",
+        "correct": false,
+        "feedback": "The question relates to the claimant's own offer — which was beaten, triggering claimant-favourable consequences."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 36.17"
+    ]
+  },
+  {
+    "id": "i-c4-004",
+    "page": "I",
+    "section": "I13",
+    "micro_skill": "I13.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "costs",
+      "cpr-44.2",
+      "loser-pays",
+      "general-rule"
+    ],
+    "question": "Under CPR 44.2, what is the general rule governing costs?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Each party bears their own costs",
+        "correct": false,
+        "feedback": "This is the general rule in the US, not under the CPR."
+      },
+      {
+        "id": "b",
+        "text": "The unsuccessful party pays the successful party's costs, but the court has discretion to make a different order",
+        "correct": true,
+        "feedback": "Correct — CPR 44.2(2) provides that the general rule is that costs follow the event (loser pays winner)."
+      },
+      {
+        "id": "c",
+        "text": "Costs are shared equally",
+        "correct": false,
+        "feedback": "Equal sharing is not the general rule."
+      },
+      {
+        "id": "d",
+        "text": "Costs are only payable if the claim exceeds £10,000",
+        "correct": false,
+        "feedback": "The general rule applies regardless of value — though small claims track limits recovery."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 44.2"
+    ]
+  },
+  {
+    "id": "i-c4-005",
+    "page": "I",
+    "section": "I13",
+    "micro_skill": "I13.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "costs",
+      "standard-basis",
+      "indemnity-basis",
+      "cpr-44.3",
+      "cpr-44.4"
+    ],
+    "question": "What is the difference between standard and indemnity basis costs?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Standard for fast track; indemnity for multi-track",
+        "correct": false,
+        "feedback": "The basis is not tied to track allocation."
+      },
+      {
+        "id": "b",
+        "text": "Standard: reasonable and proportionate (doubt in paying party's favour). Indemnity: reasonable (doubt in receiving party's favour)",
+        "correct": true,
+        "feedback": "Correct — standard basis (CPR 44.3) assesses reasonableness and proportionality; indemnity basis (CPR 44.4) assesses only reasonableness, with doubt in receiving party's favour."
+      },
+      {
+        "id": "c",
+        "text": "Standard for claimants; indemnity for defendants",
+        "correct": false,
+        "feedback": "The basis is not party-dependent."
+      },
+      {
+        "id": "d",
+        "text": "Standard for small claims; indemnity for all others",
+        "correct": false,
+        "feedback": "Small claims track has a fixed costs regime."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 44.3",
+      "CPR 44.4"
+    ]
+  },
+  {
+    "id": "i-c4-006",
+    "page": "I",
+    "section": "I13",
+    "micro_skill": "I13.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "costs",
+      "indemnity",
+      "conduct",
+      "part-36",
+      "out-of-the-norm"
+    ],
+    "question": "When might indemnity costs be awarded against a party?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Automatically in any claim exceeding £50,000",
+        "correct": false,
+        "feedback": "Value does not trigger automatic indemnity costs."
+      },
+      {
+        "id": "b",
+        "text": "When the party's conduct is 'out of the norm' — e.g. unreasonable behaviour, weak case pursued unreasonably, or failure to accept a Part 36 offer",
+        "correct": true,
+        "feedback": "Correct — indemnity costs are reserved for conduct taking the case out of the norm."
+      },
+      {
+        "id": "c",
+        "text": "Routinely in all fast track cases",
+        "correct": false,
+        "feedback": "Indemnity costs are not routine."
+      },
+      {
+        "id": "d",
+        "text": "Only when the losing party is a litigant in person",
+        "correct": false,
+        "feedback": "LiP status is not a ground for indemnity costs."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 44.3",
+      "CPR 44.4",
+      "CPR 36.17"
+    ]
+  },
+  {
+    "id": "i-c4-007",
+    "page": "I",
+    "section": "I13",
+    "micro_skill": "I13.2",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "qocs",
+      "cpr-44.13",
+      "personal-injury",
+      "cost-protection"
+    ],
+    "question": "Under CPR 44.13–44.17, what is Qualified One-Way Costs Shifting (QOCS)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A rule that costs shift automatically to the defendant in all claims",
+        "correct": false,
+        "feedback": "QOCS is specific to personal injury."
+      },
+      {
+        "id": "b",
+        "text": "In personal injury claims, the claimant is generally not liable for the defendant's costs even if the claim fails, subject to exceptions",
+        "correct": true,
+        "feedback": "Correct — QOCS protects PI claimants from adverse costs, subject to exceptions including fundamental dishonesty."
+      },
+      {
+        "id": "c",
+        "text": "A rule that costs can only be recovered after the claim is concluded",
+        "correct": false,
+        "feedback": "This is not the definition of QOCS."
+      },
+      {
+        "id": "d",
+        "text": "A rule that the defendant must pay the claimant's costs regardless of outcome",
+        "correct": false,
+        "feedback": "QOCS protects the claimant from paying the defendant's costs — it does not guarantee recovery."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 44.13",
+      "CPR 44.14",
+      "CPR 44.16"
+    ]
+  },
+  {
+    "id": "i-c4-008",
+    "page": "I",
+    "section": "I13",
+    "micro_skill": "I13.2",
+    "crown_level": 4,
+    "type": "msq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "qocs",
+      "cpr-44.16",
+      "exceptions",
+      "fundamental-dishonesty"
+    ],
+    "question": "Under CPR 44.16, in which circumstances can a defendant enforce costs against a PI claimant despite QOCS? (Select all that apply.)",
+    "options": [
+      {
+        "id": "a",
+        "text": "The claimant has been fundamentally dishonest",
+        "correct": true,
+        "feedback": "Correct — CPR 44.16(1)."
+      },
+      {
+        "id": "b",
+        "text": "The claim has been struck out as disclosing no reasonable grounds",
+        "correct": true,
+        "feedback": "Correct — a claim with no reasonable grounds loses QOCS protection."
+      },
+      {
+        "id": "c",
+        "text": "The claimant fails to beat the defendant's Part 36 offer",
+        "correct": true,
+        "feedback": "Correct — a claimant failing to beat a defendant's Part 36 offer may lose QOCS protection."
+      },
+      {
+        "id": "d",
+        "text": "The claim is valued at less than £1,000",
+        "correct": false,
+        "feedback": "Value is not a QOCS exception."
+      },
+      {
+        "id": "e",
+        "text": "The claimant is a litigant in person",
+        "correct": false,
+        "feedback": "LiP status is not an exception to QOCS."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 44.16"
+    ]
+  },
+  {
+    "id": "i-c4-009",
+    "page": "I",
+    "section": "I13",
+    "micro_skill": "I13.2",
+    "crown_level": 4,
+    "type": "scenario",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "qocs",
+      "mixed-claims",
+      "brown-v-mp",
+      "apportionment"
+    ],
+    "question": "A claimant brings a mixed claim (PI + property damage). The claim fails. Applying _Brown v Commissioner of Police of the Metropolis_ [2019] EWCA Civ 1165, what is the QOCS position?",
+    "options": [
+      {
+        "id": "a",
+        "text": "QOCS does not apply because non-PI elements are included",
+        "correct": false,
+        "feedback": "Brown confirmed QOCS can apply to mixed claims."
+      },
+      {
+        "id": "b",
+        "text": "QOCS applies to the whole claim unless the court apportions costs between the PI and non-PI elements",
+        "correct": true,
+        "feedback": "Correct — Brown held QOCS protects the whole mixed claim unless the court exercises its power to apportion."
+      },
+      {
+        "id": "c",
+        "text": "QOCS only applies to the PI element — the claimant pays for other elements",
+        "correct": false,
+        "feedback": "The default is full protection unless apportioned."
+      },
+      {
+        "id": "d",
+        "text": "QOCS is automatically lost because of the non-PI element",
+        "correct": false,
+        "feedback": "Brown rejected this argument."
+      }
+    ],
+    "oscoa_references": [
+      "Brown v Commissioner of Police of the Metropolis [2019] EWCA Civ 1165",
+      "CPR 44.13",
+      "CPR 44.16"
+    ]
+  },
+  {
+    "id": "i-c4-010",
+    "page": "I",
+    "section": "I14",
+    "micro_skill": "I14.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "appeal",
+      "cpr-52.6",
+      "permission",
+      "real-prospect"
+    ],
+    "question": "Under CPR 52.6, what is the test for obtaining permission to appeal?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The appeal raises a novel point of law",
+        "correct": false,
+        "feedback": "A novel point may be a factor but is not the statutory test."
+      },
+      {
+        "id": "b",
+        "text": "A real prospect of success, or some other compelling reason for hearing the appeal",
+        "correct": true,
+        "feedback": "Correct — CPR 52.6: permission if real prospect of success or other compelling reason."
+      },
+      {
+        "id": "c",
+        "text": "The appellant is a litigant in person",
+        "correct": false,
+        "feedback": "LiP status is not a ground for permission."
+      },
+      {
+        "id": "d",
+        "text": "The value of the claim exceeds £50,000",
+        "correct": false,
+        "feedback": "Value is not the test for permission to appeal."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 52.6"
+    ]
+  },
+  {
+    "id": "i-c4-011",
+    "page": "I",
+    "section": "I14",
+    "micro_skill": "I14.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "appeal",
+      "cpr-52.12",
+      "time-limit",
+      "21-days"
+    ],
+    "question": "Under CPR 52.12, within what period must an appellant's notice be filed?",
+    "options": [
+      {
+        "id": "a",
+        "text": "7 days from the decision",
+        "correct": false,
+        "feedback": "The period is 21 days."
+      },
+      {
+        "id": "b",
+        "text": "14 days from the decision",
+        "correct": false,
+        "feedback": "The period is 21 days."
+      },
+      {
+        "id": "c",
+        "text": "21 days from the decision being appealed, or as directed by the lower court",
+        "correct": true,
+        "feedback": "Correct — CPR 52.12 requires the notice within 21 days of the decision (or as the lower court directs)."
+      },
+      {
+        "id": "d",
+        "text": "28 days from the decision",
+        "correct": false,
+        "feedback": "28 days is the extended defence period, not the appeal period."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 52.12"
+    ]
+  },
+  {
+    "id": "i-c4-012",
+    "page": "I",
+    "section": "I14",
+    "micro_skill": "I14.1",
+    "crown_level": 4,
+    "type": "scenario",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "appeal",
+      "findings-of-fact",
+      "assicurazioni",
+      "ladd-v-marshall"
+    ],
+    "question": "A litigant wants to appeal a trial judge's finding that they were not a credible witness. What is the appellate court's approach to findings of fact?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The appellate court re-hears the witness evidence",
+        "correct": false,
+        "feedback": "Appellate courts do not re-hear live evidence."
+      },
+      {
+        "id": "b",
+        "text": "The appellate court will not interfere unless the finding is plainly wrong — _Assicurazioni Generali_ [2002]",
+        "correct": true,
+        "feedback": "Correct — appellate courts are reluctant to disturb trial judges' factual findings. They must be plainly wrong or based on an error of law."
+      },
+      {
+        "id": "c",
+        "text": "The court must always grant permission for challenges to factual findings",
+        "correct": false,
+        "feedback": "Permission is still required and the CPR 52.6 test must be met."
+      },
+      {
+        "id": "d",
+        "text": "LiP status means the court treats factual challenges more generously",
+        "correct": false,
+        "feedback": "LiP status does not alter the standard of appellate review."
+      }
+    ],
+    "oscoa_references": [
+      "Assicurazioni Generali SpA v Arab Insurance Group [2002] EWCA Civ 1642",
+      "CPR 52.6",
+      "Ladd v Marshall [1954] 1 WLR 1489"
+    ]
+  },
+  {
+    "id": "i-c4-013",
+    "page": "I",
+    "section": "I14",
+    "micro_skill": "I14.2",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "appeal",
+      "stay",
+      "cpr-52.16",
+      "execution"
+    ],
+    "question": "Under CPR 52.16, what may an appellant apply for pending determination of an appeal?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A stay of execution of the judgment or order under appeal",
+        "correct": true,
+        "feedback": "Correct — CPR 52.16 permits the appellant to apply for a stay of execution pending appeal."
+      },
+      {
+        "id": "b",
+        "text": "A default judgment against the respondent",
+        "correct": false,
+        "feedback": "Default judgment does not arise in the context of an appeal."
+      },
+      {
+        "id": "c",
+        "text": "A freezing injunction over the respondent's assets",
+        "correct": false,
+        "feedback": "A freezing injunction is a separate remedy under CPR 25.1."
+      },
+      {
+        "id": "d",
+        "text": "An order for advance payment of the appellant's costs",
+        "correct": false,
+        "feedback": "No such provision exists under CPR 52.16."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 52.16"
+    ]
+  },
+  {
+    "id": "i-c4-014",
+    "page": "I",
+    "section": "I14",
+    "micro_skill": "I14.2",
+    "crown_level": 4,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "appeal",
+      "stay",
+      "irremediable-prejudice",
+      "balance"
+    ],
+    "question": "'When deciding whether to grant a stay pending appeal, the court considers whether the appellant would be irremediably prejudiced if the stay were refused.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct — irremediable prejudice is a key factor, alongside the real prospect of appeal and the balance of convenience."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "Irremediable prejudice is indeed a key factor under CPR 52.16."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 52.16"
+    ]
+  },
+  {
+    "id": "i-c4-015",
+    "page": "I",
+    "section": "I15",
+    "micro_skill": "I15.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "judicial-review",
+      "cpr-54",
+      "permission",
+      "standing",
+      "promptly"
+    ],
+    "question": "Under CPR 54, what must a claimant show at the permission stage of a judicial review claim?",
+    "options": [
+      {
+        "id": "a",
+        "text": "That the defendant is a private individual",
+        "correct": false,
+        "feedback": "JR concerns decisions of public bodies."
+      },
+      {
+        "id": "b",
+        "text": "Sufficient interest (standing), arguable ground with realistic prospect of success, and that the claim was brought promptly",
+        "correct": true,
+        "feedback": "Correct — CPR 54 requires standing, arguable ground, and promptness (generally 3 months)."
+      },
+      {
+        "id": "c",
+        "text": "That the claim exceeds £50,000",
+        "correct": false,
+        "feedback": "JR is not concerned with the monetary value."
+      },
+      {
+        "id": "d",
+        "text": "That all other legal proceedings have been concluded",
+        "correct": false,
+        "feedback": "The claimant should exhaust alternative remedies, but other proceedings need not be concluded."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 54"
+    ]
+  },
+  {
+    "id": "i-c4-016",
+    "page": "I",
+    "section": "I15",
+    "micro_skill": "I15.1",
+    "crown_level": 4,
+    "type": "msq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "judicial-review",
+      "grounds",
+      "illegality",
+      "wednesbury",
+      "legitimate-expectation"
+    ],
+    "question": "Which of the following are recognised grounds for judicial review? (Select all that apply.)",
+    "options": [
+      {
+        "id": "a",
+        "text": "Illegality",
+        "correct": true,
+        "feedback": "Correct — a public body acting beyond its legal powers."
+      },
+      {
+        "id": "b",
+        "text": "Irrationality (Wednesbury unreasonableness)",
+        "correct": true,
+        "feedback": "Correct — a decision no reasonable decision-maker could have made."
+      },
+      {
+        "id": "c",
+        "text": "Procedural impropriety",
+        "correct": true,
+        "feedback": "Correct — failure to follow proper procedures or breach of natural justice."
+      },
+      {
+        "id": "d",
+        "text": "Breach of legitimate expectation",
+        "correct": true,
+        "feedback": "Correct — a public body acting contrary to a clear and unambiguous promise."
+      },
+      {
+        "id": "e",
+        "text": "The decision was made by a junior official",
+        "correct": false,
+        "feedback": "Rank alone is not a ground — must be linked to a recognised ground."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 54"
+    ]
+  },
+  {
+    "id": "i-c4-017",
+    "page": "I",
+    "section": "I15",
+    "micro_skill": "I15.1",
+    "crown_level": 4,
+    "type": "scenario",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "judicial-review",
+      "lip",
+      "alternative-remedies",
+      "last-resort"
+    ],
+    "question": "A LiP is unhappy with a local authority housing decision but has not used the internal complaints procedure. They want judicial review. What is the correct advice?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Proceed with JR immediately — internal procedures are optional",
+        "correct": false,
+        "feedback": "JR is a remedy of last resort."
+      },
+      {
+        "id": "b",
+        "text": "Exhaust the internal complaints procedure first — judicial review is a remedy of last resort",
+        "correct": true,
+        "feedback": "Correct — the court will generally refuse permission if alternative remedies remain unexhausted."
+      },
+      {
+        "id": "c",
+        "text": "JR is available for any complaint against a public body",
+        "correct": false,
+        "feedback": "The availability of alternative remedies is a key permission factor."
+      },
+      {
+        "id": "d",
+        "text": "LiPs are exempt from the exhaustion requirement",
+        "correct": false,
+        "feedback": "LiP status does not exempt a party from exhausting alternative remedies."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 54"
+    ]
+  },
+  {
+    "id": "i-c4-018",
+    "page": "I",
+    "section": "I16",
+    "micro_skill": "I16.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "small-claims",
+      "cpr-27",
+      "inquisitorial",
+      "informal"
+    ],
+    "question": "Under CPR 27, what is the nature of the small claims track trial?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Formal adversarial proceedings with strict rules of evidence and cross-examination",
+        "correct": false,
+        "feedback": "This describes fast track or multi-track."
+      },
+      {
+        "id": "b",
+        "text": "Informal — judge adopts an inquisitorial role, no strict rules of evidence, no formal cross-examination",
+        "correct": true,
+        "feedback": "Correct — small claims trials are informal. The judge takes an active inquisitorial role and rules of evidence are relaxed."
+      },
+      {
+        "id": "c",
+        "text": "Parties must be represented by counsel",
+        "correct": false,
+        "feedback": "Small claims track is designed for LiPs — representation is not required and costs are not recoverable."
+      },
+      {
+        "id": "d",
+        "text": "A hearing on paper — parties do not attend",
+        "correct": false,
+        "feedback": "Small claims trials are held in court, usually with parties around a table."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 27"
+    ]
+  },
+  {
+    "id": "i-c4-019",
+    "page": "I",
+    "section": "I16",
+    "micro_skill": "I16.1",
+    "crown_level": 4,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "small-claims",
+      "cpr-26.6",
+      "pi-threshold",
+      "1000"
+    ],
+    "question": "'On the small claims track, the financial threshold for personal injury claims (general damages) is £1,000.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct — PI claims are allocated to small claims only if the value for pain, suffering and loss of amenity does not exceed £1,000."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "The PI threshold for the small claims track is indeed £1,000 for general damages."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 26.6"
+    ]
+  },
+  {
+    "id": "i-c4-020",
+    "page": "I",
+    "section": "I16",
+    "micro_skill": "I16.1",
+    "crown_level": 4,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "small-claims",
+      "cpr-27",
+      "disclosure",
+      "no-pre-trial-disclosure"
+    ],
+    "question": "'In the small claims track, there is no pre-trial disclosure unless the court orders otherwise.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct — small claims track does not have automatic pre-trial disclosure."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "The default is no pre-trial disclosure on the small claims track."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 27"
+    ]
+  },
+  {
+    "id": "i-c4-021",
+    "page": "I",
+    "section": "I16",
+    "micro_skill": "I16.2",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "small-claims",
+      "cpr-27.14",
+      "costs",
+      "limited-recovery"
+    ],
+    "question": "Under CPR 27.14, what costs can generally be recovered in the small claims track?",
+    "options": [
+      {
+        "id": "a",
+        "text": "All solicitor costs at the standard rate",
+        "correct": false,
+        "feedback": "Solicitor costs are not generally recoverable in the small claims track."
+      },
+      {
+        "id": "b",
+        "text": "Fixed commencement costs, court fees, capped loss of earnings (£95/day), expert fees (£750 max), and travel and accommodation",
+        "correct": true,
+        "feedback": "Correct — CPR 27.14 restricts recovery to a fixed list including court fees, limited loss of earnings, capped expert fees, and travel."
+      },
+      {
+        "id": "c",
+        "text": "Full indemnity costs",
+        "correct": false,
+        "feedback": "Full indemnity costs are not available on the small claims track."
+      },
+      {
+        "id": "d",
+        "text": "Only the court issue fee",
+        "correct": false,
+        "feedback": "Recoverable costs include several categories beyond the issue fee."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 27.14"
+    ]
+  },
+  {
+    "id": "i-c4-022",
+    "page": "I",
+    "section": "I16",
+    "micro_skill": "I16.2",
+    "crown_level": 4,
+    "type": "scenario",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "small-claims",
+      "lip",
+      "cost-risk",
+      "no-solicitor-costs"
+    ],
+    "question": "A LiP is considering a claim for £8,000 but worries about paying the defendant's legal costs if they lose. What is the position?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Significant cost risk — the defendant can recover full solicitor costs",
+        "correct": false,
+        "feedback": "The small claims track eliminates solicitor cost risk."
+      },
+      {
+        "id": "b",
+        "text": "The small claims track eliminates solicitor cost risk — solicitor costs are not recoverable, creating a level playing field for LiPs",
+        "correct": true,
+        "feedback": "Correct — CPR 27.14 provides that legal representation costs are not recoverable, making it ideal for LiPs."
+      },
+      {
+        "id": "c",
+        "text": "The LiP can recover their own time at £19/hr regardless of outcome",
+        "correct": false,
+        "feedback": "LiP costs recovery under CPR 46.5 applies when the LiP wins, not regardless of outcome."
+      },
+      {
+        "id": "d",
+        "text": "The defendant's solicitor costs are capped at £1,000",
+        "correct": false,
+        "feedback": "There is no such cap — solicitor costs are not recoverable at all."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 27.14",
+      "CPR 46.5"
+    ]
+  },
+  {
+    "id": "i-c4-023",
+    "page": "I",
+    "section": "I16",
+    "micro_skill": "I16.2",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "small-claims",
+      "cpr-27.14",
+      "unreasonable-conduct",
+      "costs-penalty"
+    ],
+    "question": "Under CPR 27.14(2)(g), when can a party be penalised in costs on the small claims track?",
+    "options": [
+      {
+        "id": "a",
+        "text": "If they lose the case",
+        "correct": false,
+        "feedback": "Losing alone is not a ground — the general rule is no cost shifting."
+      },
+      {
+        "id": "b",
+        "text": "If they have behaved unreasonably",
+        "correct": true,
+        "feedback": "Correct — CPR 27.14(2)(g) permits costs penalties for unreasonable behaviour, even on the small claims track."
+      },
+      {
+        "id": "c",
+        "text": "If they are a litigant in person",
+        "correct": false,
+        "feedback": "LiP status is not a ground for cost penalties."
+      },
+      {
+        "id": "d",
+        "text": "If their claim exceeds the small claims threshold",
+        "correct": false,
+        "feedback": "This is an allocation issue, not a costs penalty per se."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 27.14(2)(g)"
+    ]
+  },
+  {
+    "id": "i-c5-001",
+    "page": "I",
+    "section": "I17",
+    "micro_skill": "I17.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "enforcement",
+      "cpr-83",
+      "writ-of-control",
+      "hceo"
+    ],
+    "question": "Under CPR 83, a writ of control enables a High Court Enforcement Officer to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Freeze the debtor's bank account",
+        "correct": false,
+        "feedback": "That is a third party debt order under CPR 72."
+      },
+      {
+        "id": "b",
+        "text": "Seize and sell the debtor's goods to satisfy the judgment debt",
+        "correct": true,
+        "feedback": "Correct — a writ of control permits an HCEO to seize and sell goods to enforce a judgment."
+      },
+      {
+        "id": "c",
+        "text": "Deduct money from the debtor's wages",
+        "correct": false,
+        "feedback": "That is attachment of earnings under CCR Order 27."
+      },
+      {
+        "id": "d",
+        "text": "Order the debtor to attend an interview about their assets",
+        "correct": false,
+        "feedback": "That is an oral examination under CPR 71."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 83"
+    ]
+  },
+  {
+    "id": "i-c5-002",
+    "page": "I",
+    "section": "I17",
+    "micro_skill": "I17.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "enforcement",
+      "cpr-71",
+      "oral-examination",
+      "assets-inquiry"
+    ],
+    "question": "What enforcement tool under CPR 71 requires the judgment debtor to attend court and answer questions about their assets?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A charging order",
+        "correct": false,
+        "feedback": "CPR 73 — imposes a charge on land."
+      },
+      {
+        "id": "b",
+        "text": "An attachment of earnings order",
+        "correct": false,
+        "feedback": "CCR Order 27 — deducts from wages without court attendance."
+      },
+      {
+        "id": "c",
+        "text": "An oral examination",
+        "correct": true,
+        "feedback": "Correct — CPR 71 allows the creditor to obtain an order requiring the debtor to attend court and answer questions about assets, income, and means. A powerful enforcement tool."
+      },
+      {
+        "id": "d",
+        "text": "A third party debt order",
+        "correct": false,
+        "feedback": "CPR 72 — freezes and seizes bank account funds."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 71"
+    ]
+  },
+  {
+    "id": "i-c5-003",
+    "page": "I",
+    "section": "I17",
+    "micro_skill": "I17.1",
+    "crown_level": 5,
+    "type": "msq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "enforcement",
+      "methods",
+      "cpr-71",
+      "cpr-72",
+      "cpr-73",
+      "cpr-83"
+    ],
+    "question": "Which of the following are methods of enforcing a judgment debt under the CPR? (Select all that apply.)",
+    "options": [
+      {
+        "id": "a",
+        "text": "Writ or warrant of control",
+        "correct": true,
+        "feedback": "Correct — CPR 83 (seizing and selling goods)."
+      },
+      {
+        "id": "b",
+        "text": "Third Party Debt Order",
+        "correct": true,
+        "feedback": "Correct — CPR 72 (freezing and seizing bank account funds)."
+      },
+      {
+        "id": "c",
+        "text": "Charging Order",
+        "correct": true,
+        "feedback": "Correct — CPR 73 (charge on land, potentially followed by order for sale)."
+      },
+      {
+        "id": "d",
+        "text": "Attachment of earnings",
+        "correct": true,
+        "feedback": "Correct — CCR Order 27 (deductions from wages in the County Court)."
+      },
+      {
+        "id": "e",
+        "text": "Issue of a second claim form for the same debt",
+        "correct": false,
+        "feedback": "A second claim form would be an abuse of process — enforcement is via Parts 70–73."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 71",
+      "CPR 72",
+      "CPR 73",
+      "CPR 83"
+    ]
+  },
+  {
+    "id": "i-c5-004",
+    "page": "I",
+    "section": "I17",
+    "micro_skill": "I17.1",
+    "crown_level": 5,
+    "type": "scenario",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "enforcement",
+      "hceo",
+      "county-court",
+      "transfer",
+      "high-court"
+    ],
+    "question": "A judgment creditor has a county court judgment for £15,000. The debtor owns valuable commercial vehicles. What is the best enforcement tactic?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Apply for an attachment of earnings order",
+        "correct": false,
+        "feedback": "This suits employed debtors but does not target the commercial vehicles."
+      },
+      {
+        "id": "b",
+        "text": "Transfer the judgment to the High Court for enforcement by an HCEO, who can seize the vehicles",
+        "correct": true,
+        "feedback": "Correct — transfer to the High Court (£600+) allows enforcement by HCEO who is commission-motivated and typically more effective than county court bailiffs."
+      },
+      {
+        "id": "c",
+        "text": "Apply for a third party debt order against an unknown bank account",
+        "correct": false,
+        "feedback": "This requires knowledge of the debtor's bank account details."
+      },
+      {
+        "id": "d",
+        "text": "Apply for an oral examination and hope the debtor volunteers payment",
+        "correct": false,
+        "feedback": "An oral examination may help discover assets but does not itself enforce the judgment."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 83",
+      "CPR 71"
+    ]
+  },
+  {
+    "id": "i-c5-005",
+    "page": "I",
+    "section": "I17",
+    "micro_skill": "I17.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "enforcement",
+      "cpr-72",
+      "third-party-debt-order",
+      "bank"
+    ],
+    "question": "Under CPR 72, a Third Party Debt Order operates by:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Seizing physical goods from the debtor's home",
+        "correct": false,
+        "feedback": "That is a warrant of control."
+      },
+      {
+        "id": "b",
+        "text": "Freezing money in the debtor's bank account and ordering the bank to pay the creditor",
+        "correct": true,
+        "feedback": "Correct — CPR 72 allows the court to freeze the debtor's bank account (interim order) and then order the bank to pay the frozen sum to the creditor (final order)."
+      },
+      {
+        "id": "c",
+        "text": "Placing a charge on the debtor's land",
+        "correct": false,
+        "feedback": "That is a charging order under CPR 73."
+      },
+      {
+        "id": "d",
+        "text": "Deducting money directly from the debtor's salary",
+        "correct": false,
+        "feedback": "That is attachment of earnings."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 72"
+    ]
+  },
+  {
+    "id": "i-c5-006",
+    "page": "I",
+    "section": "I18",
+    "micro_skill": "I18.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "easy",
+    "tags": [
+      "lip",
+      "costs",
+      "cpr-46.5",
+      "19-per-hour"
+    ],
+    "question": "Under CPR 46.5, what is the hourly rate recoverable by a non-professional litigant in person for work reasonably spent on their case?",
+    "options": [
+      {
+        "id": "a",
+        "text": "£9 per hour",
+        "correct": false,
+        "feedback": "The rate is £19 per hour."
+      },
+      {
+        "id": "b",
+        "text": "£19 per hour",
+        "correct": true,
+        "feedback": "Correct — CPR 46.5 provides for recovery at £19 per hour for time reasonably spent. Disbursements are recoverable in addition."
+      },
+      {
+        "id": "c",
+        "text": "£29 per hour",
+        "correct": false,
+        "feedback": "The rate is £19 per hour."
+      },
+      {
+        "id": "d",
+        "text": "The same rate as a qualified solicitor",
+        "correct": false,
+        "feedback": "Non-professional LiPs are capped at £19/hr, though the overall recovery cap is 2/3 of what a solicitor would have charged."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 46.5",
+      "Litigants in Person (Costs and Expenses) Act 1975"
+    ]
+  },
+  {
+    "id": "i-c5-007",
+    "page": "I",
+    "section": "I18",
+    "micro_skill": "I18.1",
+    "crown_level": 5,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": [
+      "lip",
+      "costs",
+      "cpr-46.5",
+      "two-thirds-cap",
+      "barton"
+    ],
+    "question": "'Under CPR 46.5 and _Barton v Wright Hassall LLP_ [2018] UKSC 12, the total costs a litigant in person can recover are capped at two-thirds of what a solicitor would have charged for the same work.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct — the LiP costs formula caps recovery at 2/3 of the solicitor rate, with a £19/hr floor for non-professionals."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "The 2/3 cap is the correct position under CPR 46.5 as confirmed in Barton."
+      }
+    ],
+    "oscoa_references": [
+      "Barton v Wright Hassall LLP [2018] UKSC 12",
+      "CPR 46.5"
+    ]
+  },
+  {
+    "id": "i-c5-008",
+    "page": "I",
+    "section": "I18",
+    "micro_skill": "I18.1",
+    "crown_level": 5,
+    "type": "scenario",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": [
+      "lip",
+      "costs",
+      "cpr-46.5",
+      "time-log",
+      "record-keeping"
+    ],
+    "question": "A litigant in person wins their multi-track claim and seeks to recover costs for the time spent preparing the case. What should they do to maximise recovery?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Estimate their time retrospectively from memory",
+        "correct": false,
+        "feedback": "Estimates from memory are less persuasive than contemporaneous records."
+      },
+      {
+        "id": "b",
+        "text": "Keep a detailed contemporaneous time log of all work done on the case and present it at the costs assessment",
+        "correct": true,
+        "feedback": "Correct — keeping a contemporaneous time log is the best way to justify the 'time reasonably spent' requirement under CPR 46.5."
+      },
+      {
+        "id": "c",
+        "text": "Engage a costs lawyer — LiPs cannot claim costs themselves",
+        "correct": false,
+        "feedback": "LiPs can claim costs under CPR 46.5 without a costs lawyer."
+      },
+      {
+        "id": "d",
+        "text": "Accept whatever sum the court awards without contesting",
+        "correct": false,
+        "feedback": "The LiP should present evidence (the time log) to support the costs claim."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 46.5"
+    ]
+  },
+  {
+    "id": "i-c5-009",
+    "page": "I",
+    "section": "I18",
+    "micro_skill": "I18.2",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "easy",
+    "tags": [
+      "fee-remission",
+      "ex160a",
+      "low-income",
+      "means-tested"
+    ],
+    "question": "What form must be completed to apply for court fee remission?",
+    "options": [
+      {
+        "id": "a",
+        "text": "N1",
+        "correct": false,
+        "feedback": "N1 is the claim form."
+      },
+      {
+        "id": "b",
+        "text": "EX160A",
+        "correct": true,
+        "feedback": "Correct — Form EX160A is the application for fee remission (help with court fees)."
+      },
+      {
+        "id": "c",
+        "text": "N244",
+        "correct": false,
+        "feedback": "N244 is the application notice."
+      },
+      {
+        "id": "d",
+        "text": "N242A",
+        "correct": false,
+        "feedback": "N242A is the Part 36 offer form."
+      }
+    ],
+    "oscoa_references": [
+      "Civil Proceedings Fees Order",
+      "EX160A"
+    ]
+  },
+  {
+    "id": "i-c5-010",
+    "page": "I",
+    "section": "I18",
+    "micro_skill": "I18.2",
+    "crown_level": 5,
+    "type": "msq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": [
+      "fee-remission",
+      "ex160a",
+      "qualification",
+      "benefits"
+    ],
+    "question": "Which of the following may qualify a person for court fee remission? (Select all that apply.)",
+    "options": [
+      {
+        "id": "a",
+        "text": "Receiving a means-tested benefit such as Income Support, income-based JSA, or Universal Credit",
+        "correct": true,
+        "feedback": "Correct — receipt of means-tested benefits is a qualifying criterion."
+      },
+      {
+        "id": "b",
+        "text": "Having disposable capital below the prescribed threshold",
+        "correct": true,
+        "feedback": "Correct — even without benefits, low disposable capital may qualify."
+      },
+      {
+        "id": "c",
+        "text": "Being a litigant in person",
+        "correct": false,
+        "feedback": "LiP status alone does not qualify for fee remission — the financial test applies regardless."
+      },
+      {
+        "id": "d",
+        "text": "Claiming the case is in the public interest",
+        "correct": false,
+        "feedback": "Public interest is not a criterion under EX160A."
+      }
+    ],
+    "oscoa_references": [
+      "Civil Proceedings Fees Order",
+      "EX160A"
+    ]
+  },
+  {
+    "id": "i-c5-011",
+    "page": "I",
+    "section": "I18",
+    "micro_skill": "I18.2",
+    "crown_level": 5,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "easy",
+    "tags": [
+      "fee-remission",
+      "ex160a",
+      "enforcement",
+      "limitation"
+    ],
+    "question": "'Fee remission is available for all enforcement proceedings fees without limitation.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": false,
+        "feedback": "Fee remission is not universally available for all enforcement fees — there are some limitations."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": true,
+        "feedback": "Correct — fee remission is partially but not fully available for certain enforcement proceedings fees."
+      }
+    ],
+    "oscoa_references": [
+      "Civil Proceedings Fees Order",
+      "EX160A"
+    ]
+  },
+  {
+    "id": "i-c5-012",
+    "page": "I",
+    "section": "I18",
+    "micro_skill": "I18.3",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "easy",
+    "tags": [
+      "mckenzie-friend",
+      "pd3b",
+      "assistance",
+      "note-taking"
+    ],
+    "question": "Under Practice Direction 3B, what is the primary role of a McKenzie Friend?",
+    "options": [
+      {
+        "id": "a",
+        "text": "To act as the LiP's solicitor and conduct the litigation",
+        "correct": false,
+        "feedback": "McKenzie Friends do not conduct litigation — they assist the LiP."
+      },
+      {
+        "id": "b",
+        "text": "To assist the LiP in court by taking notes, quietly prompting, and providing advice",
+        "correct": true,
+        "feedback": "Correct — PD3B describes the McKenzie Friend role as note-taking, quietly prompting, and advising the LiP."
+      },
+      {
+        "id": "c",
+        "text": "To cross-examine witnesses on the LiP's behalf",
+        "correct": false,
+        "feedback": "A McKenzie Friend may not examine witnesses unless granted rights of audience by the court."
+      },
+      {
+        "id": "d",
+        "text": "To sign documents on behalf of the LiP",
+        "correct": false,
+        "feedback": "A McKenzie Friend does not have authority to sign documents for the LiP."
+      }
+    ],
+    "oscoa_references": [
+      "Practice Direction 3B"
+    ]
+  },
+  {
+    "id": "i-c5-013",
+    "page": "I",
+    "section": "I18",
+    "micro_skill": "I18.3",
+    "crown_level": 5,
+    "type": "scenario",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": [
+      "mckenzie-friend",
+      "pd3b",
+      "right-of-audience",
+      "discretion"
+    ],
+    "question": "A LiP wants their McKenzie Friend to conduct the advocacy at trial (make submissions and examine witnesses). What must happen?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The McKenzie Friend can do this automatically as part of their role",
+        "correct": false,
+        "feedback": "Conducting advocacy goes beyond the standard McKenzie Friend role."
+      },
+      {
+        "id": "b",
+        "text": "The LiP must apply to the court at the start of the hearing for the McKenzie Friend to be granted rights of audience — the court has discretion",
+        "correct": true,
+        "feedback": "Correct — PD3B para 17 permits the court to grant a McKenzie Friend rights of audience, but this is discretionary and must be sought at the hearing."
+      },
+      {
+        "id": "c",
+        "text": "The McKenzie Friend must be a qualified barrister",
+        "correct": false,
+        "feedback": "This is not a requirement — but the court's discretion will consider the person's suitability."
+      },
+      {
+        "id": "d",
+        "text": "The LiP must give 28 days' written notice to the court and opponent",
+        "correct": false,
+        "feedback": "There is no specific notice period — the application is made at the start of the hearing."
+      }
+    ],
+    "oscoa_references": [
+      "Practice Direction 3B"
+    ]
+  },
+  {
+    "id": "i-c5-014",
+    "page": "I",
+    "section": "I18",
+    "micro_skill": "I18.3",
+    "crown_level": 5,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": [
+      "mckenzie-friend",
+      "pd3b",
+      "payment",
+      "loophole"
+    ],
+    "question": "'A McKenzie Friend may be paid for their services — the CPR does not prohibit payment.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct — PD3B does not prohibit payment for McKenzie Friend services, though providing reserved legal services for payment requires authorisation."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "Payment is not prohibited under PD3B, though regulated legal services still require authorisation."
+      }
+    ],
+    "oscoa_references": [
+      "Practice Direction 3B"
+    ]
+  },
+  {
+    "id": "i-c5-015",
+    "page": "I",
+    "section": "I18",
+    "micro_skill": "I18.4",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "easy",
+    "tags": [
+      "costs-protection",
+      "lip",
+      "small-claims",
+      "qocs",
+      "part-36"
+    ],
+    "question": "Which of the following provides costs protection for a litigant in person?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The small claims track — no adverse solicitor costs risk",
+        "correct": true,
+        "feedback": "Correct — CPR 27.14 eliminates adverse solicitor cost risk on the small claims track."
+      },
+      {
+        "id": "b",
+        "text": "The fast track — automatic cost capping for LiPs",
+        "correct": false,
+        "feedback": "Fast track does not provide automatic LiP cost protection."
+      },
+      {
+        "id": "c",
+        "text": "The multi-track — automatic QOCS for all claims",
+        "correct": false,
+        "feedback": "QOCS only applies to personal injury claims."
+      },
+      {
+        "id": "d",
+        "text": "The Part 8 procedure — no costs orders in Part 8 claims",
+        "correct": false,
+        "feedback": "Costs orders can be made in Part 8 claims."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 27.14",
+      "CPR 44.13",
+      "CPR 36"
+    ]
+  },
+  {
+    "id": "i-c5-016",
+    "page": "I",
+    "section": "I18",
+    "micro_skill": "I18.4",
+    "crown_level": 5,
+    "type": "msq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": [
+      "costs-protection",
+      "lip",
+      "strategies",
+      "legal-aid",
+      "cost-capping"
+    ],
+    "question": "Which of the following are costs protection strategies available to LiPs? (Select all that apply.)",
+    "options": [
+      {
+        "id": "a",
+        "text": "Issuing on the small claims track to eliminate solicitor cost risk",
+        "correct": true,
+        "feedback": "Correct — CPR 27.14."
+      },
+      {
+        "id": "b",
+        "text": "QOCS in personal injury claims",
+        "correct": true,
+        "feedback": "Correct — CPR 44.13–17."
+      },
+      {
+        "id": "c",
+        "text": "Using Part 36 offers to shift cost risk to the opponent",
+        "correct": true,
+        "feedback": "Correct — CPR 36.17."
+      },
+      {
+        "id": "d",
+        "text": "Applying for costs capping orders under CPR 3.19 in environmental claims",
+        "correct": true,
+        "feedback": "Correct — Aarhus Convention costs capping."
+      },
+      {
+        "id": "e",
+        "text": "Applying for public funding (legal aid) where the scope covers the claim",
+        "correct": true,
+        "feedback": "Correct — legal aid provides costs protection via s.26 LASPO 2012."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 27.14",
+      "CPR 44.13",
+      "CPR 36",
+      "CPR 3.19",
+      "LASPO 2012, s.26"
+    ]
+  },
+  {
+    "id": "i-c5-017",
+    "page": "I",
+    "section": "I18",
+    "micro_skill": "I18.4",
+    "crown_level": 5,
+    "type": "scenario",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "costs-protection",
+      "lip",
+      "legal-aid",
+      "laspo",
+      "certificated"
+    ],
+    "question": "A LiP claimant has certificated legal aid for their judicial review claim. They lose at the substantive hearing. What costs protection does this provide?",
+    "options": [
+      {
+        "id": "a",
+        "text": "None — legal aid only covers the claimant's own solicitor costs",
+        "correct": false,
+        "feedback": "Legal aid provides protection against adverse costs under LASPO 2012."
+      },
+      {
+        "id": "b",
+        "text": "The legally aided party is protected from paying the opponent's costs even if they lose — LASPO 2012, s.26",
+        "correct": true,
+        "feedback": "Correct — s.26 LASPO 2012 protects a legally aided party from adverse costs orders. This is a key benefit of legal aid."
+      },
+      {
+        "id": "c",
+        "text": "The claimant must pay the opponent's costs but at a reduced rate",
+        "correct": false,
+        "feedback": "There is no reduced rate — there is protection from the adverse order."
+      },
+      {
+        "id": "d",
+        "text": "The opponent's costs are paid from the legal aid fund automatically",
+        "correct": false,
+        "feedback": "The opponent may in limited circumstances apply for costs from the fund, but the aided party is not personally liable."
+      }
+    ],
+    "oscoa_references": [
+      "Legal Aid, Sentencing and Punishment of Offenders Act 2012, s.26"
+    ]
+  },
+  {
+    "id": "i-c5-018",
+    "page": "I",
+    "section": "I18",
+    "micro_skill": "I18.5",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "easy",
+    "tags": [
+      "vexatious-litigant",
+      "cro",
+      "cpr-3.11",
+      "civil-restraint-order"
+    ],
+    "question": "Under CPR 3.11, which types of civil restraint order can the court impose?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Limited, extended, and general civil restraint orders",
+        "correct": true,
+        "feedback": "Correct — CPR 3.11 provides for limited CROs, extended CROs, and general CROs, each restricting the person's ability to make applications without permission."
+      },
+      {
+        "id": "b",
+        "text": "Temporary, interim, and final restraint orders",
+        "correct": false,
+        "feedback": "These are not the CPR 3.11 categories."
+      },
+      {
+        "id": "c",
+        "text": "Personal, corporate, and trust restraint orders",
+        "correct": false,
+        "feedback": "These are not categories under the CPR."
+      },
+      {
+        "id": "d",
+        "text": "County Court, High Court, and Court of Appeal restraint orders",
+        "correct": false,
+        "feedback": "CROs are distinguished by scope (limited/extended/general), not by court level."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 3.11",
+      "Practice Direction 3C"
+    ]
+  },
+  {
+    "id": "i-c5-019",
+    "page": "I",
+    "section": "I18",
+    "micro_skill": "I18.5",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": [
+      "vexatious-litigant",
+      "sca-1981",
+      "s42",
+      "attorney-general"
+    ],
+    "question": "Under s.42 of the Senior Courts Act 1981, who may apply for an order declaring a person a vexatious litigant?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Any person who has been sued by the litigant",
+        "correct": false,
+        "feedback": "Private individuals cannot make a s.42 application."
+      },
+      {
+        "id": "b",
+        "text": "The Attorney General",
+        "correct": true,
+        "feedback": "Correct — s.42 SCA 1981 empowers the Attorney General to apply to the High Court for a vexatious litigant order, preventing the person from instituting proceedings without court permission."
+      },
+      {
+        "id": "c",
+        "text": "The Lord Chief Justice",
+        "correct": false,
+        "feedback": "The power rests with the Attorney General, not the LCJ."
+      },
+      {
+        "id": "d",
+        "text": "The Legal Aid Agency",
+        "correct": false,
+        "feedback": "The LAA has no standing under s.42."
+      }
+    ],
+    "oscoa_references": [
+      "Senior Courts Act 1981, s.42"
+    ]
+  },
+  {
+    "id": "i-c5-020",
+    "page": "I",
+    "section": "I18",
+    "micro_skill": "I18.5",
+    "crown_level": 5,
+    "type": "scenario",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": [
+      "vexatious-litigant",
+      "lip",
+      "avoidance",
+      "genuine-merit"
+    ],
+    "question": "A LiP has brought several unsuccessful claims against the same defendant and is considering a further claim on a related issue. How can they avoid being declared vexatious?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ignore the risk — the court rarely makes declarations against LiPs",
+        "correct": false,
+        "feedback": "LiP status does not protect against a s.42 order."
+      },
+      {
+        "id": "b",
+        "text": "Ensure every new claim or application has genuine merit and is not a re-litigation of previously decided issues",
+        "correct": true,
+        "feedback": "Correct — to avoid vexatiousness, each claim must have genuine merit, not merely re-litigate decided issues, and not be brought for improper purposes."
+      },
+      {
+        "id": "c",
+        "text": "Use a different court each time",
+        "correct": false,
+        "feedback": "Court-shopping does not prevent a vexatious litigant finding."
+      },
+      {
+        "id": "d",
+        "text": "Bring a counterclaim instead of a fresh claim",
+        "correct": false,
+        "feedback": "The test is whether proceedings have merit and are not abusive — the form of the claim is secondary."
+      }
+    ],
+    "oscoa_references": [
+      "Senior Courts Act 1981, s.42",
+      "CPR 3.11"
+    ]
+  },
+  {
+    "id": "i-c5-021",
+    "page": "I",
+    "section": "I18",
+    "micro_skill": "I18.6",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "easy",
+    "tags": [
+      "limitation",
+      "cpr-7.5",
+      "claim-form",
+      "4-months",
+      "tactic"
+    ],
+    "question": "What tactical advantage does CPR 7.5 offer in relation to limitation?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The claim form can be served 4 months after issue, preserving the limitation date while buying time",
+        "correct": true,
+        "feedback": "Correct — issuing the claim form stops time running for limitation purposes. The 4-month service window allows tactical delay in service while preserving the claim."
+      },
+      {
+        "id": "b",
+        "text": "A claim form extends the limitation period by 4 months automatically",
+        "correct": false,
+        "feedback": "The claim form does not extend the limitation period — it stops time running on the date of issue."
+      },
+      {
+        "id": "c",
+        "text": "Limitation is irrelevant once proceedings are issued",
+        "correct": false,
+        "feedback": "Limitation remains relevant — it is a defence, and the claim form must be served within the validity period."
+      },
+      {
+        "id": "d",
+        "text": "A Part 8 claim form has a longer limitation period",
+        "correct": false,
+        "feedback": "Part 7 and Part 8 are subject to the same limitation rules."
+      }
+    ],
+    "oscoa_references": [
+      "CPR 7.5"
+    ]
+  },
+  {
+    "id": "i-c5-022",
+    "page": "I",
+    "section": "I18",
+    "micro_skill": "I18.6",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": [
+      "limitation",
+      "liability",
+      "barton",
+      "lip-compliance"
+    ],
+    "question": "In _Barton v Wright Hassall LLP_ [2018] UKSC 12, the Supreme Court held that litigants in person:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Are exempt from limitation periods",
+        "correct": false,
+        "feedback": "There is no exemption for LiPs."
+      },
+      {
+        "id": "b",
+        "text": "Are expected to comply with the CPR, including limitation rules — LiP status is not an excuse for non-compliance",
+        "correct": true,
+        "feedback": "Correct — Barton confirmed LiPs are not granted special exemption. Limitation is strict and LiP status does not excuse non-compliance."
+      },
+      {
+        "id": "c",
+        "text": "Receive a 28-day grace period for limitation",
+        "correct": false,
+        "feedback": "No such grace period exists."
+      },
+      {
+        "id": "d",
+        "text": "May apply for an automatic extension of the limitation period",
+        "correct": false,
+        "feedback": "There is no automatic extension — the s.33 LA 1980 discretion in PI claims is not automatic."
+      }
+    ],
+    "oscoa_references": [
+      "Barton v Wright Hassall LLP [2018] UKSC 12",
+      "CPR 7.5"
+    ]
+  },
+  {
+    "id": "i-c5-023",
+    "page": "I",
+    "section": "I18",
+    "micro_skill": "I18.6",
+    "crown_level": 5,
+    "type": "scenario",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "limitation",
+      "s33",
+      "la-1980",
+      "discretion",
+      "pi"
+    ],
+    "question": "A LiP claimant in a personal injury claim is close to the limitation expiry. They argue the court should use its s.33 LA 1980 discretion to extend time because they had difficulty obtaining legal advice. What is the correct position?",
+    "options": [
+      {
+        "id": "a",
+        "text": "s.33 discretion will automatically be exercised in the LiP's favour",
+        "correct": false,
+        "feedback": "s.33 is not automatic — it is a discretionary balancing exercise."
+      },
+      {
+        "id": "b",
+        "text": "The court may exercise its s.33 discretion considering all circumstances, including LiP status and difficulty obtaining advice, but there is no guarantee",
+        "correct": true,
+        "feedback": "Correct — s.33 LA 1980 gives the court discretion in PI claims, weighing all factors. LiP status and difficulty obtaining advice are relevant but not determinative."
+      },
+      {
+        "id": "c",
+        "text": "s.33 only applies to defendants",
+        "correct": false,
+        "feedback": "s.33 allows the court to disapply the limitation period for claimants in PI cases."
+      },
+      {
+        "id": "d",
+        "text": "Limitation cannot be extended under any circumstances",
+        "correct": false,
+        "feedback": "s.33 provides a specific discretion in personal injury claims."
+      }
+    ],
+    "oscoa_references": [
+      "Limitation Act 1980, s.33",
+      "Barton v Wright Hassall LLP [2018] UKSC 12"
+    ]
+  }
+]

@@ -1,0 +1,2465 @@
+[
+  {
+    "id": "h-c1-001",
+    "page": "H",
+    "section": "H1",
+    "micro_skill": "H1.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["statutory-interpretation", "literal-rule", "london-street-tramways"],
+    "question": "In London Street Tramways v LCC [1898] AC 375, what principle of statutory interpretation was established?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The purposive approach — courts should look to the purpose of the statute",
+        "correct": false,
+        "feedback": "This case established the literal rule, not the purposive approach (which is a later, EU-influenced development)."
+      },
+      {
+        "id": "b",
+        "text": "The literal rule — apply the plain and ordinary meaning of the words even if the result is absurd",
+        "correct": true,
+        "feedback": "Correct. London Street Tramways established the literal rule — the court must give effect to the plain meaning of statutory language, even where the result seems harsh or absurd."
+      },
+      {
+        "id": "c",
+        "text": "The golden rule — modify the literal meaning to avoid absurdity",
+        "correct": false,
+        "feedback": "The golden rule is a modification of the literal rule, not the holding in London Street Tramways."
+      },
+      {
+        "id": "d",
+        "text": "The mischief rule — consider the problem Parliament intended to remedy",
+        "correct": false,
+        "feedback": "The mischief rule originates from Heydon's Case (1584), not London Street Tramways."
+      }
+    ],
+    "oscoa_references": ["London Street Tramways v LCC [1898] AC 375"]
+  },
+  {
+    "id": "h-c1-002",
+    "page": "H",
+    "section": "H1",
+    "micro_skill": "H1.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["statutory-interpretation", "pepper-v-hart", "hansard", "ministerial-statements"],
+    "question": "Pepper v Hart [1993] AC 593 permits the use of parliamentary debates (Hansard) in statutory interpretation. What is the tactical application of this ruling?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hansard can only be used by the prosecution in criminal cases",
+        "correct": false,
+        "feedback": "Hansard may be introduced by either party where the conditions are met."
+      },
+      {
+        "id": "b",
+        "text": "A party may introduce ministerial statements made during the legislative process where the statute is ambiguous, obscure, or leads to absurdity, and the minister's statement is clear — strategically, this can support a client-favourable interpretation of ambiguous legislation",
+        "correct": true,
+        "feedback": "Correct. Pepper v Hart allows selective deployment of Hansard where statutory language is ambiguous and a clear ministerial statement supports the party's preferred reading — a powerful interpretive tactic."
+      },
+      {
+        "id": "c",
+        "text": "Hansard always takes precedence over the statutory text",
+        "correct": false,
+        "feedback": "Hansard is an aid to interpretation, not authoritative over the statutory text itself."
+      },
+      {
+        "id": "d",
+        "text": "The Pepper v Hart rule is limited to tax statutes",
+        "correct": false,
+        "feedback": "The rule applies to all statutes where the conditions are met, not just tax statutes."
+      }
+    ],
+    "oscoa_references": ["Pepper v Hart [1993] AC 593"]
+  },
+  {
+    "id": "h-c1-003",
+    "page": "H",
+    "section": "H1",
+    "micro_skill": "H1.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["statutory-interpretation", "heydons-case", "mischief-rule", "purposive"],
+    "question": "Which tactical approach gives the advocate maximum flexibility in statutory interpretation?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Always argue for literal interpretation regardless of the client's interest",
+        "correct": false,
+        "feedback": "Flexibility depends on which approach favours the client — not a fixed rule."
+      },
+      {
+        "id": "b",
+        "text": "Argue for the literal rule where an expansive interpretation disadvantages the client, and argue for the purposive approach (or mischief rule) where the literal interpretation is harsh — selectively deploy whichever interpretive canon favours the client",
+        "correct": true,
+        "feedback": "Correct. The skilled advocate moves between literal, golden, mischief, and purposive approaches depending on which yields the client-favourable result — each has precedential support."
+      },
+      {
+        "id": "c",
+        "text": "Only the purposive approach may be used in modern courts",
+        "correct": false,
+        "feedback": "All interpretive canons remain available — the literal rule is still cited where it assists a party."
+      },
+      {
+        "id": "d",
+        "text": "Interpretive arguments are constrained by the type of court",
+        "correct": false,
+        "feedback": "The approach depends on the statute and the client's interest, not the court type."
+      }
+    ],
+    "oscoa_references": ["Heydon's Case (1584) 3 Co Rep 7a", "Pepper v Hart [1993] AC 593", "London Street Tramways v LCC [1898] AC 375"]
+  },
+  {
+    "id": "h-c1-004",
+    "page": "H",
+    "section": "H1",
+    "micro_skill": "H1.2",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["presumptions", "penal-statute", "strict-construction", "cox-v-rabbits"],
+    "question": "In Cox v Rabbits (1878) 3 App Cas 473, the court confirmed that penal statutes should be:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Construed broadly to maximise deterrence",
+        "correct": false,
+        "feedback": "The principle is one of strict construction in favour of the subject — not broad construction."
+      },
+      {
+        "id": "b",
+        "text": "Strictly construed in favour of the subject — where a criminal penalty is at stake, ambiguous language is resolved in the defendant's favour",
+        "correct": true,
+        "feedback": "Correct. The presumption that penal statutes are strictly construed means that ambiguity in criminal legislation is resolved in favour of the accused — a powerful defensive tool."
+      },
+      {
+        "id": "c",
+        "text": "Interpreted identically to civil statutes with no special presumptions",
+        "correct": false,
+        "feedback": "Penal statutes attract specific presumptions that civil statutes do not."
+      },
+      {
+        "id": "d",
+        "text": "Given retroactive effect unless expressly excluded",
+        "correct": false,
+        "feedback": "There is a presumption against retrospective effect in penal statutes."
+      }
+    ],
+    "oscoa_references": ["Cox v Rabbits (1878) 3 App Cas 473"]
+  },
+  {
+    "id": "h-c1-005",
+    "page": "H",
+    "section": "H1",
+    "micro_skill": "H1.2",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["presumptions", "retrospective-effect", "property-rights", "ouster-of-courts"],
+    "question": "Which common law presumption would a litigant invoke to challenge legislation that prevents any court review of a government decision?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Presumption against retrospective effect",
+        "correct": false,
+        "feedback": "This challenges retrospective laws, not ouster of jurisdiction."
+      },
+      {
+        "id": "b",
+        "text": "Presumption against interference with property rights",
+        "correct": false,
+        "feedback": "This protects property, not access to the courts."
+      },
+      {
+        "id": "c",
+        "text": "Presumption against ousting the jurisdiction of the courts",
+        "correct": true,
+        "feedback": "Correct. There is a strong presumption that Parliament does not intend to exclude judicial oversight — an ouster clause will be construed narrowly, and only the clearest statutory language will exclude court review."
+      },
+      {
+        "id": "d",
+        "text": "Presumption that penal statutes be strictly construed",
+        "correct": false,
+        "feedback": "This applies to criminal penalties, not jurisdictional ousters."
+      }
+    ],
+    "oscoa_references": ["Cox v Rabbits (1878) 3 App Cas 473"]
+  },
+  {
+    "id": "h-c1-006",
+    "page": "H",
+    "section": "H2",
+    "micro_skill": "H2.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "easy",
+    "tags": ["limitation", "contract", "6-years", "limitation-act-1980"],
+    "question": "Under s.5 Limitation Act 1980, the limitation period for a claim for breach of contract is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "3 years from the date of breach",
+        "correct": false,
+        "feedback": "3 years applies to personal injury claims (s.11), not contract."
+      },
+      {
+        "id": "b",
+        "text": "6 years from the date of breach",
+        "correct": true,
+        "feedback": "Correct. S.5 LA 1980 provides a 6-year limitation period from the date of breach for simple contract claims."
+      },
+      {
+        "id": "c",
+        "text": "12 years from the date of breach",
+        "correct": false,
+        "feedback": "12 years applies to deeds (s.8 LA 1980), not simple contracts."
+      },
+      {
+        "id": "d",
+        "text": "There is no limitation period for breach of contract",
+        "correct": false,
+        "feedback": "All contractual claims are subject to statutory limitation periods."
+      }
+    ],
+    "oscoa_references": ["Limitation Act 1980, s.5"]
+  },
+  {
+    "id": "h-c1-007",
+    "page": "H",
+    "section": "H2",
+    "micro_skill": "H2.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "easy",
+    "tags": ["limitation", "deed", "12-years", "section-8"],
+    "question": "A claim brought under a deed (a specialty) has what limitation period under s.8 Limitation Act 1980?",
+    "options": [
+      {
+        "id": "a",
+        "text": "6 years",
+        "correct": false,
+        "feedback": "6 years is for simple contracts, not deeds."
+      },
+      {
+        "id": "b",
+        "text": "12 years",
+        "correct": true,
+        "feedback": "Correct. Claims under a deed benefit from a 12-year limitation period under s.8 LA 1980 — double the ordinary contract period."
+      },
+      {
+        "id": "c",
+        "text": "3 years",
+        "correct": false,
+        "feedback": "3 years is for personal injury."
+      },
+      {
+        "id": "d",
+        "text": "There is no limitation for deeds",
+        "correct": false,
+        "feedback": "Deeds are subject to limitation — just a longer period."
+      }
+    ],
+    "oscoa_references": ["Limitation Act 1980, s.8"]
+  },
+  {
+    "id": "h-c1-008",
+    "page": "H",
+    "section": "H2",
+    "micro_skill": "H2.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["limitation", "defamation", "1-year", "single-publication", "da-2013"],
+    "question": "Under s.4A Limitation Act 1980 and s.8 Defamation Act 2013, the limitation period for defamation is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "6 years from publication",
+        "correct": false,
+        "feedback": "6 years applies to tort generally, not defamation."
+      },
+      {
+        "id": "b",
+        "text": "1 year from publication, with the single publication rule applying",
+        "correct": true,
+        "feedback": "Correct. Defamation claims must be brought within 1 year of publication, and the DA 2013 introduced the single publication rule — subsequent republications do not restart the clock."
+      },
+      {
+        "id": "c",
+        "text": "3 years from publication",
+        "correct": false,
+        "feedback": "3 years is for personal injury, not defamation."
+      },
+      {
+        "id": "d",
+        "text": "There is no limitation period for defamation",
+        "correct": false,
+        "feedback": "Defamation has the shortest limitation period of any tort claim."
+      }
+    ],
+    "oscoa_references": ["Limitation Act 1980, s.4A", "Defamation Act 2013, s.8"]
+  },
+  {
+    "id": "h-c1-009",
+    "page": "H",
+    "section": "H2",
+    "micro_skill": "H2.1",
+    "crown_level": 1,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["limitation", "contribution", "2-years", "section-10"],
+    "question": "'A contribution claim under the Civil Liability (Contribution) Act 1978 has an 8-year limitation period.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": false,
+        "feedback": "This is incorrect — s.10 LA 1980 gives a 2-year limitation period for contribution claims."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": true,
+        "feedback": "Correct. Contribution claims under the Civil Liability (Contribution) Act 1978 have a 2-year limitation period under s.10 Limitation Act 1980."
+      }
+    ],
+    "oscoa_references": ["Limitation Act 1980, s.10"]
+  },
+  {
+    "id": "h-c1-010",
+    "page": "H",
+    "section": "H2",
+    "micro_skill": "H2.2",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["limitation", "section-14", "date-of-knowledge", "personal-injury"],
+    "question": "Under s.14 Limitation Act 1980, the 'date of knowledge' for personal injury claims is determined by reference to which factors?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The date the defendant was identified by the police",
+        "correct": false,
+        "feedback": "The statutory test is broader and focuses on the claimant's knowledge."
+      },
+      {
+        "id": "b",
+        "text": "The materiality of the injury, attribution to the defendant's negligence, and the identity of the defendant — the claimant's awareness of each factor triggers the 3-year limitation period",
+        "correct": true,
+        "feedback": "Correct. S.14 requires the claimant to know: (a) the injury was significant, (b) it was attributable to the defendant's act/omission, and (c) the defendant's identity."
+      },
+      {
+        "id": "c",
+        "text": "The date the claimant first felt pain",
+        "correct": false,
+        "feedback": "Pain alone is insufficient — the claimant must know the injury is significant and attributable."
+      },
+      {
+        "id": "d",
+        "text": "The date the defendant admits liability",
+        "correct": false,
+        "feedback": "The test relates to the claimant's knowledge, not the defendant's admissions."
+      }
+    ],
+    "oscoa_references": ["Limitation Act 1980, s.14"]
+  },
+  {
+    "id": "h-c1-011",
+    "page": "H",
+    "section": "H2",
+    "micro_skill": "H2.2",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["limitation", "section-33", "horton-v-sadler", "discretion"],
+    "question": "In Horton v Sadler [2006] UKHL 27, the House of Lords considered the s.33 discretion to extend time in personal injury claims. Which factor is paramount?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The financial status of the claimant",
+        "correct": false,
+        "feedback": "Financial status is not a s.33 factor."
+      },
+      {
+        "id": "b",
+        "text": "Whether a fair trial is still possible — the overarching question is whether the court should exercise its discretion to override the limitation period",
+        "correct": true,
+        "feedback": "Correct. The court must consider all circumstances including length and reasons for delay, prejudice to the defendant, cogency of evidence, and defendant's conduct — but the ultimate question is whether a fair trial remains possible."
+      },
+      {
+        "id": "c",
+        "text": "Whether the claimant has sought legal advice on limitation",
+        "correct": false,
+        "feedback": "Legal advice is not a determinative factor, though it may be relevant."
+      },
+      {
+        "id": "d",
+        "text": "The consent of the defendant to the extension",
+        "correct": false,
+        "feedback": "The defendant's consent is not required — the court has discretion."
+      }
+    ],
+    "oscoa_references": ["Horton v Sadler [2006] UKHL 27", "Limitation Act 1980, s.33"]
+  },
+  {
+    "id": "h-c1-012",
+    "page": "H",
+    "section": "H2",
+    "micro_skill": "H2.2",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["limitation", "section-14A", "latent-damage", "15-year-longstop"],
+    "question": "Under s.14A Limitation Act 1980, the 15-year longstop for latent damage claims means that:",
+    "options": [
+      {
+        "id": "a",
+        "text": "A claim can be brought at any time within 15 years of discovering the damage",
+        "correct": false,
+        "feedback": "The longstop is an absolute bar — it runs from the act/omission, not discovery."
+      },
+      {
+        "id": "b",
+        "text": "Regardless of the date of knowledge, no claim for latent damage can be brought more than 15 years after the negligent act or omission",
+        "correct": true,
+        "feedback": "Correct. The s.14A longstop provides an absolute cut-off — even if the claimant only discovered the damage after 15 years, the claim is barred."
+      },
+      {
+        "id": "c",
+        "text": "The 15-year period runs from the date the defendant is identified",
+        "correct": false,
+        "feedback": "The longstop runs from the date of the act or omission causing the damage."
+      },
+      {
+        "id": "d",
+        "text": "The longstop only applies in construction claims",
+        "correct": false,
+        "feedback": "S.14A applies to all negligence claims where damage is latent."
+      }
+    ],
+    "oscoa_references": ["Limitation Act 1980, s.14A", "Haward v Fawcetts [2006] UKHL 9"]
+  },
+  {
+    "id": "h-c1-013",
+    "page": "H",
+    "section": "H2",
+    "micro_skill": "H2.2",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["limitation", "section-32", "fraud", "concealment", "deliberate-act"],
+    "question": "Section 32 Limitation Act 1980 postpones limitation where there has been fraud, concealment, or mistake. In Sheldon v RHM Outhwaite [1996] AC 102, what was required for 'deliberate concealment'?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Any failure to disclose relevant facts, even if unintentional",
+        "correct": false,
+        "feedback": "Mere non-disclosure is insufficient — the concealment must be deliberate."
+      },
+      {
+        "id": "b",
+        "text": "A deliberate act of concealment by the defendant — an intentional act designed to hide material facts from the claimant",
+        "correct": true,
+        "feedback": "Correct. The House of Lords held that s.32 requires a deliberate act of concealment — not merely that facts were unknown to the claimant, but that the defendant took positive steps to conceal them."
+      },
+      {
+        "id": "c",
+        "text": "Any act that makes discovery more difficult",
+        "correct": false,
+        "feedback": "The test is stricter than mere difficulty — it requires a deliberate act."
+      },
+      {
+        "id": "d",
+        "text": "Concealment is presumed in all fraud cases",
+        "correct": false,
+        "feedback": "Concealment must be proved — it is not presumed."
+      }
+    ],
+    "oscoa_references": ["Limitation Act 1980, s.32", "Sheldon v RHM Outhwaite (Underwriting Agencies) Ltd [1996] AC 102"]
+  },
+  {
+    "id": "h-c1-014",
+    "page": "H",
+    "section": "H2",
+    "micro_skill": "H2.3",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["limitation", "trust", "section-21(1)(a)", "fraudulent-breach", "no-limitation"],
+    "question": "What is the most powerful effect of s.21(1)(a) Limitation Act 1980 for a claimant?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It limits trust claims to 6 years",
+        "correct": false,
+        "feedback": "S.21(1)(a) removes the limitation period, not imposes one."
+      },
+      {
+        "id": "b",
+        "text": "There is no limitation period for a fraudulent breach of trust or where the trustee is in possession of trust property — providing an indefinite limitation period",
+        "correct": true,
+        "feedback": "Correct. S.21(1)(a) provides that no limitation period applies where the breach of trust is fraudulent or the trustee retains trust property — a powerful tactical tool for claimants."
+      },
+      {
+        "id": "c",
+        "text": "It requires all trust claims to be brought within 1 year",
+        "correct": false,
+        "feedback": "This is the opposite of what s.21(1)(a) achieves."
+      },
+      {
+        "id": "d",
+        "text": "It applies only to charitable trusts",
+        "correct": false,
+        "feedback": "S.21(1)(a) applies to all trusts where the conditions are met."
+      }
+    ],
+    "oscoa_references": ["Limitation Act 1980, s.21(1)(a)"]
+  },
+  {
+    "id": "h-c1-015",
+    "page": "H",
+    "section": "H2",
+    "micro_skill": "H2.3",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["loophole", "framing-claim", "fraudulent-breach", "indefinite-limitation"],
+    "question": "What is the tactical advantage of framing a claim as a fraudulent breach of trust rather than an ordinary breach of fiduciary duty?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It avoids the need to prove causation",
+        "correct": false,
+        "feedback": "Causation is still a relevant inquiry."
+      },
+      {
+        "id": "b",
+        "text": "Under s.21(1)(a) Limitation Act 1980, fraudulently breaching a trust has no limitation period — the claim can be brought decades after the breach, providing indefinite limitation protection",
+        "correct": true,
+        "feedback": "Correct. By characterising the breach as fraudulent and the relationship as a trust, the claimant escapes the ordinary limitation period entirely. The counter-tactic is to distinguish innocent from fraudulent breach."
+      },
+      {
+        "id": "c",
+        "text": "It guarantees treble damages",
+        "correct": false,
+        "feedback": "There is no automatic treble damages for fraudulent breach of trust."
+      },
+      {
+        "id": "d",
+        "text": "It transfers the burden of proof on limitation to the defendant",
+        "correct": false,
+        "feedback": "S.21(1)(a) removes the limitation bar — it does not shift a burden."
+      }
+    ],
+    "oscoa_references": ["Limitation Act 1980, s.21(1)(a)"]
+  },
+  {
+    "id": "h-c2-001",
+    "page": "H",
+    "section": "H3",
+    "micro_skill": "H3.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["cpr", "strike-out", "cpr-34", "no-reasonable-grounds"],
+    "question": "Under CPR 3.4(2), which of the following is NOT a ground for striking out a statement of case?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No reasonable grounds for bringing or defending the claim",
+        "correct": false,
+        "feedback": "This is expressly a ground under CPR 3.4(2)(a)."
+      },
+      {
+        "id": "b",
+        "text": "Abuse of process",
+        "correct": false,
+        "feedback": "This is expressly a ground under CPR 3.4(2)(b)."
+      },
+      {
+        "id": "c",
+        "text": "The claim is factually complex and will require extensive disclosure",
+        "correct": true,
+        "feedback": "Correct. Factual complexity is not a ground for strike out under CPR 3.4 — strike out is for hopeless claims, not complex ones."
+      },
+      {
+        "id": "d",
+        "text": "Failure to comply with a rule, practice direction, or court order",
+        "correct": false,
+        "feedback": "This is expressly a ground under CPR 3.4(2)(c)."
+      }
+    ],
+    "oscoa_references": ["CPR 3.4", "BCCI v Ali [2001] UKHL 8"]
+  },
+  {
+    "id": "h-c2-002",
+    "page": "H",
+    "section": "H3",
+    "micro_skill": "H3.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["cpr", "henderson-v-henderson", "abuse-of-process", "re-litigation"],
+    "question": "The principle in Henderson v Henderson (1843) 3 Hare 100 prevents a party from:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bringing any claim after a criminal trial",
+        "correct": false,
+        "feedback": "Henderson is a civil principle about abuse of process."
+      },
+      {
+        "id": "b",
+        "text": "Raising in subsequent proceedings matters which could and should have been raised in earlier proceedings between the same parties",
+        "correct": true,
+        "feedback": "Correct. Henderson v Henderson abuse of process prohibits re-litigation of issues that could and should have been raised in earlier proceedings — it promotes finality in litigation."
+      },
+      {
+        "id": "c",
+        "text": "Appealing a strike-out decision",
+        "correct": false,
+        "feedback": "Henderson does not prevent appeals."
+      },
+      {
+        "id": "d",
+        "text": "Issuing proceedings without first engaging in ADR",
+        "correct": false,
+        "feedback": "Henderson does not impose a pre-action requirement for ADR."
+      }
+    ],
+    "oscoa_references": ["Henderson v Henderson (1843) 3 Hare 100", "Johnson v Gore Wood & Co [2002] 2 AC 1"]
+  },
+  {
+    "id": "h-c2-003",
+    "page": "H",
+    "section": "H3",
+    "micro_skill": "H3.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["cpr", "relief-from-sanctions", "cpr-39", "denton", "three-stage-test"],
+    "question": "In Denton v TH White Ltd [2014] EWCA Civ 906, the Court of Appeal set out a three-stage test for relief from sanctions under CPR 3.9:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Costs → prejudice → merits",
+        "correct": false,
+        "feedback": "This is not the Denton test."
+      },
+      {
+        "id": "b",
+        "text": "Seriousness/significance of breach → reason for the breach → all the circumstances of the case",
+        "correct": true,
+        "feedback": "Correct. The Denton three-stage test: (1) identify and assess the seriousness of the breach, (2) consider the reason for the breach, (3) evaluate all the circumstances including the need for litigation to be conducted efficiently and at proportionate cost."
+      },
+      {
+        "id": "c",
+        "text": "Prejudice → delay → public interest",
+        "correct": false,
+        "feedback": "This is not the Denton test."
+      },
+      {
+        "id": "d",
+        "text": "Fault → damage → causation",
+        "correct": false,
+        "feedback": "This draws from tort law, not the Denton relief from sanctions test."
+      }
+    ],
+    "oscoa_references": ["Denton v TH White Ltd [2014] EWCA Civ 906", "CPR 3.9"]
+  },
+  {
+    "id": "h-c2-004",
+    "page": "H",
+    "section": "H3",
+    "micro_skill": "H3.2",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["cpr-24", "summary-judgment", "swain-v-hillman", "realistic-prospect"],
+    "question": "In Swain v Hillman [2001] 1 All ER 91, the Court of Appeal held that for summary judgment, 'no real prospect of success' means:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The claim must be certain to succeed",
+        "correct": false,
+        "feedback": "The threshold is not certainty — it is 'realistic' — higher than 'fanciful' but lower than 'certain'."
+      },
+      {
+        "id": "b",
+        "text": "The prospect must be 'realistic' — not fanciful",
+        "correct": true,
+        "feedback": "Correct. Lord Woolf stated that 'real' means realistic as opposed to fanciful — a claim or defence with a realistic prospect of success should go to trial."
+      },
+      {
+        "id": "c",
+        "text": "Any theoretical possibility of success prevents summary judgment",
+        "correct": false,
+        "feedback": "A purely theoretical or fanciful prospect is insufficient."
+      },
+      {
+        "id": "d",
+        "text": "Summary judgment is only available for claims under £25,000",
+        "correct": false,
+        "feedback": "There is no monetary limit on summary judgment applications."
+      }
+    ],
+    "oscoa_references": ["Swain v Hillman [2001] 1 All ER 91", "CPR 24.2"]
+  },
+  {
+    "id": "h-c2-005",
+    "page": "H",
+    "section": "H3",
+    "micro_skill": "H3.2",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["cpr-24", "summary-judgment", "easyair", "short-point-of-law"],
+    "question": "In Easyair Ltd v Opal Telecom Ltd [2009] EWHC 339 (Ch), the court held that summary judgment:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Can never be granted where the issues are complex",
+        "correct": false,
+        "feedback": "The case held that summary judgment can be appropriate even on complex issues."
+      },
+      {
+        "id": "b",
+        "text": "May be granted even on complex issues if there is a short point of law that is determinative — complexity alone does not prevent summary judgment",
+        "correct": true,
+        "feedback": "Correct. Lewison J held that if there is a short, self-contained point of law that disposes of the case, summary judgment is appropriate regardless of factual complexity."
+      },
+      {
+        "id": "c",
+        "text": "Is only available for breach of contract claims",
+        "correct": false,
+        "feedback": "Summary judgment is available for any type of claim or issue."
+      },
+      {
+        "id": "d",
+        "text": "Must be preceded by a Part 36 offer",
+        "correct": false,
+        "feedback": "There is no requirement for a Part 36 offer before seeking summary judgment."
+      }
+    ],
+    "oscoa_references": ["Easyair Ltd v Opal Telecom Ltd [2009] EWHC 339 (Ch)", "CPR 24"]
+  },
+  {
+    "id": "h-c2-006",
+    "page": "H",
+    "section": "H4",
+    "micro_skill": "H4.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["privilege", "legal-advice", "three-rivers-no-6", "client-definition"],
+    "question": "In Three Rivers District Council v Bank of England (No 6) [2004] UKHL 48, the House of Lords held that for legal advice privilege purposes, 'the client' is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "All employees of the corporate entity",
+        "correct": false,
+        "feedback": "The House of Lords rejected this broad definition."
+      },
+      {
+        "id": "b",
+        "text": "Only those employees specifically authorised to seek and receive legal advice on behalf of the corporate client — not all employees",
+        "correct": true,
+        "feedback": "Correct. Three Rivers (No 6) narrowly defined 'the client' for LAP purposes as only those individuals authorised to instruct lawyers and receive legal advice on behalf of the organisation."
+      },
+      {
+        "id": "c",
+        "text": "The board of directors only",
+        "correct": false,
+        "feedback": "It may include employees below board level who are authorised to seek advice."
+      },
+      {
+        "id": "d",
+        "text": "Any person who communicates with lawyers",
+        "correct": false,
+        "feedback": "This is too broad — the communication must be by an authorised representative of the client."
+      }
+    ],
+    "oscoa_references": ["Three Rivers District Council v Governor and Company of the Bank of England (No 6) [2004] UKHL 48"]
+  },
+  {
+    "id": "h-c2-007",
+    "page": "H",
+    "section": "H4",
+    "micro_skill": "H4.1",
+    "crown_level": 2,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["privilege", "in-house-lawyer", "akzo-nobel", "uk-position", "post-brexit"],
+    "question": "'Under UK law post-Brexit, communications with in-house lawyers for legal advice purposes do not attract legal advice privilege.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": false,
+        "feedback": "This is incorrect — UK law provides stronger protection for in-house lawyers than EU law."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": true,
+        "feedback": "Correct. The UK position (post-Brexit) is that in-house lawyers' communications for legal advice purposes do attract legal advice privilege — unlike the CJEU position in Akzo Nobel which limited LAP for in-house lawyers in EU competition proceedings."
+      }
+    ],
+    "oscoa_references": ["Akzo Nobel Chemicals Ltd v European Commission Case C-550/07 P"]
+  },
+  {
+    "id": "h-c2-008",
+    "page": "H",
+    "section": "H4",
+    "micro_skill": "H4.2",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["privilege", "litigation-privilege", "waugh", "dominant-purpose", "dual-purpose"],
+    "question": "In Waugh v British Railways Board [1980] AC 521, the House of Lords established that for litigation privilege, the document must be prepared for the:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sole purpose of litigation",
+        "correct": false,
+        "feedback": "The House of Lords rejected the 'sole purpose' test in Waugh."
+      },
+      {
+        "id": "b",
+        "text": "Dominant purpose of existing or reasonably contemplated litigation — a dual-purpose document may still be privileged if litigation is the dominant purpose",
+        "correct": true,
+        "feedback": "Correct. The House of Lords adopted the 'dominant purpose' test — if litigation is the dominant (not sole) purpose, the document is privileged even if it serves a secondary purpose."
+      },
+      {
+        "id": "c",
+        "text": "Any purpose connected to litigation, however minor",
+        "correct": false,
+        "feedback": "The purpose must be dominant, not merely incidental."
+      },
+      {
+        "id": "d",
+        "text": "The instruction of counsel",
+        "correct": false,
+        "feedback": "The test relates to the purpose of the communication, not the identity of the recipient."
+      }
+    ],
+    "oscoa_references": ["Waugh v British Railways Board [1980] AC 521"]
+  },
+  {
+    "id": "h-c2-009",
+    "page": "H",
+    "section": "H4",
+    "micro_skill": "H4.2",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["privilege", "litigation", "enrc", "criminal-contemplated", "internal-investigation"],
+    "question": "The SFO v ENRC [2018] decision was significant for corporate internal investigations because it held that:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Internal investigation documents are never privileged",
+        "correct": false,
+        "feedback": "The Court of Appeal held the opposite — privilege can apply."
+      },
+      {
+        "id": "b",
+        "text": "Litigation privilege can attach to internal investigation documents where criminal proceedings are reasonably contemplated (not just a possibility) and the documents are prepared for the dominant purpose of defending those proceedings",
+        "correct": true,
+        "feedback": "Correct. The Court of Appeal reversed the High Court and held that documents created during an internal investigation for the dominant purpose of resisting contemplated criminal proceedings attract litigation privilege."
+      },
+      {
+        "id": "c",
+        "text": "Only documents created by external lawyers can be privileged",
+        "correct": false,
+        "feedback": "The Court recognised that documents created at the direction of lawyers can also be privileged."
+      },
+      {
+        "id": "d",
+        "text": "Privilege is automatically waived when the company self-reports",
+        "correct": false,
+        "feedback": "Self-reporting does not automatically waive privilege — limited waiver is possible."
+      }
+    ],
+    "oscoa_references": ["SFO v Eurasian Natural Resources Corporation Ltd [2018] EWCA Civ 2006"]
+  },
+  {
+    "id": "h-c2-010",
+    "page": "H",
+    "section": "H4",
+    "micro_skill": "H4.3",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["privilege", "crime-fraud-exception", "r-v-cox-and-railton", "in-furtherance"],
+    "question": "Under R v Cox & Railton (1884) 14 QBD 153, the crime/fraud exception to privilege means that:",
+    "options": [
+      {
+        "id": "a",
+        "text": "A client who has been convicted of any crime loses all privilege",
+        "correct": false,
+        "feedback": "The exception is narrower — it relates to the purpose of the communication, not the client's status."
+      },
+      {
+        "id": "b",
+        "text": "Communications between lawyer and client made in furtherance of crime or fraud are not privileged — privilege does not protect communications that advance a criminal purpose",
+        "correct": true,
+        "feedback": "Correct. The crime/fraud exception removes privilege where the lawyer-client communication is itself in furtherance of a criminal or fraudulent purpose."
+      },
+      {
+        "id": "c",
+        "text": "A lawyer who suspects their client of a crime must report all communications",
+        "correct": false,
+        "feedback": "Suspicion alone does not trigger the exception — the communication must be in furtherance of the crime."
+      },
+      {
+        "id": "d",
+        "text": "Privilege is automatically lost in all money laundering cases",
+        "correct": false,
+        "feedback": "The application is fact-specific, not automatic by case type."
+      }
+    ],
+    "oscoa_references": ["R v Cox & Railton (1884) 14 QBD 153", "Kuwait Airways Corp v Iraqi Airways Co [2005] EWCA Civ 286"]
+  },
+  {
+    "id": "h-c2-011",
+    "page": "H",
+    "section": "H4",
+    "micro_skill": "H4.3",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["privilege", "waiver", "dpa", "limited-waiver", "confidentiality-agreement"],
+    "question": "What is the best practice for sharing privileged material with a prosecutor during DPA negotiations?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Disclose all privileged material without restriction, as full transparency is required",
+        "correct": false,
+        "feedback": "Full unrestricted disclosure may waive privilege entirely."
+      },
+      {
+        "id": "b",
+        "text": "Share material under a limited waiver via confidentiality agreement, specifying that the material is disclosed 'for the purpose of DPA negotiation only' and does not waive privilege against third parties",
+        "correct": true,
+        "feedback": "Correct. A limited waiver via a carefully drafted confidentiality agreement preserves privilege vis-à-vis third parties while enabling productive negotiations with the prosecutor."
+      },
+      {
+        "id": "c",
+        "text": "Refuse to share any privileged material under any circumstances",
+        "correct": false,
+        "feedback": "The prosecutor may require some disclosure to assess cooperation — total refusal may undermine the DPA process."
+      },
+      {
+        "id": "d",
+        "text": "Publish all privileged material on the company website",
+        "correct": false,
+        "feedback": "This would constitute the broadest possible waiver of privilege."
+      }
+    ],
+    "oscoa_references": ["SFO v Eurasian Natural Resources Corporation Ltd [2018] EWCA Civ 2006"]
+  },
+  {
+    "id": "h-c2-012",
+    "page": "H",
+    "section": "H4",
+    "micro_skill": "H4.3",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["privilege", "cpr-3120", "inadvertent-disclosure", "privilege-assertion"],
+    "question": "Under CPR 31.20, if a party inadvertently allows a privileged document to be inspected, the receiving party:",
+    "options": [
+      {
+        "id": "a",
+        "text": "May use the document freely — privilege has been lost",
+        "correct": false,
+        "feedback": "CPR 31.20 restricts the use of inadvertently disclosed privileged material."
+      },
+      {
+        "id": "b",
+        "text": "May only use the document with the permission of the court",
+        "correct": true,
+        "feedback": "Correct. CPR 31.20 provides that a party who inadvertently allows a privileged document to be inspected may only rely on it with the court's permission — the privilege is not automatically lost."
+      },
+      {
+        "id": "c",
+        "text": "Must return the document immediately without reading it",
+        "correct": false,
+        "feedback": "The rule addresses use of the document, not an obligation to return unread material."
+      },
+      {
+        "id": "d",
+        "text": "May use the document anywhere except in the current proceedings",
+        "correct": false,
+        "feedback": "The restriction applies to use of the document generally, not just in current proceedings."
+      }
+    ],
+    "oscoa_references": ["CPR 31.20"]
+  },
+  {
+    "id": "h-c2-013",
+    "page": "H",
+    "section": "H5",
+    "micro_skill": "H5.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["without-prejudice", "settlement-negotiation", "unilever", "genuine-attempt"],
+    "question": "In Unilever plc v The Procter & Gamble Co [2000] 1 WLR 2436, the court held that 'without prejudice' privilege applies only where:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The words 'without prejudice' appear at the top of the communication",
+        "correct": false,
+        "feedback": "The label alone is insufficient — the court assesses the substance."
+      },
+      {
+        "id": "b",
+        "text": "The communication is a genuine attempt to negotiate settlement of an existing dispute",
+        "correct": true,
+        "feedback": "Correct. The communication must be part of a genuine attempt to settle an existing dispute — not merely labeled 'without prejudice'."
+      },
+      {
+        "id": "c",
+        "text": "The communication was made after proceedings were issued",
+        "correct": false,
+        "feedback": "WP privilege can attach to pre-action communications as well."
+      },
+      {
+        "id": "d",
+        "text": "Both parties have agreed in writing to treat communications as WP",
+        "correct": false,
+        "feedback": "A mutual agreement is not required — a unilateral offer can be WP."
+      }
+    ],
+    "oscoa_references": ["Unilever plc v The Procter & Gamble Co [2000] 1 WLR 2436"]
+  },
+  {
+    "id": "h-c2-014",
+    "page": "H",
+    "section": "H5",
+    "micro_skill": "H5.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["without-prejudice", "bradford-bingley", "acknowledgment-of-debt", "not-wp"],
+    "question": "In Bradford & Bingley plc v Rashid [2006] UKHL 37, the House of Lords held that an acknowledgment of debt:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Is always without prejudice",
+        "correct": false,
+        "feedback": "The House of Lords rejected this proposition."
+      },
+      {
+        "id": "b",
+        "text": "Is not 'without prejudice' merely because labeled as such — a bare acknowledgment of a debt is not a negotiation aimed at settlement and is admissible",
+        "correct": true,
+        "feedback": "Correct. The House of Lords held that a simple acknowledgment of a debt, even if labeled 'without prejudice,' does not attract the privilege because it is not part of a genuine settlement negotiation."
+      },
+      {
+        "id": "c",
+        "text": "Can only be made 'without prejudice save as to costs'",
+        "correct": false,
+        "feedback": "An acknowledgment of debt is typically not within the WP protection at all."
+      },
+      {
+        "id": "d",
+        "text": "Is protected if the parties have a prior course of dealing",
+        "correct": false,
+        "feedback": "Prior dealings do not convert a bare acknowledgment into a settlement communication."
+      }
+    ],
+    "oscoa_references": ["Bradford & Bingley plc v Rashid [2006] UKHL 37"]
+  },
+  {
+    "id": "h-c2-015",
+    "page": "H",
+    "section": "H5",
+    "micro_skill": "H5.2",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["without-prejudice", "unambiguous-impropriety", "ferster", "perjury"],
+    "question": "In Ferster v Ferster [2016] EWCA Civ 717, the without prejudice privilege was lost because:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The communication was not marked 'without prejudice'",
+        "correct": false,
+        "feedback": "The label was not the determinative issue."
+      },
+      {
+        "id": "b",
+        "text": "The communication contained 'unambiguous impropriety' — specifically, threats, perjury, or blackmail that took it outside the protection of WP privilege",
+        "correct": true,
+        "feedback": "Correct. The court found that WP communications were tainted by unambiguous impropriety — including perjury and blackmail — and were thus admissible."
+      },
+      {
+        "id": "c",
+        "text": "The communication was sent by email rather than letter",
+        "correct": false,
+        "feedback": "The form of communication is not determinative."
+      },
+      {
+        "id": "d",
+        "text": "The communication was copied to a third party",
+        "correct": false,
+        "feedback": "Copying to a third party might affect privilege, but the basis here was impropriety."
+      }
+    ],
+    "oscoa_references": ["Ferster v Ferster [2016] EWCA Civ 717", "Unilever plc v The Procter & Gamble Co [2000] 1 WLR 2436"]
+  },
+  {
+    "id": "h-c3-001",
+    "page": "H",
+    "section": "H6",
+    "micro_skill": "H6.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["cpr-part-36", "claimant-offer", "costs-consequences", "indemnity-basis"],
+    "question": "If a claimant makes a Part 36 offer and the judgment is at least as advantageous as the offer, what are the cost consequences under CPR 36.17?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No cost consequences — Part 36 only affects liability",
+        "correct": false,
+        "feedback": "Part 36 has significant cost consequences."
+      },
+      {
+        "id": "b",
+        "text": "The defendant pays costs on the indemnity basis from expiry of the relevant period, enhanced interest on damages (up to 10% above base rate), and an additional sum (up to £75,000)",
+        "correct": true,
+        "feedback": "Correct. The Part 36 cost consequences are designed to create significant pressure on the offeree to accept a reasonable offer."
+      },
+      {
+        "id": "c",
+        "text": "The defendant pays costs on the standard basis only",
+        "correct": false,
+        "feedback": "Indemnity costs, enhanced interest, and the additional sum are all additional consequences."
+      },
+      {
+        "id": "d",
+        "text": "The defendant's liability is capped at the offer amount",
+        "correct": false,
+        "feedback": "Part 36 does not cap liability — the consequences are in costs and interest."
+      }
+    ],
+    "oscoa_references": ["CPR 36.17"]
+  },
+  {
+    "id": "h-c3-002",
+    "page": "H",
+    "section": "H6",
+    "micro_skill": "H6.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["cpr-part-36", "defendant-offer", "costs-risk", "claimant"],
+    "question": "What is the tactical advantage for a defendant making an early Part 36 offer?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It guarantees the defendant will pay no more than the offer amount",
+        "correct": false,
+        "feedback": "The court may still award more than the offer amount."
+      },
+      {
+        "id": "b",
+        "text": "It caps the defendant's cost exposure and shifts the ongoing cost risk to the claimant — if the claimant fails to beat the offer at trial, the claimant pays the defendant's costs from the expiry of the relevant period",
+        "correct": true,
+        "feedback": "Correct. A Part 36 offer by the defendant creates a cost-sword — the claimant who rejects a reasonable offer and fails to beat it at trial faces adverse cost consequences."
+      },
+      {
+        "id": "c",
+        "text": "It automatically stays the proceedings",
+        "correct": false,
+        "feedback": "A Part 36 offer does not stay proceedings."
+      },
+      {
+        "id": "d",
+        "text": "It prevents the claimant from seeking summary judgment",
+        "correct": false,
+        "feedback": "Part 36 does not affect other procedural remedies."
+      }
+    ],
+    "oscoa_references": ["CPR Part 36"]
+  },
+  {
+    "id": "h-c3-003",
+    "page": "H",
+    "section": "H6",
+    "micro_skill": "H6.2",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["calderbank", "calderbank-v-calderbank", "costs-discretion", "cpr-44"],
+    "question": "A Calderbank offer (Calderbank v Calderbank [1976] Fam 93) differs from a Part 36 offer because:",
+    "options": [
+      {
+        "id": "a",
+        "text": "It has no effect on costs whatsoever",
+        "correct": false,
+        "feedback": "Calderbank offers influence costs through the court's discretion."
+      },
+      {
+        "id": "b",
+        "text": "It does not trigger the mandatory cost consequences of Part 36, but the court may consider it when exercising its costs discretion under CPR 44.2",
+        "correct": true,
+        "feedback": "Correct. A Calderbank offer has no statutory cost consequences but remains relevant to the court's general costs discretion — useful where Part 36 is technically inapplicable."
+      },
+      {
+        "id": "c",
+        "text": "It can only be made after proceedings are commenced",
+        "correct": false,
+        "feedback": "Calderbank offers can be made at any time, like WP communications."
+      },
+      {
+        "id": "d",
+        "text": "It attracts the same cost consequences as Part 36",
+        "correct": false,
+        "feedback": "Calderbank offers do not attract the statutory Part 36 consequences."
+      }
+    ],
+    "oscoa_references": ["Calderbank v Calderbank [1976] Fam 93", "CPR 44.2"]
+  },
+  {
+    "id": "h-c3-004",
+    "page": "H",
+    "section": "H7",
+    "micro_skill": "H7.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["cpr-part-11", "jurisdiction", "acknowledgment-of-service", "waiver"],
+    "question": "Under CPR Part 11, a defendant who wishes to challenge jurisdiction must:",
+    "options": [
+      {
+        "id": "a",
+        "text": "File a defence first, then challenge jurisdiction",
+        "correct": false,
+        "feedback": "Filing a defence before challenging jurisdiction waives the challenge."
+      },
+      {
+        "id": "b",
+        "text": "File an acknowledgment of service and then apply to dispute jurisdiction within 14 days — any step in the proceedings before the application waives the right to challenge",
+        "correct": true,
+        "feedback": "Correct. CPR 11 imposes a strict timetable — the application must be made within 14 days of acknowledgment of service, and no other step (including filing a defence) may be taken first."
+      },
+      {
+        "id": "c",
+        "text": "Challenge jurisdiction at any time before trial",
+        "correct": false,
+        "feedback": "The challenge must be made promptly under CPR 11 — delay may be treated as submission."
+      },
+      {
+        "id": "d",
+        "text": "File a counterclaim before challenging jurisdiction",
+        "correct": false,
+        "feedback": "Filing a counterclaim would constitute submission to the jurisdiction."
+      }
+    ],
+    "oscoa_references": ["CPR Part 11", "Hoddinott v Persimmon Homes (Wessex) Ltd [2007] EWCA Civ 1203"]
+  },
+  {
+    "id": "h-c3-005",
+    "page": "H",
+    "section": "H7",
+    "micro_skill": "H7.2",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["forum-non-conveniens", "spiliada", "two-stage-test", "natural-forum"],
+    "question": "The Spiliada test (Spiliada Maritime Corp v Cansulex Ltd [1987] AC 460) for forum non conveniens involves two stages. At Stage 1, the court asks:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Is the defendant a UK resident?",
+        "correct": false,
+        "feedback": "Residence is a factor but not the Stage 1 question."
+      },
+      {
+        "id": "b",
+        "text": "Is there another available forum which is clearly and distinctly more appropriate than England (the natural forum)?",
+        "correct": true,
+        "feedback": "Correct. Stage 1 asks whether there is a more appropriate forum (the 'natural forum') — considering factors such as location of witnesses, evidence, applicable law, and connections to each jurisdiction."
+      },
+      {
+        "id": "c",
+        "text": "Has the claimant already commenced proceedings elsewhere?",
+        "correct": false,
+        "feedback": "This is relevant but not the formal Spiliada Stage 1 question."
+      },
+      {
+        "id": "d",
+        "text": "Is the claim valued at over £100,000?",
+        "correct": false,
+        "feedback": "The value of the claim is not a Spiliada factor."
+      }
+    ],
+    "oscoa_references": ["Spiliada Maritime Corp v Cansulex Ltd [1987] AC 460"]
+  },
+  {
+    "id": "h-c3-006",
+    "page": "H",
+    "section": "H7",
+    "micro_skill": "H7.2",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["forum-non-conveniens", "vedanta", "parent-company", "uk-forum"],
+    "question": "In Lungowe v Vedanta Resources plc [2019] UKSC 20, the Supreme Court allowed a claim against a UK parent company for the acts of its Zambian subsidiary because:",
+    "options": [
+      {
+        "id": "a",
+        "text": "All claims against parent companies must be heard in England",
+        "correct": false,
+        "feedback": "This is not an absolute rule."
+      },
+      {
+        "id": "b",
+        "text": "There was a real risk that the claimants would not obtain substantial justice in Zambia (due to funding and legal representation barriers), and England was the appropriate forum — the parent company was properly sued in its home jurisdiction",
+        "correct": true,
+        "feedback": "Correct. The Supreme Court held that if the foreign forum cannot deliver substantial justice (due to lack of funding, inability to obtain representation, or other barriers), the UK court may retain jurisdiction."
+      },
+      {
+        "id": "c",
+        "text": "The claim could only be brought against the parent, not the subsidiary",
+        "correct": false,
+        "feedback": "Both entities could be sued — the issue was the proper forum."
+      },
+      {
+        "id": "d",
+        "text": "The damage occurred exclusively in England",
+        "correct": false,
+        "feedback": "The damage occurred in Zambia — the question was whether justice required a UK forum."
+      }
+    ],
+    "oscoa_references": ["Lungowe v Vedanta Resources plc [2019] UKSC 20"]
+  },
+  {
+    "id": "h-c3-007",
+    "page": "H",
+    "section": "H7",
+    "micro_skill": "H7.3",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["anti-suit-injunction", "ust-kamenogorsk", "arbitration-agreement", "breach"],
+    "question": "In Ust-Kamenogorsk Hydropower Plant JSC v AES [2013] UKSC 35, the Supreme Court held that an anti-suit injunction:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Can only be granted after arbitration has commenced",
+        "correct": false,
+        "feedback": "The Supreme Court held that arbitration does not need to be pending."
+      },
+      {
+        "id": "b",
+        "text": "May be granted to restrain proceedings brought in breach of an arbitration agreement, even where no arbitration is pending or contemplated",
+        "correct": true,
+        "feedback": "Correct. The Supreme Court held that the court's power to grant an anti-suit injunction to protect an arbitration agreement exists independently of whether arbitration is underway."
+      },
+      {
+        "id": "c",
+        "text": "Is only available against parties to the arbitration",
+        "correct": false,
+        "feedback": "Anti-suit injunctions can extend to non-parties in appropriate cases."
+      },
+      {
+        "id": "d",
+        "text": "Is no longer available post-Brexit against any jurisdiction",
+        "correct": false,
+        "feedback": "Anti-suit injunctions remain available against non-EU jurisdictions; they are precluded only against EU member state courts post-Brexit."
+      }
+    ],
+    "oscoa_references": ["Ust-Kamenogorsk Hydropower Plant JSC v AES Ust-Kamenogorsk Hydropower Plant LLP [2013] UKSC 35"]
+  },
+  {
+    "id": "h-c3-008",
+    "page": "H",
+    "section": "H7",
+    "micro_skill": "H7.3",
+    "crown_level": 3,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["anti-suit-injunction", "post-brexit", "eu-member-states", "brussels-recast"],
+    "question": "'Post-Brexit, anti-suit injunctions are no longer available to restrain proceedings in EU member state courts.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. The Brussels Recast Regulation is not retained EU law, and the UK courts can no longer grant anti-suit injunctions against proceedings in EU member state courts. This is a significant limitation post-Brexit."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "This is correct — the loss of anti-suit injunctions against EU member states is one of the key jurisdictional consequences of Brexit."
+      }
+    ],
+    "oscoa_references": ["Ust-Kamenogorsk Hydropower Plant JSC v AES [2013] UKSC 35"]
+  },
+  {
+    "id": "h-c4-001",
+    "page": "H",
+    "section": "H8",
+    "micro_skill": "H8.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["arbitration", "section-9", "stay", "mandatory", "arbitration-act-1996"],
+    "question": "Under s.9 Arbitration Act 1996, a court must grant a stay of proceedings where:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The defendant requests a stay, regardless of whether an arbitration agreement exists",
+        "correct": false,
+        "feedback": "A valid arbitration agreement is a prerequisite."
+      },
+      {
+        "id": "b",
+        "text": "There is a valid arbitration agreement covering the dispute, unless the agreement is null and void, inoperative, or incapable of being performed",
+        "correct": true,
+        "feedback": "Correct. S.9(4) provides that the court must grant a stay where an arbitration agreement covers the dispute, subject only to the specified exceptions."
+      },
+      {
+        "id": "c",
+        "text": "The court in its discretion considers arbitration more appropriate",
+        "correct": false,
+        "feedback": "The stay is mandatory (not discretionary) if the s.9 conditions are met."
+      },
+      {
+        "id": "d",
+        "text": "Both parties consent to the stay after proceedings have commenced",
+        "correct": false,
+        "feedback": "A stay under s.9 does not require the claimant's consent."
+      }
+    ],
+    "oscoa_references": ["Arbitration Act 1996, s.9"]
+  },
+  {
+    "id": "h-c4-002",
+    "page": "H",
+    "section": "H8",
+    "micro_skill": "H8.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["arbitration", "fiona-trust", "separability", "pro-arbitration", "presumption"],
+    "question": "In Fiona Trust & Holding Corp v Privalov [2007] UKHL 40, the House of Lords confirmed the strong pro-arbitration presumption by holding that:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Arbitration agreements are void if the main contract is void",
+        "correct": false,
+        "feedback": "This contradicts the separability principle confirmed in Fiona Trust."
+      },
+      {
+        "id": "b",
+        "text": "The arbitration agreement is separable from the main contract and survives even if the main contract is alleged to be void — challenges to the validity of the contract are to be determined by the arbitrators",
+        "correct": true,
+        "feedback": "Correct. The House of Lords applied the principle of separability and a strong pro-arbitration presumption that parties intend disputes to be resolved by their chosen tribunal."
+      },
+      {
+        "id": "c",
+        "text": "Arbitration agreements must be expressly signed by both parties",
+        "correct": false,
+        "feedback": "Fiona Trust did not impose a separate signature requirement."
+      },
+      {
+        "id": "d",
+        "text": "Only commercial disputes can be arbitrated",
+        "correct": false,
+        "feedback": "The scope of arbitration is not restricted to commercial disputes."
+      }
+    ],
+    "oscoa_references": ["Fiona Trust & Holding Corp v Privalov [2007] UKHL 40", "Arbitration Act 1996, s.9"]
+  },
+  {
+    "id": "h-c4-003",
+    "page": "H",
+    "section": "H8",
+    "micro_skill": "H8.2",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["arbitration", "section-69", "appeal", "point-of-law", "obviously-wrong"],
+    "question": "For a s.69 Arbitration Act 1996 appeal on a point of law to succeed, the court must be satisfied that:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The arbitral award is unfair",
+        "correct": false,
+        "feedback": "Unfairness alone is not a ground under s.69."
+      },
+      {
+        "id": "b",
+        "text": "The decision is 'obviously wrong' or the question is of 'general public importance' and the decision is at least 'open to serious doubt'",
+        "correct": true,
+        "feedback": "Correct. The s.69 threshold is deliberately high — finality in arbitration is the default position. The 'obviously wrong' standard is very difficult to satisfy."
+      },
+      {
+        "id": "c",
+        "text": "The claimant has obtained permission from the other party",
+        "correct": false,
+        "feedback": "Permission may come from the court or the parties' agreement, not solely the other party."
+      },
+      {
+        "id": "d",
+        "text": "The amount in dispute exceeds £100,000",
+        "correct": false,
+        "feedback": "There is no monetary threshold for s.69 appeals."
+      }
+    ],
+    "oscoa_references": ["Arbitration Act 1996, s.69"]
+  },
+  {
+    "id": "h-c4-004",
+    "page": "H",
+    "section": "H8",
+    "micro_skill": "H8.2",
+    "crown_level": 4,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["arbitration", "section-69", "exclusion", "finality", "drafting"],
+    "question": "'Parties can contractually exclude the right to appeal on a point of law under s.69 AA 1996 by including an express exclusion clause in the arbitration agreement.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. S.69 rights can be excluded by the parties' agreement. Including an express exclusion in the arbitration clause ensures finality — a common tactical choice in commercial agreements."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "This is correct — s.69 is a default rule that can be excluded by agreement."
+      }
+    ],
+    "oscoa_references": ["Arbitration Act 1996, s.69"]
+  },
+  {
+    "id": "h-c4-005",
+    "page": "H",
+    "section": "H8",
+    "micro_skill": "H8.3",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["arbitration", "new-york-convention", "enforcement", "section-103", "public-policy"],
+    "question": "Under s.103 Arbitration Act 1996, enforcement of a New York Convention award may be refused on which ground?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The award is unfair to the losing party",
+        "correct": false,
+        "feedback": "Unfairness is not a s.103 ground."
+      },
+      {
+        "id": "b",
+        "text": "Enforcement would be contrary to public policy",
+        "correct": true,
+        "feedback": "Correct. S.103(3) provides that enforcement may be refused where it would be contrary to public policy — a narrow ground which is not merely that the result is harsh."
+      },
+      {
+        "id": "c",
+        "text": "The respondent disagrees with the tribunal's findings of fact",
+        "correct": false,
+        "feedback": "Disagreement with factual findings is not a ground for refusal."
+      },
+      {
+        "id": "d",
+        "text": "The respondent believes the award should have been higher",
+        "correct": false,
+        "feedback": "The quantum of the award is not a ground for challenging enforcement."
+      }
+    ],
+    "oscoa_references": ["Arbitration Act 1996, ss.100-104", "New York Convention 1958"]
+  },
+  {
+    "id": "h-c4-006",
+    "page": "H",
+    "section": "H9",
+    "micro_skill": "H9.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["corporate-veil", "prest-v-petrodel", "concealing", "evasion", "last-resort"],
+    "question": "In Prest v Petrodel Resources Ltd [2013] UKSC 34, the Supreme Court restated the veil piercing doctrine. What is the distinction between 'concealing' and 'evasion'?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Concealing means hiding assets; evasion means tax avoidance",
+        "correct": false,
+        "feedback": "This is not the Prest distinction."
+      },
+      {
+        "id": "b",
+        "text": "Concealing means the corporate structure hides the true actors (no piercing needed — just look behind), while evasion means the company was interposed to defeat an existing legal obligation (veil may be pierced)",
+        "correct": true,
+        "feedback": "Correct. Lord Sumption distinguished: (1) Concealing — the company is used to hide who the real actors are; the court can simply look behind the structure. (2) Evasion — the company is deliberately interposed to frustrate an existing legal duty; piercing may be justified as a remedy of last resort."
+      },
+      {
+        "id": "c",
+        "text": "The distinction no longer exists post-Prest",
+        "correct": false,
+        "feedback": "Lord Sumption expressly drew this distinction."
+      },
+      {
+        "id": "d",
+        "text": "Concealing results in criminal liability; evasion only civil",
+        "correct": false,
+        "feedback": "The distinction is about the court's approach to the corporate veil, not criminal vs civil."
+      }
+    ],
+    "oscoa_references": ["Prest v Petrodel Resources Ltd [2013] UKSC 34", "Salomon v Salomon & Co Ltd [1897] AC 22"]
+  },
+  {
+    "id": "h-c4-007",
+    "page": "H",
+    "section": "H9",
+    "micro_skill": "H9.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["corporate-veil", "prest", "defensive-tactic", "separate-personality", "salomon"],
+    "question": "What defensive measures best protect against a Prest-style veil piercing argument?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Intermingle company and personal assets to make them harder to distinguish",
+        "correct": false,
+        "feedback": "Intermingling assets undermines, rather than strengthens, the separate personality argument."
+      },
+      {
+        "id": "b",
+        "text": "Maintain strict corporate separateness — separate bank accounts, separate management, no intermingling of assets, transparent corporate structure, and avoid any appearance that the company was interposed to evade an existing legal obligation",
+        "correct": true,
+        "feedback": "Correct. The best defence against a veil piercing claim is demonstrable corporate separateness — the very features Salomon v Salomon protects."
+      },
+      {
+        "id": "c",
+        "text": "Use bearer shares to obscure ownership",
+        "correct": false,
+        "feedback": "Opaque ownership structures are more likely to attract veil piercing scrutiny, not less."
+      },
+      {
+        "id": "d",
+        "text": "Never document any corporate decisions",
+        "correct": false,
+        "feedback": "Lack of documentation undermines separateness and strengthens the piercing argument."
+      }
+    ],
+    "oscoa_references": ["Prest v Petrodel Resources Ltd [2013] UKSC 34", "Salomon v Salomon & Co Ltd [1897] AC 22"]
+  },
+  {
+    "id": "h-c4-008",
+    "page": "H",
+    "section": "H10",
+    "micro_skill": "H10.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["trust", "asset-protection", "discretionary-trust", "beneficiaries"],
+    "question": "Why do discretionary trusts offer superior asset protection compared to fixed trusts?",
+    "options": [
+      {
+        "id": "a",
+        "text": "They are tax-exempt",
+        "correct": false,
+        "feedback": "Discretionary trusts are not inherently tax-exempt."
+      },
+      {
+        "id": "b",
+        "text": "Beneficiaries have no enforceable interest until the trustee exercises their discretion — creditors cannot attach a contingent or unvested interest",
+        "correct": true,
+        "feedback": "Correct. Because beneficiaries of a discretionary trust have no right to compel distribution, their creditors cannot reach the trust assets — there is no property interest capable of being attached."
+      },
+      {
+        "id": "c",
+        "text": "They are exempt from the Insolvency Act 1986",
+        "correct": false,
+        "feedback": "Discretionary trusts are still subject to insolvency legislation."
+      },
+      {
+        "id": "d",
+        "text": "The settlor retains control of the assets",
+        "correct": false,
+        "feedback": "Settlor control may undermine the trust's asset protection benefit."
+      }
+    ],
+    "oscoa_references": ["Trustee Act 1925, s.33"]
+  },
+  {
+    "id": "h-c4-009",
+    "page": "H",
+    "section": "H10",
+    "micro_skill": "H10.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["trust", "fraudulent-conveyance", "section-423", "insolvency-act", "creditors"],
+    "question": "Under s.423 Insolvency Act 1986, a transaction defrauding creditors may be set aside if:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The settlor transferred assets at any time before bankruptcy",
+        "correct": false,
+        "feedback": "Timing is one element, but intent is the core requirement."
+      },
+      {
+        "id": "b",
+        "text": "The purpose of the transaction was to put assets beyond the reach of a person who is making or may make a claim — the concept of 'probable creditors' is broader than 'existing creditors'",
+        "correct": true,
+        "feedback": "Correct. S.423 applies where the purpose was to defeat creditors — 'probable' creditors are covered, which is a broader category than 'existing' creditors."
+      },
+      {
+        "id": "c",
+        "text": "The trust was established in an offshore jurisdiction",
+        "correct": false,
+        "feedback": "The location of the trust is relevant but not determinative under s.423."
+      },
+      {
+        "id": "d",
+        "text": "The settlor was solvent at the time of the transfer",
+        "correct": false,
+        "feedback": "Solvency at the time of transfer does not immunise the transaction from s.423 if the purpose was to defraud creditors."
+      }
+    ],
+    "oscoa_references": ["Insolvency Act 1986, s.423"]
+  },
+  {
+    "id": "h-c4-010",
+    "page": "H",
+    "section": "H10",
+    "micro_skill": "H10.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["trust", "offshore", "cook-islands", "creditor-challenge", "limitation"],
+    "question": "Offshore asset protection trusts (e.g., Cook Islands, Nevis) are attractive for asset protection because:",
+    "options": [
+      {
+        "id": "a",
+        "text": "They are exempt from all UK insolvency legislation",
+        "correct": false,
+        "feedback": "UK insolvency legislation may still apply extraterritorially in some cases."
+      },
+      {
+        "id": "b",
+        "text": "They typically have short limitation periods for creditor challenges (1-2 years), higher burdens of proof (beyond reasonable doubt in some jurisdictions), and the settlor's bankruptcy may not trigger automatic vesting of trust assets",
+        "correct": true,
+        "feedback": "Correct. Offshore trust jurisdictions like the Cook Islands and Nevis are designed to make creditor challenges very difficult — short limitation, heavy burdens, and friendly domestic laws."
+      },
+      {
+        "id": "c",
+        "text": "UK courts have no jurisdiction over offshore trusts",
+        "correct": false,
+        "feedback": "UK courts may assert jurisdiction where there is a sufficient connection."
+      },
+      {
+        "id": "d",
+        "text": "Assets held in offshore trusts are automatically exempt from disclosure",
+        "correct": false,
+        "feedback": "Offshore trusts are not automatically exempt from disclosure obligations."
+      }
+    ],
+    "oscoa_references": ["Insolvency Act 1986, s.423", "Insolvency Act 1986, ss.339-340"]
+  },
+  {
+    "id": "h-c4-011",
+    "page": "H",
+    "section": "H11",
+    "micro_skill": "H11.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["pre-nuptial", "radmacher", "enforceability", "unfair-to-hold"],
+    "question": "In Radmacher v Granatino [2010] UKSC 42, the Supreme Court held that pre-nuptial agreements:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Are strictly binding contracts enforceable as a matter of law",
+        "correct": false,
+        "feedback": "The Supreme Court stopped short of declaring them binding — the court retains discretion."
+      },
+      {
+        "id": "b",
+        "text": "Are not strictly binding, but the court should give effect to a freely entered agreement unless it would be unfair to hold the parties to it",
+        "correct": true,
+        "feedback": "Correct. The court should give 'decisive weight' to a pre-nup freely entered into with full appreciation of its implications, unless circumstances make it unfair."
+      },
+      {
+        "id": "c",
+        "text": "Are void as contrary to public policy",
+        "correct": false,
+        "feedback": "The Supreme Court expressly rejected the old view that pre-nups are void."
+      },
+      {
+        "id": "d",
+        "text": "Can only be enforced if the marriage lasts less than 5 years",
+        "correct": false,
+        "feedback": "The duration of the marriage is a factor, but there is no automatic rule."
+      }
+    ],
+    "oscoa_references": ["Radmacher v Granatino [2010] UKSC 42"]
+  },
+  {
+    "id": "h-c4-012",
+    "page": "H",
+    "section": "H11",
+    "micro_skill": "H11.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["pre-nuptial", "radmacher", "safeguards", "independent-legal-advice", "disclosure"],
+    "question": "What safeguards maximise the likelihood a pre-nup will be given effect under Radmacher?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The agreement must be signed on the wedding day",
+        "correct": false,
+        "feedback": "Signing on the wedding day may suggest duress, not voluntariness."
+      },
+      {
+        "id": "b",
+        "text": "Both parties must have entered freely with full appreciation, full and frank disclosure, independent legal advice for each party, and the agreement should be signed no less than 28 days before the wedding",
+        "correct": true,
+        "feedback": "Correct. These Radmacher safeguards maximise enforceability — the more robust the process, the more likely the court will give the agreement effect."
+      },
+      {
+        "id": "c",
+        "text": "The agreement must be approved by the Family Court before the wedding",
+        "correct": false,
+        "feedback": "There is no pre-approval mechanism in English law."
+      },
+      {
+        "id": "d",
+        "text": "Only the wealthier party needs legal advice",
+        "correct": false,
+        "feedback": "Both parties should receive independent advice — imbalance may undermine the agreement's weight."
+      }
+    ],
+    "oscoa_references": ["Radmacher v Granatino [2010] UKSC 42"]
+  },
+  {
+    "id": "h-c5-001",
+    "page": "H",
+    "section": "H12",
+    "micro_skill": "H12.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["spv", "orphan-structure", "bankruptcy-remote", "insolvency"],
+    "question": "An orphan structure in structured finance achieves bankruptcy remoteness because:",
+    "options": [
+      {
+        "id": "a",
+        "text": "SPV shares are held by a charitable or purpose trust with no economic interest, meaning the SPV is not consolidated on the originator's balance sheet and is insulated from the originator's insolvency",
+        "correct": true,
+        "feedback": "Correct. The orphan SPV's shares are held by a purpose trust — no person has an economic interest in the SPV, and it is not consolidated on any group balance sheet."
+      },
+      {
+        "id": "b",
+        "text": "The SPV is guaranteed by the government",
+        "correct": false,
+        "feedback": "Government guarantees are not a feature of orphan structures."
+      },
+      {
+        "id": "c",
+        "text": "The SPV's assets are held in cash to avoid insolvency",
+        "correct": false,
+        "feedback": "Orphan structures hold the securitised assets, not just cash."
+      },
+      {
+        "id": "d",
+        "text": "SPVs are automatically exempt from insolvency law",
+        "correct": false,
+        "feedback": "SPVs are not exempt from insolvency law — they are structured to minimise the risk."
+      }
+    ],
+    "oscoa_references": ["Economic Crime and Corporate Transparency Act 2023"]
+  },
+  {
+    "id": "h-c5-002",
+    "page": "H",
+    "section": "H12",
+    "micro_skill": "H12.1",
+    "crown_level": 5,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["spv", "substantive-consolidation", "sham", "separate-management"],
+    "question": "'In extreme cases, courts may consolidate the assets of an SPV with those of the originator if the SPV's separate existence is found to be a sham.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. While UK courts are resistant to substantive consolidation (influenced by US jurisprudence), if an SPV is shown to be a mere facade without genuine separate existence — no separate management, bank accounts, or decision-making — consolidation is possible."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "This is correct — though UK courts are reluctant, the risk exists, and due compliance with corporate formalities is the defence."
+      }
+    ],
+    "oscoa_references": ["Prest v Petrodel Resources Ltd [2013] UKSC 34"]
+  },
+  {
+    "id": "h-c5-003",
+    "page": "H",
+    "section": "H12",
+    "micro_skill": "H12.2",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["nominee", "beneficial-ownership", "eccta-2023", "register", "uwo"],
+    "question": "Under the ECCTA 2023, what is the key risk of nominee arrangements?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Nominees are automatically liable for the beneficial owner's debts",
+        "correct": false,
+        "feedback": "Nominees do not assume personal liability for the beneficial owner's debts."
+      },
+      {
+        "id": "b",
+        "text": "The beneficial ownership register requires disclosure — undisclosed nominee arrangements may constitute a criminal offence, and nominee-held assets may attract unexplained wealth orders requiring the beneficial owner to explain the source of wealth",
+        "correct": true,
+        "feedback": "Correct. ECCTA 2023 mandating beneficial ownership transparency means nominee arrangements are increasingly scrutinised — non-disclosure is a criminal offence, and unexplained wealth orders can pierce nominee structures."
+      },
+      {
+        "id": "c",
+        "text": "Nominee arrangements are now illegal in all circumstances",
+        "correct": false,
+        "feedback": "Nominee arrangements remain lawful — disclosure and transparency are the requirements."
+      },
+      {
+        "id": "d",
+        "text": "Nominees can only be licensed trust corporations",
+        "correct": false,
+        "feedback": "Individuals can still act as nominee shareholders/directors."
+      }
+    ],
+    "oscoa_references": ["Economic Crime and Corporate Transparency Act 2023"]
+  },
+  {
+    "id": "h-c5-004",
+    "page": "H",
+    "section": "H13",
+    "micro_skill": "H13.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["drafting", "entire-agreement", "non-reliance", "peekay-intermark", "estoppel"],
+    "question": "A non-reliance clause, as upheld in Peekay Intermark v ANZ [2006] EWCA Civ 386, operates to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Prevent the contract from being terminated for breach",
+        "correct": false,
+        "feedback": "Non-reliance clauses deal with pre-contractual representations, not termination."
+      },
+      {
+        "id": "b",
+        "text": "Create a contractual estoppel preventing a party from claiming they relied on pre-contractual representations — even if those representations were false",
+        "correct": true,
+        "feedback": "Correct. The clause estops a party from asserting reliance on any pre-contractual representations, confining claims to the written terms of the agreement."
+      },
+      {
+        "id": "c",
+        "text": "Automatically render the contract void",
+        "correct": false,
+        "feedback": "Non-reliance clauses preserve, rather than void, the contract."
+      },
+      {
+        "id": "d",
+        "text": "Require a party to seek independent financial advice",
+        "correct": false,
+        "feedback": "This is not the function of a non-reliance clause."
+      }
+    ],
+    "oscoa_references": ["Peekay Intermark v ANZ [2006] EWCA Civ 386"]
+  },
+  {
+    "id": "h-c5-005",
+    "page": "H",
+    "section": "H13",
+    "micro_skill": "H13.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["drafting", "force-majeure", "mac", "material-adverse-change", "grupo-hotelero"],
+    "question": "In Grupo Hotelero Urvasco SA v Carey Value Added SL [2013] EWHC 1039 (Comm), a Material Adverse Change (MAC) clause was:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Construed broadly to allow the lender to withdraw at the first sign of financial difficulty",
+        "correct": false,
+        "feedback": "The court construed the MAC clause narrowly."
+      },
+      {
+        "id": "b",
+        "text": "Narrowly construed — a MAC clause requires a significant and sustained change, not merely a temporary deterioration in financial performance",
+        "correct": true,
+        "feedback": "Correct. The court held that MAC clauses are narrowly construed and require evidence of a material, sustained adverse change — not a short-term fluctuation."
+      },
+      {
+        "id": "c",
+        "text": "Held to be void as a penalty clause",
+        "correct": false,
+        "feedback": "MAC clauses are not penalty clauses — they are conditions precedent or representations."
+      },
+      {
+        "id": "d",
+        "text": "Applied automatically without any requirement to prove the change was material",
+        "correct": false,
+        "feedback": "The party invoking the MAC must prove the change was material."
+      }
+    ],
+    "oscoa_references": ["Grupo Hotelero Urvasco SA v Carey Value Added SL [2013] EWHC 1039 (Comm)"]
+  },
+  {
+    "id": "h-c5-006",
+    "page": "H",
+    "section": "H13",
+    "micro_skill": "H13.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["drafting", "sandbagging", "anti-sandbagging", "warranty-breach", "m-and-a"],
+    "question": "A 'sandbagging' clause in an M&A agreement allows the buyer to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Withhold payment until all warranties are independently verified",
+        "correct": false,
+        "feedback": "This describes a holdback or escrow, not sandbagging."
+      },
+      {
+        "id": "b",
+        "text": "Claim for breach of warranty even if the buyer knew of the breach before closing — an anti-sandbagging clause disclaims this right, protecting the seller",
+        "correct": true,
+        "feedback": "Correct. Sandbagging allows the buyer to claim for warranties they knew were false at closing (pro-buyer). Anti-sandbagging clauses prevent this, meaning the buyer cannot claim if they had pre-closing knowledge."
+      },
+      {
+        "id": "c",
+        "text": "Transfer warranties to a third party without the seller's consent",
+        "correct": false,
+        "feedback": "Sandbagging relates to the buyer's knowledge, not warranty assignment."
+      },
+      {
+        "id": "d",
+        "text": "Reduce the purchase price by the value of any warranty breaches",
+        "correct": false,
+        "feedback": "This describes a price adjustment mechanism, not sandbagging."
+      }
+    ],
+    "oscoa_references": []
+  },
+  {
+    "id": "h-c5-007",
+    "page": "H",
+    "section": "H13",
+    "micro_skill": "H13.2",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["drafting", "no-oral-modification", "mwb-v-rock", "severance", "tillman"],
+    "question": "MWB v Rock Advertising [2018] UKSC 24 confirmed that a 'no oral modification' clause:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Is void as an unlawful fetter on the parties' freedom to contract",
+        "correct": false,
+        "feedback": "The Supreme Court upheld the effectiveness of NOM clauses."
+      },
+      {
+        "id": "b",
+        "text": "Is effective — any modification must be in writing and signed by both parties; oral variations are ineffective even if agreed",
+        "correct": true,
+        "feedback": "Correct. The Supreme Court held that NOM clauses are legally effective and parties cannot orally vary a contract containing a NOM clause."
+      },
+      {
+        "id": "c",
+        "text": "Only applies if the contract value exceeds £100,000",
+        "correct": false,
+        "feedback": "No monetary threshold applies."
+      },
+      {
+        "id": "d",
+        "text": "Can be overridden by the conduct of the parties",
+        "correct": false,
+        "feedback": "The Supreme Court rejected the argument that conduct could override a NOM clause."
+      }
+    ],
+    "oscoa_references": ["MWB Business Exchange Centres Ltd v Rock Advertising Ltd [2018] UKSC 24"]
+  },
+  {
+    "id": "h-c5-008",
+    "page": "H",
+    "section": "H13",
+    "micro_skill": "H13.2",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["drafting", "severance", "tillman", "blue-pencil", "cascading-clauses"],
+    "question": "In Tillman v Egon Zehnder [2019] UKSC 32, the Supreme Court on severance held that:",
+    "options": [
+      {
+        "id": "a",
+        "text": "An entire restrictive covenant is void if any part is unreasonable",
+        "correct": false,
+        "feedback": "The Supreme Court endorsed severance to save valid parts of a covenant."
+      },
+      {
+        "id": "b",
+        "text": "The 'blue pencil' test permits severance of unenforceable words, and the court will sever offending portions of a clause provided the remaining terms are clear and do not require re-writing",
+        "correct": true,
+        "feedback": "Correct. The Supreme Court confirmed the blue pencil test — unenforceable words can be deleted, leaving the remainder enforceable if it is clear and does not require judicial re-drafting."
+      },
+      {
+        "id": "c",
+        "text": "Non-compete clauses cannot be severed under any circumstances",
+        "correct": false,
+        "feedback": "The case itself involved a non-compete clause that was successfully severed."
+      },
+      {
+        "id": "d",
+        "text": "Severance requires the consent of both parties",
+        "correct": false,
+        "feedback": "Severance is a judicial power — it does not require party consent."
+      }
+    ],
+    "oscoa_references": ["Tillman v Egon Zehnder Ltd [2019] UKSC 32"]
+  },
+  {
+    "id": "h-c5-009",
+    "page": "H",
+    "section": "H13",
+    "micro_skill": "H13.2",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["drafting", "governing-law", "jurisdiction", "asymmetric-clause", "lenders"],
+    "question": "An asymmetric jurisdiction clause in favour of a lender typically provides that:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Both parties can only sue in the English courts",
+        "correct": false,
+        "feedback": "This describes a symmetric or exclusive clause — not asymmetric."
+      },
+      {
+        "id": "b",
+        "text": "The lender can sue the borrower in any court of competent jurisdiction, but the borrower can only sue the lender in the English courts — providing maximum flexibility to the lender",
+        "correct": true,
+        "feedback": "Correct. Asymmetric (or one-sided) clauses give the lender optionality while restricting the borrower — a powerful and common drafting tool in finance agreements."
+      },
+      {
+        "id": "c",
+        "text": "The clause is invalid as contrary to the Brussels Recast Regulation",
+        "correct": false,
+        "feedback": "Post-Brexit, the Brussels Recast does not apply, and asymmetric clauses are generally upheld in English law."
+      },
+      {
+        "id": "d",
+        "text": "Arbitration is the mandatory dispute resolution mechanism",
+        "correct": false,
+        "feedback": "An asymmetric jurisdiction clause selects courts, not arbitration."
+      }
+    ],
+    "oscoa_references": []
+  },
+  {
+    "id": "h-c5-010",
+    "page": "H",
+    "section": "H14",
+    "micro_skill": "H14.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["insurance", "pi", "claims-made", "circumstance-notification"],
+    "question": "For a 'claims-made' professional indemnity policy, what is the critical tactical step to preserve coverage?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Wait for the claim to be formally issued before notifying the insurer",
+        "correct": false,
+        "feedback": "Waiting until a claim is formally made risks the policy having expired."
+      },
+      {
+        "id": "b",
+        "text": "Notify the insurer early of 'circumstances that may give rise to a claim' — this preserves coverage even if the actual claim arises after the policy expires",
+        "correct": true,
+        "feedback": "Correct. A circumstance notification locks in coverage at the policy year in which the circumstances arose, protecting against claims made in later years."
+      },
+      {
+        "id": "c",
+        "text": "Cancel the policy to avoid premium increases",
+        "correct": false,
+        "feedback": "Cancelling the policy would extinguish coverage entirely."
+      },
+      {
+        "id": "d",
+        "text": "Notify all potential claimants pre-emptively",
+        "correct": false,
+        "feedback": "Notifying claimants is neither necessary nor advisable — notification to the insurer is the key step."
+      }
+    ],
+    "oscoa_references": ["SRA Minimum Terms and Conditions"]
+  },
+  {
+    "id": "h-c5-011",
+    "page": "H",
+    "section": "H14",
+    "micro_skill": "H14.2",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["insurance", "d-and-o", "side-a", "side-b", "side-c"],
+    "question": "D&O insurance typically has three coverage 'sides.' Side A covers:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Corporate reimbursement for indemnification of directors",
+        "correct": false,
+        "feedback": "This describes Side B coverage."
+      },
+      {
+        "id": "b",
+        "text": "Non-indemnifiable loss — where the company cannot or does not indemnify the director (e.g., insolvency, prohibition), the director is directly covered",
+        "correct": true,
+        "feedback": "Correct. Side A is the 'personal' coverage for directors when the corporate indemnity fails or is unavailable."
+      },
+      {
+        "id": "c",
+        "text": "Entity coverage for securities claims against the company itself",
+        "correct": false,
+        "feedback": "This describes Side C coverage."
+      },
+      {
+        "id": "d",
+        "text": "Coverage for regulatory fines imposed on the company",
+        "correct": false,
+        "feedback": "D&O insurance does not typically cover regulatory fines (public policy)."
+      }
+    ],
+    "oscoa_references": []
+  },
+  {
+    "id": "h-c5-012",
+    "page": "H",
+    "section": "H14",
+    "micro_skill": "H14.3",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["litigation-funding", "dba", "ate-insurance", "third-party-funding"],
+    "question": "Third-party litigation funding typically operates on what financial basis?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The funder pays all costs but cannot recover any share if the case succeeds",
+        "correct": false,
+        "feedback": "The funder's return comes from a share of damages if successful."
+      },
+      {
+        "id": "b",
+        "text": "The funder pays legal costs in return for a share of damages (typically 20-50%), and the arrangement is non-recourse — the funder cannot recover from the claimant if the claim is unsuccessful",
+        "correct": true,
+        "feedback": "Correct. Third-party funding is non-recourse — the funder bears the loss if the case fails, and receives a share of proceeds if it succeeds."
+      },
+      {
+        "id": "c",
+        "text": "The funder pays costs and the claimant repays with interest regardless of the outcome",
+        "correct": false,
+        "feedback": "This describes a loan, not non-recourse litigation funding."
+      },
+      {
+        "id": "d",
+        "text": "The funder only provides expert witness fees",
+        "correct": false,
+        "feedback": "Litigation funding covers a broader scope than just expert fees."
+      }
+    ],
+    "oscoa_references": ["Damages-Based Agreements Regulations 2013"]
+  },
+  {
+    "id": "h-c5-013",
+    "page": "H",
+    "section": "H15",
+    "micro_skill": "H15.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["privilege", "internal-investigation", "three-rivers-no-6", "client-definition", "employee-interviews"],
+    "question": "In an internal investigation, why are employee interview notes a particular privilege risk under Three Rivers (No 6) [2004]?",
+    "options": [
+      {
+        "id": "a",
+        "text": "All employee communications are automatically privileged",
+        "correct": false,
+        "feedback": "This is not correct under Three Rivers (No 6)."
+      },
+      {
+        "id": "b",
+        "text": "Employees who are not 'the client' (i.e., not authorised to instruct lawyers) may not have their communications protected by legal advice privilege — their interviews may only be privileged if within the dominant purpose of contemplated litigation",
+        "correct": true,
+        "feedback": "Correct. Three Rivers (No 6) narrowed the definition of 'client' for LAP purposes. Employees beyond the authorised instructing group are not 'the client,' and their communications with lawyers may lack LAP. Litigation privilege (if litigation is contemplated) provides a broader but not automatic protection."
+      },
+      {
+        "id": "c",
+        "text": "Interview notes are never privileged regardless of the circumstances",
+        "correct": false,
+        "feedback": "Interview notes prepared by lawyers may be privileged if the dominant purpose test is met."
+      },
+      {
+        "id": "d",
+        "text": "Employees can only be interviewed in the presence of their personal solicitors",
+        "correct": false,
+        "feedback": "This is not a statutory requirement, though it may be good practice."
+      }
+    ],
+    "oscoa_references": ["Three Rivers District Council v Governor and Company of the Bank of England (No 6) [2004] UKHL 48", "SFO v Eurasian Natural Resources Corporation Ltd [2018] EWCA Civ 2006"]
+  },
+  {
+    "id": "h-c5-014",
+    "page": "H",
+    "section": "H15",
+    "micro_skill": "H15.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["privilege", "internal-investigation", "investigation-protocol", "external-solicitors", "best-practice"],
+    "question": "Which protocol maximises privilege protection during an internal investigation?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Have the HR department conduct all interviews and report to management",
+        "correct": false,
+        "feedback": "HR involvement without legal oversight risks privilege loss."
+      },
+      {
+        "id": "b",
+        "text": "Engage external solicitors, clearly define the scope and authorisation, document the dominant purpose as legal advice and contemplated litigation, channel all documents through lawyers, and mark materials as 'privileged and confidential'",
+        "correct": true,
+        "feedback": "Correct. The gold standard for privilege protection: external lawyer engagement, clear scope, dominant purpose documentation, lawyer-controlled information flow, and appropriate marking."
+      },
+      {
+        "id": "c",
+        "text": "Distribute investigation findings to all shareholders",
+        "correct": false,
+        "feedback": "Wide distribution risks waiver of privilege."
+      },
+      {
+        "id": "d",
+        "text": "Conduct the investigation only through the company secretary",
+        "correct": false,
+        "feedback": "The company secretary alone is insufficient — legal involvement is critical for privilege."
+      }
+    ],
+    "oscoa_references": ["SFO v Eurasian Natural Resources Corporation Ltd [2018] EWCA Civ 2006", "Three Rivers (No 6) [2004] UKHL 48"]
+  },
+  {
+    "id": "h-c5-015",
+    "page": "H",
+    "section": "H15",
+    "micro_skill": "H15.1",
+    "crown_level": 5,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["privilege", "enrc", "dominant-purpose", "criminal-contemplated"],
+    "question": "'For litigation privilege to attach to internal investigation documents, criminal proceedings must have actually been commenced, not merely contemplated.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": false,
+        "feedback": "ENRC [2018] confirmed that reasonable contemplation of proceedings — not actual commencement — suffices."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": true,
+        "feedback": "Correct. SFO v ENRC [2018] held that litigation privilege can attach where criminal proceedings are 'reasonably contemplated' — they need not have actually commenced. The dominant purpose must be to resist those contemplated proceedings."
+      }
+    ],
+    "oscoa_references": ["SFO v Eurasian Natural Resources Corporation Ltd [2018] EWCA Civ 2006"]
+  }
+]

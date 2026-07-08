@@ -1,0 +1,5174 @@
+[
+  {
+    "id": "d-c1-001",
+    "page": "D",
+    "section": "D1",
+    "micro_skill": "D1.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "theft",
+      "appropriation",
+      "actus-reus"
+    ],
+    "question": "Under s 3(1) of the Theft Act 1968, what constitutes an appropriation?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Taking property with the intention to sell it",
+        "correct": false,
+        "feedback": "The definition is wider — any assumption of the owner's rights suffices."
+      },
+      {
+        "id": "b",
+        "text": "Physically removing property from the owner's possession",
+        "correct": false,
+        "feedback": "Physical removal need not occur — switching price labels alone can be an appropriation."
+      },
+      {
+        "id": "c",
+        "text": "Any assumption of the rights of an owner",
+        "correct": true,
+        "feedback": "Correct. s 3(1) defines appropriation as any assumption of the rights of an owner — _R v Morris_ [1984] AC 320 confirmed that one right suffices."
+      },
+      {
+        "id": "d",
+        "text": "Taking property without the owner's consent",
+        "correct": false,
+        "feedback": "Appropriation can occur even with consent — _R v Gomez_ [1993] AC 442 established that consent induced by fraud does not negate appropriation."
+      }
+    ],
+    "oscoa_references": [
+      "Theft Act 1968, s 3(1)",
+      "R v Morris [1984] AC 320"
+    ]
+  },
+  {
+    "id": "d-c1-002",
+    "page": "D",
+    "section": "D1",
+    "micro_skill": "D1.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "theft",
+      "appropriation",
+      "consent",
+      "gomez"
+    ],
+    "question": "In _R v Gomez_ [1993] AC 442, the House of Lords held that presenting worthless cheques to obtain goods constituted appropriation. What key principle was established?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Only unauthorised takings can amount to appropriation",
+        "correct": false,
+        "feedback": "_Gomez_ explicitly rejected this and overruled _R v Lawrence_ on the issue."
+      },
+      {
+        "id": "b",
+        "text": "An act authorised by the owner cannot be an appropriation",
+        "correct": false,
+        "feedback": "This was the dissenting view; the majority held consent obtained by fraud does not prevent appropriation."
+      },
+      {
+        "id": "c",
+        "text": "Consent induced by fraud does not prevent an act from constituting an appropriation",
+        "correct": true,
+        "feedback": "Correct. _R v Gomez_ [1993] AC 442 — appropriation can occur even where the owner consents, if that consent was induced by deception."
+      },
+      {
+        "id": "d",
+        "text": "Appropriation requires assuming all the rights of the owner",
+        "correct": false,
+        "feedback": "_R v Morris_ [1984] AC 320 had already established that one right of the owner suffices."
+      }
+    ],
+    "oscoa_references": [
+      "R v Gomez [1993] AC 442",
+      "Theft Act 1968, s 3(1)"
+    ]
+  },
+  {
+    "id": "d-c1-003",
+    "page": "D",
+    "section": "D1",
+    "micro_skill": "D1.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "theft",
+      "appropriation",
+      "gift",
+      "hinks"
+    ],
+    "question": "In _R v Hinks_ [2001] 2 AC 241, the House of Lords held that accepting a gift could constitute appropriation for theft. What factual circumstance enabled this finding?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The donor revoked the gift before it was received",
+        "correct": false,
+        "feedback": "The gift had been received and was valid in civil law — the issue was whether it could still be appropriation."
+      },
+      {
+        "id": "b",
+        "text": "The defendant exploited a vulnerable person of low intelligence who was under undue influence",
+        "correct": true,
+        "feedback": "Correct. _R v Hinks_ [2001] 2 AC 241 held a civilly valid gift can still amount to appropriation where the defendant exploited a vulnerable donor."
+      },
+      {
+        "id": "c",
+        "text": "The defendant used physical force to obtain the gift",
+        "correct": false,
+        "feedback": "No force was used; the donor voluntarily transferred money."
+      },
+      {
+        "id": "d",
+        "text": "The gift was made under a legally binding contract",
+        "correct": false,
+        "feedback": "The gift was a voluntary transfer; there was no contract."
+      }
+    ],
+    "oscoa_references": [
+      "R v Hinks [2001] 2 AC 241",
+      "Theft Act 1968, s 3(1)"
+    ]
+  },
+  {
+    "id": "d-c1-004",
+    "page": "D",
+    "section": "D1",
+    "micro_skill": "D1.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "theft",
+      "appropriation",
+      "bona-fide-purchaser",
+      "s3-2"
+    ],
+    "question": "Under s 3(2) of the Theft Act 1968, a bona fide purchaser who later discovers goods were stolen:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Automatically commits theft by retaining the goods",
+        "correct": false,
+        "feedback": "s 3(2) provides specific protection for bona fide purchasers."
+      },
+      {
+        "id": "b",
+        "text": "Commits theft only if they sell the goods",
+        "correct": false,
+        "feedback": "The section protects retention itself, not just sale."
+      },
+      {
+        "id": "c",
+        "text": "Does not commit theft by retaining or dealing with the goods",
+        "correct": true,
+        "feedback": "Correct. s 3(2) — a person who purchased in good faith and for value does not commit theft by later dealing with the goods even knowing of the defect in title."
+      },
+      {
+        "id": "d",
+        "text": "Must return the goods to avoid liability",
+        "correct": false,
+        "feedback": "s 3(2) relieves the purchaser from criminal liability regardless of return."
+      }
+    ],
+    "oscoa_references": [
+      "Theft Act 1968, s 3(2)"
+    ]
+  },
+  {
+    "id": "d-c1-005",
+    "page": "D",
+    "section": "D1",
+    "micro_skill": "D1.2",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "theft",
+      "property",
+      "s4-1"
+    ],
+    "question": "Under s 4(1) of the Theft Act 1968, which of the following constitutes 'property' capable of being stolen?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A thing in action (chose in action)",
+        "correct": true,
+        "feedback": "Correct. s 4(1) expressly includes money, personal property, real property, things in action, and other intangible property."
+      },
+      {
+        "id": "b",
+        "text": "Confidential information",
+        "correct": false,
+        "feedback": "Confidential information is not property — _Oxford v Moss_ (1978) 68 Cr App R 183."
+      },
+      {
+        "id": "c",
+        "text": "Wild mushrooms picked for personal consumption",
+        "correct": false,
+        "feedback": "s 4(3) provides wild plants and fungi are not property for theft unless picked for sale or reward."
+      },
+      {
+        "id": "d",
+        "text": "An unenforceable debt",
+        "correct": false,
+        "feedback": "Only enforceable debts (things in action) are property under s 4(1)."
+      }
+    ],
+    "oscoa_references": [
+      "Theft Act 1968, s 4(1)",
+      "Oxford v Moss (1978) 68 Cr App R 183"
+    ]
+  },
+  {
+    "id": "d-c1-006",
+    "page": "D",
+    "section": "D1",
+    "micro_skill": "D1.2",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "theft",
+      "property",
+      "confidential-information",
+      "oxford-v-moss"
+    ],
+    "question": "Why was the student in _Oxford v Moss_ (1978) 68 Cr App R 183 acquitted of stealing an examination paper after reading it before the exam?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The student returned the paper, negating ITPD",
+        "correct": false,
+        "feedback": "The issue was whether the information constituted property, not ITPD."
+      },
+      {
+        "id": "b",
+        "text": "Confidential information is not 'property' within s 4 of the Theft Act 1968",
+        "correct": true,
+        "feedback": "Correct. The court held confidential information is not intangible property capable of being stolen under the Theft Act 1968."
+      },
+      {
+        "id": "c",
+        "text": "The student had implied consent to read the paper",
+        "correct": false,
+        "feedback": "The student clearly had no right to access the paper."
+      },
+      {
+        "id": "d",
+        "text": "The student was not dishonest",
+        "correct": false,
+        "feedback": "Dishonesty was not the deciding issue — the case turned on the property definition."
+      }
+    ],
+    "oscoa_references": [
+      "Oxford v Moss (1978) 68 Cr App R 183",
+      "Theft Act 1968, s 4(1)"
+    ]
+  },
+  {
+    "id": "d-c1-007",
+    "page": "D",
+    "section": "D1",
+    "micro_skill": "D1.2",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "theft",
+      "property",
+      "land",
+      "s4-2"
+    ],
+    "question": "Under s 4(2) of the Theft Act 1968, land can be stolen in which circumstance?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Where a trespasser occupies land for over 10 years",
+        "correct": false,
+        "feedback": "Adverse possession is a civil concept, not covered by s 4(2)."
+      },
+      {
+        "id": "b",
+        "text": "Where a trustee or personal representative appropriates land in breach of trust",
+        "correct": true,
+        "feedback": "Correct. s 4(2)(b) provides land can be stolen by a trustee or personal representative acting in breach of their duties."
+      },
+      {
+        "id": "c",
+        "text": "Where an employee refuses to leave company land after termination",
+        "correct": false,
+        "feedback": "This is not one of the three specified circumstances under s 4(2)."
+      },
+      {
+        "id": "d",
+        "text": "Where a landowner sells the same plot to two different buyers",
+        "correct": false,
+        "feedback": "This is a contractual/conveyancing issue, not covered by s 4(2)."
+      }
+    ],
+    "oscoa_references": [
+      "Theft Act 1968, s 4(2)"
+    ]
+  },
+  {
+    "id": "d-c1-008",
+    "page": "D",
+    "section": "D1",
+    "micro_skill": "D1.2",
+    "crown_level": 1,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "theft",
+      "property",
+      "wild-plants",
+      "s4-3"
+    ],
+    "question": "'Wild mushrooms and wild plants are always capable of being stolen under the Theft Act 1968.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": false,
+        "feedback": "s 4(3) excludes wild mushrooms and wild plants unless picked for sale, reward, or other commercial purpose."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": true,
+        "feedback": "Correct. s 4(3) Theft Act 1968 provides wild plants, flowers, fruit, and fungi are not property for theft unless taken for sale, reward, or other commercial purpose — s 4(4)."
+      }
+    ],
+    "oscoa_references": [
+      "Theft Act 1968, ss 4(3)-4(4)"
+    ]
+  },
+  {
+    "id": "d-c1-009",
+    "page": "D",
+    "section": "D1",
+    "micro_skill": "D1.3",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "theft",
+      "belonging-to-another",
+      "s5-1"
+    ],
+    "question": "Under s 5(1) of the Theft Act 1968, property is regarded as belonging to another if that person has:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Legal ownership only",
+        "correct": false,
+        "feedback": "s 5(1) is wider — it covers possession and control."
+      },
+      {
+        "id": "b",
+        "text": "Possession, control, or any proprietary right or interest",
+        "correct": true,
+        "feedback": "Correct. s 5(1) — property belongs to any person having possession or control of it, or having any proprietary right or interest."
+      },
+      {
+        "id": "c",
+        "text": "Beneficial ownership only",
+        "correct": false,
+        "feedback": "Possession and control are sufficient; beneficial ownership is not required."
+      },
+      {
+        "id": "d",
+        "text": "Exclusive physical possession at the time of taking",
+        "correct": false,
+        "feedback": "Possession and control are broader concepts than exclusive physical possession."
+      }
+    ],
+    "oscoa_references": [
+      "Theft Act 1968, s 5(1)"
+    ]
+  },
+  {
+    "id": "d-c1-010",
+    "page": "D",
+    "section": "D1",
+    "micro_skill": "D1.3",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "theft",
+      "belonging-to-another",
+      "turner",
+      "own-property"
+    ],
+    "question": "In _R v Turner (No 2)_ [1971] 1 WLR 901, the defendant drove away his own car from a garage without paying for repairs. What did the Court of Appeal hold?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A person cannot steal his own property under any circumstances",
+        "correct": false,
+        "feedback": "_Turner_ established the opposite."
+      },
+      {
+        "id": "b",
+        "text": "The defendant could not be guilty because he owned the car",
+        "correct": false,
+        "feedback": "The court rejected this because the garage had possession and control."
+      },
+      {
+        "id": "c",
+        "text": "The garage had possession and control of the car; the defendant could steal his own property",
+        "correct": true,
+        "feedback": "Correct. _R v Turner (No 2)_ [1971] 1 WLR 901 — property can belong to another even where the defendant is the legal owner, if another has possession or control."
+      },
+      {
+        "id": "d",
+        "text": "The defendant committed fraud, not theft",
+        "correct": false,
+        "feedback": "The court convicted for theft; the case was not reclassified as fraud."
+      }
+    ],
+    "oscoa_references": [
+      "R v Turner (No 2) [1971] 1 WLR 901",
+      "Theft Act 1968, s 5(1)"
+    ]
+  },
+  {
+    "id": "d-c1-011",
+    "page": "D",
+    "section": "D1",
+    "micro_skill": "D1.3",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "theft",
+      "belonging-to-another",
+      "obligation-to-deal",
+      "r-v-hall",
+      "s5-3"
+    ],
+    "question": "In _R v Hall_ [1973] QB 126, client deposits held by a travel agent were held not to 'belong to another' under s 5(3) Theft Act 1968 because:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The deposits had been spent before the holiday was booked",
+        "correct": false,
+        "feedback": "The status of the money, not the timing of spending, was the issue."
+      },
+      {
+        "id": "b",
+        "text": "The travel agent was under no legal obligation to treat deposits as client money or to use them in a particular way",
+        "correct": true,
+        "feedback": "Correct. _R v Hall_ [1973] QB 126 — s 5(3) requires a legal obligation to deal with property in a particular way, which was not proved on the facts."
+      },
+      {
+        "id": "c",
+        "text": "The clients had abandoned any claim to the money",
+        "correct": false,
+        "feedback": "Abandonment was not argued or established."
+      },
+      {
+        "id": "d",
+        "text": "The agent held the money on resulting trust for the clients",
+        "correct": false,
+        "feedback": "The court did not find a trust relationship; the contractual terms did not create one."
+      }
+    ],
+    "oscoa_references": [
+      "R v Hall [1973] QB 126",
+      "Theft Act 1968, s 5(3)"
+    ]
+  },
+  {
+    "id": "d-c1-012",
+    "page": "D",
+    "section": "D1",
+    "micro_skill": "D1.3",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "theft",
+      "belonging-to-another",
+      "mistake",
+      "ag-ref-1983",
+      "s5-4"
+    ],
+    "question": "Under s 5(4) Theft Act 1968 and _Attorney-General's Reference (No 1 of 1983)_ [1985] QB 182, when money is received by mistake:",
+    "options": [
+      {
+        "id": "a",
+        "text": "It belongs solely to the recipient until a court orders repayment",
+        "correct": false,
+        "feedback": "s 5(4) deems the money to belong to another from the moment of awareness of the mistake."
+      },
+      {
+        "id": "b",
+        "text": "It belongs to another to the extent of the obligation to make restoration",
+        "correct": true,
+        "feedback": "Correct. s 5(4) — property obtained by another's mistake and subject to an obligation to restore belongs to the transferor. _Attorney-General's Reference (No 1 of 1983)_ [1985] QB 182 confirmed this applies to overpaid salary."
+      },
+      {
+        "id": "c",
+        "text": "The recipient commits theft immediately upon receipt, without knowledge of the mistake",
+        "correct": false,
+        "feedback": "Knowledge of the mistake and obligation to repay is required for mens rea."
+      },
+      {
+        "id": "d",
+        "text": "s 5(4) only applies to mistaken payments made by banks",
+        "correct": false,
+        "feedback": "s 5(4) applies broadly — illustrated by the overpaid police officer in the Attorney-General's Reference."
+      }
+    ],
+    "oscoa_references": [
+      "Attorney-General's Reference (No 1 of 1983) [1985] QB 182",
+      "Theft Act 1968, s 5(4)"
+    ]
+  },
+  {
+    "id": "d-c1-013",
+    "page": "D",
+    "section": "D1",
+    "micro_skill": "D1.3",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "theft",
+      "belonging-to-another",
+      "abandoned-property",
+      "woodman"
+    ],
+    "question": "In _R v Woodman_ [1974] QB 754, scrap metal left on a fenced site was held:",
+    "options": [
+      {
+        "id": "a",
+        "text": "To be abandoned property not capable of being stolen",
+        "correct": false,
+        "feedback": "The court held the contrary — the metal was not abandoned."
+      },
+      {
+        "id": "b",
+        "text": "Not abandoned because the site owner had fenced the site, demonstrating control and intention to exclude others",
+        "correct": true,
+        "feedback": "Correct. _R v Woodman_ [1974] QB 754 — the company's fencing evinced control and an intention to exclude; the scrap still belonged to the company."
+      },
+      {
+        "id": "c",
+        "text": "To belong to the scrap metal dealer who entered the site",
+        "correct": false,
+        "feedback": "The defendant was convicted of theft."
+      },
+      {
+        "id": "d",
+        "text": "To be res nullius and therefore not subject to theft",
+        "correct": false,
+        "feedback": "The court held the property was not ownerless because the site owner had asserted possession."
+      }
+    ],
+    "oscoa_references": [
+      "R v Woodman [1974] QB 754",
+      "Theft Act 1968, s 5(1)"
+    ]
+  },
+  {
+    "id": "d-c1-014",
+    "page": "D",
+    "section": "D1",
+    "micro_skill": "D1.4",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "theft",
+      "dishonesty",
+      "s2-defences"
+    ],
+    "question": "Under s 2(1) of the Theft Act 1968, a person is not dishonest if they appropriate property in the belief that:",
+    "options": [
+      {
+        "id": "a",
+        "text": "They will not be discovered",
+        "correct": false,
+        "feedback": "Avoiding detection is not a statutory defence under s 2(1)."
+      },
+      {
+        "id": "b",
+        "text": "They have a right in law to deprive the other of the property",
+        "correct": true,
+        "feedback": "Correct. s 2(1)(a) — a person is not dishonest if they believe they have a right in law to deprive the other of the property, for themselves or a third party."
+      },
+      {
+        "id": "c",
+        "text": "The property is insured against loss",
+        "correct": false,
+        "feedback": "Insurance is not a statutory defence under s 2(1)."
+      },
+      {
+        "id": "d",
+        "text": "They plan to compensate the owner later",
+        "correct": false,
+        "feedback": "An intention to compensate does not negate dishonesty under the statute."
+      }
+    ],
+    "oscoa_references": [
+      "Theft Act 1968, s 2(1)"
+    ]
+  },
+  {
+    "id": "d-c1-015",
+    "page": "D",
+    "section": "D1",
+    "micro_skill": "D1.4",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "theft",
+      "dishonesty",
+      "holden",
+      "genuine-belief"
+    ],
+    "question": "In _R v Holden_ [1991] Crim LR 478, what standard was held to apply to the s 2(1) beliefs?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The belief must be both genuine and reasonable",
+        "correct": false,
+        "feedback": "The court held the opposite — reasonableness is not required."
+      },
+      {
+        "id": "b",
+        "text": "The belief need only be genuinely held, even if unreasonable",
+        "correct": true,
+        "feedback": "Correct. _R v Holden_ [1991] Crim LR 478 — the s 2(1) defences require only a genuinely held belief, not a reasonable one."
+      },
+      {
+        "id": "c",
+        "text": "An unreasonable belief is conclusive evidence of dishonesty",
+        "correct": false,
+        "feedback": "Unreasonableness is relevant but not conclusive — _Holden_ held it does not inherently disprove the defence."
+      },
+      {
+        "id": "d",
+        "text": "The defence requires the defendant to have sought legal advice beforehand",
+        "correct": false,
+        "feedback": "There is no requirement to have sought legal advice under s 2(1)."
+      }
+    ],
+    "oscoa_references": [
+      "R v Holden [1991] Crim LR 478",
+      "Theft Act 1968, s 2(1)"
+    ]
+  },
+  {
+    "id": "d-c1-016",
+    "page": "D",
+    "section": "D1",
+    "micro_skill": "D1.4",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "theft",
+      "dishonesty",
+      "ivey",
+      "common-law-test"
+    ],
+    "question": "What is the correct two-stage test for dishonesty established in _Ivey v Genting Casinos (UK) Ltd_ [2017] UKSC 67?",
+    "options": [
+      {
+        "id": "a",
+        "text": "(1) Was D's conduct dishonest by ordinary standards? (2) Did D realise it was dishonest by those standards?",
+        "correct": false,
+        "feedback": "This describes the overturned _Ghosh_ test which required a subjective second limb."
+      },
+      {
+        "id": "b",
+        "text": "(1) What was D's actual knowledge or belief as to the facts? (2) Was D's conduct dishonest by the standards of ordinary decent people?",
+        "correct": true,
+        "feedback": "Correct. _Ivey_ test: (1) ascertain D's subjective knowledge/belief as to facts; (2) apply objective standard — dishonest by standards of ordinary decent people?"
+      },
+      {
+        "id": "c",
+        "text": "(1) Would a reasonable person consider the conduct dishonest? (2) Did D intend to cause loss?",
+        "correct": false,
+        "feedback": "Intention to cause loss is not part of the dishonesty test; this misstates _Ivey_."
+      },
+      {
+        "id": "d",
+        "text": "(1) Did D intend to permanently deprive? (2) Was D reckless as to ownership?",
+        "correct": false,
+        "feedback": "ITPD and recklessness are separate elements of theft, not the dishonesty test."
+      }
+    ],
+    "oscoa_references": [
+      "Ivey v Genting Casinos (UK) Ltd [2017] UKSC 67"
+    ]
+  },
+  {
+    "id": "d-c1-017",
+    "page": "D",
+    "section": "D1",
+    "micro_skill": "D1.4",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "theft",
+      "dishonesty",
+      "barton",
+      "ivey-criminal"
+    ],
+    "question": "Which case confirmed the _Ivey_ dishonesty test applies in criminal law, overturning _R v Ghosh_ [1982]?",
+    "options": [
+      {
+        "id": "a",
+        "text": "R v Golds [2016] UKSC 61",
+        "correct": false,
+        "feedback": "_Golds_ concerned diminished responsibility, not dishonesty."
+      },
+      {
+        "id": "b",
+        "text": "R v Barton; R v Booth [2020] EWCA Crim 575",
+        "correct": true,
+        "feedback": "Correct. _R v Barton; R v Booth_ [2020] EWCA Crim 575 confirmed _Ivey_ applies in criminal law, formally overturning the _Ghosh_ test."
+      },
+      {
+        "id": "c",
+        "text": "R v Jogee [2016] UKSC 8",
+        "correct": false,
+        "feedback": "_Jogee_ concerned joint enterprise, not dishonesty."
+      },
+      {
+        "id": "d",
+        "text": "R v Hayes [2015] EWCA Crim 1944",
+        "correct": false,
+        "feedback": "_Hayes_ discussed dishonesty but _Barton and Booth_ specifically confirmed _Ivey_ for criminal law."
+      }
+    ],
+    "oscoa_references": [
+      "R v Barton; R v Booth [2020] EWCA Crim 575",
+      "Ivey v Genting Casinos (UK) Ltd [2017] UKSC 67",
+      "R v Ghosh [1982] QB 1053"
+    ]
+  },
+  {
+    "id": "d-c1-018",
+    "page": "D",
+    "section": "D1",
+    "micro_skill": "D1.4",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "theft",
+      "dishonesty",
+      "ivey",
+      "loophole",
+      "defence-strategy"
+    ],
+    "question": "What is the primary tactical defence strategy post-_Ivey_ for challenging a finding of dishonesty?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Argue the defendant's conduct was morally acceptable in the defendant's community",
+        "correct": false,
+        "feedback": "_Ivey_ applies objective standards of ordinary decent people, not subjective community standards."
+      },
+      {
+        "id": "b",
+        "text": "Argue the defendant did not consider their conduct dishonest",
+        "correct": false,
+        "feedback": "Under _Ivey_, the defendant's opinion on the dishonesty of their own conduct is irrelevant."
+      },
+      {
+        "id": "c",
+        "text": "Focus on limb (1) — challenge the prosecution's account of the defendant's actual knowledge or belief as to the facts",
+        "correct": true,
+        "feedback": "Correct. _Ivey_ [2017] UKSC 67 — the purely objective limb (2) is hard to challenge; the tactic is to dispute what D actually knew or believed about the factual circumstances under limb (1)."
+      },
+      {
+        "id": "d",
+        "text": "Argue the Ghosh test should still apply",
+        "correct": false,
+        "feedback": "_R v Barton; R v Booth_ [2020] EWCA Crim 575 confirmed _Ghosh_ is no longer good law."
+      }
+    ],
+    "oscoa_references": [
+      "Ivey v Genting Casinos (UK) Ltd [2017] UKSC 67",
+      "R v Barton; R v Booth [2020] EWCA Crim 575"
+    ]
+  },
+  {
+    "id": "d-c1-019",
+    "page": "D",
+    "section": "D1",
+    "micro_skill": "D1.5",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "theft",
+      "itpd",
+      "s6"
+    ],
+    "question": "Under s 6 of the Theft Act 1968, an intention to permanently deprive can be established where the defendant:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Intends to return the property within a reasonable time with its value intact",
+        "correct": false,
+        "feedback": "Mere borrowing where the property retains its practical value on return does not establish ITPD."
+      },
+      {
+        "id": "b",
+        "text": "Treats the thing as their own to dispose of regardless of the owner's rights",
+        "correct": true,
+        "feedback": "Correct. s 6 extends ITPD to include treating property as one's own to dispose of regardless of the owner's rights, or borrowing equivalent to outright taking."
+      },
+      {
+        "id": "c",
+        "text": "Takes the property accidentally without realising",
+        "correct": false,
+        "feedback": "There must be an intention; accidental taking lacks ITPD."
+      },
+      {
+        "id": "d",
+        "text": "Takes property intending to return it after two weeks",
+        "correct": false,
+        "feedback": "A short borrowing where property's value is not exhausted does not constitute ITPD — _R v Lloyd_ [1985] QB 829."
+      }
+    ],
+    "oscoa_references": [
+      "Theft Act 1968, s 6"
+    ]
+  },
+  {
+    "id": "d-c1-020",
+    "page": "D",
+    "section": "D1",
+    "micro_skill": "D1.5",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "theft",
+      "itpd",
+      "lloyd",
+      "borrowing"
+    ],
+    "question": "In _R v Lloyd_ [1985] QB 829, a film projectionist borrowed films to make pirate copies and returned them. Why was there no ITPD?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The defendant intended to return the films and their practical value was not diminished",
+        "correct": true,
+        "feedback": "Correct. The borrowing was not equivalent to outright taking — the films retained their full practical value upon return."
+      },
+      {
+        "id": "b",
+        "text": "The defendant lacked dishonesty because he returned the films",
+        "correct": false,
+        "feedback": "Dishonesty and ITPD are separate elements — the case turned on ITPD."
+      },
+      {
+        "id": "c",
+        "text": "The films were not property capable of being stolen",
+        "correct": false,
+        "feedback": "Physical items with copyright are still property for theft purposes."
+      },
+      {
+        "id": "d",
+        "text": "The defendant had the owner's implied consent",
+        "correct": false,
+        "feedback": "The employer did not consent to the films being taken for piracy."
+      }
+    ],
+    "oscoa_references": [
+      "R v Lloyd [1985] QB 829",
+      "Theft Act 1968, s 6"
+    ]
+  },
+  {
+    "id": "d-c1-021",
+    "page": "D",
+    "section": "D1",
+    "micro_skill": "D1.5",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "theft",
+      "itpd",
+      "velumyl",
+      "replacement-notes"
+    ],
+    "question": "In _R v Velumyl_ [1989] Crim LR 299, the defendant took cash from the safe intending to replace it with equivalent notes. What was held?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The defendant lacked ITPD because he intended to return equivalent money",
+        "correct": false,
+        "feedback": "The court held the opposite — intending to return different notes established ITPD."
+      },
+      {
+        "id": "b",
+        "text": "The defendant had ITPD because he intended to return different notes, not the exact currency taken",
+        "correct": true,
+        "feedback": "Correct. _R v Velumyl_ [1989] Crim LR 299 — replacing specific bank notes with equivalent notes still constitutes ITPD; D treated the notes as his own."
+      },
+      {
+        "id": "c",
+        "text": "The defendant committed fraud, not theft",
+        "correct": false,
+        "feedback": "The court upheld the theft conviction."
+      },
+      {
+        "id": "d",
+        "text": "The defendant lacked ITPD because the total value was the same",
+        "correct": false,
+        "feedback": "The Court of Appeal rejected this — the specific notes were not returned."
+      }
+    ],
+    "oscoa_references": [
+      "R v Velumyl [1989] Crim LR 299",
+      "Theft Act 1968, s 6"
+    ]
+  },
+  {
+    "id": "d-c1-022",
+    "page": "D",
+    "section": "D1",
+    "micro_skill": "D1.5",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "theft",
+      "itpd",
+      "fernandes",
+      "dispose-of"
+    ],
+    "question": "In _R v Fernandes_ [1996] 1 Cr App R 175, a solicitor transferred client money into a risky investment. What did the court hold?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The solicitor lacked ITPD because he intended to generate returns",
+        "correct": false,
+        "feedback": "The court held the risk-taking conduct fell within s 6."
+      },
+      {
+        "id": "b",
+        "text": "Putting property beyond the owner's reach by dealing with it in a way that risks its loss falls within 'disposing of' under s 6",
+        "correct": true,
+        "feedback": "Correct. _R v Fernandes_ [1996] 1 Cr App R 175 — placing property at risk beyond the client's control constitutes treating it as one's own to dispose of."
+      },
+      {
+        "id": "c",
+        "text": "The solicitor was liable only under the Fraud Act 2006",
+        "correct": false,
+        "feedback": "The Fraud Act 2006 was not yet in force; the conviction was under the Theft Act 1968."
+      },
+      {
+        "id": "d",
+        "text": "There was no ITPD because the solicitor intended to account for the money later",
+        "correct": false,
+        "feedback": "The court rejected this — money put at risk without consent establishes ITPD."
+      }
+    ],
+    "oscoa_references": [
+      "R v Fernandes [1996] 1 Cr App R 175",
+      "Theft Act 1968, s 6"
+    ]
+  },
+  {
+    "id": "d-c2-001",
+    "page": "D",
+    "section": "D2",
+    "micro_skill": "D2.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "robbery",
+      "s8",
+      "force",
+      "timing"
+    ],
+    "question": "Under s 8 of the Theft Act 1968, when must force be used for robbery?",
+    "options": [
+      {
+        "id": "a",
+        "text": "At any time before, during, or after the stealing",
+        "correct": false,
+        "feedback": "Force after the stealing is complete is not covered by s 8."
+      },
+      {
+        "id": "b",
+        "text": "Immediately before or at the time of stealing, and for the purpose of stealing",
+        "correct": true,
+        "feedback": "Correct. s 8(1) requires force be used immediately before or at the time of stealing, for the purpose of stealing."
+      },
+      {
+        "id": "c",
+        "text": "Within 24 hours of the stealing",
+        "correct": false,
+        "feedback": "There is no 24-hour window — the timing is 'immediately before or at the time'."
+      },
+      {
+        "id": "d",
+        "text": "Only at the precise moment property is taken",
+        "correct": false,
+        "feedback": "Force immediately before the stealing is also sufficient."
+      }
+    ],
+    "oscoa_references": [
+      "Theft Act 1968, s 8"
+    ]
+  },
+  {
+    "id": "d-c2-002",
+    "page": "D",
+    "section": "D2",
+    "micro_skill": "D2.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "robbery",
+      "dishonesty",
+      "robinson",
+      "defence"
+    ],
+    "question": "Why was the defendant in _R v Robinson_ [1977] Crim LR 173 acquitted of robbery despite using force to take money?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The force used was insufficient for robbery",
+        "correct": false,
+        "feedback": "The force was sufficient; a foundational element of theft was missing."
+      },
+      {
+        "id": "b",
+        "text": "He genuinely believed he was owed the money, so he lacked dishonesty; without theft there can be no robbery",
+        "correct": true,
+        "feedback": "Correct. _R v Robinson_ [1977] Crim LR 173 — all elements of theft must be proved for robbery. If D lacks dishonesty, there is no theft and therefore no robbery."
+      },
+      {
+        "id": "c",
+        "text": "The victim consented to the taking",
+        "correct": false,
+        "feedback": "The victim did not consent; force was used."
+      },
+      {
+        "id": "d",
+        "text": "The money was not property capable of being stolen",
+        "correct": false,
+        "feedback": "Money is clearly property; the issue was dishonesty."
+      }
+    ],
+    "oscoa_references": [
+      "R v Robinson [1977] Crim LR 173",
+      "Theft Act 1968, s 8"
+    ]
+  },
+  {
+    "id": "d-c2-003",
+    "page": "D",
+    "section": "D2",
+    "micro_skill": "D2.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "robbery",
+      "force",
+      "dawson-and-james",
+      "minimal"
+    ],
+    "question": "In _R v Dawson and James_ (1976) 64 Cr App R 170, what degree of force was held sufficient for robbery?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Force must cause actual bodily harm",
+        "correct": false,
+        "feedback": "The court held force need only be minimal; ABH is not required."
+      },
+      {
+        "id": "b",
+        "text": "Force need only be minimal; a nudge can be sufficient",
+        "correct": true,
+        "feedback": "Correct. _R v Dawson and James_ (1976) — 'force' is a word in ordinary use; the jury may find a nudge or push constitutes force."
+      },
+      {
+        "id": "c",
+        "text": "Force must be such that the victim fears for their life",
+        "correct": false,
+        "feedback": "No such high threshold was established."
+      },
+      {
+        "id": "d",
+        "text": "Force is measured by the value of property taken",
+        "correct": false,
+        "feedback": "The value of property is irrelevant to whether force was used."
+      }
+    ],
+    "oscoa_references": [
+      "R v Dawson and James (1976) 64 Cr App R 170",
+      "Theft Act 1968, s 8"
+    ]
+  },
+  {
+    "id": "d-c2-004",
+    "page": "D",
+    "section": "D2",
+    "micro_skill": "D2.1",
+    "crown_level": 2,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "robbery",
+      "clouden",
+      "wrenching-bag"
+    ],
+    "question": "'Wrenching a handbag from a victim's hand is insufficient to constitute force for robbery.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": false,
+        "feedback": "_R v Clouden_ [1987] Crim LR 56 held wrenching a bag from the victim's hand constituted sufficient force."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": true,
+        "feedback": "Correct. _R v Clouden_ [1987] Crim LR 56 — wrenching a bag from the victim's hand constituted sufficient force for robbery under s 8."
+      }
+    ],
+    "oscoa_references": [
+      "R v Clouden [1987] Crim LR 56",
+      "Theft Act 1968, s 8"
+    ]
+  },
+  {
+    "id": "d-c2-005",
+    "page": "D",
+    "section": "D2",
+    "micro_skill": "D2.2",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "burglary",
+      "s9",
+      "entry",
+      "s9-1a-vs-s9-1b"
+    ],
+    "question": "What is the distinction between s 9(1)(a) and s 9(1)(b) burglary?",
+    "options": [
+      {
+        "id": "a",
+        "text": "s 9(1)(a) applies to dwellings; s 9(1)(b) applies to commercial premises",
+        "correct": false,
+        "feedback": "The distinction is about timing of intent, not type of building."
+      },
+      {
+        "id": "b",
+        "text": "s 9(1)(a) requires intent to commit an offence at point of entry; s 9(1)(b) requires actual commission of the offence (or attempt) after entry as a trespasser",
+        "correct": true,
+        "feedback": "Correct. s 9(1)(a): entry with intent to steal/inflict GBH/cause unlawful damage. s 9(1)(b): having entered as trespasser, steals/attempts to steal or inflicts/attempts to inflict GBH."
+      },
+      {
+        "id": "c",
+        "text": "There is no meaningful distinction between them",
+        "correct": false,
+        "feedback": "They are distinct offences with different elements and timing requirements."
+      },
+      {
+        "id": "d",
+        "text": "s 9(1)(a) is indictment only; s 9(1)(b) is either way",
+        "correct": false,
+        "feedback": "Both are triable either way."
+      }
+    ],
+    "oscoa_references": [
+      "Theft Act 1968, s 9"
+    ]
+  },
+  {
+    "id": "d-c2-006",
+    "page": "D",
+    "section": "D2",
+    "micro_skill": "D2.2",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "burglary",
+      "entry",
+      "brown",
+      "ryan"
+    ],
+    "question": "Which statement correctly states the law on what constitutes 'entry' for burglary?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The defendant's entire body must cross the threshold",
+        "correct": false,
+        "feedback": "_R v Brown_ [1985] and _R v Ryan_ [1996] establish that partial entry can suffice."
+      },
+      {
+        "id": "b",
+        "text": "Entry must be effective — partial entry of the body can suffice",
+        "correct": true,
+        "feedback": "Correct. _R v Brown_ [1985] Crim LR 212 — leaning through a window constitutes entry; _R v Ryan_ [1996] Crim LR 320 — body partially through a window constitutes entry."
+      },
+      {
+        "id": "c",
+        "text": "Entry is established only once the defendant touches the floor inside",
+        "correct": false,
+        "feedback": "The cases show touching the floor is not required."
+      },
+      {
+        "id": "d",
+        "text": "Using an instrument to gain access never constitutes entry",
+        "correct": false,
+        "feedback": "An instrument used as an extension of the person can constitute entry."
+      }
+    ],
+    "oscoa_references": [
+      "R v Brown [1985] Crim LR 212",
+      "R v Ryan [1996] Crim LR 320",
+      "Theft Act 1968, s 9"
+    ]
+  },
+  {
+    "id": "d-c2-007",
+    "page": "D",
+    "section": "D2",
+    "micro_skill": "D2.2",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "burglary",
+      "trespasser",
+      "jones-and-smith",
+      "exceeding-permission"
+    ],
+    "question": "In _R v Jones and Smith_ [1976] 1 WLR 672, a son with general permission to enter his father's house entered intending to steal a TV. What did the court hold?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The son was not a trespasser because he had general permission",
+        "correct": false,
+        "feedback": "The court held the opposite — general permission does not protect against trespass for a prohibited purpose."
+      },
+      {
+        "id": "b",
+        "text": "The son was a trespasser because he entered in excess of the permission granted",
+        "correct": true,
+        "feedback": "Correct. _R v Jones and Smith_ [1976] 1 WLR 672 — entering with intent to steal exceeds any implied licence; the son was a trespasser."
+      },
+      {
+        "id": "c",
+        "text": "The son was not a burglar because the house belonged to his father",
+        "correct": false,
+        "feedback": "Family relationship does not preclude burglary."
+      },
+      {
+        "id": "d",
+        "text": "Permission was revoked only after he removed the TV",
+        "correct": false,
+        "feedback": "The court held he was a trespasser at the moment of entry because of his intent."
+      }
+    ],
+    "oscoa_references": [
+      "R v Jones and Smith [1976] 1 WLR 672",
+      "Theft Act 1968, s 9"
+    ]
+  },
+  {
+    "id": "d-c2-008",
+    "page": "D",
+    "section": "D2",
+    "micro_skill": "D2.2",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "burglary",
+      "part-of-building",
+      "walkington",
+      "till-area"
+    ],
+    "question": "In _R v Walkington_ [1979] 1 WLR 1169, why was a customer who went behind a till counter in a store during opening hours convicted of burglary?",
+    "options": [
+      {
+        "id": "a",
+        "text": "He entered the store with the intention of stealing",
+        "correct": false,
+        "feedback": "Entry to the store during opening hours was lawful; the trespass was to a specific area."
+      },
+      {
+        "id": "b",
+        "text": "The till area constituted a 'part of a building' to which the public had no access; entry was as a trespasser",
+        "correct": true,
+        "feedback": "Correct. _R v Walkington_ [1979] 1 WLR 1169 — a restricted part of a building can be the subject of burglary when the defendant knew he had no permission to enter that area."
+      },
+      {
+        "id": "c",
+        "text": "He committed criminal damage to the till",
+        "correct": false,
+        "feedback": "No criminal damage was at issue."
+      },
+      {
+        "id": "d",
+        "text": "He remained in the store after closing time",
+        "correct": false,
+        "feedback": "The store was open; trespass related to the restricted area."
+      }
+    ],
+    "oscoa_references": [
+      "R v Walkington [1979] 1 WLR 1169",
+      "Theft Act 1968, s 9"
+    ]
+  },
+  {
+    "id": "d-c2-009",
+    "page": "D",
+    "section": "D2",
+    "micro_skill": "D2.2",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "burglary",
+      "aggravated-burglary",
+      "s10",
+      "wife"
+    ],
+    "question": "Under s 10 Theft Act 1968, aggravated burglary requires having with you at the time of the burglary:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Property stolen from the building",
+        "correct": false,
+        "feedback": "Stolen property is evidence of the underlying burglary, not the aggravating factor."
+      },
+      {
+        "id": "b",
+        "text": "A firearm, imitation firearm, weapon of offence, or explosive",
+        "correct": true,
+        "feedback": "Correct. s 10 specifies WIFE items — weapon of offence, imitation firearm, firearm, or explosive — at the time of burglary."
+      },
+      {
+        "id": "c",
+        "text": "A getaway vehicle",
+        "correct": false,
+        "feedback": "A getaway vehicle is not specified in s 10 as an aggravating item."
+      },
+      {
+        "id": "d",
+        "text": "An accomplice acting as a lookout",
+        "correct": false,
+        "feedback": "Having an accomplice does not alone constitute aggravated burglary under s 10."
+      }
+    ],
+    "oscoa_references": [
+      "Theft Act 1968, s 10"
+    ]
+  },
+  {
+    "id": "d-c2-010",
+    "page": "D",
+    "section": "D3",
+    "micro_skill": "D3.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "fraud",
+      "false-representation",
+      "s2",
+      "fraud-act-2006"
+    ],
+    "question": "Under s 2 of the Fraud Act 2006, a person commits fraud by false representation if they:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Make a false representation recklessly as to its truth",
+        "correct": false,
+        "feedback": "Recklessness is not the standard — knowledge is required."
+      },
+      {
+        "id": "b",
+        "text": "Dishonestly make a false representation, intending to make a gain or cause loss or expose another to risk of loss",
+        "correct": true,
+        "feedback": "Correct. s 2: (1) dishonestly (2) makes a false representation (3) intending to make a gain or cause loss or risk of loss."
+      },
+      {
+        "id": "c",
+        "text": "Make a false representation regardless of dishonesty",
+        "correct": false,
+        "feedback": "Dishonesty is an essential element under s 2."
+      },
+      {
+        "id": "d",
+        "text": "Make a representation which is false in fact, whether or not they know it",
+        "correct": false,
+        "feedback": "The defendant must know the representation is or might be untrue or misleading."
+      }
+    ],
+    "oscoa_references": [
+      "Fraud Act 2006, s 2"
+    ]
+  },
+  {
+    "id": "d-c2-011",
+    "page": "D",
+    "section": "D3",
+    "micro_skill": "D3.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "fraud",
+      "false-representation",
+      "lambie",
+      "implied-representation"
+    ],
+    "question": "In _R v Lambie_ [1982] AC 449, a woman used her credit card knowing her account was over its limit. What form did the false representation take?",
+    "options": [
+      {
+        "id": "a",
+        "text": "An express statement that the account had sufficient funds",
+        "correct": false,
+        "feedback": "The defendant made no express statement about her account balance."
+      },
+      {
+        "id": "b",
+        "text": "An implied representation that she had the bank's authority to use the card and the bank would honour the transaction",
+        "correct": true,
+        "feedback": "Correct. _R v Lambie_ [1982] AC 449 — presenting a credit card implies a representation of authority from the card issuer."
+      },
+      {
+        "id": "c",
+        "text": "A false representation as to her identity",
+        "correct": false,
+        "feedback": "The card was her own; there was no identity issue."
+      },
+      {
+        "id": "d",
+        "text": "A representation to a machine, which cannot constitute fraud",
+        "correct": false,
+        "feedback": "s 2(4) Fraud Act 2006 and _Lambie_ confirm representations can be made to machines."
+      }
+    ],
+    "oscoa_references": [
+      "R v Lambie [1982] AC 449",
+      "Fraud Act 2006, s 2(4)"
+    ]
+  },
+  {
+    "id": "d-c2-012",
+    "page": "D",
+    "section": "D3",
+    "micro_skill": "D3.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "fraud",
+      "false-representation",
+      "s2-2",
+      "untrue-or-misleading"
+    ],
+    "question": "A representation is 'false' under s 2(2) Fraud Act 2006 if:",
+    "options": [
+      {
+        "id": "a",
+        "text": "It is factually incorrect, regardless of the defendant's knowledge",
+        "correct": false,
+        "feedback": "Mens rea is required — the defendant must know the representation is or might be untrue or misleading."
+      },
+      {
+        "id": "b",
+        "text": "It is untrue or misleading and the defendant knows it is or might be untrue or misleading",
+        "correct": true,
+        "feedback": "Correct. s 2(2): a representation is false if (a) it is untrue or misleading, and (b) the person making it knows or might know it is."
+      },
+      {
+        "id": "c",
+        "text": "It causes financial loss to another person",
+        "correct": false,
+        "feedback": "Loss is not required for the representation to be false — it relates to the defendant's intention."
+      },
+      {
+        "id": "d",
+        "text": "A reasonable person would consider it false",
+        "correct": false,
+        "feedback": "s 2(2) uses a subjective knowledge test, not a reasonable person standard."
+      }
+    ],
+    "oscoa_references": [
+      "Fraud Act 2006, s 2(2)"
+    ]
+  },
+  {
+    "id": "d-c2-013",
+    "page": "D",
+    "section": "D3",
+    "micro_skill": "D3.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "fraud",
+      "false-representation",
+      "s2-3",
+      "state-of-mind"
+    ],
+    "question": "Under s 2(3) Fraud Act 2006, a representation may be as to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Fact only",
+        "correct": false,
+        "feedback": "s 2(3) extends beyond matters of fact."
+      },
+      {
+        "id": "b",
+        "text": "Fact or law only",
+        "correct": false,
+        "feedback": "s 2(3) also includes representations as to a state of mind."
+      },
+      {
+        "id": "c",
+        "text": "Fact, law, or state of mind",
+        "correct": true,
+        "feedback": "Correct. s 2(3) provides a representation may be as to fact, law, or state of mind — including the defendant's own intentions."
+      },
+      {
+        "id": "d",
+        "text": "Financial matters only",
+        "correct": false,
+        "feedback": "The Fraud Act 2006 is not limited to financial representations."
+      }
+    ],
+    "oscoa_references": [
+      "Fraud Act 2006, s 2(3)"
+    ]
+  },
+  {
+    "id": "d-c2-014",
+    "page": "D",
+    "section": "D3",
+    "micro_skill": "D3.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "fraud",
+      "false-representation",
+      "cornelius",
+      "mistake"
+    ],
+    "question": "In _R v Cornelius_ [2012] EWCA Crim 528, what did the Court of Appeal clarify?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A representation is not false if the defendant genuinely believed it to be true, even if mistaken",
+        "correct": true,
+        "feedback": "Correct. _R v Cornelius_ [2012] EWCA Crim 528 — the prosecution must prove D knew the representation was or might be false; genuine mistake negates this."
+      },
+      {
+        "id": "b",
+        "text": "Negligent representations automatically satisfy the mens rea",
+        "correct": false,
+        "feedback": "Negligence is insufficient — knowledge is required."
+      },
+      {
+        "id": "c",
+        "text": "A representation to a machine can never constitute fraud",
+        "correct": false,
+        "feedback": "s 2(4) confirms representations can be made to machines."
+      },
+      {
+        "id": "d",
+        "text": "The Fraud Act 2006 does not apply to representations by omission",
+        "correct": false,
+        "feedback": "s 3 deals with omissions separately; _Cornelius_ concerned s 2."
+      }
+    ],
+    "oscoa_references": [
+      "R v Cornelius [2012] EWCA Crim 528",
+      "Fraud Act 2006, s 2"
+    ]
+  },
+  {
+    "id": "d-c2-015",
+    "page": "D",
+    "section": "D3",
+    "micro_skill": "D3.2",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "fraud",
+      "failure-to-disclose",
+      "s3",
+      "legal-duty"
+    ],
+    "question": "Under s 3 of the Fraud Act 2006, a person commits fraud by failing to disclose information only where:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The failure causes financial loss to another",
+        "correct": false,
+        "feedback": "Loss is not required — risk of loss suffices, and the duty to disclose is the essential element."
+      },
+      {
+        "id": "b",
+        "text": "There is a legal duty to disclose the information",
+        "correct": true,
+        "feedback": "Correct. s 3 requires (1) dishonestly (2) failing to disclose (3) where there is a legal duty (4) intending to make gain or cause loss."
+      },
+      {
+        "id": "c",
+        "text": "The information relates to a criminal offence",
+        "correct": false,
+        "feedback": "The duty can arise from any source — statute, contract, fiduciary relationship, or custom."
+      },
+      {
+        "id": "d",
+        "text": "The defendant is in a regulated profession",
+        "correct": false,
+        "feedback": "s 3 applies broadly, not only to regulated professionals."
+      }
+    ],
+    "oscoa_references": [
+      "Fraud Act 2006, s 3"
+    ]
+  },
+  {
+    "id": "d-c2-016",
+    "page": "D",
+    "section": "D3",
+    "micro_skill": "D3.2",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "fraud",
+      "abuse-of-position",
+      "s4",
+      "valujevs"
+    ],
+    "question": "In _R v Valujevs_ [2014] EWCA Crim 2888, what position did the defendant occupy for s 4 abuse of position?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A company director who misappropriated funds",
+        "correct": false,
+        "feedback": "_Valujevs_ concerned a different role."
+      },
+      {
+        "id": "b",
+        "text": "A gangmaster who was expected to safeguard workers' financial interests but deducted wages",
+        "correct": true,
+        "feedback": "Correct. _R v Valujevs_ [2014] EWCA Crim 2888 — as a gangmaster, D occupied a position expected to safeguard workers' financial interests."
+      },
+      {
+        "id": "c",
+        "text": "A solicitor who transferred client funds without authorisation",
+        "correct": false,
+        "feedback": "This describes _R v Fernandes_ [1996], not _Valujevs_."
+      },
+      {
+        "id": "d",
+        "text": "An accountant who filed fraudulent tax returns",
+        "correct": false,
+        "feedback": "This is not the fact pattern in _Valujevs_."
+      }
+    ],
+    "oscoa_references": [
+      "R v Valujevs [2014] EWCA Crim 2888",
+      "Fraud Act 2006, s 4"
+    ]
+  },
+  {
+    "id": "d-c2-017",
+    "page": "D",
+    "section": "D3",
+    "micro_skill": "D3.2",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "fraud",
+      "failure-to-disclose",
+      "razoq",
+      "legal-duty"
+    ],
+    "question": "In _R v Razoq_ [2020] EWCA Crim 1737, the Court of Appeal confirmed a legal duty to disclose may arise from:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Statute only",
+        "correct": false,
+        "feedback": "The court confirmed a wider range of sources."
+      },
+      {
+        "id": "b",
+        "text": "Statute, contract, fiduciary relationship, or custom",
+        "correct": true,
+        "feedback": "Correct. _R v Razoq_ [2020] EWCA Crim 1737 — a legal duty to disclose under s 3 may arise from statute, contract, fiduciary relationship, or the customs of a particular trade or profession."
+      },
+      {
+        "id": "c",
+        "text": "The defendant's personal moral code",
+        "correct": false,
+        "feedback": "Moral obligations are insufficient — a legal duty is required."
+      },
+      {
+        "id": "d",
+        "text": "The victim's reasonable expectation of disclosure",
+        "correct": false,
+        "feedback": "Reasonable expectation alone does not create a legal duty."
+      }
+    ],
+    "oscoa_references": [
+      "R v Razoq [2020] EWCA Crim 1737",
+      "Fraud Act 2006, s 3"
+    ]
+  },
+  {
+    "id": "d-c2-018",
+    "page": "D",
+    "section": "D3",
+    "micro_skill": "D3.2",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "fraud",
+      "abuse-of-position",
+      "s4",
+      "safeguard"
+    ],
+    "question": "Under s 4 Fraud Act 2006, a person 'occupies a position' if expected to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Supervise other employees",
+        "correct": false,
+        "feedback": "The expectation relates to safeguarding financial interests, not general supervision."
+      },
+      {
+        "id": "b",
+        "text": "Safeguard, or not act against, the financial interests of another",
+        "correct": true,
+        "feedback": "Correct. s 4(1)(a) — the position is one expected to safeguard, or not to act against, the financial interests of another."
+      },
+      {
+        "id": "c",
+        "text": "Hold a position of trust in any public body",
+        "correct": false,
+        "feedback": "s 4 is not limited to public bodies."
+      },
+      {
+        "id": "d",
+        "text": "Receive payment for services rendered",
+        "correct": false,
+        "feedback": "Receiving payment alone does not create a position for s 4 purposes."
+      }
+    ],
+    "oscoa_references": [
+      "Fraud Act 2006, s 4"
+    ]
+  },
+  {
+    "id": "d-c2-019",
+    "page": "D",
+    "section": "D3",
+    "micro_skill": "D3.3",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "fraud",
+      "obtaining-services",
+      "s11"
+    ],
+    "question": "Under s 11 of the Fraud Act 2006, obtaining services dishonestly requires that the services are obtained:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Without paying for them",
+        "correct": false,
+        "feedback": "Non-payment is not an element; the act focuses on dishonest obtaining."
+      },
+      {
+        "id": "b",
+        "text": "By a dishonest act, knowing the defendant is not entitled to obtain them",
+        "correct": true,
+        "feedback": "Correct. s 11: obtaining services by a dishonest act, where services are made available on payment basis, knowing not entitled to obtain them."
+      },
+      {
+        "id": "c",
+        "text": "By making a false representation to the service provider",
+        "correct": false,
+        "feedback": "A false representation is one way but not a required element — the act need only be dishonest."
+      },
+      {
+        "id": "d",
+        "text": "From a public authority only",
+        "correct": false,
+        "feedback": "s 11 is not limited to public authorities."
+      }
+    ],
+    "oscoa_references": [
+      "Fraud Act 2006, s 11"
+    ]
+  },
+  {
+    "id": "d-c2-020",
+    "page": "D",
+    "section": "D3",
+    "micro_skill": "D3.3",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "fraud",
+      "obtaining-services",
+      "s11",
+      "theft-act-1978"
+    ],
+    "question": "s 11 of the Fraud Act 2006 replaced which predecessor offence?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Theft — obtaining services by appropriation",
+        "correct": false,
+        "feedback": "Services cannot be appropriated; the Theft Act 1968 did not cover this."
+      },
+      {
+        "id": "b",
+        "text": "Theft Act 1978, s 1 — obtaining services by deception",
+        "correct": true,
+        "feedback": "Correct. s 11 Fraud Act 2006 replaced s 1 Theft Act 1978, which criminalised obtaining services by deception."
+      },
+      {
+        "id": "c",
+        "text": "Common law offence of cheating the revenue",
+        "correct": false,
+        "feedback": "Cheating the revenue is a separate common law offence that survives the Fraud Act 2006."
+      },
+      {
+        "id": "d",
+        "text": "Theft Act 1968, s 15 — obtaining property by deception",
+        "correct": false,
+        "feedback": "s 15 dealt with obtaining property; s 11 deals with obtaining services."
+      }
+    ],
+    "oscoa_references": [
+      "Fraud Act 2006, s 11",
+      "Theft Act 1978, s 1"
+    ]
+  },
+  {
+    "id": "d-c2-021",
+    "page": "D",
+    "section": "D3",
+    "micro_skill": "D3.3",
+    "crown_level": 2,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "fraud",
+      "obtaining-services",
+      "s11",
+      "non-payment"
+    ],
+    "question": "'Under s 11 Fraud Act 2006, merely failing to pay for services received constitutes obtaining services dishonestly.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": false,
+        "feedback": "s 11 requires a dishonest act to obtain the services — mere non-payment after honest receipt is not enough."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": true,
+        "feedback": "Correct. s 11 requires a dishonest act by which services are obtained. Failing to pay after honest receipt is not within s 11."
+      }
+    ],
+    "oscoa_references": [
+      "Fraud Act 2006, s 11"
+    ]
+  },
+  {
+    "id": "d-c3-001",
+    "page": "D",
+    "section": "D4",
+    "micro_skill": "D4.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "money-laundering",
+      "poca",
+      "s327",
+      "concealing"
+    ],
+    "question": "Under s 327 of POCA 2002, which of the following constitutes a principal money laundering offence?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Failing to report suspicious activity to the NCA",
+        "correct": false,
+        "feedback": "This is a separate offence under ss 330-332 (failure to disclose)."
+      },
+      {
+        "id": "b",
+        "text": "Concealing, disguising, converting, transferring, or removing criminal property from the UK",
+        "correct": true,
+        "feedback": "Correct. s 327 creates the offence of concealing, disguising, converting, transferring, or removing criminal property."
+      },
+      {
+        "id": "c",
+        "text": "Tipping off a person that an investigation is underway",
+        "correct": false,
+        "feedback": "This is an offence under s 333A (tipping off), not s 327."
+      },
+      {
+        "id": "d",
+        "text": "Failing to conduct customer due diligence",
+        "correct": false,
+        "feedback": "This is a regulatory breach under MLR 2017, not a POCA principal offence."
+      }
+    ],
+    "oscoa_references": [
+      "Proceeds of Crime Act 2002, s 327"
+    ]
+  },
+  {
+    "id": "d-c3-002",
+    "page": "D",
+    "section": "D4",
+    "micro_skill": "D4.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "money-laundering",
+      "poca",
+      "s328",
+      "arrangements"
+    ],
+    "question": "Under s 328 of POCA 2002, the 'arrangements' offence criminalises:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Only arrangements involving banks and financial institutions",
+        "correct": false,
+        "feedback": "s 328 applies broadly, not only to financial institutions."
+      },
+      {
+        "id": "b",
+        "text": "Entering into or becoming concerned in an arrangement which facilitates the acquisition, retention, use, or control of criminal property",
+        "correct": true,
+        "feedback": "Correct. s 328 captures those who facilitate money laundering through arrangements, even if they do not handle the criminal property themselves."
+      },
+      {
+        "id": "c",
+        "text": "Reporting an arrangement to the NCA without obtaining consent",
+        "correct": false,
+        "feedback": "Reporting to the NCA is part of the authorised disclosure defence, not the offence."
+      },
+      {
+        "id": "d",
+        "text": "Only arrangements involving property worth over £10,000",
+        "correct": false,
+        "feedback": "There is no minimum value threshold for s 328."
+      }
+    ],
+    "oscoa_references": [
+      "Proceeds of Crime Act 2002, s 328"
+    ]
+  },
+  {
+    "id": "d-c3-003",
+    "page": "D",
+    "section": "D4",
+    "micro_skill": "D4.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "money-laundering",
+      "poca",
+      "s329",
+      "s340",
+      "criminal-property"
+    ],
+    "question": "Under s 340 of POCA 2002, 'criminal property' is defined as property that:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Has been the subject of a criminal conviction",
+        "correct": false,
+        "feedback": "A conviction is not required — the property need only constitute a benefit from criminal conduct."
+      },
+      {
+        "id": "b",
+        "text": "Constitutes or represents a person's benefit from criminal conduct, where the alleged offender knows or suspects it is such",
+        "correct": true,
+        "feedback": "Correct. s 340 defines criminal property as property constituting/representing a benefit from criminal conduct, with knowledge or suspicion on the part of the alleged offender."
+      },
+      {
+        "id": "c",
+        "text": "Was acquired through civil wrongs",
+        "correct": false,
+        "feedback": "Criminal conduct is required; civil wrongs do not trigger POCA."
+      },
+      {
+        "id": "d",
+        "text": "Is cash or other currency only",
+        "correct": false,
+        "feedback": "Criminal property includes all forms of property, not just cash."
+      }
+    ],
+    "oscoa_references": [
+      "Proceeds of Crime Act 2002, ss 329, 340"
+    ]
+  },
+  {
+    "id": "d-c3-004",
+    "page": "D",
+    "section": "D4",
+    "micro_skill": "D4.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "money-laundering",
+      "poca",
+      "authorised-disclosure",
+      "defence"
+    ],
+    "question": "What defence is available under POCA 2002 to the principal money laundering offences?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The defendant was acting under duress",
+        "correct": false,
+        "feedback": "Duress is a general common law defence, not the specific statutory defence."
+      },
+      {
+        "id": "b",
+        "text": "The defendant made an authorised disclosure to the NCA and obtained appropriate consent",
+        "correct": true,
+        "feedback": "Correct. An authorised disclosure (DAML SAR) to the NCA, with appropriate consent, provides a defence to the principal ML offences under ss 327(2)(a), 328(2)(a), 329(2)(a)."
+      },
+      {
+        "id": "c",
+        "text": "The defendant returned the criminal property before being detected",
+        "correct": false,
+        "feedback": "Returning property does not undo the commission of the offence."
+      },
+      {
+        "id": "d",
+        "text": "The defendant was unaware because they deliberately avoided making enquiries",
+        "correct": false,
+        "feedback": "Wilful blindness does not provide a defence; suspicion may suffice."
+      }
+    ],
+    "oscoa_references": [
+      "Proceeds of Crime Act 2002, ss 327(2)(a), 328(2)(a), 329(2)(a), 335"
+    ]
+  },
+  {
+    "id": "d-c3-005",
+    "page": "D",
+    "section": "D4",
+    "micro_skill": "D4.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "money-laundering",
+      "poca",
+      "appropriate-consent",
+      "s335",
+      "moratorium"
+    ],
+    "question": "Under s 335 of POCA 2002, after an authorised disclosure, how many working days does the NCA have before deemed consent applies?",
+    "options": [
+      {
+        "id": "a",
+        "text": "3 working days",
+        "correct": false,
+        "feedback": "The notice period is 7 working days."
+      },
+      {
+        "id": "b",
+        "text": "7 working days",
+        "correct": true,
+        "feedback": "Correct. s 335 provides a 7-working-day moratorium period. The NCA may apply to extend this by up to 31 days via court order."
+      },
+      {
+        "id": "c",
+        "text": "14 working days",
+        "correct": false,
+        "feedback": "The initial period is 7 working days, though extensions are possible."
+      },
+      {
+        "id": "d",
+        "text": "28 calendar days",
+        "correct": false,
+        "feedback": "The period is in working days, not calendar days, and is 7 initially."
+      }
+    ],
+    "oscoa_references": [
+      "Proceeds of Crime Act 2002, s 335"
+    ]
+  },
+  {
+    "id": "d-c3-006",
+    "page": "D",
+    "section": "D4",
+    "micro_skill": "D4.2",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "money-laundering",
+      "poca",
+      "failure-to-disclose",
+      "s330",
+      "regulated-sector"
+    ],
+    "question": "Under s 330 of POCA 2002, who in the regulated sector commits an offence by failing to disclose money laundering?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Any person who suspects money laundering, regardless of profession",
+        "correct": false,
+        "feedback": "s 330 applies specifically to those in the regulated sector."
+      },
+      {
+        "id": "b",
+        "text": "A person in the regulated sector who knows, suspects, or has reasonable grounds to know or suspect money laundering",
+        "correct": true,
+        "feedback": "Correct. s 330 imposes an obligation including an objective 'reasonable grounds to know or suspect' standard."
+      },
+      {
+        "id": "c",
+        "text": "Only nominated officers within a firm",
+        "correct": false,
+        "feedback": "The nominated officer offence is under s 331; s 330 applies to regulated sector employees."
+      },
+      {
+        "id": "d",
+        "text": "Only solicitors and accountants",
+        "correct": false,
+        "feedback": "The regulated sector is broader — includes financial institutions, estate agents, casinos, and others."
+      }
+    ],
+    "oscoa_references": [
+      "Proceeds of Crime Act 2002, s 330"
+    ]
+  },
+  {
+    "id": "d-c3-007",
+    "page": "D",
+    "section": "D4",
+    "micro_skill": "D4.2",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "money-laundering",
+      "poca",
+      "s332",
+      "non-regulated",
+      "intent"
+    ],
+    "question": "How does s 332 (non-regulated sector) differ from s 330 (regulated sector) for failure to disclose?",
+    "options": [
+      {
+        "id": "a",
+        "text": "s 332 requires proof of intent; s 330 uses an objective 'reasonable grounds to suspect' standard",
+        "correct": true,
+        "feedback": "Correct. s 332 requires actual knowledge/suspicion and an intentional failure. s 330 is broader — it includes an objective standard."
+      },
+      {
+        "id": "b",
+        "text": "s 332 carries a higher maximum sentence",
+        "correct": false,
+        "feedback": "Both carry a maximum of 5 years imprisonment."
+      },
+      {
+        "id": "c",
+        "text": "s 332 applies only to transactions above £10,000",
+        "correct": false,
+        "feedback": "There is no de minimis threshold."
+      },
+      {
+        "id": "d",
+        "text": "There is no distinction — both sections are identical",
+        "correct": false,
+        "feedback": "The sections have materially different mens rea requirements."
+      }
+    ],
+    "oscoa_references": [
+      "Proceeds of Crime Act 2002, ss 330, 332"
+    ]
+  },
+  {
+    "id": "d-c3-008",
+    "page": "D",
+    "section": "D4",
+    "micro_skill": "D4.2",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "money-laundering",
+      "poca",
+      "reasonable-excuse",
+      "s330-6"
+    ],
+    "question": "Which can constitute a 'reasonable excuse' defence under s 330(6)(a) POCA 2002?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Fear of reprisal from the suspected money launderer",
+        "correct": false,
+        "feedback": "Fear of reprisal alone is not typically accepted."
+      },
+      {
+        "id": "b",
+        "text": "Information came to the person in circumstances subject to legal professional privilege",
+        "correct": true,
+        "feedback": "Correct. s 330(10) preserves legal professional privilege. Information obtained in privileged circumstances need not be disclosed."
+      },
+      {
+        "id": "c",
+        "text": "The transaction was relatively low in value",
+        "correct": false,
+        "feedback": "Low value does not alone constitute a reasonable excuse."
+      },
+      {
+        "id": "d",
+        "text": "The discloser was too busy to make a report",
+        "correct": false,
+        "feedback": "Operational pressure is not a reasonable excuse."
+      }
+    ],
+    "oscoa_references": [
+      "Proceeds of Crime Act 2002, ss 330(6)(a), 330(10)"
+    ]
+  },
+  {
+    "id": "d-c3-009",
+    "page": "D",
+    "section": "D4",
+    "micro_skill": "D4.2",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "money-laundering",
+      "poca",
+      "loophole",
+      "legal-professional-privilege"
+    ],
+    "question": "How can legal professional privilege be deployed as a defence to a failure to disclose charge under s 330?",
+    "options": [
+      {
+        "id": "a",
+        "text": "By claiming privilege over all client communications",
+        "correct": false,
+        "feedback": "Privilege is not blanket — it applies where communications are for the dominant purpose of legal advice or contemplated litigation."
+      },
+      {
+        "id": "b",
+        "text": "By demonstrating the information came in privileged circumstances — s 330(10) preserves privilege as a complete defence",
+        "correct": true,
+        "feedback": "Correct. s 330(10) POCA 2002 — where information is obtained in privileged circumstances, the regulated professional is not required to disclose."
+      },
+      {
+        "id": "c",
+        "text": "By waiving privilege and making full disclosure to the NCA after prosecution",
+        "correct": false,
+        "feedback": "Post-prosecution disclosure is not a defence; the offence is committed at the time of failure."
+      },
+      {
+        "id": "d",
+        "text": "By arguing GDPR overrides POCA disclosure obligations",
+        "correct": false,
+        "feedback": "GDPR does not override POCA; legal professional privilege is the relevant protection."
+      }
+    ],
+    "oscoa_references": [
+      "Proceeds of Crime Act 2002, s 330(10)"
+    ]
+  },
+  {
+    "id": "d-c3-010",
+    "page": "D",
+    "section": "D4",
+    "micro_skill": "D4.3",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "money-laundering",
+      "tipping-off",
+      "s333A"
+    ],
+    "question": "Under s 333A POCA 2002 (as amended), tipping off occurs when a person:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Makes a SAR to the NCA that is later found unnecessary",
+        "correct": false,
+        "feedback": "Making a SAR is not tipping off — it is encouraged."
+      },
+      {
+        "id": "b",
+        "text": "Discloses information likely to prejudice a money laundering investigation",
+        "correct": true,
+        "feedback": "Correct. s 333A criminalises disclosing information likely to prejudice an ongoing or prospective ML investigation."
+      },
+      {
+        "id": "c",
+        "text": "Accepts payment from a client suspected of money laundering",
+        "correct": false,
+        "feedback": "This is an acquisition offence under s 329, not tipping off."
+      },
+      {
+        "id": "d",
+        "text": "Reports suspicious activity to a person higher up within the same firm",
+        "correct": false,
+        "feedback": "Disclosures within the same undertaking are permitted under s 333B."
+      }
+    ],
+    "oscoa_references": [
+      "Proceeds of Crime Act 2002, s 333A"
+    ]
+  },
+  {
+    "id": "d-c3-011",
+    "page": "D",
+    "section": "D4",
+    "micro_skill": "D4.3",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "money-laundering",
+      "tipping-off",
+      "s333B",
+      "same-undertaking"
+    ],
+    "question": "Under s 333B POCA 2002, a disclosure does not constitute tipping off if made:",
+    "options": [
+      {
+        "id": "a",
+        "text": "To the client who is the subject of the investigation",
+        "correct": false,
+        "feedback": "Disclosure to the subject is precisely what tipping off prevents."
+      },
+      {
+        "id": "b",
+        "text": "Within the same undertaking to a nominated officer or MLRO",
+        "correct": true,
+        "feedback": "Correct. s 333B permits disclosures within the same undertaking, enabling internal escalation without committing tipping off."
+      },
+      {
+        "id": "c",
+        "text": "To any other professional in the same industry",
+        "correct": false,
+        "feedback": "The exception is limited to within the same undertaking."
+      },
+      {
+        "id": "d",
+        "text": "To the media in the public interest",
+        "correct": false,
+        "feedback": "Disclosure to the media is not within the s 333B exception."
+      }
+    ],
+    "oscoa_references": [
+      "Proceeds of Crime Act 2002, s 333B"
+    ]
+  },
+  {
+    "id": "d-c3-012",
+    "page": "D",
+    "section": "D4",
+    "micro_skill": "D4.3",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": [
+      "money-laundering",
+      "tipping-off",
+      "loophole",
+      "safe-communication"
+    ],
+    "question": "What safe communication strategy avoids tipping off while allowing a professional to advise a client?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Inform the client that a SAR has been filed and explain its contents",
+        "correct": false,
+        "feedback": "This is precisely what tipping off prohibits."
+      },
+      {
+        "id": "b",
+        "text": "Inform the client of legal obligations generally without linking to any specific SAR or investigation",
+        "correct": true,
+        "feedback": "Correct. General discussion of obligations without referencing any specific SAR or investigation avoids tipping off while fulfilling professional duties."
+      },
+      {
+        "id": "c",
+        "text": "Refuse to communicate with the client after filing a SAR",
+        "correct": false,
+        "feedback": "Complete withdrawal is not required — safe, non-prejudicial communication is possible."
+      },
+      {
+        "id": "d",
+        "text": "Seek the NCA's permission before any communication with the client",
+        "correct": false,
+        "feedback": "NCA permission is not required for general communications."
+      }
+    ],
+    "oscoa_references": [
+      "Proceeds of Crime Act 2002, s 333A"
+    ]
+  },
+  {
+    "id": "d-c3-013",
+    "page": "D",
+    "section": "D5",
+    "micro_skill": "D5.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "mlr-2017",
+      "cdd",
+      "customer-due-diligence",
+      "reg-27"
+    ],
+    "question": "Under MLR 2017, regs 27-30, customer due diligence requires a relevant person to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Only verify the customer's name and address",
+        "correct": false,
+        "feedback": "CDD requires more than name and address verification."
+      },
+      {
+        "id": "b",
+        "text": "Identify the customer, verify identity, identify the beneficial owner, and assess the purpose and intended nature of the business relationship",
+        "correct": true,
+        "feedback": "Correct. MLR 2017, regs 27-30 require identification and verification of customer and beneficial owner, plus assessment of purpose and intended nature."
+      },
+      {
+        "id": "c",
+        "text": "Only verify the customer's source of funds",
+        "correct": false,
+        "feedback": "Source of funds checks are part of EDD, not baseline CDD."
+      },
+      {
+        "id": "d",
+        "text": "Conduct CDD only when opening a bank account",
+        "correct": false,
+        "feedback": "CDD is required in broader circumstances, including occasional transactions and when ML suspicion arises."
+      }
+    ],
+    "oscoa_references": [
+      "Money Laundering, Terrorist Financing and Transfer of Funds (Information on the Payer) Regulations 2017, regs 27-30"
+    ]
+  },
+  {
+    "id": "d-c3-014",
+    "page": "D",
+    "section": "D5",
+    "micro_skill": "D5.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "mlr-2017",
+      "sdd",
+      "simplified-due-diligence",
+      "reg-37"
+    ],
+    "question": "Simplified due diligence under reg 37 MLR 2017 may be applied where:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The customer is a politically exposed person",
+        "correct": false,
+        "feedback": "PEPs require enhanced due diligence, not simplified."
+      },
+      {
+        "id": "b",
+        "text": "The business relationship or transaction presents a low degree of risk of money laundering",
+        "correct": true,
+        "feedback": "Correct. SDD under reg 37 is permitted only where there is low risk, following an adequate assessment."
+      },
+      {
+        "id": "c",
+        "text": "The customer operates in a high-risk third country",
+        "correct": false,
+        "feedback": "High-risk jurisdictions require EDD, not SDD."
+      },
+      {
+        "id": "d",
+        "text": "The customer makes a one-off transaction exceeding €15,000",
+        "correct": false,
+        "feedback": "A high-value one-off transaction typically triggers full CDD, not SDD."
+      }
+    ],
+    "oscoa_references": [
+      "Money Laundering, Terrorist Financing and Transfer of Funds (Information on the Payer) Regulations 2017, reg 37"
+    ]
+  },
+  {
+    "id": "d-c3-015",
+    "page": "D",
+    "section": "D5",
+    "micro_skill": "D5.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "mlr-2017",
+      "pep",
+      "edd",
+      "politically-exposed-person",
+      "reg-35"
+    ],
+    "question": "Under reg 35 MLR 2017, which of the following requires enhanced due diligence as a PEP?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Any person who was a Member of Parliament over 10 years ago",
+        "correct": false,
+        "feedback": "PEP status generally applies to those currently entrusted with prominent public functions, and for 12 months after."
+      },
+      {
+        "id": "b",
+        "text": "Family members and known close associates of a PEP",
+        "correct": true,
+        "feedback": "Correct. reg 35(5)-(7) extends EDD requirements to family members (spouse, children, parents) and any person known to be a close associate of a PEP."
+      },
+      {
+        "id": "c",
+        "text": "Any employee of a government department",
+        "correct": false,
+        "feedback": "Junior government employees are not PEPs — the definition is limited to prominent public functions."
+      },
+      {
+        "id": "d",
+        "text": "Only heads of state and government ministers",
+        "correct": false,
+        "feedback": "The definition includes MPs, supreme court judges, and senior executives of state-owned enterprises."
+      }
+    ],
+    "oscoa_references": [
+      "Money Laundering, Terrorist Financing and Transfer of Funds (Information on the Payer) Regulations 2017, reg 35"
+    ]
+  },
+  {
+    "id": "d-c3-016",
+    "page": "D",
+    "section": "D5",
+    "micro_skill": "D5.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "mlr-2017",
+      "edd",
+      "enhanced-due-diligence",
+      "reg-33"
+    ],
+    "question": "Enhanced due diligence under reg 33 MLR 2017 is required where:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The customer is a UK-registered public limited company",
+        "correct": false,
+        "feedback": "PLCs are generally lower risk and may fall within SDD."
+      },
+      {
+        "id": "b",
+        "text": "The customer is established in a high-risk third country",
+        "correct": true,
+        "feedback": "Correct. reg 33 requires EDD where the customer is established in a high-risk third country, the transaction is complex/unusually large, or the customer is a PEP."
+      },
+      {
+        "id": "c",
+        "text": "The transaction is under £1,000",
+        "correct": false,
+        "feedback": "Low-value transactions do not automatically require EDD."
+      },
+      {
+        "id": "d",
+        "text": "The customer is an existing client with an established relationship",
+        "correct": false,
+        "feedback": "Existing relationships require ongoing monitoring, but EDD is triggered by specific risk factors."
+      }
+    ],
+    "oscoa_references": [
+      "Money Laundering, Terrorist Financing and Transfer of Funds (Information on the Payer) Regulations 2017, reg 33"
+    ]
+  },
+  {
+    "id": "d-c3-017",
+    "page": "D",
+    "section": "D5",
+    "micro_skill": "D5.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "mlr-2017",
+      "cdd",
+      "third-party-reliance",
+      "reg-39"
+    ],
+    "question": "Under reg 39 MLR 2017, reliance on third-party CDD means:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The relying firm is discharged from all CDD responsibility",
+        "correct": false,
+        "feedback": "Ultimate responsibility remains with the relying firm."
+      },
+      {
+        "id": "b",
+        "text": "The relying firm remains ultimately responsible; must obtain CDD information from the third party on request without delay",
+        "correct": true,
+        "feedback": "Correct. reg 39 permits third-party reliance but ultimate responsibility stays with the relying firm, which must promptly obtain the information upon request."
+      },
+      {
+        "id": "c",
+        "text": "Only banks may be relied upon for third-party CDD",
+        "correct": false,
+        "feedback": "A range of regulated entities are eligible third parties, not only banks."
+      },
+      {
+        "id": "d",
+        "text": "The relying firm need not verify the third party's regulatory status",
+        "correct": false,
+        "feedback": "The firm must ensure the third party is adequately regulated and supervised."
+      }
+    ],
+    "oscoa_references": [
+      "Money Laundering, Terrorist Financing and Transfer of Funds (Information on the Payer) Regulations 2017, reg 39"
+    ]
+  },
+  {
+    "id": "d-c3-018",
+    "page": "D",
+    "section": "D5",
+    "micro_skill": "D5.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "mlr-2017",
+      "pep",
+      "loophole",
+      "known-close-associate"
+    ],
+    "question": "What argument can challenge whether a person qualifies as a 'known close associate' of a PEP under reg 35 MLR 2017?",
+    "options": [
+      {
+        "id": "a",
+        "text": "PEP status expires after the PEP leaves office, so EDD is never required",
+        "correct": false,
+        "feedback": "While PEP status does expire, this goes to the PEP themselves, not the close associate definition."
+      },
+      {
+        "id": "b",
+        "text": "The term 'known' introduces a knowledge requirement — if the firm was not actually aware of the close association, EDD may not have been triggered",
+        "correct": true,
+        "feedback": "Correct. The word 'known' in reg 35(7) creates an interpretative gap: EDD obligations arise only where the association is actually known to the firm, not where it might have been discovered through reasonable enquiry."
+      },
+      {
+        "id": "c",
+        "text": "Only UK PEPs are within the scope of MLR 2017",
+        "correct": false,
+        "feedback": "MLR 2017 applies to all PEPs, domestic or foreign."
+      },
+      {
+        "id": "d",
+        "text": "Family members are excluded if the PEP has died",
+        "correct": false,
+        "feedback": "The Regulations do not contain a death exclusion for family members."
+      }
+    ],
+    "oscoa_references": [
+      "Money Laundering, Terrorist Financing and Transfer of Funds (Information on the Payer) Regulations 2017, reg 35"
+    ]
+  },
+  {
+    "id": "d-c3-019",
+    "page": "D",
+    "section": "D5",
+    "micro_skill": "D5.2",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "mlr-2017",
+      "risk-assessment",
+      "reg-18",
+      "firm-wide"
+    ],
+    "question": "Under reg 18 MLR 2017, a relevant person must:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Conduct CDD on every person who walks into the premises",
+        "correct": false,
+        "feedback": "CDD is required for customers entering a business relationship, not every visitor."
+      },
+      {
+        "id": "b",
+        "text": "Carry out a written firm-wide risk assessment to identify and assess the risk of money laundering and terrorist financing",
+        "correct": true,
+        "feedback": "Correct. reg 18 requires a written firm-wide risk assessment identifying and assessing ML/TF risks."
+      },
+      {
+        "id": "c",
+        "text": "Submit quarterly reports to the NCA",
+        "correct": false,
+        "feedback": "There is no blanket quarterly reporting — SARs are filed as suspicious activity arises."
+      },
+      {
+        "id": "d",
+        "text": "Employ at least one full-time compliance officer per 50 employees",
+        "correct": false,
+        "feedback": "MLR 2017 contains no such staffing ratio."
+      }
+    ],
+    "oscoa_references": [
+      "Money Laundering, Terrorist Financing and Transfer of Funds (Information on the Payer) Regulations 2017, reg 18"
+    ]
+  },
+  {
+    "id": "d-c3-020",
+    "page": "D",
+    "section": "D5",
+    "micro_skill": "D5.2",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "mlr-2017",
+      "mlro",
+      "reg-21",
+      "nominated-officer"
+    ],
+    "question": "Under reg 21 MLR 2017, what does a relevant person need to do regarding governance?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Appoint a board-level or senior management Money Laundering Reporting Officer (MLRO)",
+        "correct": true,
+        "feedback": "Correct. reg 21 requires appointment of an MLRO who is a member of the board or senior management."
+      },
+      {
+        "id": "b",
+        "text": "Outsource all AML functions to an external consultant",
+        "correct": false,
+        "feedback": "External support may be used but the appointment responsibility rests with the firm."
+      },
+      {
+        "id": "c",
+        "text": "Register the MLRO with Companies House",
+        "correct": false,
+        "feedback": "MLROs should be notified to the firm's supervisory authority, not Companies House."
+      },
+      {
+        "id": "d",
+        "text": "Appoint two MLROs to ensure segregation of duties",
+        "correct": false,
+        "feedback": "MLR 2017 does not require dual appointments."
+      }
+    ],
+    "oscoa_references": [
+      "Money Laundering, Terrorist Financing and Transfer of Funds (Information on the Payer) Regulations 2017, reg 21"
+    ]
+  },
+  {
+    "id": "d-c3-021",
+    "page": "D",
+    "section": "D5",
+    "micro_skill": "D5.2",
+    "crown_level": 3,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "mlr-2017",
+      "training",
+      "reg-24",
+      "staff"
+    ],
+    "question": "'Under reg 24 MLR 2017, relevant persons must provide AML training only to compliance or legal staff.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": false,
+        "feedback": "reg 24 requires training for all relevant employees, not only compliance or legal staff."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": true,
+        "feedback": "Correct. reg 24 requires all relevant employees be made aware of ML/TF law and regularly given training."
+      }
+    ],
+    "oscoa_references": [
+      "Money Laundering, Terrorist Financing and Transfer of Funds (Information on the Payer) Regulations 2017, reg 24"
+    ]
+  },
+  {
+    "id": "d-c4-001",
+    "page": "D",
+    "section": "D6",
+    "micro_skill": "D6.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "bribery",
+      "s1",
+      "bribing-another",
+      "bribery-act-2010"
+    ],
+    "question": "Under s 1 of the Bribery Act 2010, a person is guilty of bribing another if they offer, promise, or give a financial or other advantage:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Only to a public official holding government office",
+        "correct": false,
+        "feedback": "s 1 applies broadly to any person; bribery of foreign public officials is under s 6."
+      },
+      {
+        "id": "b",
+        "text": "Intending to induce or reward improper performance, or knowing or believing acceptance would constitute improper performance",
+        "correct": true,
+        "feedback": "Correct. s 1 — the offence is offering/promising/giving an advantage linked to improper performance of a relevant function or activity."
+      },
+      {
+        "id": "c",
+        "text": "To any person, provided the advantage exceeds £500",
+        "correct": false,
+        "feedback": "There is no de minimis threshold in the Bribery Act 2010."
+      },
+      {
+        "id": "d",
+        "text": "Only where the recipient accepts the advantage",
+        "correct": false,
+        "feedback": "The offence is complete upon offering, promising, or giving — acceptance is not required."
+      }
+    ],
+    "oscoa_references": [
+      "Bribery Act 2010, s 1"
+    ]
+  },
+  {
+    "id": "d-c4-002",
+    "page": "D",
+    "section": "D6",
+    "micro_skill": "D6.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "bribery",
+      "s2",
+      "being-bribed",
+      "requesting"
+    ],
+    "question": "Under s 2 of the Bribery Act 2010, the offence of being bribed involves:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Actually receiving a financial advantage only",
+        "correct": false,
+        "feedback": "The offence is broader — requesting or agreeing to receive is sufficient."
+      },
+      {
+        "id": "b",
+        "text": "Requesting, agreeing to receive, or accepting a financial advantage intending improper performance or where the request itself constitutes improper performance",
+        "correct": true,
+        "feedback": "Correct. s 2 captures the recipient side — requesting, agreeing to receive, or accepting with the requisite improper performance intention."
+      },
+      {
+        "id": "c",
+        "text": "Receiving a payment the recipient knows to be unlawful",
+        "correct": false,
+        "feedback": "Knowledge of unlawfulness as such is not an element; the test is improper performance."
+      },
+      {
+        "id": "d",
+        "text": "Only passive receipt of a bribe where no active steps are taken",
+        "correct": false,
+        "feedback": "Requesting and agreeing to receive are active steps captured by s 2."
+      }
+    ],
+    "oscoa_references": [
+      "Bribery Act 2010, s 2"
+    ]
+  },
+  {
+    "id": "d-c4-003",
+    "page": "D",
+    "section": "D6",
+    "micro_skill": "D6.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "bribery",
+      "s6",
+      "foreign-public-official",
+      "business-advantage"
+    ],
+    "question": "How does s 6 (bribing a foreign public official) differ from the general s 1 bribery offence?",
+    "options": [
+      {
+        "id": "a",
+        "text": "s 6 requires proof of dishonesty, unlike s 1",
+        "correct": false,
+        "feedback": "Neither s 1 nor s 6 requires proof of dishonesty."
+      },
+      {
+        "id": "b",
+        "text": "s 6 is narrower — the advantage must be intended to influence the FPO in their official capacity and to obtain/retain business or a business advantage",
+        "correct": true,
+        "feedback": "Correct. s 6 requires intention to influence in the FPO's capacity and to obtain/retain business, but does not require improper performance as an element."
+      },
+      {
+        "id": "c",
+        "text": "s 6 applies only to officials of EU member states",
+        "correct": false,
+        "feedback": "s 6 applies to foreign public officials of any country outside the UK."
+      },
+      {
+        "id": "d",
+        "text": "s 6 does not require any connection to business",
+        "correct": false,
+        "feedback": "The business advantage element is a defining feature of s 6, distinguishing it from s 1."
+      }
+    ],
+    "oscoa_references": [
+      "Bribery Act 2010, ss 1, 6"
+    ]
+  },
+  {
+    "id": "d-c4-004",
+    "page": "D",
+    "section": "D6",
+    "micro_skill": "D6.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "bribery",
+      "improper-performance",
+      "ss3-5",
+      "expectation"
+    ],
+    "question": "Under ss 3-5 of the Bribery Act 2010, improper performance means performance in breach of:",
+    "options": [
+      {
+        "id": "a",
+        "text": "A criminal statute only",
+        "correct": false,
+        "feedback": "The expectation can arise from non-statutory sources."
+      },
+      {
+        "id": "b",
+        "text": "A relevant expectation — that the function be performed in good faith, impartially, or in accordance with a position of trust",
+        "correct": true,
+        "feedback": "Correct. ss 3-5 define improper performance by reference to breach of expectation of good faith, impartiality, or trust."
+      },
+      {
+        "id": "c",
+        "text": "Any company policy, regardless of formality",
+        "correct": false,
+        "feedback": "Informal policies may not rise to a 'relevant expectation' under ss 3-5."
+      },
+      {
+        "id": "d",
+        "text": "The recipient's personal moral code",
+        "correct": false,
+        "feedback": "The test is what a reasonable person in the UK would expect, not individual morality."
+      }
+    ],
+    "oscoa_references": [
+      "Bribery Act 2010, ss 3-5"
+    ]
+  },
+  {
+    "id": "d-c4-005",
+    "page": "D",
+    "section": "D6",
+    "micro_skill": "D6.1",
+    "crown_level": 4,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "bribery",
+      "dishonesty",
+      "strict-liability-framework"
+    ],
+    "question": "'A conviction under the Bribery Act 2010 requires proof of dishonesty.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": false,
+        "feedback": "The Bribery Act 2010 was deliberately drafted without a dishonesty requirement."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": true,
+        "feedback": "Correct. The Bribery Act 2010 does not require proof of dishonesty. The focus is on offering/giving an advantage linked to improper performance."
+      }
+    ],
+    "oscoa_references": [
+      "Bribery Act 2010, ss 1-2"
+    ]
+  },
+  {
+    "id": "d-c4-006",
+    "page": "D",
+    "section": "D6",
+    "micro_skill": "D6.2",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "bribery",
+      "corporate-offence",
+      "s7",
+      "failure-to-prevent"
+    ],
+    "question": "Under s 7 of the Bribery Act 2010, a commercial organisation commits an offence if:",
+    "options": [
+      {
+        "id": "a",
+        "text": "A director personally pays a bribe",
+        "correct": false,
+        "feedback": "This may engage personal liability under s 1 or 2; s 7 is about associated persons."
+      },
+      {
+        "id": "b",
+        "text": "A person associated with the organisation bribes another intending to obtain/retain business or a business advantage for the organisation",
+        "correct": true,
+        "feedback": "Correct. s 7 creates strict liability corporate offence when an associated person bribes intending to benefit the organisation."
+      },
+      {
+        "id": "c",
+        "text": "The organisation fails to report bribery to the SFO within 30 days",
+        "correct": false,
+        "feedback": "There is no statutory reporting deadline; the offence is triggered by the bribery itself."
+      },
+      {
+        "id": "d",
+        "text": "The organisation's turnover exceeds £36 million",
+        "correct": false,
+        "feedback": "s 7 applies to all commercial organisations, regardless of turnover."
+      }
+    ],
+    "oscoa_references": [
+      "Bribery Act 2010, s 7"
+    ]
+  },
+  {
+    "id": "d-c4-007",
+    "page": "D",
+    "section": "D6",
+    "micro_skill": "D6.2",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "bribery",
+      "adequate-procedures",
+      "s7-2",
+      "defence"
+    ],
+    "question": "What is the statutory defence for a commercial organisation charged under s 7 Bribery Act 2010?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The organisation had no actual knowledge of the bribery",
+        "correct": false,
+        "feedback": "No actual knowledge is required for s 7 liability — the defence is based on procedures."
+      },
+      {
+        "id": "b",
+        "text": "The organisation had adequate procedures in place designed to prevent bribery by associated persons",
+        "correct": true,
+        "feedback": "Correct. s 7(2) provides the 'adequate procedures' defence — a complete defence if proved."
+      },
+      {
+        "id": "c",
+        "text": "The bribe was of negligible value",
+        "correct": false,
+        "feedback": "There is no de minimis exception in the Bribery Act 2010."
+      },
+      {
+        "id": "d",
+        "text": "The associated person was acting outside the scope of their authority",
+        "correct": false,
+        "feedback": "s 7 extends to associated persons regardless of authority; the defence is procedures-based."
+      }
+    ],
+    "oscoa_references": [
+      "Bribery Act 2010, s 7(2)"
+    ]
+  },
+  {
+    "id": "d-c4-008",
+    "page": "D",
+    "section": "D6",
+    "micro_skill": "D6.2",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "bribery",
+      "adequate-procedures",
+      "moj-guidance",
+      "six-principles"
+    ],
+    "question": "The MOJ Guidance on the Bribery Act 2010 identifies six principles for adequate procedures. Which is one of them?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Mandatory polygraph testing for all employees",
+        "correct": false,
+        "feedback": "Polygraphs are not part of the MOJ Guidance."
+      },
+      {
+        "id": "b",
+        "text": "Proportionate procedures",
+        "correct": true,
+        "feedback": "Correct. The six principles are: (1) proportionate procedures, (2) top-level commitment, (3) risk assessment, (4) due diligence, (5) communication (including training), and (6) monitoring and review."
+      },
+      {
+        "id": "c",
+        "text": "Mandatory external audit by an SFO-approved firm",
+        "correct": false,
+        "feedback": "External audit is recommended in monitoring/review but not mandatory."
+      },
+      {
+        "id": "d",
+        "text": "Mandatory dismissal for employees who fail to complete anti-bribery training",
+        "correct": false,
+        "feedback": "No mandatory dismissal requirement exists."
+      }
+    ],
+    "oscoa_references": [
+      "Bribery Act 2010, s 7",
+      "Ministry of Justice, The Bribery Act 2010: Guidance (2011)"
+    ]
+  },
+  {
+    "id": "d-c4-009",
+    "page": "D",
+    "section": "D6",
+    "micro_skill": "D6.2",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "bribery",
+      "adequate-procedures",
+      "loophole",
+      "compliance-defence"
+    ],
+    "question": "What is the most effective tactical approach to ensure an organisation can rely on the 'adequate procedures' defence?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Implement a written anti-bribery policy and circulate it once to all staff",
+        "correct": false,
+        "feedback": "One-time circulation is insufficient — the defence requires ongoing implementation, monitoring, and review."
+      },
+      {
+        "id": "b",
+        "text": "Implement and document all six MOJ principles supported by an independent external compliance audit",
+        "correct": true,
+        "feedback": "Correct. s 7(2) defence is fact-sensitive; satisfying all six MOJ principles with documented evidence and independent audit provides the strongest foundation."
+      },
+      {
+        "id": "c",
+        "text": "Rely on the fact that no bribery has been detected to date",
+        "correct": false,
+        "feedback": "Absence of detected bribery does not prove adequate procedures were in place."
+      },
+      {
+        "id": "d",
+        "text": "Delegate all anti-bribery compliance to a junior HR officer",
+        "correct": false,
+        "feedback": "Top-level commitment (principle 2) requires board-level ownership."
+      }
+    ],
+    "oscoa_references": [
+      "Bribery Act 2010, s 7(2)",
+      "Ministry of Justice, The Bribery Act 2010: Guidance (2011)"
+    ]
+  },
+  {
+    "id": "d-c4-010",
+    "page": "D",
+    "section": "D6",
+    "micro_skill": "D6.3",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "bribery",
+      "facilitation-payments",
+      "fcpa",
+      "no-exception"
+    ],
+    "question": "How does the UK Bribery Act 2010 treat facilitation payments compared to the US Foreign Corrupt Practices Act?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Both permit facilitation payments where local custom expects them",
+        "correct": false,
+        "feedback": "This is not correct for the UK Bribery Act."
+      },
+      {
+        "id": "b",
+        "text": "The US FCPA expressly exempts facilitation payments; the UK Bribery Act has no such exception",
+        "correct": true,
+        "feedback": "Correct. The US FCPA exempts small payments for routine governmental action. The UK Bribery Act has no facilitation payment exception."
+      },
+      {
+        "id": "c",
+        "text": "The UK Bribery Act permits facilitation payments below £25",
+        "correct": false,
+        "feedback": "There is no de minimis monetary threshold."
+      },
+      {
+        "id": "d",
+        "text": "Both treat facilitation payments as criminal with no exceptions",
+        "correct": false,
+        "feedback": "The US FCPA does have an express facilitation payment exception."
+      }
+    ],
+    "oscoa_references": [
+      "Bribery Act 2010",
+      "US Foreign Corrupt Practices Act 1977"
+    ]
+  },
+  {
+    "id": "d-c4-011",
+    "page": "D",
+    "section": "D6",
+    "micro_skill": "D6.3",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": [
+      "bribery",
+      "facilitation-payments",
+      "loophole",
+      "prosecutorial-discretion",
+      "self-report"
+    ],
+    "question": "What is the primary tactical response for a company discovering it has made a facilitation payment?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Conceal the payment and enhance future compliance",
+        "correct": false,
+        "feedback": "Concealing is itself a criminal offence and aggravates any prosecution."
+      },
+      {
+        "id": "b",
+        "text": "Self-report to the SFO, demonstrate remediation, and rely on prosecutorial discretion",
+        "correct": true,
+        "feedback": "Correct. The SFO/CPS Guidance indicates prosecution is less likely where the matter is self-reported, with no prior convictions and remediation."
+      },
+      {
+        "id": "c",
+        "text": "Claim the payment was a legitimate business expense for tax purposes",
+        "correct": false,
+        "feedback": "Claiming a bribe as a business expense is a separate offence."
+      },
+      {
+        "id": "d",
+        "text": "Argue the payment was lawful under local law",
+        "correct": false,
+        "feedback": "Local lawfulness is not a defence under the Bribery Act 2010."
+      }
+    ],
+    "oscoa_references": [
+      "Bribery Act 2010",
+      "SFO/CPS Joint Prosecution Guidance on the Bribery Act 2010"
+    ]
+  },
+  {
+    "id": "d-c4-012",
+    "page": "D",
+    "section": "D6",
+    "micro_skill": "D6.3",
+    "crown_level": 4,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "bribery",
+      "facilitation-payments",
+      "de-minimis"
+    ],
+    "question": "'The Bribery Act 2010 contains a de minimis exception for facilitation payments under £50.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": false,
+        "feedback": "The Bribery Act 2010 has no de minimis exception — all facilitation payments are potentially criminal."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": true,
+        "feedback": "Correct. The UK Bribery Act contains no monetary de minimis exception for facilitation payments."
+      }
+    ],
+    "oscoa_references": [
+      "Bribery Act 2010"
+    ]
+  },
+  {
+    "id": "d-c4-013",
+    "page": "D",
+    "section": "D7",
+    "micro_skill": "D7.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "sanctions",
+      "samla",
+      "post-brexit",
+      "framework"
+    ],
+    "question": "Which statute provides the post-Brexit autonomous UK sanctions framework?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Policing and Crime Act 2017",
+        "correct": false,
+        "feedback": "PCA 2017 introduced civil monetary penalties, but the framework statute is SAMLA 2018."
+      },
+      {
+        "id": "b",
+        "text": "Sanctions and Anti-Money Laundering Act 2018",
+        "correct": true,
+        "feedback": "Correct. SAMLA 2018 provides the legal framework for the UK's autonomous post-Brexit sanctions regime."
+      },
+      {
+        "id": "c",
+        "text": "Criminal Finances Act 2017",
+        "correct": false,
+        "feedback": "CFA 2017 deals with UWOs and account freezing, not the core sanctions framework."
+      },
+      {
+        "id": "d",
+        "text": "Serious Crime Act 2007",
+        "correct": false,
+        "feedback": "SCA 2007 deals with encouraging or assisting crime, not sanctions."
+      }
+    ],
+    "oscoa_references": [
+      "Sanctions and Anti-Money Laundering Act 2018"
+    ]
+  },
+  {
+    "id": "d-c4-014",
+    "page": "D",
+    "section": "D7",
+    "micro_skill": "D7.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "sanctions",
+      "ofsi",
+      "civil-penalty",
+      "strict-liability",
+      "pca-2017"
+    ],
+    "question": "Under s 146 Policing and Crime Act 2017, OFSI may impose civil penalties on what basis?",
+    "options": [
+      {
+        "id": "a",
+        "text": "On proof of knowledge or reasonable cause to suspect",
+        "correct": false,
+        "feedback": "This is the criminal standard, not civil."
+      },
+      {
+        "id": "b",
+        "text": "On a strict liability basis — knowledge or reasonable cause to suspect is not required",
+        "correct": true,
+        "feedback": "Correct. s 146 PCA 2017 — civil monetary penalties are strict liability. Criminal prosecution requires knowledge/reasonable cause to suspect (SAMLA 2018, s 13)."
+      },
+      {
+        "id": "c",
+        "text": "Only on proof beyond reasonable doubt",
+        "correct": false,
+        "feedback": "Civil penalties are on the balance of probabilities."
+      },
+      {
+        "id": "d",
+        "text": "Only where criminal prosecution has been unsuccessful",
+        "correct": false,
+        "feedback": "Civil and criminal sanctions are parallel enforcement options."
+      }
+    ],
+    "oscoa_references": [
+      "Policing and Crime Act 2017, s 146",
+      "Sanctions and Anti-Money Laundering Act 2018, s 13"
+    ]
+  },
+  {
+    "id": "d-c4-015",
+    "page": "D",
+    "section": "D7",
+    "micro_skill": "D7.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "sanctions",
+      "loophole",
+      "non-knowledge",
+      "criminal-vs-civil"
+    ],
+    "question": "What key distinction exists between criminal and civil liability for UK sanctions breaches?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Civil penalties require proof of dishonesty; criminal prosecution does not",
+        "correct": false,
+        "feedback": "Neither requires proof of dishonesty."
+      },
+      {
+        "id": "b",
+        "text": "Criminal prosecution requires knowledge or reasonable cause to suspect; civil penalties are strict liability",
+        "correct": true,
+        "feedback": "Correct. Criminal liability under SAMLA 2018 s 13 requires knowledge/reasonable cause to suspect. Civil penalties under PCA 2017 s 146 are strict liability — a key tactical point for defence."
+      },
+      {
+        "id": "c",
+        "text": "There is no distinction — both are judged on the same standard",
+        "correct": false,
+        "feedback": "The standards differ significantly."
+      },
+      {
+        "id": "d",
+        "text": "Criminal applies only to UK nationals; civil applies to all",
+        "correct": false,
+        "feedback": "Both apply to all within UK jurisdiction."
+      }
+    ],
+    "oscoa_references": [
+      "Sanctions and Anti-Money Laundering Act 2018, s 13",
+      "Policing and Crime Act 2017, s 146"
+    ]
+  },
+  {
+    "id": "d-c4-016",
+    "page": "D",
+    "section": "D7",
+    "micro_skill": "D7.2",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "sanctions",
+      "evasion",
+      "crypto-assets",
+      "asset-freeze"
+    ],
+    "question": "Which is a recognised sanctions evasion technique?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Filing a SAR with the NCA before a transaction",
+        "correct": false,
+        "feedback": "Filing a SAR is a compliance measure, not an evasion technique."
+      },
+      {
+        "id": "b",
+        "text": "Using decentralised cryptocurrency exchanges and non-custodial wallets to circumvent asset freezes",
+        "correct": true,
+        "feedback": "Correct. DEXs, unhosted wallets, and privacy coins to evade financial controls is a recognised evasion technique."
+      },
+      {
+        "id": "c",
+        "text": "Registering with OFSI before conducting international transactions",
+        "correct": false,
+        "feedback": "OFSI registration is a compliance step, not evasion."
+      },
+      {
+        "id": "d",
+        "text": "Obtaining an OFSI licence for a specific transaction",
+        "correct": false,
+        "feedback": "Licensing is a lawful route, not an evasion technique."
+      }
+    ],
+    "oscoa_references": [
+      "Sanctions and Anti-Money Laundering Act 2018"
+    ]
+  },
+  {
+    "id": "d-c4-017",
+    "page": "D",
+    "section": "D7",
+    "micro_skill": "D7.2",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "sanctions",
+      "evasion",
+      "transhipment",
+      "trade-sanctions"
+    ],
+    "question": "Routing restricted goods through a non-sanctioned third country before onward shipment to a sanctioned destination is known as:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Triangulation",
+        "correct": false,
+        "feedback": "While conceptually similar, the specific trade sanctions term is different."
+      },
+      {
+        "id": "b",
+        "text": "Transhipment",
+        "correct": true,
+        "feedback": "Correct. Transhipment — routing goods through a third country to obscure the ultimate destination and evade trade sanctions."
+      },
+      {
+        "id": "c",
+        "text": "Circumvention by proxy",
+        "correct": false,
+        "feedback": "This is not the standard term in sanctions compliance."
+      },
+      {
+        "id": "d",
+        "text": "Parallel importation",
+        "correct": false,
+        "feedback": "Parallel importation concerns IP and territorial licensing, not sanctions evasion."
+      }
+    ],
+    "oscoa_references": [
+      "Sanctions and Anti-Money Laundering Act 2018"
+    ]
+  },
+  {
+    "id": "d-c4-018",
+    "page": "D",
+    "section": "D8",
+    "micro_skill": "D8.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "insider-dealing",
+      "cja-1993",
+      "s52",
+      "elements"
+    ],
+    "question": "Under s 52 of the Criminal Justice Act 1993, the insider dealing offence is committed where a person:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Deals in any securities while possessing any non-public information",
+        "correct": false,
+        "feedback": "The information must be 'inside information' as defined, and the person must be an 'insider'."
+      },
+      {
+        "id": "b",
+        "text": "Deals in price-affected securities on a regulated market while in possession of inside information as an insider",
+        "correct": true,
+        "feedback": "Correct. s 52 CJA 1993 — dealing in price-affected securities on a regulated market while an insider in possession of inside information."
+      },
+      {
+        "id": "c",
+        "text": "Provides financial advice without FCA authorisation",
+        "correct": false,
+        "feedback": "Unauthorised advice is a regulatory matter, not insider dealing under CJA 1993."
+      },
+      {
+        "id": "d",
+        "text": "Short sells securities on any exchange worldwide",
+        "correct": false,
+        "feedback": "Short selling alone is not insider dealing — the possession of inside information is the key."
+      }
+    ],
+    "oscoa_references": [
+      "Criminal Justice Act 1993, s 52"
+    ]
+  },
+  {
+    "id": "d-c4-019",
+    "page": "D",
+    "section": "D8",
+    "micro_skill": "D8.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "insider-dealing",
+      "cja-1993",
+      "s56",
+      "inside-information"
+    ],
+    "question": "Under s 56 CJA 1993, inside information is information that is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Any information about a company that is not in the public domain",
+        "correct": false,
+        "feedback": "The definition is more precise than simply 'not public'."
+      },
+      {
+        "id": "b",
+        "text": "Specific or precise, not generally available, and would if made public be likely to have a significant effect on the price of securities",
+        "correct": true,
+        "feedback": "Correct. s 56 — inside information must be (a) specific/precise, (b) not generally available, (c) likely to significantly affect price if made public."
+      },
+      {
+        "id": "c",
+        "text": "Any information held by a company director",
+        "correct": false,
+        "feedback": "Not all information held by directors qualifies as inside information."
+      },
+      {
+        "id": "d",
+        "text": "Only information about takeover bids and mergers",
+        "correct": false,
+        "feedback": "Inside information covers a broader range than takeovers and mergers."
+      }
+    ],
+    "oscoa_references": [
+      "Criminal Justice Act 1993, s 56"
+    ]
+  },
+  {
+    "id": "d-c4-020",
+    "page": "D",
+    "section": "D8",
+    "micro_skill": "D8.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "insider-dealing",
+      "cja-1993",
+      "s57",
+      "s53",
+      "defences"
+    ],
+    "question": "Under ss 53-54 and Schedule 1 CJA 1993, which is a defence to insider dealing?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The defendant did not profit from the transaction",
+        "correct": false,
+        "feedback": "Profit is not an element of the offence; lack of profit is not a defence."
+      },
+      {
+        "id": "b",
+        "text": "The defendant would have dealt in the securities even without the inside information",
+        "correct": true,
+        "feedback": "Correct. s 53(1)(c) and Schedule 1 — a defence exists where D would have done what they did even if they had not had the inside information."
+      },
+      {
+        "id": "c",
+        "text": "The defendant disclosed the information to the FCA before trading",
+        "correct": false,
+        "feedback": "Prior disclosure to the FCA is not a statutory defence."
+      },
+      {
+        "id": "d",
+        "text": "The securities were purchased for less than £10,000",
+        "correct": false,
+        "feedback": "There is no de minimis threshold for insider dealing."
+      }
+    ],
+    "oscoa_references": [
+      "Criminal Justice Act 1993, ss 53-54, Schedule 1"
+    ]
+  },
+  {
+    "id": "d-c4-021",
+    "page": "D",
+    "section": "D8",
+    "micro_skill": "D8.2",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "market-abuse",
+      "mar",
+      "fsma-2000",
+      "fca"
+    ],
+    "question": "Under the Market Abuse Regulation (EU 596/2014 — retained EU law), the FCA can enforce against:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Criminal market abuse only, through the criminal courts",
+        "correct": false,
+        "feedback": "MAR provides for both criminal and civil enforcement."
+      },
+      {
+        "id": "b",
+        "text": "Insider dealing, unlawful disclosure of inside information, and market manipulation — through civil fines, prohibition orders, and restitution",
+        "correct": true,
+        "feedback": "Correct. MAR provides the FCA with civil enforcement powers including fines, prohibition orders, and restitution for market abuse."
+      },
+      {
+        "id": "c",
+        "text": "Only market manipulation by listed companies",
+        "correct": false,
+        "feedback": "The scope extends to individuals and across multiple categories of market abuse."
+      },
+      {
+        "id": "d",
+        "text": "Only activities on the London Stock Exchange",
+        "correct": false,
+        "feedback": "MAR applies across UK regulated markets, not only the LSE."
+      }
+    ],
+    "oscoa_references": [
+      "Financial Services and Markets Act 2000, Part VII",
+      "Market Abuse Regulation (EU) 596/2014"
+    ]
+  },
+  {
+    "id": "d-c4-022",
+    "page": "D",
+    "section": "D8",
+    "micro_skill": "D8.2",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "market-abuse",
+      "mar",
+      "accepted-market-practices",
+      "art-13"
+    ],
+    "question": "Under MAR Article 13, a defence to market manipulation exists where:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The behaviour was negligent but not intentional",
+        "correct": false,
+        "feedback": "Negligence is not the standard for the defence."
+      },
+      {
+        "id": "b",
+        "text": "The behaviour falls within accepted market practices established by the FCA",
+        "correct": true,
+        "feedback": "Correct. MAR Art 13 provides a defence where the transaction/behaviour falls within an accepted market practice established by the competent authority."
+      },
+      {
+        "id": "c",
+        "text": "The FCA has granted a specific exemption for the transaction",
+        "correct": false,
+        "feedback": "The defence is based on accepted market practices, not individual exemptions."
+      },
+      {
+        "id": "d",
+        "text": "The amount involved is below £100,000",
+        "correct": false,
+        "feedback": "There is no de minimis threshold for market abuse."
+      }
+    ],
+    "oscoa_references": [
+      "Market Abuse Regulation (EU) 596/2014, Art 13"
+    ]
+  },
+  {
+    "id": "d-c5-001",
+    "page": "D",
+    "section": "D9",
+    "micro_skill": "D9.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "confiscation",
+      "poca",
+      "part-2",
+      "criminal-lifestyle"
+    ],
+    "question": "Under POCA 2002 Part 2, a confiscation order is made:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Only where the defendant has been convicted of a drug trafficking offence",
+        "correct": false,
+        "feedback": "Drug trafficking is one trigger for the criminal lifestyle test, but confiscation is broader."
+      },
+      {
+        "id": "b",
+        "text": "Following conviction, requiring the defendant to pay the recoverable amount of their benefit from criminal conduct",
+        "correct": true,
+        "feedback": "Correct. POCA 2002 Part 2 — a confiscation order requires payment of the recoverable amount following conviction."
+      },
+      {
+        "id": "c",
+        "text": "Before conviction, based on suspicion of criminal property",
+        "correct": false,
+        "feedback": "Confiscation follows conviction; civil recovery (Part 5) does not require conviction."
+      },
+      {
+        "id": "d",
+        "text": "Only for offences committed after 2010",
+        "correct": false,
+        "feedback": "POCA 2002 has been in force since 2003 and applies to offences after its commencement."
+      }
+    ],
+    "oscoa_references": [
+      "Proceeds of Crime Act 2002, Part 2"
+    ]
+  },
+  {
+    "id": "d-c5-002",
+    "page": "D",
+    "section": "D9",
+    "micro_skill": "D9.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "confiscation",
+      "criminal-lifestyle",
+      "s75",
+      "schedule-2"
+    ],
+    "question": "Under s 75 and Schedule 2 POCA 2002, a defendant has a 'criminal lifestyle' if they have been convicted of:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Any offence, provided they have three or more previous convictions",
+        "correct": false,
+        "feedback": "The criminal lifestyle test is offence-specific, not based on number of convictions."
+      },
+      {
+        "id": "b",
+        "text": "Drug trafficking, money laundering, directing terrorism, people trafficking, arms trafficking, counterfeiting, and other specified offences",
+        "correct": true,
+        "feedback": "Correct. s 75 and Schedule 2 list specific offence categories triggering the criminal lifestyle assumptions."
+      },
+      {
+        "id": "c",
+        "text": "Any offence punishable by more than 7 years imprisonment",
+        "correct": false,
+        "feedback": "The test is not purely sentence-based — it depends on the category of offence."
+      },
+      {
+        "id": "d",
+        "text": "Only offences committed as part of organised crime",
+        "correct": false,
+        "feedback": "The Schedule 2 offences are specific, not defined by organised crime membership."
+      }
+    ],
+    "oscoa_references": [
+      "Proceeds of Crime Act 2002, s 75, Schedule 2"
+    ]
+  },
+  {
+    "id": "d-c5-003",
+    "page": "D",
+    "section": "D9",
+    "micro_skill": "D9.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "confiscation",
+      "statutory-assumptions",
+      "s10",
+      "criminal-lifestyle"
+    ],
+    "question": "Under s 10 POCA 2002, where a defendant has a criminal lifestyle, what assumptions does the court make?",
+    "options": [
+      {
+        "id": "a",
+        "text": "All property ever owned by the defendant represents criminal benefit",
+        "correct": false,
+        "feedback": "The assumptions are time-limited, not unlimited."
+      },
+      {
+        "id": "b",
+        "text": "Property transferred to or obtained by the defendant and expenditure incurred in the 6 years before proceedings began represents criminal benefit",
+        "correct": true,
+        "feedback": "Correct. s 10 makes four statutory assumptions, including that property obtained/transferred and expenditure over the preceding 6 years was funded by criminal conduct."
+      },
+      {
+        "id": "c",
+        "text": "Only property identified in the indictment represents criminal benefit",
+        "correct": false,
+        "feedback": "The assumptions extend beyond the specific offences charged."
+      },
+      {
+        "id": "d",
+        "text": "Property obtained within 12 months of conviction represents criminal benefit",
+        "correct": false,
+        "feedback": "The assumption period is 6 years before the commencement of proceedings, not 12 months."
+      }
+    ],
+    "oscoa_references": [
+      "Proceeds of Crime Act 2002, s 10"
+    ]
+  },
+  {
+    "id": "d-c5-004",
+    "page": "D",
+    "section": "D9",
+    "micro_skill": "D9.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "confiscation",
+      "statutory-assumptions",
+      "s10-6",
+      "loophole",
+      "serious-risk-of-injustice"
+    ],
+    "question": "Under s 10(6) POCA 2002, a court may refrain from applying the statutory assumptions where:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The defendant's family would suffer hardship",
+        "correct": false,
+        "feedback": "Family hardship alone is not the statutory ground."
+      },
+      {
+        "id": "b",
+        "text": "There would be a serious risk of injustice if the assumption were made",
+        "correct": true,
+        "feedback": "Correct. s 10(6) — the court must not apply an assumption if satisfied there would be a serious risk of injustice. This is a key tactical argument in confiscation proceedings."
+      },
+      {
+        "id": "c",
+        "text": "The defendant has no previous convictions",
+        "correct": false,
+        "feedback": "Lack of previous convictions does not automatically displace the assumptions."
+      },
+      {
+        "id": "d",
+        "text": "The confiscated amount would exceed £1 million",
+        "correct": false,
+        "feedback": "There is no monetary threshold for the serious risk of injustice exception."
+      }
+    ],
+    "oscoa_references": [
+      "Proceeds of Crime Act 2002, s 10(6)"
+    ]
+  },
+  {
+    "id": "d-c5-005",
+    "page": "D",
+    "section": "D9",
+    "micro_skill": "D9.2",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "civil-recovery",
+      "poca",
+      "part-5",
+      "no-conviction"
+    ],
+    "question": "Under POCA 2002 Part 5, civil recovery of property obtained through unlawful conduct:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Requires a criminal conviction before recovery can begin",
+        "correct": false,
+        "feedback": "Part 5 is explicitly designed to operate without a conviction requirement."
+      },
+      {
+        "id": "b",
+        "text": "Does not require a criminal conviction; recovery is on the balance of probabilities",
+        "correct": true,
+        "feedback": "Correct. POCA 2002 Part 5 allows civil recovery through the High Court on the civil standard of proof (balance of probabilities), without any conviction."
+      },
+      {
+        "id": "c",
+        "text": "Applies only to cash over £10,000",
+        "correct": false,
+        "feedback": "Civil recovery applies to all forms of property, not just cash."
+      },
+      {
+        "id": "d",
+        "text": "Is only available for terrorism-related property",
+        "correct": false,
+        "feedback": "Part 5 applies to property obtained through any unlawful conduct."
+      }
+    ],
+    "oscoa_references": [
+      "Proceeds of Crime Act 2002, Part 5"
+    ]
+  },
+  {
+    "id": "d-c5-006",
+    "page": "D",
+    "section": "D9",
+    "micro_skill": "D9.2",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "civil-recovery",
+      "account-freezing",
+      "poca",
+      "cfa-2017"
+    ],
+    "question": "Account Freezing Orders and Forfeiture Orders were introduced by:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Serious Crime Act 2007",
+        "correct": false,
+        "feedback": "The SCA 2007 dealt with encouraging or assisting crime, not account freezing."
+      },
+      {
+        "id": "b",
+        "text": "Criminal Finances Act 2017, amending POCA 2002",
+        "correct": true,
+        "feedback": "Correct. The CFA 2017 inserted ss 303Z1-303Z2 into POCA 2002, creating Account Freezing Orders and Forfeiture Orders."
+      },
+      {
+        "id": "c",
+        "text": "Sanctions and Anti-Money Laundering Act 2018",
+        "correct": false,
+        "feedback": "SAMLA 2018 is the sanctions framework, not the source of account freezing powers."
+      },
+      {
+        "id": "d",
+        "text": "Bribery Act 2010",
+        "correct": false,
+        "feedback": "The Bribery Act 2010 deals with bribery, not asset freezing."
+      }
+    ],
+    "oscoa_references": [
+      "Proceeds of Crime Act 2002, ss 303Z1-303Z2",
+      "Criminal Finances Act 2017"
+    ]
+  },
+  {
+    "id": "d-c5-007",
+    "page": "D",
+    "section": "D9",
+    "micro_skill": "D9.2",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": [
+      "civil-recovery",
+      "loophole",
+      "balance-of-probabilities",
+      "wider-than-confiscation"
+    ],
+    "question": "What is the key tactical concern with civil recovery compared to confiscation proceedings?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Civil recovery has a higher standard of proof than confiscation",
+        "correct": false,
+        "feedback": "The opposite is true — civil recovery uses a lower standard of proof."
+      },
+      {
+        "id": "b",
+        "text": "Civil recovery uses the balance of probabilities (not beyond reasonable doubt) and does not require a conviction — making it broader and easier for authorities to obtain",
+        "correct": true,
+        "feedback": "Correct. Part 5 civil recovery is available on the civil standard without any conviction, making it a powerful tool for authorities and a significant risk for respondents."
+      },
+      {
+        "id": "c",
+        "text": "Civil recovery is limited to sums under £50,000",
+        "correct": false,
+        "feedback": "There is no such limit on civil recovery."
+      },
+      {
+        "id": "d",
+        "text": "Civil recovery only applies where the respondent consents",
+        "correct": false,
+        "feedback": "Civil recovery proceedings are adversarial; respondent consent is not required."
+      }
+    ],
+    "oscoa_references": [
+      "Proceeds of Crime Act 2002, Part 5"
+    ]
+  },
+  {
+    "id": "d-c5-008",
+    "page": "D",
+    "section": "D9",
+    "micro_skill": "D9.3",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "uwo",
+      "cfa-2017",
+      "non-eea-pep",
+      "serious-crime"
+    ],
+    "question": "Under the Criminal Finances Act 2017, ss 362A-362T, an Unexplained Wealth Order may be obtained against:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Any person with property exceeding £50,000 in the UK",
+        "correct": false,
+        "feedback": "Additional jurisdictional and status criteria apply."
+      },
+      {
+        "id": "b",
+        "text": "A politically exposed person (non-EEA) or a person suspected of involvement in serious crime, where property exceeds £50,000",
+        "correct": true,
+        "feedback": "Correct. CFA 2017 requires the respondent to be (a) a non-EEA PEP, or (b) suspected of involvement in serious crime, and the property must exceed £50,000."
+      },
+      {
+        "id": "c",
+        "text": "Only foreign nationals who are not UK residents",
+        "correct": false,
+        "feedback": "Residence status is not the defining criterion."
+      },
+      {
+        "id": "d",
+        "text": "Any UK PEP, regardless of property value",
+        "correct": false,
+        "feedback": "The UWO regime is limited to non-EEA PEPs (or those suspected of serious crime) and property over £50,000."
+      }
+    ],
+    "oscoa_references": [
+      "Criminal Finances Act 2017, ss 362A-362T"
+    ]
+  },
+  {
+    "id": "d-c5-009",
+    "page": "D",
+    "section": "D9",
+    "micro_skill": "D9.3",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "uwo",
+      "loophole",
+      "pep-definition",
+      "threshold",
+      "non-eea"
+    ],
+    "question": "What limitations in the UWO regime create tactical opportunities for resisting an order?",
+    "options": [
+      {
+        "id": "a",
+        "text": "UWOs can be challenged only through judicial review",
+        "correct": false,
+        "feedback": "Challenges can be mounted on multiple grounds, not only judicial review."
+      },
+      {
+        "id": "b",
+        "text": "The non-EEA PEP definition is narrow, and the £50,000 threshold limits application — arguments over PEP status, property valuation, and human rights (Art 8/Art 1 Protocol 1) provide grounds to resist",
+        "correct": true,
+        "feedback": "Correct. The UWO regime has definitional limitations (non-EEA PEP, £50,000 threshold) and may be challenged on human rights grounds — providing significant tactical opportunities."
+      },
+      {
+        "id": "c",
+        "text": "UWOs cannot be enforced against UK nationals",
+        "correct": false,
+        "feedback": "UWOs apply to all persons, not only non-nationals."
+      },
+      {
+        "id": "d",
+        "text": "UWOs require proof beyond reasonable doubt of criminal conduct",
+        "correct": false,
+        "feedback": "UWOs are obtained on a civil standard and do not require proof of specific criminal conduct."
+      }
+    ],
+    "oscoa_references": [
+      "Criminal Finances Act 2017, ss 362A-362T",
+      "Human Rights Act 1998, Art 8, Protocol 1 Art 1"
+    ]
+  },
+  {
+    "id": "d-c5-010",
+    "page": "D",
+    "section": "D10",
+    "micro_skill": "D10.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": [
+      "dpa",
+      "crime-and-courts-act-2013",
+      "schedule-17",
+      "corporate"
+    ],
+    "question": "Under the Crime and Courts Act 2013, Schedule 17, a Deferred Prosecution Agreement is available for:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Individuals and corporations charged with any offence",
+        "correct": false,
+        "feedback": "DPAs are corporate only and for specified economic crimes."
+      },
+      {
+        "id": "b",
+        "text": "Corporations (not individuals) for specified economic crimes including fraud, bribery, and money laundering",
+        "correct": true,
+        "feedback": "Correct. DPAs are available only to corporate entities for specified economic crimes under Schedule 17."
+      },
+      {
+        "id": "c",
+        "text": "Individuals who plead guilty to fraud or bribery",
+        "correct": false,
+        "feedback": "DPAs are not available for individuals."
+      },
+      {
+        "id": "d",
+        "text": "Any company that self-reports misconduct within 30 days",
+        "correct": false,
+        "feedback": "Self-reporting is a factor but does not automatically entitle a company to a DPA."
+      }
+    ],
+    "oscoa_references": [
+      "Crime and Courts Act 2013, Schedule 17"
+    ]
+  },
+  {
+    "id": "d-c5-011",
+    "page": "D",
+    "section": "D10",
+    "micro_skill": "D10.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "dpa",
+      "standard-bank",
+      "rolls-royce",
+      "sfo"
+    ],
+    "question": "Which was the first UK Deferred Prosecution Agreement?",
+    "options": [
+      {
+        "id": "a",
+        "text": "SFO v Rolls-Royce plc [2017]",
+        "correct": false,
+        "feedback": "_Rolls-Royce_ was the largest DPA, but not the first."
+      },
+      {
+        "id": "b",
+        "text": "SFO v Standard Bank plc [2015] (Southwark Crown Court)",
+        "correct": true,
+        "feedback": "Correct. _SFO v Standard Bank plc_ [2015] was the first UK DPA, approved by Sir Brian Leveson in the Southwark Crown Court."
+      },
+      {
+        "id": "c",
+        "text": "SFO v Tesco plc [2017]",
+        "correct": false,
+        "feedback": "_Tesco_ entered into a DPA in 2017, but it was not the first."
+      },
+      {
+        "id": "d",
+        "text": "SFO v Airbus SE [2020]",
+        "correct": false,
+        "feedback": "_Airbus_ entered a DPA in 2020; the first was in 2015."
+      }
+    ],
+    "oscoa_references": [
+      "Crime and Courts Act 2013, Schedule 17",
+      "SFO v Standard Bank plc [2015] (Southwark Crown Court)"
+    ]
+  },
+  {
+    "id": "d-c5-012",
+    "page": "D",
+    "section": "D10",
+    "micro_skill": "D10.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "dpa",
+      "tactics",
+      "self-report",
+      "cooperation"
+    ],
+    "question": "What is the primary tactical advantage for a corporation in pursuing a DPA rather than contesting a prosecution?",
+    "options": [
+      {
+        "id": "a",
+        "text": "DPAs are confidential and not made public",
+        "correct": false,
+        "feedback": "DPAs are public documents — the preliminary and final hearings are in open court, and the DPA is published."
+      },
+      {
+        "id": "b",
+        "text": "Avoiding a criminal conviction — which can trigger mandatory debarment under public procurement rules, and results in lower financial penalties than a conviction",
+        "correct": true,
+        "feedback": "Correct. A DPA avoids a criminal conviction, protecting the corporation from mandatory debarment and preserving its ability to tender for public contracts."
+      },
+      {
+        "id": "c",
+        "text": "DPAs allow the corporation to keep all profits from the misconduct",
+        "correct": false,
+        "feedback": "DPA terms include disgorgement of profits; the corporation cannot retain proceeds."
+      },
+      {
+        "id": "d",
+        "text": "DPAs guarantee no future prosecution for related conduct",
+        "correct": false,
+        "feedback": "A DPA defers prosecution; breach of terms may trigger prosecution for the original offences."
+      }
+    ],
+    "oscoa_references": [
+      "Crime and Courts Act 2013, Schedule 17"
+    ]
+  },
+  {
+    "id": "d-c5-013",
+    "page": "D",
+    "section": "D11",
+    "micro_skill": "D11.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "corporate-liability",
+      "identification-doctrine",
+      "tesco-v-nattrass"
+    ],
+    "question": "In _Tesco Supermarkets Ltd v Nattrass_ [1972] AC 153, the House of Lords established:",
+    "options": [
+      {
+        "id": "a",
+        "text": "A company is vicariously liable for all acts of its employees",
+        "correct": false,
+        "feedback": "The identification doctrine is narrower than vicarious liability."
+      },
+      {
+        "id": "b",
+        "text": "A company can only be criminally liable through the acts of those who represent its 'directing mind and will'",
+        "correct": true,
+        "feedback": "Correct. _Tesco v Nattrass_ [1972] AC 153 — the identification doctrine holds that only senior officers who are the 'embodiment' of the company can create corporate criminal liability."
+      },
+      {
+        "id": "c",
+        "text": "Companies cannot be criminally liable for any offence",
+        "correct": false,
+        "feedback": "The case confirmed companies can be liable, but through their directing mind and will."
+      },
+      {
+        "id": "d",
+        "text": "Corporate liability follows strict liability — no mental element is required",
+        "correct": false,
+        "feedback": "The identification doctrine requires attribution of mens rea through senior individuals."
+      }
+    ],
+    "oscoa_references": [
+      "Tesco Supermarkets Ltd v Nattrass [1972] AC 153"
+    ]
+  },
+  {
+    "id": "d-c5-014",
+    "page": "D",
+    "section": "D11",
+    "micro_skill": "D11.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": [
+      "corporate-liability",
+      "identification-doctrine",
+      "loophole",
+      "delegation"
+    ],
+    "question": "What is the key loophole created by the identification doctrine for large corporations?",
+    "options": [
+      {
+        "id": "a",
+        "text": "All employees can be a 'directing mind', making prosecution easy",
+        "correct": false,
+        "feedback": "The doctrine limits — not expands — who can be a directing mind."
+      },
+      {
+        "id": "b",
+        "text": "The directing mind must be a senior officer who embodies the company — delegation of decision-making downwards can avoid corporate liability because junior employees cannot be the directing mind",
+        "correct": true,
+        "feedback": "Correct. _Tesco v Nattrass_ [1972] AC 153 — the directing mind is limited to top-level officers. If criminal conduct is delegated to or perpetrated by middle management or below, the company may escape liability."
+      },
+      {
+        "id": "c",
+        "text": "The doctrine only applies to very small companies",
+        "correct": false,
+        "feedback": "The doctrine applies to all companies but is harder to prove for large ones."
+      },
+      {
+        "id": "d",
+        "text": "Companies can always avoid liability by dismissing the responsible employee",
+        "correct": false,
+        "feedback": "Dismissal after the fact does not negate corporate liability that has already attached."
+      }
+    ],
+    "oscoa_references": [
+      "Tesco Supermarkets Ltd v Nattrass [1972] AC 153"
+    ]
+  },
+  {
+    "id": "d-c5-015",
+    "page": "D",
+    "section": "D11",
+    "micro_skill": "D11.2",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "eccta-2023",
+      "failure-to-prevent-fraud",
+      "corporate-offence"
+    ],
+    "question": "The Economic Crime and Corporate Transparency Act 2023 introduced:",
+    "options": [
+      {
+        "id": "a",
+        "text": "A new strict liability offence for all corporate wrongdoing",
+        "correct": false,
+        "feedback": "The new offence is specifically about fraud, not all corporate wrongdoing."
+      },
+      {
+        "id": "b",
+        "text": "A corporate 'failure to prevent fraud' offence, mirroring the Bribery Act 2010 s 7, with a defence of reasonable prevention procedures",
+        "correct": true,
+        "feedback": "Correct. ECCTA 2023 creates a new corporate offence where an associated person commits fraud intending to benefit the organisation, with a reasonable prevention procedures defence."
+      },
+      {
+        "id": "c",
+        "text": "The abolition of the identification doctrine",
+        "correct": false,
+        "feedback": "ECCTA 2023 expanded the identification doctrine for certain economic crimes; it did not abolish it."
+      },
+      {
+        "id": "d",
+        "text": "A requirement for all companies to appoint a fraud prevention officer",
+        "correct": false,
+        "feedback": "There is no statutory requirement for a specific fraud prevention officer."
+      }
+    ],
+    "oscoa_references": [
+      "Economic Crime and Corporate Transparency Act 2023"
+    ]
+  },
+  {
+    "id": "d-c5-016",
+    "page": "D",
+    "section": "D11",
+    "micro_skill": "D11.2",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "eccta-2023",
+      "identification-doctrine",
+      "senior-manager",
+      "expansion"
+    ],
+    "question": "How did ECCTA 2023 modify the identification doctrine for certain economic crimes?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It abolished the identification doctrine entirely",
+        "correct": false,
+        "feedback": "The doctrine was modified, not abolished."
+      },
+      {
+        "id": "b",
+        "text": "It expanded the doctrine so that 'senior managers' (not just board-level officers) can constitute the directing mind for specified economic crimes",
+        "correct": true,
+        "feedback": "Correct. ECCTA 2023 expands the directing mind concept beyond the boardroom to include senior managers for certain economic crimes, making it easier to attribute criminal liability to corporations."
+      },
+      {
+        "id": "c",
+        "text": "It restricted the doctrine so only CEOs can be the directing mind",
+        "correct": false,
+        "feedback": "The Act expanded, not restricted, the doctrine."
+      },
+      {
+        "id": "d",
+        "text": "It removed the mens rea requirement for corporate liability",
+        "correct": false,
+        "feedback": "The doctrine still requires attribution of mens rea — it expanded who can provide it."
+      }
+    ],
+    "oscoa_references": [
+      "Economic Crime and Corporate Transparency Act 2023"
+    ]
+  },
+  {
+    "id": "d-c5-017",
+    "page": "D",
+    "section": "D12",
+    "micro_skill": "D12.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": [
+      "money-laundering",
+      "sar",
+      "consent-regime",
+      "loophole",
+      "daml"
+    ],
+    "question": "How can the SAR consent regime be used defensively to protect against money laundering liability?",
+    "options": [
+      {
+        "id": "a",
+        "text": "File a SAR after the transaction is complete to provide a retrospective audit trail",
+        "correct": false,
+        "feedback": "Retrospective filing does not provide the authorised disclosure defence."
+      },
+      {
+        "id": "b",
+        "text": "File a DAML SAR before proceeding with a borderline transaction, obtain consent (or deemed consent after the moratorium period), and proceed with legal protection",
+        "correct": true,
+        "feedback": "Correct. Filing a DAML SAR and obtaining consent (express or deemed) before proceeding provides the authorised disclosure defence under ss 327-329 POCA 2002."
+      },
+      {
+        "id": "c",
+        "text": "File multiple SARs to the NCA to demonstrate a proactive compliance culture",
+        "correct": false,
+        "feedback": "Defensive/frivolous SARs may attract scrutiny and do not alone provide a defence for specific transactions."
+      },
+      {
+        "id": "d",
+        "text": "Seek informal guidance from the NCA by telephone before filing a formal SAR",
+        "correct": false,
+        "feedback": "Informal guidance is not a substitute for the formal authorised disclosure process."
+      }
+    ],
+    "oscoa_references": [
+      "Proceeds of Crime Act 2002, ss 327(2)(a), 328(2)(a), 329(2)(a), 335"
+    ]
+  },
+  {
+    "id": "d-c5-018",
+    "page": "D",
+    "section": "D12",
+    "micro_skill": "D12.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "money-laundering",
+      "sar",
+      "moratorium",
+      "deemed-consent"
+    ],
+    "question": "What happens if the NCA does not respond within the 7-working-day moratorium period under s 335 POCA 2002?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The transaction is automatically prohibited",
+        "correct": false,
+        "feedback": "The opposite — consent is deemed, not prohibited."
+      },
+      {
+        "id": "b",
+        "text": "Consent is deemed to have been given and the transaction may proceed",
+        "correct": true,
+        "feedback": "Correct. s 335 — if the NCA does not respond within 7 working days (absent a court extension of up to 31 days), deemed consent applies and the transaction may proceed with legal protection."
+      },
+      {
+        "id": "c",
+        "text": "The discloser must re-submit the SAR",
+        "correct": false,
+        "feedback": "Re-submission is not required; deemed consent applies automatically."
+      },
+      {
+        "id": "d",
+        "text": "The discloser may proceed but without legal protection",
+        "correct": false,
+        "feedback": "Deemed consent provides the same legal protection as express consent."
+      }
+    ],
+    "oscoa_references": [
+      "Proceeds of Crime Act 2002, s 335"
+    ]
+  },
+  {
+    "id": "d-c5-019",
+    "page": "D",
+    "section": "D12",
+    "micro_skill": "D12.2",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": [
+      "crypto",
+      "aml",
+      "regulatory-gap",
+      "dex",
+      "loophole"
+    ],
+    "question": "What AML regulatory gap is recognised in relation to crypto assets?",
+    "options": [
+      {
+        "id": "a",
+        "text": "All crypto asset transactions are exempt from AML regulation",
+        "correct": false,
+        "feedback": "FCA-registered crypto firms are subject to MLR 2017; the gap is narrower."
+      },
+      {
+        "id": "b",
+        "text": "Decentralised exchanges (DEXs), unhosted wallets, and privacy coins operate with limited or no KYC/CDD, creating a regulatory gap",
+        "correct": true,
+        "feedback": "Correct. DEXs, unhosted/non-custodial wallets, and privacy coins are not easily subject to traditional CDD requirements, creating a recognised AML gap."
+      },
+      {
+        "id": "c",
+        "text": "The FCA has no regulatory authority over crypto assets",
+        "correct": false,
+        "feedback": "The FCA regulates crypto asset exchange providers and custodian wallet providers under MLR 2017."
+      },
+      {
+        "id": "d",
+        "text": "Crypto-to-crypto exchanges are fully regulated under POCA 2002",
+        "correct": false,
+        "feedback": "While POCA applies to criminal property in any form, execution of CDD on crypto-to-crypto transactions is practically challenging."
+      }
+    ],
+    "oscoa_references": [
+      "Money Laundering, Terrorist Financing and Transfer of Funds (Information on the Payer) Regulations 2017, as amended"
+    ]
+  },
+  {
+    "id": "d-c5-020",
+    "page": "D",
+    "section": "D12",
+    "micro_skill": "D12.2",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "crypto",
+      "travel-rule",
+      "fatf",
+      "vasp"
+    ],
+    "question": "The FATF Travel Rule (Recommendation 16) requires:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Crypto transactions to be reported to the FCA within 24 hours",
+        "correct": false,
+        "feedback": "The Travel Rule is about information sharing between VASPs, not reporting to regulators."
+      },
+      {
+        "id": "b",
+        "text": "Virtual Asset Service Providers (VASPs) to share originator and beneficiary information for crypto transfers, mirroring wire transfer rules",
+        "correct": true,
+        "feedback": "Correct. FATF Recommendation 16 (Travel Rule) requires VASP-to-VASP sharing of originator and beneficiary information for crypto transfers, and the UK is implementing this."
+      },
+      {
+        "id": "c",
+        "text": "All crypto transactions to be conducted through FCA-registered exchanges",
+        "correct": false,
+        "feedback": "While FCA registration is required for UK VASPs, the Travel Rule is about information sharing, not exchange exclusivity."
+      },
+      {
+        "id": "d",
+        "text": "Anonymous crypto transactions to be banned globally",
+        "correct": false,
+        "feedback": "The Travel Rule addresses information sharing, not an outright ban on anonymous transactions."
+      }
+    ],
+    "oscoa_references": [
+      "FATF Recommendation 16"
+    ]
+  },
+  {
+    "id": "d-c5-021",
+    "page": "D",
+    "section": "D12",
+    "micro_skill": "D12.3",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": [
+      "sanctions",
+      "loophole",
+      "ownership-threshold",
+      "ofsi-50-percent"
+    ],
+    "question": "Under OFSI guidance, what is the '50% rule' and how does it create a sanctions evasion risk?",
+    "options": [
+      {
+        "id": "a",
+        "text": "All sanctions only apply where a designated person owns more than 50% of a company",
+        "correct": false,
+        "feedback": "Sanctions do not have a blanket 50% threshold — this relates to the aggregation/ownership rule."
+      },
+      {
+        "id": "b",
+        "text": "A company is treated as controlled by a designated person if that person owns more than 50% — holdings below 50% can escape designation by association, creating a structural loophole",
+        "correct": true,
+        "feedback": "Correct. OFSI's 50% rule means holdings below 50% may not trigger automatic sanctions designation, enabling ownership structures that fall just below the threshold to potentially evade asset freezes."
+      },
+      {
+        "id": "c",
+        "text": "The 50% rule applies only to UK-registered companies",
+        "correct": false,
+        "feedback": "The rule applies broadly to entities under UK sanctions jurisdiction."
+      },
+      {
+        "id": "d",
+        "text": "Holdings below 50% are automatically exempt from all sanctions",
+        "correct": false,
+        "feedback": "Below 50% does not guarantee exemption — sanctions can still apply, but the automatic aggregation rule may not trigger."
+      }
+    ],
+    "oscoa_references": [
+      "Sanctions and Anti-Money Laundering Act 2018",
+      "OFSI Guidance"
+    ]
+  },
+  {
+    "id": "d-c5-022",
+    "page": "D",
+    "section": "D12",
+    "micro_skill": "D12.3",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": [
+      "sanctions",
+      "register-of-overseas-entities",
+      "eccta-2022",
+      "beneficial-ownership"
+    ],
+    "question": "The Register of Overseas Entities (ECCTA 2022) counters sanctions evasion by:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Freezing all property owned by overseas entities in the UK",
+        "correct": false,
+        "feedback": "The Register is about transparency, not automatic freezing."
+      },
+      {
+        "id": "b",
+        "text": "Requiring overseas entities owning UK property to register and disclose their beneficial owners",
+        "correct": true,
+        "feedback": "Correct. The Register of Overseas Entities requires disclosure of beneficial ownership, preventing the use of opaque offshore structures to hide sanctioned ownership of UK property."
+      },
+      {
+        "id": "c",
+        "text": "Banning all property purchases by non-UK residents",
+        "correct": false,
+        "feedback": "The Register imposes transparency obligations, not a ban on purchases."
+      },
+      {
+        "id": "d",
+        "text": "Creating criminal offences for all offshore company directors",
+        "correct": false,
+        "feedback": "The Register creates specific registration and disclosure obligations, not blanket criminalisation."
+      }
+    ],
+    "oscoa_references": [
+      "Economic Crime and Corporate Transparency Act 2022"
+    ]
+  },
+  {
+    "id": "d-c5-023",
+    "page": "D",
+    "section": "D12",
+    "micro_skill": "D12.4",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": [
+      "bribery",
+      "adequate-procedures",
+      "loophole",
+      "six-principles",
+      "defence-strategy"
+    ],
+    "question": "Which of the following is a key tactical step in establishing the 'adequate procedures' defence under s 7(2) Bribery Act 2010?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Conduct a one-off risk assessment at the time of incorporation",
+        "correct": false,
+        "feedback": "Ongoing monitoring and review (MOJ principle 6) is required — a one-off assessment is insufficient."
+      },
+      {
+        "id": "b",
+        "text": "Undertake an independent external compliance audit and maintain documented risk assessments, due diligence on third parties, gift/hospitality registers, and whistleblowing procedures",
+        "correct": true,
+        "feedback": "Correct. A comprehensive, independently audited compliance programme covering all six MOJ principles provides the strongest evidential basis for the adequate procedures defence."
+      },
+      {
+        "id": "c",
+        "text": "Require all employees to sign an anti-bribery declaration annually",
+        "correct": false,
+        "feedback": "Annual declarations alone are insufficient without broader implementation of all six principles."
+      },
+      {
+        "id": "d",
+        "text": "Obtain a pre-approval letter from the SFO confirming adequate procedures",
+        "correct": false,
+        "feedback": "The SFO does not pre-approve compliance programmes; the defence is assessed by the court if and when a charge is brought."
+      }
+    ],
+    "oscoa_references": [
+      "Bribery Act 2010, s 7(2)",
+      "Ministry of Justice, The Bribery Act 2010: Guidance (2011)"
+    ]
+  },
+  {
+    "id": "d-c5-024",
+    "page": "D",
+    "section": "D12",
+    "micro_skill": "D12.5",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": [
+      "privilege",
+      "internal-investigation",
+      "enrc",
+      "litigation-privilege"
+    ],
+    "question": "In _SFO v Eurasian Natural Resources Corporation Ltd_ [2018] EWCA Civ 2006, the Court of Appeal held that:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Internal investigation documents are never privileged",
+        "correct": false,
+        "feedback": "The court held the opposite — litigation privilege can attach in appropriate circumstances."
+      },
+      {
+        "id": "b",
+        "text": "Litigation privilege may attach to documents created for the dominant purpose of resisting contemplated criminal proceedings, including notes of witness interviews conducted by lawyers",
+        "correct": true,
+        "feedback": "Correct. _ENRC_ [2018] EWCA Civ 2006 — litigation privilege can protect internal investigation materials where created for the dominant purpose of resisting contemplated criminal proceedings."
+      },
+      {
+        "id": "c",
+        "text": "Only documents created after criminal charges are filed can attract privilege",
+        "correct": false,
+        "feedback": "_ENRC_ confirmed privilege can attach before charges are filed, where criminal proceedings are in reasonable contemplation."
+      },
+      {
+        "id": "d",
+        "text": "The SFO can compel disclosure of all internal investigation documents",
+        "correct": false,
+        "feedback": "_ENRC_ established limits on the SFO's ability to compel disclosure of privileged materials."
+      }
+    ],
+    "oscoa_references": [
+      "SFO v Eurasian Natural Resources Corporation Ltd [2018] EWCA Civ 2006"
+    ]
+  },
+  {
+    "id": "d-c5-025",
+    "page": "D",
+    "section": "D12",
+    "micro_skill": "D12.5",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "privilege",
+      "three-rivers",
+      "legal-advice-privilege",
+      "client-definition"
+    ],
+    "question": "In _Three Rivers DC v Bank of England (No 6)_ [2004] UKHL 48, the House of Lords held that legal advice privilege:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Extends to all communications between a company and its lawyers",
+        "correct": false,
+        "feedback": "_Three Rivers (No 6)_ significantly narrowed the scope of legal advice privilege for corporations."
+      },
+      {
+        "id": "b",
+        "text": "Only protects communications with a narrowly defined 'client' — those employees specifically authorised to seek and receive legal advice",
+        "correct": true,
+        "feedback": "Correct. _Three Rivers (No 6)_ [2004] UKHL 48 narrowly defined the 'client' for legal advice privilege purposes, limiting protection to communications with those employees tasked with seeking/receiving advice — a key tactical consideration for internal investigations."
+      },
+      {
+        "id": "c",
+        "text": "Has been abolished for regulatory investigations",
+        "correct": false,
+        "feedback": "Legal advice privilege has not been abolished; _Three Rivers_ interpreted its scope."
+      },
+      {
+        "id": "d",
+        "text": "Is identical in scope to litigation privilege",
+        "correct": false,
+        "feedback": "_Three Rivers_ highlighted the narrower scope of legal advice privilege compared to litigation privilege."
+      }
+    ],
+    "oscoa_references": [
+      "Three Rivers DC v Bank of England (No 6) [2004] UKHL 48"
+    ]
+  },
+  {
+    "id": "d-c5-026",
+    "page": "D",
+    "section": "D12",
+    "micro_skill": "D12.6",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": [
+      "dpa",
+      "self-report",
+      "sfo",
+      "loophole",
+      "cooperation-credit"
+    ],
+    "question": "What is the primary tactical advantage of self-reporting to the SFO before an investigation begins?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The SFO guarantees no prosecution for companies that self-report",
+        "correct": false,
+        "feedback": "Self-reporting does not guarantee a DPA or non-prosecution."
+      },
+      {
+        "id": "b",
+        "text": "Early self-reporting, cooperation, and remediation makes a DPA materially more likely — avoiding a criminal conviction that would trigger mandatory debarment",
+        "correct": true,
+        "feedback": "Correct. The SFO's DPA Guidance prioritises early self-reporting and full cooperation. A DPA offers significant advantages over conviction, particularly for companies subject to procurement debarment rules."
+      },
+      {
+        "id": "c",
+        "text": "Self-reporting entities receive a statutory immunity from prosecution",
+        "correct": false,
+        "feedback": "There is no statutory immunity for self-reporting — it is a factor in the exercise of prosecutorial discretion."
+      },
+      {
+        "id": "d",
+        "text": "Self-reporting guarantees anonymity — the investigation remains confidential",
+        "correct": false,
+        "feedback": "SFO investigations and DPA proceedings are conducted in public, and the DPA is published."
+      }
+    ],
+    "oscoa_references": [
+      "Crime and Courts Act 2013, Schedule 17",
+      "SFO Guidance on Corporate Self-Reporting"
+    ]
+  },
+  {
+    "id": "d-c5-027",
+    "page": "D",
+    "section": "D12",
+    "micro_skill": "D12.6",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": [
+      "dpa",
+      "self-report",
+      "risk",
+      "waiver-of-privilege"
+    ],
+    "question": "What is the primary risk of self-reporting to the SFO?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The company automatically receives the maximum financial penalty",
+        "correct": false,
+        "feedback": "Self-reporting and cooperation typically reduce, not increase, the penalty."
+      },
+      {
+        "id": "b",
+        "text": "Self-reporting triggers an investigation that may uncover wider wrongdoing — and the SFO expects cooperation including (potentially) waiver of privilege over relevant materials",
+        "correct": true,
+        "feedback": "Correct. Self-reporting invites an SFO investigation with no guarantee of a DPA, and the SFO may require cooperation including waiver of privilege — creating significant strategic risk that must be weighed."
+      },
+      {
+        "id": "c",
+        "text": "Self-reporting is a criminal offence in itself",
+        "correct": false,
+        "feedback": "Self-reporting is not a criminal offence; it is encouraged."
+      },
+      {
+        "id": "d",
+        "text": "The company is automatically debarred from public contracts upon self-reporting",
+        "correct": false,
+        "feedback": "Debarment is typically triggered by conviction, and a DPA specifically helps avoid this outcome."
+      }
+    ],
+    "oscoa_references": [
+      "Crime and Courts Act 2013, Schedule 17"
+    ]
+  }
+]

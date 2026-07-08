@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "g-c1-001",
+    "page": "G",
+    "section": "G1",
+    "micro_skill": "G1.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": ["poca-2002", "section-327", "money-laundering", "concealing"],
+    "question": "Under s.327 POCA 2002, which of the following is NOT a principal money laundering act?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Concealing criminal property",
+        "correct": false,
+        "feedback": "Concealing criminal property is expressly covered by s.327."
+      },
+      {
+        "id": "b",
+        "text": "Disguising criminal property",
+        "correct": false,
+        "feedback": "Disguising criminal property is expressly covered by s.327."
+      },
+      {
+        "id": "c",
+        "text": "Filing a Suspicious Activity Report with the NCA",
+        "correct": true,
+        "feedback": "Correct. Filing a SAR is a defence to the money laundering offences, not a principal money laundering act."
+      },
+      {
+        "id": "d",
+        "text": "Converting criminal property",
+        "correct": false,
+        "feedback": "Converting criminal property is expressly covered by s.327."
+      }
+    ],
+    "oscoa_references": ["Proceeds of Crime Act 2002, s.327"]
+  },
+  {
+    "id": "g-c1-002",
+    "page": "G",
+    "section": "G1",
+    "micro_skill": "G1.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["poca-2002", "section-328", "arrangements", "money-laundering"],
+    "question": "Section 328 POCA 2002 creates which money laundering offence?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Concealing, disguising, converting, transferring, or removing criminal property",
+        "correct": false,
+        "feedback": "This describes s.327, not s.328."
+      },
+      {
+        "id": "b",
+        "text": "Entering into or becoming concerned in an arrangement which D knows or suspects facilitates the acquisition, retention, use, or control of criminal property",
+        "correct": true,
+        "feedback": "Correct. Section 328 criminalises being concerned in an arrangement that facilitates dealing with criminal property."
+      },
+      {
+        "id": "c",
+        "text": "Acquisition, use, and possession of criminal property",
+        "correct": false,
+        "feedback": "This is s.329, not s.328."
+      },
+      {
+        "id": "d",
+        "text": "Failure to disclose knowledge or suspicion of money laundering",
+        "correct": false,
+        "feedback": "Failure to disclose is covered by ss.330-332, not s.328."
+      }
+    ],
+    "oscoa_references": ["Proceeds of Crime Act 2002, s.328"]
+  },
+  {
+    "id": "g-c1-003",
+    "page": "G",
+    "section": "G1",
+    "micro_skill": "G1.1",
+    "crown_level": 1,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["poca-2002", "section-329", "acquisition", "adequate-consideration"],
+    "question": "'Section 329 POCA 2002 makes it an offence to acquire, use, or possess any property regardless of whether consideration was given.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": false,
+        "feedback": "Section 329(2)(c) provides a defence where the property was acquired for adequate consideration — an arms-length commercial transaction is not caught."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": true,
+        "feedback": "Correct. S.329(2)(c) provides the adequate consideration exception — acquiring property for adequate commercial consideration (including legitimate professional fees) is a defence."
+      }
+    ],
+    "oscoa_references": ["Proceeds of Crime Act 2002, s.329", "Proceeds of Crime Act 2002, s.340"]
+  },
+  {
+    "id": "g-c1-004",
+    "page": "G",
+    "section": "G1",
+    "micro_skill": "G1.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["poca-2002", "section-340", "criminal-property", "benefit"],
+    "question": "Under s.340 POCA 2002, 'criminal property' is defined as property that:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Was obtained only through fraud",
+        "correct": false,
+        "feedback": "Criminal property extends to all forms of criminal conduct, not just fraud."
+      },
+      {
+        "id": "b",
+        "text": "Constitutes a person's benefit from criminal conduct or represents such benefit, where the alleged offender knows or suspects that it constitutes or represents such benefit",
+        "correct": true,
+        "feedback": "Correct. S.340 defines criminal property broadly — any benefit from criminal conduct, and D must know or suspect its criminal provenance."
+      },
+      {
+        "id": "c",
+        "text": "Was obtained only within the UK",
+        "correct": false,
+        "feedback": "Criminal conduct includes overseas conduct that would be an offence if committed in the UK."
+      },
+      {
+        "id": "d",
+        "text": "Property that has been the subject of a civil forfeiture order",
+        "correct": false,
+        "feedback": "The definition is not contingent on a prior civil forfeiture order."
+      }
+    ],
+    "oscoa_references": ["Proceeds of Crime Act 2002, s.340"]
+  },
+  {
+    "id": "g-c1-005",
+    "page": "G",
+    "section": "G1",
+    "micro_skill": "G1.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": ["poca-2002", "sentencing", "money-laundering", "14-years"],
+    "question": "What is the maximum sentence for a principal money laundering offence under ss.327-329 POCA 2002?",
+    "options": [
+      {
+        "id": "a",
+        "text": "5 years imprisonment",
+        "correct": false,
+        "feedback": "5 years is the maximum for tipping off on indictment."
+      },
+      {
+        "id": "b",
+        "text": "10 years imprisonment",
+        "correct": false,
+        "feedback": "This falls short of the maximum for ss.327-329."
+      },
+      {
+        "id": "c",
+        "text": "14 years imprisonment and/or a fine",
+        "correct": true,
+        "feedback": "Correct. The maximum sentence for the principal money laundering offences is 14 years imprisonment and/or an unlimited fine."
+      },
+      {
+        "id": "d",
+        "text": "Life imprisonment",
+        "correct": false,
+        "feedback": "Life imprisonment is not available for ss.327-329."
+      }
+    ],
+    "oscoa_references": ["Proceeds of Crime Act 2002, ss.327-329"]
+  },
+  {
+    "id": "g-c1-006",
+    "page": "G",
+    "section": "G1",
+    "micro_skill": "G1.2",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["authorised-disclosure", "defence", "sections-327-329", "nca"],
+    "question": "Under ss.327(2)(a), 328(2)(a), and 329(2)(a) POCA 2002, what constitutes the authorised disclosure defence?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Disclosing the transaction to the client's bank",
+        "correct": false,
+        "feedback": "Disclosure to a bank is not adequate — the disclosure must be made to the nominated officer or the NCA."
+      },
+      {
+        "id": "b",
+        "text": "The defendant disclosed the activity to their nominated officer or the NCA before the act took place",
+        "correct": true,
+        "feedback": "Correct. The authorised disclosure defence requires disclosure to the nominated officer or the NCA before the money laundering act is carried out."
+      },
+      {
+        "id": "c",
+        "text": "Obtaining retrospective approval from the FCA",
+        "correct": false,
+        "feedback": "Retrospective approval is not valid — disclosure must be made before the act."
+      },
+      {
+        "id": "d",
+        "text": "Informing the client that the transaction is suspicious",
+        "correct": false,
+        "feedback": "Informing the client may constitute tipping off under s.333A — disclosure must be to the authorities, not the client."
+      }
+    ],
+    "oscoa_references": ["Proceeds of Crime Act 2002, ss.327(2)(a), 328(2)(a), 329(2)(a)"]
+  },
+  {
+    "id": "g-c1-007",
+    "page": "G",
+    "section": "G1",
+    "micro_skill": "G1.2",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["loophole", "sar", "deemed-consent", "moratorium", "defensive-sar"],
+    "question": "What is meant by a 'defensive SAR' and what protection does it provide?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A SAR filed after the transaction to avoid prosecution",
+        "correct": false,
+        "feedback": "A SAR must be filed before the transaction to provide the defence."
+      },
+      {
+        "id": "b",
+        "text": "A SAR filed prophylactically, even where suspicion is marginal, to obtain consent or deemed consent — providing a full defence to ss.327-329 money laundering offences",
+        "correct": true,
+        "feedback": "Correct. A defensive (or prophylactic) SAR is filed to secure the authorised disclosure defence, even if suspicion is marginal. If the moratorium expires without NCA refusal, deemed consent provides legal protection."
+      },
+      {
+        "id": "c",
+        "text": "A SAR filed by a defence lawyer on behalf of a client facing criminal charges",
+        "correct": false,
+        "feedback": "This confuses the concept of a SAR with litigation defence strategy."
+      },
+      {
+        "id": "d",
+        "text": "A report to the police rather than the NCA",
+        "correct": false,
+        "feedback": "A SAR must be filed with the NCA, not the police."
+      }
+    ],
+    "oscoa_references": ["Proceeds of Crime Act 2002, ss.327(2)(a), 335"]
+  },
+  {
+    "id": "g-c1-008",
+    "page": "G",
+    "section": "G1",
+    "micro_skill": "G1.2",
+    "crown_level": 1,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["loophole", "adequate-consideration", "section-329(2)(c)", "legal-fees"],
+    "question": "'The adequate consideration exception in s.329(2)(c) POCA 2002 allows solicitors to receive payment for legal services even if the funds come from criminal property, provided the fees are at market value and the solicitor did not know the funds were criminal.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. S.329(2)(c) exempts property acquired for adequate consideration. Legitimate professional fees at market rates fall within this exception, provided the solicitor is not knowingly participating in the criminal enterprise."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "This is in fact correct — s.329(2)(c) provides the adequate consideration defence, which is designed to protect legitimate commercial transactions including legal services."
+      }
+    ],
+    "oscoa_references": ["Proceeds of Crime Act 2002, s.329(2)(c)"]
+  },
+  {
+    "id": "g-c1-009",
+    "page": "G",
+    "section": "G2",
+    "micro_skill": "G2.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["failure-to-disclose", "section-330", "regulated-sector", "mlr-2017"],
+    "question": "Section 330 POCA 2002 imposes a duty to disclose on which category of persons?",
+    "options": [
+      {
+        "id": "a",
+        "text": "All citizens, regardless of profession",
+        "correct": false,
+        "feedback": "S.330 applies specifically to those in the regulated sector."
+      },
+      {
+        "id": "b",
+        "text": "Nominated officers and employees in the regulated sector, as defined in MLR 2017 Schedule 1",
+        "correct": true,
+        "feedback": "Correct. S.330 applies to the regulated sector (banks, financial institutions, auditors, lawyers, accountants, estate agents, casinos, etc.)."
+      },
+      {
+        "id": "c",
+        "text": "Only law enforcement officers",
+        "correct": false,
+        "feedback": "S.330 applies to the regulated sector, not law enforcement."
+      },
+      {
+        "id": "d",
+        "text": "Only directors of listed companies",
+        "correct": false,
+        "feedback": "The duty is broader than directors of listed companies — it covers all in the regulated sector."
+      }
+    ],
+    "oscoa_references": ["Proceeds of Crime Act 2002, s.330", "Money Laundering Regulations 2017, Sch 1"]
+  },
+  {
+    "id": "g-c1-010",
+    "page": "G",
+    "section": "G2",
+    "micro_skill": "G2.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["loophole", "lpp", "legal-professional-privilege", "section-330(10)"],
+    "question": "Section 330(10) and (11) POCA 2002 exempts disclosure requirements for information subject to legal professional privilege. This means:",
+    "options": [
+      {
+        "id": "a",
+        "text": "A solicitor must always report suspicious activity regardless of privilege",
+        "correct": false,
+        "feedback": "This is the opposite — LPP overrides the disclosure requirement."
+      },
+      {
+        "id": "b",
+        "text": "Information covered by litigation privilege or legal advice privilege does not trigger the disclosure obligation — solicitors are not required to report privileged information",
+        "correct": true,
+        "feedback": "Correct. The LPP exemption in s.330(10) and (11) means a solicitor is not required to disclose information that is subject to legal professional privilege (both litigation and advice privilege)."
+      },
+      {
+        "id": "c",
+        "text": "Privileged information must be disclosed but cannot be used in evidence",
+        "correct": false,
+        "feedback": "LPP provides an exemption from disclosure, not a limitation on use."
+      },
+      {
+        "id": "d",
+        "text": "The exemption only applies to barristers, not solicitors",
+        "correct": false,
+        "feedback": "LPP applies to all qualified lawyers, and the statutory exemption covers all professional legal advisers."
+      }
+    ],
+    "oscoa_references": ["Proceeds of Crime Act 2002, s.330(10)-(11)"]
+  },
+  {
+    "id": "g-c1-011",
+    "page": "G",
+    "section": "G2",
+    "micro_skill": "G2.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["loophole", "reasonable-excuse", "section-330(6)(a)", "defence"],
+    "question": "Which of the following could amount to a 'reasonable excuse' defence under s.330(6)(a) POCA 2002 for failure to disclose?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A genuine fear for the safety of oneself or others if disclosure is made",
+        "correct": true,
+        "feedback": "Correct. Fear for safety is a recognised ground for the reasonable excuse defence, as is a genuinely held belief that no money laundering has occurred."
+      },
+      {
+        "id": "b",
+        "text": "The belief that the client is wealthy and unlikely to launder money",
+        "correct": false,
+        "feedback": "Wealth alone is not a reasonable excuse — the objective 'reasonable grounds' element must be considered."
+      },
+      {
+        "id": "c",
+        "text": "The desire to avoid losing a valuable client",
+        "correct": false,
+        "feedback": "Commercial considerations are not a reasonable excuse for failing to comply with a statutory obligation."
+      },
+      {
+        "id": "d",
+        "text": "The belief that the amount involved is too small to matter",
+        "correct": false,
+        "feedback": "The statutory obligation does not have a de minimis threshold."
+      }
+    ],
+    "oscoa_references": ["Proceeds of Crime Act 2002, s.330(6)(a)"]
+  },
+  {
+    "id": "g-c1-012",
+    "page": "G",
+    "section": "G2",
+    "micro_skill": "G2.2",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["nominated-officer", "section-331", "mlro"],
+    "question": "Section 331 POCA 2002 imposes a duty to disclose on the nominated officer (MLRO) when they receive an internal report. What must they do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Investigate the matter themselves before any disclosure",
+        "correct": false,
+        "feedback": "The obligation is to disclose to the NCA, not to investigate."
+      },
+      {
+        "id": "b",
+        "text": "Disclose to the NCA if they know or suspect, or have reasonable grounds for knowing or suspecting, money laundering",
+        "correct": true,
+        "feedback": "Correct. The MLRO must make an external SAR to the NCA if they have the requisite knowledge, suspicion, or reasonable grounds for suspicion."
+      },
+      {
+        "id": "c",
+        "text": "Inform the client that a report has been made",
+        "correct": false,
+        "feedback": "Informing the client would constitute tipping off under s.333A."
+      },
+      {
+        "id": "d",
+        "text": "Only disclose if the amount exceeds £10,000",
+        "correct": false,
+        "feedback": "There is no minimum monetary threshold for the disclosure obligation."
+      }
+    ],
+    "oscoa_references": ["Proceeds of Crime Act 2002, s.331"]
+  },
+  {
+    "id": "g-c1-013",
+    "page": "G",
+    "section": "G2",
+    "micro_skill": "G2.2",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": ["section-332", "non-regulated", "subjective-test"],
+    "question": "How does s.332 POCA 2002 (non-regulated sector) differ from s.330 (regulated sector)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "S.332 applies to everyone including the public at large",
+        "correct": false,
+        "feedback": "S.332 still applies only to nominated officers — it is narrower in scope."
+      },
+      {
+        "id": "b",
+        "text": "S.332 has a narrower scope — it applies only to nominated officers and does not include the 'reasonable grounds' element; it requires subjective knowledge or suspicion only",
+        "correct": true,
+        "feedback": "Correct. S.332 is limited to nominated officers in the non-regulated sector and uses a subjective test only — no 'reasonable grounds' element, unlike s.330."
+      },
+      {
+        "id": "c",
+        "text": "S.332 carries a higher maximum sentence than s.330",
+        "correct": false,
+        "feedback": "The sentencing provisions are not materially different."
+      },
+      {
+        "id": "d",
+        "text": "S.332 allows disclosure after the fact while s.330 requires pre-transaction disclosure",
+        "correct": false,
+        "feedback": "Both require disclosure 'as soon as practicable' after the information comes to the person."
+      }
+    ],
+    "oscoa_references": ["Proceeds of Crime Act 2002, ss.330, 332"]
+  },
+  {
+    "id": "g-c1-014",
+    "page": "G",
+    "section": "G3",
+    "micro_skill": "G3.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["tipping-off", "section-333A", "money-laundering-investigation"],
+    "question": "Under s.333A POCA 2002, the offence of tipping off is committed when D:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Fails to report a suspicious transaction",
+        "correct": false,
+        "feedback": "This is the failure to disclose offence, not tipping off."
+      },
+      {
+        "id": "b",
+        "text": "Discloses information likely to prejudice a money laundering investigation, knowing or suspecting that a disclosure under Part 7 has been made or that an investigation is being contemplated",
+        "correct": true,
+        "feedback": "Correct. S.333A criminalises the disclosure of information likely to prejudice a money laundering investigation where D knows or suspects a SAR has been made or an investigation is contemplated."
+      },
+      {
+        "id": "c",
+        "text": "Conceals the proceeds of crime",
+        "correct": false,
+        "feedback": "Concealing criminal property is a principal money laundering offence under s.327, not tipping off."
+      },
+      {
+        "id": "d",
+        "text": "Refuses to provide documents to the NCA",
+        "correct": false,
+        "feedback": "Refusal to provide documents is a separate matter."
+      }
+    ],
+    "oscoa_references": ["Proceeds of Crime Act 2002, s.333A"]
+  },
+  {
+    "id": "g-c1-015",
+    "page": "G",
+    "section": "G3",
+    "micro_skill": "G3.1",
+    "crown_level": 1,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["tipping-off", "section-333A", "indirect-disclosure", "inference"],
+    "question": "'For tipping off to be committed under s.333A, the information disclosed must explicitly state that a SAR has been filed.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": false,
+        "feedback": "The offence can be committed by any information from which the client might infer that a SAR has been made."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": true,
+        "feedback": "Correct. The information need not directly say 'a SAR has been filed' — any information from which the client might infer that a disclosure has been made or an investigation is being contemplated is sufficient."
+      }
+    ],
+    "oscoa_references": ["Proceeds of Crime Act 2002, s.333A"]
+  },
+  {
+    "id": "g-c1-016",
+    "page": "G",
+    "section": "G3",
+    "micro_skill": "G3.2",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["loophole", "section-333D", "solicitor-client", "legal-advice", "safe-harbour"],
+    "question": "Section 333D POCA 2002 provides a safe harbour for disclosures by professional legal advisers. Which statement best describes its scope?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Lawyers may disclose to their client any details of a SAR, including the specific transaction, provided it is in the course of legal advice",
+        "correct": false,
+        "feedback": "S.333D does not permit disclosing the fact that a specific SAR has been made."
+      },
+      {
+        "id": "b",
+        "text": "Lawyers may disclose information to their client or client's representative in connection with giving legal advice, but NOT where the disclosure is made with a view to furthering a criminal purpose",
+        "correct": true,
+        "feedback": "Correct. S.333D allows a legal adviser to communicate with the client about legal obligations generally, including AML obligations, provided the communication is in connection with legal advice and is not made for a criminal purpose."
+      },
+      {
+        "id": "c",
+        "text": "S.333D only applies to in-house lawyers, not external solicitors",
+        "correct": false,
+        "feedback": "S.333D applies to professional legal advisers generally."
+      },
+      {
+        "id": "d",
+        "text": "S.333D removes the tipping off restriction entirely for lawyers",
+        "correct": false,
+        "feedback": "S.333D is a limited safe harbour — it does not provide blanket immunity."
+      }
+    ],
+    "oscoa_references": ["Proceeds of Crime Act 2002, s.333D"]
+  },
+  {
+    "id": "g-c1-017",
+    "page": "G",
+    "section": "G3",
+    "micro_skill": "G3.2",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["loophole", "tipping-off", "safe-communication", "general-advice"],
+    "question": "Which of the following communications would fall within the s.333D safe harbour?",
+    "options": [
+      {
+        "id": "a",
+        "text": "'We have filed a SAR with the NCA regarding your transaction'",
+        "correct": false,
+        "feedback": "This directly reveals that a SAR has been made — it is tipping off."
+      },
+      {
+        "id": "b",
+        "text": "'Under POCA 2002, we may be required to make disclosures to relevant authorities. This does not confirm or deny any specific disclosure.'",
+        "correct": true,
+        "feedback": "Correct. This is a general communication about legal obligations without confirming or denying a specific SAR — it falls within the s.333D safe harbour."
+      },
+      {
+        "id": "c",
+        "text": "'Your specific transaction has been reported to the authorities for investigation'",
+        "correct": false,
+        "feedback": "This identifies the specific transaction as having been reported — tipping off."
+      },
+      {
+        "id": "d",
+        "text": "'The NCA has refused consent for your transfer'",
+        "correct": false,
+        "feedback": "This discloses the outcome of the consent regime — tipping off."
+      }
+    ],
+    "oscoa_references": ["Proceeds of Crime Act 2002, s.333D"]
+  },
+  {
+    "id": "g-c1-018",
+    "page": "G",
+    "section": "G3",
+    "micro_skill": "G3.2",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": ["tipping-off", "sentence", "section-333A", "indictment"],
+    "question": "What is the maximum sentence for tipping off under s.333A when tried on indictment?",
+    "options": [
+      {
+        "id": "a",
+        "text": "2 years imprisonment",
+        "correct": false,
+        "feedback": "2 years is the maximum on summary conviction."
+      },
+      {
+        "id": "b",
+        "text": "5 years imprisonment and/or fine",
+        "correct": true,
+        "feedback": "Correct. Tipping off carries a maximum of 5 years imprisonment on indictment (2 years on summary conviction)."
+      },
+      {
+        "id": "c",
+        "text": "10 years imprisonment",
+        "correct": false,
+        "feedback": "10 years exceeds the statutory maximum for tipping off."
+      },
+      {
+        "id": "d",
+        "text": "14 years imprisonment",
+        "correct": false,
+        "feedback": "14 years is the maximum for the principal money laundering offences, not tipping off."
+      }
+    ],
+    "oscoa_references": ["Proceeds of Crime Act 2002, s.333A"]
+  },
+  {
+    "id": "g-c2-001",
+    "page": "G",
+    "section": "G4",
+    "micro_skill": "G4.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["consent-regime", "section-335", "sar", "moratorium"],
+    "question": "Under s.335 POCA 2002, the standard moratorium period after a SAR is filed is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "7 calendar days",
+        "correct": false,
+        "feedback": "The period is measured in working days, not calendar days."
+      },
+      {
+        "id": "b",
+        "text": "7 working days, with the possibility of extension by up to 31 calendar days via court order (total 38 days maximum)",
+        "correct": true,
+        "feedback": "Correct. The standard moratorium period is 7 working days; the NCA may extend by up to 31 calendar days (total 38 days maximum). If no response, deemed consent applies."
+      },
+      {
+        "id": "c",
+        "text": "14 working days with no possibility of extension",
+        "correct": false,
+        "feedback": "The standard period is 7 days, and extensions are possible."
+      },
+      {
+        "id": "d",
+        "text": "30 calendar days as standard",
+        "correct": false,
+        "feedback": "30 days is not the standard moratorium period."
+      }
+    ],
+    "oscoa_references": ["Proceeds of Crime Act 2002, s.335"]
+  },
+  {
+    "id": "g-c2-002",
+    "page": "G",
+    "section": "G4",
+    "micro_skill": "G4.1",
+    "crown_level": 2,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["consent-regime", "section-335", "nca-refusal", "principal-offence"],
+    "question": "'If the NCA refuses consent during the moratorium period, the party may still proceed with the transaction if they believe it is lawful.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": false,
+        "feedback": "Proceeding after an NCA refusal is an express reason for liability — the transaction MUST NOT proceed."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": true,
+        "feedback": "Correct. If the NCA refuses consent, the transaction MUST NOT proceed. If it does proceed, the principal money laundering offence (ss.327-329) is committed."
+      }
+    ],
+    "oscoa_references": ["Proceeds of Crime Act 2002, s.335"]
+  },
+  {
+    "id": "g-c2-003",
+    "page": "G",
+    "section": "G4",
+    "micro_skill": "G4.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": ["consent-regime", "section-335", "moratorium", "procedure"],
+    "question": "What is the correct sequence for the s.335 consent regime?",
+    "options": [
+      {
+        "id": "a",
+        "text": "File SAR → await NCA consent → if no refusal, proceed after 48 hours",
+        "correct": false,
+        "feedback": "The standard waiting period is 7 working days, not 48 hours."
+      },
+      {
+        "id": "b",
+        "text": "File SAR → 7 working day moratorium → NCA may extend (up to 31 days) or refuse consent → if no refusal, deemed consent → proceed",
+        "correct": true,
+        "feedback": "Correct. The SAR must be filed, then a 7-working-day moratorium applies. The NCA may extend by up to 31 calendar days via court order. If the NCA does not refuse within the moratorium, deemed consent allows the transaction."
+      },
+      {
+        "id": "c",
+        "text": "File SAR → proceed immediately without waiting",
+        "correct": false,
+        "feedback": "The transaction cannot proceed during the moratorium period."
+      },
+      {
+        "id": "d",
+        "text": "Obtain client consent → file SAR → proceed",
+        "correct": false,
+        "feedback": "Client consent is irrelevant to the statutory consent regime."
+      }
+    ],
+    "oscoa_references": ["Proceeds of Crime Act 2002, s.335"]
+  },
+  {
+    "id": "g-c2-004",
+    "page": "G",
+    "section": "G4",
+    "micro_skill": "G4.2",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["loophole", "defensive-sar", "daml", "consent-regime"],
+    "question": "What is the key tactical advantage of filing a pre-transaction SAR (DAML SAR) under the s.335 consent regime?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It guarantees that the NCA will approve the transaction within 24 hours",
+        "correct": false,
+        "feedback": "There is no guarantee of rapid approval."
+      },
+      {
+        "id": "b",
+        "text": "Even if suspicion is marginal, filing a SAR and awaiting the moratorium period provides a full defence to ss.327-329 — if consent is not refused, the transaction is protected",
+        "correct": true,
+        "feedback": "Correct. The DAML (Defence Against Money Laundering) SAR eliminates the risk of a principal money laundering offence. If the NCA does not refuse consent, the transaction may lawfully proceed."
+      },
+      {
+        "id": "c",
+        "text": "It exempts the filer from all CDD requirements",
+        "correct": false,
+        "feedback": "CDD requirements under MLR 2017 are separate from the consent regime."
+      },
+      {
+        "id": "d",
+        "text": "It transfers all regulatory liability to the NCA",
+        "correct": false,
+        "feedback": "The filing party remains responsible for compliance; the SAR provides a defence, not an indemnity."
+      }
+    ],
+    "oscoa_references": ["Proceeds of Crime Act 2002, s.335"]
+  },
+  {
+    "id": "g-c2-005",
+    "page": "G",
+    "section": "G4",
+    "micro_skill": "G4.2",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["loophole", "moratorium-expiry", "deemed-consent", "timing"],
+    "question": "Why might the NCA's failure to respond within the moratorium period create a strategic opportunity?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Failure to respond is a breach of the NCA's statutory duty giving rise to a claim for damages",
+        "correct": false,
+        "feedback": "There is no claim for damages from NCA non-response."
+      },
+      {
+        "id": "b",
+        "text": "If the NCA does not respond within the moratorium (common in practice), deemed consent applies — the transaction may proceed with full legal protection under the consent regime",
+        "correct": true,
+        "feedback": "Correct. NCA non-response is common, and after the moratorium expires, deemed consent allows the transaction to proceed lawfully — this is a significant practical feature of the consent regime."
+      },
+      {
+        "id": "c",
+        "text": "The NCA is estopped from later investigating the transaction",
+        "correct": false,
+        "feedback": "Deemed consent relates to the criminal defence — it does not create an estoppel against future investigation."
+      },
+      {
+        "id": "d",
+        "text": "The party may seek judicial review of the NCA's delay and obtain compensation",
+        "correct": false,
+        "feedback": "Judicial review would not result in compensation for delay."
+      }
+    ],
+    "oscoa_references": ["Proceeds of Crime Act 2002, s.335"]
+  },
+  {
+    "id": "g-c2-006",
+    "page": "G",
+    "section": "G5",
+    "micro_skill": "G5.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["mlr-2017", "regulation-18", "risk-assessment", "firm-wide"],
+    "question": "Regulation 18 of the MLR 2017 requires a firm-wide risk assessment to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Be conducted once at the commencement of business and never updated",
+        "correct": false,
+        "feedback": "The assessment must be kept up to date — it is not a one-off exercise."
+      },
+      {
+        "id": "b",
+        "text": "Identify and assess ML/TF risks, be documented, and be kept up to date",
+        "correct": true,
+        "feedback": "Correct. Reg 18 requires a comprehensive, documented, and regularly updated risk assessment."
+      },
+      {
+        "id": "c",
+        "text": "Only be conducted for clients in high-risk jurisdictions",
+        "correct": false,
+        "feedback": "The firm-wide risk assessment covers the entire business, not just high-risk clients."
+      },
+      {
+        "id": "d",
+        "text": "Be filed with the FCA annually",
+        "correct": false,
+        "feedback": "There is no annual filing requirement — the assessment is maintained internally."
+      }
+    ],
+    "oscoa_references": ["Money Laundering Regulations 2017, Reg 18"]
+  },
+  {
+    "id": "g-c2-007",
+    "page": "G",
+    "section": "G5",
+    "micro_skill": "G5.1",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["mlr-2017", "regulation-21", "mlro", "senior-management"],
+    "question": "Regulation 21 MLR 2017 requires the appointment of an MLRO at what level?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Any employee who has passed the AML certification exam",
+        "correct": false,
+        "feedback": "The MLRO must be at a senior level, not just any certified employee."
+      },
+      {
+        "id": "b",
+        "text": "A board-level or senior management individual",
+        "correct": true,
+        "feedback": "Correct. Reg 21 requires the appointment of a board-level or senior management individual as the MLRO/Nominated Officer."
+      },
+      {
+        "id": "c",
+        "text": "An external consultant",
+        "correct": false,
+        "feedback": "While external consultants may advise, the statutory appointment must be internal."
+      },
+      {
+        "id": "d",
+        "text": "The firm's external auditor",
+        "correct": false,
+        "feedback": "The external auditor cannot serve as MLRO due to conflicts of interest."
+      }
+    ],
+    "oscoa_references": ["Money Laundering Regulations 2017, Reg 21"]
+  },
+  {
+    "id": "g-c2-008",
+    "page": "G",
+    "section": "G5",
+    "micro_skill": "G5.2",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": ["cdd", "regulation-28", "beneficial-owner", "threshold"],
+    "question": "Under Reg 28 MLR 2017, for CDD purposes, what is the threshold for identifying a beneficial owner?",
+    "options": [
+      {
+        "id": "a",
+        "text": "10% or more of shares or voting rights",
+        "correct": false,
+        "feedback": "The threshold is higher than 10%."
+      },
+      {
+        "id": "b",
+        "text": "25% or more of shares or voting rights",
+        "correct": true,
+        "feedback": "Correct. The MLR 2017 sets the beneficial ownership threshold at 25% plus one share (or 25% or more)."
+      },
+      {
+        "id": "c",
+        "text": "50% or more of shares or voting rights",
+        "correct": false,
+        "feedback": "The threshold for CDD is lower than 50%."
+      },
+      {
+        "id": "d",
+        "text": "75% or more of shares or voting rights",
+        "correct": false,
+        "feedback": "This is far higher than the statutory CDD threshold."
+      }
+    ],
+    "oscoa_references": ["Money Laundering Regulations 2017, Reg 28"]
+  },
+  {
+    "id": "g-c2-009",
+    "page": "G",
+    "section": "G5",
+    "micro_skill": "G5.2",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": ["mlr-2017", "regulation-30", "cdd-timing", "business-relationship"],
+    "question": "Regulation 30 MLR 2017 requires CDD to be completed before which events?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Only before opening a bank account",
+        "correct": false,
+        "feedback": "The timing requirement is broader than just bank accounts."
+      },
+      {
+        "id": "b",
+        "text": "Before establishing a business relationship, carrying out an occasional transaction (€15,000+), or when suspecting ML/TF",
+        "correct": true,
+        "feedback": "Correct. Reg 30 requires CDD before these three triggering events."
+      },
+      {
+        "id": "c",
+        "text": "After the first transaction has been completed",
+        "correct": false,
+        "feedback": "CDD must be completed before the transaction, not after."
+      },
+      {
+        "id": "d",
+        "text": "Only at the client's annual review",
+        "correct": false,
+        "feedback": "CDD is required upfront, not only at annual reviews."
+      }
+    ],
+    "oscoa_references": ["Money Laundering Regulations 2017, Reg 30"]
+  },
+  {
+    "id": "g-c2-010",
+    "page": "G",
+    "section": "G5",
+    "micro_skill": "G5.2",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["loophole", "third-party-cdd", "regulation-39", "reliance"],
+    "question": "What is the key limitation of relying on third-party CDD under Reg 39 MLR 2017?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Third-party CDD is completely prohibited under the MLR 2017",
+        "correct": false,
+        "feedback": "Reg 39 expressly permits reliance on third-party CDD, subject to conditions."
+      },
+      {
+        "id": "b",
+        "text": "The relying firm remains fully liable for any CDD failures — reliance on a third party does not transfer responsibility",
+        "correct": true,
+        "feedback": "Correct. Reg 39 allows reliance but makes clear that the relying firm retains full legal liability for any CDD deficiencies."
+      },
+      {
+        "id": "c",
+        "text": "Third-party reliance is only available for intra-group transactions",
+        "correct": false,
+        "feedback": "Reliance is available beyond intra-group relationships."
+      },
+      {
+        "id": "d",
+        "text": "The third party assumes all liability once reliance is agreed",
+        "correct": false,
+        "feedback": "The third party may have contractual liability, but the relying firm retains statutory liability."
+      }
+    ],
+    "oscoa_references": ["Money Laundering Regulations 2017, Reg 39"]
+  },
+  {
+    "id": "g-c2-011",
+    "page": "G",
+    "section": "G5",
+    "micro_skill": "G5.3",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["edd", "pep", "regulation-35", "source-of-wealth"],
+    "question": "Enhanced Due Diligence for PEPs under Reg 35 MLR 2017 requires:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Standard CDD only — PEPs are treated the same as any other customer",
+        "correct": false,
+        "feedback": "PEPs are subject to enhanced measures, not just standard CDD."
+      },
+      {
+        "id": "b",
+        "text": "Senior management approval for the business relationship, establishment of source of wealth and funds, and enhanced ongoing monitoring",
+        "correct": true,
+        "feedback": "Correct. Reg 35 mandates specific EDD measures for PEPs: senior management approval, source of wealth/funds verification, and enhanced ongoing monitoring."
+      },
+      {
+        "id": "c",
+        "text": "Filing a SAR before any transaction can proceed",
+        "correct": false,
+        "feedback": "A SAR is not automatically required for all PEP relationships."
+      },
+      {
+        "id": "d",
+        "text": "Obtaining a certificate from the PEP's home government",
+        "correct": false,
+        "feedback": "There is no governmental certification requirement."
+      }
+    ],
+    "oscoa_references": ["Money Laundering Regulations 2017, Reg 35"]
+  },
+  {
+    "id": "g-c2-012",
+    "page": "G",
+    "section": "G5",
+    "micro_skill": "G5.3",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["loophole", "uk-pep", "regulation-35(4a)", "lower-risk"],
+    "question": "Which statement about UK PEPs is correct under Reg 35(4A) MLR 2017?",
+    "options": [
+      {
+        "id": "a",
+        "text": "UK PEPs are subject to the same enhanced EDD as non-UK PEPs",
+        "correct": false,
+        "feedback": "UK PEPs are generally treated as lower risk."
+      },
+      {
+        "id": "b",
+        "text": "A lower-risk approach is permitted for UK PEPs, unless other high-risk factors are present — UK PEPs are presumed to present lower risk than foreign PEPs",
+        "correct": true,
+        "feedback": "Correct. Reg 35(4A) permits a more relaxed approach for UK domestic PEPs unless other risk indicators are present."
+      },
+      {
+        "id": "c",
+        "text": "UK PEPs are exempt from all CDD requirements",
+        "correct": false,
+        "feedback": "UK PEPs are not fully exempt — reduced measures still apply."
+      },
+      {
+        "id": "d",
+        "text": "UK PEPs can only be ministerial-level government members",
+        "correct": false,
+        "feedback": "PEPs include a wider range of officials including MPs, judges, and military leaders."
+      }
+    ],
+    "oscoa_references": ["Money Laundering Regulations 2017, Reg 35(4A)"]
+  },
+  {
+    "id": "g-c2-013",
+    "page": "G",
+    "section": "G5",
+    "micro_skill": "G5.3",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["loophole", "pep", "known-close-associate", "narrow-definition"],
+    "question": "'Known close associates' of PEPs are also subject to EDD. What is the limiting factor in this definition?",
+    "options": [
+      {
+        "id": "a",
+        "text": "All family members automatically qualify as 'known close associates'",
+        "correct": false,
+        "feedback": "Not all family members — it must be someone who is 'known' to be a close associate."
+      },
+      {
+        "id": "b",
+        "text": "The associate must be 'known' to the firm — the definition is narrow and does not extend to all possible associates",
+        "correct": true,
+        "feedback": "Correct. The qualifier 'known' narrows the scope — the firm must actually know (or have reasonable grounds to know) that the person is a close associate. It does not require investigating every possible connection."
+      },
+      {
+        "id": "c",
+        "text": "Only business partners who have a financial interest in the PEP's affairs",
+        "correct": false,
+        "feedback": "The definition is not limited to financial interests."
+      },
+      {
+        "id": "d",
+        "text": "Anyone who has had a meeting with the PEP in the last 5 years",
+        "correct": false,
+        "feedback": "This is far broader than the statutory definition."
+      }
+    ],
+    "oscoa_references": ["Money Laundering Regulations 2017, Reg 35"]
+  },
+  {
+    "id": "g-c2-014",
+    "page": "G",
+    "section": "G5",
+    "micro_skill": "G5.3",
+    "crown_level": 2,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": ["pep", "ex-pep", "12-months", "risk"],
+    "question": "'A former PEP who left office more than 12 months ago is generally considered lower risk under MLR 2017.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. Ex-PEPs who have been out of office for 12 months or more are considered lower risk, and a risk-based approach permits reduced measures, though they are not automatically exempt."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "This is correct — the MLR 2017 recognises that the risk diminishes over time after leaving office."
+      }
+    ],
+    "oscoa_references": ["Money Laundering Regulations 2017, Reg 35"]
+  },
+  {
+    "id": "g-c3-001",
+    "page": "G",
+    "section": "G6",
+    "micro_skill": "G6.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["aml-supervisor", "fca", "hmrc", "sra", "opbas"],
+    "question": "Which body acts as the AML supervisor for solicitors?",
+    "options": [
+      {
+        "id": "a",
+        "text": "FCA",
+        "correct": false,
+        "feedback": "The FCA supervises financial institutions, not solicitors."
+      },
+      {
+        "id": "b",
+        "text": "Solicitors Regulation Authority (SRA)",
+        "correct": true,
+        "feedback": "Correct. The SRA is the AML supervisor for solicitors (the BSB for barristers)."
+      },
+      {
+        "id": "c",
+        "text": "HMRC",
+        "correct": false,
+        "feedback": "HMRC supervises estate agents, accountants, TCSPs, and high-value dealers."
+      },
+      {
+        "id": "d",
+        "text": "OPBAS",
+        "correct": false,
+        "feedback": "OPBAS is the oversight body within the FCA that oversees professional body supervisors — it does not directly supervise regulated firms."
+      }
+    ],
+    "oscoa_references": ["Money Laundering Regulations 2017"]
+  },
+  {
+    "id": "g-c3-002",
+    "page": "G",
+    "section": "G6",
+    "micro_skill": "G6.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["opbas", "oversight", "fca", "professional-bodies"],
+    "question": "The Office for Professional Body Anti-Money Laundering Supervision (OPBAS) is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "A direct supervisor for all AML-regulated businesses",
+        "correct": false,
+        "feedback": "OPBAS oversees supervisors, not individual firms."
+      },
+      {
+        "id": "b",
+        "text": "An oversight body within the FCA that supervises the AML supervisors themselves (e.g., SRA, HMRC)",
+        "correct": true,
+        "feedback": "Correct. OPBAS oversees the professional body AML supervisors to ensure consistent high standards of AML supervision."
+      },
+      {
+        "id": "c",
+        "text": "An international AML coordination body",
+        "correct": false,
+        "feedback": "OPBAS is a UK domestic body."
+      },
+      {
+        "id": "d",
+        "text": "A division of the NCA dealing with AML prosecutions",
+        "correct": false,
+        "feedback": "OPBAS is within the FCA, not the NCA."
+      }
+    ],
+    "oscoa_references": ["Money Laundering Regulations 2017"]
+  },
+  {
+    "id": "g-c3-003",
+    "page": "G",
+    "section": "G6",
+    "micro_skill": "G6.2",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": ["mlr-2017", "regulation-86", "criminal-prosecution", "breach"],
+    "question": "Regulation 86 MLR 2017 creates criminal liability for breach of the Regulations. What is the maximum penalty?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Unlimited fine only",
+        "correct": false,
+        "feedback": "The penalty includes imprisonment."
+      },
+      {
+        "id": "b",
+        "text": "2 years imprisonment and/or a fine",
+        "correct": true,
+        "feedback": "Correct. Reg 86 provides for a maximum of 2 years imprisonment and/or an unlimited fine for breaches of the MLR 2017."
+      },
+      {
+        "id": "c",
+        "text": "5 years imprisonment",
+        "correct": false,
+        "feedback": "5 years exceeds the maximum under Reg 86."
+      },
+      {
+        "id": "d",
+        "text": "14 years imprisonment",
+        "correct": false,
+        "feedback": "14 years is the maximum for principal money laundering offences under POCA 2002, not Reg 86."
+      }
+    ],
+    "oscoa_references": ["Money Laundering Regulations 2017, Reg 86"]
+  },
+  {
+    "id": "g-c3-004",
+    "page": "G",
+    "section": "G7",
+    "micro_skill": "G7.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["crypto", "mlr-2017", "fca-registration", "custodian-wallet"],
+    "question": "Under the MLR 2017 (as amended 2020), which crypto asset businesses must register with the FCA?",
+    "options": [
+      {
+        "id": "a",
+        "text": "All businesses that accept cryptocurrency as payment",
+        "correct": false,
+        "feedback": "Simply accepting crypto does not trigger registration."
+      },
+      {
+        "id": "b",
+        "text": "Crypto asset exchange providers and custodian wallet providers",
+        "correct": true,
+        "feedback": "Correct. Crypto asset exchange providers (those exchanging crypto for fiat or other crypto) and custodian wallet providers must register with the FCA."
+      },
+      {
+        "id": "c",
+        "text": "Individual cryptocurrency investors",
+        "correct": false,
+        "feedback": "Individual investors are not required to register."
+      },
+      {
+        "id": "d",
+        "text": "Only businesses dealing in Bitcoin",
+        "correct": false,
+        "feedback": "The requirement applies to all crypto assets, not just Bitcoin."
+      }
+    ],
+    "oscoa_references": ["Money Laundering Regulations 2017 (as amended 2020)"]
+  },
+  {
+    "id": "g-c3-005",
+    "page": "G",
+    "section": "G7",
+    "micro_skill": "G7.1",
+    "crown_level": 3,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["crypto", "cdd-threshold", "1000-euro", "occasional-transaction"],
+    "question": "'The CDD threshold for occasional crypto asset transactions is lower than the standard €15,000 — it is set at €1,000.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. For crypto asset businesses, the occasional transaction threshold is €1,000 rather than the standard €15,000 — reflecting the higher risk profile of virtual currencies."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "This is correct — the crypto threshold is set at €1,000."
+      }
+    ],
+    "oscoa_references": ["Money Laundering Regulations 2017 (as amended 2020)"]
+  },
+  {
+    "id": "g-c3-006",
+    "page": "G",
+    "section": "G7",
+    "micro_skill": "G7.2",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["loophole", "dex", "decentralised-exchange", "unregulated", "mlr-2017"],
+    "question": "Why are decentralised exchanges (DEXs) considered a regulatory gap under the MLR 2017?",
+    "options": [
+      {
+        "id": "a",
+        "text": "They are expressly prohibited by the MLR 2017",
+        "correct": false,
+        "feedback": "DEXs are not prohibited — they fall outside the scope of regulation."
+      },
+      {
+        "id": "b",
+        "text": "There is no central provider or 'business' to register with the FCA — DEXs are not regulated under MLR 2017 and fall outside the registration requirement",
+        "correct": true,
+        "feedback": "Correct. Because DEXs operate via smart contracts without a central entity, there is no identifiable 'provider' to register, and they currently fall outside the MLR 2017 regulatory perimeter."
+      },
+      {
+        "id": "c",
+        "text": "They only deal in small transactions below the CDD threshold",
+        "correct": false,
+        "feedback": "The gap exists regardless of transaction size."
+      },
+      {
+        "id": "d",
+        "text": "They are regulated by the SEC, not the FCA",
+        "correct": false,
+        "feedback": "The SEC is a US regulator and does not regulate UK activities."
+      }
+    ],
+    "oscoa_references": ["Money Laundering Regulations 2017 (as amended 2020)"]
+  },
+  {
+    "id": "g-c3-007",
+    "page": "G",
+    "section": "G7",
+    "micro_skill": "G7.2",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["loophole", "privacy-coins", "monero", "zcash", "anonymity"],
+    "question": "Privacy coins such as Monero and Zcash present enhanced ML/TF risks because:",
+    "options": [
+      {
+        "id": "a",
+        "text": "They are illegal in the UK",
+        "correct": false,
+        "feedback": "Privacy coins are not per se illegal in the UK."
+      },
+      {
+        "id": "b",
+        "text": "They use enhanced anonymity features that make transactions untraceable — posing significant challenges for sanctions screening and ML compliance",
+        "correct": true,
+        "feedback": "Correct. Privacy coins are designed to obscure the sender, recipient, and amount, making blockchain analytics and tracing significantly more difficult."
+      },
+      {
+        "id": "c",
+        "text": "They are only available on the dark web",
+        "correct": false,
+        "feedback": "Privacy coins are available on mainstream exchanges."
+      },
+      {
+        "id": "d",
+        "text": "They are subject to higher CDD standards than other crypto assets",
+        "correct": false,
+        "feedback": "The problem is the difficulty of surveillance, not higher standards."
+      }
+    ],
+    "oscoa_references": ["Money Laundering Regulations 2017 (as amended 2020)"]
+  },
+  {
+    "id": "g-c3-008",
+    "page": "G",
+    "section": "G7",
+    "micro_skill": "G7.2",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["loophole", "unhosted-wallet", "self-custody", "regulatory-gap"],
+    "question": "Unhosted wallets (self-custody) are a regulatory gap because:",
+    "options": [
+      {
+        "id": "a",
+        "text": "They are illegal under UK law",
+        "correct": false,
+        "feedback": "Unhosted wallets are not illegal."
+      },
+      {
+        "id": "b",
+        "text": "There is no intermediary — the user holds their own private keys and transacts directly on the blockchain; no regulated entity is involved and thus MLR 2017 obligations are not triggered",
+        "correct": true,
+        "feedback": "Correct. Unhosted wallets operate without any intermediary — the user controls the private keys directly, and since no regulated business is involved, the MLR 2017 does not apply to the wallet holder."
+      },
+      {
+        "id": "c",
+        "text": "They are only available to corporate entities",
+        "correct": false,
+        "feedback": "Unhosted wallets are widely available to individuals."
+      },
+      {
+        "id": "d",
+        "text": "They are regulated by the Financial Services and Markets Act 2000",
+        "correct": false,
+        "feedback": "FSMA 2000 does not regulate unhosted wallets."
+      }
+    ],
+    "oscoa_references": ["Money Laundering Regulations 2017 (as amended 2020)"]
+  },
+  {
+    "id": "g-c3-009",
+    "page": "G",
+    "section": "G8",
+    "micro_skill": "G8.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["sanctions", "samla-2018", "ofsi", "uk-framework"],
+    "question": "Which Act enables the UK to impose sanctions independently post-Brexit?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Proceeds of Crime Act 2002",
+        "correct": false,
+        "feedback": "POCA 2002 deals with money laundering and asset recovery, not the sanctions framework."
+      },
+      {
+        "id": "b",
+        "text": "Sanctions and Anti-Money Laundering Act 2018 (SAMLA 2018)",
+        "correct": true,
+        "feedback": "Correct. SAMLA 2018 is the primary legislation enabling the UK to impose and enforce sanctions independently."
+      },
+      {
+        "id": "c",
+        "text": "Criminal Finances Act 2017",
+        "correct": false,
+        "feedback": "The Criminal Finances Act 2017 deals with unexplained wealth orders, account freezing, and AML — not the primary sanctions framework."
+      },
+      {
+        "id": "d",
+        "text": "Terrorism Act 2000",
+        "correct": false,
+        "feedback": "The Terrorism Act 2000 deals with terrorist financing, not the general sanctions framework."
+      }
+    ],
+    "oscoa_references": ["Sanctions and Anti-Money Laundering Act 2018"]
+  },
+  {
+    "id": "g-c3-010",
+    "page": "G",
+    "section": "G8",
+    "micro_skill": "G8.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": ["ofsi", "treasury", "financial-sanctions", "enforcement"],
+    "question": "Which body is responsible for enforcing financial sanctions in the UK?",
+    "options": [
+      {
+        "id": "a",
+        "text": "National Crime Agency (NCA)",
+        "correct": false,
+        "feedback": "The NCA deals with serious organised crime, not sanctions enforcement."
+      },
+      {
+        "id": "b",
+        "text": "Office of Financial Sanctions Implementation (OFSI)",
+        "correct": true,
+        "feedback": "Correct. OFSI is a unit within HM Treasury responsible for enforcing financial sanctions."
+      },
+      {
+        "id": "c",
+        "text": "Serious Fraud Office (SFO)",
+        "correct": false,
+        "feedback": "The SFO prosecutes serious fraud, not sanctions cases."
+      },
+      {
+        "id": "d",
+        "text": "Financial Ombudsman Service",
+        "correct": false,
+        "feedback": "The Financial Ombudsman deals with consumer complaints, not sanctions enforcement."
+      }
+    ],
+    "oscoa_references": ["Sanctions and Anti-Money Laundering Act 2018"]
+  },
+  {
+    "id": "g-c3-011",
+    "page": "G",
+    "section": "G8",
+    "micro_skill": "G8.2",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["sanctions", "samla-2018", "section-13", "criminal-offence"],
+    "question": "Under s.13 SAMLA 2018, what is the mental element for the criminal offence of dealing with designated person funds?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Strict liability — no mental element required",
+        "correct": false,
+        "feedback": "The criminal offence requires knowledge or reasonable cause to suspect; strict liability applies only to civil penalties (Policing and Crime Act 2017, s.146)."
+      },
+      {
+        "id": "b",
+        "text": "The person knows or has reasonable cause to suspect that they are dealing with funds or economic resources of a designated person",
+        "correct": true,
+        "feedback": "Correct. The criminal offence under s.13 requires D to know or have reasonable cause to suspect the connection to a designated person."
+      },
+      {
+        "id": "c",
+        "text": "Intent to benefit the designated person",
+        "correct": false,
+        "feedback": "Intent to benefit is not required — knowledge or reasonable cause to suspect suffices."
+      },
+      {
+        "id": "d",
+        "text": "Recklessness as to whether the person is designated",
+        "correct": false,
+        "feedback": "The test is knowledge or reasonable cause to suspect, not recklessness."
+      }
+    ],
+    "oscoa_references": ["Sanctions and Anti-Money Laundering Act 2018, s.13"]
+  },
+  {
+    "id": "g-c3-012",
+    "page": "G",
+    "section": "G8",
+    "micro_skill": "G8.2",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": ["sanctions", "civil-penalty", "policing-and-crime-act-2017", "section-146"],
+    "question": "Under s.146 of the Policing and Crime Act 2017, civil monetary penalties for sanctions breaches are imposed on what basis?",
+    "options": [
+      {
+        "id": "a",
+        "text": "On proof of knowledge or reasonable cause to suspect",
+        "correct": false,
+        "feedback": "No mens rea is required for the civil penalty."
+      },
+      {
+        "id": "b",
+        "text": "On a strict liability basis — the fact of breach is sufficient; no mental element is required",
+        "correct": true,
+        "feedback": "Correct. S.146 PCA 2017 imposes civil penalties for sanctions breaches on a strict liability basis — the mere fact of breach triggers liability, regardless of intention or knowledge."
+      },
+      {
+        "id": "c",
+        "text": "On proof of dishonesty",
+        "correct": false,
+        "feedback": "Dishonesty is not required for civil penalties."
+      },
+      {
+        "id": "d",
+        "text": "On proof of negligence",
+        "correct": false,
+        "feedback": "Negligence is not relevant — the penalty is strict liability."
+      }
+    ],
+    "oscoa_references": ["Policing and Crime Act 2017, s.146", "Sanctions and Anti-Money Laundering Act 2018"]
+  },
+  {
+    "id": "g-c3-013",
+    "page": "G",
+    "section": "G8",
+    "micro_skill": "G8.3",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["loophole", "sanctions", "ownership", "below-50-percent", "ofsi-test"],
+    "question": "What is the OFSI 'owned or controlled' test for determining whether an entity is designated by association?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Any connection to a designated person, regardless of ownership percentage",
+        "correct": false,
+        "feedback": "The test centers on ownership and control, not mere connection."
+      },
+      {
+        "id": "b",
+        "text": "50% or more ownership by a designated person; however, cumulative indirect ownership may also trigger the test. Structuring holdings below 50% may be used to avoid designation",
+        "correct": true,
+        "feedback": "Correct. The 50% threshold is the primary test for 'owned or controlled,' but OFSI also considers indirect and cumulative ownership. A potential loophole exists where holdings are structured below 50%."
+      },
+      {
+        "id": "c",
+        "text": "25% or more ownership (the same as CDD beneficial ownership)",
+        "correct": false,
+        "feedback": "The sanctions threshold is 50%, not 25% (which is the CDD beneficial ownership threshold)."
+      },
+      {
+        "id": "d",
+        "text": "The test only applies to Russian designated persons",
+        "correct": false,
+        "feedback": "The test applies across all sanctions regimes."
+      }
+    ],
+    "oscoa_references": ["Sanctions and Anti-Money Laundering Act 2018"]
+  },
+  {
+    "id": "g-c3-014",
+    "page": "G",
+    "section": "G8",
+    "micro_skill": "G8.3",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["sanctions-defence", "due-diligence", "reasonable-cause", "screening"],
+    "question": "What is the most effective defensive tactic against a criminal charge of dealing with designated person funds under s.13 SAMLA 2018?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Argue that the designated person was not on the OFSI list at the time of the transaction",
+        "correct": false,
+        "feedback": "This would be a factual defence rather than a tactical one."
+      },
+      {
+        "id": "b",
+        "text": "Challenge 'reasonable cause to suspect' by demonstrating that robust sanctions screening and due diligence was performed, showing the defendant had no reasonable cause to suspect a sanctions connection",
+        "correct": true,
+        "feedback": "Correct. Demonstrating that rigorous screening was conducted undermines the prosecution's ability to prove 'reasonable cause to suspect'."
+      },
+      {
+        "id": "c",
+        "text": "Argue that the amount involved was de minimis",
+        "correct": false,
+        "feedback": "There is no de minimis defence to sanctions breaches."
+      },
+      {
+        "id": "d",
+        "text": "Claim ignorance of the sanctions regime",
+        "correct": false,
+        "feedback": "Ignorance of the law is usually not a defence, and 'reasonable cause to suspect' is an objective standard."
+      }
+    ],
+    "oscoa_references": ["Sanctions and Anti-Money Laundering Act 2018, s.13"]
+  },
+  {
+    "id": "g-c4-001",
+    "page": "G",
+    "section": "G9",
+    "micro_skill": "G9.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["civil-recovery", "poca-2002", "part-5", "high-court"],
+    "question": "Civil recovery under Part 5 of POCA 2002 differs from criminal confiscation in that:",
+    "options": [
+      {
+        "id": "a",
+        "text": "It requires a criminal conviction first",
+        "correct": false,
+        "feedback": "Civil recovery under Part 5 does not require a conviction — that is the key distinction from criminal confiscation under Part 2."
+      },
+      {
+        "id": "b",
+        "text": "No conviction is required — proceedings are in rem against property and use the civil standard (balance of probabilities)",
+        "correct": true,
+        "feedback": "Correct. Civil recovery is in rem, uses the civil standard, and does not require a criminal conviction — it targets property, not the person."
+      },
+      {
+        "id": "c",
+        "text": "It can only be brought by the police",
+        "correct": false,
+        "feedback": "The NCA, CPS, and SFO can all bring civil recovery proceedings."
+      },
+      {
+        "id": "d",
+        "text": "It is limited to cash only",
+        "correct": false,
+        "feedback": "Civil recovery extends to all forms of property obtained through unlawful conduct."
+      }
+    ],
+    "oscoa_references": ["Proceeds of Crime Act 2002, Part 5"]
+  },
+  {
+    "id": "g-c4-002",
+    "page": "G",
+    "section": "G9",
+    "micro_skill": "G9.1",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["loophole", "civil-recovery", "legitimate-origin", "defence"],
+    "question": "What is the primary challenge to a civil recovery claim under Part 5 POCA 2002?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Arguing that the property was acquired more than 6 years ago",
+        "correct": false,
+        "feedback": "There is no statutory limitation period for civil recovery of proceeds of crime."
+      },
+      {
+        "id": "b",
+        "text": "Demonstrating the legitimate origin of the property — providing evidence of clean source and lawful acquisition",
+        "correct": true,
+        "feedback": "Correct. The respondent can defeat a civil recovery claim by showing on the balance of probabilities that the property was obtained legitimately and is not derived from unlawful conduct."
+      },
+      {
+        "id": "c",
+        "text": "Arguing that the property is needed for the respondent's business",
+        "correct": false,
+        "feedback": "Business need is not a defence to the claim — it may only affect the relief granted."
+      },
+      {
+        "id": "d",
+        "text": "Relying on the fact that no criminal investigation has been opened",
+        "correct": false,
+        "feedback": "The absence of a criminal investigation does not preclude civil recovery."
+      }
+    ],
+    "oscoa_references": ["Proceeds of Crime Act 2002, Part 5"]
+  },
+  {
+    "id": "g-c4-003",
+    "page": "G",
+    "section": "G9",
+    "micro_skill": "G9.2",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["cash-forfeiture", "poca-2002", "part-5", "section-289"],
+    "question": "For cash seizure and forfeiture under Part 5 POCA 2002, the minimum amount is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "£500",
+        "correct": false,
+        "feedback": "The threshold is higher than £500."
+      },
+      {
+        "id": "b",
+        "text": "£1,000",
+        "correct": true,
+        "feedback": "Correct. Cash seizure and forfeiture requires a minimum of £1,000. 'Cash' is broadly defined in s.289 to include coin, banknotes, postal orders, cheques, banker's drafts, and bearer bonds."
+      },
+      {
+        "id": "c",
+        "text": "£5,000",
+        "correct": false,
+        "feedback": "The threshold is lower than £5,000."
+      },
+      {
+        "id": "d",
+        "text": "£10,000",
+        "correct": false,
+        "feedback": "£10,000 is the threshold for high-value dealers under MLR 2017, not cash forfeiture."
+      }
+    ],
+    "oscoa_references": ["Proceeds of Crime Act 2002, Part 5, s.289"]
+  },
+  {
+    "id": "g-c4-004",
+    "page": "G",
+    "section": "G9",
+    "micro_skill": "G9.3",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["afo", "account-freezing", "poca-2002", "section-303z1"],
+    "question": "Account Freezing Orders under ss.303Z1-303Z9 POCA 2002 (inserted by Criminal Finances Act 2017) require:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Proof beyond reasonable doubt that the account contains criminal property",
+        "correct": false,
+        "feedback": "The standard is reasonable grounds to suspect, not beyond reasonable doubt."
+      },
+      {
+        "id": "b",
+        "text": "Reasonable grounds to suspect the account contains recoverable property or is intended for use in unlawful conduct, with a minimum balance of £1,000",
+        "correct": true,
+        "feedback": "Correct. An AFO is granted by the Magistrates' Court on reasonable grounds to suspect; the minimum balance is £1,000 across combined accounts at the same institution."
+      },
+      {
+        "id": "c",
+        "text": "A criminal conviction for money laundering",
+        "correct": false,
+        "feedback": "No conviction is required — AFOs are civil orders."
+      },
+      {
+        "id": "d",
+        "text": "A report from an AML supervisor confirming suspicion",
+        "correct": false,
+        "feedback": "No supervisory report is required — the application is made by law enforcement agencies."
+      }
+    ],
+    "oscoa_references": ["Proceeds of Crime Act 2002, ss.303Z1-303Z9", "Criminal Finances Act 2017"]
+  },
+  {
+    "id": "g-c4-005",
+    "page": "G",
+    "section": "G9",
+    "micro_skill": "G9.3",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["loophole", "afo", "challenge", "living-expenses", "legitimate-origin"],
+    "question": "Which is the most effective strategy to challenge an Account Freezing Order?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Transfer the funds to an offshore account before the hearing",
+        "correct": false,
+        "feedback": "Transferring funds after the order may breach the order and constitute a criminal offence."
+      },
+      {
+        "id": "b",
+        "text": "Demonstrate the legitimate origin of the funds with business records, contracts, and tax returns, and request release of reasonable living expenses",
+        "correct": true,
+        "feedback": "Correct. The AFO can be challenged by proving the funds' legitimate origin and demonstrating that they are not derived from or intended for use in unlawful conduct. Courts may also release funds for reasonable living expenses."
+      },
+      {
+        "id": "c",
+        "text": "Argue that the balance is below £10,000 and therefore exempt",
+        "correct": false,
+        "feedback": "The minimum threshold is £1,000, not £10,000."
+      },
+      {
+        "id": "d",
+        "text": "Wait for the 2-year forfeiture deadline to expire",
+        "correct": false,
+        "feedback": "Waiting 2 years during which the account remains frozen is not an effective strategy."
+      }
+    ],
+    "oscoa_references": ["Proceeds of Crime Act 2002, ss.303Z1-303Z9"]
+  },
+  {
+    "id": "g-c4-006",
+    "page": "G",
+    "section": "G9",
+    "micro_skill": "G9.4",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["listed-assets", "criminal-finances-act-2017", "precious-metals", "artwork"],
+    "question": "The Criminal Finances Act 2017 extended asset freezing and forfeiture to which categories beyond cash?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Only real property (land and buildings)",
+        "correct": false,
+        "feedback": "Real property is covered by different provisions."
+      },
+      {
+        "id": "b",
+        "text": "Precious metals, precious stones, watches, artwork, and crypto assets, with a minimum value of £1,000",
+        "correct": true,
+        "feedback": "Correct. The Criminal Finances Act 2017 extended the regime to listed assets including precious metals/stones, watches, artwork, and crypto assets. The minimum value is £1,000."
+      },
+      {
+        "id": "c",
+        "text": "Only artwork with a value above £50,000",
+        "correct": false,
+        "feedback": "The minimum value is £1,000, not £50,000."
+      },
+      {
+        "id": "d",
+        "text": "Only motor vehicles",
+        "correct": false,
+        "feedback": "The extension is broader than just motor vehicles."
+      }
+    ],
+    "oscoa_references": ["Criminal Finances Act 2017"]
+  },
+  {
+    "id": "g-c5-001",
+    "page": "G",
+    "section": "G10",
+    "micro_skill": "G10.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["loophole", "dpa", "crime-and-courts-act-2013", "schedule-17", "corporate"],
+    "question": "Deferred Prosecution Agreements under the Crime and Courts Act 2013, Schedule 17 are available for:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Individuals charged with serious fraud",
+        "correct": false,
+        "feedback": "DPAs are only available to corporate entities, not individuals."
+      },
+      {
+        "id": "b",
+        "text": "Corporations for specified economic crimes including money laundering, fraud, bribery, and false accounting",
+        "correct": true,
+        "feedback": "Correct. DPAs are available exclusively to corporate entities for the economic crimes listed in Sch 17, para 15."
+      },
+      {
+        "id": "c",
+        "text": "Any type of offence, including violent crime",
+        "correct": false,
+        "feedback": "DPAs are limited to specified economic crimes."
+      },
+      {
+        "id": "d",
+        "text": "Individual company directors acting in their personal capacity",
+        "correct": false,
+        "feedback": "DPAs are not available to individuals — they are corporate-only tools."
+      }
+    ],
+    "oscoa_references": ["Crime and Courts Act 2013, Sch 17"]
+  },
+  {
+    "id": "g-c5-002",
+    "page": "G",
+    "section": "G10",
+    "micro_skill": "G10.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["loophole", "dpa-process", "preliminary-hearing", "final-hearing", "judge"],
+    "question": "What is the correct procedural sequence for a DPA under Schedule 17?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Prosecutor negotiates terms → DPA signed → published",
+        "correct": false,
+        "feedback": "The process requires judicial approval at two stages."
+      },
+      {
+        "id": "b",
+        "text": "Preliminary application (private) → preliminary judicial indication → negotiation of terms → final hearing (open court) → judicial approval",
+        "correct": true,
+        "feedback": "Correct. The DPA process requires: Stage 1 — preliminary application and hearing in private for judicial indication that DPA is likely to be in the interests of justice; Stage 2 — negotiation of terms; Stage 3 — final hearing in open court for declaration and approval."
+      },
+      {
+        "id": "c",
+        "text": "Full criminal trial → conviction → DPA negotiation",
+        "correct": false,
+        "feedback": "The purpose of a DPA is to avoid conviction entirely."
+      },
+      {
+        "id": "d",
+        "text": "Company self-reports → automatic DPA without court involvement",
+        "correct": false,
+        "feedback": "DPAs require full judicial scrutiny — they are not automatic."
+      }
+    ],
+    "oscoa_references": ["Crime and Courts Act 2013, Sch 17"]
+  },
+  {
+    "id": "g-c5-003",
+    "page": "G",
+    "section": "G10",
+    "micro_skill": "G10.2",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["loophole", "dpa", "self-report", "enrc", "cooperation"],
+    "question": "In SFO v ENRC [2018] EWCA Civ 2006, what was the key ruling on privilege in the context of internal investigations for DPAs?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Internal investigation documents can never be privileged",
+        "correct": false,
+        "feedback": "The Court of Appeal held the opposite — litigation privilege can apply."
+      },
+      {
+        "id": "b",
+        "text": "Litigation privilege attached to documents created during an internal investigation where criminal proceedings were reasonably contemplated and the dominant purpose was to resist those proceedings",
+        "correct": true,
+        "feedback": "Correct. The Court of Appeal held that when a company faces a criminal investigation and criminal proceedings are reasonably contemplated, documents created for the dominant purpose of preparing the defence are protected by litigation privilege."
+      },
+      {
+        "id": "c",
+        "text": "All internal investigation documents must be disclosed to the SFO",
+        "correct": false,
+        "feedback": "The SFO argued for this, but the Court of Appeal rejected the argument."
+      },
+      {
+        "id": "d",
+        "text": "Only documents prepared by external solicitors are privileged",
+        "correct": false,
+        "feedback": "The Court recognised that privilege can extend to documents prepared at the instruction of lawyers, not only those prepared by lawyers directly."
+      }
+    ],
+    "oscoa_references": ["SFO v Eurasian Natural Resources Corporation Ltd [2018] EWCA Civ 2006"]
+  },
+  {
+    "id": "g-c5-004",
+    "page": "G",
+    "section": "G10",
+    "micro_skill": "G10.2",
+    "crown_level": 5,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["loophole", "dpa", "self-report", "eu-debarment", "mandatory"],
+    "question": "'A key advantage of a DPA over a conviction is that it avoids mandatory EU debarment under the Public Contracts Regulations 2015.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. Because a DPA does not result in a criminal conviction, it avoids automatic mandatory debarment from public procurement contracts under the Public Contracts Regulations 2015."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "This is correct — avoiding mandatory debarment is one of the primary commercial drivers for corporations seeking DPAs."
+      }
+    ],
+    "oscoa_references": ["Crime and Courts Act 2013, Sch 17", "Public Contracts Regulations 2015"]
+  },
+  {
+    "id": "g-c5-005",
+    "page": "G",
+    "section": "G11",
+    "micro_skill": "G11.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["loophole", "sar-management", "defensive-sar", "documentation"],
+    "question": "What is the key compliance measure to mitigate the risk of a defensive SAR being criticised?",
+    "options": [
+      {
+        "id": "a",
+        "text": "File SARs without any documented reasoning",
+        "correct": false,
+        "feedback": "Documenting the reasoning is essential — filing without documentation increases risk."
+      },
+      {
+        "id": "b",
+        "text": "Ensure each SAR is supported by a documented ML/TF risk assessment, centralised MLRO oversight, and a record of genuine suspicion held by the filer",
+        "correct": true,
+        "feedback": "Correct. While defensive SARs have been criticised by the NCA, they are not illegal if supported by a genuine (even marginal) suspicion. Documenting the assessment and having MLRO oversight demonstrates good faith compliance."
+      },
+      {
+        "id": "c",
+        "text": "File all SARs through an external consultant",
+        "correct": false,
+        "feedback": "SARs must be filed by the firm's MLRO or nominated officer."
+      },
+      {
+        "id": "d",
+        "text": "Only file SARs for transactions exceeding £50,000",
+        "correct": false,
+        "feedback": "There is no minimum threshold for filing a SAR."
+      }
+    ],
+    "oscoa_references": ["Proceeds of Crime Act 2002, ss.327-329, 335"]
+  },
+  {
+    "id": "g-c5-006",
+    "page": "G",
+    "section": "G11",
+    "micro_skill": "G11.2",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["loophole", "tipping-off", "safe-communication", "general-obligations"],
+    "question": "Which of these communications to a client is permissible under the s.333D safe harbour?",
+    "options": [
+      {
+        "id": "a",
+        "text": "'We have submitted a SAR to the NCA regarding your account'",
+        "correct": false,
+        "feedback": "This is tipping off — it directly reveals that a SAR has been made."
+      },
+      {
+        "id": "b",
+        "text": "'As a regulated firm, we are subject to mandatory reporting obligations under the Proceeds of Crime Act 2002, which may involve reporting to relevant authorities. This is our standard practice and does not confirm or deny any particular disclosure.'",
+        "correct": true,
+        "feedback": "Correct. This is a general communication about AML obligations and falls within the s.333D safe harbour for legal advice communications — it confirms nothing specific."
+      },
+      {
+        "id": "c",
+        "text": "'Your specific transaction has been referred to the authorities'",
+        "correct": false,
+        "feedback": "This identifies a specific transaction as having been referred — tipping off."
+      },
+      {
+        "id": "d",
+        "text": "'We cannot process this transaction because we suspect money laundering'",
+        "correct": false,
+        "feedback": "This reveals the suspicion to the client in connection with a specific transaction — tipping off."
+      }
+    ],
+    "oscoa_references": ["Proceeds of Crime Act 2002, s.333D"]
+  },
+  {
+    "id": "g-c5-007",
+    "page": "G",
+    "section": "G11",
+    "micro_skill": "G11.3",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["loophole", "beneficial-ownership", "25-percent", "layered-trusts", "offshore"],
+    "question": "Which of the following is a known gap in CDD beneficial ownership requirements?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The 25% beneficial ownership threshold means owners below 25% are not identified under standard CDD, allowing multi-layered structures to conceal ultimate control",
+        "correct": true,
+        "feedback": "Correct. The 25% threshold creates a structural gap — beneficial owners below this level are not identified under standard CDD. This can be exploited through layered structures. However, EDD may require lower thresholds."
+      },
+      {
+        "id": "b",
+        "text": "All companies must publicly disclose 100% ownership to 0.1% precision",
+        "correct": false,
+        "feedback": "No such requirement exists — the standard CDD threshold is 25%."
+      },
+      {
+        "id": "c",
+        "text": "The Register of Overseas Entities closed the gap entirely",
+        "correct": false,
+        "feedback": "The Register of Overseas Entities (ECCTA 2022) improved transparency but did not fully close the gap."
+      },
+      {
+        "id": "d",
+        "text": "Beneficial owners must always hold at least 50% to be identified",
+        "correct": false,
+        "feedback": "The threshold is 25%, not 50%."
+      }
+    ],
+    "oscoa_references": ["Money Laundering Regulations 2017, Reg 28", "Economic Crime and Corporate Transparency Act 2023"]
+  },
+  {
+    "id": "g-c5-008",
+    "page": "G",
+    "section": "G11",
+    "micro_skill": "G11.4",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["loophole", "freeport", "art-market", "aml-gap", "customs-free"],
+    "question": "Freeports are considered an AML risk gap because:",
+    "options": [
+      {
+        "id": "a",
+        "text": "They are illegal under UK law",
+        "correct": false,
+        "feedback": "Freeports are government policy — they are not illegal."
+      },
+      {
+        "id": "b",
+        "text": "They are customs-free zones where high-value assets (art, wine, gold) can be stored without import duties, and beneficial ownership may be opaque — creating opportunities for money laundering through stored assets",
+        "correct": true,
+        "feedback": "Correct. Freeports allow high-value assets to be stored customs-free with limited transparency of beneficial ownership, creating opportunities for value storage and transfer without triggering AML checks."
+      },
+      {
+        "id": "c",
+        "text": "They are exempt from the MLR 2017 by statute",
+        "correct": false,
+        "feedback": "Freeports are not exempt from the MLR 2017 — the risk arises from practical opacity, not statutory exemption."
+      },
+      {
+        "id": "d",
+        "text": "They only operate in jurisdictions outside the UK",
+        "correct": false,
+        "feedback": "The UK has established multiple freeports since 2021."
+      }
+    ],
+    "oscoa_references": ["Money Laundering Regulations 2017 (as amended 2021)"]
+  },
+  {
+    "id": "g-c5-009",
+    "page": "G",
+    "section": "G11",
+    "micro_skill": "G11.5",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["loophole", "lpp", "prudential", "accountants", "not-privileged"],
+    "question": "In R (Prudential plc) v Special Commissioner of Income Tax [2013] UKSC 1, the Supreme Court held that legal professional privilege:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Extends to all professional advisers, including accountants and tax advisors",
+        "correct": false,
+        "feedback": "The Supreme Court rejected this argument — LPP is confined to qualified lawyers."
+      },
+      {
+        "id": "b",
+        "text": "Applies only to qualified lawyers — advice from accountants, even if identical in substance, does not attract LPP",
+        "correct": true,
+        "feedback": "Correct. A 5:2 majority in the Supreme Court held that LPP is confined to the legal profession — accountants' advice, however similar in substance, is not privileged."
+      },
+      {
+        "id": "c",
+        "text": "Applies to any professional giving legal advice",
+        "correct": false,
+        "feedback": "The Court rejected the functional approach — the status of the adviser matters."
+      },
+      {
+        "id": "d",
+        "text": "Does not apply to in-house lawyers",
+        "correct": false,
+        "feedback": "LPP does apply to in-house lawyers in the UK — post-Brexit the UK position is stronger than the EU position (Akzo Nobel)."
+      }
+    ],
+    "oscoa_references": ["R (on the application of Prudential plc) v Special Commissioner of Income Tax [2013] UKSC 1"]
+  },
+  {
+    "id": "g-c5-010",
+    "page": "G",
+    "section": "G11",
+    "micro_skill": "G11.5",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["loophole", "lpp", "internal-investigation", "lawyer-instruction", "dominant-purpose"],
+    "question": "To maximise the protection of litigation privilege during an internal AML investigation, which approach is most effective?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Have the compliance team lead the investigation without legal involvement",
+        "correct": false,
+        "feedback": "Lack of legal involvement risks loss of privilege — documents may not be protected."
+      },
+      {
+        "id": "b",
+        "text": "Instruct external solicitors from the outset, document that the dominant purpose is legal advice and preparation for contemplated litigation, and channel all investigation documents through lawyers",
+        "correct": true,
+        "feedback": "Correct. Following the guidance from SFO v ENRC [2018], engaging external solicitors and clearly documenting the dominant purpose as legal advice/contemplated litigation maximises privilege protection."
+      },
+      {
+        "id": "c",
+        "text": "Mark all documents as 'privileged and confidential' without legal oversight",
+        "correct": false,
+        "feedback": "The label alone is insufficient — the dominant purpose must be established in fact."
+      },
+      {
+        "id": "d",
+        "text": "Conduct the investigation through external accountants",
+        "correct": false,
+        "feedback": "Accountants' communications do not attract LPP (Prudential [2013]) — they may attract litigation privilege in limited circumstances, but legal involvement is stronger."
+      }
+    ],
+    "oscoa_references": ["SFO v Eurasian Natural Resources Corporation Ltd [2018] EWCA Civ 2006", "R (Prudential plc) v Special Commissioner of Income Tax [2013] UKSC 1"]
+  },
+  {
+    "id": "g-c5-011",
+    "page": "G",
+    "section": "G11",
+    "micro_skill": "G11.6",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["loophole", "de-risking", "fca-principles", "equality-act", "risk-assessment"],
+    "question": "What is the primary regulatory risk of adopting a blanket de-risking strategy (terminating all high-risk relationships)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "There is no regulatory risk — de-risking is always the safest approach",
+        "correct": false,
+        "feedback": "De-risking carries its own regulatory risks."
+      },
+      {
+        "id": "b",
+        "text": "Blanket de-risking may breach the FCA's Principles (treating customers fairly), the Equality Act 2010 (indirect discrimination), and sector rules — a graduated approach (SDD → CDD → EDD) with documented rationale is defensible",
+        "correct": true,
+        "feedback": "Correct. While de-risking is a legitimate commercial decision, blanket refusal without proper risk assessment may constitute unfair treatment, indirect discrimination, or regulatory breach. A graduated approach is preferred."
+      },
+      {
+        "id": "c",
+        "text": "De-risking automatically triggers prosecution under POCA 2002",
+        "correct": false,
+        "feedback": "De-risking does not involve POCA offences — the risks are regulatory."
+      },
+      {
+        "id": "d",
+        "text": "De-risking is only permissible for PEPs",
+        "correct": false,
+        "feedback": "De-risking may apply to any category of customer, not just PEPs."
+      }
+    ],
+    "oscoa_references": ["FCA Principles", "Equality Act 2010"]
+  },
+  {
+    "id": "g-c5-012",
+    "page": "G",
+    "section": "G11",
+    "micro_skill": "G11.6",
+    "crown_level": 5,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["loophole", "de-risking", "graduated-approach", "defensive-compliance"],
+    "question": "'A firm should not terminate a high-risk relationship without first considering whether enhanced due diligence and monitoring could adequately manage the risk.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. The FCA expects firms to follow a graduated approach — starting with SDD, progressing to CDD and EDD, before considering termination. Blanket de-risking without this assessment is discouraged."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "This is correct — the FCA's guidance is that a graduated risk-based approach should be followed before de-risking."
+      }
+    ],
+    "oscoa_references": ["FCA Principles"]
+  }
+]

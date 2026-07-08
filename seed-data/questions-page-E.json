@@ -1,0 +1,1913 @@
+[
+  {
+    "id": "e-c1-001",
+    "page": "E",
+    "section": "E1",
+    "micro_skill": "E1.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": ["trespass-to-land", "civil", "actionable-per-se"],
+    "question": "Which of the following is correct about civil trespass to land?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Proof of actual damage is required before a claim can succeed",
+        "correct": false,
+        "feedback": "Civil trespass is actionable per se — no proof of damage is required."
+      },
+      {
+        "id": "b",
+        "text": "It requires unauthorised direct physical entry onto another's land and is actionable per se",
+        "correct": true,
+        "feedback": "Correct. Trespass to land requires unauthorised direct physical entry and no proof of damage is needed — the tort is actionable per se."
+      },
+      {
+        "id": "c",
+        "text": "It requires proof that the trespasser intended to cause disruption",
+        "correct": false,
+        "feedback": "Intent to cause disruption is an element of aggravated trespass (criminal), not civil trespass."
+      },
+      {
+        "id": "d",
+        "text": "It only applies to commercial property",
+        "correct": false,
+        "feedback": "Trespass to land applies to any land, not just commercial property."
+      }
+    ],
+    "oscoa_references": ["DPP v Jones [1999] 2 AC 240"]
+  },
+  {
+    "id": "e-c1-002",
+    "page": "E",
+    "section": "E1",
+    "micro_skill": "E1.1",
+    "crown_level": 1,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": ["aggravated-trespass", "cjpoa-1994", "section-68"],
+    "question": "'Aggravated trespass under s.68 CJPOA 1994 requires both intention to intimidate, obstruct or disrupt and causation of disruption.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. Section 68 requires (a) intention to intimidate, obstruct, or disrupt lawful activity AND (b) causation of actual disruption."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "This is in fact correct — s.68 CJPOA 1994 requires both the specific intent and causation of disruption."
+      }
+    ],
+    "oscoa_references": ["Criminal Justice and Public Order Act 1994, s.68"]
+  },
+  {
+    "id": "e-c1-003",
+    "page": "E",
+    "section": "E1",
+    "micro_skill": "E1.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["trespass", "dpdjones", "highway", "peaceful-assembly"],
+    "question": "In DPP v Jones [1999] 2 AC 240, the House of Lords held that:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Any gathering on a public highway constitutes trespass",
+        "correct": false,
+        "feedback": "The House of Lords rejected this absolute approach."
+      },
+      {
+        "id": "b",
+        "text": "Public highways can only be used for passage and re-passage with no exceptions",
+        "correct": false,
+        "feedback": "Lord Irvine rejected the narrow 'passage only' approach in Jones."
+      },
+      {
+        "id": "c",
+        "text": "A right of peaceful assembly on the public highway is not trespass if it is reasonable",
+        "correct": true,
+        "feedback": "Correct. Their Lordships held that the public highway may be used for peaceful assembly provided the use is reasonable and does not obstruct the highway."
+      },
+      {
+        "id": "d",
+        "text": "All protest activity on highways is automatically criminal",
+        "correct": false,
+        "feedback": "The case held that reasonable peaceful assembly on the highway is protected and does not constitute trespass."
+      }
+    ],
+    "oscoa_references": ["DPP v Jones [1999] 2 AC 240", "Criminal Justice and Public Order Act 1994, s.61"]
+  },
+  {
+    "id": "e-c1-004",
+    "page": "E",
+    "section": "E1",
+    "micro_skill": "E1.1",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["loophole", "protesters", "dpdjones", "section-68"],
+    "question": "Which of the following is the best characterisation of the loophole in DPP v Jones for protesters?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Protesters are immune from trespass claims if they remain on the highway for under 24 hours",
+        "correct": false,
+        "feedback": "There is no 24-hour immunity rule."
+      },
+      {
+        "id": "b",
+        "text": "Public right of access protects reasonable use of the highway, and s.68 CJPOA requires proof of specific intent to disrupt — so peaceful assembly may be lawful even where technically a trespass",
+        "correct": true,
+        "feedback": "Correct. DPP v Jones established that reasonable use of the highway for peaceful assembly is protected, and a s.68 charge requires the prosecution to prove specific intent to disrupt."
+      },
+      {
+        "id": "c",
+        "text": "All protest trespass is automatically criminal regardless of conduct",
+        "correct": false,
+        "feedback": "This is the opposite of what Jones established."
+      },
+      {
+        "id": "d",
+        "text": "Protesters can enter private property without permission as long as their cause is political",
+        "correct": false,
+        "feedback": "No such political exception exists for private property trespass."
+      }
+    ],
+    "oscoa_references": ["DPP v Jones [1999] 2 AC 240", "Criminal Justice and Public Order Act 1994, s.68"]
+  },
+  {
+    "id": "e-c1-005",
+    "page": "E",
+    "section": "E1",
+    "micro_skill": "E1.2",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": ["assault", "battery", "trespass-to-person", "civil"],
+    "question": "What is the standard of proof in a civil claim for trespass to the person (assault/battery)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Beyond reasonable doubt",
+        "correct": false,
+        "feedback": "Beyond reasonable doubt is the criminal standard, not the civil standard."
+      },
+      {
+        "id": "b",
+        "text": "Balance of probabilities",
+        "correct": true,
+        "feedback": "Correct. Civil claims — including trespass to the person — are determined on the balance of probabilities (more likely than not)."
+      },
+      {
+        "id": "c",
+        "text": "Clear and convincing evidence",
+        "correct": false,
+        "feedback": "'Clear and convincing evidence' is not a standard used in English civil law."
+      },
+      {
+        "id": "d",
+        "text": "Beyond any doubt",
+        "correct": false,
+        "feedback": "'Beyond any doubt' sets a higher bar even than the criminal standard, which is 'beyond reasonable doubt'."
+      }
+    ],
+    "oscoa_references": ["Re H (Minors) [1996] AC 563", "Criminal Justice Act 1988, s.39"]
+  },
+  {
+    "id": "e-c1-006",
+    "page": "E",
+    "section": "E1",
+    "micro_skill": "E1.2",
+    "crown_level": 1,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["consent", "assault", "r-v-brown", "sado-masochism"],
+    "question": "'In English law, a person can consent to the infliction of actual bodily harm (s.47 ABH) in any context, including sado-masochistic activities.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": false,
+        "feedback": "R v Brown [1994] 1 AC 212 held that consent is not a defence to s.47 ABH in the context of sado-masochistic activities — the House of Lords drew a narrow line on what harms can be consented to."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": true,
+        "feedback": "Correct. In R v Brown [1994], the House of Lords held that consent cannot be a defence to s.47 ABH in a sado-masochistic context. The scope of consent in civil law (see F v West Berkshire HA [1990]) is broader than in criminal law."
+      }
+    ],
+    "oscoa_references": ["R v Brown [1994] 1 AC 212", "F v West Berkshire Health Authority [1990] 2 AC 1"]
+  },
+  {
+    "id": "e-c1-007",
+    "page": "E",
+    "section": "E1",
+    "micro_skill": "E1.2",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["civil-evidence-act", "section-11", "conviction-evidence"],
+    "question": "Under the Civil Evidence Act 1968, s.11, the effect of a criminal conviction in subsequent civil proceedings is that:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The conviction is irrelevant and inadmissible",
+        "correct": false,
+        "feedback": "On the contrary — s.11 makes the conviction admissible."
+      },
+      {
+        "id": "b",
+        "text": "The conviction is conclusive proof of the facts underlying the offence",
+        "correct": false,
+        "feedback": "It creates a rebuttable presumption, not conclusive proof."
+      },
+      {
+        "id": "c",
+        "text": "The conviction is admissible in civil proceedings and creates a rebuttable presumption that the person committed the offence, shifting the burden to the defendant to disprove",
+        "correct": true,
+        "feedback": "Correct. S.11 CEA 1968 provides that a conviction is admissible and shifts the evidential burden to the convicted party to prove they did not commit the offence."
+      },
+      {
+        "id": "d",
+        "text": "The conviction can only be used if the defendant was legally represented at trial",
+        "correct": false,
+        "feedback": "There is no such requirement in s.11."
+      }
+    ],
+    "oscoa_references": ["Civil Evidence Act 1968, s.11"]
+  },
+  {
+    "id": "e-c1-008",
+    "page": "E",
+    "section": "E1",
+    "micro_skill": "E1.2",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": ["assault", "criminal", "cja-1988", "section-39"],
+    "question": "Which statute makes common assault and battery summary offences prosecuted by the CPS?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Offences Against the Person Act 1861, s.47",
+        "correct": false,
+        "feedback": "S.47 deals with ABH (actual bodily harm), which is an either-way offence, not common assault."
+      },
+      {
+        "id": "b",
+        "text": "Criminal Justice Act 1988, s.39",
+        "correct": true,
+        "feedback": "Correct. Section 39 CJA 1988 makes common assault and battery summary offences."
+      },
+      {
+        "id": "c",
+        "text": "Police and Criminal Evidence Act 1984",
+        "correct": false,
+        "feedback": "PACE 1984 deals with police powers and criminal evidence, not the classification of assault."
+      },
+      {
+        "id": "d",
+        "text": "Criminal Justice and Public Order Act 1994",
+        "correct": false,
+        "feedback": "The CJPOA 1994 deals with trespass, adverse inferences, and public order, not common assault."
+      }
+    ],
+    "oscoa_references": ["Criminal Justice Act 1988, s.39"]
+  },
+  {
+    "id": "e-c1-009",
+    "page": "E",
+    "section": "E1",
+    "micro_skill": "E1.3",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["fraud", "tort-of-deceit", "derry-v-peek"],
+    "question": "In the tort of deceit, as defined in Derry v Peek (1889) 14 App Cas 337, the misrepresentation must be:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Negligently made",
+        "correct": false,
+        "feedback": "Negligent misrepresentation is a separate tort under the tort of negligence (Hedley Byrne v Heller [1964]) — deceit requires a higher mental state."
+      },
+      {
+        "id": "b",
+        "text": "Made knowingly or recklessly, with intention to be relied upon, causing damage",
+        "correct": true,
+        "feedback": "Correct. Derry v Peek established the classic elements: (1) knowing/reckless false statement, (2) intention to be relied upon, (3) actual reliance, (4) damage."
+      },
+      {
+        "id": "c",
+        "text": "Made innocently without negligence",
+        "correct": false,
+        "feedback": "Innocent misrepresentation may give rise to rescission but is not sufficient for deceit."
+      },
+      {
+        "id": "d",
+        "text": "Dishonest under the Ivey test",
+        "correct": false,
+        "feedback": "The Ivey [2017] dishonesty test applies to criminal fraud under the Fraud Act 2006, not the tort of deceit."
+      }
+    ],
+    "oscoa_references": ["Derry v Peek (1889) 14 App Cas 337"]
+  },
+  {
+    "id": "e-c1-010",
+    "page": "E",
+    "section": "E1",
+    "micro_skill": "E1.3",
+    "crown_level": 1,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["fraud-act-2006", "section-2", "dishonesty", "ivey-test"],
+    "question": "'For a conviction under s.2 Fraud Act 2006 (fraud by false representation), the prosecution must prove both dishonesty and that the victim suffered actual damage.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": false,
+        "feedback": "This is incorrect — unlike the tort of deceit, criminal fraud under s.2 does not require proof of damage. The offence is complete upon making a false representation dishonestly with intent to make a gain or cause loss."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": true,
+        "feedback": "Correct. No damage is required for a completed s.2 offence. The tort of deceit requires damage; criminal fraud requires only intent."
+      }
+    ],
+    "oscoa_references": ["Fraud Act 2006, s.2", "Ivey v Genting Casinos (UK) Ltd [2017] UKSC 67"]
+  },
+  {
+    "id": "e-c1-011",
+    "page": "E",
+    "section": "E1",
+    "micro_skill": "E1.3",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": ["double-jeopardy", "civil", "criminal", "fraud"],
+    "question": "Can a defendant face both a civil claim and a criminal prosecution for the same fraudulent act?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No — the rule against double jeopardy applies to both civil and criminal proceedings",
+        "correct": false,
+        "feedback": "Double jeopardy (ne bis in idem) applies strictly to criminal proceedings — not between civil and criminal."
+      },
+      {
+        "id": "b",
+        "text": "Yes — double jeopardy does not apply between civil and criminal proceedings, so the same defendant can face both",
+        "correct": true,
+        "feedback": "Correct. Civil and criminal proceedings are entirely distinct; double jeopardy only bars a second criminal prosecution for the same offence. The defendant can be sued civilly and prosecuted criminally for the same fraud."
+      },
+      {
+        "id": "c",
+        "text": "Only if the civil claim is brought first",
+        "correct": false,
+        "feedback": "The order of proceedings does not matter."
+      },
+      {
+        "id": "d",
+        "text": "Only if the fraud exceeds £100,000 in value",
+        "correct": false,
+        "feedback": "There is no financial threshold for whether both proceedings can be pursued."
+      }
+    ],
+    "oscoa_references": ["Criminal Justice Act 2003, Part 10", "Hunter v Chief Constable of West Midlands Police [1982] AC 529"]
+  },
+  {
+    "id": "e-c1-012",
+    "page": "E",
+    "section": "E1",
+    "micro_skill": "E1.3",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["loophole", "settlement", "cps", "public-interest-test"],
+    "question": "Which statement best describes the effect of a civil settlement on criminal prosecution for fraud?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A civil settlement automatically bars any criminal prosecution for the same conduct",
+        "correct": false,
+        "feedback": "Civil settlements do not bind the CPS — prosecutorial independence means a settlement cannot bar prosecution."
+      },
+      {
+        "id": "b",
+        "text": "A civil settlement does not bind the CPS, but settlement plus compensation may influence the public interest test — the CPS may consider whether prosecution remains in the public interest where full restitution has been made",
+        "correct": true,
+        "feedback": "Correct. The CPS retains independence, but full restitution and a civil settlement are relevant factors in the public interest assessment."
+      },
+      {
+        "id": "c",
+        "text": "The CPS must drop prosecution if the defendant has paid civil damages exceeding the criminal fine threshold",
+        "correct": false,
+        "feedback": "No such automatic rule exists."
+      },
+      {
+        "id": "d",
+        "text": "A settlement agreement that waives the right to report conduct to the police is enforceable",
+        "correct": false,
+        "feedback": "Such a clause would likely be void on public policy grounds."
+      }
+    ],
+    "oscoa_references": ["Crime and Courts Act 2013, Sch 17"]
+  },
+  {
+    "id": "e-c1-013",
+    "page": "E",
+    "section": "E1",
+    "micro_skill": "E1.4",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": ["harassment", "pha-1997", "section-2", "criminal"],
+    "question": "Under which provision of the Protection from Harassment Act 1997 is harassment a criminal offence?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Section 3",
+        "correct": false,
+        "feedback": "Section 3 provides the civil remedy (damages and injunction) for harassment."
+      },
+      {
+        "id": "b",
+        "text": "Section 2",
+        "correct": true,
+        "feedback": "Correct. Section 2 PHA 1997 creates the criminal offence of harassment — a course of conduct causing harassment."
+      },
+      {
+        "id": "c",
+        "text": "Section 4",
+        "correct": false,
+        "feedback": "Section 4 deals with the more serious offence of stalking involving fear of violence or serious alarm/distress."
+      },
+      {
+        "id": "d",
+        "text": "Section 1",
+        "correct": false,
+        "feedback": "Section 1 defines the concept of harassment but does not itself create an offence."
+      }
+    ],
+    "oscoa_references": ["Protection from Harassment Act 1997, ss.2, 3, 4"]
+  },
+  {
+    "id": "e-c1-014",
+    "page": "E",
+    "section": "E1",
+    "micro_skill": "E1.4",
+    "crown_level": 1,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["harassment", "injunction", "breach", "section-3(6)"],
+    "question": "'Under s.3(6) PHA 1997, breach of a civil harassment injunction is both contempt of court and a criminal offence.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. Section 3(6) provides that breach of an injunction granted under s.3 is a criminal offence, in addition to being capable of being punished as contempt of court."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "This is correct. S.3(6) PHA 1997 makes breach of a civil injunction a criminal offence, alongside contempt."
+      }
+    ],
+    "oscoa_references": ["Protection from Harassment Act 1997, s.3(6)"]
+  },
+  {
+    "id": "e-c1-015",
+    "page": "E",
+    "section": "E1",
+    "micro_skill": "E1.4",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["harassment", "hayden-v-dickenson", "freedom-of-expression", "defence"],
+    "question": "In Hayden v Dickenson [2020] EWHC 266 (QB), what defence did the court consider under s.1(3)(c) PHA 1997?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Insanity",
+        "correct": false,
+        "feedback": "Insanity is not at issue under s.1(3)(c)."
+      },
+      {
+        "id": "b",
+        "text": "Self-defence",
+        "correct": false,
+        "feedback": "Self-defence is not the defence under s.1(3)(c)."
+      },
+      {
+        "id": "c",
+        "text": "Freedom of expression — the course of conduct must be 'oppressive and unacceptable' to constitute harassment",
+        "correct": true,
+        "feedback": "Correct. The court considered the freedom of expression defence, holding that the conduct must cross the threshold of being oppressive and unacceptable."
+      },
+      {
+        "id": "d",
+        "text": "Duress",
+        "correct": false,
+        "feedback": "Duress is not provided for under s.1(3)(c)."
+      }
+    ],
+    "oscoa_references": ["Hayden v Dickenson [2020] EWHC 266 (QB)", "Protection from Harassment Act 1997, s.1(3)(c)"]
+  },
+  {
+    "id": "e-c1-016",
+    "page": "E",
+    "section": "E1",
+    "micro_skill": "E1.5",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["data-protection", "uk-gdpr", "article-82", "lloyd-v-google"],
+    "question": "In Lloyd v Google LLC [2021] UKSC 31, the Supreme Court limited 'loss of control' damages in data protection claims by holding that:",
+    "options": [
+      {
+        "id": "a",
+        "text": "US-style class actions are fully available in the UK",
+        "correct": false,
+        "feedback": "The Supreme Court limited, not expanded, the scope for US-style class actions."
+      },
+      {
+        "id": "b",
+        "text": "Compensation is only available where the claimant can prove individual material damage",
+        "correct": true,
+        "feedback": "Correct. The Supreme Court held that 'loss of control' of personal data, without proof of material damage or distress, is insufficient for compensation under s.13 DPA 1998 (now UK GDPR Art 82 and DPA 2018 s.168)."
+      },
+      {
+        "id": "c",
+        "text": "Any data breach automatically entitles all affected individuals to £750 each",
+        "correct": false,
+        "feedback": "The Supreme Court rejected any notion of automatic compensation without proof of damage."
+      },
+      {
+        "id": "d",
+        "text": "The GDPR disapplies the requirement for damage entirely",
+        "correct": false,
+        "feedback": "This is the opposite of what was held."
+      }
+    ],
+    "oscoa_references": ["Lloyd v Google LLC [2021] UKSC 31", "UK GDPR Art 82", "Data Protection Act 2018, s.168"]
+  },
+  {
+    "id": "e-c1-017",
+    "page": "E",
+    "section": "E1",
+    "micro_skill": "E1.5",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["data-protection", "dpa-2018", "criminal-offences", "section-170"],
+    "question": "Which DPA 2018 offence criminalises unlawfully obtaining or disclosing personal data?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Section 168",
+        "correct": false,
+        "feedback": "Section 168 provides the civil compensation provisions, not a criminal offence."
+      },
+      {
+        "id": "b",
+        "text": "Section 173",
+        "correct": false,
+        "feedback": "Section 173 criminalises alteration, destruction, or concealment of personal data to prevent disclosure (frustrating a subject access request)."
+      },
+      {
+        "id": "c",
+        "text": "Section 170",
+        "correct": true,
+        "feedback": "Correct. Section 170 DPA 2018 creates the offence of unlawfully obtaining or disclosing personal data."
+      },
+      {
+        "id": "d",
+        "text": "Section 171",
+        "correct": false,
+        "feedback": "Section 171 is the offence of re-identification of de-identified personal data."
+      }
+    ],
+    "oscoa_references": ["Data Protection Act 2018, ss.170-173"]
+  },
+  {
+    "id": "e-c1-018",
+    "page": "E",
+    "section": "E1",
+    "micro_skill": "E1.5",
+    "crown_level": 1,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": ["ico", "monetary-penalty", "gdpr"],
+    "question": "What is the maximum civil monetary penalty the ICO can impose for a data protection breach?",
+    "options": [
+      {
+        "id": "a",
+        "text": "£500,000",
+        "correct": false,
+        "feedback": "This was the old maximum under the DPA 1998."
+      },
+      {
+        "id": "b",
+        "text": "£17.5 million or 4% of annual worldwide turnover, whichever is greater",
+        "correct": true,
+        "feedback": "Correct. Under UK GDPR and DPA 2018, the ICO can impose civil monetary penalties up to £17.5 million or 4% of annual worldwide turnover."
+      },
+      {
+        "id": "c",
+        "text": "£10 million",
+        "correct": false,
+        "feedback": "The figure is higher than £10 million."
+      },
+      {
+        "id": "d",
+        "text": "There is no maximum; it is at the ICO's discretion",
+        "correct": false,
+        "feedback": "The maximum is expressly provided for by statute."
+      }
+    ],
+    "oscoa_references": ["UK GDPR Art 83", "Data Protection Act 2018, s.157"]
+  },
+  {
+    "id": "e-c2-001",
+    "page": "E",
+    "section": "E1",
+    "micro_skill": "E1.6",
+    "crown_level": 2,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["contempt-of-court", "civil-contempt", "criminal-standard"],
+    "question": "'In committal proceedings for civil contempt (breach of court order), the standard of proof is the civil standard — balance of probabilities.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": false,
+        "feedback": "Incorrect. Despite being civil proceedings, committal for contempt requires proof beyond reasonable doubt because of the penal consequences — Hammerton v Hammerton [2007] EWCA Civ 248."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": true,
+        "feedback": "Correct. Committal for civil contempt uses the criminal standard of proof (beyond reasonable doubt) even though it is a civil proceeding, given the quasi-criminal nature and potential loss of liberty."
+      }
+    ],
+    "oscoa_references": ["Hammerton v Hammerton [2007] EWCA Civ 248", "Contempt of Court Act 1981"]
+  },
+  {
+    "id": "e-c2-002",
+    "page": "E",
+    "section": "E1",
+    "micro_skill": "E1.6",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["contempt", "maximum-sentence", "civil-contempt"],
+    "question": "What is the maximum sentence for civil contempt of court under the Contempt of Court Act 1981?",
+    "options": [
+      {
+        "id": "a",
+        "text": "6 months",
+        "correct": false,
+        "feedback": "The maximum is significantly higher."
+      },
+      {
+        "id": "b",
+        "text": "2 years",
+        "correct": true,
+        "feedback": "Correct. The maximum sentence for civil contempt under the Contempt of Court Act 1981 is 2 years imprisonment."
+      },
+      {
+        "id": "c",
+        "text": "5 years",
+        "correct": false,
+        "feedback": "5 years exceeds the statutory maximum for civil contempt."
+      },
+      {
+        "id": "d",
+        "text": "Unlimited — at the discretion of the court",
+        "correct": false,
+        "feedback": "The maximum is limited by statute to 2 years."
+      }
+    ],
+    "oscoa_references": ["Contempt of Court Act 1981"]
+  },
+  {
+    "id": "e-c2-003",
+    "page": "E",
+    "section": "E1",
+    "micro_skill": "E1.6",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": ["contempt", "civil-vs-criminal", "coercive", "punitive"],
+    "question": "What is the primary distinction between civil contempt and criminal contempt?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Civil contempt can only be committed by individuals; criminal contempt by corporations",
+        "correct": false,
+        "feedback": "Both forms can be committed by either."
+      },
+      {
+        "id": "b",
+        "text": "Civil contempt is coercive (to compel compliance), while criminal contempt is punitive (to punish)",
+        "correct": true,
+        "feedback": "Correct. Civil contempt is aimed at coercing compliance with court orders; criminal contempt is punitive for interference with the administration of justice."
+      },
+      {
+        "id": "c",
+        "text": "There is no meaningful distinction — the terms are interchangeable",
+        "correct": false,
+        "feedback": "The distinction is well-established and important for both procedure and sentencing."
+      },
+      {
+        "id": "d",
+        "text": "Civil contempt applies only in the High Court; criminal contempt only in the Crown Court",
+        "correct": false,
+        "feedback": "Both forms of contempt can arise in different courts."
+      }
+    ],
+    "oscoa_references": ["Contempt of Court Act 1981"]
+  },
+  {
+    "id": "e-c2-004",
+    "page": "E",
+    "section": "E1",
+    "micro_skill": "E1.7",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["environmental", "epa-1990", "section-79", "statutory-nuisance"],
+    "question": "Under s.79 Environmental Protection Act 1990, a statutory nuisance is primarily a:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Criminal proceeding only",
+        "correct": false,
+        "feedback": "While abatement notice breach is criminal, the initial proceeding is civil."
+      },
+      {
+        "id": "b",
+        "text": "Civil proceeding leading to an abatement notice",
+        "correct": true,
+        "feedback": "Correct. Statutory nuisance under s.79 EPA 1990 is a civil proceeding; the local authority serves an abatement notice. Failure to comply with the notice is then a criminal offence."
+      },
+      {
+        "id": "c",
+        "text": "Administrative penalty only",
+        "correct": false,
+        "feedback": "It is more than an administrative penalty."
+      },
+      {
+        "id": "d",
+        "text": "Tort claim for damages",
+        "correct": false,
+        "feedback": "This is a specific statutory proceeding, not a general tort claim."
+      }
+    ],
+    "oscoa_references": ["Environmental Protection Act 1990, s.79", "Environmental Protection Act 1990, s.33"]
+  },
+  {
+    "id": "e-c2-005",
+    "page": "E",
+    "section": "E1",
+    "micro_skill": "E1.7",
+    "crown_level": 2,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["loophole", "cea-1968", "section-11", "hswa", "employee"],
+    "question": "'An employee cannot rely on an employer's HSWA 1974 conviction as evidence of breach of duty in a civil personal injury claim.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": false,
+        "feedback": "This is incorrect — s.11 CEA 1968 permits the use of convictions as a rebuttable presumption of breach in civil proceedings."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": true,
+        "feedback": "Correct. Under the Civil Evidence Act 1968, s.11, a criminal conviction (including under HSWA 1974) is admissible in a civil claim and creates a rebuttable presumption, which can be a significant tactical advantage for the employee."
+      }
+    ],
+    "oscoa_references": ["Civil Evidence Act 1968, s.11", "Health and Safety at Work etc. Act 1974"]
+  },
+  {
+    "id": "e-c2-006",
+    "page": "E",
+    "section": "E1",
+    "micro_skill": "E1.8",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["ip", "copyright", "cdpa-1988", "criminal-offence"],
+    "question": "Under which provision of the Copyright, Designs and Patents Act 1988 is making or dealing with infringing articles a criminal offence?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Section 92",
+        "correct": false,
+        "feedback": "Section 92 is found in the Trade Marks Act 1994, not the CDPA 1988."
+      },
+      {
+        "id": "b",
+        "text": "Section 107",
+        "correct": true,
+        "feedback": "Correct. Section 107 CDPA 1988 makes making/dealing with infringing articles a criminal offence."
+      },
+      {
+        "id": "c",
+        "text": "Section 110",
+        "correct": false,
+        "feedback": "Section 110 deals with unauthorised performances, which is a separate criminal offence."
+      },
+      {
+        "id": "d",
+        "text": "Section 1",
+        "correct": false,
+        "feedback": "Section 1 defines copyright, it does not create the criminal offence."
+      }
+    ],
+    "oscoa_references": ["Copyright, Designs and Patents Act 1988, s.107", "Copyright, Designs and Patents Act 1988, s.110"]
+  },
+  {
+    "id": "e-c2-007",
+    "page": "E",
+    "section": "E1",
+    "micro_skill": "E1.8",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": ["ip", "trademark", "tma-1994", "section-92"],
+    "question": "Which provision creates criminal liability for unauthorised use of a trade mark?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Copyright, Designs and Patents Act 1988, s.107",
+        "correct": false,
+        "feedback": "S.107 of the CDPA 1988 deals with copyright, not trade marks."
+      },
+      {
+        "id": "b",
+        "text": "Trade Marks Act 1994, s.92",
+        "correct": true,
+        "feedback": "Correct. Section 92 of the Trade Marks Act 1994 creates criminal liability for unauthorised use of a registered trade mark."
+      },
+      {
+        "id": "c",
+        "text": "Patents Act 1977, s.60",
+        "correct": false,
+        "feedback": "S.60 deals with civil patent infringement, not criminal trade mark offences."
+      },
+      {
+        "id": "d",
+        "text": "Fraud Act 2006, s.2",
+        "correct": false,
+        "feedback": "S.2 Fraud Act 2006 deals with fraud, not trade mark offences specifically."
+      }
+    ],
+    "oscoa_references": ["Trade Marks Act 1994, s.92"]
+  },
+  {
+    "id": "e-c2-008",
+    "page": "E",
+    "section": "E1",
+    "micro_skill": "E1.9",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["employment", "discrimination", "equality-act-2010", "hate-crime"],
+    "question": "Workplace harassment may simultaneously give rise to which TWO types of proceedings?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Employment tribunal claim under the Equality Act 2010 and a criminal complaint under the PHA 1997",
+        "correct": true,
+        "feedback": "Correct. The same conduct can constitute both civil discrimination/harassment under the Equality Act 2010 (Employment Tribunal) and criminal harassment under the PHA 1997."
+      },
+      {
+        "id": "b",
+        "text": "Criminal prosecution only — discrimination claims are precluded once criminal proceedings commence",
+        "correct": false,
+        "feedback": "There is no such preclusion — the proceedings are independent."
+      },
+      {
+        "id": "c",
+        "text": "Civil claim only — harassment can never be criminal",
+        "correct": false,
+        "feedback": "Harassment is expressly criminalised under PHA 1997, s.2."
+      },
+      {
+        "id": "d",
+        "text": "Only one or the other — the employee must elect before proceedings begin",
+        "correct": false,
+        "feedback": "No election is required; both can proceed in parallel."
+      }
+    ],
+    "oscoa_references": ["Equality Act 2010", "Protection from Harassment Act 1997, s.2", "Crime and Disorder Act 1998, s.28"]
+  },
+  {
+    "id": "e-c2-009",
+    "page": "E",
+    "section": "E1",
+    "micro_skill": "E1.9",
+    "crown_level": 2,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": ["hate-crime", "aggravation", "cda-1998", "cja-2003"],
+    "question": "'Section 28 of the Crime and Disorder Act 1998 provides for racial and religious aggravation, while s.146 of the Criminal Justice Act 2003 provides for disability, sexual orientation, and transgender identity aggravation.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. CDA 1998 s.28 covers racial/religious aggravation; CJA 2003 s.146 covers disability, sexual orientation, and transgender identity aggravations."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "This is a correct statement of the two provisions."
+      }
+    ],
+    "oscoa_references": ["Crime and Disorder Act 1998, s.28", "Criminal Justice Act 2003, s.146"]
+  },
+  {
+    "id": "e-c2-010",
+    "page": "E",
+    "section": "E1",
+    "micro_skill": "E1.10",
+    "crown_level": 2,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": ["road-traffic", "rta-1988", "dangerous-driving", "insurance"],
+    "question": "Which offence under the Road Traffic Act 1988 is committed when a person causes death by driving dangerously?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Section 2 — dangerous driving",
+        "correct": false,
+        "feedback": "Section 2 is dangerous driving without death resulting."
+      },
+      {
+        "id": "b",
+        "text": "Section 1 — causing death by dangerous driving",
+        "correct": true,
+        "feedback": "Correct. Section 1 RTA 1988 creates the offence of causing death by dangerous driving."
+      },
+      {
+        "id": "c",
+        "text": "Section 3 — careless driving",
+        "correct": false,
+        "feedback": "Section 3 is careless driving (or driving without due care and attention)."
+      },
+      {
+        "id": "d",
+        "text": "Section 143 — compulsory insurance",
+        "correct": false,
+        "feedback": "Section 143 sets out the requirement for compulsory insurance, not the death by dangerous driving offence."
+      }
+    ],
+    "oscoa_references": ["Road Traffic Act 1988, ss.1-3, s.143"]
+  },
+  {
+    "id": "e-c3-001",
+    "page": "E",
+    "section": "E2",
+    "micro_skill": "E2.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["standard-of-proof", "civil", "woolmington", "balance-of-probabilities"],
+    "question": "In Woolmington v DPP [1935] AC 462, the House of Lords famously stated that:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The civil standard applies to quasi-criminal proceedings",
+        "correct": false,
+        "feedback": "This is not the holding in Woolmington."
+      },
+      {
+        "id": "b",
+        "text": "The prosecution must prove the defendant's guilt beyond reasonable doubt — the 'golden thread' of English criminal law",
+        "correct": true,
+        "feedback": "Correct. Viscount Sankey's famous dictum in Woolmington established that the prosecution bears the burden of proving guilt beyond reasonable doubt — the 'golden thread' of English criminal law."
+      },
+      {
+        "id": "c",
+        "text": "The balance of probabilities applies in criminal appeals",
+        "correct": false,
+        "feedback": "Woolmington is about the trial standard, not appeals."
+      },
+      {
+        "id": "d",
+        "text": "The defendant must prove their innocence",
+        "correct": false,
+        "feedback": "Woolmington established exactly the opposite — the prosecution bears the burden."
+      }
+    ],
+    "oscoa_references": ["Woolmington v DPP [1935] AC 462"]
+  },
+  {
+    "id": "e-c3-002",
+    "page": "E",
+    "section": "E2",
+    "micro_skill": "E2.1",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": ["standing-of-proof", "oj-simpson", "civil-after-acquittal"],
+    "question": "Why could OJ Simpson be found liable for wrongful death in a civil trial after being acquitted of murder in a criminal trial?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The civil jury was not bound by the double jeopardy rule",
+        "correct": false,
+        "feedback": "Double jeopardy does not apply between civil and criminal proceedings, but this was not the primary reason."
+      },
+      {
+        "id": "b",
+        "text": "The civil trial used the lower standard of proof — balance of probabilities — rather than beyond reasonable doubt",
+        "correct": true,
+        "feedback": "Correct. The civil standard (balance of probabilities) is lower than the criminal standard (beyond reasonable doubt). Evidence insufficient to convict criminally may be sufficient to establish civil liability."
+      },
+      {
+        "id": "c",
+        "text": "The civil court excluded all evidence presented at the criminal trial",
+        "correct": false,
+        "feedback": "No — the same evidence was presented; the difference was the standard of proof."
+      },
+      {
+        "id": "d",
+        "text": "US law uniquely bars issue estoppel between criminal and civil courts",
+        "correct": false,
+        "feedback": "This is a feature of both US and English law — the reasoning applies equally in England."
+      }
+    ],
+    "oscoa_references": ["Re H (Minors) [1996] AC 563", "Hunter v Chief Constable of West Midlands Police [1982] AC 529"]
+  },
+  {
+    "id": "e-c3-003",
+    "page": "E",
+    "section": "E2",
+    "micro_skill": "E2.1",
+    "crown_level": 3,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": ["standard-of-proof", "civil", "balance-of-probabilities", "re-h"],
+    "question": "'In Re H (Minors) [1996] AC 563, the House of Lords confirmed that the civil standard of proof is 'more likely than not' and does not vary with the seriousness of the allegation.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. Re H (Minors) established that there is no sliding scale within the civil standard — even for very serious allegations, the standard remains the balance of probabilities, though the inherent improbability of the allegation is taken into account when assessing whether that standard is met."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "This is in fact a correct statement of the holding in Re H (Minors)."
+      }
+    ],
+    "oscoa_references": ["Re H (Minors) [1996] AC 563"]
+  },
+  {
+    "id": "e-c3-004",
+    "page": "E",
+    "section": "E2",
+    "micro_skill": "E2.2",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["privilege", "self-incrimination", "blunt-v-park-lane", "echr-art6"],
+    "question": "In Blunt v Park Lane Hotel [1942] 2 KB 253, the privilege against self-incrimination in civil proceedings was held to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Not apply at all in civil proceedings",
+        "correct": false,
+        "feedback": "The case recognised the privilege does apply in civil proceedings."
+      },
+      {
+        "id": "b",
+        "text": "Allow a witness in civil proceedings to refuse to answer questions that might incriminate them in criminal proceedings",
+        "correct": true,
+        "feedback": "Correct. A civil witness may refuse to answer questions tending to incriminate them in respect of a criminal offence."
+      },
+      {
+        "id": "c",
+        "text": "Provide absolute immunity from all forms of questioning",
+        "correct": false,
+        "feedback": "The privilege is not absolute — it can be overridden by statute (e.g., s.72 Senior Courts Act 1981)."
+      },
+      {
+        "id": "d",
+        "text": "Only apply to proceedings for fraud",
+        "correct": false,
+        "feedback": "The privilege applies generally, not only in fraud cases."
+      }
+    ],
+    "oscoa_references": ["Blunt v Park Lane Hotel [1942] 2 KB 253", "ECHR Art 6", "Senior Courts Act 1981, s.72"]
+  },
+  {
+    "id": "e-c3-005",
+    "page": "E",
+    "section": "E2",
+    "micro_skill": "E2.2",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": ["self-incrimination", "section-72", "senior-courts-act", "fraud"],
+    "question": "Section 72 of the Senior Courts Act 1981 removes the privilege against self-incrimination in which type of proceedings?",
+    "options": [
+      {
+        "id": "a",
+        "text": "All civil proceedings",
+        "correct": false,
+        "feedback": "S.72 is limited to specific types of civil proceedings."
+      },
+      {
+        "id": "b",
+        "text": "Proceedings for infringement of intellectual property rights and fraud claims",
+        "correct": true,
+        "feedback": "Correct. Section 72 SCA 1981 expressly removes the privilege against self-incrimination in IP infringement and fraud-related civil proceedings."
+      },
+      {
+        "id": "c",
+        "text": "Family law proceedings only",
+        "correct": false,
+        "feedback": "S.72 does not apply to family proceedings."
+      },
+      {
+        "id": "d",
+        "text": "Only proceedings in the High Court",
+        "correct": false,
+        "feedback": "The provision applies to proceedings covered by the Act, not exclusively High Court matters."
+      }
+    ],
+    "oscoa_references": ["Senior Courts Act 1981, s.72"]
+  },
+  {
+    "id": "e-c3-006",
+    "page": "E",
+    "section": "E2",
+    "micro_skill": "E2.2",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["loophole", "self-incrimination", "stay", "criminal-trial-concluded"],
+    "question": "Which of the following is the correct position regarding the privilege against self-incrimination once a criminal trial has concluded?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The privilege continues indefinitely to protect the defendant from civil proceedings",
+        "correct": false,
+        "feedback": "Once the criminal trial is concluded, there is no further risk of self-incrimination in that matter."
+      },
+      {
+        "id": "b",
+        "text": "No further privilege against self-incrimination exists for the concluded matter — the defendant can be compelled to give evidence in civil proceedings about the incident",
+        "correct": true,
+        "feedback": "Correct. Once the criminal proceedings are concluded (whether by conviction or acquittal), there is no risk of further self-incrimination on that matter, and the privilege ceases."
+      },
+      {
+        "id": "c",
+        "text": "The privilege persists only if the defendant was acquitted",
+        "correct": false,
+        "feedback": "The distinction is based on whether proceedings are concluded, not the outcome."
+      },
+      {
+        "id": "d",
+        "text": "Civil proceedings must wait until all possible appeals are exhausted",
+        "correct": false,
+        "feedback": "While a stay pending appeal may be sought, once the trial is finalised the privilege ends."
+      }
+    ],
+    "oscoa_references": ["Blunt v Park Lane Hotel [1942] 2 KB 253", "Senior Courts Act 1981, s.72"]
+  },
+  {
+    "id": "e-c3-007",
+    "page": "E",
+    "section": "E2",
+    "micro_skill": "E2.3",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["adverse-inferences", "silence", "cjpoa-1994", "sections-34-37"],
+    "question": "The Criminal Justice and Public Order Act 1994, ss.34–37 permits adverse inferences to be drawn from a suspect's silence in which circumstances?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Only when the suspect is not legally represented",
+        "correct": false,
+        "feedback": "The inference may be drawn whether or not the suspect has legal representation."
+      },
+      {
+        "id": "b",
+        "text": "When the suspect fails to mention facts later relied on at trial, fails to account for objects/substances/marks, or fails to account for presence at the scene",
+        "correct": true,
+        "feedback": "Correct. CJPOA 1994 ss.34–37 cover: (s.34) failure to mention facts when questioned; (s.36) failure to account for objects/substances/marks; (s.37) failure to account for presence at the scene."
+      },
+      {
+        "id": "c",
+        "text": "Whenever the defendant exercises the right to silence at trial",
+        "correct": false,
+        "feedback": "Silence at trial is treated differently from pre-trial silence — the defendant's failure to give evidence at trial may give rise to an adverse inference under s.35, but this is subject to safeguards."
+      },
+      {
+        "id": "d",
+        "text": "Only for indictable offences",
+        "correct": false,
+        "feedback": "The provisions apply to both summary and indictable offences."
+      }
+    ],
+    "oscoa_references": ["Criminal Justice and Public Order Act 1994, ss.34-37"]
+  },
+  {
+    "id": "e-c3-008",
+    "page": "E",
+    "section": "E2",
+    "micro_skill": "E2.3",
+    "crown_level": 3,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": ["adverse-inference", "civil", "wisniewski", "silence"],
+    "question": "In Wisniewski v Central Manchester HA [1998] Lloyd's Rep Med 223, what principle was established about drawing inferences in civil proceedings?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No adverse inference can ever be drawn from a party's conduct in civil litigation",
+        "correct": false,
+        "feedback": "The case established that inferences may be drawn in certain circumstances."
+      },
+      {
+        "id": "b",
+        "text": "The court may draw an adverse inference from a party's failure to call a witness or adduce evidence, but only if there is other evidence to support the inference",
+        "correct": true,
+        "feedback": "Correct. Brooke LJ set out that an inference may be drawn from a party's failure to call a witness or adduce evidence provided there is some other evidence supporting the inference."
+      },
+      {
+        "id": "c",
+        "text": "The criminal silence provisions apply equally to civil proceedings",
+        "correct": false,
+        "feedback": "The CJPOA 1994 silence provisions are specific to criminal trials."
+      },
+      {
+        "id": "d",
+        "text": "Silence in civil proceedings always warrants an adverse inference",
+        "correct": false,
+        "feedback": "This is not correct — the inference must be supported by some evidence."
+      }
+    ],
+    "oscoa_references": ["Wisniewski v Central Manchester HA [1998] Lloyd's Rep Med 223"]
+  },
+  {
+    "id": "e-c3-009",
+    "page": "E",
+    "section": "E2",
+    "micro_skill": "E2.3",
+    "crown_level": 3,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["defence", "cpr-22", "statement-of-truth", "criminal-risk"],
+    "question": "'A defendant in civil proceedings should file a detailed defence and provide full disclosure even if the same facts are under criminal investigation.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": false,
+        "feedback": "This is risky — admissions in a civil defence verified by a statement of truth (CPR 22) could be used in the criminal prosecution."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": true,
+        "feedback": "Correct. The defendant should provide a carefully drafted defence avoiding admissions that could be deployed in parallel criminal proceedings. A stay of the civil proceedings pending the criminal trial is a better tactical approach."
+      }
+    ],
+    "oscoa_references": ["CPR 22"]
+  },
+  {
+    "id": "e-c4-001",
+    "page": "E",
+    "section": "E2",
+    "micro_skill": "E2.4",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["disclosure", "criminal", "cpia-1996", "prosecution-duty"],
+    "question": "Under the Criminal Procedure and Investigations Act 1996, the prosecution's duty of disclosure extends to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Only evidence that supports the prosecution case",
+        "correct": false,
+        "feedback": "This is the opposite — the duty extends to unused material."
+      },
+      {
+        "id": "b",
+        "text": "Unused material that might reasonably be considered capable of undermining the prosecution case or assisting the defence",
+        "correct": true,
+        "feedback": "Correct. The CPIA 1996 requires the prosecution to disclose unused material that might undermine the prosecution case or assist the accused's defence."
+      },
+      {
+        "id": "c",
+        "text": "All evidence in the possession of the police, regardless of relevance",
+        "correct": false,
+        "feedback": "The obligation is not as broad as 'all evidence' — it is limited to material that meets the statutory test."
+      },
+      {
+        "id": "d",
+        "text": "Only evidence specifically requested by the defence",
+        "correct": false,
+        "feedback": "The prosecutor's duty is independent — it is not conditional on a defence request."
+      }
+    ],
+    "oscoa_references": ["Criminal Procedure and Investigations Act 1996"]
+  },
+  {
+    "id": "e-c4-002",
+    "page": "E",
+    "section": "E2",
+    "micro_skill": "E2.4",
+    "crown_level": 4,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": ["disclosure", "civil", "criminal", "self-incrimination"],
+    "question": "'Documents disclosed in civil proceedings under CPR Part 31 may be used by the prosecution in criminal proceedings — creating a risk of self-incrimination by disclosure.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. Civil disclosure (CPR Part 31) is broader than criminal disclosure, and documents disclosed in civil proceedings may be obtained and used by the prosecution. A stay of civil proceedings pending the criminal trial is the standard tactical response."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "This risk is well-recognised and is a key reason courts may stay civil proceedings pending criminal trial — see Jefferson v Bhetcha [1979] 1 WLR 898."
+      }
+    ],
+    "oscoa_references": ["CPR Part 31", "Jefferson v Bhetcha [1979] 1 WLR 898", "CPR 3.1(2)(f)"]
+  },
+  {
+    "id": "e-c4-003",
+    "page": "E",
+    "section": "E2",
+    "micro_skill": "E2.4",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "hard",
+    "tags": ["stay", "civil", "criminal", "jefferson-bhetcha"],
+    "question": "In Jefferson v Bhetcha [1979] 1 WLR 898, the Court of Appeal identified factors relevant to staying civil proceedings pending a criminal trial, including:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The civil proceedings must be terminated if the defendant requests it",
+        "correct": false,
+        "feedback": "A stay is discretionary, not mandatory."
+      },
+      {
+        "id": "b",
+        "text": "The risk of prejudice to the criminal defence, the extent to which the civil case will duplicate the criminal case, and the defendant's ability to prepare both cases simultaneously",
+        "correct": true,
+        "feedback": "Correct. Jefferson v Bhetcha set out a multi-factoral approach balancing the interests of both parties and the administration of justice."
+      },
+      {
+        "id": "c",
+        "text": "The civil claimant's preference always prevails",
+        "correct": false,
+        "feedback": "The court exercises a discretion, not automatically deferring to either party's preference."
+      },
+      {
+        "id": "d",
+        "text": "A stay is automatic once criminal charges are brought",
+        "correct": false,
+        "feedback": "A stay is not automatic — it is at the court's discretion under CPR 3.1(2)(f)."
+      }
+    ],
+    "oscoa_references": ["Jefferson v Bhetcha [1979] 1 WLR 898", "CPR 3.1(2)(f)"]
+  },
+  {
+    "id": "e-c4-004",
+    "page": "E",
+    "section": "E2",
+    "micro_skill": "E2.5",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "easy",
+    "tags": ["cica", "compensation", "violent-crime", "2012-scheme"],
+    "question": "Under the Criminal Injuries Compensation Scheme 2012, a victim may claim compensation:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Only if the offender has been identified and convicted",
+        "correct": false,
+        "feedback": "The scheme is available even where the offender is not identified or convicted."
+      },
+      {
+        "id": "b",
+        "text": "Even where the offender has not been identified or convicted",
+        "correct": true,
+        "feedback": "Correct. CICA compensation is available regardless of whether the offender is identified or convicted — it is state compensation for victims of violent crime."
+      },
+      {
+        "id": "c",
+        "text": "Only for crimes resulting in permanent disability",
+        "correct": false,
+        "feedback": "The scheme covers a range of injuries, not only those causing permanent disability."
+      },
+      {
+        "id": "d",
+        "text": "Only if the victim has no other source of compensation",
+        "correct": false,
+        "feedback": "The scheme can operate alongside civil compensation, though deductions apply."
+      }
+    ],
+    "oscoa_references": ["Criminal Injuries Compensation Scheme 2012"]
+  },
+  {
+    "id": "e-c4-005",
+    "page": "E",
+    "section": "E2",
+    "micro_skill": "E2.5",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["cica", "civil-damages", "set-off", "deduction"],
+    "question": "If a victim receives civil damages after already receiving CICA compensation, what happens?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The victim may retain both amounts in full",
+        "correct": false,
+        "feedback": "Double recovery is prevented."
+      },
+      {
+        "id": "b",
+        "text": "The CICA compensation is deducted from the civil damages award, preventing double recovery",
+        "correct": true,
+        "feedback": "Correct. Civil damages are set off against CICA compensation to avoid double recovery — the victim cannot receive compensation twice for the same loss."
+      },
+      {
+        "id": "c",
+        "text": "The CICA compensation must be repaid with interest",
+        "correct": false,
+        "feedback": "The mechanism is set-off, not repayment with interest."
+      },
+      {
+        "id": "d",
+        "text": "The civil claim must be abandoned once CICA compensation has been accepted",
+        "correct": false,
+        "feedback": "The victim may still pursue a civil claim, but the CICA award will be deducted."
+      }
+    ],
+    "oscoa_references": ["Criminal Injuries Compensation Scheme 2012"]
+  },
+  {
+    "id": "e-c4-006",
+    "page": "E",
+    "section": "E2",
+    "micro_skill": "E2.6",
+    "crown_level": 4,
+    "type": "mcq",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["double-jeopardy", "res-judicata", "issue-estoppel", "hunter"],
+    "question": "In Hunter v Chief Constable of West Midlands Police [1982] AC 529, the House of Lords held that issue estoppel:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Applies fully between criminal and civil proceedings to prevent re-litigation",
+        "correct": false,
+        "feedback": "The House of Lords rejected the application of issue estoppel between criminal and civil proceedings."
+      },
+      {
+        "id": "b",
+        "text": "Does not apply between criminal and civil proceedings — a civil claim after a criminal acquittal is not an abuse of process",
+        "correct": true,
+        "feedback": "Correct. Lord Diplock held that issue estoppel has no place between criminal and civil proceedings. A civil claim after an acquittal is not an abuse of process."
+      },
+      {
+        "id": "c",
+        "text": "Prevents a civil claim where the criminal court has acquitted the defendant",
+        "correct": false,
+        "feedback": "This is the opposite of what Hunter established."
+      },
+      {
+        "id": "d",
+        "text": "Only applies between civil and criminal proceedings where the defendant was convicted",
+        "correct": false,
+        "feedback": "The Lords rejected issue estoppel entirely between criminal and civil proceedings."
+      }
+    ],
+    "oscoa_references": ["Hunter v Chief Constable of West Midlands Police [1982] AC 529"]
+  },
+  {
+    "id": "e-c4-007",
+    "page": "E",
+    "section": "E2",
+    "micro_skill": "E2.6",
+    "crown_level": 4,
+    "type": "tf",
+    "loophole": false,
+    "difficulty": "medium",
+    "tags": ["double-jeopardy", "cja-2003", "part-10", "exceptions"],
+    "question": "'The rule against double jeopardy in criminal law is now absolute with no exceptions following the Criminal Justice Act 2003.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": false,
+        "feedback": "Part 10 of the CJA 2003 introduced exceptions — it did not make the rule absolute."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": true,
+        "feedback": "Correct. CJA 2003 Part 10 created exceptions to the double jeopardy rule: in certain serious cases (including murder), a retrial may be permitted where there is 'new and compelling evidence' and it is in the interests of justice."
+      }
+    ],
+    "oscoa_references": ["Criminal Justice Act 2003, Part 10"]
+  },
+  {
+    "id": "e-c5-001",
+    "page": "E",
+    "section": "E3",
+    "micro_skill": "E3.1",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["loophole", "dpa", "deferred-prosecution", "crime-and-courts-act"],
+    "question": "Under the Crime and Courts Act 2013, Schedule 17, a Deferred Prosecution Agreement (DPA):",
+    "options": [
+      {
+        "id": "a",
+        "text": "Is available to both individuals and corporations",
+        "correct": false,
+        "feedback": "DPAs are available only to corporations, not individuals."
+      },
+      {
+        "id": "b",
+        "text": "Is a negotiated resolution that avoids a criminal conviction for corporations charged with specified economic crimes",
+        "correct": true,
+        "feedback": "Correct. A DPA allows a corporation to avoid criminal conviction by agreeing to terms including financial penalty, compensation, cooperation, and compliance programme implementation, subject to judicial approval."
+      },
+      {
+        "id": "c",
+        "text": "Can be entered into without any court involvement",
+        "correct": false,
+        "feedback": "A DPA requires Crown Court approval at both the preliminary and final stages."
+      },
+      {
+        "id": "d",
+        "text": "Is only available for money laundering offences",
+        "correct": false,
+        "feedback": "DPAs cover a range of economic crimes including fraud, bribery, false accounting, and money laundering."
+      }
+    ],
+    "oscoa_references": ["Crime and Courts Act 2013, Sch 17"]
+  },
+  {
+    "id": "e-c5-002",
+    "page": "E",
+    "section": "E3",
+    "micro_skill": "E3.1",
+    "crown_level": 5,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["loophole", "civil-settlement", "cps", "public-interest"],
+    "question": "'A civil settlement combined with full restitution can be used as a mitigating factor when making representations to the CPS that prosecution is not in the public interest.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. Although a civil settlement does not bind the CPS, full restitution and settlement can be advanced as grounds that prosecution is not in the public interest — the CPS must consider whether prosecution is a proportionate response."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "This is in fact a valid tactical approach. While prosecutorial independence means the CPS is not bound, representations may influence the public interest test."
+      }
+    ],
+    "oscoa_references": ["Crime and Courts Act 2013, Sch 17"]
+  },
+  {
+    "id": "e-c5-003",
+    "page": "E",
+    "section": "E3",
+    "micro_skill": "E3.2",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["loophole", "limitation", "summary-only", "6-months", "mca-1980"],
+    "question": "Section 127 of the Magistrates' Courts Act 1980 imposes what time limit for laying an information for a summary-only offence?",
+    "options": [
+      {
+        "id": "a",
+        "text": "3 years from the date of the offence",
+        "correct": false,
+        "feedback": "3 years is the personal injury limitation period, not the summary offence time limit."
+      },
+      {
+        "id": "b",
+        "text": "6 months from the date of the offence",
+        "correct": true,
+        "feedback": "Correct. S.127 MCA 1980 requires that an information be laid within 6 months of the offence for summary-only matters."
+      },
+      {
+        "id": "c",
+        "text": "1 year from the date of the offence",
+        "correct": false,
+        "feedback": "1 year is the defamation limitation period, not the summary prosecution limit."
+      },
+      {
+        "id": "d",
+        "text": "There is no time limit for summary offences",
+        "correct": false,
+        "feedback": "There is a clear statutory time limit — the 6-month rule under s.127 MCA 1980."
+      }
+    ],
+    "oscoa_references": ["Magistrates' Courts Act 1980, s.127", "Limitation Act 1980"]
+  },
+  {
+    "id": "e-c5-004",
+    "page": "E",
+    "section": "E3",
+    "micro_skill": "E3.2",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["loophole", "limitation", "civil-expired", "criminal-pursuit"],
+    "question": "If the civil limitation period for a tort claim has expired, which alternative approach might still be available?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Resurrect the civil claim by filing it in the Crown Court",
+        "correct": false,
+        "feedback": "The Crown Court does not have jurisdiction to hear civil claims."
+      },
+      {
+        "id": "b",
+        "text": "Pursue a criminal complaint (for indictable offences which have no limitation period) and claim CICA compensation",
+        "correct": true,
+        "feedback": "Correct. Indictable offences have no statutory limitation period. If a criminal prosecution is possible, it may lead to CICA compensation or provide leverage for settlement, even though the civil limitation period has expired."
+      },
+      {
+        "id": "c",
+        "text": "The expiry of the civil limitation period automatically extinguishes all criminal liability",
+        "correct": false,
+        "feedback": "Civil limitation does not affect criminal liability, which operates on different principles."
+      },
+      {
+        "id": "d",
+        "text": "Apply to the Limitation Act 1980 for a judicial review of the limitation expiry",
+        "correct": false,
+        "feedback": "There is no mechanism to judicially review the expiry of a limitation period."
+      }
+    ],
+    "oscoa_references": ["Limitation Act 1980", "Magistrates' Courts Act 1980, s.127"]
+  },
+  {
+    "id": "e-c5-005",
+    "page": "E",
+    "section": "E3",
+    "micro_skill": "E3.3",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["loophole", "cost-benefit", "dual-proceedings", "criminal-first"],
+    "question": "What is the primary tactical advantage of pursuing criminal prosecution first, before a civil claim for the same conduct?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The complainant receives automatic civil damages from the criminal court",
+        "correct": false,
+        "feedback": "Criminal courts do not award civil damages — compensation orders are limited."
+      },
+      {
+        "id": "b",
+        "text": "No cost risk for the complainant (CPS bears costs) and a conviction can be used as evidence in the civil claim under CEA 1968, s.11, reducing the evidential burden",
+        "correct": true,
+        "feedback": "Correct. The complainant bears no cost risk in a criminal prosecution, and a subsequent civil claim benefits from the s.11 CEA 1968 rebuttable presumption, substantially reducing the evidential burden."
+      },
+      {
+        "id": "c",
+        "text": "The civil limitation period is paused indefinitely while criminal proceedings are ongoing",
+        "correct": false,
+        "feedback": "Limitation periods are not automatically paused — the civil claim should still be issued within time."
+      },
+      {
+        "id": "d",
+        "text": "Criminal courts can award a wider range of damages than civil courts",
+        "correct": false,
+        "feedback": "The opposite is true — civil courts can award a wider range of compensatory damages."
+      }
+    ],
+    "oscoa_references": ["Civil Evidence Act 1968, s.11"]
+  },
+  {
+    "id": "e-c5-006",
+    "page": "E",
+    "section": "E3",
+    "micro_skill": "E3.3",
+    "crown_level": 5,
+    "type": "tf",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["loophole", "imprisonment", "civil-recovery", "defendant-insolvent"],
+    "question": "'A key risk of pursuing a civil claim after a criminal conviction is that the imprisoned defendant may have no assets to satisfy a civil judgment.' — True or False?",
+    "options": [
+      {
+        "id": "t",
+        "text": "True",
+        "correct": true,
+        "feedback": "Correct. A convicted defendant serving a custodial sentence may be impecunious, and damages may be irrecoverable. This is a significant strategic risk of sequencing."
+      },
+      {
+        "id": "f",
+        "text": "False",
+        "correct": false,
+        "feedback": "This is a genuine risk — imprisonment often leaves a defendant unable to satisfy a civil judgment."
+      }
+    ],
+    "oscoa_references": ["Civil Evidence Act 1968, s.11"]
+  },
+  {
+    "id": "e-c5-007",
+    "page": "E",
+    "section": "E3",
+    "micro_skill": "E3.4",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["loophole", "privacy-injunction", "pjs", "art-8"],
+    "question": "In PJS v News Group Newspapers Ltd [2016] UKSC 26, the Supreme Court balanced which two competing principles in considering an interim privacy injunction?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Article 6 (fair trial) and Article 10 (freedom of expression)",
+        "correct": false,
+        "feedback": "The key balance was between Articles 8 and 10."
+      },
+      {
+        "id": "b",
+        "text": "Article 8 (private and family life) and Article 10 (freedom of expression)",
+        "correct": true,
+        "feedback": "Correct. The Supreme Court balanced the claimant's Article 8 right to privacy against the newspaper's Article 10 right to freedom of expression, holding that the privacy rights prevailed at the interim stage."
+      },
+      {
+        "id": "c",
+        "text": "Article 5 (liberty) and Article 6 (fair trial)",
+        "correct": false,
+        "feedback": "The competing interests were Articles 8 and 10."
+      },
+      {
+        "id": "d",
+        "text": "Article 1 Protocol 1 (peaceful enjoyment of possessions) and Article 10",
+        "correct": false,
+        "feedback": "Article 1 Protocol 1 was not the primary right in play in PJS."
+      }
+    ],
+    "oscoa_references": ["PJS v News Group Newspapers Ltd [2016] UKSC 26", "ECHR Art 8", "ECHR Art 10"]
+  },
+  {
+    "id": "e-c5-008",
+    "page": "E",
+    "section": "E3",
+    "micro_skill": "E3.5",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "medium",
+    "tags": ["loophole", "insurance", "criminal-fines", "gray-v-barr", "public-policy"],
+    "question": "In Gray v Barr [1971] 2 QB 554, the court held that liability insurance:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Covers all criminal fines and penalties",
+        "correct": false,
+        "feedback": "This is the opposite of what was held."
+      },
+      {
+        "id": "b",
+        "text": "Cannot indemnify against criminal penalties — it is against public policy to allow insurance to cover criminal fines",
+        "correct": true,
+        "feedback": "Correct. The court held that public policy prevents insurance from indemnifying a person against criminal fines or penalties — to allow otherwise would undermine the punitive and deterrent purpose of criminal sanctions."
+      },
+      {
+        "id": "c",
+        "text": "Only covers personal injury claims from criminal conduct",
+        "correct": false,
+        "feedback": "The case is about criminal fines, not personal injury claims."
+      },
+      {
+        "id": "d",
+        "text": "Automatically covers all defence costs for any criminal matter",
+        "correct": false,
+        "feedback": "Defence costs coverage depends on the policy terms — it is not automatic."
+      }
+    ],
+    "oscoa_references": ["Gray v Barr [1971] 2 QB 554"]
+  },
+  {
+    "id": "e-c5-009",
+    "page": "E",
+    "section": "E3",
+    "micro_skill": "E3.5",
+    "crown_level": 5,
+    "type": "mcq",
+    "loophole": true,
+    "difficulty": "hard",
+    "tags": ["loophole", "insurance", "d-and-o", "defence-costs", "structure-claims"],
+    "question": "Which is the best tactical approach to maximise insurance coverage for a corporate client facing potential civil and criminal liability?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Plead only criminal allegations to access criminal legal aid",
+        "correct": false,
+        "feedback": "Corporations are not generally eligible for criminal legal aid."
+      },
+      {
+        "id": "b",
+        "text": "Structure claims to plead civil causes of action (covered by liability insurance) alongside any criminal defence, as D&O insurance may cover defence costs even in criminal proceedings but will not cover criminal fines",
+        "correct": true,
+        "feedback": "Correct. Pleading civil claims maximises insurance coverage, and D&O policies commonly cover criminal defence costs (Side A), though they will not indemnify against criminal fines."
+      },
+      {
+        "id": "c",
+        "text": "Rely exclusively on criminal prosecution and hope the insurer pays the fine",
+        "correct": false,
+        "feedback": "Insurers will not pay criminal fines on public policy grounds (Gray v Barr)."
+      },
+      {
+        "id": "d",
+        "text": "Drop all civil claims to avoid triggering policy exclusions",
+        "correct": false,
+        "feedback": "Civil claims are actually more likely to be covered by insurance than criminal penalties."
+      }
+    ],
+    "oscoa_references": ["Gray v Barr [1971] 2 QB 554"]
+  }
+]
