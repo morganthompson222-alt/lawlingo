@@ -1,8 +1,8 @@
 'use client'
 
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { BookOpen, ArrowRight, ArrowLeft, Heart, CheckCircle2, XCircle, Loader2, Trophy, RefreshCw } from 'lucide-react'
+import { BookOpen, ArrowRight, ArrowLeft, Heart, CheckCircle2, XCircle, Loader2, Trophy, RefreshCw, Type } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
 interface LessonQuestion {
@@ -43,6 +43,8 @@ export default function SenecaLessonPlayer({ lessonId, questions, onComplete, on
   const [showMistakeReview, setShowMistakeReview] = useState(false)
   const [mistakeQueue, setMistakeQueue] = useState<LessonQuestion[]>([])
   const [completing, setCompleting] = useState(false)
+  const [textAnswer, setTextAnswer] = useState('')
+  const textInputRef = useRef<HTMLInputElement | null>(null)
 
   // Organise questions by block
   const blocks = ['A', 'B', 'C']
@@ -60,6 +62,9 @@ export default function SenecaLessonPlayer({ lessonId, questions, onComplete, on
   const currentBlockTeaching = questions.find(q => q.block === currentBlock && q.type === 'teaching')
   const currentQuestions = blockQuestions[currentBlock] || []
   const currentQuestion = currentQuestions[currentQuestionIndex]
+
+  const isFillGap = currentQuestion?.type?.startsWith('fill_gap') || currentQuestion?.type === 'spot_error'
+  const hasOptions = (currentQuestion?.options?.length || 0) > 0
 
   // Check if all blocks and consolidation are complete
   const allBlocksDone = currentBlockIndex >= 3
@@ -108,16 +113,17 @@ export default function SenecaLessonPlayer({ lessonId, questions, onComplete, on
     if (currentQuestionIndex + 1 < currentQuestions.length) {
       setCurrentQuestionIndex(i => i + 1)
       setSelectedAnswer(null)
+      setTextAnswer('')
       setPhase(currentQuestion.type === 'teaching' ? 'reading' : 'answering')
+      setTimeout(() => textInputRef.current?.focus(), 100)
     } else {
-      // Advance to next block
       if (currentBlockIndex < 2) {
         setCurrentBlockIndex(i => i + 1)
         setCurrentQuestionIndex(0)
         setSelectedAnswer(null)
+        setTextAnswer('')
         setPhase('reading')
       } else {
-        // All 3 blocks done — show consolidation
         setCompleting(true)
       }
     }
@@ -125,6 +131,18 @@ export default function SenecaLessonPlayer({ lessonId, questions, onComplete, on
 
   function startReading() {
     setPhase('answering')
+    setTextAnswer('')
+    setTimeout(() => textInputRef.current?.focus(), 100)
+  }
+
+  function handleSubmitText() {
+    if (!textAnswer.trim() || !currentQuestion) return
+    const correctAnswer = currentQuestion.answer?.toLowerCase().trim()
+    const userAnswer = textAnswer.toLowerCase().trim()
+    const correct = userAnswer === correctAnswer
+    setIsCorrect(correct)
+    setSelectedAnswer(correct ? 'correct' : 'wrong')
+    setPhase('feedback')
   }
 
   function handleComplete() {
@@ -209,7 +227,36 @@ export default function SenecaLessonPlayer({ lessonId, questions, onComplete, on
             <motion.div key={currentQuestion.id} initial={{ opacity: 0, x: 30 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -30 }} className="flex-1">
               <h2 className="text-lg font-bold text-gray-900 mb-6">{currentQuestion.question}</h2>
 
-              {/* Options */}
+              {/* Fill-gap / text input questions */}
+              {isFillGap && (
+                <div className="space-y-4">
+                  <div className="relative">
+                    <input
+                      ref={textInputRef}
+                      type="text"
+                      value={textAnswer}
+                      onChange={(e) => setTextAnswer(e.target.value)}
+                      onKeyDown={(e) => { if (e.key === 'Enter') handleSubmitText() }}
+                      disabled={phase === 'feedback'}
+                      placeholder="Type your answer..."
+                      className="w-full px-4 py-4 rounded-xl border-2 border-gray-200 focus:border-[#58CC02] focus:ring-1 focus:ring-[#58CC02] outline-none text-lg font-medium transition-colors"
+                      autoFocus
+                    />
+                    <Type className="absolute right-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-300" />
+                  </div>
+                  {phase !== 'feedback' && textAnswer.trim() && (
+                    <button
+                      onClick={handleSubmitText}
+                      className="w-full bg-[#58CC02] text-white font-bold py-3.5 rounded-xl hover:bg-[#46A302] transition-colors"
+                    >
+                      Check Answer
+                    </button>
+                  )}
+                </div>
+              )}
+
+              {/* Options-based questions */}
+              {hasOptions && (
               <div className="space-y-2.5">
                 {currentQuestion.options?.map((opt, i) => {
                   const sel = selectedAnswer === opt.id
@@ -243,6 +290,7 @@ export default function SenecaLessonPlayer({ lessonId, questions, onComplete, on
                   )
                 })}
               </div>
+              )}
 
               {/* Feedback */}
               {phase === 'feedback' && (
@@ -250,6 +298,11 @@ export default function SenecaLessonPlayer({ lessonId, questions, onComplete, on
                   <p className={cn('text-sm font-bold mb-1', isCorrect ? 'text-green-700' : 'text-red-600')}>
                     {isCorrect ? 'Correct!' : 'Not quite'}
                   </p>
+                  {isFillGap && !isCorrect && (
+                    <p className="text-sm font-semibold text-gray-800 mb-2">
+                      Correct answer: <span className="text-[#58CC02]">{currentQuestion.answer}</span>
+                    </p>
+                  )}
                   <p className="text-sm text-gray-700 leading-relaxed">{currentQuestion.feedback}</p>
                   {currentQuestion.oscoaReferences?.length > 0 && (
                     <div className="mt-2 pt-2 border-t border-gray-200">
