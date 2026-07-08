@@ -1,15 +1,43 @@
 'use client'
 
-import { useEffect, useState, Suspense, use } from 'react'
+import { useEffect, useState, Suspense, use, Component } from 'react'
 import { useSearchParams, useRouter } from 'next/navigation'
 import { motion } from 'framer-motion'
-import { ArrowLeft, Loader2, Play, BookOpen } from 'lucide-react'
+import { ArrowLeft, Loader2, Play, BookOpen, AlertTriangle } from 'lucide-react'
 import SenecaLessonPlayer from '@/components/lesson/SenecaLessonPlayer'
 import LessonResult from '@/components/lesson/LessonResult'
 import type { Question } from '@/types'
 import { CROWN_EMOJI, CROWN_NAMES } from '@/types'
 import { calculateLessonXP } from '@/lib/gamification'
 import { useUserStore } from '@/store/user'
+
+class ErrorBoundary extends Component<{ children: React.ReactNode; fallback: string }, { hasError: boolean }> {
+  constructor(props: any) {
+    super(props)
+    this.state = { hasError: false }
+  }
+  static getDerivedStateFromError() { return { hasError: true } }
+  render() {
+    if (this.state.hasError) {
+      return (
+        <div className="min-h-screen flex items-center justify-center px-6">
+          <div className="text-center max-w-sm">
+            <AlertTriangle className="w-12 h-12 text-amber-500 mx-auto mb-4" />
+            <h2 className="text-lg font-bold text-gray-900 mb-2">Something went wrong</h2>
+            <p className="text-gray-500 mb-6">{this.props.fallback}</p>
+            <button
+              onClick={() => { this.setState({ hasError: false }); window.location.reload() }}
+              className="bg-[#58CC02] text-white font-bold py-3 px-8 rounded-xl"
+            >
+              Reload
+            </button>
+          </div>
+        </div>
+      )
+    }
+    return this.props.children
+  }
+}
 
 function LearnPageContent({ page }: { page: string }) {
   const searchParams = useSearchParams()
@@ -115,12 +143,14 @@ function LearnPageContent({ page }: { page: string }) {
       )}
 
       {phase === 'playing' && allQuestions.length > 0 && (
-        <SenecaLessonPlayer
-          lessonId={lessonId}
-          questions={allQuestions}
-          onComplete={handleComplete}
-          onExit={() => setPhase('select')}
-        />
+        <ErrorBoundary fallback="Lesson player encountered an error. Please refresh and try again.">
+          <SenecaLessonPlayer
+            lessonId={lessonId}
+            questions={allQuestions}
+            onComplete={handleComplete}
+            onExit={() => setPhase('select')}
+          />
+        </ErrorBoundary>
       )}
 
       {phase === 'results' && results && (

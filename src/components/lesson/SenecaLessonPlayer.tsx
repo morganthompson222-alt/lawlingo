@@ -171,17 +171,9 @@ export default function SenecaLessonPlayer({ lessonId, questions, onComplete, on
               <BookOpen className="w-5 h-5 text-green-600" />
               <span className="text-sm font-bold text-green-700 uppercase tracking-wide">Key Concept</span>
             </div>
-            <div
-              className="prose prose-sm max-w-none text-gray-800 leading-relaxed space-y-3"
-              dangerouslySetInnerHTML={{
-                __html: currentBlockTeaching.teachingSummary!
-                  .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-                  .replace(/\n\n/g, '</p><p>')
-                  .replace(/\n/g, '<br/>')
-                  .replace(/\* (.*?) \(/g, '* <em>$1</em> (')
-                  .replace(/\[(\d{4})\]/g, '[$1]')
-              }}
-            />
+            <div className="text-sm text-gray-800 leading-relaxed space-y-3 whitespace-pre-line">
+              {currentBlockTeaching.teachingSummary || ''}
+            </div>
             <div className="mt-6 pt-4 border-t border-green-200">
               <p className="text-xs text-green-600 mb-1">OSCOLA References:</p>
               {currentBlockTeaching.oscoaReferences?.map((ref, i) => (

@@ -45,16 +45,25 @@ export async function GET(request: Request) {
   const teaching = questions.filter(q => q.phase === 'teaching')
   const consolidation = questions.filter(q => q.phase === 'consolidation')
 
+  // Ensure options is always an array (not a string)
+  const ensureArray = (opts: any) => {
+    if (Array.isArray(opts)) return opts
+    if (typeof opts === 'string') {
+      try { return JSON.parse(opts) } catch { return [] }
+    }
+    return []
+  }
+
   return NextResponse.json({
     lessonId: teaching[0]?.lessonId || lessonId,
     microSkill: teaching[0]?.microSkill || microSkill,
     blocks: ['A', 'B', 'C'].map(b => ({
       block: b,
       teaching: teaching.find(q => q.block === b && q.type === 'teaching'),
-      questions: teaching.filter(q => q.block === b && q.type !== 'teaching'),
+      questions: teaching.filter(q => q.block === b && q.type !== 'teaching').map(q => ({ ...q, options: ensureArray(q.options) })),
     })),
     consolidation: {
-      questions: consolidation,
+      questions: consolidation.map(q => ({ ...q, options: ensureArray(q.options) })),
     },
   })
 }
