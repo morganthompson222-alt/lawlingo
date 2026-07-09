@@ -1,0 +1,254 @@
+[
+  {
+    "lessonId": "lesson-A20-1", "microSkill": "A20.1", "block": "A", "phase": "teaching",
+    "teachingSummary": "**The Privity Rule — Only Parties to a Contract May Sue or Be Sued On It**\n\nThe doctrine of privity of contract is a fundamental principle of English law: a contract cannot confer rights or impose obligations on anyone who is not a party to it. Only the original contracting parties may enforce or be bound by a contract.\n\n**Tweddle v Atkinson [1861] 1 B & S 393**\n\nFathers of a bride and groom agreed each would pay the groom a sum of money. The groom's father paid; the bride's father died before paying. The groom sued the bride's father's estate. The court held the groom could not sue — he was not a party to the agreement between the two fathers, even though the agreement was expressly for his benefit. Consideration must move from the promisee, and the groom provided none.\n\n**Dunlop Pneumatic Tyre Co v Selfridge & Co [1915] AC 847**\n\nDunlop sold tyres to a distributor (Dew) with a clause: Dew would not resell below a minimum price and would extract the same promise from sub-dealers. Dew sold to Selfridge, who agreed to the minimum price but then sold below it. Dunlop sued Selfridge. The House of Lords held Dunlop could not enforce Selfridge's promise — Dunlop was not a party to the contract between Dew and Selfridge, and Dunlop provided no consideration for Selfridge's promise. Lord Haldane: 'My Lords, in the law of England certain principles are fundamental. One is that only a person who is a party to a contract can sue on it.'\n\n**The Rule's Rationale:**\n- Only the person who gave consideration can enforce the promise\n- The third party bears no contractual burden, so should gain no benefit\n- Certainty: the parties know who they can sue and be sued by\n- The rule is strict but has been criticised for defeating the parties' intentions where the contract expressly benefits a third party",
+    "type": "teaching", "question": "", "answer": "", "options": [], "feedback": "",
+    "oscoaReferences": ["Tweddle v Atkinson [1861] 1 B & S 393", "Dunlop Pneumatic Tyre Co Ltd v Selfridge & Co [1915] AC 847"],
+    "difficulty": "easy", "tags": ["privity", "tweddle-v-atkinson", "dunlop-v-selfridge"]
+  },
+  {
+    "lessonId": "lesson-A20-1", "microSkill": "A20.1", "block": "A", "phase": "teaching",
+    "type": "fill_gap_case", "question": "_________ v Atkinson [1861] 1 B & S 393 held that a person for whose benefit a contract was made could not sue on it because he was not a party and gave no consideration.",
+    "answer": "Tweddle", "options": [],
+    "feedback": "Correct. In *Tweddle v Atkinson* [1861], the groom was the intended beneficiary of a payment agreement between two fathers, but could not enforce it — he was not a party to the contract and provided no consideration.",
+    "oscoaReferences": ["Tweddle v Atkinson [1861] 1 B & S 393"], "difficulty": "easy", "tags": ["tweddle-v-atkinson", "privity"]
+  },
+  {
+    "lessonId": "lesson-A20-1", "microSkill": "A20.1", "block": "A", "phase": "teaching",
+    "type": "fill_gap_case", "question": "_________ v Selfridge & Co [1915] AC 847 affirmed the privity rule: a manufacturer could not enforce a resale price maintenance agreement because it was not a party to the contract between distributor and retailer.",
+    "answer": "Dunlop", "options": [],
+    "feedback": "Correct. *Dunlop v Selfridge* [1915] is the most authoritative statement of the privity rule. Lord Haldane identified two fundamental principles: only a party can sue, and consideration must move from the promisee.",
+    "oscoaReferences": ["Dunlop Pneumatic Tyre Co Ltd v Selfridge & Co [1915] AC 847"], "difficulty": "easy", "tags": ["dunlop-v-selfridge", "privity"]
+  },
+  {
+    "lessonId": "lesson-A20-1", "microSkill": "A20.1", "block": "A", "phase": "teaching",
+    "type": "drag_elements", "question": "Arrange the steps in the analysis of privity of contract:",
+    "answer": "Identify the contract and its parties → Determine whether the claimant is a party to the contract → If yes, the claimant may sue (subject to consideration) → If no, consider whether any exception to the privity rule applies → If an exception applies, the third party may enforce → If no exception applies, the claim is barred by the privity rule",
+    "options": [
+      {"id": "1", "text": "Identify the contract and its parties", "order": 1},
+      {"id": "2", "text": "Determine whether the claimant is a party to the contract", "order": 2},
+      {"id": "3", "text": "If yes, the claimant may sue (subject to consideration)", "order": 3},
+      {"id": "4", "text": "Consider whether any exception to the privity rule applies", "order": 4},
+      {"id": "5", "text": "If an exception applies, the third party may enforce", "order": 5},
+      {"id": "6", "text": "If no exception applies, the claim is barred by the privity rule", "order": 6}
+    ],
+    "feedback": "Correct. The analysis flows from the privity rule through its exceptions. The modern law adds CRTPA 1999 which provides a major statutory exception.",
+    "oscoaReferences": ["Dunlop Pneumatic Tyre Co Ltd v Selfridge & Co [1915] AC 847", "Contracts (Rights of Third Parties) Act 1999"],
+    "difficulty": "medium", "tags": ["privity", "analysis", "sequencing"]
+  },
+  {
+    "lessonId": "lesson-A20-1", "microSkill": "A20.1", "block": "A", "phase": "teaching",
+    "type": "scenario_choice", "question": "A hires B to paint C's house as a birthday gift for C, promising to pay B £5,000. B does a bad job. Can C sue B for breach of contract?",
+    "answer": "c",
+    "options": [
+      {"id": "a", "text": "Yes — C is the intended beneficiary of the contract and has standing to sue", "correct": false, "feedback": "Incorrect. Being an intended beneficiary is not sufficient at common law. Without being a party to the contract or having an applicable exception (agency, trust, CRTPA 1999), C cannot sue."},
+      {"id": "b", "text": "Yes — C has a direct contractual relationship with B because B worked on C's house", "correct": false, "feedback": "Incorrect. B's contract is with A, not with C. Working on C's property does not create privity between B and C."},
+      {"id": "c", "text": "No — C is not a party to the contract between A and B; under the privity rule (Tweddle v Atkinson [1861]), only A can sue B", "correct": true, "feedback": "Correct. *Tweddle v Atkinson* [1861] applies: C is a third-party beneficiary who gave no consideration and is not a party. The privity rule prevents C from suing B. Only A has contractual standing."},
+      {"id": "d", "text": "Yes — any person who is foreseeably affected by a contract can enforce it", "correct": false, "feedback": "Incorrect. English law does not recognise a general right of enforcement by foreseeable third parties. The privity rule is strict."}
+    ],
+    "feedback": "Correct. This is a classic privity scenario. C is not a party to the A-B contract and gave no consideration. Only A can enforce the contract against B. C's remedy, if any, is against A (perhaps in tort if the work caused damage to the property).",
+    "oscoaReferences": ["Tweddle v Atkinson [1861] 1 B & S 393"],
+    "difficulty": "medium", "tags": ["privity", "scenario", "tweddle-v-atkinson"]
+  },
+  {
+    "lessonId": "lesson-A20-1", "microSkill": "A20.1", "block": "A", "phase": "teaching",
+    "type": "spot_error", "question": "Spot the error: 'Under English law, any person who is intended to benefit from a contract can sue to enforce it, even if they were not a party to the agreement. This has been the case since the Contracts (Rights of Third Parties) Act 1999.'",
+    "answer": "Not all intended beneficiaries can sue. The CRTPA 1999 has specific conditions: the contract must EXPRESSLY provide that the third party may enforce (s.1(1)(a)), OR the term must purport to confer a benefit on the third party (s.1(1)(b)). The third party must also be expressly identified by name, class, or description (s.1(3)). The Act does not give ALL intended beneficiaries standing — only those who meet the statutory criteria. At common law (before the Act), the privity rule prevented third party enforcement entirely.",
+    "options": [],
+    "feedback": "Correct. CRTPA 1999 is not a blanket abolition of the privity rule. It provides a limited statutory exception for third parties who satisfy s.1 — the contract must confer a right on them. Third parties who are merely incidental beneficiaries still cannot sue.",
+    "oscoaReferences": ["Contracts (Rights of Third Parties) Act 1999, s.1"],
+    "difficulty": "hard", "tags": ["privity", "crtpa-1999", "spot-error"]
+  },
+  {
+    "lessonId": "lesson-A20-1", "microSkill": "A20.1", "block": "A", "phase": "teaching",
+    "type": "msq", "question": "Which TWO of the following correctly describe the common law privity rule?",
+    "answer": "a,d",
+    "options": [
+      {"id": "a", "text": "Only a person who is a party to a contract may sue to enforce it", "correct": true, "feedback": "Correct. This is the core of the privity rule as stated in *Dunlop v Selfridge* [1915] AC 847 by Lord Haldane."},
+      {"id": "b", "text": "A third party may always sue if the contract was made for their benefit", "correct": false, "feedback": "Incorrect. Benefit alone is insufficient at common law — *Tweddle v Atkinson* [1861] held exactly the opposite."},
+      {"id": "c", "text": "The privity rule was abolished by the Contracts (Rights of Third Parties) Act 1999", "correct": false, "feedback": "Incorrect. The CRTPA 1999 created a statutory exception for third parties who meet specific criteria, but the privity rule continues to apply as the general law. It was reformed, not abolished."},
+      {"id": "d", "text": "Consideration must move from the promisee — a person who gives no consideration cannot enforce a promise", "correct": true, "feedback": "Correct. This is the second limb of the privity principle, also affirmed in *Dunlop v Selfridge* [1915]. The consideration requirement and the privity rule are distinct but related doctrines."},
+      {"id": "e", "text": "The privity rule applies only to commercial contracts, not to consumer contracts", "correct": false, "feedback": "Incorrect. The privity rule applies to all contracts regardless of the parties' status. It is a general principle of contract law."}
+    ],
+    "feedback": "Correct: (a) and (d). The privity rule has two core principles: only a party may sue, and consideration must move from the promisee. The CRTPA 1999 provides exceptions but does not abolish these principles.",
+    "oscoaReferences": ["Dunlop Pneumatic Tyre Co Ltd v Selfridge & Co [1915] AC 847"],
+    "difficulty": "medium", "tags": ["privity", "msq", "consideration"]
+  },
+  {
+    "lessonId": "lesson-A20-1", "microSkill": "A20.1", "block": "B", "phase": "teaching",
+    "teachingSummary": "**Exceptions to the Privity Rule at Common Law**\n\nDespite the strictness of the privity rule, the courts developed several exceptions that allow third parties to benefit from or enforce contracts:\n\n**1. Agency**\nWhere an agent contracts on behalf of a disclosed principal, the principal (not the agent) is the true contracting party. The principal can sue and be sued. This is not a true exception — the principal IS a party — but it achieves the same practical result.\n\n**2. Assignment**\nContractual rights (choses in action) may be assigned to a third party. The assignee steps into the shoes of the assignor and can enforce the assigned right. Assignments may be statutory (Law of Property Act 1925 s.136) or equitable. The burden of a contract cannot be assigned.\n\n**3. Trusts of the Promise**\nIf a contract creates a trust in favour of a third party, the beneficiary can enforce the trust through equity. This was historically the most important exception but is now less used given CRTPA 1999.\n\n**4. Collateral Contracts**\nA third party may have a separate collateral contract with one of the contracting parties. For example, a manufacturer's guarantee to a consumer is enforceable as a collateral contract between the manufacturer and the end-user (Shanklin Pier v Detel Products [1951]).\n\n**5. Beswick v Beswick [1968] AC 58** — the specific performance exception\nPeter Beswick sold his coal delivery business to his nephew, John. The contract provided that John would pay Peter a weekly sum for life and, after Peter's death, pay an annuity to Peter's widow. Peter died and John stopped paying the widow. Mrs Beswick sued, both as administratrix of Peter's estate and personally. The House of Lords held: (a) Mrs Beswick could not sue personally (she was not a party), BUT (b) as administratrix of Peter's estate, she could obtain SPECIFIC PERFORMANCE of John's promise. This was a pragmatic device — the widow got the benefit without technically breaching the privity rule because the action was brought in the deceased's name.",
+    "type": "teaching", "question": "", "answer": "", "options": [], "feedback": "",
+    "oscoaReferences": ["Beswick v Beswick [1968] AC 58", "Shanklin Pier Ltd v Detel Products Ltd [1951] 2 KB 854"],
+    "difficulty": "medium", "tags": ["privity", "exceptions", "beswick-v-beswick"]
+  },
+  {
+    "lessonId": "lesson-A20-1", "microSkill": "A20.1", "block": "B", "phase": "teaching",
+    "type": "fill_gap_case", "question": "_________ v Beswick [1968] AC 58 held that while a third party (the widow) could not sue in her personal capacity, her claim as administratrix of the deceased's estate could succeed by means of specific performance.",
+    "answer": "Beswick", "options": [],
+    "feedback": "Correct. *Beswick v Beswick* [1968] is the most important common law gloss on the privity rule. Lord Reid used specific performance to ensure the widow received the promised annuity without technically breaching the privity rule.",
+    "oscoaReferences": ["Beswick v Beswick [1968] AC 58"], "difficulty": "easy", "tags": ["beswick-v-beswick", "privity"]
+  },
+  {
+    "lessonId": "lesson-A20-1", "microSkill": "A20.1", "block": "B", "phase": "teaching",
+    "type": "fill_gap_case", "question": "_________ Pier v Detel Products [1951] 2 KB 854 established that a third party (end-user) could enforce a manufacturer's warranty as a separate collateral contract.",
+    "answer": "Shanklin", "options": [],
+    "feedback": "Correct. In *Shanklin Pier v Detel Products* [1951], the pier owners relied on the paint manufacturer's assurance that the paint would last seven years. A collateral contract existed between the pier owners (third party) and the manufacturer, bypassing the privity problem with the main painting contract.",
+    "oscoaReferences": ["Shanklin Pier Ltd v Detel Products Ltd [1951] 2 KB 854"], "difficulty": "medium", "tags": ["shanklin-pier", "collateral-contract"]
+  },
+  {
+    "lessonId": "lesson-A20-1", "microSkill": "A20.1", "block": "B", "phase": "teaching",
+    "type": "drag_elements", "question": "Match each exception to the privity rule with its mechanism:",
+    "answer": "Agency=The principal is the true party, not a third party; Assignment=The right is transferred from the original party to the assignee; Trust of the promise=The beneficiary enforces through equity; Collateral contract=A separate contract exists alongside the main one; Beswick v Beswick=Specific performance granted to the estate (the party) for the benefit of the widow (the third party)",
+    "options": [
+      {"id": "agency", "text": "The principal is the true party, not a third party", "pair": "Agency"},
+      {"id": "assignment", "text": "The right is transferred from the original party to the assignee", "pair": "Assignment"},
+      {"id": "trust", "text": "The beneficiary enforces through equity", "pair": "Trust of the promise"},
+      {"id": "collateral", "text": "A separate contract exists alongside the main one", "pair": "Collateral contract"},
+      {"id": "beswick", "text": "Specific performance granted to the estate (the party) for the benefit of the widow (the third party)", "pair": "Beswick v Beswick"}
+    ],
+    "feedback": "Correct. Each exception works through a different legal mechanism. CRTPA 1999 provides the modern statutory framework that renders many of these common law workarounds less necessary.",
+    "oscoaReferences": ["Beswick v Beswick [1968] AC 58", "Shanklin Pier Ltd v Detel Products Ltd [1951] 2 KB 854"],
+    "difficulty": "medium", "tags": ["privity", "exceptions", "matching"]
+  },
+  {
+    "lessonId": "lesson-A20-1", "microSkill": "A20.1", "block": "B", "phase": "teaching",
+    "type": "scenario_choice", "question": "Manufacturer promises Retailer that Manufacturer will pay Retailer's son £10,000 when the son turns 21. The son turns 21 but Manufacturer refuses to pay. Can the son sue Manufacturer?",
+    "answer": "c",
+    "options": [
+      {"id": "a", "text": "Yes — the son is the intended beneficiary and can sue under CRTPA 1999 s.1(1)(b)", "correct": false, "feedback": "Incorrect. While CRTPA 1999 s.1(1)(b) allows enforcement where a term 'purports to confer a benefit' on the third party, this must be assessed objectively. Here, the contract is between Manufacturer and Retailer for a commercial purpose — the son is merely an incidental beneficiary of a payment arrangement."},
+      {"id": "b", "text": "Yes — the son can sue as an assignee of Retailer's rights", "correct": false, "feedback": "Incorrect. There is no assignment here. The son does not have an assigned right — the obligation is Manufacture's promise to Retailer."},
+      {"id": "c", "text": "No — the son is not a party to the contract; the privity rule applies. Retailer could sue Manufacturer for damages for breaching the promise to pay the son", "correct": true, "feedback": "Correct. The son gave no consideration and is not a party. The privity rule prevents him from suing. However, Retailer could sue Manufacturer: the breach of the promise to benefit a third party causes Retailer loss (the son is not paid)."},
+      {"id": "d", "text": "Yes — any person named in a contract has automatic standing to enforce it", "correct": false, "feedback": "Incorrect. Being named is not sufficient. The common law privity rule requires party status and consideration. CRTPA 1999 requires the contract to expressly or implicitly confer a right on the third party."}
+    ],
+    "feedback": "Correct. The son is a classic third party — not a contracting party, no consideration given. Under the common law privity rule, he cannot sue. CRTPA 1999 might assist if the contract objectively purports to confer a benefit on him (s.1(1)(b)), but on these simple facts, the son is better advised to ask Retailer to enforce the promise.",
+    "oscoaReferences": ["Tweddle v Atkinson [1861] 1 B & S 393", "Contracts (Rights of Third Parties) Act 1999, s.1"],
+    "difficulty": "hard", "tags": ["privity", "scenario", "crtpa-1999"]
+  },
+  {
+    "lessonId": "lesson-A20-1", "microSkill": "A20.1", "block": "B", "phase": "teaching",
+    "type": "msq", "question": "Which TWO of the following are recognised exceptions to the privity rule at common law?",
+    "answer": "a,c",
+    "options": [
+      {"id": "a", "text": "A collateral contract between one of the parties and the third party", "correct": true, "feedback": "Correct. *Shanklin Pier v Detel Products* [1951] demonstrates that a manufacturer's assurance to an end-user can constitute a collateral contract, enforceable by the third party despite the privity rule."},
+      {"id": "b", "text": "Any third party who is financially disadvantaged by non-performance may sue", "correct": false, "feedback": "Incorrect. Financial disadvantage alone does not confer standing. The privity rule requires party status and consideration."},
+      {"id": "c", "text": "An agency relationship, where the agent contracts on behalf of a disclosed principal", "correct": true, "feedback": "Correct. In agency, the principal is the true contracting party — the agent acts on their behalf. The principal can sue and be sued on the contract."},
+      {"id": "d", "text": "Where the contract involves goods valued over £50,000", "correct": false, "feedback": "Incorrect. The value of the contract is irrelevant to the privity rule. There is no monetary threshold for any exception."},
+      {"id": "e", "text": "Where the third party is a close family member of one of the contracting parties", "correct": false, "feedback": "Incorrect. Family relationship does not create an exception to the privity rule — *Tweddle v Atkinson* [1861] itself involved a son-in-law who could not sue."}
+    ],
+    "feedback": "Correct: (a) and (c). Collateral contracts and agency are two well-established common law exceptions. CRTPA 1999 now provides the most important statutory exception, rendering many common law workarounds less necessary.",
+    "oscoaReferences": ["Shanklin Pier Ltd v Detel Products Ltd [1951] 2 KB 854", "Dunlop Pneumatic Tyre Co Ltd v Selfridge & Co [1915] AC 847"],
+    "difficulty": "medium", "tags": ["privity", "exceptions", "msq"]
+  },
+  {
+    "lessonId": "lesson-A20-1", "microSkill": "A20.1", "block": "C", "phase": "teaching",
+    "teachingSummary": "**The Contracts (Rights of Third Parties) Act 1999 — The Modern Framework**\n\nThe CRTPA 1999 was a landmark reform, creating a statutory right for third parties to enforce contractual terms in defined circumstances. It addresses the injustice of the common law position where, for example, a husband and wife took out life insurance for their children's benefit but the children could not enforce the policy.\n\n**Section 1 — When a Third Party May Enforce**\nA person who is not a party to a contract may enforce a term of the contract if:\n- s.1(1)(a): The contract EXPRESSLY provides that the third party may enforce it; OR\n- s.1(1)(b): The term PURPORTS TO CONFER A BENEFIT on the third party.\n  - s.1(2): The presumption under s.1(1)(b) is that the parties intended the term to be enforceable by the third party if the contract does not say otherwise.\n- s.1(3): The third party must be EXPRESSLY IDENTIFIED — by name, as a member of a class, or by answering a particular description. A third party need not be in existence when the contract is made (e.g., unborn children, future companies).\n\n**Section 2 — Variation and Rescission**\nOnce the third party has communicated assent, or relied on the term (and the promisor knows or should know of the reliance), the contracting parties cannot vary or rescind the contract to extinguish the third party's right without the third party's consent.\n\n**Key Points for the SQE:**\n- The Act applies to contracts entered into on or after 11 May 2000\n- The third party's rights are subject to any defences the promisor would have had against the original promisee\n- The Act does NOT allow a third party to enforce a term against a party who shows that the parties did not intend the term to be enforceable by the third party\n- Important exclusions: employment contracts, carriage of goods (certain conventions), bills of exchange, companies (s.33 Companies Act 2006)",
+    "type": "teaching", "question": "", "answer": "", "options": [], "feedback": "",
+    "oscoaReferences": ["Contracts (Rights of Third Parties) Act 1999, ss.1-2"],
+    "difficulty": "hard", "tags": ["crtpa-1999", "privity", "statutory-reform"]
+  },
+  {
+    "lessonId": "lesson-A20-1", "microSkill": "A20.1", "block": "C", "phase": "teaching",
+    "type": "fill_gap_statute", "question": "Under section 1(1)(b) of the Contracts (Rights of Third Parties) Act __________, a third party may enforce a term if it 'purports to confer a benefit' on them, unless the contract shows the parties did not intend the term to be enforceable by the third party.",
+    "answer": "1999", "options": [],
+    "feedback": "Correct. CRTPA 1999 s.1(1)(b) creates a rebuttable presumption: if a term purports to confer a benefit on a third party, the third party may enforce it — unless, on a proper construction of the contract, the parties did NOT intend the term to be enforceable by the third party (s.1(2)).",
+    "oscoaReferences": ["Contracts (Rights of Third Parties) Act 1999, s.1"],
+    "difficulty": "easy", "tags": ["crtpa-1999", "s1", "third-party"]
+  },
+  {
+    "lessonId": "lesson-A20-1", "microSkill": "A20.1", "block": "C", "phase": "teaching",
+    "type": "fill_gap_statute", "question": "CRTPA 1999 section __________ provides that once a third party has communicated assent or relied on the term, the contracting parties cannot vary or rescind the contract to extinguish the third party's right without consent.",
+    "answer": "2", "options": [],
+    "feedback": "Correct. s.2 CRTPA 1999 protects the third party's position once they have acted in reliance. A mechanism exists under s.2(4) for the court to dispense with the third party's consent if their whereabouts are unknown or they lack capacity.",
+    "oscoaReferences": ["Contracts (Rights of Third Parties) Act 1999, s.2"],
+    "difficulty": "medium", "tags": ["crtpa-1999", "s2", "variation"]
+  },
+  {
+    "lessonId": "lesson-A20-1", "microSkill": "A20.1", "block": "C", "phase": "teaching",
+    "type": "drag_elements", "question": "Arrange the analytical steps for determining whether a third party can enforce under CRTPA 1999:",
+    "answer": "Was the contract entered into on or after 11 May 2000? → Does the contract expressly provide that the third party may enforce (s.1(1)(a))? → If not, does the term purport to confer a benefit on the third party (s.1(1)(b))? → Is the third party expressly identified in the contract (s.1(3))? → Is there anything in the contract indicating the parties did not intend the term to be enforceable by the third party (s.1(2))? → Is the contract excluded from CRTPA (e.g., employment, bills of exchange)?",
+    "options": [
+      {"id": "1", "text": "Was the contract entered into on or after 11 May 2000?", "order": 1},
+      {"id": "2", "text": "Does the contract expressly provide that the third party may enforce (s.1(1)(a))?", "order": 2},
+      {"id": "3", "text": "If not, does the term purport to confer a benefit on the third party (s.1(1)(b))?", "order": 3},
+      {"id": "4", "text": "Is the third party expressly identified in the contract (s.1(3))?", "order": 4},
+      {"id": "5", "text": "Is there anything indicating the parties did not intend the term to be enforceable (s.1(2))?", "order": 5},
+      {"id": "6", "text": "Is the contract excluded from CRTPA (e.g., employment, bills of exchange)?", "order": 6}
+    ],
+    "feedback": "Correct. This structured approach ensures that CRTPA 1999 is applied methodically. The key questions are whether the contract confers a benefit (s.1(1)(b)), whether the third party is identified (s.1(3)), and whether there is contrary intention (s.1(2)).",
+    "oscoaReferences": ["Contracts (Rights of Third Parties) Act 1999"],
+    "difficulty": "medium", "tags": ["crtpa-1999", "analysis", "sequencing"]
+  },
+  {
+    "lessonId": "lesson-A20-1", "microSkill": "A20.1", "block": "C", "phase": "teaching",
+    "type": "scenario_choice", "question": "A construction contract between Employer and Contractor includes a clause: 'The Contractor warrants that all work will comply with the specification and that this warranty is given for the benefit of future purchasers and tenants of the building.' A tenant discovers defective work. Can the tenant sue the Contractor?",
+    "answer": "a",
+    "options": [
+      {"id": "a", "text": "Yes — under CRTPA 1999 s.1(1)(b), the warranty purports to confer a benefit on future purchasers and tenants, the tenant is identified as a member of a class (s.1(3)), and there is nothing suggesting the parties did not intend enforcement by the tenant", "correct": true, "feedback": "Correct. All CRTPA 1999 conditions are met: (1) the warranty purports to confer a benefit on a class including the tenant (s.1(1)(b)), (2) 'future tenants' is a clearly identified class (s.1(3)), (3) there is no contrary intention (s.1(2)). The tenant can enforce the warranty directly against the Contractor."},
+      {"id": "b", "text": "No — only the Employer can sue the Contractor; the tenant must sue the Employer instead", "correct": false, "feedback": "Incorrect. This was the common law position before CRTPA 1999. The tenant could ask the Employer to sue, but CRTPA 1999 now gives the tenant a direct right of enforcement without going through the Employer."},
+      {"id": "c", "text": "No — CRTPA 1999 does not apply to construction contracts", "correct": false, "feedback": "Incorrect. CRTPA 1999 applies to construction contracts. It has no exclusion for construction. Third-party rights in construction are now standard practice."},
+      {"id": "d", "text": "Yes — but only if the tenant can prove reliance on the warranty", "correct": false, "feedback": "Incorrect. Reliance is not required for enforcement under s.1(1)(b) CRTPA 1999 — the right arises from the contract, not from the third party's conduct. Reliance is relevant under s.2 (variation), not s.1 (enforcement)."}
+    ],
+    "feedback": "Correct. This is a textbook CRTPA 1999 scenario. All conditions are satisfied: the warranty is expressed to benefit future tenants (s.1(1)(b)), tenants are an identified class (s.1(3)), and there is no contrary intention. The tenant has a direct right of action against the Contractor.",
+    "oscoaReferences": ["Contracts (Rights of Third Parties) Act 1999, ss.1-2"],
+    "difficulty": "medium", "tags": ["crtpa-1999", "scenario", "construction"]
+  },
+  {
+    "lessonId": "lesson-A20-1", "microSkill": "A20.1", "block": "C", "phase": "teaching",
+    "type": "scenario_choice", "question": "A contract between Company A and Company B states: 'This contract does not confer any rights on any third party under the Contracts (Rights of Third Parties) Act 1999.' The contract also contains a clause benefiting Company C. Can Company C enforce the benefit?",
+    "answer": "c",
+    "options": [
+      {"id": "a", "text": "Yes — the benefit clause overrides the general exclusion because it is more specific", "correct": false, "feedback": "Incorrect. CRTPA 1999 s.1(2) provides that the presumption of enforceability is rebutted if 'on a proper construction of the contract it appears that the parties did not intend the term to be enforceable by the third party.' An express exclusion clause is clear evidence of contrary intention."},
+      {"id": "b", "text": "Yes — CRTPA 1999 rights cannot be excluded", "correct": false, "feedback": "Incorrect. CRTPA 1999 is not mandatory — the parties may contract out of it entirely. The standard exclusion clause is expressly permitted by the Act."},
+      {"id": "c", "text": "No — the express exclusion clause rebuts the s.1(2) presumption and shows the parties did not intend third party enforcement, so Company C cannot rely on CRTPA 1999", "correct": true, "feedback": "Correct. The standard CRTPA exclusion clause is effective. Under s.1(2), the presumption of enforceability is rebutted where the contract shows contrary intention. An express exclusion is the clearest possible contrary intention. Company C must rely on common law exceptions, if any."},
+      {"id": "d", "text": "Partially — the benefit clause and exclusion clause cancel each other out, and the court will determine which is fairer", "correct": false, "feedback": "Incorrect. There is no 'cancelling out.' The exclusion clause is clear and unambiguous. The court gives effect to the express contractual terms — the exclusion prevails."}
+    ],
+    "feedback": "Correct. An express CRTPA 1999 exclusion clause is effective. The parties' right to contract out of the Act is an important feature of its design — it respects freedom of contract. Company C cannot rely on the Act and must look to common law exceptions for any enforcement right.",
+    "oscoaReferences": ["Contracts (Rights of Third Parties) Act 1999, s.1(2)"],
+    "difficulty": "hard", "tags": ["crtpa-1999", "exclusion", "scenario"]
+  },
+  {
+    "lessonId": "lesson-A20-1", "microSkill": "A20.1", "block": "C", "phase": "teaching",
+    "type": "spot_error", "question": "Spot the error: 'CRTPA 1999 applies to all contracts, including employment contracts. The Act cannot be excluded by the contracting parties because it is mandatory legislation. Once a third party has been identified, the parties may never vary the contract without the third party's consent.'",
+    "answer": "Three errors: (1) CRTPA 1999 does NOT apply to employment contracts (s.6). (2) The Act CAN be excluded — s.1(2) allows parties to negate third party rights, and standard exclusion clauses are common. (3) Variation restrictions apply only AFTER the third party has communicated assent or relied (s.2(1)) — not from the moment of identification. Before that, the parties remain free to vary.",
+    "options": [],
+    "feedback": "Correct. CRTPA 1999 has important limits: employment contracts are excluded (s.6), the Act can be contracted out of (s.1(2)), and variation restrictions only bite after communication of assent or reliance (s.2). These limits preserve freedom of contract.",
+    "oscoaReferences": ["Contracts (Rights of Third Parties) Act 1999, ss.1, 2, 6"],
+    "difficulty": "hard", "tags": ["crtpa-1999", "limits", "spot-error"]
+  },
+  {
+    "lessonId": "lesson-A20-1", "microSkill": "A20.1", "block": "consolidation", "phase": "consolidation",
+    "type": "fill_gap_case", "question": "_________ v Beswick [1968] AC 58 demonstrated that specific performance could be used to give practical effect to a promise made for a third party's benefit, without technically breaching the privity rule.",
+    "answer": "Beswick", "options": [],
+    "feedback": "*Beswick v Beswick* [1968] is the bridge between the strict common law privity rule and the modern CRTPA 1999 framework.",
+    "oscoaReferences": ["Beswick v Beswick [1968] AC 58"], "difficulty": "easy", "tags": ["beswick-v-beswick", "consolidation"]
+  },
+  {
+    "lessonId": "lesson-A20-1", "microSkill": "A20.1", "block": "consolidation", "phase": "consolidation",
+    "type": "scenario_choice", "question": "A life insurance policy taken out by Husband on his own life names Wife as the beneficiary. Husband dies. The insurer refuses to pay Wife because she was not a party to the insurance contract. What is the legal position under CRTPA 1999?",
+    "answer": "b",
+    "options": [
+      {"id": "a", "text": "Wife cannot claim — the common law privity rule applies, and Wife gave no consideration", "correct": false, "feedback": "Incorrect. While *Tweddle v Atkinson* [1861] would have prevented the wife's claim at common law, CRTPA 1999 was enacted precisely to address this injustice."},
+      {"id": "b", "text": "Wife can claim — under CRTPA 1999 s.1(1)(b), the policy purports to confer a benefit on her, she is expressly identified (s.1(3)), and there is no contrary intention; she can enforce the policy directly", "correct": true, "feedback": "Correct. This is precisely the scenario CRTPA 1999 was designed to address. The policy confers a benefit on Wife; she is named (s.1(3)); there is no exclusion. She has a direct right of enforcement against the insurer."},
+      {"id": "c", "text": "Wife can claim — but only if Husband's estate sues on her behalf under Beswick v Beswick [1968]", "correct": false, "feedback": "Incorrect. Under CRTPA 1999, Wife has her OWN right of enforcement. The *Beswick* workaround (the estate suing for specific performance) is no longer necessary where the Act applies."},
+      {"id": "d", "text": "Wife cannot claim — insurance contracts are excluded from CRTPA 1999", "correct": false, "feedback": "Incorrect. Insurance contracts are NOT excluded from CRTPA 1999. In fact, life insurance for family members was one of the principal motivations for the Act's enactment."}
+    ],
+    "feedback": "Correct. This is the archetypal CRTPA 1999 scenario. The wife, as named beneficiary, has a direct right to enforce the policy under s.1(1)(b). The injustice of the common law position was the catalyst for the Act's enactment.",
+    "oscoaReferences": ["Contracts (Rights of Third Parties) Act 1999, s.1"],
+    "difficulty": "medium", "tags": ["crtpa-1999", "insurance", "consolidation"]
+  },
+  {
+    "lessonId": "lesson-A20-1", "microSkill": "A20.1", "block": "consolidation", "phase": "consolidation",
+    "type": "msq", "question": "Which TWO of the following are necessary for a third party to enforce a contract term under CRTPA 1999 s.1(1)(b)?",
+    "answer": "b,d",
+    "options": [
+      {"id": "a", "text": "The third party must have given consideration for the promise", "correct": false, "feedback": "Incorrect. CRTPA 1999 was enacted to overcome the consideration requirement for third parties. The third party need NOT give consideration — that is the whole point of the Act."},
+      {"id": "b", "text": "The term must purport to confer a benefit on the third party", "correct": true, "feedback": "Correct. Under s.1(1)(b), the term must objectively 'purport to confer a benefit' on the third party. This is assessed by interpreting the contract in its factual context."},
+      {"id": "c", "text": "The third party must be in existence at the time the contract was made", "correct": false, "feedback": "Incorrect. s.1(3) expressly provides that the third party 'need not be in existence when the contract is entered into.' Unborn children and future companies may be beneficiaries."},
+      {"id": "d", "text": "The third party must be expressly identified in the contract by name, class, or description", "correct": true, "feedback": "Correct. Under s.1(3), the third party must be 'expressly identified' — by name, as a member of a defined class, or by answering a particular description. 'My children' is sufficient."},
+      {"id": "e", "text": "The contract must have been entered into via a solicitor", "correct": false, "feedback": "Incorrect. No such requirement exists. CRTPA 1999 applies to all contracts regardless of how they were formed."}
+    ],
+    "feedback": "Correct: (b) and (d). The term must purport to confer a benefit (s.1(1)(b)) and the third party must be expressly identified (s.1(3)). Together these are the core conditions for enforcement under the Act.",
+    "oscoaReferences": ["Contracts (Rights of Third Parties) Act 1999, s.1"],
+    "difficulty": "medium", "tags": ["crtpa-1999", "msq", "consolidation"]
+  }
+]
