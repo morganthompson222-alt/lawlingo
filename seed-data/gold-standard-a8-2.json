@@ -1,0 +1,355 @@
+[
+  {
+    "lessonId": "lesson-A8-2", "microSkill": "A8.2", "block": "A", "phase": "teaching",
+    "teachingSummary": "**Core Rule — The Reasonableness Test under UCTA 1977:** Section 11 of the Unfair Contract Terms Act 1977 provides that an exclusion or limitation clause must satisfy the requirement of reasonableness. The term must have been 'a fair and reasonable one to be included having regard to the circumstances which were, or ought reasonably to have been, known to or in the contemplation of the parties when the contract was made.'\n\n**The Time of Assessment — At Formation, Not Breach:** The reasonableness of an exclusion clause is assessed at the time the contract was made, not at the time of the breach or the event giving rise to liability (s.11(1)). A clause that appeared reasonable at formation is not rendered unreasonable merely because a later event causes catastrophic loss — but the court's assessment is informed by whether the clause was fair in light of risks that were, or should have been, contemplated at the time of contracting.\n\n**Common Law Backdrop — Contra Proferentem and Canada Steamship:** Before UCTA 1977, the courts developed common law tools to control exclusion clauses. The *contra proferentem* rule requires that ambiguities in exclusion clauses are construed strictly against the party seeking to rely on them (the proferens). In *Canada Steamship Lines Ltd v The King* [1952] AC 192, the Privy Council established three guidelines: (1) if liability for negligence is not clearly or expressly excluded, the clause will not be read as excluding it; (2) if the clause is wide enough to cover negligence and also some other basis of liability, the court will confine it to the other basis; (3) even if the words are wide enough to cover negligence, if there is another head of damage the clause could reasonably cover, it will be applied to that other head and not negligence. UCTA 1977 now provides a statutory overlay, but the common law rules of construction remain significant.\n\n**George Mitchell (Chesterhall) Ltd v Finney Lock Seeds Ltd [1983] 2 AC 803:** Farmers ordered cabbage seed; the supplier delivered the wrong variety, causing the crop to be worthless. The contract limited the supplier's liability to the price of the seed (£201), but the crop failure caused losses of £61,000. The House of Lords held the limitation clause was unreasonable under s.55 of the Sale of Goods Act 1979 (the predecessor to UCTA s.11). Lord Bridge emphasised that the court must consider 'all the circumstances' — no single factor is determinative. Key factors included: the seedsman's error was negligent, the limitation had been imposed without negotiation, and similar clauses had been held unreasonable in the seed trade.\n\n**St Albans City and District Council v International Computers Ltd [1996] 4 All ER 481:** A software supplier's limitation of liability to £100,000 was held unreasonable where the defendant maintained unlimited liability insurance of £5 million. The Court of Appeal held that the availability of insurance was a relevant circumstance under the reasonableness test — a party who carries unlimited insurance cannot fairly rely on a low financial cap on liability. The resources of the party seeking to rely on the clause, and their ability to meet a higher liability, are relevant to reasonableness.\n\n**In short:** The reasonableness test is a multi-factorial assessment made at the time of contracting. The court weighs bargaining strength, insurance, trade practice, and all surrounding circumstances. The common law rules (contra proferentem, Canada Steamship) operate alongside UCTA.",
+    "type": "teaching", "question": "", "answer": "", "options": [], "feedback": "",
+    "oscoaReferences": ["Unfair Contract Terms Act 1977, s.11", "Canada Steamship Lines Ltd v The King [1952] AC 192", "George Mitchell (Chesterhall) Ltd v Finney Lock Seeds Ltd [1983] 2 AC 803", "St Albans City and District Council v International Computers Ltd [1996] 4 All ER 481"],
+    "difficulty": "hard", "tags": ["UCTA-1977", "reasonableness", "Canada-Steamship", "contra-proferentem"]
+  },
+  {
+    "lessonId": "lesson-A8-2", "microSkill": "A8.2", "block": "A", "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "Under s.____ of the Unfair Contract Terms Act 1977, an exclusion or limitation clause must be 'a fair and reasonable one to be included having regard to the circumstances which were, or ought reasonably to have been, known to or in the contemplation of the parties when the contract was made.'",
+    "answer": "11",
+    "options": [],
+    "feedback": "Correct. UCTA 1977, s.11(1) sets out the reasonableness test. The assessment is made at the time of contracting, not at the time of breach. The burden of proving that the term satisfies the requirement of reasonableness lies on the party seeking to rely on the clause.",
+    "oscoaReferences": ["Unfair Contract Terms Act 1977, s.11"],
+    "difficulty": "easy", "tags": ["UCTA-1977", "s11", "reasonableness"]
+  },
+  {
+    "lessonId": "lesson-A8-2", "microSkill": "A8.2", "block": "A", "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "_________ v Finney Lock Seeds Ltd [1983] 2 AC 803 held that a clause limiting a seed supplier's liability to the price of the seed (£201) was unreasonable where the supplier's negligent supply of the wrong variety caused crop failure and losses of £61,000.",
+    "answer": "George Mitchell",
+    "options": [],
+    "feedback": "Correct. *George Mitchell (Chesterhall) Ltd v Finney Lock Seeds Ltd* [1983] 2 AC 803. The House of Lords applied a multi-factorial approach — the limitation had been imposed without negotiation, similar clauses had been held unreasonable in the seed trade, and the seed supplier's error was negligent. The clause failed the reasonableness test.",
+    "oscoaReferences": ["George Mitchell (Chesterhall) Ltd v Finney Lock Seeds Ltd [1983] 2 AC 803"],
+    "difficulty": "medium", "tags": ["reasonableness", "george-mitchell", "limitation-clause"]
+  },
+  {
+    "lessonId": "lesson-A8-2", "microSkill": "A8.2", "block": "A", "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "Under s.11(1) UCTA 1977, the reasonableness of an exclusion clause is assessed at the time the __________ was made, not at the time of the breach or the event giving rise to liability.",
+    "answer": "contract",
+    "options": [],
+    "feedback": "Correct. The time of assessment is at the time the contract was made. This is explicit in s.11(1): the term must have been 'a fair and reasonable one to be included having regard to the circumstances which were, or ought reasonably to have been, known … when the contract was made.' A clause is not retrospectively unreasonable because a later event causes unexpected loss.",
+    "oscoaReferences": ["Unfair Contract Terms Act 1977, s.11(1)"],
+    "difficulty": "easy", "tags": ["UCTA-1977", "time-of-assessment", "s11"]
+  },
+  {
+    "lessonId": "lesson-A8-2", "microSkill": "A8.2", "block": "A", "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "_________ Steamship Lines Ltd v The King [1952] AC 192 established common law guidelines for construing exclusion clauses: if negligence is not clearly excluded, the clause will not be read as excluding it; this is an application of the contra proferentem rule.",
+    "answer": "Canada",
+    "options": [],
+    "feedback": "Correct. *Canada Steamship Lines Ltd v The King* [1952] AC 192. The Privy Council established three guidelines for construing exclusion clauses, all based on the contra proferentem principle — ambiguities are resolved against the party seeking to rely on the clause. These common law rules operate alongside UCTA 1977.",
+    "oscoaReferences": ["Canada Steamship Lines Ltd v The King [1952] AC 192"],
+    "difficulty": "medium", "tags": ["Canada-Steamship", "contra-proferentem", "negligence"]
+  },
+  {
+    "lessonId": "lesson-A8-2", "microSkill": "A8.2", "block": "A", "phase": "teaching",
+    "type": "drag_elements",
+    "question": "Match each case to its key holding on exclusion clauses and reasonableness:",
+    "answer": "George Mitchell v Finney Lock Seeds [1983]=Limitation of liability to seed price unreasonable; multi-factorial assessment required; St Albans v ICL [1996]=Limitation to £100k unreasonable where defendant had unlimited insurance of £5m; Canada Steamship v The King [1952]=Exclusion clauses construed strictly against proferens; negligence must be clearly excluded",
+    "options": [
+      {"id": "gm", "text": "Limitation of liability to seed price unreasonable; multi-factorial assessment required", "pair": "George Mitchell v Finney Lock Seeds [1983]"},
+      {"id": "st", "text": "Limitation to £100k unreasonable where defendant had unlimited insurance of £5m", "pair": "St Albans v ICL [1996]"},
+      {"id": "cs", "text": "Exclusion clauses construed strictly against proferens; negligence must be clearly excluded", "pair": "Canada Steamship v The King [1952]"}
+    ],
+    "feedback": "Correct. Each case makes a distinct contribution: *George Mitchell* — the multi-factorial approach and the irrelevance of a low contract price; *St Albans* — the relevance of insurance; *Canada Steamship* — the common law contra proferentem guidelines that operate alongside UCTA.",
+    "oscoaReferences": ["George Mitchell (Chesterhall) Ltd v Finney Lock Seeds Ltd [1983] 2 AC 803", "St Albans City and District Council v International Computers Ltd [1996] 4 All ER 481", "Canada Steamship Lines Ltd v The King [1952] AC 192"],
+    "difficulty": "medium", "tags": ["reasonableness", "Canada-Steamship", "contra-proferentem", "matching"]
+  },
+  {
+    "lessonId": "lesson-A8-2", "microSkill": "A8.2", "block": "A", "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "BrightPay Ltd supplies payroll software to a large hospital trust under a contract limiting BrightPay's liability to £50,000. A software defect causes incorrect tax calculations for 5,000 employees, costing the trust £2 million in penalties and rectification. At trial, BrightPay argues the £50,000 cap was reasonable because the software licence fee was only £15,000 per year, and the trust was a sophisticated entity able to negotiate. The trust argues the cap is unreasonable. Applying the UCTA reasonableness test:",
+    "answer": "b",
+    "options": [
+      {"id": "a", "text": "The limitation cap will be upheld — the licence fee was £15,000 and a £50,000 cap represents over three times the contract price, which is always reasonable for a commercial contract", "correct": false, "feedback": "Incorrect. There is no fixed ratio of limitation to contract price that guarantees reasonableness. *George Mitchell* [1983] rejected the argument that the low contract price made the limitation reasonable — the assessment is multi-factorial."},
+      {"id": "b", "text": "The court will assess all circumstances — including the trust's bargaining strength, whether BrightPay carried insurance, and whether the cap was industry practice — but the fact the trust is a sophisticated commercial entity does not alone make the cap reasonable; *St Albans* [1996] suggests insurance cover is highly relevant", "correct": true, "feedback": "Correct. The reasonableness test is multi-factorial. The fact both parties are commercial entities is relevant but not dispositive. Insurance cover, bargaining strength, industry practice, and the extent to which the risk was known are all weighed. The disparity between the £50,000 cap and £2 million loss invites close scrutiny."},
+      {"id": "c", "text": "The limitation cap will definitely be struck down because the loss (£2 million) vastly exceeds the cap (£50,000)", "correct": false, "feedback": "Incorrect. The mere disparity between cap and loss does not make a clause unreasonable — the test is assessed at the time of contracting, not by reference to the loss that actually occurred. However, the foreseeability of that loss at the time of contracting is relevant."},
+      {"id": "d", "text": "The court will apply the *Canada Steamship* guidelines to decide if the clause was clearly worded — if it was, the clause stands regardless of reasonableness", "correct": false, "feedback": "Incorrect. *Canada Steamship* concerns the construction (interpretation) of exclusion clauses, not their reasonableness under UCTA. A clause may be clearly worded and still unreasonable. Construction and reasonableness are separate inquiries."}
+    ],
+    "feedback": "Correct. The reasonableness test under s.11 UCTA 1977 requires a multi-factorial assessment. Sophistication of the parties is relevant but not determinative. Insurance (*St Albans* [1996]), industry practice, and bargaining strength are all weighed. The loss disparity is evidence but the test is applied at the time of contracting.",
+    "oscoaReferences": ["Unfair Contract Terms Act 1977, s.11", "St Albans City and District Council v International Computers Ltd [1996] 4 All ER 481", "George Mitchell (Chesterhall) Ltd v Finney Lock Seeds Ltd [1983] 2 AC 803"],
+    "difficulty": "hard", "tags": ["reasonableness", "scenario", "multi-factorial"]
+  },
+  {
+    "lessonId": "lesson-A8-2", "microSkill": "A8.2", "block": "A", "phase": "teaching",
+    "type": "msq",
+    "question": "Which TWO of the following correctly describe the reasonableness test under s.11 UCTA 1977?",
+    "answer": "a,d",
+    "options": [
+      {"id": "a", "text": "The reasonableness of an exclusion clause is assessed at the time the contract was made, not at the time of the breach", "correct": true, "feedback": "Correct. s.11(1) explicitly requires that the term must have been 'a fair and reasonable one to be included … when the contract was made.' The later event is not the anchor point for the assessment."},
+      {"id": "b", "text": "If an exclusion clause is clearly worded and unambiguous, it automatically satisfies the reasonableness test under UCTA", "correct": false, "feedback": "Incorrect. Clarity of drafting and reasonableness are separate issues. *Canada Steamship* governs construction (clarity); s.11 UCTA governs reasonableness. A clearly worded clause can still be unreasonable."},
+      {"id": "c", "text": "The reasonableness test applies only to exclusion clauses in consumer contracts, not in business-to-business contracts", "correct": false, "feedback": "Incorrect. UCTA 1977 applies to both consumer and business contracts, though different sections apply. s.11 applies to business liability; the Consumer Rights Act 2015 covers consumer contracts."},
+      {"id": "d", "text": "The burden of proving that a term satisfies the requirement of reasonableness lies on the party seeking to rely on the exclusion or limitation clause", "correct": true, "feedback": "Correct. s.11(5) UCTA 1977 places the burden of proving reasonableness on the party claiming that the term satisfies the requirement — i.e., the party who inserted the clause and seeks to rely on it."},
+      {"id": "e", "text": "The reasonableness test is a single-factor test: if the contract price is low compared to the potential loss, the clause is automatically unreasonable", "correct": false, "feedback": "Incorrect. This was the argument rejected in *George Mitchell* [1983]. The test is multi-factorial — price disparity is one factor among many, not a conclusive one."}
+    ],
+    "feedback": "Correct: (a) and (d). The reasonableness test is assessed at formation (not breach), and the burden of proof lies on the party relying on the clause. These are two fundamental operational features of s.11 UCTA 1977.",
+    "oscoaReferences": ["Unfair Contract Terms Act 1977, s.11", "George Mitchell (Chesterhall) Ltd v Finney Lock Seeds Ltd [1983] 2 AC 803"],
+    "difficulty": "medium", "tags": ["UCTA-1977", "s11", "burden-of-proof", "time-of-assessment"]
+  },
+  {
+    "lessonId": "lesson-A8-2", "microSkill": "A8.2", "block": "B", "phase": "teaching",
+    "teachingSummary": "**Schedule 2 UCTA 1977 — The Five Guidelines for Reasonableness**\n\nWhen assessing the reasonableness of an exclusion or limitation clause under UCTA 1977, Schedule 2 provides five specific factors that the court must consider (for clauses within ss.6 and 7). These guidelines, though not exhaustive, structure the inquiry and are frequently applied by analogy to other provisions of the Act.\n\n**The Five Schedule 2 Factors:**\n\n1. **Bargaining Strength of the Parties:** The relative bargaining power of the parties, taking into account alternative means by which the customer's requirements could have been met. A clause imposed by a monopolist or dominant supplier faces greater scrutiny than one negotiated between equals.\n\n2. **Inducement to Accept the Term:** Whether the customer received an inducement to agree to the term, or could have contracted with another party without accepting a similar term. If the customer was offered a choice — e.g., a higher price without the exclusion, or a lower price with it — the clause is more likely to be reasonable.\n\n3. **Availability of Alternatives:** Whether the customer knew or ought reasonably to have known of the existence and extent of the term (having regard to trade custom and previous dealings). A term buried in small print or standard terms that the customer could not reasonably have been aware of is less likely to satisfy reasonableness.\n\n4. **Knowledge of the Term:** The extent to which the customer knew or could reasonably have known of the existence and extent of the term. Previous dealings, trade custom, and the prominence of the term in the contractual documents are all relevant.\n\n5. **Special Circumstances:** Whether the goods were manufactured, processed, or adapted to the special order of the customer (i.e., bespoke not off-the-shelf). A supplier who has produced bespoke goods at the customer's request may be in a better position to argue that a limitation clause was reasonable.\n\n**Watford Electronics Ltd v Sanderson CFL Ltd [2001] EWCA Civ 317:** Watford purchased software from Sanderson. The contract contained an entire agreement clause and a limitation of liability clause. When the software failed to perform, the Court of Appeal held both clauses were reasonable. Key factors: (1) the parties were of equal bargaining power — both were sophisticated commercial entities; (2) the contract was negotiated, not imposed; (3) Watford had the opportunity to take legal advice; and (4) the limitation was a standard industry term. This case demonstrates that UCTA does not rewrite contracts between equals — it intervenes where there is an imbalance.\n\n**In short:** The five Schedule 2 guidelines structure the reasonableness inquiry, with bargaining strength as the most important factor. Where parties are of equal bargaining power and the clause is negotiated, courts are reluctant to intervene (*Watford v Sanderson*). Where there is an imbalance, the clause faces rigorous scrutiny.",
+    "type": "teaching", "question": "", "answer": "", "options": [], "feedback": "",
+    "oscoaReferences": ["Unfair Contract Terms Act 1977, Schedule 2", "Watford Electronics Ltd v Sanderson CFL Ltd [2001] EWCA Civ 317"],
+    "difficulty": "hard", "tags": ["UCTA-1977", "schedule-2", "reasonableness", "bargaining-strength"]
+  },
+  {
+    "lessonId": "lesson-A8-2", "microSkill": "A8.2", "block": "B", "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "__________ 2 of UCTA 1977 provides five guidelines that the court must consider when assessing the reasonableness of an exclusion or limitation clause under ss.6 and 7 of the Act.",
+    "answer": "Schedule",
+    "options": [],
+    "feedback": "Correct. UCTA 1977, Schedule 2 sets out five factors: (1) bargaining strength, (2) inducement, (3) availability of alternatives, (4) knowledge of the term, and (5) special circumstances (e.g., whether goods were bespoke). These guidelines structure the reasonableness inquiry.",
+    "oscoaReferences": ["Unfair Contract Terms Act 1977, Schedule 2"],
+    "difficulty": "easy", "tags": ["UCTA-1977", "schedule-2"]
+  },
+  {
+    "lessonId": "lesson-A8-2", "microSkill": "A8.2", "block": "B", "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "_________ Electronics Ltd v Sanderson CFL Ltd [2001] EWCA Civ 317 held that exclusion and limitation clauses were reasonable where the parties were of equal bargaining power and the contract was freely negotiated.",
+    "answer": "Watford",
+    "options": [],
+    "feedback": "Correct. *Watford Electronics Ltd v Sanderson CFL Ltd* [2001] EWCA Civ 317. The Court of Appeal held the entire agreement clause and limitation of liability were reasonable — both parties were sophisticated commercial entities of equal bargaining strength, the contract was negotiated, and Watford had the opportunity to take legal advice. UCTA does not rewrite contracts between equals.",
+    "oscoaReferences": ["Watford Electronics Ltd v Sanderson CFL Ltd [2001] EWCA Civ 317"],
+    "difficulty": "medium", "tags": ["watford-electronics", "equal-bargaining", "reasonableness"]
+  },
+  {
+    "lessonId": "lesson-A8-2", "microSkill": "A8.2", "block": "B", "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "One of the Schedule 2 UCTA 1977 factors is 'whether the customer received an __________ to agree to the term, or in accepting it had an opportunity of entering into a similar contract with other persons, but without having to accept a similar term.'",
+    "answer": "inducement",
+    "options": [],
+    "feedback": "Correct. Schedule 2, para (a) — the inducement factor. If the customer could have contracted elsewhere without the exclusion clause, or was offered a choice (e.g., higher price without the exclusion), the term is more likely to satisfy the reasonableness test.",
+    "oscoaReferences": ["Unfair Contract Terms Act 1977, Schedule 2, para (a)"],
+    "difficulty": "medium", "tags": ["UCTA-1977", "schedule-2", "inducement"]
+  },
+  {
+    "lessonId": "lesson-A8-2", "microSkill": "A8.2", "block": "B", "phase": "teaching",
+    "type": "drag_elements",
+    "question": "Match each Schedule 2 UCTA 1977 factor to its description:",
+    "answer": "Bargaining Strength=The relative bargaining power of the parties, including alternative means of meeting the customer's requirements; Inducement=Whether the customer received an inducement to accept the term or could have contracted elsewhere without it; Knowledge of the Term=Whether the customer knew or ought reasonably to have known of the existence and extent of the term; Special Circumstances=Whether the goods were manufactured, processed or adapted to the special order of the customer",
+    "options": [
+      {"id": "bs", "text": "The relative bargaining power of the parties, including alternative means of meeting the customer's requirements", "pair": "Bargaining Strength"},
+      {"id": "ind", "text": "Whether the customer received an inducement to accept the term or could have contracted elsewhere without it", "pair": "Inducement"},
+      {"id": "know", "text": "Whether the customer knew or ought reasonably to have known of the existence and extent of the term", "pair": "Knowledge of the Term"},
+      {"id": "sc", "text": "Whether the goods were manufactured, processed or adapted to the special order of the customer", "pair": "Special Circumstances"}
+    ],
+    "feedback": "Correct. These four factors, together with the availability of alternatives, form the Schedule 2 guidelines. They are applied to the specific contract — the most important factor is typically the relative bargaining strength of the parties.",
+    "oscoaReferences": ["Unfair Contract Terms Act 1977, Schedule 2"],
+    "difficulty": "medium", "tags": ["UCTA-1977", "schedule-2", "matching"]
+  },
+  {
+    "lessonId": "lesson-A8-2", "microSkill": "A8.2", "block": "B", "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "A small retailer, Jade Ltd, contracts with a large national supplier, MegaSupply Plc, for stock. The standard terms include a clause excluding MegaSupply's liability for late delivery. Jade had no opportunity to negotiate and no alternative supplier could meet its requirements. MegaSupply knew Jade relied on timely delivery for seasonal trade. A late delivery causes Jade significant losses. Applying Schedule 2 UCTA 1977, what is the most significant factor weighing against the reasonableness of the exclusion?",
+    "answer": "b",
+    "options": [
+      {"id": "a", "text": "That the contract price was lower than the losses caused by the breach", "correct": false, "feedback": "Price disparity is relevant but is not itself a Schedule 2 factor. The key Schedule 2 factor here is the imbalance of bargaining power and the absence of an alternative."},
+      {"id": "b", "text": "The significant imbalance in bargaining strength and the absence of an alternative supplier — Jade had no choice but to accept the term, engaging Schedule 2 factors (a) and (c)", "correct": true, "feedback": "Correct. Schedule 2, paras (a) and (c) — bargaining strength and availability of alternatives — are directly engaged. MegaSupply had superior bargaining power, Jade could not contract elsewhere, and the term was imposed on a take-it-or-leave-it basis — all indicators of unreasonableness."},
+      {"id": "c", "text": "That the goods were standard off-the-shelf products, not bespoke items, which activates the special circumstances factor", "correct": false, "feedback": "Incorrect. The special circumstances factor (whether goods were bespoke) can weigh either way — standard goods may make an exclusion harder to justify, but this is not the most significant factor here. The imbalance of bargaining power is the dominant concern."},
+      {"id": "d", "text": "That Jade did not take legal advice before entering the contract, which is a mandatory precondition for UCTA to apply", "correct": false, "feedback": "Incorrect. There is no requirement under UCTA that a party take legal advice before an exclusion clause can be assessed for reasonableness. Legal advice (or the opportunity to take it) is a relevant circumstance, not a precondition."}
+    ],
+    "feedback": "Correct. The imbalance in bargaining strength and the absence of alternatives are the two most powerful Schedule 2 factors pointing against reasonableness. Where a clause is imposed without negotiation by a dominant party, UCTA's protective function is most directly engaged.",
+    "oscoaReferences": ["Unfair Contract Terms Act 1977, Schedule 2", "George Mitchell (Chesterhall) Ltd v Finney Lock Seeds Ltd [1983] 2 AC 803"],
+    "difficulty": "medium", "tags": ["schedule-2", "bargaining-strength", "scenario"]
+  },
+  {
+    "lessonId": "lesson-A8-2", "microSkill": "A8.2", "block": "B", "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "Alpha Ltd, a large software firm, contracts with Beta Corp, a similarly large multinational, for a bespoke ERP system. The contract, negotiated over six months by teams of solicitors on each side, contains a limitation clause capping liability at £2 million. The system fails and Beta suffers £10 million in losses. Beta argues the limitation is unreasonable under UCTA. Alpha argues *Watford Electronics v Sanderson* [2001] applies. What is the likely outcome?",
+    "answer": "c",
+    "options": [
+      {"id": "a", "text": "The limitation will be struck down — a £2 million cap against £10 million in losses is automatically unreasonable regardless of the parties' bargaining positions", "correct": false, "feedback": "Incorrect. There is no automatic rule that a cap less than actual losses is unreasonable. The assessment is multi-factorial, and in a contract between equals, the negotiated cap is likely to be respected."},
+      {"id": "b", "text": "The limitation will be struck down — UCTA applies to all commercial contracts regardless of the parties' relative bargaining strength", "correct": false, "feedback": "Incorrect. While UCTA does apply to business contracts, the relative bargaining strength is the single most important factor under Schedule 2. Where parties are equals and the clause was negotiated, the court is reluctant to intervene."},
+      {"id": "c", "text": "The limitation is likely to be upheld — the parties had equal bargaining strength, the contract was heavily negotiated with legal advice, and *Watford Electronics* [2001] confirms that UCTA should not rewrite freely negotiated contracts between equals", "correct": true, "feedback": "Correct. This mirrors *Watford Electronics v Sanderson* [2001]. Equal bargaining strength, negotiation, and the opportunity for legal advice are strong indicators of reasonableness. The cap was a commercial allocation of risk, not an imposition — UCTA respects party autonomy between equals."},
+      {"id": "d", "text": "The limitation will be upheld only if Alpha obtains Beta's consent in writing after the breach occurs", "correct": false, "feedback": "Incorrect. There is no requirement of post-breach consent under UCTA. Reasonableness is assessed at the time the contract was made, and post-breach conduct is generally irrelevant to that assessment."}
+    ],
+    "feedback": "Correct. *Watford Electronics v Sanderson* [2001] is the leading authority on limitation clauses between commercial equals. Where parties have equal bargaining strength, legal advice, and negotiated terms, courts are reluctant to disturb the commercial allocation of risk — the clause is likely to be reasonable.",
+    "oscoaReferences": ["Watford Electronics Ltd v Sanderson CFL Ltd [2001] EWCA Civ 317", "Unfair Contract Terms Act 1977, Schedule 2"],
+    "difficulty": "medium", "tags": ["watford-electronics", "equal-bargaining", "scenario"]
+  },
+  {
+    "lessonId": "lesson-A8-2", "microSkill": "A8.2", "block": "B", "phase": "teaching",
+    "type": "msq",
+    "question": "Which TWO of the following are factors listed in Schedule 2 UCTA 1977 for assessing reasonableness?",
+    "answer": "b,d",
+    "options": [
+      {"id": "a", "text": "Whether the party relying on the clause had taken out liability insurance to cover the risk", "correct": false, "feedback": "Incorrect. Insurance is not a Schedule 2 factor. It is, however, a relevant circumstance under the general reasonableness test (*St Albans v ICL* [1996]), considered under s.11(1) as part of 'all the circumstances.'"},
+      {"id": "b", "text": "The strength of the bargaining positions of the parties relative to each other, taking into account alternative means of meeting the customer's requirements", "correct": true, "feedback": "Correct. Schedule 2, para (a) — bargaining strength is the first and often most significant Schedule 2 factor."},
+      {"id": "c", "text": "The financial loss actually suffered by the party bringing the claim", "correct": false, "feedback": "Incorrect. Actual loss is not a Schedule 2 factor, and the reasonableness assessment is made at the time of contracting, not by reference to the loss that actually occurred (though the foreseeability of such loss at the time of contracting may be relevant)."},
+      {"id": "d", "text": "Whether the customer knew or ought reasonably to have known of the existence and extent of the term, having regard to trade custom and previous dealings", "correct": true, "feedback": "Correct. Schedule 2, para (c) — knowledge of the term. A term buried in small print or standard conditions that the customer could not have been aware of is less likely to be reasonable."},
+      {"id": "e", "text": "Whether the contract is governed by English law or by the law of a foreign jurisdiction", "correct": false, "feedback": "Incorrect. The governing law of the contract is not a Schedule 2 factor. UCTA applies to contracts subject to English law (subject to its own anti-avoidance provisions in s.27)."}
+    ],
+    "feedback": "Correct: (b) and (d). Bargaining strength and knowledge of the term are two of the five Schedule 2 guidelines. The Schedule provides a structured but non-exhaustive framework for the reasonableness inquiry under s.11 UCTA 1977.",
+    "oscoaReferences": ["Unfair Contract Terms Act 1977, Schedule 2"],
+    "difficulty": "hard", "tags": ["UCTA-1977", "schedule-2", "msq"]
+  },
+  {
+    "lessonId": "lesson-A8-2", "microSkill": "A8.2", "block": "C", "phase": "teaching",
+    "teachingSummary": "**Interaction — UCTA 1977, Consumer Rights Act 2015, and the Misrepresentation Act 1967**\n\nThe control of exclusion and limitation clauses is not the exclusive domain of UCTA 1977. Other statutes provide overlapping and complementary protections, and it is critical to know which regime applies to which type of contract and liability.\n\n**Consumer Rights Act 2015, s.62 — Fairness of Consumer Terms:** For contracts between a trader and a consumer, the CRA 2015 largely replaces UCTA 1977. Section 62(4) provides that a term is unfair if, contrary to the requirement of good faith, it causes a significant imbalance in the parties' rights and obligations to the detriment of the consumer. Section 62(1) makes an unfair term not binding on the consumer. The CRA fairness test differs from the UCTA reasonableness test — it is broader (all contract terms, not just exclusion clauses) and focuses on 'good faith' and 'significant imbalance' rather than 'fair and reasonable.' Consumer contracts entered into on or after 1 October 2015 are governed by the CRA, not UCTA.\n\n**Section 3 Misrepresentation Act 1967 — Reasonableness of Exclusion of Misrepresentation Liability:** Section 3 of the Misrepresentation Act 1967 (as amended by UCTA 1977, s.8) provides that any term which would exclude or restrict liability for misrepresentation, or any remedy available for misrepresentation, is of no effect except insofar as it satisfies the requirement of reasonableness under s.11 UCTA 1977. This is an express bridge between the two statutes — the UCTA reasonableness test is applied to exclusion of misrepresentation liability.\n\n**Walker v Boyle [1982] 1 WLR 495:** A conveyancing contract contained a standard clause excluding liability for misrepresentation. The buyer claimed the clause was unreasonable under s.3 Misrepresentation Act 1967. Dillon J held the clause was unreasonable — in a domestic conveyancing transaction, a blanket exclusion of misrepresentation liability in standard terms imposed by the vendor's solicitor was unreasonable. The buyer had no real opportunity to negotiate and the clause was not drawn to the buyer's attention. This case illustrates that even in property transactions where parties are legally represented, an exclusion of misrepresentation liability may fail the reasonableness test where there is an inequality of knowledge and no genuine negotiation.\n\n**The Statutory Framework at a Glance:**\n- **UCTA 1977:** Applies to business liability (tort and contract) and certain consumer contracts pre-1 October 2015. Exclusion of negligence liability always subject to reasonableness (s.2).\n- **CRA 2015:** Applies to consumer contracts post-1 October 2015. Broader fairness test covering all terms, not just exclusions.\n- **Misrepresentation Act 1967, s.3:** Exclusion of misrepresentation liability subject to UCTA reasonableness test.\n\n**In short:** The control of exclusion clauses operates through an interconnected statutory framework. Identifying which statute applies — UCTA, CRA, or the Misrepresentation Act — is the first analytical step. The common law rules of construction (contra proferentem, *Canada Steamship*) continue to apply alongside all three statutes.",
+    "type": "teaching", "question": "", "answer": "", "options": [], "feedback": "",
+    "oscoaReferences": ["Consumer Rights Act 2015, s.62", "Misrepresentation Act 1967, s.3", "Unfair Contract Terms Act 1977, s.8", "Walker v Boyle [1982] 1 WLR 495"],
+    "difficulty": "hard", "tags": ["UCTA-1977", "CRA-2015", "misrepresentation", "interaction"]
+  },
+  {
+    "lessonId": "lesson-A8-2", "microSkill": "A8.2", "block": "C", "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "Under s.____ of the Consumer Rights Act 2015, a term in a consumer contract is unfair and not binding on the consumer if, contrary to the requirement of good faith, it causes a significant imbalance in the parties' rights and obligations to the detriment of the consumer.",
+    "answer": "62",
+    "options": [],
+    "feedback": "Correct. CRA 2015, s.62(1) and (4). The CRA fairness test is broader than the UCTA reasonableness test — it applies to all contract terms (not just exclusions) and focuses on good faith and significant imbalance rather than the 'fair and reasonable' test of s.11 UCTA.",
+    "oscoaReferences": ["Consumer Rights Act 2015, s.62"],
+    "difficulty": "medium", "tags": ["CRA-2015", "s62", "fairness"]
+  },
+  {
+    "lessonId": "lesson-A8-2", "microSkill": "A8.2", "block": "C", "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "Under s.____ of the Misrepresentation Act 1967 (as amended by UCTA 1977, s.8), any term excluding or restricting liability for misrepresentation is of no effect except insofar as it satisfies the requirement of reasonableness under s.11 UCTA 1977.",
+    "answer": "3",
+    "options": [],
+    "feedback": "Correct. Misrepresentation Act 1967, s.3 creates an express statutory bridge between the two regimes — it imports the UCTA reasonableness test into the assessment of clauses excluding liability for misrepresentation. The burden of proving reasonableness lies on the party seeking to rely on the clause.",
+    "oscoaReferences": ["Misrepresentation Act 1967, s.3", "Unfair Contract Terms Act 1977, s.11"],
+    "difficulty": "medium", "tags": ["misrepresentation", "s3", "UCTA-1977"]
+  },
+  {
+    "lessonId": "lesson-A8-2", "microSkill": "A8.2", "block": "C", "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "_________ v Boyle [1982] 1 WLR 495 held that a clause in a conveyancing contract excluding liability for misrepresentation was unreasonable under s.3 Misrepresentation Act 1967 — the clause was imposed in standard terms without negotiation.",
+    "answer": "Walker",
+    "options": [],
+    "feedback": "Correct. *Walker v Boyle* [1982] 1 WLR 495. Dillon J held the exclusion of misrepresentation liability was unreasonable in a domestic conveyancing context. The buyer had no real opportunity to negotiate the clause, it was contained in standard conditions, and its effect had not been drawn to the buyer's attention.",
+    "oscoaReferences": ["Walker v Boyle [1982] 1 WLR 495", "Misrepresentation Act 1967, s.3"],
+    "difficulty": "medium", "tags": ["walker-v-boyle", "misrepresentation", "conveyancing"]
+  },
+  {
+    "lessonId": "lesson-A8-2", "microSkill": "A8.2", "block": "C", "phase": "teaching",
+    "type": "drag_elements",
+    "question": "Match each statute to the type of contract and standard it applies to exclusion and limitation clauses:",
+    "answer": "UCTA 1977=Business contracts and pre-2015 consumer contracts; reasonableness test under s.11 and Schedule 2; CRA 2015=Consumer contracts post-1 October 2015; fairness test — good faith and significant imbalance; Misrepresentation Act 1967 s.3=All contracts; exclusion of misrepresentation liability must satisfy UCTA reasonableness test",
+    "options": [
+      {"id": "ucta", "text": "Business contracts and pre-2015 consumer contracts; reasonableness test under s.11 and Schedule 2", "pair": "UCTA 1977"},
+      {"id": "cra", "text": "Consumer contracts post-1 October 2015; fairness test — good faith and significant imbalance", "pair": "CRA 2015"},
+      {"id": "misrep", "text": "All contracts; exclusion of misrepresentation liability must satisfy UCTA reasonableness test", "pair": "Misrepresentation Act 1967 s.3"}
+    ],
+    "feedback": "Correct. The three statutes form an interconnected framework. Identifying which regime applies is the first step in analysing any exclusion clause: is the contract B2B or B2C? Pre- or post-October 2015? Does the clause exclude misrepresentation liability?",
+    "oscoaReferences": ["Unfair Contract Terms Act 1977", "Consumer Rights Act 2015", "Misrepresentation Act 1967, s.3"],
+    "difficulty": "medium", "tags": ["UCTA-1977", "CRA-2015", "misrepresentation", "matching"]
+  },
+  {
+    "lessonId": "lesson-A8-2", "microSkill": "A8.2", "block": "C", "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "Dylan buys a second-hand car from a dealer. The sale contract includes a clause: 'The seller excludes all liability for any statement, representation or warranty not contained in this agreement, whether made innocently, negligently or fraudulently.' The dealer had told Dylan the car had one previous owner, when it had in fact been written off and repaired after an accident. Dylan sues for misrepresentation. The dealer relies on the exclusion clause. Applying s.3 Misrepresentation Act 1967:",
+    "answer": "c",
+    "options": [
+      {"id": "a", "text": "The exclusion clause is automatically void because it purports to exclude liability for fraudulent misrepresentation — no further analysis is needed", "correct": false, "feedback": "Partially correct in outcome but not in reasoning. Exclusion of fraud is void as a matter of public policy (*HIH Casualty* [2001]), but s.3 Misrepresentation Act 1967 requires the clause also to satisfy the reasonableness test for non-fraudulent misrepresentations. The reasoning is important."},
+      {"id": "b", "text": "The exclusion clause is binding because it was contained in a written contract signed by Dylan who is bound by its terms", "correct": false, "feedback": "Incorrect. The signature rule (*L'Estrange v Graucob* [1934]) does not defeat s.3 Misrepresentation Act 1967. Even signed exclusion clauses must satisfy the UCTA reasonableness test when they exclude misrepresentation liability."},
+      {"id": "c", "text": "The exclusion clause is subject to the reasonableness test under s.11 UCTA 1977 via s.3 Misrepresentation Act 1967; a blanket exclusion in a consumer sale, imposed without negotiation, is likely to be unreasonable under *Walker v Boyle* [1982]", "correct": true, "feedback": "Correct. s.3 Misrepresentation Act 1967 expressly subjects exclusion of misrepresentation liability to the UCTA reasonableness test. A blanket exclusion in a consumer contract, not negotiated and not drawn to the buyer's attention, is very likely unreasonable — mirroring *Walker v Boyle* [1982]."},
+      {"id": "d", "text": "The exclusion clause is valid because it was not unreasonable when the contract was made — Dylan could have bought a car elsewhere", "correct": false, "feedback": "Incorrect. While the ability to contract elsewhere is a Schedule 2 factor, a blanket exclusion of misrepresentation liability in a consumer contract faces additional hurdles: the clause covered all misrepresentations (including those outside the contract), was not specifically negotiated, and was in standard terms — these factors collectively point against reasonableness."}
+    ],
+    "feedback": "Correct. s.3 Misrepresentation Act 1967 is the key — it imports the UCTA reasonableness test into the assessment of clauses excluding misrepresentation liability. *Walker v Boyle* [1982] is the leading example of such a clause being held unreasonable, particularly where it was standard-form and not negotiated.",
+    "oscoaReferences": ["Misrepresentation Act 1967, s.3", "Walker v Boyle [1982] 1 WLR 495", "Unfair Contract Terms Act 1977, s.11"],
+    "difficulty": "hard", "tags": ["misrepresentation", "s3", "scenario", "walker-v-boyle"]
+  },
+  {
+    "lessonId": "lesson-A8-2", "microSkill": "A8.2", "block": "C", "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "A consumer, Chloe, buys a laptop from an online retailer. The retailer's terms and conditions, available via a hyperlink, state: 'We exclude all liability for any loss or damage arising from the use of this product, including liability for negligence, to the fullest extent permitted by law.' The laptop's battery overheats due to a manufacturing defect, causing a fire and £15,000 damage to Chloe's home. The purchase was made in 2020. Applying the CRA 2015:",
+    "answer": "b",
+    "options": [
+      {"id": "a", "text": "The CRA 2015 does not apply — only UCTA 1977 governs exclusion clauses in B2C contracts, and the clause will be assessed for reasonableness under s.11", "correct": false, "feedback": "Incorrect. For consumer contracts entered into on or after 1 October 2015, the CRA 2015 replaces UCTA 1977 for the assessment of contract terms (including exclusion clauses). UCTA no longer applies to consumer contracts post-2015."},
+      {"id": "b", "text": "The CRA 2015 applies — the exclusion clause is subject to the fairness test under s.62, which asks whether, contrary to good faith, it causes a significant imbalance in the parties' rights to the detriment of the consumer; an exclusion of all liability for negligence in a consumer contract is likely unfair", "correct": true, "feedback": "Correct. For post-2015 consumer contracts, CRA 2015 s.62 applies. The fairness test is different from the UCTA reasonableness test — it focuses on good faith and significant imbalance. A blanket exclusion of all liability (including negligence causing property damage) in a consumer contract is almost certainly unfair."},
+      {"id": "c", "text": "The clause will be upheld because Chloe had constructive notice of the terms via the hyperlink, satisfying the common law requirement of reasonable notice", "correct": false, "feedback": "Incorrect. Even if the common law test of reasonable notice (*Parker v SE Railway* [1877]) is satisfied, the clause must also satisfy the CRA 2015 fairness test. Incorporation and fairness are separate inquiries. A properly incorporated term may still be unfair."},
+      {"id": "d", "text": "The CRA 2015 only applies to unfair terms that relate to price or subject matter — exclusion clauses are governed exclusively by UCTA 1977", "correct": false, "feedback": "Incorrect. CRA 2015 s.62 applies to all contract terms in consumer contracts, including exclusion and limitation clauses. The exemption for core terms (price and subject matter) under s.64 does not cover exclusion clauses — they are fully subject to the fairness test."}
+    ],
+    "feedback": "Correct. For post-2015 consumer contracts, the CRA 2015 fairness test applies, not the UCTA reasonableness test. A blanket exclusion of all liability (including for negligence causing property damage) is a strong candidate for unfairness under s.62 — it creates a significant imbalance to the consumer's detriment.",
+    "oscoaReferences": ["Consumer Rights Act 2015, ss.62–64"],
+    "difficulty": "medium", "tags": ["CRA-2015", "fairness", "scenario", "consumer"]
+  },
+  {
+    "lessonId": "lesson-A8-2", "microSkill": "A8.2", "block": "C", "phase": "teaching",
+    "type": "msq",
+    "question": "Which TWO of the following correctly describe the interaction between UCTA 1977, CRA 2015, and the Misrepresentation Act 1967?",
+    "answer": "a,d",
+    "options": [
+      {"id": "a", "text": "For consumer contracts entered into on or after 1 October 2015, the CRA 2015 fairness test applies in place of the UCTA 1977 reasonableness test for assessing exclusion clauses", "correct": true, "feedback": "Correct. CRA 2015 Part 2 covers consumer contracts entered into on or after 1 October 2015. For those contracts, the CRA fairness test (good faith, significant imbalance) replaces the UCTA reasonableness test. UCTA continues to apply to B2B contracts and pre-1 October 2015 consumer contracts."},
+      {"id": "b", "text": "A clause excluding liability for misrepresentation is assessed solely under the CRA 2015, not under the Misrepresentation Act 1967", "correct": false, "feedback": "Incorrect. s.3 Misrepresentation Act 1967 applies to all contracts (B2B and B2C) and requires exclusion of misrepresentation liability to satisfy the UCTA reasonableness test. The CRA 2015 may additionally apply to consumer contracts, but s.3 is a separate route."},
+      {"id": "c", "text": "The UCTA reasonableness test and the CRA fairness test are substantively identical — both require the term to be 'fair and reasonable'", "correct": false, "feedback": "Incorrect. The tests are different. UCTA asks whether the term was 'a fair and reasonable one to be included' (reasonableness). CRA asks whether, 'contrary to the requirement of good faith,' the term 'causes a significant imbalance' to the consumer's detriment (fairness). The CRA test is broader and conceptually distinct."},
+      {"id": "d", "text": "A party seeking to exclude liability for misrepresentation must satisfy the UCTA reasonableness test under s.3 Misrepresentation Act 1967, regardless of whether the contract is B2B or B2C", "correct": true, "feedback": "Correct. s.3 Misrepresentation Act 1967 applies universally — it is not restricted to consumer or business contracts. Any clause excluding or restricting liability for misrepresentation must satisfy the UCTA reasonableness test under s.11."},
+      {"id": "e", "text": "The CRA 2015 applies to all contracts regardless of the date they were entered into, retrospectively invalidating any exclusion clause that failed the fairness test at any time", "correct": false, "feedback": "Incorrect. CRA 2015 does not apply retrospectively. It came into force on 1 October 2015 and applies only to contracts entered into on or after that date. Pre-2015 contracts continue to be governed by UCTA 1977 and the Unfair Terms in Consumer Contracts Regulations 1999."}
+    ],
+    "feedback": "Correct: (a) and (d). The CRA replaced UCTA for post-2015 consumer contracts, and s.3 Misrepresentation Act 1967 applies the UCTA reasonableness test universally to exclusion of misrepresentation liability. Understanding which regime applies to which contract is the threshold question.",
+    "oscoaReferences": ["Unfair Contract Terms Act 1977", "Consumer Rights Act 2015, s.62", "Misrepresentation Act 1967, s.3"],
+    "difficulty": "hard", "tags": ["UCTA-1977", "CRA-2015", "misrepresentation", "interaction"]
+  },
+  {
+    "lessonId": "lesson-A8-2", "microSkill": "A8.2", "block": "consolidation", "phase": "consolidation",
+    "type": "fill_gap_statute",
+    "question": "[CONSOLIDATION — Block A] The reasonableness test under s.____ UCTA 1977 requires the exclusion clause to have been 'a fair and reasonable one to be included' at the time the contract was made, assessed by reference to all the circumstances known or contemplated by the parties.",
+    "answer": "11",
+    "options": [],
+    "feedback": "Correct. s.11 UCTA 1977 is the core statutory provision. The time of assessment is at formation and the burden of proving reasonableness lies on the party who seeks to rely on the clause (s.11(5)). This consolidates the foundational principle of Block A.",
+    "oscoaReferences": ["Unfair Contract Terms Act 1977, s.11"],
+    "difficulty": "easy", "tags": ["consolidation", "UCTA-1977", "s11"]
+  },
+  {
+    "lessonId": "lesson-A8-2", "microSkill": "A8.2", "block": "consolidation", "phase": "consolidation",
+    "type": "fill_gap_case",
+    "question": "[CONSOLIDATION — Block A] The contra proferentem rule and the *__________ Steamship* [1952] guidelines on construing exclusion clauses remain good law and operate alongside the statutory framework of UCTA 1977, CRA 2015, and the Misrepresentation Act 1967.",
+    "answer": "Canada",
+    "options": [],
+    "feedback": "Correct. *Canada Steamship Lines Ltd v The King* [1952] AC 192. The common law rules serve a different function from UCTA — they deal with interpretation (has the clause, properly construed, excluded the liability?), whereas UCTA deals with validity (is the clause, even if it excludes the liability, reasonable?). Both inquiries must be undertaken.",
+    "oscoaReferences": ["Canada Steamship Lines Ltd v The King [1952] AC 192"],
+    "difficulty": "medium", "tags": ["consolidation", "Canada-Steamship", "contra-proferentem"]
+  },
+  {
+    "lessonId": "lesson-A8-2", "microSkill": "A8.2", "block": "consolidation", "phase": "consolidation",
+    "type": "scenario_choice",
+    "question": "[CONSOLIDATION — Blocks A & B] A farmer buys specialist fertiliser from AgriChem Ltd for £800. The contract limits liability to the price of the fertiliser. The fertiliser is defective and destroys £200,000 worth of crops. The farmer was a small family business; AgriChem is a national supplier with £50m turnover and comprehensive liability insurance. The term was not negotiated and the same clause appeared in all AgriChem's contracts. Applying *George Mitchell* [1983] and Schedule 2 UCTA 1977:",
+    "answer": "b",
+    "options": [
+      {"id": "a", "text": "The limitation is reasonable — it mirrors the contract price and the farmer should have insured the crop independently", "correct": false, "feedback": "Incorrect. *George Mitchell* [1983] rejected the argument that a low contract price justifies a low limitation. The farmer's failure to insure is not decisive — the reasonableness inquiry focuses on the clause and the circumstances of the party relying on it."},
+      {"id": "b", "text": "The limitation is likely unreasonable — the facts mirror *George Mitchell* [1983] (seed/fertiliser context, low price, catastrophic loss) and the Schedule 2 factors (inequality of bargaining power, no negotiation, term imposed by dominant supplier with insurance) strongly point against reasonableness", "correct": true, "feedback": "Correct. This is a near-replica of *George Mitchell* [1983]. Limitation to contract price, inequality of bargaining power, standard-form contract, no negotiation, and the supplier's insurance cover and resources all point against reasonableness. The limitation is likely to fail the UCTA test."},
+      {"id": "c", "text": "The limitation is reasonable because AgriChem is entitled to limit its liability in all circumstances as a matter of freedom of contract — UCTA does not override party autonomy", "correct": false, "feedback": "Incorrect. UCTA's purpose is precisely to override freedom of contract where exclusion or limitation clauses are unreasonable. Party autonomy is not absolute when there is an inequality of bargaining power."},
+      {"id": "d", "text": "The limitation will be struck down automatically because the loss exceeds the contract price — no further analysis is required", "correct": false, "feedback": "Incorrect. Loss exceeding the contract price is evidence but is not automatic. The test is multi-factorial and assessed at the time of contracting, not by the loss that happened to occur. The loss here is relevant because catastrophic loss was a foreseeable risk at the time of contracting."}
+    ],
+    "feedback": "Correct. The facts are deliberately similar to *George Mitchell v Finney Lock Seeds* [1983] — limitation to contract price, inequality of bargaining power, and catastrophic crop loss. The Schedule 2 factors reinforce the conclusion of unreasonableness. This is the classic scenario where UCTA intervenes.",
+    "oscoaReferences": ["George Mitchell (Chesterhall) Ltd v Finney Lock Seeds Ltd [1983] 2 AC 803", "Unfair Contract Terms Act 1977, Schedule 2"],
+    "difficulty": "medium", "tags": ["consolidation", "reasonableness", "schedule-2", "scenario"]
+  },
+  {
+    "lessonId": "lesson-A8-2", "microSkill": "A8.2", "block": "consolidation", "phase": "consolidation",
+    "type": "scenario_choice",
+    "question": "[CONSOLIDATION — Blocks B & C] A buyer and seller of commercial property agree a sale. The seller's solicitor includes, in the standard conditions, a clause excluding all liability for misrepresentation. The buyer is legally represented. The buyer never queries the clause, and the sale completes. A year later, the buyer discovers the seller misrepresented the property's planning status, causing £100,000 loss. The buyer sues for misrepresentation. The seller relies on the exclusion clause. Applying *Walker v Boyle* [1982] and s.3 Misrepresentation Act 1967:",
+    "answer": "c",
+    "options": [
+      {"id": "a", "text": "The exclusion is binding because the buyer was legally represented and could have objected to the clause — legal representation always cures any UCTA issue", "correct": false, "feedback": "Incorrect. In *Walker v Boyle* [1982], the buyer was also represented, yet the exclusion was held unreasonable. Legal representation is a relevant factor but does not automatically validate an exclusion clause — the opportunity to negotiate, not merely to observe, matters."},
+      {"id": "b", "text": "The exclusion is binding because property transactions are outside the scope of the Misrepresentation Act 1967 — s.3 only applies to consumer contracts", "correct": false, "feedback": "Incorrect. s.3 Misrepresentation Act 1967 applies to all contracts, including commercial property transactions. It is not restricted to consumer contracts — the UCTA reasonableness test applies universally to misrepresentation exclusions."},
+      {"id": "c", "text": "The exclusion is potentially unreasonable under *Walker v Boyle* [1982] — it was a blanket exclusion in standard conditions, not specifically negotiated, and the clause excluded all misrepresentation liability without the buyer being offered any alternative; the fact the buyer was represented does not rescue the clause", "correct": true, "feedback": "Correct. *Walker v Boyle* [1982] is directly applicable — a blanket exclusion of misrepresentation liability in standard conditions, not specifically negotiated and not drawn to the buyer's attention as an onerous term. The reasonableness test under s.3 Misrepresentation Act 1967 (via s.11 UCTA) must be applied."},
+      {"id": "d", "text": "The exclusion is void under the CRA 2015 because a property sale is a consumer transaction", "correct": false, "feedback": "Incorrect. A commercial property sale between two businesses is not a consumer transaction — the CRA 2015 does not apply. The correct route is s.3 Misrepresentation Act 1967, applying the UCTA reasonableness test."}
+    ],
+    "feedback": "Correct. *Walker v Boyle* [1982] is the controlling authority. A blanket exclusion of misrepresentation liability in standard conditions, even in a transaction where both parties are represented, can fail the reasonableness test under s.3 Misrepresentation Act 1967. The key is whether the clause was specifically negotiated and whether the buyer had a genuine opportunity to reject or modify it.",
+    "oscoaReferences": ["Walker v Boyle [1982] 1 WLR 495", "Misrepresentation Act 1967, s.3", "Unfair Contract Terms Act 1977, s.11"],
+    "difficulty": "hard", "tags": ["consolidation", "walker-v-boyle", "misrepresentation", "scenario"]
+  },
+  {
+    "lessonId": "lesson-A8-2", "microSkill": "A8.2", "block": "consolidation", "phase": "consolidation",
+    "type": "msq",
+    "question": "[CONSOLIDATION — All Blocks] A manufacturer's standard terms exclude 'any liability for loss of profits, business interruption, or indirect or consequential loss.' A buyer (a commercial distributor) suffers £500,000 in lost profits due to a defective component. Which TWO of the following are correct?",
+    "answer": "a,c",
+    "options": [
+      {"id": "a", "text": "The clause must first be construed (under common law rules including *Canada Steamship* and contra proferentem) to determine whether, on its proper interpretation, it actually covers the loss claimed", "correct": true, "feedback": "Correct. Construction comes first. The court must apply the *Canada Steamship* guidelines and the contra proferentem rule to determine whether the clause, properly interpreted, excludes the claimed loss. If it does not, the clause is irrelevant and UCTA analysis is unnecessary."},
+      {"id": "b", "text": "If the clause was contained in the manufacturer's standard terms and the buyer knew of it, the clause is automatically binding — and UCTA cannot override terms incorporated by reasonable notice", "correct": false, "feedback": "Incorrect. Incorporation and reasonableness are separate inquiries. Even a clause properly incorporated by reasonable notice must satisfy the UCTA reasonableness test — the two doctrines operate independently of each other."},
+      {"id": "c", "text": "If the clause covers the loss on its proper construction, it must then satisfy the UCTA reasonableness test — the court will consider Schedule 2 factors including the parties' relative bargaining strength and whether the buyer could have contracted elsewhere without the clause", "correct": true, "feedback": "Correct. The analysis follows a two-stage process: (1) construction (does the clause cover this loss?), (2) reasonableness (is the clause valid under UCTA?). Schedule 2 factors, particularly bargaining strength, are central to stage 2."},
+      {"id": "d", "text": "The clause is automatically reasonable because it only excludes 'consequential' loss, not 'direct' loss — the distinction between direct and consequential loss is a complete defence to any UCTA challenge", "correct": false, "feedback": "Incorrect. The direct/indirect distinction is a matter of construction (and is often misunderstood). Even if the clause only excludes consequential loss, it must still satisfy the reasonableness test under UCTA if it excludes liability otherwise arising. The label 'consequential' does not immunise the clause from reasonableness scrutiny."},
+      {"id": "e", "text": "The entire clause will be void under the Consumer Rights Act 2015 because exclusion of liability for lost profits is automatically unfair in all contracts", "correct": false, "feedback": "Incorrect. The CRA 2015 applies only to consumer contracts. This is a B2B contract — UCTA 1977 applies. There is no automatic rule that exclusion of profit loss is void; it must be assessed for reasonableness under s.11 UCTA 1977."}
+    ],
+    "feedback": "Correct: (a) and (c). The analysis proceeds in two stages: construction (applying *Canada Steamship* and contra proferentem to determine whether the clause actually covers the claimed loss) and reasonableness (applying UCTA s.11 and Schedule 2 if it does). This is the complete analytical framework for exclusion clauses under English law.",
+    "oscoaReferences": ["Canada Steamship Lines Ltd v The King [1952] AC 192", "Unfair Contract Terms Act 1977, s.11", "Unfair Contract Terms Act 1977, Schedule 2"],
+    "difficulty": "hard", "tags": ["consolidation", "Canada-Steamship", "UCTA-1977", "two-stage"]
+  }
+]

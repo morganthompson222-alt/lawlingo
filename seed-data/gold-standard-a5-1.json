@@ -1,0 +1,385 @@
+[
+  {
+    "lessonId": "lesson-A5-1", "microSkill": "A5.1", "block": "A", "phase": "teaching",
+    "teachingSummary": "**The Certainty Requirement**\n\nFor a contract to be enforceable at law, its terms must be sufficiently certain. An agreement that is too vague, ambiguous, or incomplete may be void for uncertainty. This is a fundamental pillar of contract law — the court cannot enforce a contract whose terms it cannot ascertain.\n\n**Scammell v Ouston [1941] AC 251**\n\nThe claimants ordered a van from the defendants, agreeing that the balance of the purchase price would be payable 'on hire-purchase terms' over two years. The defendants later refused to deliver. The House of Lords held the agreement was void for uncertainty — 'hire-purchase terms' was too vague. There are many different types of hire-purchase arrangements with varying interest rates, durations, and conditions. The phrase covered too wide a range of possible terms for the court to give the agreement any definite meaning.\n\n**Hillas & Co Ltd v Arcos Ltd [1932] 147 LT 503 — The Counter-Principle**\n\nThe parties entered into an agreement for the sale of timber 'of fair specification' over a season, with an option for a further contract for the next season. The House of Lords held the agreement was sufficiently certain: the parties had previously traded together, trade custom could fill gaps, and the court strives to uphold contracts where possible. The maxim: *verba ita sunt intelligenda ut res magis valeat quam pereat* — words are to be interpreted so that the subject matter may be upheld rather than fail.\n\n**The Tension Between the Two Cases**\n\n*Scammell* and *Hillas* create a spectrum: at one end, terms so vague that the court cannot give them effect (void); at the other end, terms that can be made certain through statutory implication, trade custom, prior dealings, or objective standards. The court leans towards upholding contracts where possible, but not at the cost of rewriting the parties' bargain.\n\n**Key Questions the Court Asks:**\n- Can the essential terms be identified with sufficient precision?\n- Is there an objective mechanism or standard that can resolve any ambiguity?\n- Can gaps be filled by implied terms or trade custom?\n- If a term is missing entirely, can a term be implied by statute (e.g., SGA 1979 s.8 — reasonable price)?\n- Does severance of the uncertain part leave a workable agreement?",
+    "type": "teaching", "question": "", "answer": "", "options": [], "feedback": "",
+    "oscoaReferences": ["Scammell v Ouston [1941] AC 251", "Hillas & Co Ltd v Arcos Ltd [1932] 147 LT 503"],
+    "difficulty": "easy", "tags": ["certainty", "scammell-v-ouston", "hillas-v-arcos"]
+  },
+  {
+    "lessonId": "lesson-A5-1", "microSkill": "A5.1", "block": "A", "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "_________ v Ouston [1941] AC 251 is authority that an agreement for the purchase of a vehicle on 'hire-purchase terms' was void for uncertainty — the phrase covered too wide a range of possible arrangements.",
+    "answer": "Scammell",
+    "options": [],
+    "feedback": "Correct. In *Scammell v Ouston* [1941], the House of Lords held that 'hire-purchase terms' was too vague to create a binding contract. The phrase did not specify the essential elements of the hire-purchase arrangement.",
+    "oscoaReferences": ["Scammell v Ouston [1941] AC 251"],
+    "difficulty": "easy", "tags": ["scammell-v-ouston", "certainty"]
+  },
+  {
+    "lessonId": "lesson-A5-1", "microSkill": "A5.1", "block": "A", "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "_________ v Arcos Ltd [1932] 147 LT 503 held that an agreement to buy timber 'of fair specification' was sufficiently certain because the parties' prior dealings and trade custom provided the necessary detail.",
+    "answer": "Hillas & Co",
+    "options": [],
+    "feedback": "Correct. The House of Lords in *Hillas v Arcos* [1932] held that the courts should strive to give effect to commercial agreements. Where trade custom or prior dealings fill gaps, the agreement is sufficiently certain.",
+    "oscoaReferences": ["Hillas & Co Ltd v Arcos Ltd [1932] 147 LT 503"],
+    "difficulty": "easy", "tags": ["hillas-v-arcos", "certainty", "trade-custom"]
+  },
+  {
+    "lessonId": "lesson-A5-1", "microSkill": "A5.1", "block": "A", "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "Under section __________ of the Sale of Goods Act 1979, where the price in a contract of sale is not fixed, the buyer must pay a reasonable price — the statute fills the gap left by the parties.",
+    "answer": "8",
+    "options": [],
+    "feedback": "Correct. SGA 1979, s.8(2) provides that where a contract of sale does not determine the price, the buyer must pay a reasonable price. This is a statutory mechanism that saves agreements from uncertainty where price is omitted.",
+    "oscoaReferences": ["Sale of Goods Act 1979, s.8"],
+    "difficulty": "medium", "tags": ["sga-1979", "s8", "reasonable-price"]
+  },
+  {
+    "lessonId": "lesson-A5-1", "microSkill": "A5.1", "block": "A", "phase": "teaching",
+    "type": "drag_elements",
+    "question": "Arrange the spectrum of certainty — from enforceable to void:",
+    "answer": "All terms are clear and precise → Terms can be clarified by trade custom or prior dealings → A mechanism exists to resolve ambiguity (arbitration, third-party valuation) → A statute implies the missing term → Terms are vague but could be clarified by severing the uncertain part → Terms are so vague the court cannot ascertain the parties' obligations",
+    "options": [
+      {"id": "1", "text": "All terms are clear and precise", "order": 1},
+      {"id": "2", "text": "Terms can be clarified by trade custom or prior dealings", "order": 2},
+      {"id": "3", "text": "A mechanism exists to resolve ambiguity (arbitration, third-party valuation)", "order": 3},
+      {"id": "4", "text": "A statute implies the missing term", "order": 4},
+      {"id": "5", "text": "Terms are vague but could be clarified by severing the uncertain part", "order": 5},
+      {"id": "6", "text": "Terms are so vague the court cannot ascertain the parties' obligations", "order": 6}
+    ],
+    "feedback": "Correct. This spectrum illustrates the analytical approach: the more tools available to resolve uncertainty, the more likely the court will uphold the agreement. Only when no tool can resolve the uncertainty is the contract void.",
+    "oscoaReferences": ["Hillas & Co Ltd v Arcos Ltd [1932] 147 LT 503", "Scammell v Ouston [1941] AC 251"],
+    "difficulty": "medium", "tags": ["certainty", "spectrum", "sequencing"]
+  },
+  {
+    "lessonId": "lesson-A5-1", "microSkill": "A5.1", "block": "A", "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "Two companies agree that Company A will supply 'a reasonable quantity of wheat' to Company B 'at a fair price' for the next six months. The parties have never dealt with each other before. Can this agreement be enforced?",
+    "answer": "c",
+    "options": [
+      {"id": "a", "text": "Yes — 'reasonable' and 'fair' are objective standards that the court can determine", "correct": false, "feedback": "Incorrect. While courts can determine 'reasonable' in some contexts, here both quantity and price are undefined. Without trade custom or prior dealings (*Hillas*), the agreement is too vague."},
+      {"id": "b", "text": "Yes — SGA 1979 s.8 implies a reasonable price in all sale-of-goods contracts", "correct": false, "feedback": "Incorrect. While s.8 does imply a reasonable price where no price is fixed, other essential terms (quantity, delivery terms, quality) are too vague. s.8 cannot save an agreement where multiple essential terms are uncertain."},
+      {"id": "c", "text": "No — both the quantity ('reasonable quantity') and price ('fair price') are too vague, and without prior dealings or trade custom, the agreement lacks sufficient certainty", "correct": true, "feedback": "Correct. This is closer to *Scammell* than *Hillas*. Without prior dealings, trade custom, or a mechanism for determination, both quantity and price are uncertain — the court cannot enforce this agreement."},
+      {"id": "d", "text": "Yes — parties can agree to agree later on the specifics, and the court will enforce the framework", "correct": false, "feedback": "Incorrect. An agreement to agree is generally void for uncertainty (*Walford v Miles* [1992]). The court will not enforce a mere framework — there must be sufficient certainty in the essential terms."}
+    ],
+    "feedback": "Correct. With no trade custom, no prior dealings, and no resolution mechanism, 'reasonable quantity' and 'fair price' are too vague — this agreement is void for uncertainty under *Scammell v Ouston* [1941].",
+    "oscoaReferences": ["Scammell v Ouston [1941] AC 251", "Sale of Goods Act 1979, s.8"],
+    "difficulty": "medium", "tags": ["certainty", "scenario", "scammell"]
+  },
+  {
+    "lessonId": "lesson-A5-1", "microSkill": "A5.1", "block": "A", "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "A fishmonger who has bought from a particular wholesaler every week for 10 years orders 'the usual' over the phone. The wholesaler confirms and delivers. The fishmonger refuses to pay, claiming the price was not agreed. Can the wholesaler enforce payment?",
+    "answer": "a",
+    "options": [
+      {"id": "a", "text": "Yes — under Hillas v Arcos [1932], the 10-year course of dealing and trade custom make the agreement sufficiently certain; the court can identify 'the usual' by reference to past transactions", "correct": true, "feedback": "Correct. The prior dealings over 10 years provide the objective benchmark for 'the usual.' Under *Hillas v Arcos*, the court will use past practice to fill gaps and uphold the agreement."},
+      {"id": "b", "text": "No — 'the usual' is vague, and under Scammell v Ouston the agreement is void for uncertainty", "correct": false, "feedback": "Incorrect. *Scammell* involved a one-off, arms-length transaction. Here, the 10-year course of dealing distinguishes this from *Scammell* and brings it within *Hillas* — custom and prior dealings fill the gap."},
+      {"id": "c", "text": "Yes — but only at the market price, not the parties' usual price", "correct": false, "feedback": "Incorrect. Under *Hillas*, the reference point is the parties' own prior dealings, not an external market standard. The court would look at what 'the usual' has meant in their actual transactions."},
+      {"id": "d", "text": "No — all oral orders are void for uncertainty under the Statute of Frauds", "correct": false, "feedback": "Incorrect. The Statute of Frauds 1677 does not apply to ordinary sale of goods contracts. Oral contracts are generally enforceable if sufficiently certain."}
+    ],
+    "feedback": "Correct. The long course of dealing provides the objective framework for interpreting 'the usual' — exactly the approach approved in *Hillas v Arcos* [1932]. Prior dealings fill what would otherwise be an uncertain term.",
+    "oscoaReferences": ["Hillas & Co Ltd v Arcos Ltd [1932] 147 LT 503"],
+    "difficulty": "medium", "tags": ["hillas-v-arcos", "course-of-dealing", "scenario"]
+  },
+  {
+    "lessonId": "lesson-A5-1", "microSkill": "A5.1", "block": "A", "phase": "teaching",
+    "type": "spot_error",
+    "question": "Spot the error: 'If any term in a contract is vague or uncertain, the entire contract is automatically void. Courts never fill gaps in contracts because that would be rewriting the parties' agreement.'",
+    "answer": "This is wrong. Courts strive to uphold contracts where possible. Vagueness in one term does not always render the whole contract void. Courts can fill gaps through trade custom, prior dealings, statutory implied terms (e.g., SGA 1979 s.8), and by severing uncertain terms. Hillas v Arcos [1932] is the classic example of the court giving effect to a commercial agreement despite apparent vagueness. Only where the uncertainty is pervasive and unresolvable is the contract void.",
+    "options": [],
+    "feedback": "Correct. The court's primary aim is to give effect to commercial agreements. *Hillas v Arcos* [1932] established that courts will use every tool available to resolve uncertainty before declaring a contract void. The maxim *ut res magis valeat quam pereat* governs.",
+    "oscoaReferences": ["Hillas & Co Ltd v Arcos Ltd [1932] 147 LT 503", "Sale of Goods Act 1979"],
+    "difficulty": "hard", "tags": ["certainty", "gap-filling", "spot-error"]
+  },
+  {
+    "lessonId": "lesson-A5-1", "microSkill": "A5.1", "block": "A", "phase": "teaching",
+    "type": "msq",
+    "question": "Which TWO are tools the court uses to resolve uncertainty and save an agreement from being void?",
+    "answer": "a,d",
+    "options": [
+      {"id": "a", "text": "Referring to the prior course of dealing between the parties", "correct": true, "feedback": "Correct. *Hillas v Arcos* [1932] held that prior dealings can supply the detail necessary to make vague terms certain and enforceable."},
+      {"id": "b", "text": "Requiring one party to draft a new, more certain version of the contract", "correct": false, "feedback": "Incorrect. The court cannot compel parties to rewrite their contract — it can only interpret what exists. If the agreement is void, the court declares it so."},
+      {"id": "c", "text": "Asking each party what they subjectively understood the vague term to mean and enforcing whichever is fairer", "correct": false, "feedback": "Incorrect. The test is objective, not subjective. The court does not ask what each party personally thought but what the term objectively means in context."},
+      {"id": "d", "text": "Applying trade custom and industry practice to fill missing details", "correct": true, "feedback": "Correct. Trade custom is a standard tool for resolving uncertainty. *Hillas v Arcos* [1932] relied on trade custom to determine what 'of fair specification' meant in the timber trade."},
+      {"id": "e", "text": "Ordering specific performance of the vague term to force the parties to work it out themselves", "correct": false, "feedback": "Incorrect. Specific performance is a remedy for breach of a certain contract; it cannot be used to compel parties to negotiate or clarify an uncertain term."}
+    ],
+    "feedback": "Correct: (a) and (d). Prior dealings and trade custom are two established tools the court uses to resolve apparent uncertainty and give effect to commercial agreements (*Hillas v Arcos* [1932]).",
+    "oscoaReferences": ["Hillas & Co Ltd v Arcos Ltd [1932] 147 LT 503"],
+    "difficulty": "medium", "tags": ["certainty", "msq", "gap-filling"]
+  },
+  {
+    "lessonId": "lesson-A5-1", "microSkill": "A5.1", "block": "B", "phase": "teaching",
+    "teachingSummary": "**Agreements to Agree and Agreements to Negotiate**\n\nUnder English law, a bare 'agreement to agree' is generally unenforceable. The court will not compel parties to negotiate, nor will it impose terms that the parties have not agreed. But the law has evolved to recognise certain exceptions.\n\n**Walford v Miles [1992] 2 AC 128 — The Leading Case**\n\nThe Miles owned a photographic business. Walford wanted to buy it. The parties agreed (in a 'lock-out agreement') that Miles would not negotiate with any third party while Walford negotiated to buy the business — but no time limit was specified. Lord Ackner in the House of Lords held the lock-out agreement was void for uncertainty: (1) an obligation to negotiate in good faith is unworkable in practice — how can the court tell if a party is negotiating in 'good faith'?; (2) 'good faith' negotiation is inherently 'repugnant to the adversarial position of the parties' in commercial dealings; (3) without a time limit, the lock-out could operate forever — this was fatal.\n\n**Pitt v PHH Asset Management Ltd [1994] 1 WLR 327 — Valid Lock-Out**\n\nBy contrast, a lock-out agreement with a fixed two-week period was held enforceable. The key distinction from *Walford* was the definite time limit. The court can enforce an obligation not to negotiate with third parties for a specific period — this is a negative obligation ('do not negotiate with others'), not a positive obligation ('negotiate with me in good faith').\n\n**Sudbrook Trading Estate Ltd v Eggleton [1983] 1 AC 444 — Machinery Clauses**\n\nAn option to purchase land at a 'reasonable price' to be determined by valuers was held enforceable. When the lessor refused to appoint a valuer, the House of Lords held the court could substitute its own determination of a reasonable price. Where the machinery for ascertaining a term fails, the court can step in. The maxim applies: *id certum est quod certum reddi potest* — that is certain which can be made certain.\n\n**Key Principles:**\n- An agreement to agree is void — *Walford v Miles* [1992]\n- A lock-out with a definite time limit is enforceable — *Pitt v PHH* [1994]\n- Where machinery for determining a term exists, the court can substitute its own assessment if the machinery fails — *Sudbrook Trading* [1983]",
+    "type": "teaching", "question": "", "answer": "", "options": [], "feedback": "",
+    "oscoaReferences": ["Walford v Miles [1992] 2 AC 128", "Pitt v PHH Asset Management Ltd [1994] 1 WLR 327", "Sudbrook Trading Estate Ltd v Eggleton [1983] 1 AC 444"],
+    "difficulty": "medium", "tags": ["agreement-to-agree", "walford-v-miles", "lock-out", "machinery-clause"]
+  },
+  {
+    "lessonId": "lesson-A5-1", "microSkill": "A5.1", "block": "B", "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "_________ v Miles [1992] 2 AC 128 held that a lock-out agreement with no time limit and a duty to negotiate in good faith was void — there is no duty to negotiate in good faith under English law.",
+    "answer": "Walford",
+    "options": [],
+    "feedback": "Correct. Lord Ackner in *Walford v Miles* [1992] famously held that an obligation to negotiate in good faith is repugnant to the adversarial nature of commercial negotiations and inherently uncertain.",
+    "oscoaReferences": ["Walford v Miles [1992] 2 AC 128"],
+    "difficulty": "easy", "tags": ["walford-v-miles", "agreement-to-agree"]
+  },
+  {
+    "lessonId": "lesson-A5-1", "microSkill": "A5.1", "block": "B", "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "_________ v PHH Asset Management Ltd [1994] 1 WLR 327 distinguished Walford — a lock-out agreement with a fixed two-week period was enforceable because it had a definite time limit.",
+    "answer": "Pitt",
+    "options": [],
+    "feedback": "Correct. *Pitt v PHH* [1994] is the key precedent for enforcing a properly drafted lock-out agreement: the fixed two-week period provided the certainty absent in *Walford v Miles*.",
+    "oscoaReferences": ["Pitt v PHH Asset Management Ltd [1994] 1 WLR 327"],
+    "difficulty": "easy", "tags": ["pitt-v-phh", "lock-out"]
+  },
+  {
+    "lessonId": "lesson-A5-1", "microSkill": "A5.1", "block": "B", "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "The principle that an agreement to agree is void for uncertainty derives from the common law, but for sale of goods, sections __________ (price) and 9 (ascertainment of price by valuation) of the SGA 1979 provide statutory fallbacks.",
+    "answer": "8",
+    "options": [],
+    "feedback": "Correct. SGA 1979 ss.8-9 provide default rules for price in sale-of-goods contracts: s.8(2) — reasonable price where not fixed; s.9 — valuation by a third party, with the court substituting if the valuer fails.",
+    "oscoaReferences": ["Sale of Goods Act 1979, ss.8-9"],
+    "difficulty": "hard", "tags": ["sga-1979", "s8", "s9", "price"]
+  },
+  {
+    "lessonId": "lesson-A5-1", "microSkill": "A5.1", "block": "B", "phase": "teaching",
+    "type": "drag_elements",
+    "question": "Match each case to its key principle about certainty:",
+    "answer": "Walford v Miles=An agreement to negotiate with no time limit is void for uncertainty; Pitt v PHH=A lock-out agreement with a definite time limit is enforceable; Sudbrook Trading v Eggleton=Where a valuation mechanism fails, the court can substitute its own valuation; May & Butcher v R=A bare agreement to agree on price is void — no contract until the price is fixed",
+    "options": [
+      {"id": "walford", "text": "An agreement to negotiate with no time limit is void for uncertainty", "pair": "Walford v Miles"},
+      {"id": "pitt", "text": "A lock-out agreement with a definite time limit is enforceable", "pair": "Pitt v PHH"},
+      {"id": "sudbrook", "text": "Where a valuation mechanism fails, the court can substitute its own valuation", "pair": "Sudbrook Trading v Eggleton"},
+      {"id": "may", "text": "A bare agreement to agree on price is void — no contract until the price is fixed", "pair": "May & Butcher v R"}
+    ],
+    "feedback": "Correct. Each case represents a different point on the certainty spectrum and a different tool or limitation on the court's ability to resolve uncertainty.",
+    "oscoaReferences": ["Walford v Miles [1992] 2 AC 128", "Pitt v PHH Asset Management Ltd [1994] 1 WLR 327", "Sudbrook Trading Estate Ltd v Eggleton [1983] 1 AC 444", "May & Butcher Ltd v The King [1934] 2 KB 17n"],
+    "difficulty": "medium", "tags": ["certainty", "matching", "case-law"]
+  },
+  {
+    "lessonId": "lesson-A5-1", "microSkill": "A5.1", "block": "B", "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "Buyer and Seller agree: 'Seller will not negotiate with any third party for the sale of the factory, and will deal exclusively with Buyer for the negotiation period.' No end date is specified. After two months, Seller sells to a third party. Buyer sues. What is the result?",
+    "answer": "a",
+    "options": [
+      {"id": "a", "text": "Buyer loses — under Walford v Miles [1992], a lock-out agreement with no time limit is void for uncertainty, so Seller was not bound", "correct": true, "feedback": "Correct. This is directly on point with *Walford v Miles* [1992] — the absence of a time limit is fatal. The lock-out could theoretically never end, which renders it void for uncertainty."},
+      {"id": "b", "text": "Buyer wins — a reasonable time limit of three months will be implied", "correct": false, "feedback": "Incorrect. The House of Lords in *Walford* refused to imply a reasonable time limit into a lock-out agreement. A reasonable time can be implied for performance, not for the duration of an exclusivity obligation."},
+      {"id": "c", "text": "Buyer loses — but only because exclusive dealing agreements are void under competition law", "correct": false, "feedback": "Incorrect. While certain exclusivity agreements may raise competition law issues, the decisive point here is *Walford v Miles* — the uncertainty arising from the absence of a time limit is the immediate reason the agreement fails."},
+      {"id": "d", "text": "Buyer wins — under Pitt v PHH [1994], lock-out agreements are always enforceable", "correct": false, "feedback": "Incorrect. *Pitt v PHH* enforced a lock-out because it had a fixed two-week period. The critical distinction — which is absent here — is the definite time limit."}
+    ],
+    "feedback": "Correct. Under *Walford v Miles* [1992] 2 AC 128, the absence of a time limit renders the lock-out void. This is a direct application of the House of Lords' decision — the fatal flaw is the unlimited duration.",
+    "oscoaReferences": ["Walford v Miles [1992] 2 AC 128"],
+    "difficulty": "medium", "tags": ["walford-v-miles", "lock-out", "scenario"]
+  },
+  {
+    "lessonId": "lesson-A5-1", "microSkill": "A5.1", "block": "B", "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "A lease gives the tenant an option to purchase the freehold 'at a price to be agreed between the parties.' The landlord refuses to negotiate a price. Can the tenant enforce the option?",
+    "answer": "d",
+    "options": [
+      {"id": "a", "text": "Yes — the court will determine a fair price", "correct": false, "feedback": "Incorrect. Where the clause simply says 'price to be agreed,' this is an agreement to agree, which is void. The court cannot impose a price the parties never agreed to."},
+      {"id": "b", "text": "Yes — SGA 1979 s.8 implies a reasonable price in all contracts", "correct": false, "feedback": "Incorrect. SGA 1979 applies to contracts for the sale of goods, not land. Land transactions are governed by different principles. Also, even for goods, a simple 'price to be agreed' clause may be void."},
+      {"id": "c", "text": "Yes — the court will order specific performance compelling the landlord to negotiate", "correct": false, "feedback": "Incorrect. The court will not compel parties to negotiate — this is precisely what *Walford v Miles* [1992] prohibits. Specific performance is for certain obligations, not for negotiating."},
+      {"id": "d", "text": "No — 'price to be agreed' is an agreement to agree and is void for uncertainty; the tenant cannot enforce the option", "correct": true, "feedback": "Correct. A bare formula — 'price to be agreed' — provides no mechanism for the court to determine the price if the parties cannot agree. It is void for uncertainty. Contrast *Sudbrook Trading* [1983] where a valuation mechanism existed."}
+    ],
+    "feedback": "Correct. 'Price to be agreed' with no fallback mechanism is a classic agreement to agree — void for uncertainty. The tenant should have insisted on a valuation mechanism (as in *Sudbrook Trading* [1983]) to make the option enforceable.",
+    "oscoaReferences": ["Sudbrook Trading Estate Ltd v Eggleton [1983] 1 AC 444"],
+    "difficulty": "hard", "tags": ["agreement-to-agree", "option", "scenario"]
+  },
+  {
+    "lessonId": "lesson-A5-1", "microSkill": "A5.1", "block": "B", "phase": "teaching",
+    "type": "spot_error",
+    "question": "Spot the error: 'An agreement to negotiate in good faith is always enforceable under English law because it reflects the reasonable expectations of commercial parties.'",
+    "answer": "This is wrong. Under Walford v Miles [1992] 2 AC 128, the House of Lords held that an obligation to negotiate in good faith is inherently uncertain and unenforceable under English law. It is 'repugnant to the adversarial position of the parties' in commercial negotiations. A lock-out agreement with a definite time limit is enforceable (Pitt v PHH [1994]), but a duty to negotiate in good faith is not.",
+    "options": [],
+    "feedback": "Correct. *Walford v Miles* [1992] is clear authority that English law does not recognise a duty to negotiate in good faith. This distinguishes English law from many civil law systems where good faith negotiation is implied (*CISG Article 7*, *PECL*).",
+    "oscoaReferences": ["Walford v Miles [1992] 2 AC 128", "Pitt v PHH Asset Management Ltd [1994] 1 WLR 327"],
+    "difficulty": "hard", "tags": ["good-faith", "walford-v-miles", "spot-error"]
+  },
+  {
+    "lessonId": "lesson-A5-1", "microSkill": "A5.1", "block": "B", "phase": "teaching",
+    "type": "msq",
+    "question": "Which TWO of the following features would make a lock-out agreement enforceable under English law?",
+    "answer": "b,d",
+    "options": [
+      {"id": "a", "text": "An obligation on both parties to 'negotiate in good faith'", "correct": false, "feedback": "Incorrect. *Walford v Miles* [1992] held that a duty to negotiate in good faith is void for uncertainty and unenforceable under English law."},
+      {"id": "b", "text": "A clearly defined lock-out period (e.g., 'for 30 days from the date of this agreement')", "correct": true, "feedback": "Correct. *Pitt v PHH* [1994] demonstrates that a fixed time period addresses the uncertainty that was fatal in *Walford*. The duration must be definite."},
+      {"id": "c", "text": "An open-ended obligation not to deal with third parties that can be terminated on reasonable notice", "correct": false, "feedback": "Incorrect. *Walford v Miles* [1992] refused to imply a notice period. An open-ended obligation is void regardless of whether it could be terminated on notice."},
+      {"id": "d", "text": "A negative obligation ('will NOT negotiate with third parties') rather than a positive obligation ('WILL negotiate with us')", "correct": true, "feedback": "Correct. A negative obligation is more certain than a positive one — the court can enforce 'do not negotiate' more readily than 'do negotiate.' *Pitt v PHH* [1994] turned on this distinction."},
+      {"id": "e", "text": "A clause stating the agreement is 'subject to contract'", "correct": false, "feedback": "Incorrect. 'Subject to contract' tends to indicate that no binding agreement has been reached at all — it weakens rather than strengthens enforceability."}
+    ],
+    "feedback": "Correct: (b) and (d). A fixed time period (*Pitt v PHH* [1994]) and a negative rather than positive obligation are the two features that distinguish an enforceable lock-out from an unenforceable one (*Walford v Miles* [1992]).",
+    "oscoaReferences": ["Pitt v PHH Asset Management Ltd [1994] 1 WLR 327", "Walford v Miles [1992] 2 AC 128"],
+    "difficulty": "medium", "tags": ["lock-out", "enforceability", "msq"]
+  },
+  {
+    "lessonId": "lesson-A5-1", "microSkill": "A5.1", "block": "C", "phase": "teaching",
+    "teachingSummary": "**Severance and the Blue Pencil Test**\n\nWhere part of a contract is uncertain or unenforceable, the court may sever that part, leaving the remainder enforceable — but only if severance does not fundamentally alter the nature of the contract.\n\n**The Blue Pencil Test**\n\nThe 'blue pencil test' originates from employment restraint-of-trade cases but applies to severance generally: can the offending words be struck out without needing to add or modify the remaining wording? If the answer is yes, severance may be possible. If severance would change the essential character of the bargain, it is not permitted.\n\n**Mason v Provident Clothing & Supply Co Ltd [1913] AC 724**\n\nAn employee agreed not to compete with his employer 'within 25 miles of London.' This was an unreasonable restraint of trade. Could the court sever '25 miles' and substitute '10 miles'? No — the blue pencil test was not satisfied. The court cannot rewrite the parties' bargain; it can only remove words. Reducing the radius would require adding words, which is not permitted.\n\n**Severance in the Certainty Context**\n\nThe same principle applies: if a clause is uncertain, the court may strike it out (sever it) if the remainder of the contract is coherent without it. But the court will not rewrite or modify the clause to make it certain — that would be making a contract for the parties, which the court cannot do.\n\n**Statutory Gap-Fillers**\n\nSeveral statutes fill gaps that would otherwise render contracts uncertain: SGA 1979 ss.8-9 (price), s.29 (delivery), s.12 (title). These operate not by severance but by implying terms into the contract by operation of law.\n\n**Key Practical Point for the SQE:** When analysing certainty, always consider: (1) is the term essential? if not, it may be severed; (2) is there a statutory gap-filler?; (3) can trade custom, prior dealings, or an objective mechanism supply the missing content? The court's approach is practical, not formalistic — it wants to save contracts, not destroy them.",
+    "type": "teaching", "question": "", "answer": "", "options": [], "feedback": "",
+    "oscoaReferences": ["Mason v Provident Clothing & Supply Co Ltd [1913] AC 724", "Sale of Goods Act 1979"],
+    "difficulty": "hard", "tags": ["severance", "blue-pencil-test", "certainty"]
+  },
+  {
+    "lessonId": "lesson-A5-1", "microSkill": "A5.1", "block": "C", "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "_________ v Provident Clothing & Supply Co Ltd [1913] AC 724 established the 'blue pencil test' — the court may sever words from a contract but cannot add or modify words.",
+    "answer": "Mason",
+    "options": [],
+    "feedback": "Correct. Lord Moulton in *Mason v Provident Clothing* [1913] articulated the blue pencil test: severance is limited to striking out words. If the result would alter the nature of the obligation, severance is not available.",
+    "oscoaReferences": ["Mason v Provident Clothing & Supply Co Ltd [1913] AC 724"],
+    "difficulty": "easy", "tags": ["mason", "blue-pencil", "severance"]
+  },
+  {
+    "lessonId": "lesson-A5-1", "microSkill": "A5.1", "block": "C", "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "_________ v HM Attorney-General [1979] AC 547 established that an option to purchase at a 'reasonable price' was enforceable where the lease contained a formula for measuring the price — the 'formula' provided the certainty.",
+    "answer": "Talbot",
+    "options": [],
+    "feedback": "*Talbot v HM Attorney-General* [1979] demonstrated that where machinery exists to determine the price, even broadly framed terms can be sufficiently certain. The existence of the formula was key.",
+    "oscoaReferences": ["Talbot v HM Attorney-General [1979] AC 547"],
+    "difficulty": "medium", "tags": ["talbot", "option", "reasonable-price"]
+  },
+  {
+    "lessonId": "lesson-A5-1", "microSkill": "A5.1", "block": "C", "phase": "teaching",
+    "type": "drag_elements",
+    "question": "Arrange the steps in applying the blue pencil test for severance:",
+    "answer": "Identify the unenforceable or uncertain provision → Determine whether the provision can be grammatically severed by striking out words → Consider whether severance would fundamentally change the nature of the contract → If the test is satisfied, the remainder of the contract is enforceable → If the test fails, the entire provision stands or the contract may be void",
+    "options": [
+      {"id": "1", "text": "Identify the unenforceable or uncertain provision", "order": 1},
+      {"id": "2", "text": "Determine whether the provision can be grammatically severed by striking out words", "order": 2},
+      {"id": "3", "text": "Consider whether severance would fundamentally change the nature of the contract", "order": 3},
+      {"id": "4", "text": "If the test is satisfied, the remainder of the contract is enforceable", "order": 4},
+      {"id": "5", "text": "If the test fails, the entire provision stands or the contract may be void", "order": 5}
+    ],
+    "feedback": "Correct. The blue pencil test is mechanical: can words be struck through? If so, does the remainder function without rewriting? Both questions must be answered 'yes' for severance.",
+    "oscoaReferences": ["Mason v Provident Clothing & Supply Co Ltd [1913] AC 724"],
+    "difficulty": "medium", "tags": ["blue-pencil", "severance", "sequencing"]
+  },
+  {
+    "lessonId": "lesson-A5-1", "microSkill": "A5.1", "block": "C", "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "A contract states: 'The buyer shall pay the price as set out in Schedule 1, or such other price as the parties may agree from time to time.' Schedule 1 specifies £100,000. The parties later cannot agree on a new price. The buyer tenders £100,000. The seller refuses, claiming a contract is void because no price was agreed. What is the outcome?",
+    "answer": "c",
+    "options": [
+      {"id": "a", "text": "The contract is void — the clause 'or such other price as the parties may agree' is an agreement to agree, which renders the whole pricing clause uncertain", "correct": false, "feedback": "Incorrect. While 'to agree' language is problematic, the court may sever that part if it is severable. Here, the primary mechanism (Schedule 1) is certain — the secondary option is merely permissive."},
+      {"id": "b", "text": "The contract is void — the price is an essential term, and any uncertainty in the price renders the entire contract void", "correct": false, "feedback": "Incorrect. The Schedule 1 price is certain. The phrase 'or such other price' was an option, not the primary obligation. The court may treat the fallback as ineffective but uphold the contract at the Schedule 1 price."},
+      {"id": "c", "text": "The contract is valid at £100,000 — the reference to Schedule 1 provides a certain price; the additional words may be severed or treated as permissive rather than mandatory", "correct": true, "feedback": "Correct. The primary pricing mechanism (Schedule 1) is certain and operable. The provision for agreeing a different price is permissive — it does not create an agreement to agree that displaces the certain mechanism. The contract is enforceable at £100,000."},
+      {"id": "d", "text": "The contract is valid, but only if the parties agree on a new price — otherwise the buyer must pay whatever the seller demands", "correct": false, "feedback": "Incorrect. Unilateral price determination by the seller would be even more uncertain than 'to agree.' The court will not impose a price determined by one party in the absence of an objective mechanism."}
+    ],
+    "feedback": "Correct. Where the contract provides a certain price mechanism (Schedule 1) alongside a permissive provision for variation, the certain mechanism prevails. The permissive language does not create an agreement to agree that renders the primary price uncertain.",
+    "oscoaReferences": ["Scammell v Ouston [1941] AC 251", "Sudbrook Trading Estate Ltd v Eggleton [1983] 1 AC 444"],
+    "difficulty": "hard", "tags": ["severance", "price", "scenario"]
+  },
+  {
+    "lessonId": "lesson-A5-1", "microSkill": "A5.1", "block": "C", "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "A non-compete clause in an employment contract states: 'The employee shall not work for any competitor, or set up any competing business, or have any interest whatsoever in any business competing with the employer anywhere in the UK.' The restraint in the UK is clearly too wide. Can the court save the clause?",
+    "answer": "b",
+    "options": [
+      {"id": "a", "text": "Yes — the court will reduce the geographic scope from 'anywhere in the UK' to 'within Greater London' because the employer is based there", "correct": false, "feedback": "Incorrect. The blue pencil test (*Mason v Provident* [1913]) does not permit rewriting. Reducing 'the UK' to 'Greater London' requires substituting words, which is not permitted."},
+      {"id": "b", "text": "No — the court cannot sever 'anywhere in the UK' without rewriting the clause; the blue pencil test requires that words can be struck without adding or modifying, and striking the geographic limitation would leave an even wider restraint", "correct": true, "feedback": "Correct. The blue pencil test would fail: either the court leaves the existing words (unenforceable restraint) or strikes the geographic words entirely (a worldwide restraint, even more unreasonable). Neither option saves the clause."},
+      {"id": "c", "text": "Yes — the court can apply the blue pencil test to strike the words 'in the UK' leaving a restraint that is worldwide, which is then understood as whatever is reasonable", "correct": false, "feedback": "Incorrect. Severing the geographic limitation creates a worldwide restraint, which would be more, not less, unreasonable. The blue pencil test requires the result to be coherent and enforceable, not more unreasonable."},
+      {"id": "d", "text": "Yes — the entire restraint is void but the rest of the employment contract remains valid", "correct": false, "feedback": "Partially true but incomplete. While it is true that the rest of the contract survives, the question is about whether the clause itself can be saved — the answer is no, the clause is unenforceable in its entirety because it cannot be saved by severance."}
+    ],
+    "feedback": "Correct. The blue pencil test cannot save this clause. Severing 'in the UK' would make the restraint worldwide and even more unreasonable. The court cannot rewrite 'the UK' to 'Greater London' — that would require substitution, which the test forbids.",
+    "oscoaReferences": ["Mason v Provident Clothing & Supply Co Ltd [1913] AC 724"],
+    "difficulty": "hard", "tags": ["blue-pencil", "severance", "restraint-of-trade", "scenario"]
+  },
+  {
+    "lessonId": "lesson-A5-1", "microSkill": "A5.1", "block": "C", "phase": "teaching",
+    "type": "spot_error",
+    "question": "Spot the error: 'If a contract contains a vague term, the court can rewrite that term to make it more specific and enforceable. The court's job is to make contracts work, and it can do whatever is necessary to achieve that.'",
+    "answer": "The court cannot rewrite contracts — it interprets them. Severance (the blue pencil test) permits striking words, not adding or modifying. If a term is so vague it cannot be interpreted, the court may declare the term (or the whole contract) void, but it will not rewrite the term. Making contracts work is an aspiration, but the limits are: interpretation, not invention; gap-filling with objective tools (custom, statute, prior dealings); not imposing terms the parties did not agree to.",
+    "options": [],
+    "feedback": "Correct. The court interprets contracts but does not make them for the parties. The blue pencil test permits removal of words, not their replacement. The line between 'gap-filling' (permitted) and 'making a contract' (not permitted) is fundamental to the law of certainty.",
+    "oscoaReferences": ["Mason v Provident Clothing & Supply Co Ltd [1913] AC 724", "Scammell v Ouston [1941] AC 251"],
+    "difficulty": "medium", "tags": ["blue-pencil", "court-role", "spot-error"]
+  },
+  {
+    "lessonId": "lesson-A5-1", "microSkill": "A5.1", "block": "C", "phase": "teaching",
+    "type": "msq",
+    "question": "Which TWO correctly describe the court's powers regarding uncertain contract terms?",
+    "answer": "a,d",
+    "options": [
+      {"id": "a", "text": "The court may sever uncertain words from a contract if striking them leaves a coherent agreement and does not fundamentally alter the bargain", "correct": true, "feedback": "Correct. The blue pencil test (*Mason v Provident* [1913]) permits severance by striking words, provided the remainder is coherent and the nature of the contract is unchanged."},
+      {"id": "b", "text": "The court may rewrite an uncertain term to reflect what it believes the parties intended", "correct": false, "feedback": "Incorrect. The court cannot rewrite terms — that would be making a contract, not interpreting one. The blue pencil test permits only striking, not substitution."},
+      {"id": "c", "text": "If a contract contains any uncertain term, the court must declare the entire contract void", "correct": false, "feedback": "Incorrect. The court first tries to resolve uncertainty through interpretation, implication, severance, and statutory gap-fillers. Only if these fail is the contract void."},
+      {"id": "d", "text": "The court may imply terms to fill gaps where the parties have provided a mechanism for determination that has failed", "correct": true, "feedback": "Correct. *Sudbrook Trading* [1983] permits the court to step in where the contractual machinery for determining the term (e.g., a valuation) has failed — the court substitutes its own assessment."},
+      {"id": "e", "text": "The court can order the parties to renegotiate the uncertain term under its supervision", "correct": false, "feedback": "Incorrect. The court cannot compel parties to negotiate (*Walford v Miles* [1992]). This would be a duty to negotiate in good faith, which English law does not recognise."}
+    ],
+    "feedback": "Correct: (a) and (d). The court may sever by striking words (blue pencil test) and may substitute its own determination where contractual machinery fails (*Sudbrook Trading*). It cannot rewrite, compel negotiation, or automatically void contracts with any uncertainty.",
+    "oscoaReferences": ["Mason v Provident Clothing & Supply Co Ltd [1913] AC 724", "Sudbrook Trading Estate Ltd v Eggleton [1983] 1 AC 444"],
+    "difficulty": "hard", "tags": ["severance", "court-powers", "msq"]
+  },
+  {
+    "lessonId": "lesson-A5-1", "microSkill": "A5.1", "block": "consolidation", "phase": "consolidation",
+    "type": "fill_gap_case",
+    "question": "In _________ v Miles [1992] 2 AC 128, Lord Ackner held that a lock-out agreement with no fixed duration and a duty to negotiate in good faith was void for uncertainty. No duty to negotiate in good faith exists under English law.",
+    "answer": "Walford",
+    "options": [],
+    "feedback": "*Walford v Miles* [1992] is the definitive authority on the unenforceability of bare agreements to negotiate and the requirement of certainty in the duration of lock-out agreements.",
+    "oscoaReferences": ["Walford v Miles [1992] 2 AC 128"],
+    "difficulty": "easy", "tags": ["walford-v-miles", "consolidation"]
+  },
+  {
+    "lessonId": "lesson-A5-1", "microSkill": "A5.1", "block": "consolidation", "phase": "consolidation",
+    "type": "scenario_choice",
+    "question": "A contract for the sale of industrial equipment states: 'Delivery shall take place when ready.' The seller's factory burns down and is never rebuilt. The buyer sues for non-delivery. The seller argues the contract was void for uncertainty. What is the likely result?",
+    "answer": "c",
+    "options": [
+      {"id": "a", "text": "The contract is void — 'when ready' is too vague a delivery date", "correct": false, "feedback": "Incorrect. 'When ready' is somewhat vague but can be interpreted as 'within a reasonable time.' The court will generally not void a contract based solely on an imprecise delivery time."},
+      {"id": "b", "text": "The buyer wins — 'when ready' means immediately, and the seller's factory destruction is no excuse", "correct": false, "feedback": "Incorrect. 'When ready' does not mean 'immediately' — it contemplates a period of preparation. The destruction of the factory raises issues of frustration, not certainty."},
+      {"id": "c", "text": "The contract is sufficiently certain — 'when ready' will be interpreted as 'within a reasonable time,' though the seller may have a defence of frustration due to the factory fire", "correct": true, "feedback": "Correct. 'When ready' is not void for uncertainty — the court will imply a reasonable time as a matter of construction. The factory fire raises a frustration defence (*Taylor v Caldwell* [1863]), but does not render the contract void for uncertainty."},
+      {"id": "d", "text": "The contract is void — SGA 1979 s.29 requires a fixed delivery date", "correct": false, "feedback": "Incorrect. SGA 1979 s.29(3) provides that where no time is fixed for delivery, the seller must deliver within a reasonable time. The statute specifically fills this gap."}
+    ],
+    "feedback": "Correct. 'When ready' interpreted as 'within a reasonable time' is sufficiently certain. The court distinguishes between certainty (was the obligation defined enough to be binding?) and performance (was it impossible to perform?). The latter goes to frustration, not certainty.",
+    "oscoaReferences": ["Sale of Goods Act 1979, s.29", "Taylor v Caldwell [1863] 3 B & S 826"],
+    "difficulty": "hard", "tags": ["consolidation", "scenario", "certainty-v-frustration"]
+  },
+  {
+    "lessonId": "lesson-A5-1", "microSkill": "A5.1", "block": "consolidation", "phase": "consolidation",
+    "type": "scenario_choice",
+    "question": "Company A and Company B agree in writing that Company B 'shall have the exclusive right to distribute Product X in Europe on terms to be mutually agreed.' Company A later appoints another distributor. Company B sues. What is the outcome?",
+    "answer": "b",
+    "options": [
+      {"id": "a", "text": "Company B wins — 'exclusive right to distribute' is a clear obligation", "correct": false, "feedback": "Incorrect. While 'exclusive right' is clear, the critical terms of the distribution arrangement — price, territory, duration, obligations — are left to 'terms to be mutually agreed.' This is an agreement to agree."},
+      {"id": "b", "text": "Company B loses — 'terms to be mutually agreed' is an agreement to agree and is void for uncertainty; without agreement on essential terms, there is no binding distribution contract", "correct": true, "feedback": "Correct. The phrase 'terms to be mutually agreed' is the classic formulation of an agreement to agree. Under *Walford v Miles* [1992] and *May & Butcher* [1934], without agreement on the essential terms, there is no binding contract."},
+      {"id": "c", "text": "Company B wins — the court will imply reasonable terms for the distribution agreement", "correct": false, "feedback": "Incorrect. The court will not imply an entire set of commercial terms. A distribution agreement requires agreement on numerous specific commercial terms — the court cannot construct the entire bargain."},
+      {"id": "d", "text": "Company B loses — but only because 'Europe' is geographically uncertain as a territory", "correct": false, "feedback": "Incorrect. 'Europe' is a well-recognised geographic term and would not be the primary problem. The fatal uncertainty is 'terms to be mutually agreed' — the lack of agreement on essential commercial terms."}
+    ],
+    "feedback": "Correct. 'Terms to be mutually agreed' is the hallmark of an unenforceable agreement to agree. Without consensus on the essential terms (price, scope, duration, obligations), the court has no foundation on which to construct contractual obligations.",
+    "oscoaReferences": ["Walford v Miles [1992] 2 AC 128", "May & Butcher Ltd v The King [1934] 2 KB 17n"],
+    "difficulty": "medium", "tags": ["agreement-to-agree", "consolidation", "scenario"]
+  },
+  {
+    "lessonId": "lesson-A5-1", "microSkill": "A5.1", "block": "consolidation", "phase": "consolidation",
+    "type": "msq",
+    "question": "Which TWO of the following statements about the certainty requirement in English contract law are correct?",
+    "answer": "a,c",
+    "options": [
+      {"id": "a", "text": "A contract may be void for uncertainty if its essential terms cannot be identified with sufficient precision", "correct": true, "feedback": "Correct. This is the core principle. If the court cannot ascertain the essential terms, the contract is void."},
+      {"id": "b", "text": "The court will always imply terms to rescue an uncertain agreement from being void", "correct": false, "feedback": "Incorrect. The court's power to imply terms is limited. It will not imply terms that contradict the express language, and it will not construct the entire bargain from scratch."},
+      {"id": "c", "text": "Trade custom, prior dealings, and statutory provisions are all tools the court may use to resolve apparent uncertainty", "correct": true, "feedback": "Correct. *Hillas v Arcos* [1932], SGA 1979 ss.8-9, and the body of case law on gap-filling all demonstrate these tools in action. The court uses every available resource before declaring a contract void."},
+      {"id": "d", "text": "An agreement to agree is always void unless the parties are both commercial entities", "correct": false, "feedback": "Incorrect. The status of the parties (commercial vs consumer) affects the presumption of legal intent, but an agreement to agree is void regardless of party identity — the certainty requirement applies universally."},
+      {"id": "e", "text": "If one term of a contract is uncertain, the entire contract is automatically void", "correct": false, "feedback": "Incorrect. The court may sever the uncertain term. Many agreements survive partial uncertainty. The whole contract is void only if the uncertain term is so essential that the contract cannot function without it."}
+    ],
+    "feedback": "Correct: (a) and (c). The essential terms must be ascertainable, or the contract is void. The court uses trade custom, prior dealings, statute, and severance as tools to resolve uncertainty before taking the last resort of voiding the contract.",
+    "oscoaReferences": ["Hillas & Co Ltd v Arcos Ltd [1932] 147 LT 503", "Sale of Goods Act 1979"],
+    "difficulty": "medium", "tags": ["consolidation", "certainty", "msq"]
+  },
+  {
+    "lessonId": "lesson-A5-1", "microSkill": "A5.1", "block": "consolidation", "phase": "consolidation",
+    "type": "spot_error",
+    "question": "Spot the error: 'English law recognises a general duty to negotiate in good faith. If parties agree to negotiate with a view to reaching a contract, and one party walks away unreasonably, the other can sue for breach of that agreement.'",
+    "answer": "This is wrong. Walford v Miles [1992] 2 AC 128 explicitly held that English law does NOT recognise a duty to negotiate in good faith. An agreement to negotiate is void for uncertainty, and walking away from negotiations is not actionable. A lock-out agreement with a fixed time limit is enforceable, but it is a negative obligation (don't deal with others), not a positive duty to negotiate.",
+    "options": [],
+    "feedback": "Correct. *Walford v Miles* [1992] is one of the most important statements on the limits of certainty in English contract law. The absence of a general good-faith duty in negotiation is a distinctive feature of English law compared with continental systems.",
+    "oscoaReferences": ["Walford v Miles [1992] 2 AC 128"],
+    "difficulty": "hard", "tags": ["consolidation", "good-faith", "spot-error"]
+  }
+]

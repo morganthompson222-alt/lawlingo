@@ -1,0 +1,356 @@
+[
+  {
+    "lessonId": "lesson-A6-2", "microSkill": "A6.2", "block": "A", "phase": "teaching",
+    "teachingSummary": "**Core Rule — Implied Terms in Fact:** A term may be implied into a contract if, though not expressed, it is necessary to give the contract the business efficacy which the parties must have intended. This is an exercise in construction of the parties' intentions, not the court's view of what is fair or reasonable.\n\n**The Business Efficacy Test — The Moorcock (1889):** In *The Moorcock* (1889) 14 PD 64, the claimant moored his ship at the defendant's jetty on the Thames. At low tide, the vessel settled on a ridge of hard ground and was damaged. The contract did not expressly warrant the safety of the riverbed. The Court of Appeal, per Bowen LJ, held that a term was implied: the jetty owner warranted that reasonable care had been taken to ensure the berth was safe. The term was necessary to make the contract effective — without it, the mooring contract had no commercial substance. Bowen LJ stated: the court implies such terms as are necessary to give the contract 'the business efficacy which the parties must, as reasonable men, have intended.'\n\n**The Officious Bystander Test — Shirlaw v Southern Foundries [1939]:** In *Shirlaw v Southern Foundries (1926) Ltd* [1939] 2 KB 206, MacKinnon LJ formulated an alternative (and complementary) test: 'Prima facie that which in any contract is left to be implied and need not be expressed is something so obvious that it goes without saying; so that, if while the parties were making their bargain, an officious bystander were to suggest some express provision for it in the agreement, they would testily suppress him with a common \"Oh, of course!\"' The two tests — business efficacy and officious bystander — are not independent; they are two ways of reaching the same conclusion: the term was so obviously intended that its expression was unnecessary.\n\n**The Modern Restatement — Marks & Spencer v BNP Paribas [2015]:** In *Marks & Spencer plc v BNP Paribas Securities Services Trust Co (Jersey) Ltd* [2015] UKSC 72, the Supreme Court (Lord Neuberger) clarified that the test for implication is **necessity, not reasonableness**. A term will not be implied merely because it would be reasonable; it must be necessary to make the contract work or to give effect to the parties' obvious but unexpressed intentions. The court must be cautious: implication is a 'different exercise' from construction of the express terms. Lord Neuberger endorsed a six-stage approach: (1) construction of express terms, (2) custom, (3) statute, (4) implication in fact, (5) the test of necessity, and (6) whether the implied term contradicts an express term.\n\n**In short:** A term implied in fact fills a gap that the parties would certainly have filled themselves had they thought of it. The test is necessity (not reasonableness) — the contract must lack commercial or practical coherence without it.",
+    "type": "teaching", "question": "", "answer": "", "options": [], "feedback": "",
+    "oscoaReferences": ["The Moorcock (1889) 14 PD 64", "Shirlaw v Southern Foundries (1926) Ltd [1939] 2 KB 206", "Marks & Spencer plc v BNP Paribas Securities Services Trust Co (Jersey) Ltd [2015] UKSC 72"],
+    "difficulty": "hard", "tags": ["implied-terms", "business-efficacy", "marks-spencer", "necessity", "officious-bystander"]
+  },
+  {
+    "lessonId": "lesson-A6-2", "microSkill": "A6.2", "block": "A", "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "The _________ (1889) 14 PD 64 established the business efficacy test: a term can be implied into a contract where it is necessary to give the contract the business efficacy which the parties must have intended.",
+    "answer": "Moorcock",
+    "options": [],
+    "feedback": "Correct. *The Moorcock* (1889) 14 PD 64 per Bowen LJ. A shipowner moored at the defendant's jetty and suffered damage when the vessel grounded at low tide. The court implied a warranty that the jetty owner had taken reasonable care to ensure the berth was safe — without it, the contract had no business efficacy.",
+    "oscoaReferences": ["The Moorcock (1889) 14 PD 64"],
+    "difficulty": "easy", "tags": ["moorcock", "business-efficacy"]
+  },
+  {
+    "lessonId": "lesson-A6-2", "microSkill": "A6.2", "block": "A", "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "_________ v Southern Foundries (1926) Ltd [1939] 2 KB 206 per MacKinnon LJ formulated the officious bystander test: the implied term must be something 'so obvious that it goes without saying.'",
+    "answer": "Shirlaw",
+    "options": [],
+    "feedback": "Correct. *Shirlaw v Southern Foundries (1926) Ltd* [1939] 2 KB 206, CA. MacKinnon LJ: an officious bystander suggesting the term would be 'testily suppressed' with 'Oh, of course!' The term must be so obvious that both parties would have agreed to it without question.",
+    "oscoaReferences": ["Shirlaw v Southern Foundries (1926) Ltd [1939] 2 KB 206"],
+    "difficulty": "medium", "tags": ["shirlaw", "officious-bystander"]
+  },
+  {
+    "lessonId": "lesson-A6-2", "microSkill": "A6.2", "block": "A", "phase": "teaching",
+    "type": "drag_elements",
+    "question": "Match each test for implied terms to its correct formulation:",
+    "answer": "Business Efficacy Test=A term is implied if necessary to give the contract business efficacy, judged objectively (The Moorcock (1889)); Officious Bystander Test=A term is implied if so obvious that the parties would have said 'Oh, of course!' had it been proposed (Shirlaw [1939]); Necessity Requirement=A term will not be implied merely because it is reasonable; it must be necessary to make the contract work (M&S v BNP Paribas [2015])",
+    "options": [
+      {"id": "be", "text": "A term is implied if necessary to give the contract business efficacy, judged objectively (The Moorcock (1889))", "pair": "Business Efficacy Test"},
+      {"id": "ob", "text": "A term is implied if so obvious that the parties would have said 'Oh, of course!' had it been proposed (Shirlaw [1939])", "pair": "Officious Bystander Test"},
+      {"id": "nec", "text": "A term will not be implied merely because it is reasonable; it must be necessary to make the contract work (M&S v BNP Paribas [2015])", "pair": "Necessity Requirement"}
+    ],
+    "feedback": "Correct. The business efficacy test (*The Moorcock*) and the officious bystander test (*Shirlaw*) are complementary. The necessity requirement (*M&S v BNP Paribas* [2015]) confirms that reasonableness alone is insufficient — the term must be essential to the contract's coherence.",
+    "oscoaReferences": ["The Moorcock (1889) 14 PD 64", "Shirlaw v Southern Foundries (1926) Ltd [1939] 2 KB 206", "Marks & Spencer plc v BNP Paribas Securities Services Trust Co (Jersey) Ltd [2015] UKSC 72"],
+    "difficulty": "medium", "tags": ["implied-terms", "business-efficacy", "officious-bystander", "necessity"]
+  },
+  {
+    "lessonId": "lesson-A6-2", "microSkill": "A6.2", "block": "A", "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "Green Ltd leases an office floor in Blue Tower, operated by TowerCo. The lease is silent on heating. TowerCo cuts off the heating in winter, saying the lease says nothing about it. Green Ltd argues a term should be implied that heating will be provided during office hours. Applying *M&S v BNP Paribas* [2015], what is the test the court will apply?",
+    "answer": "c",
+    "options": [
+      {"id": "a", "text": "The court will imply a term that heating be provided whenever it is 'fair and reasonable' to do so", "correct": false, "feedback": "Incorrect. *M&S v BNP Paribas* [2015] confirms that reasonableness alone is not the test. The officious bystander's 'Oh, of course!' must be satisfied — the term must be so obvious that it goes without saying."},
+      {"id": "b", "text": "The court will imply a term only if the lease expressly says 'heating included' — implied terms cannot supplement express terms", "correct": false, "feedback": "Incorrect. Implied terms are precisely designed to fill gaps left by express terms. The question is whether the implied term is necessary, not whether it was expressed."},
+      {"id": "c", "text": "The court will ask whether, without the term, the lease of an office floor lacks commercial or practical coherence — i.e., is heating necessary for the contract to work as the parties must have intended?", "correct": true, "feedback": "Correct. Under *M&S v BNP Paribas* [2015], necessity is the test: does the contract lack commercial coherence without the term? An office lease without heating in winter would arguably fail this test — the contract would be unworkable."},
+      {"id": "d", "text": "The court will imply any term that TowerCo's competitors would include in their leases as a matter of industry practice", "correct": false, "feedback": "Incorrect. Industry practice is relevant to custom-based implication (Block B), not implication in fact. The business efficacy/officious bystander tests concern the specific contract, not general industry standards."}
+    ],
+    "feedback": "Correct. The test is necessity for commercial coherence, per *M&S v BNP Paribas* [2015]. An office lease without winter heating could be commercially incoherent — that would be the argument for implication. Compare *Liverpool City Council v Irwin* [1977] (implied by law — landlord's obligation to maintain common parts).",
+    "oscoaReferences": ["Marks & Spencer plc v BNP Paribas Securities Services Trust Co (Jersey) Ltd [2015] UKSC 72", "Liverpool City Council v Irwin [1977] AC 239"],
+    "difficulty": "medium", "tags": ["marks-spencer", "necessity", "scenario"]
+  },
+  {
+    "lessonId": "lesson-A6-2", "microSkill": "A6.2", "block": "A", "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "A software developer contracts to build a bespoke database for a law firm. The contract specifies the functionality in detail but says nothing about data security or encryption. The developer delivers the database but stores all data in plaintext with no password protection. The law firm argues a term requiring 'reasonable data security measures' should be implied. Applying the officious bystander test:",
+    "answer": "b",
+    "options": [
+      {"id": "a", "text": "No term will be implied — the contract was silent on security, and silence means the developer owes no duty as to security", "correct": false, "feedback": "Incorrect. Silence is not conclusive. The officious bystander test asks whether the term is so obvious it goes without saying — and in a modern commercial context, data security for a law firm's database might well satisfy this."},
+      {"id": "b", "text": "A court may imply a term requiring reasonable security — an officious bystander asking 'should this database be password-protected?' would receive a resounding 'Oh, of course!' from both parties", "correct": true, "feedback": "Correct. Under *Shirlaw v Southern Foundries* [1939], the officious bystander test asks whether the term was so obvious that both parties would have immediately agreed. A database for a law firm without any security is likely commercially incoherent — the term would be implied as necessary for business efficacy."},
+      {"id": "c", "text": "The term will be implied under the Consumer Rights Act 2015, not under common law", "correct": false, "feedback": "Incorrect. B2B contracts are not covered by the Consumer Rights Act 2015, and this is a bespoke software development contract, not a consumer transaction. The common law of implied terms applies."},
+      {"id": "d", "text": "The term cannot be implied because the contract is in writing and all essential terms were express", "correct": false, "feedback": "Incorrect. Even written contracts can contain implied terms. The fact the contract is in writing is no bar to implication — *The Moorcock* and *Shirlaw* both concerned written agreements."}
+    ],
+    "feedback": "Correct. The officious bystander test (*Shirlaw* [1939]) captures the idea that some terms are so inherent to the contract's purpose that expressing them would be redundant. Data security for a law firm's database is a strong candidate for such a term.",
+    "oscoaReferences": ["Shirlaw v Southern Foundries (1926) Ltd [1939] 2 KB 206"],
+    "difficulty": "medium", "tags": ["shirlaw", "officious-bystander", "scenario"]
+  },
+  {
+    "lessonId": "lesson-A6-2", "microSkill": "A6.2", "block": "A", "phase": "teaching",
+    "type": "spot_error",
+    "question": "Spot the legal error:\n\n'English courts will imply a term into any contract whenever it seems fair and reasonable to do so. The business efficacy test in The Moorcock means that if a term would improve the contract, the court supplies it. The officious bystander test from Shirlaw is a different, alternative route to implication and the two tests are completely independent of each other.'",
+    "answer": "Three errors. (1) Implication is not about fairness or reasonableness — the test is necessity, as confirmed in M&S v BNP Paribas [2015]. 'Fair and reasonable' is insufficient. (2) A term that merely 'improves' the contract is not implied — it must be necessary to make the contract work, not just more advantageous to one party. (3) The business efficacy and officious bystander tests are complementary, not independent — Lord Neuberger in M&S v BNP Paribas [2015] confirmed they are different formulations of the same underlying question: what would the parties, as reasonable people, have intended?",
+    "options": [],
+    "feedback": "Found them. The critical point is necessity vs reasonableness. *Marks & Spencer v BNP Paribas* [2015] UKSC 72 is the modern authority. Courts do not rewrite contracts to make them fairer; they imply only the minimum necessary to make the contract work as the parties intended.",
+    "oscoaReferences": ["Marks & Spencer plc v BNP Paribas Securities Services Trust Co (Jersey) Ltd [2015] UKSC 72"],
+    "difficulty": "medium", "tags": ["necessity", "business-efficacy", "spot-error"]
+  },
+  {
+    "lessonId": "lesson-A6-2", "microSkill": "A6.2", "block": "A", "phase": "teaching",
+    "type": "msq",
+    "question": "Which TWO of the following are correct about the test for implying a term in fact under English law?",
+    "answer": "b,d",
+    "options": [
+      {"id": "a", "text": "A term will be implied into a contract whenever the court considers it would have been reasonable for the parties to have included it", "correct": false, "feedback": "Incorrect. *M&S v BNP Paribas* [2015] explicitly rejects reasonableness as the test. The correct test is necessity — the contract must lack commercial coherence without the term."},
+      {"id": "b", "text": "The officious bystander test asks whether the term is so obvious that, had it been proposed during negotiations, the parties would have said 'Oh, of course!'", "correct": true, "feedback": "Correct. MacKinnon LJ in *Shirlaw v Southern Foundries* [1939] — the officious bystander test captures the idea that some terms are so obviously intended that expressing them is unnecessary."},
+      {"id": "c", "text": "The business efficacy test and the officious bystander test are completely different and cannot both be satisfied in the same case", "correct": false, "feedback": "Incorrect. They are complementary formulations of the same underlying inquiry, not alternative or inconsistent tests. Both ask the same question: what did the parties necessarily intend?"},
+      {"id": "d", "text": "A term will not be implied if it contradicts an express term of the contract", "correct": true, "feedback": "Correct. Lord Neuberger in *M&S v BNP Paribas* [2015] confirmed that an implied term cannot override or contradict an express term. Implication fills gaps — it does not rewrite the bargain."},
+      {"id": "e", "text": "Implied terms in fact can only arise in contracts for the sale of goods under the Sale of Goods Act 1979", "correct": false, "feedback": "Incorrect. Terms implied in fact arise at common law in contracts of any type. The SGA 1979 implies terms by statute (Block C) — a separate source of implied terms."}
+    ],
+    "feedback": "Correct: (b) and (d). The officious bystander formulation (*Shirlaw* [1939]) and the rule against contradicting express terms (*M&S v BNP Paribas* [2015]) are core principles of implication in fact.",
+    "oscoaReferences": ["Shirlaw v Southern Foundries (1926) Ltd [1939] 2 KB 206", "Marks & Spencer plc v BNP Paribas Securities Services Trust Co (Jersey) Ltd [2015] UKSC 72"],
+    "difficulty": "hard", "tags": ["implied-terms", "officious-bystander", "msq"]
+  },
+  {
+    "lessonId": "lesson-A6-2", "microSkill": "A6.2", "block": "B", "phase": "teaching",
+    "teachingSummary": "**Core Rule — Terms Implied by Law and Custom:** A term may be implied not from the specific intentions of the parties (implied in fact) but as a legal incident of a particular class of contract (implied by law) or as an established custom or usage within a trade (implied by custom).\n\n**Terms Implied by Law — Liverpool City Council v Irwin [1977]:** In *Liverpool City Council v Irwin* [1977] AC 239, the House of Lords held that in a contract for the letting of a flat in a multi-storey block, the landlord impliedly undertakes to take reasonable care to keep the common parts (lifts, stairs, lighting, rubbish chutes) in reasonable repair and usability. Lord Wilberforce distinguished terms implied in law from terms implied in fact: terms implied in law arise from the nature of the relationship (here, landlord–tenant), not from the presumed intention of the particular parties. They are default rules that attach to classes of contract unless the parties expressly exclude or modify them. The tenants' obligation to pay rent would be frustrated if the common parts were unusable — the term was 'a legal incident' of this kind of contract.\n\n**Terms Implied by Custom — The Trade Usage Test:** A term may be implied into a contract if it represents a binding custom or usage in the relevant trade, market, or locality. The custom must be: (i) certain, (ii) notorious (i.e., universally recognised in the trade), (iii) reasonable, and (iv) not inconsistent with the express terms of the contract. In *Hutton v Warren* (1836) 1 M & W 466, a tenant farmer who had ploughed and sown crops was entitled, upon quitting the tenancy, to a fair allowance for seeds and labour. This was established by 'the custom of the country' — a local agricultural usage. The custom was implied into the tenancy agreement even though it was not expressed.\n\n**Implied in Fact vs Implied by Law — The Critical Distinction:**\n- **Implied in Fact:** tied to the specific contract; the officious bystander and business efficacy tests apply; requires proof of the parties' actual or presumed intentions. Example: *The Moorcock* — this jetty, this ship, this contract.\n- **Implied by Law:** attached to a class of contracts (landlord–tenant, employer–employee, etc.); based on policy, not individual intention; the test is whether the term is a necessary incident of that type of relationship. Example: *Liverpool City Council v Irwin* — all landlord–tenant relationships carry an obligation to maintain common parts.\n\n**In short:** Terms implied by law are default rules for standardised relationships. Terms implied by custom are trade-specific fillers. Both are distinct from terms implied in fact, which depend on the specific parties' intentions.",
+    "type": "teaching", "question": "", "answer": "", "options": [], "feedback": "",
+    "oscoaReferences": ["Liverpool City Council v Irwin [1977] AC 239", "Hutton v Warren (1836) 1 M & W 466"],
+    "difficulty": "hard", "tags": ["implied-by-law", "implied-by-custom", "liverpool-city-council", "hutton-v-warren"]
+  },
+  {
+    "lessonId": "lesson-A6-2", "microSkill": "A6.2", "block": "B", "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "_________ City Council v Irwin [1977] AC 239 established that in a landlord–tenant relationship, a term is implied by law that the landlord will take reasonable care to maintain the common parts of the building.",
+    "answer": "Liverpool",
+    "options": [],
+    "feedback": "Correct. *Liverpool City Council v Irwin* [1977] AC 239 — the House of Lords held that the landlord's obligation to maintain common parts (lifts, stairs, rubbish chutes) is a legal incident of the landlord–tenant relationship, implied by law, not dependent on the specific intentions of the parties.",
+    "oscoaReferences": ["Liverpool City Council v Irwin [1977] AC 239"],
+    "difficulty": "easy", "tags": ["liverpool-city-council", "implied-by-law"]
+  },
+  {
+    "lessonId": "lesson-A6-2", "microSkill": "A6.2", "block": "B", "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "_________ v Warren (1836) 1 M & W 466 established that a custom of the trade or locality (such as agricultural custom) can be implied into a contract if it is certain, notorious, reasonable, and not inconsistent with express terms.",
+    "answer": "Hutton",
+    "options": [],
+    "feedback": "Correct. *Hutton v Warren* (1836) — the tenant farmer was entitled to a fair allowance for seeds and labour on quitting the tenancy, under the 'custom of the country.' The custom was implied into the tenancy agreement as an unwritten term.",
+    "oscoaReferences": ["Hutton v Warren (1836) 1 M & W 466"],
+    "difficulty": "medium", "tags": ["hutton-v-warren", "custom"]
+  },
+  {
+    "lessonId": "lesson-A6-2", "microSkill": "A6.2", "block": "B", "phase": "teaching",
+    "type": "drag_elements",
+    "question": "Match each source of implied terms to its defining characteristic:",
+    "answer": "Implied in Fact=Depends on the specific intentions of the particular parties; officious bystander/business efficacy tests; *The Moorcock*, *Shirlaw*; Implied by Law=Attached to a class of contracts as a legal incident; based on policy and the nature of the relationship; *Liverpool City Council v Irwin*; Implied by Custom=Arises from established trade or local usage; must be certain, notorious, reasonable, and consistent with express terms; *Hutton v Warren*",
+    "options": [
+      {"id": "fact", "text": "Depends on the specific intentions of the particular parties; officious bystander/business efficacy tests; *The Moorcock*, *Shirlaw*", "pair": "Implied in Fact"},
+      {"id": "law", "text": "Attached to a class of contracts as a legal incident; based on policy and the nature of the relationship; *Liverpool City Council v Irwin*", "pair": "Implied by Law"},
+      {"id": "custom", "text": "Arises from established trade or local usage; must be certain, notorious, reasonable, and consistent with express terms; *Hutton v Warren*", "pair": "Implied by Custom"}
+    ],
+    "feedback": "Correct. The three sources of implied terms operate at different levels: fact (specific contract), law (class of contracts), and custom (trade usage). Each has its own test and rationale.",
+    "oscoaReferences": ["The Moorcock (1889) 14 PD 64", "Shirlaw v Southern Foundries (1926) Ltd [1939] 2 KB 206", "Liverpool City Council v Irwin [1977] AC 239", "Hutton v Warren (1836) 1 M & W 466"],
+    "difficulty": "medium", "tags": ["implied-terms", "matching", "implied-in-fact", "implied-by-law", "custom"]
+  },
+  {
+    "lessonId": "lesson-A6-2", "microSkill": "A6.2", "block": "B", "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "A tenant signs a lease for a flat on the eighth floor of a tower block. The lift breaks down and the landlord refuses to repair it, saying the lease is silent on lift maintenance. The tenant argues a term requiring the landlord to maintain the lift is implied. Applying *Liverpool City Council v Irwin* [1977], what is the correct analysis?",
+    "answer": "b",
+    "options": [
+      {"id": "a", "text": "The tenant loses — if the lease is silent, the landlord has no obligation to maintain the lift; the tenant bears the risk of any gap in the express terms", "correct": false, "feedback": "Incorrect. *Liverpool City Council v Irwin* [1977] establishes that the landlord's obligation to maintain common parts is implied by law — it attaches to the class of contract (landlord–tenant) regardless of whether the lease mentions it."},
+      {"id": "b", "text": "The tenant wins — a term requiring the landlord to take reasonable care to maintain common parts (including lifts) is implied by law into all landlord–tenant contracts under Irwin [1977]", "correct": true, "feedback": "Correct. *Liverpool City Council v Irwin* [1977] AC 239: the landlord's obligation to maintain common parts is a 'legal incident' of the landlord–tenant relationship. It is implied by law, not dependent on the specific parties' intentions."},
+      {"id": "c", "text": "The tenant wins only if it can prove, on an officious bystander basis, that the landlord would have agreed to maintain the lift had the issue been raised before signing the lease", "correct": false, "feedback": "Incorrect. That is the test for implication in fact (*Shirlaw* [1939]). Here, the term is implied by law — it attaches to the class of contract, not the specific parties' presumed intentions. The officious bystander test is irrelevant."},
+      {"id": "d", "text": "The tenant loses — *Liverpool City Council v Irwin* applies only to council tenants, not to private landlords", "correct": false, "feedback": "Incorrect. While *Irwin* was a case involving a council landlord, the principle articulated by Lord Wilberforce is of general application to all landlord–tenant relationships. The implied obligation to maintain common parts is a general legal incident."}
+    ],
+    "feedback": "Correct. *Liverpool City Council v Irwin* [1977] establishes that the obligation to maintain common parts is implied by law into tenancy agreements — it is not a matter of the specific parties' intentions. The term attaches to the class of contract, not the individual bargain.",
+    "oscoaReferences": ["Liverpool City Council v Irwin [1977] AC 239"],
+    "difficulty": "medium", "tags": ["liverpool-city-council", "implied-by-law", "scenario"]
+  },
+  {
+    "lessonId": "lesson-A6-2", "microSkill": "A6.2", "block": "B", "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "A grain trader in London enters into a contract to purchase wheat from a farmer in Norfolk. The contract says nothing about the moisture content of the wheat. The farmer delivers wheat with 18% moisture, which the trader rejects. The trader claims that under trade custom, wheat in this market must not exceed 14% moisture. The farmer says no such term was expressed. Applying the principles of custom-based implied terms:",
+    "answer": "c",
+    "options": [
+      {"id": "a", "text": "The farmer wins — if the term was not in the written contract, it does not bind the parties; the trader must accept the wheat regardless of custom", "correct": false, "feedback": "Incorrect. *Hutton v Warren* (1836) demonstrates that trade customs can be implied into contracts even when they are not expressed. The contract is made against the background of known trade usage."},
+      {"id": "b", "text": "The farmer wins — customs cannot be implied into written contracts; they are only relevant to oral agreements", "correct": false, "feedback": "Incorrect. Customs can be implied into written contracts — the parol evidence rule does not exclude evidence of custom, which is treated as an additional term rather than a contradiction of the written terms."},
+      {"id": "c", "text": "The trader may succeed if it can prove the 14% moisture custom is certain, notorious in the grain trade, reasonable, and not inconsistent with any express term of the contract", "correct": true, "feedback": "Correct. Custom-based implication requires all four elements: certainty, notoriety (universal recognition in the trade), reasonableness, and consistency with express terms. If the trader proves these, the custom is implied."},
+      {"id": "d", "text": "The trader wins — all trade customs are automatically implied into contracts by the Sale of Goods Act 1979", "correct": false, "feedback": "Incorrect. The SGA 1979 implies certain statutory terms (satisfactory quality, fitness for purpose, etc.) but does not codify trade customs. Customs are implied at common law if they satisfy the legal test."}
+    ],
+    "feedback": "Correct. The four-part test for custom: certainty, notoriety, reasonableness, and consistency. The trader bears the burden of proving each element. If the custom is indeed established, it is implied as an additional contractual term.",
+    "oscoaReferences": ["Hutton v Warren (1836) 1 M & W 466"],
+    "difficulty": "hard", "tags": ["custom", "hutton-v-warren", "scenario"]
+  },
+  {
+    "lessonId": "lesson-A6-2", "microSkill": "A6.2", "block": "B", "phase": "teaching",
+    "type": "spot_error",
+    "question": "Spot the legal error:\n\n'A term implied by law and a term implied in fact are essentially the same thing — both require proof of what the specific parties to the contract actually intended. Liverpool City Council v Irwin [1977] is an application of the officious bystander test: the landlord would surely have agreed to maintain the common parts if asked.'",
+    "answer": "Critically wrong. Terms implied by law and terms implied in fact are distinct. (1) Implied in fact depends on the specific parties' intentions (officious bystander, business efficacy). Implied by law attaches to a class of contracts regardless of intention. (2) Liverpool City Council v Irwin [1977] did NOT apply the officious bystander test — Lord Wilberforce explicitly distinguished implied in law from implied in fact. The obligation to maintain common parts arises from the nature of the landlord–tenant relationship, not from the parties' presumed answer to a bystander's question.",
+    "options": [],
+    "feedback": "Correct. The distinction is critical: implied in fact = this contract; implied by law = this type of contract. *Irwin* [1977] is the leading authority on implication by law — the term is a 'legal incident' of the relationship, not a gap-filling exercise in the specific bargain.",
+    "oscoaReferences": ["Liverpool City Council v Irwin [1977] AC 239", "Shirlaw v Southern Foundries (1926) Ltd [1939] 2 KB 206"],
+    "difficulty": "hard", "tags": ["implied-by-law", "implied-in-fact", "distinction", "spot-error"]
+  },
+  {
+    "lessonId": "lesson-A6-2", "microSkill": "A6.2", "block": "B", "phase": "teaching",
+    "type": "msq",
+    "question": "Which TWO of the following correctly describe terms implied by custom?",
+    "answer": "b,d",
+    "options": [
+      {"id": "a", "text": "A trade custom is automatically a term of every contract within that trade — no proof is required, the court takes judicial notice", "correct": false, "feedback": "Incorrect. Customs must be proved by evidence. The proponent must establish that the custom is certain, notorious, reasonable, and not inconsistent with express terms. The court does not assume them."},
+      {"id": "b", "text": "For a custom to be implied as a contractual term, it must be so well-known that everyone in the trade would be taken to have contracted on the basis of it", "correct": true, "feedback": "Correct. This is the 'notoriety' element — the custom must be so universally recognised in the relevant trade or locality that the parties are presumed to have contracted with reference to it."},
+      {"id": "c", "text": "A custom that contradicts an express term of the contract will be implied if it is well-established in the trade", "correct": false, "feedback": "Incorrect. A custom cannot override an express term. If the custom and the express term conflict, the express term prevails. Consistency is an absolute requirement."},
+      {"id": "d", "text": "The burden of proving the existence and content of a trade custom lies on the party seeking to rely on it", "correct": true, "feedback": "Correct. The party asserting a custom must prove it — the custom will not be implied automatically. He who asserts must prove: certainty, notoriety, reasonableness, and consistency."},
+      {"id": "e", "text": "A custom that is unreasonable can still be implied if it is universally followed in the trade and both parties knew of it", "correct": false, "feedback": "Incorrect. Reasonableness is an independent requirement. Even a universally recognised custom will not be implied if it is unreasonable — the court will not enforce an unreasonable usage."}
+    ],
+    "feedback": "Correct: (b) and (d). Notoriety (universal trade recognition) and the burden of proof are fundamental aspects of custom-based implied terms. The custom must be proved, and it must be so well-known that the presumption of knowledge is justifiable.",
+    "oscoaReferences": ["Hutton v Warren (1836) 1 M & W 466"],
+    "difficulty": "medium", "tags": ["custom", "implied-by-custom", "msq"]
+  },
+  {
+    "lessonId": "lesson-A6-2", "microSkill": "A6.2", "block": "C", "phase": "teaching",
+    "teachingSummary": "**Core Rule — Implied Terms Under Statute: The Sale of Goods Act 1979:** The SGA 1979 implies specific terms into contracts for the sale of goods. These are terms implied by statute (not by fact or by law in the common law sense) and apply by default to all contracts within the Act's scope, though they can be excluded or varied in some circumstances (subject to the Unfair Contract Terms Act 1977 in business-to-consumer contracts).\n\n**S.12 — Implied Term as to Title:** Section 12(1): In every contract of sale, there is an implied condition on the part of the seller that they have the right to sell the goods. In *Rowland v Divall* [1923] 2 KB 500, a buyer purchased a car from a seller who had no title (it was stolen). The buyer used the car for four months. The Court of Appeal held the buyer was entitled to a full refund of the purchase price — there was a total failure of consideration because the buyer had not received what they bargained for: ownership. The buyer's use of the car was irrelevant — the seller breached the implied condition under s.12.\n\n**S.13 — Sale by Description:** Section 13(1): Where goods are sold by description, there is an implied condition that the goods correspond with that description. This applies even where the buyer has inspected the goods. In *Arcos Ltd v E A Ronaasen & Son* [1933] AC 470, a contract for timber staves specified a thickness of 1/2 inch. The delivered staves were 9/16 inch. The House of Lords held the goods did not correspond with their description — the buyer was entitled to reject, even though the staves were commercially fit for purpose. Compliance with description is strict.\n\n**S.14 — Satisfactory Quality and Fitness for Purpose:** Section 14(2) implies a condition that goods supplied in the course of a business are of satisfactory quality. Section 14(3) implies a condition that goods are reasonably fit for any particular purpose made known to the seller. In *Stevenson v Rogers* [1999] QB 1028, the Court of Appeal held that 'in the course of a business' under s.14(2) includes a one-off sale by a business — it does not require the seller to be in the trade of selling that type of good. A fisherman selling his fishing boat was acting in the course of a business, and the boat had to be of satisfactory quality.\n\n**In short:** The SGA 1979 imposes quality and title obligations by default. s.12 guarantees title, s.13 requires correspondence with description (strict compliance), and s.14 demands satisfactory quality and fitness for purpose in business sales.",
+    "type": "teaching", "question": "", "answer": "", "options": [], "feedback": "",
+    "oscoaReferences": ["Sale of Goods Act 1979, ss.12–14", "Rowland v Divall [1923] 2 KB 500", "Arcos Ltd v E A Ronaasen & Son [1933] AC 470", "Stevenson v Rogers [1999] QB 1028"],
+    "difficulty": "hard", "tags": ["sga-1979", "implied-terms", "title", "satisfactory-quality", "description"]
+  },
+  {
+    "lessonId": "lesson-A6-2", "microSkill": "A6.2", "block": "C", "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "Under s.____ of the Sale of Goods Act 1979, there is an implied condition in every contract of sale that the seller has the right to sell the goods. Breach may result in a total failure of consideration.",
+    "answer": "12",
+    "options": [],
+    "feedback": "Correct. SGA 1979, s.12(1). In *Rowland v Divall* [1923] 2 KB 500, the seller sold a stolen car. The buyer recovered the full purchase price — total failure of consideration because the buyer never acquired ownership.",
+    "oscoaReferences": ["Sale of Goods Act 1979, s.12", "Rowland v Divall [1923] 2 KB 500"],
+    "difficulty": "easy", "tags": ["sga-1979", "s12", "title"]
+  },
+  {
+    "lessonId": "lesson-A6-2", "microSkill": "A6.2", "block": "C", "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "Under s.____(2) of the Sale of Goods Act 1979, where a seller sells goods in the course of a business, there is an implied condition that the goods supplied are of satisfactory quality.",
+    "answer": "14",
+    "options": [],
+    "feedback": "Correct. SGA 1979, s.14(2). Satisfactory quality is assessed by the standard of a reasonable person, having regard to description, price, and all other relevant circumstances. *Stevenson v Rogers* [1999] confirms 'in the course of a business' is interpreted broadly.",
+    "oscoaReferences": ["Sale of Goods Act 1979, s.14", "Stevenson v Rogers [1999] QB 1028"],
+    "difficulty": "easy", "tags": ["sga-1979", "s14", "satisfactory-quality"]
+  },
+  {
+    "lessonId": "lesson-A6-2", "microSkill": "A6.2", "block": "C", "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "_________ v Divall [1923] 2 KB 500 held that a seller who sold a car without title committed a total failure of consideration — the buyer was entitled to a full refund even after months of use.",
+    "answer": "Rowland",
+    "options": [],
+    "feedback": "Correct. *Rowland v Divall* [1923] 2 KB 500 — the buyer recovered the entire purchase price. The seller's breach of the implied condition under s.12 SGA 1979 (right to sell) meant the buyer received nothing of what was contracted for: lawful ownership.",
+    "oscoaReferences": ["Rowland v Divall [1923] 2 KB 500", "Sale of Goods Act 1979, s.12"],
+    "difficulty": "medium", "tags": ["rowland-v-diwall", "title", "total-failure"]
+  },
+  {
+    "lessonId": "lesson-A6-2", "microSkill": "A6.2", "block": "C", "phase": "teaching",
+    "type": "drag_elements",
+    "question": "Match each section of the Sale of Goods Act 1979 to the implied term it imposes:",
+    "answer": "s.12=Implied condition that the seller has the right to sell the goods; s.13=Implied condition that goods sold by description correspond with that description; s.14(2)=Implied condition that goods supplied in the course of a business are of satisfactory quality; s.14(3)=Implied condition that goods are reasonably fit for any particular purpose made known to the seller",
+    "options": [
+      {"id": "s12", "text": "Implied condition that the seller has the right to sell the goods", "pair": "s.12"},
+      {"id": "s13", "text": "Implied condition that goods sold by description correspond with that description", "pair": "s.13"},
+      {"id": "s14-2", "text": "Implied condition that goods supplied in the course of a business are of satisfactory quality", "pair": "s.14(2)"},
+      {"id": "s14-3", "text": "Implied condition that goods are reasonably fit for any particular purpose made known to the seller", "pair": "s.14(3)"}
+    ],
+    "feedback": "Correct. ss.12–14 SGA 1979 are the core statutory implied terms in contracts for the sale of goods: title, description, quality, and fitness for purpose.",
+    "oscoaReferences": ["Sale of Goods Act 1979, ss.12–14"],
+    "difficulty": "medium", "tags": ["sga-1979", "matching", "implied-terms"]
+  },
+  {
+    "lessonId": "lesson-A6-2", "microSkill": "A6.2", "block": "C", "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "Alice buys a second-hand car from Bob's Car Dealership for £8,000. The written contract says: 'Sold as seen. No warranty given.' Within a week, the engine seizes due to a pre-existing defect that Bob knew about but did not disclose. Alice sues under the Sale of Goods Act 1979. What is the legal position?",
+    "answer": "c",
+    "options": [
+      {"id": "a", "text": "Bob's exclusion clause ('sold as seen') is fully effective — Alice has no claim because she agreed to the contract terms", "correct": false, "feedback": "Incorrect. While the SGA 1979 implied terms can be excluded in B2B contracts, in a consumer sale the Unfair Contract Terms Act 1977 severely restricts exclusion of s.14 obligations. 'Sold as seen' may be void."},
+      {"id": "b", "text": "Alice has no claim under the SGA 1979 because the car was second-hand — satisfactory quality does not apply to used goods", "correct": false, "feedback": "Incorrect. s.14(2) SGA 1979 applies to all goods sold in the course of a business, including second-hand goods. The standard of quality takes account of the price and description — a second-hand car for £8,000 should not have a seized engine after one week."},
+      {"id": "c", "text": "Bob likely breached s.14(2) — the car was not of satisfactory quality — and the 'sold as seen' exclusion may be unenforceable under UCTA 1977 if this is a consumer sale; the defect renders the car unfit for its purpose", "correct": true, "feedback": "Correct. s.14(2) requires satisfactory quality. A car that fails within a week is arguably not of satisfactory quality. UCTA 1977 restricts the ability to exclude liability for breach of s.14 in consumer contracts. Bob's knowledge of the defect is also relevant — deliberate non-disclosure of a known defect is particularly problematic."},
+      {"id": "d", "text": "Alice's only remedy lies in misrepresentation — the SGA 1979 implied terms can always be excluded by clear words in the contract", "correct": false, "feedback": "Incorrect. UCTA 1977 limits the exclusion of certain SGA 1979 implied terms, especially in consumer transactions. The effectiveness of 'sold as seen' must be tested against UCTA. Alice may also have a misrepresentation claim, but the SGA 1979 route is likely the stronger claim."}
+    ],
+    "feedback": "Correct. The SGA 1979 implied terms are powerful protections. 'Sold as seen' does not automatically exclude them — UCTA 1977 controls their exclusion, particularly in consumer transactions. A pre-existing defect known to the seller makes the quality argument particularly strong.",
+    "oscoaReferences": ["Sale of Goods Act 1979, s.14", "Unfair Contract Terms Act 1977"],
+    "difficulty": "hard", "tags": ["sga-1979", "s14", "ucta", "scenario"]
+  },
+  {
+    "lessonId": "lesson-A6-2", "microSkill": "A6.2", "block": "C", "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "A manufacturer orders '500 steel rods, 10mm diameter, Grade 316' from a supplier. The supplier delivers rods of 10.3mm diameter, which are chemically identical and mechanically fit for the purpose. The manufacturer rejects the entire delivery. Applying *Arcos Ltd v E A Ronaasen & Son* [1933] AC 470:",
+    "answer": "a",
+    "options": [
+      {"id": "a", "text": "The manufacturer may reject — s.13 SGA 1979 requires strict correspondence with description; the 0.3mm deviation means the goods do not correspond with their contractual description, regardless of functional equivalence", "correct": true, "feedback": "Correct. *Arcos v Ronaasen* [1933] — the staves were commercially fit but 1/16 inch thicker than specified. The House of Lords held the buyer could reject. s.13 imports strict compliance with description — functional equivalence is irrelevant."},
+      {"id": "b", "text": "The manufacturer must accept the rods — a 0.3mm deviation is de minimis and the rods are functionally identical; courts apply a reasonableness test, not strict compliance", "correct": false, "feedback": "Incorrect. *Arcos v Ronaasen* [1933] rejected the de minimis argument — a 1/16 inch deviation was sufficient for rejection. s.13 SGA 1979 does not apply a reasonableness standard; it requires correspondence with description."},
+      {"id": "c", "text": "The manufacturer may reject only if it can prove the 0.3mm deviation causes actual loss — s.13 requires proof of damage", "correct": false, "feedback": "Incorrect. s.13 does not require proof of loss. It is a condition — its breach entitles the buyer to reject and treat the contract as repudiated. Actual loss is not an element."},
+      {"id": "d", "text": "The manufacturer must accept the rods — s.14 (satisfactory quality) overrides s.13 (description) when the goods are functionally fit for purpose", "correct": false, "feedback": "Incorrect. ss.13 and 14 are independent implied conditions. Compliance with s.14 does not cure non-compliance with s.13. Both must be satisfied. The rods fail s.13 regardless of their functional quality."}
+    ],
+    "feedback": "Correct. *Arcos v Ronaasen* [1933] AC 470 is authority for the strictness of s.13. Description must be exact — a commercially insignificant deviation still entitles the buyer to reject. This is a strict condition, not a reasonableness standard.",
+    "oscoaReferences": ["Arcos Ltd v E A Ronaasen & Son [1933] AC 470", "Sale of Goods Act 1979, s.13"],
+    "difficulty": "hard", "tags": ["arcos-v-ronaasen", "s13", "description", "strict-compliance"]
+  },
+  {
+    "lessonId": "lesson-A6-2", "microSkill": "A6.2", "block": "C", "phase": "teaching",
+    "type": "msq",
+    "question": "Which TWO of the following correctly state the effect of implied terms under the Sale of Goods Act 1979?",
+    "answer": "a,d",
+    "options": [
+      {"id": "a", "text": "Under s.12, the seller impliedly warrants that they have the right to sell the goods; breach may result in a total failure of consideration and a full refund", "correct": true, "feedback": "Correct. *Rowland v Divall* [1923]: the buyer who used the stolen car for four months still recovered the full price. s.12 is a fundamental condition — the buyer bargains for ownership, and receives nothing without it."},
+      {"id": "b", "text": "Under s.13, a seller complies if the goods are commercially fit for purpose, even if they do not precisely match the contractual description", "correct": false, "feedback": "Incorrect. *Arcos v Ronaasen* [1933] confirms s.13 requires strict correspondence with description — functional equivalence is not a defence. The goods must match the description exactly."},
+      {"id": "c", "text": "Under s.14(2), goods are of satisfactory quality only if they are flawless and brand new — second-hand goods are excluded from the section", "correct": false, "feedback": "Incorrect. s.14(2) applies to all goods sold in the course of a business, including second-hand goods. The standard takes account of age, price, and description — a £2,000 ten-year-old car does not need to be flawless, but must meet the standard a reasonable person would expect at that price."},
+      {"id": "d", "text": "Under s.14(3), if the buyer makes known any particular purpose for which the goods are required, there is an implied condition that the goods are reasonably fit for that purpose", "correct": true, "feedback": "Correct. s.14(3) is activated when the buyer communicates a specific purpose. The seller's skill and judgment are relied upon. If the buyer's purpose is the obvious or ordinary one, it need not be expressly stated."},
+      {"id": "e", "text": "The SGA 1979 implied terms can never be excluded or varied by any contract term, in any circumstances", "correct": false, "feedback": "Incorrect. The terms can be excluded or varied in B2B contracts where it is reasonable to do so under UCTA 1977. In consumer contracts, exclusion is heavily restricted and title (s.12) cannot be excluded at all."}
+    ],
+    "feedback": "Correct: (a) and (d). s.12 is the guarantee of title (total failure if breached), and s.14(3) covers fitness for a known purpose. The SGA 1979 imposes strong, but not absolute, statutory implied terms.",
+    "oscoaReferences": ["Sale of Goods Act 1979, ss.12–14", "Rowland v Divall [1923] 2 KB 500", "Arcos Ltd v E A Ronaasen & Son [1933] AC 470"],
+    "difficulty": "hard", "tags": ["sga-1979", "implied-terms", "msq"]
+  },
+  {
+    "lessonId": "lesson-A6-2", "microSkill": "A6.2", "block": "consolidation", "phase": "consolidation",
+    "type": "fill_gap_case",
+    "question": "[CONSOLIDATION — Block A] _________ & Spencer plc v BNP Paribas [2015] UKSC 72 confirmed that the test for implication of a term in fact is necessity, not reasonableness.",
+    "answer": "Marks",
+    "options": [],
+    "feedback": "Correct. *Marks & Spencer plc v BNP Paribas* [2015] is the modern Supreme Court authority: reasonableness is insufficient — the term must be necessary to the contract's commercial coherence. This consolidates the distinction between implied in fact vs implied by law.",
+    "oscoaReferences": ["Marks & Spencer plc v BNP Paribas Securities Services Trust Co (Jersey) Ltd [2015] UKSC 72"],
+    "difficulty": "easy", "tags": ["consolidation", "marks-spencer", "necessity"]
+  },
+  {
+    "lessonId": "lesson-A6-2", "microSkill": "A6.2", "block": "consolidation", "phase": "consolidation",
+    "type": "fill_gap_case",
+    "question": "[CONSOLIDATION — Block C] _________ Ltd v E A Ronaasen & Son [1933] AC 470 confirmed that s.13 SGA 1979 requires strict compliance with description — even a commercially insignificant deviation entitles the buyer to reject.",
+    "answer": "Arcos",
+    "options": [],
+    "feedback": "Correct. *Arcos Ltd v E A Ronaasen & Son* [1933] — the timber staves were fit for purpose but were 1/16 inch thicker than described. The House of Lords held the buyer could reject. s.13 is a strict condition.",
+    "oscoaReferences": ["Arcos Ltd v E A Ronaasen & Son [1933] AC 470", "Sale of Goods Act 1979, s.13"],
+    "difficulty": "medium", "tags": ["consolidation", "arcos-v-ronaasen", "s13"]
+  },
+  {
+    "lessonId": "lesson-A6-2", "microSkill": "A6.2", "block": "consolidation", "phase": "consolidation",
+    "type": "scenario_choice",
+    "question": "[CONSOLIDATION — Blocks A & C] A contract for the sale of a boat specifies the engine as '150hp Volvo Penta D3.' The seller delivers a boat with a 140hp engine that performs identically in practice and costs the same. The buyer also argues that, as the boat is to be kept at a marina with a draft limit of 1.2m, a term should be implied that the boat draws no more than 1.2m — though this was never discussed. Applying Arcos [1933] and the officious bystander test:",
+    "answer": "b",
+    "options": [
+      {"id": "a", "text": "Both claims succeed — the boat is non-compliant on both grounds and the buyer may reject", "correct": false, "feedback": "Partially right on the description claim, but the draft-limit implication requires more analysis. The officious bystander test requires the term to be so obvious it goes without saying — a private intention about marina draft limits that was never communicated is unlikely to satisfy this."},
+      {"id": "b", "text": "The buyer can reject under s.13 (description) because the engine does not match the specification exactly — Arcos [1933] confirms strict compliance; but the draft-limit term will not be implied, because the marina constraint was never communicated to the seller, so the officious bystander could not say 'Oh, of course!'", "correct": true, "feedback": "Correct. s.13 SGA 1979 and *Arcos* [1933] control the description claim — exact compliance required. The draft-limit claim fails the officious bystander test (*Shirlaw* [1939]): a term based on an undisclosed constraint cannot have been obviously intended by both parties."},
+      {"id": "c", "text": "Neither claim succeeds — the engine difference is immaterial and the draft limit was never discussed; the buyer gets what they contracted for", "correct": false, "feedback": "Incorrect on the engine claim. *Arcos* [1933] establishes that immaterial deviations are still breaches of s.13. The buyer contracted for a 150hp engine — a 140hp engine, even if functionally identical, does not correspond with the description."},
+      {"id": "d", "text": "Both claims succeed because the seller is a business and must warrant fitness for all purposes", "correct": false, "feedback": "Incorrect. s.14(3) SGA 1979 requires a particular purpose to be made known to the seller. An undisclosed marina draft limit is not a 'particular purpose' under s.14(3), and implication in fact requires the officious bystander test to be satisfied."}
+    ],
+    "feedback": "This consolidation question brings together strict compliance under s.13 SGA 1979 (*Arcos* [1933]) and the officious bystander test for implication in fact (*Shirlaw* [1939]). The key lesson: the two operate in different domains — statutory implied terms demand strictness; common law implication in fact requires the term to be obvious to both parties.",
+    "oscoaReferences": ["Arcos Ltd v E A Ronaasen & Son [1933] AC 470", "Shirlaw v Southern Foundries (1926) Ltd [1939] 2 KB 206", "Sale of Goods Act 1979, s.13"],
+    "difficulty": "hard", "tags": ["consolidation", "arcos", "shirlaw", "officious-bystander"]
+  },
+  {
+    "lessonId": "lesson-A6-2", "microSkill": "A6.2", "block": "consolidation", "phase": "consolidation",
+    "type": "spot_error",
+    "question": "[CONSOLIDATION — All Blocks] Spot the legal errors:\n\n'English law recognises only one type of implied term — those that the parties implicitly agreed upon. Terms cannot be implied by law, by custom, or by statute because that would undermine the principle of freedom of contract. If a contract is silent on a matter, the court's only role is to enforce the express terms as written.'",
+    "answer": "This is wrong in at least three respects. (1) English law recognises multiple sources of implied terms: implied in fact (*The Moorcock*, *Shirlaw*), implied by law (*Liverpool City Council v Irwin*), implied by custom (*Hutton v Warren*), and implied by statute (SGA 1979, ss.12–14). (2) Freedom of contract is not absolute — terms implied by law and by statute operate as default rules that parties can sometimes (but not always) exclude. (3) The court's role is not limited to enforcing express terms — gap-filling through implication is a core judicial function. Silence does not mean absence of obligation.",
+    "options": [],
+    "feedback": "Correct. The hierarchy of implied terms is a fundamental framework: fact (specific intention), law (class of contract), custom (trade usage), statute (legislative policy). Courts actively fill gaps where necessary for commercial coherence — they do not merely read express terms and stop.",
+    "oscoaReferences": ["The Moorcock (1889) 14 PD 64", "Liverpool City Council v Irwin [1977] AC 239", "Hutton v Warren (1836) 1 M & W 466", "Sale of Goods Act 1979, ss.12–14", "Marks & Spencer plc v BNP Paribas Securities Services Trust Co (Jersey) Ltd [2015] UKSC 72"],
+    "difficulty": "hard", "tags": ["consolidation", "implied-terms", "sources", "spot-error"]
+  },
+  {
+    "lessonId": "lesson-A6-2", "microSkill": "A6.2", "block": "consolidation", "phase": "consolidation",
+    "type": "msq",
+    "question": "[CONSOLIDATION — All Blocks] Which THREE of the following correctly state principles governing implied terms under English law?",
+    "answer": "a,c,e",
+    "options": [
+      {"id": "a", "text": "A term implied in fact must satisfy the business efficacy test (necessity to make the contract work) or the officious bystander test (obviousness) — these are complementary, not alternative, tests", "correct": true, "feedback": "Correct. *The Moorcock* and *Shirlaw* provide two formulations of the same inquiry. *M&S v BNP Paribas* [2015] confirms they are complementary. The underlying test is necessity."},
+      {"id": "b", "text": "A term implied by law, such as the landlord's duty to maintain common parts under Irwin [1977], depends on proving the specific landlord actually intended to be bound by it", "correct": false, "feedback": "Incorrect. Terms implied by law are incidents of a class of contract — they do not depend on the specific parties' intentions. *Irwin* [1977] is implied by law, not by fact."},
+      {"id": "c", "text": "Under s.14(2) SGA 1979, goods sold in the course of a business must be of satisfactory quality — this applies to both new and second-hand goods, with the standard calibrated to price and description", "correct": true, "feedback": "Correct. *Stevenson v Rogers* [1999] confirms 'in the course of a business' is broad. The standard is relative — a cheap second-hand item is judged differently from a new premium item, but the obligation exists in both cases."},
+      {"id": "d", "text": "A trade custom is implied as a contractual term automatically once the parties enter a contract within that trade — no party needs to prove the custom exists", "correct": false, "feedback": "Incorrect. Customs must be proved — the party asserting the custom bears the burden. The custom must be certain, notorious, reasonable, and consistent with express terms. Judicial notice is not taken of trade customs."},
+      {"id": "e", "text": "The SGA 1979 implied terms (ss.12–14) can be excluded in some business contracts but are heavily protected in consumer contracts by UCTA 1977, and s.12 (title) can never be excluded against a consumer", "correct": true, "feedback": "Correct. UCTA 1977 creates a hierarchy of restrictiveness. s.12 cannot be excluded at all in consumer contracts. ss.13–14 implied terms may only be excluded if reasonable. B2B contracts have more scope for exclusion."},
+      {"id": "f", "text": "If a contract is entirely in writing, no implied terms can supplement it — the written document is the entire agreement", "correct": false, "feedback": "Incorrect. Written contracts routinely contain implied terms. An entire agreement clause may limit implication, but does not exclude terms implied by statute (which operate as a matter of law, not party intention)."}
+    ],
+    "feedback": "Correct: (a), (c), and (e). These three principles span the full framework: (a) the common law test for implication in fact, (c) the statutory standard under s.14(2), and (e) the interaction between SGA 1979 and UCTA 1977.",
+    "oscoaReferences": ["The Moorcock (1889) 14 PD 64", "Shirlaw v Southern Foundries (1926) Ltd [1939] 2 KB 206", "Marks & Spencer plc v BNP Paribas Securities Services Trust Co (Jersey) Ltd [2015] UKSC 72", "Sale of Goods Act 1979, ss.12–14", "Unfair Contract Terms Act 1977"],
+    "difficulty": "hard", "tags": ["consolidation", "implied-terms", "msq"]
+  }
+]

@@ -1,0 +1,385 @@
+[
+  {
+    "lessonId": "lesson-A4-2", "microSkill": "A4.2", "block": "A", "phase": "teaching",
+    "teachingSummary": "**The Presumption in Commercial Agreements**\n\nIn commercial agreements, there is a strong presumption that the parties intended to create legal relations. Unlike domestic agreements, the burden rests on the party asserting that there was NO legal intent, and this is a heavy burden to discharge.\n\n**Edwards v Skyways Ltd [1964] 1 WLR 349**\n\nAn airline pilot was made redundant. The company promised to pay him an ex gratia payment (a voluntary payment made without admission of liability) in lieu of his pension contributions. When the company failed to pay, the pilot sued. Megaw J held: the words 'ex gratia' in a commercial context do not negate contractual intention. A promise to pay money in a business setting, even described as 'ex gratia,' is presumed to be intended to create legal relations. The words 'ex gratia' go to the absence of a pre-existing legal obligation (which is precisely why the promise is needed), not to the absence of intention to be bound by the promise itself.\n\n**Kleinwort Benson Ltd v Malaysia Mining Corp Bhd [1989] 1 WLR 379**\n\nThe defendant (MMC) was the parent company of a subsidiary that borrowed money from Kleinwort Benson. MMC issued a 'comfort letter' stating: 'It is our policy to ensure that the business of [the subsidiary] is at all times in a position to meet its liabilities.' When the subsidiary went into liquidation, Kleinwort sued MMC on the comfort letter. The Court of Appeal held the comfort letter did NOT create a binding contract. The language was one of policy, not promise — it was a statement of present intention, not a contractual undertaking. MMC's refusal to guarantee the subsidiary's loans explicitly showed they did not intend to be legally bound by the comfort letter.\n\n**The Distinction from Comfort Letters**\n\nComfort letters fall on a spectrum: (i) a statement of present fact or policy (not binding), (ii) a moral obligation (not binding), (iii) a contractual promise (binding). The court looks at the language used, the commercial context, and whether the parties expressly declined to give a guarantee. Where the parties deliberately choose 'comfort' language over contractual language, that is powerful evidence against legal intention.\n\n**Key Principle:** In commercial dealings, the presumption of legal intent is strong but rebuttable. Clear disclaimers, 'comfort letter' language, and express refusals to give guarantees can rebut the presumption — but vague or ambiguous language will likely be interpreted as contractual.",
+    "type": "teaching", "question": "", "answer": "", "options": [], "feedback": "",
+    "oscoaReferences": ["Edwards v Skyways Ltd [1964] 1 WLR 349", "Kleinwort Benson Ltd v Malaysia Mining Corp Bhd [1989] 1 WLR 379"],
+    "difficulty": "medium", "tags": ["commercial-agreements", "intention", "edwards-v-skyways", "comfort-letters"]
+  },
+  {
+    "lessonId": "lesson-A4-2", "microSkill": "A4.2", "block": "A", "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "_________ v Skyways Ltd [1964] 1 WLR 349 held that the words 'ex gratia' in a commercial context do not negate contractual intention — the promise was binding.",
+    "answer": "Edwards",
+    "options": [],
+    "feedback": "Correct. In *Edwards v Skyways* [1964], Megaw J held that 'ex gratia' in a commercial setting simply means the payment is made without admission of a pre-existing obligation — not that the promise itself is unenforceable.",
+    "oscoaReferences": ["Edwards v Skyways Ltd [1964] 1 WLR 349"],
+    "difficulty": "easy", "tags": ["edwards-v-skyways", "ex-gratia"]
+  },
+  {
+    "lessonId": "lesson-A4-2", "microSkill": "A4.2", "block": "A", "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "_________ Ltd v Malaysia Mining Corp Bhd [1989] 1 WLR 379 established that a comfort letter stating company policy is NOT a binding contractual promise if the parties deliberately avoided giving a formal guarantee.",
+    "answer": "Kleinwort Benson",
+    "options": [],
+    "feedback": "Correct. In *Kleinwort Benson*, the Court of Appeal distinguished between a contractual promise and a statement of present policy. The parent company's refusal to provide a guarantee was evidence that the comfort letter was not intended to be legally binding.",
+    "oscoaReferences": ["Kleinwort Benson Ltd v Malaysia Mining Corp Bhd [1989] 1 WLR 379"],
+    "difficulty": "easy", "tags": ["kleinwort-benson", "comfort-letter"]
+  },
+  {
+    "lessonId": "lesson-A4-2", "microSkill": "A4.2", "block": "A", "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "Under the law of contract, there is no specific statutory provision governing intention to create legal relations — it is a matter of __________ law established through case precedent.",
+    "answer": "common",
+    "options": [],
+    "feedback": "Correct. Intention to create legal relations is a common law requirement for contract formation, developed through case law rather than statute. Both presumptions (domestic and commercial) are judge-made principles.",
+    "oscoaReferences": ["Edwards v Skyways Ltd [1964] 1 WLR 349"],
+    "difficulty": "easy", "tags": ["common-law", "intention"]
+  },
+  {
+    "lessonId": "lesson-A4-2", "microSkill": "A4.2", "block": "A", "phase": "teaching",
+    "type": "drag_elements",
+    "question": "Arrange the steps in the court's reasoning in Edwards v Skyways Ltd [1964]:",
+    "answer": "Company promised 'ex gratia' payment to redundant pilot → Pilot accepted the redundancy terms including the promise → Company failed to pay → Pilot sued for breach → Megaw J: 'ex gratia' means without admission of pre-existing liability → The promise is still intended to create legal relations in a commercial context → Contract was enforceable",
+    "options": [
+      {"id": "1", "text": "Company promised 'ex gratia' payment to redundant pilot", "order": 1},
+      {"id": "2", "text": "Pilot accepted the redundancy terms including the promise", "order": 2},
+      {"id": "3", "text": "Company failed to pay", "order": 3},
+      {"id": "4", "text": "Pilot sued for breach", "order": 4},
+      {"id": "5", "text": "Megaw J: 'ex gratia' means without admission of pre-existing liability", "order": 5},
+      {"id": "6", "text": "The promise is still intended to create legal relations in a commercial context", "order": 6},
+      {"id": "7", "text": "Contract was enforceable", "order": 7}
+    ],
+    "feedback": "Correct. The key insight in *Edwards v Skyways* is that 'ex gratia' describes the absence of a prior legal obligation, not the absence of contractual intent in the new promise.",
+    "oscoaReferences": ["Edwards v Skyways Ltd [1964] 1 WLR 349"],
+    "difficulty": "medium", "tags": ["edwards-v-skyways", "sequencing"]
+  },
+  {
+    "lessonId": "lesson-A4-2", "microSkill": "A4.2", "block": "A", "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "TechCorp writes to InvestBank: 'It is our policy to ensure that our subsidiary TechSub Ltd remains able to meet its financial obligations at all times.' TechSub borrows £5m from InvestBank and later defaults. InvestBank sues TechCorp on the letter. What is the likely outcome?",
+    "answer": "c",
+    "options": [
+      {"id": "a", "text": "TechCorp is bound — any statement about a subsidiary's finances in a commercial context is a contractual guarantee", "correct": false, "feedback": "Incorrect. Under *Kleinwort Benson* [1989], language of 'policy' is not a contractual promise. The court distinguishes between a guarantee and a statement of present intention."},
+      {"id": "b", "text": "TechCorp is bound — commercial statements are always intended to be legally binding", "correct": false, "feedback": "Incorrect. The commercial presumption is rebuttable, and *Kleinwort Benson* provides a clear example of rebuttal: the deliberate use of 'comfort' language rather than a guarantee."},
+      {"id": "c", "text": "TechCorp is not bound — this is a comfort letter using language of policy, not a contractual promise; under Kleinwort Benson, such statements lack legal intention", "correct": true, "feedback": "Correct. The facts mirror *Kleinwort Benson Ltd v Malaysia Mining Corp* [1989] directly. The language — 'it is our policy' — is a statement of present intention, not a binding contractual promise."},
+      {"id": "d", "text": "TechCorp is bound if InvestBank subjectively believed the letter was a guarantee", "correct": false, "feedback": "Incorrect. The test is objective, not based on one party's subjective belief. Under an objective interpretation of the words 'it is our policy,' the statement lacks contractual force."}
+    ],
+    "feedback": "Correct. This is a direct application of *Kleinwort Benson* [1989] — comfort letters using 'policy' language do not create contractual obligations. The deliberate choice of comfort rather than guarantee language shows the absence of legal intention.",
+    "oscoaReferences": ["Kleinwort Benson Ltd v Malaysia Mining Corp Bhd [1989] 1 WLR 379"],
+    "difficulty": "medium", "tags": ["kleinwort-benson", "comfort-letter", "scenario"]
+  },
+  {
+    "lessonId": "lesson-A4-2", "microSkill": "A4.2", "block": "A", "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "A supplier tells a retailer: 'We'll give you a £5,000 ex gratia discount on your next order as a goodwill gesture.' The retailer places the next order but the supplier refuses to apply the discount. Is the promise enforceable?",
+    "answer": "a",
+    "options": [
+      {"id": "a", "text": "Yes — under Edwards v Skyways [1964], 'ex gratia' in a commercial context does not negate contractual intention; it means no pre-existing obligation, not that the promise is unenforceable", "correct": true, "feedback": "Correct. The principle from *Edwards v Skyways* applies: 'ex gratia' means the supplier is not admitting a prior liability, but the promise of a discount in a commercial context is presumed to be intended to be legally binding."},
+      {"id": "b", "text": "No — 'ex gratia' means the discount is purely voluntary and cannot be enforced", "correct": false, "feedback": "Incorrect. *Edwards v Skyways* established that 'ex gratia' merely acknowledges the absence of a pre-existing duty, not the absence of intention to be bound by the promise itself."},
+      {"id": "c", "text": "Yes — but only if the retailer issued formal acceptance in writing", "correct": false, "feedback": "Incorrect. There is no requirement for formal written acceptance. The retailer's act of placing the order demonstrates acceptance and reliance on the promise."},
+      {"id": "d", "text": "No — goodwill gestures are social agreements, not commercial contracts", "correct": false, "feedback": "Incorrect. A goodwill gesture between commercial entities remains a commercial agreement, not a social one. The commercial presumption applies."}
+    ],
+    "feedback": "Correct. *Edwards v Skyways* [1964] teaches that 'ex gratia' in business contexts does not defeat contractual intention. The supplier's promise to give a discount is a binding commercial promise.",
+    "oscoaReferences": ["Edwards v Skyways Ltd [1964] 1 WLR 349"],
+    "difficulty": "medium", "tags": ["edwards-v-skyways", "ex-gratia", "scenario"]
+  },
+  {
+    "lessonId": "lesson-A4-2", "microSkill": "A4.2", "block": "A", "phase": "teaching",
+    "type": "spot_error",
+    "question": "Spot the error: 'If a parent company issues a comfort letter stating that it is its policy to support its subsidiary, this automatically creates a binding guarantee. The commercial presumption means all statements between businesses are contracts.'",
+    "answer": "A comfort letter stating 'policy' is not automatically a binding guarantee. Kleinwort Benson [1989] establishes that comfort letters using policy language lack contractual intention, especially where parties deliberately avoided giving a formal guarantee. The commercial presumption is rebuttable — clear language of policy may rebut it. Not all business communications are contracts.",
+    "options": [],
+    "feedback": "Correct. *Kleinwort Benson* [1989] is the direct authority: 'it is our policy' is a statement of present intention, not a contractual promise. The commercial presumption is rebuttable, and comfort letters often rebut it.",
+    "oscoaReferences": ["Kleinwort Benson Ltd v Malaysia Mining Corp Bhd [1989] 1 WLR 379"],
+    "difficulty": "hard", "tags": ["kleinwort-benson", "comfort-letter", "spot-error"]
+  },
+  {
+    "lessonId": "lesson-A4-2", "microSkill": "A4.2", "block": "A", "phase": "teaching",
+    "type": "msq",
+    "question": "Which TWO of the following correctly describe intention to create legal relations in commercial agreements?",
+    "answer": "b,d",
+    "options": [
+      {"id": "a", "text": "The presumption that commercial parties intend to create legal relations is irrebuttable", "correct": false, "feedback": "Incorrect. The presumption is strong but rebuttable. *Kleinwort Benson* [1989] demonstrates successful rebuttal through comfort-letter language."},
+      {"id": "b", "text": "A party seeking to rebut the commercial presumption bears a heavy burden of proof", "correct": true, "feedback": "Correct. *Barbudev v Eurocom Cable Management* [2012] confirms the burden is on the party asserting no legal intent, and it is a heavy burden in commercial contexts."},
+      {"id": "c", "text": "The words 'ex gratia' automatically mean the promise is unenforceable as a matter of law", "correct": false, "feedback": "Incorrect. *Edwards v Skyways* [1964] held that 'ex gratia' in a commercial context means there is no admission of pre-existing liability — the promise itself can still be binding."},
+      {"id": "d", "text": "Comfort letters using 'policy' language may rebut the commercial presumption if the parties deliberately avoided giving a formal guarantee", "correct": true, "feedback": "Correct. *Kleinwort Benson* [1989] turned on the fact that the parent company deliberately refused to guarantee and instead used 'policy' language — this rebutted the presumption."},
+      {"id": "e", "text": "All commercial communications are automatically binding contracts", "correct": false, "feedback": "Incorrect. Not every commercial communication is a contract. There must be offer, acceptance, consideration, and intention. A mere inquiry or negotiation is not binding."}
+    ],
+    "feedback": "Correct: (b) and (d). The commercial presumption is strong but rebuttable (*Kleinwort Benson* [1989]), and the party seeking to rebut it bears a heavy burden (*Barbudev* [2012]). Comfort letters can rebut the presumption if properly drafted.",
+    "oscoaReferences": ["Kleinwort Benson Ltd v Malaysia Mining Corp Bhd [1989] 1 WLR 379", "Barbudev v Eurocom Cable Management Bulgaria EOOD [2012] EWCA Civ 548"],
+    "difficulty": "medium", "tags": ["commercial-agreements", "intention", "msq"]
+  },
+  {
+    "lessonId": "lesson-A4-2", "microSkill": "A4.2", "block": "B", "phase": "teaching",
+    "teachingSummary": "**Honour Clauses — Express Exclusion of Legal Intention**\n\nParties may expressly exclude the intention to create legal relations through a clause stating the agreement is 'binding in honour only.' This is a deliberate contractual technique used to create a moral or commercial understanding that is not legally enforceable.\n\n**Rose & Frank Co v JR Crompton & Bros Ltd [1925] AC 445**\n\nA distribution agreement between a US company (Rose & Frank) and a UK manufacturer (Crompton) contained the following clause: 'This arrangement is not entered into, nor is this memorandum written, as a formal or legal agreement, and shall not be subject to legal jurisdiction in the law courts ... but it is a definite expression and record of the purpose and intention of the three parties concerned, to which they each honourably pledge themselves.' When Crompton terminated the arrangement without notice, Rose & Frank sued. The House of Lords held: the honour clause was effective — the overarching distribution agreement was NOT a legally binding contract. However, individual purchase orders placed under the arrangement WERE binding contracts — the honour clause applied only to the framework, not to the specific transactions.\n\n**Jones v Vernon's Pools Ltd [1938] 2 All ER 626**\n\nA football pools coupon contained a clause: 'The transaction ... shall not ... be attended by or give rise to any legal relationship ... but binding in honour only.' The court held this honour clause was effective — the pools agreement was unenforceable. The clause clearly and unambiguously excluded legal relations.\n\n**The Policy Rationale**\n\nFreedom of contract includes the freedom NOT to contract. Honour clauses are valid because: (i) parties are the best judges of their own interests, (ii) there may be legitimate commercial reasons for non-legal arrangements (flexibility, speed, avoiding litigation costs), (iii) the court respects party autonomy. However, honour clauses must be clearly drafted — ambiguous exclusion of legal relations may be interpreted against the party seeking to rely on it (contra proferentem).\n\n**Key Distinction:** An honour clause in a framework agreement does NOT automatically make individual transactional orders non-binding. The court examines each transaction separately (*Rose & Frank*).",
+    "type": "teaching", "question": "", "answer": "", "options": [], "feedback": "",
+    "oscoaReferences": ["Rose & Frank Co v JR Crompton & Bros Ltd [1925] AC 445", "Jones v Vernon's Pools Ltd [1938] 2 All ER 626"],
+    "difficulty": "medium", "tags": ["honour-clause", "intention", "rose-and-frank", "freedom-of-contract"]
+  },
+  {
+    "lessonId": "lesson-A4-2", "microSkill": "A4.2", "block": "B", "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "_________ v Crompton [1925] AC 445 is the leading authority on honour clauses: a distribution agreement labelled 'binding in honour only' was not legally enforceable, but individual purchase orders under it were.",
+    "answer": "Rose & Frank Co",
+    "options": [],
+    "feedback": "Correct. *Rose & Frank Co v JR Crompton & Bros Ltd* [1925] established the effectiveness of honour clauses in excluding legal relations while preserving the binding nature of individual transactions under the framework.",
+    "oscoaReferences": ["Rose & Frank Co v JR Crompton & Bros Ltd [1925] AC 445"],
+    "difficulty": "easy", "tags": ["rose-and-frank", "honour-clause"]
+  },
+  {
+    "lessonId": "lesson-A4-2", "microSkill": "A4.2", "block": "B", "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "_________ v Vernon's Pools Ltd [1938] confirmed that a football pools coupon clause stating the arrangement was 'binding in honour only' effectively excluded any legal relationship.",
+    "answer": "Jones",
+    "options": [],
+    "feedback": "Correct. In *Jones v Vernon's Pools* [1938], the honour clause in the football pools coupon was held effective. The plaintiff could not recover winnings through legal action.",
+    "oscoaReferences": ["Jones v Vernon's Pools Ltd [1938] 2 All ER 626"],
+    "difficulty": "easy", "tags": ["jones-v-vernons-pools", "honour-clause"]
+  },
+  {
+    "lessonId": "lesson-A4-2", "microSkill": "A4.2", "block": "B", "phase": "teaching",
+    "type": "drag_elements",
+    "question": "Arrange the analytical steps when a contract contains an honour clause:",
+    "answer": "Identify the honour clause in the agreement → Determine whether the clause is clearly drafted to exclude legal relations → If clear: the main agreement is not legally binding → Consider whether individual transactions under the agreement are separate contracts → Apply the standard test for contract formation to each individual transaction",
+    "options": [
+      {"id": "1", "text": "Identify the honour clause in the agreement", "order": 1},
+      {"id": "2", "text": "Determine whether the clause is clearly drafted to exclude legal relations", "order": 2},
+      {"id": "3", "text": "If clear: the main agreement is not legally binding", "order": 3},
+      {"id": "4", "text": "Consider whether individual transactions under the agreement are separate contracts", "order": 4},
+      {"id": "5", "text": "Apply the standard test for contract formation to each individual transaction", "order": 5}
+    ],
+    "feedback": "Correct. This follows the approach in *Rose & Frank* [1925]: the honour clause normally governs the framework, but individual transactions may still be contracts if they satisfy offer, acceptance, consideration, and intention.",
+    "oscoaReferences": ["Rose & Frank Co v JR Crompton & Bros Ltd [1925] AC 445"],
+    "difficulty": "medium", "tags": ["honour-clause", "framework", "sequencing"]
+  },
+  {
+    "lessonId": "lesson-A4-2", "microSkill": "A4.2", "block": "B", "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "Two companies sign a memorandum stating: 'This document records our mutual understanding and is binding in honour only. It shall not give rise to any legal obligations or be enforceable in any court.' Company A then places six purchase orders which Company B fulfils. Company A then refuses to place further orders. Company B sues for breach of the memorandum. What is the likely result?",
+    "answer": "b",
+    "options": [
+      {"id": "a", "text": "Company B succeeds — all commercial agreements are binding, and honour clauses are unenforceable as contrary to public policy", "correct": false, "feedback": "Incorrect. Honour clauses are valid under English law (*Rose & Frank* [1925]). Freedom of contract includes the freedom not to be legally bound."},
+      {"id": "b", "text": "Company B's claim on the memorandum fails — the honour clause is effective and excludes legal relations for the framework agreement, but Company B can claim on any individual unfulfilled purchase orders", "correct": true, "feedback": "Correct. Under *Rose & Frank Co v Crompton* [1925], the honour clause effectively excludes legal relations for the framework agreement. However, each purchase order is a separate contract — Company B can sue on individual orders."},
+      {"id": "c", "text": "Company B succeeds — because the parties performed under the memorandum, the honour clause is waived", "correct": false, "feedback": "Incorrect. Performance does not waive an honour clause. In *Rose & Frank*, performance of individual orders did not transform the framework into a contract — the honour clause remained effective."},
+      {"id": "d", "text": "Company B succeeds on the memorandum because it was signed by both parties", "correct": false, "feedback": "Incorrect. Signature does not override an express honour clause. If the parties deliberately chose to exclude legal relations, the court will give effect to that choice."}
+    ],
+    "feedback": "Correct. The honour clause protects the framework agreement from legal enforcement, but individual purchase orders are separate contracts. Under *Rose & Frank* [1925] AC 445, Company B's claim on the memorandum fails, but claims on specific orders succeed.",
+    "oscoaReferences": ["Rose & Frank Co v JR Crompton & Bros Ltd [1925] AC 445"],
+    "difficulty": "hard", "tags": ["honour-clause", "rose-and-frank", "scenario"]
+  },
+  {
+    "lessonId": "lesson-A4-2", "microSkill": "A4.2", "block": "B", "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "A football pools company prints on every coupon: 'This transaction is binding in honour only and shall not give rise to any legal relationship.' A player submits a winning coupon but the company refuses to pay, claiming the honour clause. Can the player sue?",
+    "answer": "d",
+    "options": [
+      {"id": "a", "text": "Yes — honour clauses in consumer contracts are void under the Consumer Rights Act 2015", "correct": false, "feedback": "Incorrect. While the CRA 2015 regulates unfair terms, *Jones v Vernon's Pools* [1938] established that honour clauses in pools coupons are valid. The CRA was enacted much later but does not automatically invalidate all honour clauses."},
+      {"id": "b", "text": "Yes — the company cannot rely on its own unfair contract terms", "correct": false, "feedback": "Incorrect. The fairness of the term is a separate question. *Jones v Vernon's Pools* [1938] held that a clearly drafted honour clause is effective regardless of whether it appears 'un fair' to the consumer."},
+      {"id": "c", "text": "Yes — submitting the coupon and the company accepting it created an implied contract", "correct": false, "feedback": "Incorrect. There is no implied contract where an express honour clause excludes legal relations. The clear wording prevails over any argument of implied agreement."},
+      {"id": "d", "text": "No — under Jones v Vernon's Pools [1938], a clearly drafted honour clause effectively excludes legal relations, and the player has no contractual claim", "correct": true, "feedback": "Correct. *Jones v Vernon's Pools Ltd* [1938] 2 All ER 626 is directly on point. The honour clause on the coupon is clear, unambiguous, and effective in excluding any legal relationship."}
+    ],
+    "feedback": "Correct. *Jones v Vernon's Pools* [1938] is directly applicable. Despite modern consumer protection legislation, the fundamental principle that parties may exclude legal relations through clear language remains. The honour clause is effective.",
+    "oscoaReferences": ["Jones v Vernon's Pools Ltd [1938] 2 All ER 626"],
+    "difficulty": "hard", "tags": ["jones-v-vernons-pools", "honour-clause", "scenario"]
+  },
+  {
+    "lessonId": "lesson-A4-2", "microSkill": "A4.2", "block": "B", "phase": "teaching",
+    "type": "spot_error",
+    "question": "Spot the error: 'An honour clause in a contract means the agreement is partly binding and partly not. The court will decide which parts are enforceable based on what is fair.'",
+    "answer": "An honour clause, if clearly drafted, means the entire agreement is not legally binding — not just parts of it. The court does not pick and choose based on 'fairness' but interprets the clause objectively. Under Rose & Frank [1925], the honour clause meant the whole framework agreement was unenforceable, but individual purchase orders were separate contracts. The key question is whether the clause clearly excludes legal relations for the entire agreement, not whether parts of it 'should' be enforceable.",
+    "options": [],
+    "feedback": "Correct. Honour clauses render agreements unenforceable in their entirety for the document they govern. The court does not sever or selectively enforce based on fairness. Separate transactions (like individual orders) are analysed independently under *Rose & Frank* [1925].",
+    "oscoaReferences": ["Rose & Frank Co v JR Crompton & Bros Ltd [1925] AC 445"],
+    "difficulty": "hard", "tags": ["honour-clause", "spot-error", "severance"]
+  },
+  {
+    "lessonId": "lesson-A4-2", "microSkill": "A4.2", "block": "B", "phase": "teaching",
+    "type": "msq",
+    "question": "Which TWO correctly describe the legal effect of a valid honour clause under English law?",
+    "answer": "a,c",
+    "options": [
+      {"id": "a", "text": "The agreement containing the honour clause is not legally enforceable as a contract", "correct": true, "feedback": "Correct. *Rose & Frank* [1925] established that a valid honour clause excludes the formation of a legally binding contract for the governed agreement."},
+      {"id": "b", "text": "The agreement is void for illegality", "correct": false, "feedback": "Incorrect. An agreement with an honour clause is not illegal — it is simply unenforceable as a contract. There is nothing unlawful about choosing not to be legally bound."},
+      {"id": "c", "text": "Individual transactions under the agreement may still be binding contracts if they satisfy the normal requirements of offer, acceptance, consideration, and intention", "correct": true, "feedback": "Correct. *Rose & Frank* [1925] held that while the framework was not binding, each individual purchase order was a separate contract — the honour clause applied only to the framework."},
+      {"id": "d", "text": "Honour clauses have been abolished by the Unfair Contract Terms Act 1977", "correct": false, "feedback": "Incorrect. UCTA 1977 deals with exemption and limitation clauses, not with honour clauses. Honour clauses remain valid under English law."},
+      {"id": "e", "text": "If parties have partly performed under an agreement with an honour clause, the clause is treated as waived", "correct": false, "feedback": "Incorrect. Partial performance does not waive an honour clause. In *Rose & Frank*, substantial performance under the framework did not convert it into a contract."}
+    ],
+    "feedback": "Correct: (a) and (c). A valid honour clause makes the agreement unenforceable as a contract, but individual transactions under it can still be binding. The key is that the honour clause governs the specific document, not necessarily all future dealings.",
+    "oscoaReferences": ["Rose & Frank Co v JR Crompton & Bros Ltd [1925] AC 445"],
+    "difficulty": "medium", "tags": ["honour-clause", "msq", "rose-and-frank"]
+  },
+  {
+    "lessonId": "lesson-A4-2", "microSkill": "A4.2", "block": "C", "phase": "teaching",
+    "teachingSummary": "**Modern Commercial Context — Letters of Intent & Subject to Contract**\n\nThe modern commercial world often involves 'subject to contract' negotiations and letters of intent. The key question: have the parties crossed the line from negotiation to contract?\n\n**Esso Petroleum Co Ltd v Commissioners of Customs and Excise [1976] 1 WLR 1**\n\nEsso ran a promotion: anyone buying four gallons of petrol would receive a 'free' World Cup coin. Customs and Excise argued the coins were 'produced in quantity for general sale' and thus subject to purchase tax. The House of Lords (by a majority) held the coins were not sold — they were given away in a promotion. But importantly, the majority held there WAS an intention to create legal relations in the promotion: Esso intended customers to take the offer seriously and act upon it. The 'free' coin was consideration for buying petrol — a collateral contract was formed. Lord Simon noted: 'The whole transaction took place in a commercial setting' — the commercial presumption applied.\n\n**The 'Subject to Contract' Label**\n\nIn modern commercial practice, 'subject to contract' creates a strong (but not absolute) presumption that the parties do not intend to be bound until formal contracts are exchanged. However, parties may waive this or their conduct may be inconsistent with it (*RTS Flexible Systems* [2010] — discussed in the earlier lessons). The label is not determinative; the court looks at the overall picture.\n\n**Key Distinction for the SQE:**\n- Commercial presumption vs domestic presumption — different starting points, different burdens\n- Honour clauses vs comfort letters — both exclude legal relations, but work differently\n- Letters of intent vs binding contracts — look at language and conduct objectively\n- The test is always objective — what would a reasonable person conclude, knowing the context?",
+    "type": "teaching", "question": "", "answer": "", "options": [], "feedback": "",
+    "oscoaReferences": ["Esso Petroleum Co Ltd v Commissioners of Customs and Excise [1976] 1 WLR 1", "RTS Flexible Systems Ltd v Molkerei Alois Müller GmbH & Co KG [2010] UKSC 14"],
+    "difficulty": "hard", "tags": ["esso-petroleum", "subject-to-contract", "commercial-context"]
+  },
+  {
+    "lessonId": "lesson-A4-2", "microSkill": "A4.2", "block": "C", "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "_________ Petroleum Co Ltd v Customs and Excise [1976] 1 WLR 1 illustrates that a commercial promotion (free coins with petrol) was intended to create legal relations — the free gift was consideration for a collateral contract to buy petrol.",
+    "answer": "Esso",
+    "options": [],
+    "feedback": "Correct. In *Esso Petroleum v Customs and Excise* [1976], the House of Lords held there was intention to create legal relations in the promotion. The customer bought petrol (consideration) and in return received the coins — a binding collateral contract existed.",
+    "oscoaReferences": ["Esso Petroleum Co Ltd v Commissioners of Customs and Excise [1976] 1 WLR 1"],
+    "difficulty": "easy", "tags": ["esso-petroleum", "collateral-contract"]
+  },
+  {
+    "lessonId": "lesson-A4-2", "microSkill": "A4.2", "block": "C", "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "In __________ Flexible Systems Ltd v Molkerei Alois Müller GmbH [2010] UKSC 14, the Supreme Court held that 'subject to contract' wording is not determinative — the parties' conduct can establish a binding contract despite such wording.",
+    "answer": "RTS",
+    "options": [],
+    "feedback": "Correct. *RTS Flexible Systems* [2010] is the modern authority on the objective test. 'Subject to contract' is strong but not absolute — if the parties' conduct objectively shows an intention to be bound, a contract exists.",
+    "oscoaReferences": ["RTS Flexible Systems Ltd v Molkerei Alois Müller GmbH & Co KG [2010] UKSC 14"],
+    "difficulty": "medium", "tags": ["rts-flexible", "subject-to-contract"]
+  },
+  {
+    "lessonId": "lesson-A4-2", "microSkill": "A4.2", "block": "C", "phase": "teaching",
+    "type": "drag_elements",
+    "question": "Match each type of pre-contractual document to its legal effect:",
+    "answer": "Comfort letter (policy language)=Not binding — statement of present intention; Honour clause='Binding in honour only' — excludes all legal relations; Letter of intent=May or may not be binding — depends on wording and conduct; Subject to contract=Presumption of no binding agreement until formal contracts exchanged",
+    "options": [
+      {"id": "comfort", "text": "Not binding — statement of present intention", "pair": "Comfort letter (policy language)"},
+      {"id": "honour", "text": "'Binding in honour only' — excludes all legal relations", "pair": "Honour clause"},
+      {"id": "loi", "text": "May or may not be binding — depends on wording and conduct", "pair": "Letter of intent"},
+      {"id": "stc", "text": "Presumption of no binding agreement until formal contracts exchanged", "pair": "Subject to contract"}
+    ],
+    "feedback": "Correct. Each pre-contractual label creates different legal effects. The key is to examine the objective meaning of the language used, not just the label.",
+    "oscoaReferences": ["Kleinwort Benson Ltd v Malaysia Mining Corp Bhd [1989] 1 WLR 379", "Rose & Frank Co v JR Crompton & Bros Ltd [1925] AC 445", "RTS Flexible Systems Ltd v Molkerei Alois Müller GmbH & Co KG [2010] UKSC 14"],
+    "difficulty": "medium", "tags": ["matching", "pre-contractual", "intention"]
+  },
+  {
+    "lessonId": "lesson-A4-2", "microSkill": "A4.2", "block": "C", "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "BuyMor supermarkets launch a promotion: 'Spend £50 in store and receive a free limited-edition ceramic plate worth £15.' The promotion terms state the offer is 'while stocks last.' A customer spends £50 but is told all plates are gone. Can the customer sue?",
+    "answer": "a",
+    "options": [
+      {"id": "a", "text": "Yes — under Esso Petroleum [1976], the promotion created a collateral contract: buying £50 of goods was consideration for the plate; this was a commercial arrangement intended to create legal relations", "correct": true, "feedback": "Correct. This mirrors *Esso Petroleum* [1976] — the customer provided consideration (buying £50 of goods) and the promotion created a binding collateral contract. However, if the terms said 'while stocks last,' the customer may only have a claim if there were still plates available when they shopped."},
+      {"id": "b", "text": "No — free gifts are never contractually enforceable", "correct": false, "feedback": "Incorrect. *Esso Petroleum* [1976] held that a 'free' gift can be consideration for a collateral contract, and the commercial context demonstrates legal intention."},
+      {"id": "c", "text": "Yes — all promotional statements are binding offers to the world under Carlill v Carbolic Smoke Ball Co", "correct": false, "feedback": "Incorrect. *Carlill* [1893] concerned a unilateral offer with proof of sincerity (money deposited in a bank). Ordinary retail promotions are different — they are governed by the principles in *Esso Petroleum*."},
+      {"id": "d", "text": "No — 'while stocks last' means the promotion is an invitation to treat, and the offer is made by the customer, which the shop can refuse", "correct": false, "feedback": "Partially correct but incomplete. The 'while stocks last' term may limit the remedy if stocks are genuinely exhausted, but the underlying analysis is still contractual under *Esso Petroleum* — it's not an invitation to treat."}
+    ],
+    "feedback": "Correct. Under *Esso Petroleum* [1976], the promotion was a commercial arrangement with legal intention. The customer provided consideration (buying £50 of goods), and the free plate was part of a collateral contract. 'While stocks last' limits the obligation, not the intention.",
+    "oscoaReferences": ["Esso Petroleum Co Ltd v Commissioners of Customs and Excise [1976] 1 WLR 1"],
+    "difficulty": "hard", "tags": ["esso-petroleum", "collateral-contract", "scenario", "promotion"]
+  },
+  {
+    "lessonId": "lesson-A4-2", "microSkill": "A4.2", "block": "C", "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "During contract negotiations, Party A sends a draft marked 'SUBJECT TO CONTRACT' in bold at the top. Despite never signing a formal contract, both parties begin performing as if the deal is done. Party B then pulls out. Party A sues. What is the likely result?",
+    "answer": "c",
+    "options": [
+      {"id": "a", "text": "Party A loses — 'subject to contract' is absolute; no contract can exist until signed", "correct": false, "feedback": "Incorrect. *RTS Flexible Systems* [2010] UKSC 14 established that 'subject to contract' is not absolute — conduct inconsistent with the label can override it and create a binding contract."},
+      {"id": "b", "text": "Party A wins — any performance by both parties creates a binding contract regardless of wording", "correct": false, "feedback": "Incorrect. Not every performance creates a contract — the court looks at the objective intentions. Some courts may hold that 'subject to contract' prevails despite initial performance."},
+      {"id": "c", "text": "It depends — under RTS Flexible Systems [2010], the court will examine the parties' objective conduct; if their actions objectively indicate they had moved beyond 'subject to contract' to a concluded agreement, there may be a binding contract", "correct": true, "feedback": "Correct. *RTS Flexible Systems* [2010] requires a holistic, objective analysis. 'Subject to contract' creates a strong presumption against binding intent, but the label can be displaced if the parties' conduct objectively demonstrates they intended to be bound."},
+      {"id": "d", "text": "Party A wins — 'subject to contract' is void for uncertainty", "correct": false, "feedback": "Incorrect. 'Subject to contract' is not void — it is a clear and common commercial label. The question is whether the label accurately reflects the parties' objective intentions in light of their conduct."}
+    ],
+    "feedback": "Correct. The modern position under *RTS Flexible Systems* [2010] is nuanced: 'subject to contract' creates a strong but rebuttable presumption. The court examines all the circumstances, including conduct, objectively. No single factor is determinative.",
+    "oscoaReferences": ["RTS Flexible Systems Ltd v Molkerei Alois Müller GmbH & Co KG [2010] UKSC 14"],
+    "difficulty": "hard", "tags": ["rts-flexible", "subject-to-contract", "scenario"]
+  },
+  {
+    "lessonId": "lesson-A4-2", "microSkill": "A4.2", "block": "C", "phase": "teaching",
+    "type": "spot_error",
+    "question": "Spot the error: 'There is only one test for intention to create legal relations: if the agreement is in a commercial context, contractual intent is automatically presumed and can never be rebutted.'",
+    "answer": "While there is a strong presumption of legal intent in commercial contexts, it is rebuttable. Kleinwort Benson [1989] demonstrates that comfort letters with policy language can rebut it. Edwards v Skyways [1964] distinguishes 'ex gratia' from intention. The test is always objective — looking at all the circumstances — not automatic. The commercial presumption is strong but not absolute.",
+    "options": [],
+    "feedback": "Correct. The commercial presumption is strong but rebuttable. *Kleinwort Benson* [1989] (comfort letters) and express honour clauses are clear examples of rebuttal. The objective test always applies — no presumption is absolute.",
+    "oscoaReferences": ["Edwards v Skyways Ltd [1964] 1 WLR 349", "Kleinwort Benson Ltd v Malaysia Mining Corp Bhd [1989] 1 WLR 379"],
+    "difficulty": "medium", "tags": ["commercial-presumption", "rebuttable", "spot-error"]
+  },
+  {
+    "lessonId": "lesson-A4-2", "microSkill": "A4.2", "block": "C", "phase": "teaching",
+    "type": "msq",
+    "question": "Which TWO of the following correctly describe the modern law on 'subject to contract'?",
+    "answer": "b,c",
+    "options": [
+      {"id": "a", "text": "Once 'subject to contract' is stated, no binding contract can ever arise between the parties", "correct": false, "feedback": "Incorrect. *RTS Flexible Systems* [2010] shows the label is not absolute — conduct can override it. The court takes a holistic, objective approach."},
+      {"id": "b", "text": "'Subject to contract' creates a strong presumption that the parties do not intend to be bound until formal documents are executed", "correct": true, "feedback": "Correct. This is the standard effect of 'subject to contract' language — it signals that the parties are still negotiating and intend formal execution to be the point of contract formation."},
+      {"id": "c", "text": "If the parties' conduct objectively demonstrates an intention to be bound despite 'subject to contract' wording, a binding contract may be found", "correct": true, "feedback": "Correct. *RTS Flexible Systems* [2010] UKSC 14 confirms that the court looks at all the circumstances objectively, not just the label."},
+      {"id": "d", "text": "'Subject to contract' is an outdated phrase that no longer has legal effect in modern commercial practice", "correct": false, "feedback": "Incorrect. 'Subject to contract' remains a significant and commonly used label in commercial negotiations, and it still carries substantial weight — it is simply not absolute."}
+    ],
+    "feedback": "Correct: (b) and (c). 'Subject to contract' creates a strong presumption against binding intent, but under *RTS Flexible Systems* [2010], conduct objectively indicating agreement can prevail despite the label.",
+    "oscoaReferences": ["RTS Flexible Systems Ltd v Molkerei Alois Müller GmbH & Co KG [2010] UKSC 14"],
+    "difficulty": "hard", "tags": ["subject-to-contract", "rts-flexible", "msq"]
+  },
+  {
+    "lessonId": "lesson-A4-2", "microSkill": "A4.2", "block": "consolidation", "phase": "consolidation",
+    "type": "fill_gap_case",
+    "question": "_________ Benson Ltd v Malaysia Mining Corp [1989] held that a comfort letter stating a parent company's 'policy to ensure' its subsidiary meets its obligations is not a binding contractual guarantee.",
+    "answer": "Kleinwort",
+    "options": [],
+    "feedback": "*Kleinwort Benson* [1989] is the leading comfort letter case. The language of 'policy' rather than promise, combined with the parent's refusal to guarantee, rebutted the commercial presumption of legal intent.",
+    "oscoaReferences": ["Kleinwort Benson Ltd v Malaysia Mining Corp Bhd [1989] 1 WLR 379"],
+    "difficulty": "easy", "tags": ["kleinwort-benson", "consolidation"]
+  },
+  {
+    "lessonId": "lesson-A4-2", "microSkill": "A4.2", "block": "consolidation", "phase": "consolidation",
+    "type": "fill_gap_case",
+    "question": "_________ v Skyways Ltd [1964] held that a promise described as 'ex gratia' in a commercial redundancy settlement was contractually binding — 'ex gratia' meant without admission of pre-existing liability, not without contractual intention.",
+    "answer": "Edwards",
+    "options": [],
+    "feedback": "*Edwards v Skyways* [1964] is the authority for interpreting 'ex gratia' in commercial settings. Megaw J distinguished between absence of a prior obligation and absence of intention to be bound by the new promise.",
+    "oscoaReferences": ["Edwards v Skyways Ltd [1964] 1 WLR 349"],
+    "difficulty": "medium", "tags": ["edwards-v-skyways", "consolidation"]
+  },
+  {
+    "lessonId": "lesson-A4-2", "microSkill": "A4.2", "block": "consolidation", "phase": "consolidation",
+    "type": "scenario_choice",
+    "question": "Company X sends Company Y a document titled 'Heads of Terms — Subject to Contract' outlining a proposed joint venture. Both companies begin working together on the venture, sharing resources and staff, for six months before Company X pulls out. Is there a binding contract?",
+    "answer": "b",
+    "options": [
+      {"id": "a", "text": "No — the 'Subject to Contract' label is absolute and prevents any contract from arising", "correct": false, "feedback": "Incorrect. *RTS Flexible Systems* [2010] UKSC 14 held that 'subject to contract' is not absolute. The court looks at the full picture, including the parties' conduct over time."},
+      {"id": "b", "text": "Possibly — under RTS Flexible Systems [2010], six months of joint working and resource-sharing may demonstrate that the parties objectively intended to be bound despite the label; the court will examine the full context", "correct": true, "feedback": "Correct. Extended performance (six months), resource-sharing, and joint working are powerful indicators that the parties had moved beyond negotiation to contract, despite the 'subject to contract' label. The holistic, objective test applies."},
+      {"id": "c", "text": "Yes — any commercial cooperation lasting more than three months automatically creates a binding contract", "correct": false, "feedback": "Incorrect. There is no fixed time threshold for contract formation by conduct. Each case depends on its specific facts and the objective assessment of the parties' intentions."},
+      {"id": "d", "text": "No — 'Heads of Terms' documents are always non-binding statements of intent", "correct": false, "feedback": "Incorrect. 'Heads of Terms' can be binding or non-binding depending on the parties' objective intentions. The label is relevant but not determinative."}
+    ],
+    "feedback": "Correct. Extended performance consistent with a concluded agreement can override 'subject to contract' labelling under *RTS Flexible Systems* [2010] UKSC 14. The holistic, objective test means no single label is conclusive.",
+    "oscoaReferences": ["RTS Flexible Systems Ltd v Molkerei Alois Müller GmbH & Co KG [2010] UKSC 14"],
+    "difficulty": "hard", "tags": ["rts-flexible", "consolidation", "scenario"]
+  },
+  {
+    "lessonId": "lesson-A4-2", "microSkill": "A4.2", "block": "consolidation", "phase": "consolidation",
+    "type": "scenario_choice",
+    "question": "An investment bank sends a 'comfort letter' to a lender stating: 'We confirm that it is our present intention to maintain our 100% shareholding in [Borrower Co] for the duration of the loan.' The bank later sells its shares and Borrower Co defaults. The lender sues the bank on the comfort letter. What is the outcome?",
+    "answer": "c",
+    "options": [
+      {"id": "a", "text": "The bank is bound — all statements by financial institutions are guarantees", "correct": false, "feedback": "Incorrect. Under *Kleinwort Benson* [1989], the key is the language used, not the identity of the speaker. A bank is judged by the same contractual principles as any commercial entity."},
+      {"id": "b", "text": "The bank is bound — the term 'present intention' is promissory in nature", "correct": false, "feedback": "Incorrect. 'Present intention' is a statement of current fact or policy, not a promise about the future. *Kleinwort Benson* distinguished between present intention and contractual promise."},
+      {"id": "c", "text": "The bank is not bound — under Kleinwort Benson [1989], 'present intention' is a statement of current policy, not a contractual promise; the comfort letter lacks legal intention", "correct": true, "feedback": "Correct. The language 'present intention' mirrors the key phrase in *Kleinwort Benson* — it describes current policy, not a binding future commitment. The deliberate choice of comfort language over guarantee language rebuts the commercial presumption."},
+      {"id": "d", "text": "The bank is partially bound — it must compensate the lender for its change of intention unless it gave notice", "correct": false, "feedback": "Incorrect. If the comfort letter is not a contract, there is no obligation at all — not even a duty to give notice. Comfort letters are either binding or they are not; there is no halfway house."}
+    ],
+    "feedback": "Correct. The phrase 'present intention' is the hallmark of a non-binding comfort letter under *Kleinwort Benson* [1989]. It describes the current state of mind, not a promise about future conduct. No contractual obligation arises.",
+    "oscoaReferences": ["Kleinwort Benson Ltd v Malaysia Mining Corp Bhd [1989] 1 WLR 379"],
+    "difficulty": "hard", "tags": ["kleinwort-benson", "comfort-letter", "consolidation"]
+  },
+  {
+    "lessonId": "lesson-A4-2", "microSkill": "A4.2", "block": "consolidation", "phase": "consolidation",
+    "type": "msq",
+    "question": "Which TWO of the following correctly distinguish a binding commercial promise from a non-binding statement?",
+    "answer": "a,c",
+    "options": [
+      {"id": "a", "text": "The word 'guarantee' is promissory; the phrase 'it is our policy' is not — this is the distinction drawn in Kleinwort Benson [1989]", "correct": true, "feedback": "Correct. The choice of language is crucial: 'guarantee' implies a binding promise; 'policy' implies a statement of present intention. This was the central analysis in *Kleinwort Benson*."},
+      {"id": "b", "text": "All documents exchanged in a commercial context are presumed to create binding contracts with no exceptions", "correct": false, "feedback": "Incorrect. The commercial presumption is strong but rebuttable. *Kleinwort Benson* [1989] and *Rose & Frank* [1925] are both examples of successful rebuttal."},
+      {"id": "c", "text": "Parties can expressly exclude legal relations through an honour clause, even in a commercial context — freedom of contract includes the freedom NOT to contract", "correct": true, "feedback": "Correct. *Rose & Frank* [1925] firmly establishes that parties can choose not to be legally bound through a clearly drafted honour clause."},
+      {"id": "d", "text": "The label 'ex gratia' always means a payment is voluntary and cannot be contractually claimed", "correct": false, "feedback": "Incorrect. *Edwards v Skyways* [1964] held that 'ex gratia' in a commercial context means there is no pre-existing obligation — the promise of payment remains binding if made in a commercial setting."},
+      {"id": "e", "text": "A company's statement that it 'intends' to do something is always a binding contractual promise", "correct": false, "feedback": "Incorrect. A statement of intention is not necessarily a promise. *Kleinwort Benson* [1989] shows that 'it is our policy' and 'present intention' are not promises. The language matters."}
+    ],
+    "feedback": "Correct: (a) and (c). Language choice ('guarantee' vs 'policy') is critical (*Kleinwort Benson*), and parties can expressly exclude legal relations (*Rose & Frank*). 'Ex gratia' in commercial contexts may still be binding (*Edwards v Skyways*).",
+    "oscoaReferences": ["Kleinwort Benson Ltd v Malaysia Mining Corp Bhd [1989] 1 WLR 379", "Rose & Frank Co v JR Crompton & Bros Ltd [1925] AC 445", "Edwards v Skyways Ltd [1964] 1 WLR 349"],
+    "difficulty": "medium", "tags": ["consolidation", "msq", "commercial-intention"]
+  },
+  {
+    "lessonId": "lesson-A4-2", "microSkill": "A4.2", "block": "consolidation", "phase": "consolidation",
+    "type": "spot_error",
+    "question": "Spot the error: 'Since the commercial presumption of legal intent is so strong, companies should never worry about the language they use in pre-contractual documents. Any statement made in a business context will be enforceable.'",
+    "answer": "This is dangerously wrong. Language matters enormously. Kleinwort Benson [1989] shows that choosing 'policy' rather than 'guarantee' determines enforceability. Rose & Frank [1925] shows honour clauses are effective. Companies must draft pre-contractual documents with extreme care — the wrong language can unintentionally create binding obligations, and the right language can deliberately avoid them.",
+    "options": [],
+    "feedback": "Correct. Language selection is critical in commercial contracting. *Kleinwort Benson*, *Rose & Frank*, and *RTS Flexible Systems* all demonstrate that courts pay close attention to the precise words used. Lax drafting of pre-contractual documents is a major source of commercial risk.",
+    "oscoaReferences": ["Kleinwort Benson Ltd v Malaysia Mining Corp Bhd [1989] 1 WLR 379", "Rose & Frank Co v JR Crompton & Bros Ltd [1925] AC 445", "RTS Flexible Systems Ltd v Molkerei Alois Müller GmbH & Co KG [2010] UKSC 14"],
+    "difficulty": "hard", "tags": ["consolidation", "drafting", "spot-error", "commercial-risk"]
+  }
+]

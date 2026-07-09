@@ -1,0 +1,375 @@
+[
+  {
+    "lessonId": "lesson-A5-2", "microSkill": "A5.2", "block": "A", "phase": "teaching",
+    "teachingSummary": "**Letters of Intent — The Pre-Contractual Minefield**\n\nA letter of intent is a document expressing a party's intention to enter into a contract. It occupies the uncertain territory between negotiation and agreement. Whether it is legally binding depends on the parties' objective intentions.\n\n**British Steel Corp v Cleveland Bridge & Engineering Co [1984] 1 All ER 504**\n\nCleveland Bridge needed steel nodes for a construction project and sent British Steel a letter of intent requesting manufacture to begin, with the price to be negotiated later. British Steel manufactured and delivered all but one node. The parties never agreed on a price. Robert Goff J held: (1) the letter of intent did NOT create a binding contract — essential terms (price, delivery dates) had not been agreed; (2) however, British Steel could recover on a *quantum meruit* (reasonable sum for work done) basis — this is not a contractual remedy but a restitutionary one. The case illustrates that even a non-binding letter of intent creates legal consequences: the performing party can be paid for work done.\n\n**RTS Flexible Systems v Molkerei Alois Müller [2010] UKSC 14 — The Opposite Outcome**\n\nRTS supplied automated packaging machinery to Müller under a letter of intent. Despite 'subject to contract' wording never being removed, the parties performed the entire contract — RTS manufactured and installed the equipment, Müller paid most of the price. When a dispute arose, the Supreme Court held a BINDING contract existed based on the parties' conduct, despite the 'subject to contract' label. The key factors: (1) the parties had agreed on all essential terms in practice, (2) performance was complete, (3) a waiver of the 'subject to contract' condition could be inferred from conduct.\n\n**The Spectrum of Letters of Intent:**\n1. Non-binding expression of intent (no contract, but quantum meruit possible)\n2. Binding interim contract (e.g., obligation to pay for work done, but final terms pending)\n3. Fully binding contract (despite the label — as in *RTS Flexible Systems*)\n\n**Key Principle:** Labels are not determinative. The court applies the objective test — what would a reasonable person conclude from the parties' words and conduct?",
+    "type": "teaching", "question": "", "answer": "", "options": [], "feedback": "",
+    "oscoaReferences": ["British Steel Corp v Cleveland Bridge & Engineering Co [1984] 1 All ER 504", "RTS Flexible Systems Ltd v Molkerei Alois Müller GmbH & Co KG [2010] UKSC 14"],
+    "difficulty": "medium", "tags": ["letters-of-intent", "british-steel", "rts-flexible"]
+  },
+  {
+    "lessonId": "lesson-A5-2", "microSkill": "A5.2", "block": "A", "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "_________ Steel Corp v Cleveland Bridge & Engineering Co [1984] held that a letter of intent did not create a binding contract where essential terms (price, delivery) were not agreed, but the performing party could recover on a quantum meruit basis.",
+    "answer": "British",
+    "options": [],
+    "feedback": "Correct. *British Steel v Cleveland Bridge* [1984] is the classic letter-of-intent case: no contract formed, but restitutionary recovery for work done is available. Quantum meruit fills the gap where contractual terms were never finalised.",
+    "oscoaReferences": ["British Steel Corp v Cleveland Bridge & Engineering Co [1984] 1 All ER 504"],
+    "difficulty": "easy", "tags": ["british-steel", "quantum-meruit"]
+  },
+  {
+    "lessonId": "lesson-A5-2", "microSkill": "A5.2", "block": "A", "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "_________ Flexible Systems Ltd v Molkerei Alois Müller GmbH [2010] UKSC 14 held that a binding contract can arise from the parties' conduct despite 'subject to contract' language — the label is not determinative.",
+    "answer": "RTS",
+    "options": [],
+    "feedback": "Correct. The Supreme Court in *RTS Flexible Systems* held that the objective test applies — if the parties' conduct shows an intention to be bound, the 'subject to contract' label does not prevent a contract from arising.",
+    "oscoaReferences": ["RTS Flexible Systems Ltd v Molkerei Alois Müller GmbH & Co KG [2010] UKSC 14"],
+    "difficulty": "medium", "tags": ["rts-flexible", "subject-to-contract"]
+  },
+  {
+    "lessonId": "lesson-A5-2", "microSkill": "A5.2", "block": "A", "phase": "teaching",
+    "type": "drag_elements",
+    "question": "Arrange the analytical steps for determining whether a letter of intent is binding:",
+    "answer": "Read the letter's express wording → Identify whether essential terms are agreed or merely contemplated → Assess whether the parties' conduct is inconsistent with non-binding intent → Apply the objective test: what would a reasonable person conclude? → Classify the document: non-binding, binding interim contract, or fully binding",
+    "options": [
+      {"id": "1", "text": "Read the letter's express wording", "order": 1},
+      {"id": "2", "text": "Identify whether essential terms are agreed or merely contemplated", "order": 2},
+      {"id": "3", "text": "Assess whether the parties' conduct is inconsistent with non-binding intent", "order": 3},
+      {"id": "4", "text": "Apply the objective test: what would a reasonable person conclude?", "order": 4},
+      {"id": "5", "text": "Classify the document: non-binding, binding interim contract, or fully binding", "order": 5}
+    ],
+    "feedback": "Correct. The analysis follows the objective approach confirmed in *RTS Flexible Systems*. The label matters, but conduct and the agreement of essential terms are often more important.",
+    "oscoaReferences": ["RTS Flexible Systems Ltd v Molkerei Alois Müller GmbH & Co KG [2010] UKSC 14"],
+    "difficulty": "medium", "tags": ["letters-of-intent", "framework", "sequencing"]
+  },
+  {
+    "lessonId": "lesson-A5-2", "microSkill": "A5.2", "block": "A", "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "Builder Ltd sends Client Ltd a letter: 'We are pleased to confirm our intention to carry out the renovation works at your premises for a price to be agreed. Please instruct us to commence.' Client tells Builder to start. Builder completes the work and submits an invoice for £150,000. Client says the work is worth only £80,000. No price was ever agreed. Can Builder recover?",
+    "answer": "c",
+    "options": [
+      {"id": "a", "text": "Builder can recover £150,000 under a binding contract", "correct": false, "feedback": "Incorrect. The letter states 'price to be agreed' — the parties never agreed a price. Essential terms are missing, so no binding contract exists on these facts."},
+      {"id": "b", "text": "Builder cannot recover anything — without a contract, the work was done at Builder's own risk", "correct": false, "feedback": "Incorrect. Under *British Steel* [1984], even where no contract exists, the performing party can recover on a quantum meruit basis — a restitutionary remedy for work done at the defendant's request."},
+      {"id": "c", "text": "Builder can recover a reasonable sum (quantum meruit) for the work done under British Steel [1984] — not the claimed £150,000, but what the court finds is reasonable", "correct": true, "feedback": "Correct. This is a direct application of *British Steel Corp v Cleveland Bridge* [1984]. No contract (price not agreed), but Builder performed work at Client's request — quantum meruit allows recovery of a reasonable sum."},
+      {"id": "d", "text": "Builder can recover £80,000 — Client's admission of value creates a binding settlement", "correct": false, "feedback": "Incorrect. Client's statement about the value of the work is not a binding admission of quantum meruit value — it is evidence but not conclusive. The court determines what is reasonable."}
+    ],
+    "feedback": "Correct. The facts mirror *British Steel Corp v Cleveland Bridge* [1984] closely. No contract (price not agreed), but work was done at the client's request — restitution (quantum meruit) fills the gap. Builder recovers the reasonable value, not the claimed amount.",
+    "oscoaReferences": ["British Steel Corp v Cleveland Bridge & Engineering Co [1984] 1 All ER 504"],
+    "difficulty": "hard", "tags": ["british-steel", "quantum-meruit", "scenario"]
+  },
+  {
+    "lessonId": "lesson-A5-2", "microSkill": "A5.2", "block": "A", "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "A letter of intent states: 'Subject to contract — our client is pleased to confirm its intention to purchase your company for £5m subject to due diligence and board approval.' Both parties announce the deal to the press, staff are informed, and the buyer moves into the target's offices. Before contracts are exchanged, the buyer pulls out. Is there a binding contract?",
+    "answer": "d",
+    "options": [
+      {"id": "a", "text": "Yes — the parties' conduct (announcing the deal, informing staff, moving in) overrides the 'subject to contract' label", "correct": false, "feedback": "Incorrect. While *RTS Flexible Systems* allows conduct to override the label, the key question is whether the essential terms were agreed. Here, 'subject to due diligence and board approval' means two conditions precedent were not satisfied — no concluded agreement."},
+      {"id": "b", "text": "Yes — the £5m price creates a binding unilateral contract that the seller accepted by continuing negotiations", "correct": false, "feedback": "Incorrect. A unilateral contract requires an offer that is accepted by performance. Here, the letter explicitly deferred any binding obligation to after due diligence and board approval — there was no offer capable of acceptance."},
+      {"id": "c", "text": "No — 'subject to contract' is always an absolute bar to any contract, regardless of conduct", "correct": false, "feedback": "Incorrect. *RTS Flexible Systems* [2010] confirmed that conduct CAN override the label. However, here the substantive conditions (due diligence, board approval) were not met, which distinguishes this case from *RTS*."},
+      {"id": "d", "text": "No — the conditions precedent (due diligence, board approval) were express and had not been satisfied; the announcement and conduct do not waive substantive conditions that were clearly for the buyer's benefit", "correct": true, "feedback": "Correct. The distinction from *RTS Flexible Systems* is that here, there were express conditions precedent that had not been fulfilled. The conduct (announcement, moving in) may be significant but does not waive the board approval and due diligence conditions that went to the heart of the deal."}
+    ],
+    "feedback": "Correct. The unfulfilled conditions precedent (due diligence + board approval) distinguish this case from *RTS Flexible Systems*. Announcements and conduct cannot waive conditions that were the explicit prerequisite to any binding agreement.",
+    "oscoaReferences": ["RTS Flexible Systems Ltd v Molkerei Alois Müller GmbH & Co KG [2010] UKSC 14"],
+    "difficulty": "hard", "tags": ["rts-flexible", "conditions-precedent", "scenario"]
+  },
+  {
+    "lessonId": "lesson-A5-2", "microSkill": "A5.2", "block": "A", "phase": "teaching",
+    "type": "spot_error",
+    "question": "Spot the error: 'A letter of intent is always non-binding, so companies can issue them freely without worrying about legal consequences. If no contract exists, no money is owed.'",
+    "answer": "This is dangerous and wrong. Even a non-binding letter of intent can have legal consequences. Under British Steel [1984], the performing party can recover on a quantum meruit (reasonable value of work done). Under RTS Flexible Systems [2010], if conduct shows agreement on essential terms, a binding contract may arise despite the label. Letters of intent carry real legal risk — they can create obligations to pay, and in some cases, entire contracts.",
+    "options": [],
+    "feedback": "Correct. Letters of intent are NOT risk-free. *British Steel* demonstrates restitutionary liability (quantum meruit), and *RTS Flexible Systems* demonstrates that conduct can transform a non-binding letter into a binding contract. Prudent parties define the scope of binding obligations in the letter.",
+    "oscoaReferences": ["British Steel Corp v Cleveland Bridge & Engineering Co [1984] 1 All ER 504", "RTS Flexible Systems Ltd v Molkerei Alois Müller GmbH & Co KG [2010] UKSC 14"],
+    "difficulty": "hard", "tags": ["letters-of-intent", "risk", "spot-error"]
+  },
+  {
+    "lessonId": "lesson-A5-2", "microSkill": "A5.2", "block": "A", "phase": "teaching",
+    "type": "msq",
+    "question": "Which TWO correctly describe the legal effect of a letter of intent under English law?",
+    "answer": "b,d",
+    "options": [
+      {"id": "a", "text": "A letter of intent is always non-binding and creates no legal obligations whatsoever", "correct": false, "feedback": "Incorrect. Even a non-binding letter can create restitutionary obligations (*British Steel Corp* [1984]). And under *RTS Flexible Systems* [2010], the letter may be treated as binding if the parties' conduct shows agreement."},
+      {"id": "b", "text": "A party performing work under a non-binding letter of intent may recover a reasonable sum (quantum meruit) for work done at the other party's request", "correct": true, "feedback": "Correct. *British Steel Corp v Cleveland Bridge* [1984] established that quantum meruit recovery is available where no contract exists but work was done at the defendant's request."},
+      {"id": "c", "text": "The word 'intent' in 'letter of intent' conclusively means there can be no contract", "correct": false, "feedback": "Incorrect. The label is not conclusive. *RTS Flexible Systems* [2010] held that the court looks at conduct and objective intention, not just the label."},
+      {"id": "d", "text": "If the parties agree on essential terms and perform the contract, a binding contract may arise despite 'subject to contract' wording in the letter of intent", "correct": true, "feedback": "Correct. *RTS Flexible Systems* [2010] UKSC 14 demonstrates that complete performance and agreement on essential terms can override the 'subject to contract' label."},
+      {"id": "e", "text": "Letters of intent are void for uncertainty under Scammell v Ouston [1941]", "correct": false, "feedback": "Incorrect. *Scammell* concerned contractual uncertainty, not letters of intent. A letter of intent that is genuinely non-binding is not void — it simply does not create a contract."}
+    ],
+    "feedback": "Correct: (b) and (d). Quantum meruit is available for work done under a non-binding letter (*British Steel*), and conduct showing agreement on essential terms can create a contract despite the label (*RTS Flexible Systems*).",
+    "oscoaReferences": ["British Steel Corp v Cleveland Bridge & Engineering Co [1984] 1 All ER 504", "RTS Flexible Systems Ltd v Molkerei Alois Müller GmbH & Co KG [2010] UKSC 14"],
+    "difficulty": "medium", "tags": ["letters-of-intent", "msq", "quantum-meruit"]
+  },
+  {
+    "lessonId": "lesson-A5-2", "microSkill": "A5.2", "block": "B", "phase": "teaching",
+    "teachingSummary": "**Lock-Out Agreements — Certainty Through Specificity**\n\nA lock-out (or exclusivity) agreement is a contract by which one party agrees not to negotiate with third parties for a specified period, giving the other party a window of exclusive negotiation. When properly drafted, they are enforceable.\n\n**Walford v Miles [1992] 2 AC 128 — The Failure**\n\nLord Ackner identified two fatal flaws in the lock-out agreement in *Walford*: (1) no defined duration — the lock-out could theoretically last forever; and (2) an implied positive duty to negotiate in good faith — which English law does not recognise. An obligation to negotiate in good faith is 'inherently repugnant to the adversarial position of the parties' and 'unworkable in practice.' The court cannot enforce a duty whose content it cannot ascertain.\n\n**Pitt v PHH Asset Management Ltd [1994] 1 WLR 327 — The Success**\n\nA lock-out agreement with a fixed two-week period was enforceable. The key features: (1) a clear negative obligation ('will not negotiate with third parties'), (2) a definite time limit, and (3) no positive duty to negotiate (the exclusivity was a protection, not an obligation to engage). Peter Gibson LJ held that the agreement satisfied the certainty requirement.\n\n**Drafting Lessons from the Cases:**\n- State the lock-out period clearly: 'for 30 days from the date of this agreement'\n- Frame it as a negative obligation: 'shall NOT negotiate, discuss, or entertain offers'\n- Do NOT impose a positive duty to negotiate or a duty of good faith\n- Identify the subject matter precisely\n- Consider including a break fee for breach of the lock-out\n- A well-drafted lock-out protects the buyer's investment in due diligence and negotiation costs",
+    "type": "teaching", "question": "", "answer": "", "options": [], "feedback": "",
+    "oscoaReferences": ["Walford v Miles [1992] 2 AC 128", "Pitt v PHH Asset Management Ltd [1994] 1 WLR 327"],
+    "difficulty": "medium", "tags": ["lock-out-agreement", "walford-v-miles", "pitt-v-phh"]
+  },
+  {
+    "lessonId": "lesson-A5-2", "microSkill": "A5.2", "block": "B", "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "_________ v PHH Asset Management Ltd [1994] distinguished Walford v Miles — a lock-out agreement with a fixed two-week period was enforceable because certainty was provided by the definite duration.",
+    "answer": "Pitt",
+    "options": [],
+    "feedback": "Correct. *Pitt v PHH* [1994] 1 WLR 327 is the leading case on enforceable lock-out agreements. The fixed two-week period provided the certainty that was absent in *Walford*.",
+    "oscoaReferences": ["Pitt v PHH Asset Management Ltd [1994] 1 WLR 327"],
+    "difficulty": "easy", "tags": ["pitt-v-phh", "lock-out"]
+  },
+  {
+    "lessonId": "lesson-A5-2", "microSkill": "A5.2", "block": "B", "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "The principle from *Walford* and *Pitt* is a matter of ________ law — there is no statute governing lock-out agreements. Their enforceability is determined entirely by the common law of contract formation and certainty.",
+    "answer": "common",
+    "options": [],
+    "feedback": "Correct. Lock-out agreements are governed exclusively by the common law principles of contract formation, certainty, and intention to create legal relations. No statutory framework regulates them.",
+    "oscoaReferences": ["Walford v Miles [1992] 2 AC 128", "Pitt v PHH Asset Management Ltd [1994] 1 WLR 327"],
+    "difficulty": "easy", "tags": ["common-law", "lock-out"]
+  },
+  {
+    "lessonId": "lesson-A5-2", "microSkill": "A5.2", "block": "B", "phase": "teaching",
+    "type": "drag_elements",
+    "question": "Arrange the steps for drafting an enforceable lock-out agreement:",
+    "answer": "Identify the subject matter of the negotiations → Agree a fixed, definite lock-out period → Frame the obligation as negative (do NOT negotiate with others) → Avoid imposing a positive duty to negotiate or a duty of good faith → Specify any break fee or remedy for breach → Execute the agreement as a standalone binding contract, not 'subject to contract'",
+    "options": [
+      {"id": "1", "text": "Identify the subject matter of the negotiations", "order": 1},
+      {"id": "2", "text": "Agree a fixed, definite lock-out period", "order": 2},
+      {"id": "3", "text": "Frame the obligation as negative (do NOT negotiate with others)", "order": 3},
+      {"id": "4", "text": "Avoid imposing a positive duty to negotiate or a duty of good faith", "order": 4},
+      {"id": "5", "text": "Specify any break fee or remedy for breach", "order": 5},
+      {"id": "6", "text": "Execute the agreement as a standalone binding contract, not 'subject to contract'", "order": 6}
+    ],
+    "feedback": "Correct. Following these steps creates a lock-out agreement that satisfies the certainty requirement and avoids the pitfalls of *Walford v Miles* [1992].",
+    "oscoaReferences": ["Pitt v PHH Asset Management Ltd [1994] 1 WLR 327"],
+    "difficulty": "medium", "tags": ["lock-out", "drafting", "sequencing"]
+  },
+  {
+    "lessonId": "lesson-A5-2", "microSkill": "A5.2", "block": "B", "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "TargetCo signs a lock-out agreement with Buyer: 'TargetCo agrees not to negotiate, discuss, or solicit offers from any third party for the sale of its business for 45 days from today's date.' During the 45 days, TargetCo entertains an offer from Third Party and sells to them. Buyer sues. What is the outcome?",
+    "answer": "a",
+    "options": [
+      {"id": "a", "text": "Buyer wins — the lock-out has a fixed duration (45 days), a negative obligation ('not to negotiate'), and no duty of good faith; it is enforceable under Pitt v PHH [1994]", "correct": true, "feedback": "Correct. The agreement has all the hallmarks of an enforceable lock-out: definite duration, negative obligation, and no positive duty to negotiate. It mirrors *Pitt v PHH* [1994] precisely."},
+      {"id": "b", "text": "Buyer loses — lock-out agreements are void for uncertainty under Walford v Miles [1992]", "correct": false, "feedback": "Incorrect. *Walford* was distinguished in *Pitt v PHH* precisely on the basis of a fixed duration. The 45-day period avoids the uncertainty that was fatal in *Walford*."},
+      {"id": "c", "text": "Buyer wins — but only if it can prove it would have succeeded in buying the business", "correct": false, "feedback": "Incorrect. The breach is the breach of the lock-out — TargetCo breached by negotiating with Third Party. Damages may be difficult to quantify, but the breach is established regardless."},
+      {"id": "d", "text": "Buyer loses because the agreement does not specify a break fee or liquidated damages", "correct": false, "feedback": "Incorrect. A break fee is not required for enforceability — it is a commercial enhancement, not a legal prerequisite. The agreement can be enforced as an ordinary contract; damages are assessed normally."}
+    ],
+    "feedback": "Correct. The agreement mirrors the enforceable lock-out in *Pitt v PHH* [1994]. Fixed duration + negative obligation = enforceable. TargetCo's dealings with Third Party constitute a clear breach.",
+    "oscoaReferences": ["Pitt v PHH Asset Management Ltd [1994] 1 WLR 327"],
+    "difficulty": "medium", "tags": ["pitt-v-phh", "lock-out", "scenario"]
+  },
+  {
+    "lessonId": "lesson-A5-2", "microSkill": "A5.2", "block": "B", "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "A lock-out agreement states: 'The parties agree to negotiate exclusively with each other and in good faith to reach agreement on the sale of the Property.' No time limit is specified. Is this enforceable?",
+    "answer": "d",
+    "options": [
+      {"id": "a", "text": "Yes — 'exclusively' is a clear negative obligation", "correct": false, "feedback": "Incorrect. The problem here is not just exclusivity — the agreement includes a positive duty to 'negotiate in good faith' (void under *Walford*) and has no time limit (also fatal)."},
+      {"id": "b", "text": "Yes — 'in good faith' is a well-established duty in English contract law", "correct": false, "feedback": "Incorrect. English law does NOT recognise a general duty of good faith in negotiations (*Walford v Miles* [1992]). This is a fundamental difference between English law and many civil law systems."},
+      {"id": "c", "text": "Partially — the exclusivity is enforceable but the good-faith clause can be severed", "correct": false, "feedback": "Incorrect. Severing the good-faith clause would not save the agreement — the absence of a time limit is independently fatal to the exclusivity obligation."},
+      {"id": "d", "text": "No — the obligation to 'negotiate in good faith' is void under Walford v Miles [1992], and the absence of a time limit renders the entire agreement uncertain and unenforceable", "correct": true, "feedback": "Correct. Two fatal flaws: (1) a duty to negotiate in good faith — unenforceable under *Walford v Miles*; (2) no time limit — the exclusivity could last indefinitely, which is void for uncertainty."}
+    ],
+    "feedback": "Correct. This agreement commits both of the *Walford v Miles* errors — a good-faith obligation and no time limit. It is unenforceable. The drafter needed: (1) a fixed time period, and (2) a pure negative obligation without a good-faith duty.",
+    "oscoaReferences": ["Walford v Miles [1992] 2 AC 128", "Pitt v PHH Asset Management Ltd [1994] 1 WLR 327"],
+    "difficulty": "hard", "tags": ["walford-v-miles", "good-faith", "scenario"]
+  },
+  {
+    "lessonId": "lesson-A5-2", "microSkill": "A5.2", "block": "B", "phase": "teaching",
+    "type": "spot_error",
+    "question": "Spot the error: 'An agreement that says the parties will negotiate exclusively with each other for so long as it takes to reach a deal is a valid lock-out agreement under English law.'",
+    "answer": "This is wrong for two reasons. (1) 'So long as it takes to reach a deal' has no fixed duration — this is exactly the fatal indefinite period that voided the lock-out in Walford v Miles [1992]. (2) An indefinite lock-out is uncertain and unenforceable. A lock-out must have a defined period (Pitt v PHH [1994] — two weeks). Without a time limit, it could bind the parties forever.",
+    "options": [],
+    "feedback": "Correct. The duration must be fixed and certain. 'As long as it takes' is the opposite — an indefinite period void for uncertainty. *Pitt v PHH* [1994] succeeded precisely because 'two weeks' was definite.",
+    "oscoaReferences": ["Walford v Miles [1992] 2 AC 128", "Pitt v PHH Asset Management Ltd [1994] 1 WLR 327"],
+    "difficulty": "medium", "tags": ["lock-out", "duration", "spot-error"]
+  },
+  {
+    "lessonId": "lesson-A5-2", "microSkill": "A5.2", "block": "B", "phase": "teaching",
+    "type": "msq",
+    "question": "Which TWO features distinguish an enforceable lock-out agreement from an unenforceable one?",
+    "answer": "a,c",
+    "options": [
+      {"id": "a", "text": "A fixed, definite time limit for the exclusivity period", "correct": true, "feedback": "Correct. *Pitt v PHH* [1994] succeeded because it had a fixed two-week period. This was the critical distinction from *Walford v Miles*."},
+      {"id": "b", "text": "A clause requiring both parties to negotiate 'in good faith'", "correct": false, "feedback": "Incorrect. A duty to negotiate in good faith is precisely what *Walford v Miles* [1992] held is void for uncertainty and unenforceable under English law."},
+      {"id": "c", "text": "A negative obligation ('shall not negotiate with third parties') rather than a positive obligation to negotiate", "correct": true, "feedback": "Correct. Lord Ackner in *Walford* contrasted the enforceable negative obligation with the unenforceable positive duty to negotiate. The negative obligation is certain — it is a prohibition."},
+      {"id": "d", "text": "The inclusion of liquidated damages or a break fee clause", "correct": false, "feedback": "Incorrect. A break fee is commercially useful for quantifying loss but is not required for enforceability. The essentials are a fixed duration and a negative obligation."},
+      {"id": "e", "text": "The agreement being executed as a deed rather than a simple contract", "correct": false, "feedback": "Incorrect. A deed provides consideration advantages but does not affect the certainty analysis. An uncertain lock-out executed as a deed is still unenforceable."}
+    ],
+    "feedback": "Correct: (a) and (c). A fixed time limit and a negative obligation are the two essential features of an enforceable lock-out agreement, as established by *Pitt v PHH* [1994] and *Walford v Miles* [1992].",
+    "oscoaReferences": ["Pitt v PHH Asset Management Ltd [1994] 1 WLR 327", "Walford v Miles [1992] 2 AC 128"],
+    "difficulty": "medium", "tags": ["lock-out", "enforceability", "msq"]
+  },
+  {
+    "lessonId": "lesson-A5-2", "microSkill": "A5.2", "block": "C", "phase": "teaching",
+    "teachingSummary": "**Practical Risk Management — Letters of Intent & Lock-Outs**\n\nThe borderland between negotiation and contract is where many disputes arise. Sound drafting and careful conduct management are the best protection.\n\n**Key Drafting Points for Letters of Intent:**\n- **Expressly state what is binding and what is not.** A well-drafted letter says: 'The following provisions are intended to be legally binding: [confidentiality, exclusivity, payment for work done, governing law]. All other provisions are statements of present intention only and are not intended to create legal relations.'\n- **Define a sunset clause.** 'This letter of intent shall expire on [date] unless a formal contract is executed by that date.' This prevents an open-ended, uncertain arrangement.\n- **Specify payment terms for work done.** If work is to begin before the final contract, the letter should say: 'Pending execution of the formal contract, [Supplier] shall be entitled to payment for work done at agreed rates on a quantum meruit basis.'\n- **Avoid agreeing to essential terms unless you intend to be bound.** Partial agreement on essential terms + performance = risk of unintended binding contract (*RTS Flexible Systems*).\n\n**Key Drafting Points for Lock-Out Agreements:**\n- Fixed time period — 'for 30 days from the date of this agreement'\n- Negative obligation — 'shall not negotiate, solicit, or entertain offers'\n- No positive duty — avoid 'shall negotiate,' 'shall use best efforts,' 'shall act in good faith'\n- Consider break fee — 'in the event of breach, [Party] shall pay £X as liquidated damages'\n- Separate agreement — execute as a standalone contract, not 'subject to contract'\n\n**The Overlap with Other Doctrines:**\n- **Misrepresentation:** Statements in letters of intent may be misrepresentations if false (*Edgington v Fitzmaurice*).\n- **Promissory estoppel:** A letter of intent may create an estoppel if relied upon, even if no contract exists.\n- **Confidentiality:** Often the binding element in otherwise non-binding letters — a crucial protection.\n\n**The SQE assessment will test your ability to (1) identify whether a document is binding or non-binding, (2) identify the legal consequences (contract, quantum meruit, or nothing), and (3) draft or critique clauses to manage risk.**",
+    "type": "teaching", "question": "", "answer": "", "options": [], "feedback": "",
+    "oscoaReferences": ["RTS Flexible Systems Ltd v Molkerei Alois Müller GmbH & Co KG [2010] UKSC 14", "British Steel Corp v Cleveland Bridge & Engineering Co [1984] 1 All ER 504", "Pitt v PHH Asset Management Ltd [1994] 1 WLR 327"],
+    "difficulty": "hard", "tags": ["drafting", "risk-management", "letters-of-intent", "lock-out"]
+  },
+  {
+    "lessonId": "lesson-A5-2", "microSkill": "A5.2", "block": "C", "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "In __________ v Fitzmaurice [1885] 29 Ch D 459, a false statement in a company prospectus was held to be a fraudulent misrepresentation — the principle applies equally to false statements in letters of intent.",
+    "answer": "Edgington",
+    "options": [],
+    "feedback": "Correct. *Edgington v Fitzmaurice* [1885] is the foundational misrepresentation case. Statements in letters of intent that are false may constitute actionable misrepresentations, creating liability even where no contract is formed.",
+    "oscoaReferences": ["Edgington v Fitzmaurice [1885] 29 Ch D 459"],
+    "difficulty": "medium", "tags": ["edgington-v-fitzmaurice", "misrepresentation"]
+  },
+  {
+    "lessonId": "lesson-A5-2", "microSkill": "A5.2", "block": "C", "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "Quantum meruit is governed not by statute but by the common law of __________ — it requires that the defendant was unjustly enriched at the claimant's expense.",
+    "answer": "restitution",
+    "options": [],
+    "feedback": "Correct. Quantum meruit is a restitutionary remedy. It is not contractual — it does not depend on agreement — but rather on the principle that a person who receives a benefit at another's request should pay a reasonable sum for it.",
+    "oscoaReferences": ["British Steel Corp v Cleveland Bridge & Engineering Co [1984] 1 All ER 504"],
+    "difficulty": "medium", "tags": ["restitution", "quantum-meruit"]
+  },
+  {
+    "lessonId": "lesson-A5-2", "microSkill": "A5.2", "block": "C", "phase": "teaching",
+    "type": "drag_elements",
+    "question": "Match each pre-contractual concept to its legal consequence:",
+    "answer": "Non-binding letter of intent + work done=Quantum meruit recovery (British Steel); Letter of intent + agreement on all terms + full performance=Binding contract despite label (RTS Flexible Systems); Lock-out with fixed time + negative obligation=Enforceable exclusive negotiation period (Pitt v PHH); Lock-out with no time limit + good faith duty=Unenforceable void for uncertainty (Walford v Miles)",
+    "options": [
+      {"id": "bs", "text": "Quantum meruit recovery (British Steel)", "pair": "Non-binding letter of intent + work done"},
+      {"id": "rts", "text": "Binding contract despite label (RTS Flexible Systems)", "pair": "Letter of intent + agreement on all terms + full performance"},
+      {"id": "pitt", "text": "Enforceable exclusive negotiation period (Pitt v PHH)", "pair": "Lock-out with fixed time + negative obligation"},
+      {"id": "walford", "text": "Unenforceable void for uncertainty (Walford v Miles)", "pair": "Lock-out with no time limit + good faith duty"}
+    ],
+    "feedback": "Correct. Each scenario represents a different point on the spectrum from unenforceable to fully binding, depending on the presence or absence of certainty, performance, and agreement on terms.",
+    "oscoaReferences": ["British Steel Corp v Cleveland Bridge & Engineering Co [1984] 1 All ER 504", "RTS Flexible Systems Ltd v Molkerei Alois Müller GmbH & Co KG [2010] UKSC 14", "Pitt v PHH Asset Management Ltd [1994] 1 WLR 327", "Walford v Miles [1992] 2 AC 128"],
+    "difficulty": "medium", "tags": ["matching", "pre-contractual", "consequences"]
+  },
+  {
+    "lessonId": "lesson-A5-2", "microSkill": "A5.2", "block": "C", "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "Solicitor drafting a letter of intent for Client (a buyer) includes the following: 'This letter is not intended to create any legal obligations except for clauses 4 (confidentiality) and 5 (governing law), which shall be binding. All other provisions are statements of present commercial intention only and are not intended to be legally binding.' The letter also states a sunset date: 'This letter shall lapse if no formal contract is executed by 31 December.' Is this effective?",
+    "answer": "a",
+    "options": [
+      {"id": "a", "text": "Yes — the letter clearly separates binding from non-binding provisions, specifies a sunset date, and uses language consistent with non-binding intent for commercial terms; this is the gold standard for letters of intent", "correct": true, "feedback": "Correct. This drafting addresses all the risks identified in case law: it expressly states which parts are binding, has a sunset clause to prevent indefinite duration, and clearly signals non-binding intent for commercial terms. It is likely to be effective."},
+      {"id": "b", "text": "No — the letter is void for uncertainty because 'statements of present commercial intention' is too vague", "correct": false, "feedback": "Incorrect. 'Statements of present commercial intention' is well-understood language from case law (*Kleinwort Benson* [1989]) and is sufficiently clear. The letter is not uncertain — it expressly disclaims contractual intent for commercial terms."},
+      {"id": "c", "text": "No — any letter that includes binding provisions (confidentiality, governing law) becomes binding in its entirety", "correct": false, "feedback": "Incorrect. Parties can agree that some parts of a document are binding and others are not. This is standard commercial practice. The explicit separation of binding and non-binding provisions is effective."},
+      {"id": "d", "text": "No — letters of intent are always void for uncertainty under Walford v Miles [1992]", "correct": false, "feedback": "Incorrect. *Walford v Miles* concerned lock-out agreements, not letters of intent generally. Well-drafted letters of intent are recognised in practice and have been addressed in cases like *British Steel* and *RTS Flexible Systems*."}
+    ],
+    "feedback": "Correct. This is a model letter-of-intent clause. Separating binding from non-binding provisions, using a sunset date, and deploying precise language from case law minimises the risk of unintended contractual obligations.",
+    "oscoaReferences": ["Kleinwort Benson Ltd v Malaysia Mining Corp Bhd [1989] 1 WLR 379", "British Steel Corp v Cleveland Bridge & Engineering Co [1984] 1 All ER 504"],
+    "difficulty": "hard", "tags": ["drafting", "letters-of-intent", "scenario"]
+  },
+  {
+    "lessonId": "lesson-A5-2", "microSkill": "A5.2", "block": "C", "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "Supplier receives a letter of intent from Customer asking for urgent manufacture of components 'pending finalisation of the formal contract.' Supplier starts work, incurs £200,000 in costs, then Customer cancels, saying no contract exists. What is Supplier's best claim?",
+    "answer": "b",
+    "options": [
+      {"id": "a", "text": "Breach of contract — the letter of intent is a binding contract because Supplier acted on it", "correct": false, "feedback": "Incorrect. On these facts, the letter likely did not create a contract — 'pending finalisation' signals non-binding intent, and there is no evidence of agreement on essential terms."},
+      {"id": "b", "text": "Quantum meruit — under British Steel [1984], Supplier can recover a reasonable sum for work done at Customer's request, even though no contract was formed", "correct": true, "feedback": "Correct. *British Steel Corp v Cleveland Bridge* [1984] is directly applicable. The letter of intent did not create a contract, but Supplier manufactured at Customer's request — Supplier can recover on a restitutionary basis for the value of the work done."},
+      {"id": "c", "text": "Supplier has no claim — starting work without a signed contract is at the supplier's own risk under English law", "correct": false, "feedback": "Incorrect. *British Steel* establishes that quantum meruit recovery is available precisely because the supplier undertook work at the customer's request. The risk is mitigated, not eliminated."},
+      {"id": "d", "text": "Promissory estoppel — Customer is estopped from denying a contract because Supplier relied on the letter to its detriment", "correct": false, "feedback": "Incorrect. Promissory estoppel is a shield (defence), not a sword (cause of action). It cannot be used to create a contract where none exists. Quantum meruit is the correct route."}
+    ],
+    "feedback": "Correct. Quantum meruit is the classic remedy where work is done under a non-binding letter of intent. Supplier cannot claim the contract price (no contract), but can recover the reasonable value of the benefit conferred at Customer's request.",
+    "oscoaReferences": ["British Steel Corp v Cleveland Bridge & Engineering Co [1984] 1 All ER 504"],
+    "difficulty": "hard", "tags": ["quantum-meruit", "british-steel", "scenario"]
+  },
+  {
+    "lessonId": "lesson-A5-2", "microSkill": "A5.2", "block": "C", "phase": "teaching",
+    "type": "spot_error",
+    "question": "Spot the error: 'The safest way to draft a letter of intent is to leave all terms vague so that no court could possibly find a contract. If nothing is certain, nothing is binding.'",
+    "answer": "This is terrible advice. Vagueness does not protect against contract formation — it creates its own risks. (1) Work done under a vague letter may still trigger quantum meruit liability (British Steel). (2) If the court finds the parties' conduct shows agreement despite vague language, a contract may be found on terms implied by the court. (3) Expressly stating which parts are and are not binding is far safer than deliberate vagueness. The best practice is precise language: 'The following are binding... The remainder are not.'",
+    "options": [],
+    "feedback": "Correct. Deliberate vagueness is a dangerous strategy. It invites litigation over whether and on what terms a contract arose. Explicit separation of binding and non-binding provisions is the professional standard — it protects against unexpected liability and provides clarity.",
+    "oscoaReferences": ["British Steel Corp v Cleveland Bridge & Engineering Co [1984] 1 All ER 504", "RTS Flexible Systems Ltd v Molkerei Alois Müller GmbH & Co KG [2010] UKSC 14"],
+    "difficulty": "hard", "tags": ["drafting", "risk", "spot-error"]
+  },
+  {
+    "lessonId": "lesson-A5-2", "microSkill": "A5.2", "block": "C", "phase": "teaching",
+    "type": "msq",
+    "question": "Which TWO of the following are best practices when drafting a letter of intent?",
+    "answer": "b,c",
+    "options": [
+      {"id": "a", "text": "Leave essential terms like price and delivery dates vague to avoid being bound", "correct": false, "feedback": "Incorrect. Vagueness does not prevent liability — it creates uncertainty that may need to be resolved by the court, often on terms disadvantageous to the drafter. Precision is the better approach."},
+      {"id": "b", "text": "Expressly state which provisions are intended to be binding (e.g., confidentiality, payment for work done) and which are not", "correct": true, "feedback": "Correct. This is the gold standard. Separating binding and non-binding provisions provides clarity and manages expectations. It minimises the risk of unintended contractual obligations."},
+      {"id": "c", "text": "Include a sunset clause providing that the letter shall expire if a formal contract is not executed by a specified date", "correct": true, "feedback": "Correct. A sunset clause prevents an open-ended, uncertain arrangement. It mirrors the *Pitt v PHH* [1994] approach of a fixed duration and provides certainty."},
+      {"id": "d", "text": "Use 'subject to contract' as the sole protection — it is absolute and always prevents contract formation", "correct": false, "feedback": "Incorrect. *RTS Flexible Systems* [2010] demonstrates that 'subject to contract' is not absolute. Conduct can override it. Additional protections (sunset, express disclaimers) are needed."},
+      {"id": "e", "text": "Avoid specifying any binding obligations at all — make the entire letter non-binding", "correct": false, "feedback": "Partially acceptable but incomplete. An entirely non-binding letter reduces the risk of inadvertent contract but does not exclude quantum meruit liability for work done at the other party's request. Specify which obligations are binding for clarity."}
+    ],
+    "feedback": "Correct: (b) and (c). Expressly separating binding and non-binding provisions, and including a sunset clause, are the two most important drafting techniques. They provide clarity, certainty, and risk management.",
+    "oscoaReferences": ["British Steel Corp v Cleveland Bridge & Engineering Co [1984] 1 All ER 504", "RTS Flexible Systems Ltd v Molkerei Alois Müller GmbH & Co KG [2010] UKSC 14"],
+    "difficulty": "medium", "tags": ["drafting", "best-practices", "msq"]
+  },
+  {
+    "lessonId": "lesson-A5-2", "microSkill": "A5.2", "block": "consolidation", "phase": "consolidation",
+    "type": "fill_gap_case",
+    "question": "__________ Steel Corp v Cleveland Bridge & Engineering Co [1984] established that a party performing work under a non-binding letter of intent may recover on a quantum meruit (restitutionary) basis.",
+    "answer": "British",
+    "options": [],
+    "feedback": "*British Steel Corp v Cleveland Bridge* [1984] is the seminal case on quantum meruit recovery under letters of intent. It established that work done at another's request can be compensated even without a contract.",
+    "oscoaReferences": ["British Steel Corp v Cleveland Bridge & Engineering Co [1984] 1 All ER 504"],
+    "difficulty": "easy", "tags": ["british-steel", "consolidation"]
+  },
+  {
+    "lessonId": "lesson-A5-2", "microSkill": "A5.2", "block": "consolidation", "phase": "consolidation",
+    "type": "fill_gap_case",
+    "question": "__________ v PHH [1994] 1 WLR 327 demonstrates that a lock-out agreement with a fixed time limit (two weeks) and a negative obligation is enforceable.",
+    "answer": "Pitt",
+    "options": [],
+    "feedback": "*Pitt v PHH Asset Management Ltd* [1994] is the leading authority on enforceable lock-out agreements. The fixed two-week period was the key distinction from the unenforceable lock-out in *Walford v Miles* [1992].",
+    "oscoaReferences": ["Pitt v PHH Asset Management Ltd [1994] 1 WLR 327"],
+    "difficulty": "medium", "tags": ["pitt-v-phh", "consolidation"]
+  },
+  {
+    "lessonId": "lesson-A5-2", "microSkill": "A5.2", "block": "consolidation", "phase": "consolidation",
+    "type": "scenario_choice",
+    "question": "During merger negotiations, TargetCo signs: 'TargetCo agrees, for 60 days from today, that it will not negotiate or discuss the sale of its business with any person other than Bidder. This undertaking is legally binding.' TargetCo receives a higher offer and accepts it within the 60 days. Can Bidder sue?",
+    "answer": "a",
+    "options": [
+      {"id": "a", "text": "Yes — this is a valid lock-out agreement: fixed duration (60 days), negative obligation, and expressly stated as binding; it mirrors Pitt v PHH [1994], and TargetCo's sale to a third party is a clear breach", "correct": true, "feedback": "Correct. The agreement is a textbook enforceable lock-out: fixed duration, negative obligation, and stated to be legally binding. TargetCo's acceptance of a third-party offer within the lock-out period is a breach."},
+      {"id": "b", "text": "No — TargetCo has the right to accept a better offer; lock-out agreements cannot override directors' duties to maximise shareholder value", "correct": false, "feedback": "Incorrect. Directors' duties to shareholders exist, but TargetCo voluntarily entered into a binding contractual restriction. The directors' duties do not override TargetCo's contractual obligations — they may inform the board's decision to enter such an agreement, but do not excuse breach."},
+      {"id": "c", "text": "Bidder can sue but only for quantum meruit, not for breach of contract", "correct": false, "feedback": "Incorrect. Quantum meruit is a restitutionary remedy for work done without a contract. Here, there is a binding contract (the lock-out). The remedy is damages for breach of contract."},
+      {"id": "d", "text": "No — lock-out agreements in M&A are always non-binding as a matter of market practice", "correct": false, "feedback": "Incorrect. While 'subject to contract' language is common in M&A, parties can and do enter into binding exclusivity agreements. *Pitt v PHH* confirms their enforceability under English law."}
+    ],
+    "feedback": "Correct. This is a model enforceable lock-out: fixed duration, negative obligation, and express statement of binding intent. TargetCo's dealings with the third party are a straightforward breach. Damages would be the loss of chance to acquire TargetCo.",
+    "oscoaReferences": ["Pitt v PHH Asset Management Ltd [1994] 1 WLR 327"],
+    "difficulty": "hard", "tags": ["lock-out", "consolidation", "scenario", "m-and-a"]
+  },
+  {
+    "lessonId": "lesson-A5-2", "microSkill": "A5.2", "block": "consolidation", "phase": "consolidation",
+    "type": "scenario_choice",
+    "question": "An architect sends a letter of intent to a builder: 'Please commence the groundworks immediately. Our client has approved a budget of up to £500,000 for this phase. We will agree the detailed scope and price in the formal contract.' Builder completes the groundworks at a cost of £300,000. No formal contract is ever signed. Builder claims £300,000. Architect's client says the work was worth only £150,000. What can Builder recover?",
+    "answer": "b",
+    "options": [
+      {"id": "a", "text": "£500,000 — the letter specified the approved budget, which is the contractual cap", "correct": false, "feedback": "Incorrect. The budget figure is a ceiling, not an agreed price. There is no contract because the scope and price were to be 'agreed in the formal contract' — an agreement to agree."},
+      {"id": "b", "text": "A reasonable sum (quantum meruit) — under British Steel [1984], Builder can recover the reasonable value of the groundworks, as determined by the court, because the work was done at the request of the client", "correct": true, "feedback": "Correct. The letter did not create a contract (no agreement on scope or price), but Builder performed work at the client's request. Quantum meruit recovery is available for the reasonable value of the work — not Builder's cost, not the budget ceiling, but what a reasonable person would pay for those groundworks."},
+      {"id": "c", "text": "£150,000 — the client's own valuation binds both parties", "correct": false, "feedback": "Incorrect. A party's own valuation is not binding. The court determines a reasonable sum on an objective basis, taking evidence from both sides and, if necessary, expert quantity surveyors."},
+      {"id": "d", "text": "Nothing — the letter states the scope and price would be agreed later, so Builder took the risk and is not entitled to payment", "correct": false, "feedback": "Incorrect. *British Steel Corp* [1984] rejected the argument that the performing party bears the entire risk. Where work is done at the other's request, restitution provides a remedy — it does not depend on a contractual promise to pay."}
+    ],
+    "feedback": "Correct. Under *British Steel Corp v Cleveland Bridge* [1984], Builder recovers the reasonable value (quantum meruit). The absence of agreement on scope and price means no contract, but work done at the client's request triggers restitutionary recovery.",
+    "oscoaReferences": ["British Steel Corp v Cleveland Bridge & Engineering Co [1984] 1 All ER 504"],
+    "difficulty": "hard", "tags": ["quantum-meruit", "british-steel", "consolidation"]
+  },
+  {
+    "lessonId": "lesson-A5-2", "microSkill": "A5.2", "block": "consolidation", "phase": "consolidation",
+    "type": "spot_error",
+    "question": "Spot the error: 'A well-drafted letter of intent should always require the parties to negotiate in good faith towards a formal contract. This duty of good faith is recognised and enforceable under English law.'",
+    "answer": "Wrong. (1) A duty to negotiate in good faith is NOT recognised or enforceable under English law — Walford v Miles [1992] 2 AC 128. (2) Including a good-faith obligation in a letter of intent would likely render the negotiating obligation void for uncertainty. (3) Best practice for letters of intent is to separate binding from non-binding provisions, include a sunset clause, and avoid any language importing a duty to negotiate — particularly 'good faith.'",
+    "options": [],
+    "feedback": "Correct. *Walford v Miles* [1992] is unequivocal: a duty to negotiate in good faith is unenforceable under English law. Letters of intent should not purport to impose such a duty. The binding elements should be limited to specific, certain obligations (confidentiality, exclusivity, payment for work).",
+    "oscoaReferences": ["Walford v Miles [1992] 2 AC 128", "RTS Flexible Systems Ltd v Molkerei Alois Müller GmbH & Co KG [2010] UKSC 14"],
+    "difficulty": "hard", "tags": ["consolidation", "good-faith", "spot-error", "letters-of-intent"]
+  },
+  {
+    "lessonId": "lesson-A5-2", "microSkill": "A5.2", "block": "consolidation", "phase": "consolidation",
+    "type": "msq",
+    "question": "Which TWO of the following best describe the difference between a letter of intent and a lock-out agreement?",
+    "answer": "b,d",
+    "options": [
+      {"id": "a", "text": "A letter of intent is always binding; a lock-out agreement is always non-binding", "correct": false, "feedback": "Incorrect. Both can be binding or non-binding depending on their terms and the parties' objective intentions. Neither label is determinative."},
+      {"id": "b", "text": "A letter of intent primarily concerns the intended future contract; a lock-out agreement is a standalone contract restricting dealings with third parties", "correct": true, "feedback": "Correct. A letter of intent looks forward to a potential contract (work to be done, terms to be agreed). A lock-out agreement creates an immediate, binding obligation not to negotiate with others — it is the contract, not a prelude to one."},
+      {"id": "c", "text": "A lock-out agreement is always void under Walford v Miles; a letter of intent is always enforceable", "correct": false, "feedback": "Incorrect. *Walford v Miles* applies to lock-outs without time limits; lock-outs with fixed durations are enforceable (*Pitt v PHH*). Letters of intent range from non-binding to fully binding."},
+      {"id": "d", "text": "A letter of intent may create restitutionary obligations (quantum meruit) even where no contract is formed; a lock-out agreement either creates contractual obligations or is void", "correct": true, "feedback": "Correct. The key distinction: a non-binding letter of intent creates a risk of quantum meruit liability for work done (*British Steel*). A lock-out agreement is binary — enforceable if properly drafted with a fixed time and negative obligation, or void if not."},
+      {"id": "e", "text": "There is no practical difference — both terms describe the same thing", "correct": false, "feedback": "Incorrect. They serve different commercial purposes and generate different legal risks and obligations. A letter of intent manages the pre-contractual phase; a lock-out protects a negotiating party's exclusivity."}
+    ],
+    "feedback": "Correct: (b) and (d). A letter of intent looks forward to the future contract; a lock-out is an immediate standalone obligation. A letter of intent creates quantum meruit risk; a lock-out is enforceable or void. They are distinct legal instruments.",
+    "oscoaReferences": ["British Steel Corp v Cleveland Bridge & Engineering Co [1984] 1 All ER 504", "Pitt v PHH Asset Management Ltd [1994] 1 WLR 327"],
+    "difficulty": "hard", "tags": ["consolidation", "letters-of-intent", "lock-out", "msq"]
+  }
+]

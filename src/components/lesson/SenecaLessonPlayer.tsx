@@ -40,6 +40,10 @@ export default function SenecaLessonPlayer({ lessonId, questions, onComplete, on
   const [mistakes, setMistakes] = useState<string[]>([])
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null)
   const [isCorrect, setIsCorrect] = useState(false)
+  const [isAlmostCorrect, setIsAlmostCorrect] = useState(false)
+  const [selectedMsqAnswers, setSelectedMsqAnswers] = useState<string[]>([])
+  const [dragOrder, setDragOrder] = useState<string[]>([])
+  const [dragInitialised, setDragInitialised] = useState(false)
   const [showMistakeReview, setShowMistakeReview] = useState(false)
   const [mistakeQueue, setMistakeQueue] = useState<LessonQuestion[]>([])
   const [completing, setCompleting] = useState(false)
@@ -64,7 +68,22 @@ export default function SenecaLessonPlayer({ lessonId, questions, onComplete, on
   const currentQuestion = currentQuestions[currentQuestionIndex]
 
   const isFillGap = currentQuestion?.type?.startsWith('fill_gap') || currentQuestion?.type === 'spot_error'
-  const hasOptions = (currentQuestion?.options?.length || 0) > 0
+  const isMsq = currentQuestion?.type === 'msq'
+  const isDragElements = currentQuestion?.type === 'drag_elements'
+  const hasOptions = (currentQuestion?.options?.length || 0) > 0 && !isDragElements
+  const msqCorrectCount = isMsq ? currentQuestion?.options?.filter(o => o.correct).length ?? 0 : 0
+
+  useEffect(() => {
+    if (isDragElements && currentQuestion && !dragInitialised) {
+      const ids = (currentQuestion.options || []).map(o => o.id || '')
+      const shuffled = [...ids].sort(() => Math.random() - 0.5)
+      setDragOrder(shuffled)
+      setDragInitialised(true)
+    }
+    if (!isDragElements) {
+      setDragInitialised(false)
+    }
+  }, [currentQuestion?.id, isDragElements, dragInitialised])
 
   // Check if all blocks and consolidation are complete
   const allBlocksDone = currentBlockIndex >= 3
@@ -75,37 +94,90 @@ export default function SenecaLessonPlayer({ lessonId, questions, onComplete, on
 
   function handleAnswer(id: string) {
     if (phase !== 'answering') return
-    const q = currentQuestion
 
-    if (q.type === 'msq') {
-      // Handle multi-select differently — will implement fully later
-      const correct = q.options?.filter(o => o.correct).map(o => o.id).sort().join(',') === id
-      setIsCorrect(correct)
-      setSelectedAnswer(id)
-      setPhase('feedback')
-    } else {
-      const option = q.options?.find(o => o.id === id)
-      const correct = option?.correct ?? false
-      setIsCorrect(correct)
-      setSelectedAnswer(id)
-      setPhase('feedback')
+    if (isMsq) {
+      setSelectedMsqAnswers(prev =>
+        prev.includes(id) ? prev.filter(x => x !== id) : [...prev, id]
+      )
+      return
     }
+
+    const option = currentQuestion?.options?.find(o => o.id === id)
+    const correct = option?.correct ?? false
+    setIsCorrect(correct)
+    setSelectedAnswer(id)
+    setPhase('feedback')
+  }
+
+  function handleSubmitMsq() {
+    if (selectedMsqAnswers.length === 0 || !currentQuestion) return
+    const correctIds = currentQuestion.options?.filter(o => o.correct).map(o => o.id) || []
+    const hasWrong = selectedMsqAnswers.some(id => !correctIds.includes(id))
+    const correctCount = selectedMsqAnswers.filter(id => correctIds.includes(id)).length
+    const allCorrectSelected = correctCount === correctIds.length
+
+    if (allCorrectSelected && !hasWrong) {
+      setIsCorrect(true)
+      setIsAlmostCorrect(false)
+    } else if (correctCount >= 1 && !hasWrong && correctCount < correctIds.length) {
+      setIsCorrect(false)
+      setIsAlmostCorrect(true)
+      setSelectedAnswer(selectedMsqAnswers.join(','))
+    } else {
+      setIsCorrect(false)
+      setIsAlmostCorrect(false)
+      setSelectedAnswer(selectedMsqAnswers.join(','))
+    }
+    setPhase('feedback')
+  }
+
+  function moveDragItem(id: string, direction: 'up' | 'down') {
+    if (phase === 'feedback') return
+    setDragOrder(prev => {
+      const idx = prev.indexOf(id)
+      if (idx === -1) return prev
+      const newIdx = direction === 'up' ? idx - 1 : idx + 1
+      if (newIdx < 0 || newIdx >= prev.length) return prev
+      const next = [...prev]
+      ;[next[idx], next[newIdx]] = [next[newIdx], next[idx]]
+      return next
+    })
+  }
+
+  function handleSubmitDrag() {
+    if (!currentQuestion) return
+    const correctOrder = currentQuestion.options?.filter(o => o.order != null).sort((a, b) => (a.order || 0) - (b.order || 0)).map(o => o.id || '') || []
+    const correctCount = dragOrder.filter((id, i) => id === correctOrder[i]).length
+    const totalCount = correctOrder.length
+
+    if (correctCount === totalCount) {
+      setIsCorrect(true)
+      setIsAlmostCorrect(false)
+    } else if (correctCount >= totalCount - 1 && correctCount > 0) {
+      setIsCorrect(false)
+      setIsAlmostCorrect(true)
+    } else {
+      setIsCorrect(false)
+      setIsAlmostCorrect(false)
+    }
+    setSelectedAnswer(correctOrder.join(','))
+    setPhase('feedback')
   }
 
   function advanceQuestion() {
     if (!currentQuestion) return
 
     setTotalQuestions(t => t + (currentQuestion.type !== 'teaching' ? 1 : 0))
-    if (isCorrect && currentQuestion.type !== 'teaching') {
+    if ((isCorrect || isAlmostCorrect) && currentQuestion.type !== 'teaching') {
       setTotalCorrect(c => c + 1)
-    } else if (!isCorrect && currentQuestion.type !== 'teaching') {
+    } else if (!isCorrect && !isAlmostCorrect && currentQuestion.type !== 'teaching') {
       const q = currentQuestion
       setMistakes(m => [...m, q.microSkill || ''])
       setHearts(h => Math.max(0, h - 1))
       setMistakeQueue(m => [...m, q])
     }
 
-    if (hearts <= 0 && !isCorrect) {
+    if (hearts <= 0 && !isCorrect && !isAlmostCorrect) {
       setCompleting(true)
       return
     }
@@ -113,7 +185,11 @@ export default function SenecaLessonPlayer({ lessonId, questions, onComplete, on
     if (currentQuestionIndex + 1 < currentQuestions.length) {
       setCurrentQuestionIndex(i => i + 1)
       setSelectedAnswer(null)
+      setIsAlmostCorrect(false)
       setTextAnswer('')
+      setSelectedMsqAnswers([])
+      setDragOrder([])
+      setDragInitialised(false)
       setPhase(currentQuestion.type === 'teaching' ? 'reading' : 'answering')
       setTimeout(() => textInputRef.current?.focus(), 100)
     } else {
@@ -121,7 +197,11 @@ export default function SenecaLessonPlayer({ lessonId, questions, onComplete, on
         setCurrentBlockIndex(i => i + 1)
         setCurrentQuestionIndex(0)
         setSelectedAnswer(null)
+        setIsAlmostCorrect(false)
         setTextAnswer('')
+        setSelectedMsqAnswers([])
+        setDragOrder([])
+        setDragInitialised(false)
         setPhase('reading')
       } else {
         setCompleting(true)
@@ -135,19 +215,57 @@ export default function SenecaLessonPlayer({ lessonId, questions, onComplete, on
     setTimeout(() => textInputRef.current?.focus(), 100)
   }
 
+  function fuzzyMatch(user: string, correct: string, type: string): { score: number; correct: boolean; almost: boolean } {
+    const userNorm = user.toLowerCase().replace(/[.,;:!?]/g, '').trim()
+    const correctNorm = correct.toLowerCase().replace(/[.,;:!?]/g, '').trim()
+
+    if (userNorm === correctNorm) return { score: 1, correct: true, almost: false }
+
+    const userWords = userNorm.split(/\s+/).filter(Boolean)
+    const correctWords = correctNorm.split(/\s+/).filter(Boolean)
+
+    if (userWords.length === 0) return { score: 0, correct: false, almost: false }
+
+    const matched = correctWords.filter(w => userWords.includes(w)).length
+    const contained = correctWords.filter(w => userNorm.includes(w)).length
+    const bestMatches = Math.max(matched, contained)
+    const score = correctWords.length > 0 ? bestMatches / correctWords.length : 0
+
+    if (type === 'fill_gap_case' || type === 'fill_gap_statute') {
+      const correctCaseMatch = correctWords.some(w => userNorm.includes(w))
+      if (correctCaseMatch && score >= 0.35) return { score, correct: false, almost: true }
+      return { score, correct: score >= 0.65, almost: score >= 0.35 && score < 0.65 }
+    }
+
+    if (type === 'spot_error') {
+      const keyTerms = ['invitation', 'treat', 'offer', 'contract', 'binding', 'refuse', 'accept', 'till', 'checkout', 'display', 'boots', 'immediate', 'formed', 'not', 'no', 'legal', 'customer', 'shop']
+      const keyMatches = keyTerms.filter(k => userNorm.includes(k)).length
+      const adjustedScore = Math.max(score, keyMatches / Math.min(keyTerms.length, 12))
+      const keywordRich = keyMatches >= 3
+
+      if (adjustedScore >= 0.6 || (adjustedScore >= 0.4 && keywordRich)) return { score: adjustedScore, correct: false, almost: true }
+      return { score: adjustedScore, correct: adjustedScore >= 0.85, almost: adjustedScore >= 0.4 && adjustedScore < 0.85 }
+    }
+
+    const threshold = type === 'msq' ? 0.7 : 0.6
+    if (score >= threshold) return { score, correct: false, almost: true }
+    return { score, correct: score >= 0.85, almost: score >= threshold && score < 0.85 }
+  }
+
   function handleSubmitText() {
     if (!textAnswer.trim() || !currentQuestion) return
-    const correctAnswer = currentQuestion.answer?.toLowerCase().trim()
     const userAnswer = textAnswer.toLowerCase().trim()
-    const correct = userAnswer === correctAnswer
-    setIsCorrect(correct)
-    setSelectedAnswer(correct ? 'correct' : 'wrong')
+    const correctAnswer = currentQuestion.answer?.toLowerCase().trim()
+    const result = fuzzyMatch(userAnswer, correctAnswer, currentQuestion.type)
+    setIsCorrect(result.correct)
+    setIsAlmostCorrect(result.almost)
+    setSelectedAnswer(result.correct ? 'correct' : result.almost ? 'almost' : 'wrong')
     setPhase('feedback')
   }
 
   function handleComplete() {
     onComplete({
-      correct: totalCorrect + (isCorrect ? 1 : 0),
+      correct: totalCorrect + (isCorrect || isAlmostCorrect ? 1 : 0),
       total: totalQuestions + (currentQuestion?.type !== 'teaching' ? 1 : 0),
       mistakes: [...new Set(mistakes)],
     })
@@ -247,14 +365,104 @@ export default function SenecaLessonPlayer({ lessonId, questions, onComplete, on
                 </div>
               )}
 
+              {/* Drag elements — sequencing/ordering questions */}
+              {isDragElements && (
+                <div className="space-y-2">
+                  <p className="text-sm text-gray-400 font-medium mb-1">
+                    Tap arrows to arrange in the correct order
+                  </p>
+                  {dragOrder.map((id, idx) => {
+                    const opt = currentQuestion?.options?.find(o => o.id === id)
+                    if (!opt) return null
+                    const isFirst = idx === 0
+                    const isLast = idx === dragOrder.length - 1
+                    const showOrder = phase === 'feedback'
+                    const correctPos = opt.order === idx + 1
+                    const wrongPos = showOrder && !correctPos
+
+                    return (
+                      <div
+                        key={id}
+                        className={cn(
+                          'flex items-center gap-3 p-3.5 rounded-xl border-2 transition-all text-sm font-medium',
+                          phase === 'feedback' && correctPos && 'border-green-500 bg-green-50',
+                          phase === 'feedback' && wrongPos && 'border-red-400 bg-red-50',
+                          phase !== 'feedback' && 'border-gray-200 bg-white',
+                        )}
+                      >
+                        {phase !== 'feedback' ? (
+                          <div className="flex flex-col gap-0.5 shrink-0">
+                            <button
+                              onClick={() => moveDragItem(id, 'up')}
+                              disabled={isFirst}
+                              className={cn(
+                                'w-7 h-6 flex items-center justify-center rounded-t text-xs leading-none',
+                                isFirst ? 'text-gray-300 cursor-default' : 'text-gray-500 hover:bg-gray-100'
+                              )}
+                            >
+                              &#9650;
+                            </button>
+                            <button
+                              onClick={() => moveDragItem(id, 'down')}
+                              disabled={isLast}
+                              className={cn(
+                                'w-7 h-6 flex items-center justify-center rounded-b text-xs leading-none',
+                                isLast ? 'text-gray-300 cursor-default' : 'text-gray-500 hover:bg-gray-100'
+                              )}
+                            >
+                              &#9660;
+                            </button>
+                          </div>
+                        ) : (
+                          <span className={cn(
+                            'w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold border-2 shrink-0',
+                            correctPos ? 'border-green-500 bg-green-500 text-white' : 'border-red-300 bg-red-300 text-white'
+                          )}>
+                            {idx + 1}
+                          </span>
+                        )}
+                        <span className={cn(phase === 'feedback' && wrongPos && 'line-through text-red-500')}>
+                          {opt.text}
+                        </span>
+                        {showOrder && correctPos && (
+                          <CheckCircle2 className="w-4 h-4 text-green-500 ml-auto shrink-0" />
+                        )}
+                        {showOrder && wrongPos && (
+                          <span className="ml-auto text-xs text-red-400 font-medium">should be #{opt.order}</span>
+                        )}
+                      </div>
+                    )
+                  })}
+                  {phase !== 'feedback' && (
+                    <button
+                      onClick={handleSubmitDrag}
+                      className="w-full bg-[#58CC02] text-white font-bold py-3.5 rounded-xl hover:bg-[#46A302] transition-colors mt-3"
+                    >
+                      Check Order
+                    </button>
+                  )}
+                </div>
+              )}
+
               {/* Options-based questions */}
               {hasOptions && (
               <div className="space-y-2.5">
+                {isMsq && phase === 'answering' && (
+                  <p className="text-sm text-gray-400 font-medium mb-1">
+                    Select {msqCorrectCount} {msqCorrectCount === 1 ? 'answer' : 'answers'}
+                  </p>
+                )}
                 {currentQuestion.options?.map((opt, i) => {
-                  const sel = selectedAnswer === opt.id
-                  const green = sel && opt.correct
-                  const red = sel && !opt.correct
-                  const dim = phase === 'feedback' && !sel && !opt.correct
+                  const optId = opt.id || ''
+                  const isSelected = isMsq
+                    ? selectedMsqAnswers.includes(optId)
+                    : selectedAnswer === optId
+                  const isCorrectOpt = opt.correct
+                  const isWrongPick = phase === 'feedback' && isSelected && !isCorrectOpt
+                  const isMissedCorrect = phase === 'feedback' && !isSelected && isCorrectOpt
+                  const isSelectedCorrect = phase === 'feedback' && isSelected && isCorrectOpt
+                  const dim = phase === 'feedback' && !isSelected && !isCorrectOpt
+
                   return (
                     <motion.button
                       key={opt.id || i}
@@ -264,35 +472,77 @@ export default function SenecaLessonPlayer({ lessonId, questions, onComplete, on
                       className={cn(
                         'w-full text-left p-3.5 rounded-xl border-2 transition-all font-medium text-sm',
                         dim && 'opacity-40',
-                        green && 'border-green-500 bg-green-50',
-                        red && 'border-red-400 bg-red-50',
-                        sel && !green && !red && 'border-[#58CC02] bg-green-50/50 scale-[1.01]',
-                        !sel && !dim && 'border-gray-100 hover:border-gray-200'
+                        isSelectedCorrect && 'border-green-500 bg-green-50',
+                        isWrongPick && 'border-red-400 bg-red-50',
+                        isMissedCorrect && 'border-green-400 bg-green-50/50 border-dashed',
+                        isSelected && phase !== 'feedback' && 'border-[#58CC02] bg-green-50/50',
+                        !isSelected && !dim && 'border-gray-100 hover:border-gray-200'
                       )}
                     >
                       <div className="flex items-center gap-3">
-                        <span className={cn('w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold border-2 shrink-0', sel && !green && !red ? 'border-[#58CC02] bg-[#58CC02] text-white' : 'border-gray-200 text-gray-500')}>
+                        <span className={cn(
+                          'w-6 h-6 flex items-center justify-center text-xs font-bold border-2 shrink-0',
+                          isMsq ? 'rounded' : 'rounded-full',
+                          isSelected && phase !== 'feedback' && 'border-[#58CC02] bg-[#58CC02] text-white',
+                          isSelectedCorrect && 'border-green-500 bg-green-500 text-white',
+                          isWrongPick && 'border-red-400 bg-red-400 text-white',
+                          isMissedCorrect && 'border-green-400 text-green-600',
+                          !isSelected && !dim && 'border-gray-200 text-gray-500'
+                        )}>
                           {String.fromCharCode(65 + i)}
                         </span>
                         <span>{opt.text}</span>
-                        {green && <CheckCircle2 className="w-4 h-4 text-green-500 ml-auto shrink-0" />}
-                        {red && <XCircle className="w-4 h-4 text-red-400 ml-auto shrink-0" />}
+                        {isSelectedCorrect && <CheckCircle2 className="w-4 h-4 text-green-500 ml-auto shrink-0" />}
+                        {isWrongPick && <XCircle className="w-4 h-4 text-red-400 ml-auto shrink-0" />}
+                        {isMissedCorrect && <CheckCircle2 className="w-4 h-4 text-green-400 ml-auto shrink-0 opacity-50" />}
                       </div>
                     </motion.button>
                   )
                 })}
+                {isMsq && phase === 'answering' && selectedMsqAnswers.length > 0 && (
+                  <button
+                    onClick={handleSubmitMsq}
+                    className="w-full bg-[#58CC02] text-white font-bold py-3.5 rounded-xl hover:bg-[#46A302] transition-colors mt-3"
+                  >
+                    Check Answer ({selectedMsqAnswers.length})
+                  </button>
+                )}
               </div>
               )}
 
               {/* Feedback */}
               {phase === 'feedback' && (
-                <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className={cn('mt-6 p-4 rounded-xl', isCorrect ? 'bg-green-50 border border-green-200' : 'bg-red-50 border border-red-200')}>
-                  <p className={cn('text-sm font-bold mb-1', isCorrect ? 'text-green-700' : 'text-red-600')}>
-                    {isCorrect ? 'Correct!' : 'Not quite'}
+                <motion.div
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  className={cn(
+                    'mt-6 p-4 rounded-xl',
+                    isCorrect && 'bg-green-50 border border-green-200',
+                    isAlmostCorrect && 'bg-amber-50 border border-amber-200',
+                    !isCorrect && !isAlmostCorrect && 'bg-red-50 border border-red-200'
+                  )}
+                >
+                  <p className={cn(
+                    'text-sm font-bold mb-1',
+                    isCorrect && 'text-green-700',
+                    isAlmostCorrect && 'text-amber-700',
+                    !isCorrect && !isAlmostCorrect && 'text-red-600'
+                  )}>
+                    {isCorrect ? 'Correct!' : isAlmostCorrect ? 'Almost there!' : 'Not quite'}
                   </p>
-                  {isFillGap && !isCorrect && (
-                    <p className="text-sm font-semibold text-gray-800 mb-2">
+                  {isFillGap && (!isCorrect || isAlmostCorrect) && (
+                    <p className={cn('text-sm font-semibold mb-2', isAlmostCorrect ? 'text-amber-800' : 'text-gray-800')}>
                       Correct answer: <span className="text-[#58CC02]">{currentQuestion.answer}</span>
+                    </p>
+                  )}
+                  {isMsq && !isCorrect && (
+                    <p className="text-sm font-semibold text-gray-800 mb-2">
+                      Correct answers:{' '}
+                      {currentQuestion.options?.filter(o => o.correct).map((o, i) => (
+                        <span key={o.id}>
+                          <span className="text-[#58CC02]">{o.id?.toUpperCase()}</span>{i < (currentQuestion.options?.filter(o => o.correct).length || 1) - 1 ? ', ' : ''}
+                        </span>
+                      ))}
                     </p>
                   )}
                   <p className="text-sm text-gray-700 leading-relaxed">{currentQuestion.feedback}</p>
@@ -312,7 +562,7 @@ export default function SenecaLessonPlayer({ lessonId, questions, onComplete, on
         {phase === 'feedback' &&
           <div className="px-4 py-4 border-t border-gray-100">
             <button onClick={advanceQuestion} className="w-full bg-[#58CC02] text-white font-bold py-3.5 rounded-xl hover:bg-[#46A302] transition-colors flex items-center justify-center gap-2">
-              {hearts <= 0 && !isCorrect ? 'See Results' : currentBlockIndex === 2 && currentQuestionIndex + 1 >= currentQuestions.length ? 'Complete Lesson' : 'Continue'}
+              {hearts <= 0 && !isCorrect && !isAlmostCorrect ? 'See Results' : currentBlockIndex === 2 && currentQuestionIndex + 1 >= currentQuestions.length ? 'Complete Lesson' : 'Continue'}
               <ArrowRight className="w-5 h-5" />
             </button>
           </div>
