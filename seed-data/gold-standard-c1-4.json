@@ -1,0 +1,987 @@
+[
+  {
+    "lessonId": "lesson-C1-4",
+    "microSkill": "C1.4",
+    "block": "A",
+    "phase": "teaching",
+    "teachingSummary": "**Core Rule:** Diminished responsibility is a partial defence to murder that reduces liability to voluntary manslaughter. The old law was contained in s.2 of the Homicide Act 1957, which required D to prove (on the balance of probabilities) that they were suffering from an 'abnormality of mind' which 'substantially impaired' their 'mental responsibility' for the killing.\n\n**Section 2 Homicide Act 1957 — The Framework:** The defence had three elements: (1) D must have been suffering from an 'abnormality of mind,' defined in *R v Byrne* [1960] 2 QB 396 as 'a state of mind so different from that of ordinary human beings that the reasonable man would term it abnormal.' This included mental illness, arrested or retarded development, and inherent causes. (2) The abnormality of mind must have arisen from a specified cause: a condition of arrested or retarded development of mind, any inherent cause, or disease or injury. (3) The abnormality must have 'substantially impaired' D's mental responsibility for the killing — 'substantially' in *R v Lloyd* [1967] 1 QB 175 was held to mean more than trivial or minimal, but less than total.\n\n**Criticisms of the Old Law:** The terminology was outdated and medicalised in the wrong sense — 'abnormality of mind' was a legal, not a psychiatric, concept. The phrase 'mental responsibility' was vague. The list of causes was narrow and did not explicitly accommodate recognised medical conditions such as PTSD or personality disorders within a modern diagnostic framework. The Law Commission recommended reform, leading to the new provisions in s.52 of the Coroners and Justice Act 2009.\n\n**In short:** The old law required an 'abnormality of mind' (from specified causes) which substantially impaired D's mental responsibility. The language was criticised as outdated and the framework was replaced by s.52 CJA 2009, which came into force on 4 October 2010.",
+    "type": "teaching",
+    "question": "",
+    "answer": "",
+    "options": [],
+    "feedback": "",
+    "oscoaReferences": [
+      "Homicide Act 1957, s.2",
+      "R v Byrne [1960] 2 QB 396",
+      "R v Lloyd [1967] 1 QB 175"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "diminished-responsibility",
+      "old-law",
+      "homicide-act-1957",
+      "abnormality-of-mind"
+    ]
+  },
+  {
+    "lessonId": "lesson-C1-4",
+    "microSkill": "C1.4",
+    "block": "A",
+    "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "The old partial defence of diminished responsibility was contained in section __________ of the Homicide Act 1957, which required proof of an 'abnormality of mind' substantially impairing mental responsibility.",
+    "answer": "2",
+    "options": [],
+    "feedback": "Correct. Section 2 of the Homicide Act 1957 created the statutory defence of diminished responsibility, replacing the earlier Scottish common law doctrine. It has since been replaced by s.52 of the Coroners and Justice Act 2009 for killings on or after 4 October 2010.",
+    "oscoaReferences": [
+      "Homicide Act 1957, s.2",
+      "Coroners and Justice Act 2009, s.52"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "diminished-responsibility",
+      "homicide-act-1957",
+      "statutory-framework"
+    ]
+  },
+  {
+    "lessonId": "lesson-C1-4",
+    "microSkill": "C1.4",
+    "block": "A",
+    "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "R v __________ [1960] 2 QB 396 defined 'abnormality of mind' under s.2 Homicide Act 1957 as 'a state of mind so different from that of ordinary human beings that the reasonable man would term it abnormal.'",
+    "answer": "Byrne",
+    "options": [],
+    "feedback": "Correct. *R v Byrne* [1960] — D was a sexual psychopath who strangled and mutilated a young woman. The Court of Criminal Appeal held that his abnormal sexual impulses constituted an abnormality of mind. D's murder conviction was substituted for manslaughter.",
+    "oscoaReferences": [
+      "R v Byrne [1960] 2 QB 396",
+      "Homicide Act 1957, s.2"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "byrne",
+      "abnormality-of-mind",
+      "diminished-responsibility"
+    ]
+  },
+  {
+    "lessonId": "lesson-C1-4",
+    "microSkill": "C1.4",
+    "block": "A",
+    "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "In R v __________ [1967] 1 QB 175, the court held that 'substantial impairment' under s.2 Homicide Act 1957 means more than trivial or minimal impairment, but less than total impairment.",
+    "answer": "Lloyd",
+    "options": [],
+    "feedback": "Correct. *R v Lloyd* [1967] — the Court of Appeal held that 'substantial' in s.2 does not mean 'total' but means 'more than something which is trivial or minimal.' This is a matter for the jury, assisted by medical evidence.",
+    "oscoaReferences": [
+      "R v Lloyd [1967] 1 QB 175",
+      "Homicide Act 1957, s.2"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "lloyd",
+      "substantial-impairment",
+      "diminished-responsibility"
+    ]
+  },
+  {
+    "lessonId": "lesson-C1-4",
+    "microSkill": "C1.4",
+    "block": "A",
+    "phase": "teaching",
+    "type": "drag_elements",
+    "question": "Match each element of the old diminished responsibility defence under s.2 Homicide Act 1957 to its legal meaning:",
+    "answer": "Abnormality of mind=A state of mind so different from that of ordinary human beings that the reasonable man would term it abnormal (*Byrne* [1960]); Specified cause=Arrested or retarded development of mind, inherent cause, or disease/injury; Substantial impairment=More than trivial or minimal, but less than total (*Lloyd* [1967]); Mental responsibility=D's culpability for the killing, distinct from legal insanity",
+    "options": [
+      {
+        "id": "a1",
+        "text": "A state of mind so different from that of ordinary human beings that the reasonable man would term it abnormal (*Byrne* [1960])",
+        "pair": "Abnormality of mind"
+      },
+      {
+        "id": "a2",
+        "text": "Arrested or retarded development of mind, inherent cause, or disease/injury",
+        "pair": "Specified cause"
+      },
+      {
+        "id": "a3",
+        "text": "More than trivial or minimal, but less than total (*Lloyd* [1967])",
+        "pair": "Substantial impairment"
+      },
+      {
+        "id": "a4",
+        "text": "D's culpability for the killing, distinct from legal insanity",
+        "pair": "Mental responsibility"
+      }
+    ],
+    "feedback": "Well matched. These four elements constituted the old s.2 Homicide Act 1957 defence. The burden of proof was on D on the balance of probabilities. The language was criticised as vague and not aligned with modern psychiatric diagnosis.",
+    "oscoaReferences": [
+      "Homicide Act 1957, s.2",
+      "R v Byrne [1960] 2 QB 396",
+      "R v Lloyd [1967] 1 QB 175"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "diminished-responsibility",
+      "matching",
+      "old-law"
+    ]
+  },
+  {
+    "lessonId": "lesson-C1-4",
+    "microSkill": "C1.4",
+    "block": "A",
+    "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "In 2008, Ruth, who suffers from severe clinical depression, kills her husband during a depressive episode. Psychiatric evidence shows her depression substantially impaired her ability to control her actions. The killing occurred before 4 October 2010. Applying s.2 Homicide Act 1957 and *Byrne* [1960]:",
+    "answer": "b",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ruth cannot rely on diminished responsibility because depression was not recognised as an 'abnormality of mind' under the old law",
+        "correct": false,
+        "feedback": "Incorrect. Depression and other mental illnesses were recognised as capable of constituting an 'abnormality of mind' under the old law if the severity met the Byrne test."
+      },
+      {
+        "id": "b",
+        "text": "Ruth may rely on s.2 Homicide Act 1957 — her severe clinical depression could constitute an 'abnormality of mind' under *Byrne* [1960], and if it substantially impaired her mental responsibility for the killing, the defence succeeds",
+        "correct": true,
+        "feedback": "Correct. Under the old law, mental illnesses including depression could constitute an abnormality of mind (*Byrne* [1960]). The question is whether it substantially impaired her mental responsibility (*Lloyd* [1967] — more than minimal). D bears the burden on the balance of probabilities."
+      },
+      {
+        "id": "c",
+        "text": "Ruth must rely on the new law under s.52 CJA 2009 because the old law was too narrow to accommodate depression",
+        "correct": false,
+        "feedback": "Incorrect. The killing occurred in 2008, so the old law applies. The CJA 2009 is not retrospective. Depression was recognised under the old law."
+      },
+      {
+        "id": "d",
+        "text": "Ruth has no defence because depression is never sufficient to reduce murder to manslaughter",
+        "correct": false,
+        "feedback": "Incorrect. Both the old and new law recognise that depression, if sufficiently severe, may ground diminished responsibility."
+      }
+    ],
+    "feedback": "This scenario illustrates the old law in operation. Under *R v Byrne* [1960], the question is whether the condition creates a state of mind 'so different from ordinary human beings that the reasonable man would term it abnormal.' Depression of sufficient severity qualifies. The impairment must be 'substantial' — more than trivial or minimal (*R v Lloyd* [1967]).",
+    "oscoaReferences": [
+      "Homicide Act 1957, s.2",
+      "R v Byrne [1960] 2 QB 396",
+      "R v Lloyd [1967] 1 QB 175"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "diminished-responsibility",
+      "depression",
+      "old-law",
+      "scenario"
+    ]
+  },
+  {
+    "lessonId": "lesson-C1-4",
+    "microSkill": "C1.4",
+    "block": "A",
+    "phase": "teaching",
+    "type": "spot_error",
+    "question": "Spot the legal error in this paragraph:\n\n'Under s.2 of the Homicide Act 1957, the prosecution must prove beyond reasonable doubt that D was suffering from an abnormality of mind. If the jury finds any minor impairment of D's mental responsibility, however trivial, the defence succeeds. The abnormality of mind must be a recognised psychiatric condition listed in the DSM.'",
+    "answer": "Three errors: (1) The burden of proof is on D, not the prosecution — D must prove the defence on the balance of probabilities. (2) The impairment must be substantial — more than trivial or minimal (*Lloyd* [1967]). Trivial impairment is insufficient. (3) The old law did not require a recognised psychiatric condition — the test was a broadly defined 'abnormality of mind' (*Byrne* [1960]), a legal concept, not dependent on DSM classification.",
+    "options": [],
+    "feedback": "Found them. The burden of proof under s.2 Homicide Act 1957 was on D (balance of probabilities). 'Substantial' impairment was required, not any impairment (*Lloyd* [1967]). And 'abnormality of mind' was a legal, not medical, concept — it did not require a DSM diagnosis. These were key criticisms the CJA 2009 reforms addressed.",
+    "oscoaReferences": [
+      "Homicide Act 1957, s.2",
+      "R v Byrne [1960] 2 QB 396",
+      "R v Lloyd [1967] 1 QB 175"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "diminished-responsibility",
+      "spot-error",
+      "burden-of-proof"
+    ]
+  },
+  {
+    "lessonId": "lesson-C1-4",
+    "microSkill": "C1.4",
+    "block": "A",
+    "phase": "teaching",
+    "type": "msq",
+    "question": "Which TWO of the following correctly describe the old diminished responsibility defence under s.2 Homicide Act 1957?",
+    "answer": "a,c",
+    "options": [
+      {
+        "id": "a",
+        "text": "The burden of proof was on the defendant on the balance of probabilities",
+        "correct": true,
+        "feedback": "Correct. Under s.2(2) Homicide Act 1957, D bore the burden of proving the defence on the balance of probabilities. This has been retained under s.52(7) CJA 2009."
+      },
+      {
+        "id": "b",
+        "text": "The prosecution was required to disprove the defence beyond reasonable doubt",
+        "correct": false,
+        "feedback": "Incorrect. The burden of proof was on D, not the prosecution. This is unusual for criminal defences and has been criticised, though held compatible with Art 6 ECHR."
+      },
+      {
+        "id": "c",
+        "text": "The abnormality of mind had to arise from a specified cause: arrested or retarded development, inherent cause, or disease/injury",
+        "correct": true,
+        "feedback": "Correct. Section 2(1) specified the three categories of cause: a condition of arrested or retarded development of mind, any inherent cause, or disease or injury. This was narrower than the new law's 'recognised medical condition.'"
+      },
+      {
+        "id": "d",
+        "text": "The abnormality of mind had to be a formally diagnosed psychiatric condition under the ICD-10",
+        "correct": false,
+        "feedback": "Incorrect. The old law did not require a formal psychiatric diagnosis. 'Abnormality of mind' was a legal concept, not tied to any diagnostic manual."
+      },
+      {
+        "id": "e",
+        "text": "The defence automatically succeeded if D was suffering from any mental abnormality, however minor",
+        "correct": false,
+        "feedback": "Incorrect. The impairment had to be 'substantial' — more than trivial or minimal (*Lloyd* [1967]). Minor impairment did not suffice."
+      }
+    ],
+    "feedback": "Correct answers: (a) and (c). The old law placed the burden on D and required the abnormality of mind to arise from one of the three specified causes. The impairment had to be substantial, and no formal diagnosis was required, though psychiatric evidence was highly relevant.",
+    "oscoaReferences": [
+      "Homicide Act 1957, s.2",
+      "R v Lloyd [1967] 1 QB 175"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "diminished-responsibility",
+      "msq",
+      "old-law"
+    ]
+  },
+  {
+    "lessonId": "lesson-C1-4",
+    "microSkill": "C1.4",
+    "block": "B",
+    "phase": "teaching",
+    "teachingSummary": "**Core Rule:** Section 52 of the Coroners and Justice Act 2009, which came into force on 4 October 2010, replaced s.2 of the Homicide Act 1957 and modernised the defence of diminished responsibility. The new law requires: (1) D must have been suffering from an 'abnormality of mental functioning' which (2) arose from a 'recognised medical condition,' (3) substantially impaired D's ability to do one or more of three things: (a) understand the nature of their conduct, (b) form a rational judgment, or (c) exercise self-control, and (4) provides an explanation for D's conduct (the causal connection).\n\n**Key Changes from the Old Law:** The new law replaces 'abnormality of mind' with 'abnormality of mental functioning' — a more precise term. It requires a 'recognised medical condition' (s.52(1)(a)), aligning the defence with modern psychiatric diagnosis. The three specified impairments — understanding, rational judgment, self-control — replace the vague 'mental responsibility' concept. The requirement that the abnormality provides an explanation for D's conduct (s.52(1)(c)) emphasises the causal link.\n\n**Recognised Medical Condition:** In *R v Dowds* [2012] EWCA Crim 281, D killed his partner while intoxicated. He claimed 'acute voluntary intoxication' was a recognised medical condition under the ICD-10. The Court of Appeal rejected this — voluntary acute intoxication, without more, is not a recognised medical condition for the purposes of s.52. The condition must be a condition that the medical profession recognises for the purpose of treatment.\n\n**Substantial Impairment:** In *R v Brennan* [2014] EWCA Crim 2387, the Court of Appeal clarified that 'substantial' in s.52 retains the meaning from *Lloyd* [1967] — more than trivial or minimal. The jury must consider whether the abnormality substantially impaired one or more of D's specified capacities. Medical evidence is critical but not dispositive — the jury makes the ultimate decision.\n\n**In short:** The new law requires an abnormality of mental functioning arising from a recognised medical condition, substantially impairing D's understanding, rational judgment, or self-control, and providing an explanation for the killing. *Dowds* [2012] confirms that voluntary intoxication alone is not a qualifying condition.",
+    "type": "teaching",
+    "question": "",
+    "answer": "",
+    "options": [],
+    "feedback": "",
+    "oscoaReferences": [
+      "Coroners and Justice Act 2009, s.52",
+      "R v Dowds [2012] EWCA Crim 281",
+      "R v Brennan [2014] EWCA Crim 2387"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "diminished-responsibility",
+      "new-law",
+      "cja-2009",
+      "recognised-medical-condition"
+    ]
+  },
+  {
+    "lessonId": "lesson-C1-4",
+    "microSkill": "C1.4",
+    "block": "B",
+    "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "Under s.52 of the Coroners and Justice Act 2009, D must show they were suffering from an abnormality of __________ functioning arising from a recognised medical condition which substantially impaired their capacity.",
+    "answer": "mental",
+    "options": [],
+    "feedback": "Correct. Section 52(1)(a) — 'abnormality of mental functioning' replaces the old 'abnormality of mind.' The new language is more precise and better aligned with psychiatric understanding.",
+    "oscoaReferences": [
+      "Coroners and Justice Act 2009, s.52"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "cja-2009",
+      "mental-functioning",
+      "diminished-responsibility"
+    ]
+  },
+  {
+    "lessonId": "lesson-C1-4",
+    "microSkill": "C1.4",
+    "block": "B",
+    "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "R v __________ [2012] EWCA Crim 281 held that voluntary acute intoxication is not a 'recognised medical condition' for the purposes of s.52 CJA 2009 — the condition must be one the medical profession recognises for treatment.",
+    "answer": "Dowds",
+    "options": [],
+    "feedback": "Correct. *R v Dowds* [2012] — D killed his partner while heavily intoxicated. He argued 'acute voluntary intoxication' was a recognised ICD-10 condition. The Court of Appeal rejected this — intoxication without an underlying condition (such as alcohol dependency syndrome) is not a 'recognised medical condition' under s.52.",
+    "oscoaReferences": [
+      "R v Dowds [2012] EWCA Crim 281",
+      "Coroners and Justice Act 2009, s.52"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "dowds",
+      "recognised-medical-condition",
+      "intoxication"
+    ]
+  },
+  {
+    "lessonId": "lesson-C1-4",
+    "microSkill": "C1.4",
+    "block": "B",
+    "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "R v __________ [2014] EWCA Crim 2387 confirmed that 'substantial' under s.52 CJA 2009 retains the meaning from *Lloyd* [1967]: more than trivial or minimal, but less than total.",
+    "answer": "Brennan",
+    "options": [],
+    "feedback": "Correct. *R v Brennan* [2014] — the Court of Appeal held that 'substantial impairment' in s.52 means the same as it did under the old s.2. The impairment must be more than trivial/minimal but need not be total. The jury decides, assisted by medical evidence.",
+    "oscoaReferences": [
+      "R v Brennan [2014] EWCA Crim 2387",
+      "R v Lloyd [1967] 1 QB 175"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "brennan",
+      "substantial-impairment",
+      "cja-2009"
+    ]
+  },
+  {
+    "lessonId": "lesson-C1-4",
+    "microSkill": "C1.4",
+    "block": "B",
+    "phase": "teaching",
+    "type": "drag_elements",
+    "question": "Match each element of the new diminished responsibility defence under s.52 CJA 2009 to its description:",
+    "answer": "Abnormality of mental functioning=s.52(1)(a) — a condition arising from a recognised medical condition; Three impaired capacities=Substantial impairment of understanding, rational judgment, or self-control; Recognised medical condition=A condition recognised by the medical profession for treatment (*Dowds* [2012]); Causal connection=The abnormality must provide an explanation for D's conduct (s.52(1)(c))",
+    "options": [
+      {
+        "id": "b1",
+        "text": "s.52(1)(a) — a condition arising from a recognised medical condition",
+        "pair": "Abnormality of mental functioning"
+      },
+      {
+        "id": "b2",
+        "text": "Substantial impairment of understanding, rational judgment, or self-control",
+        "pair": "Three impaired capacities"
+      },
+      {
+        "id": "b3",
+        "text": "A condition recognised by the medical profession for treatment (*Dowds* [2012])",
+        "pair": "Recognised medical condition"
+      },
+      {
+        "id": "b4",
+        "text": "The abnormality must provide an explanation for D's conduct (s.52(1)(c))",
+        "pair": "Causal connection"
+      }
+    ],
+    "feedback": "Well matched. The new s.52 structure is more precise than the old law. The three specified capacities give the jury a clearer framework. The 'recognised medical condition' requirement aligns the defence with psychiatric diagnosis. The causal connection requirement ensures the abnormality is linked to the killing.",
+    "oscoaReferences": [
+      "Coroners and Justice Act 2009, s.52",
+      "R v Dowds [2012] EWCA Crim 281"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "cja-2009",
+      "diminished-responsibility",
+      "matching"
+    ]
+  },
+  {
+    "lessonId": "lesson-C1-4",
+    "microSkill": "C1.4",
+    "block": "B",
+    "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "Kevin, diagnosed with paranoid schizophrenia, kills his neighbour after becoming convinced the neighbour is an alien agent monitoring him. Psychiatric evidence confirms the schizophrenia substantially impaired Kevin's ability to form a rational judgment. The killing occurred in 2020. Applying s.52 CJA 2009:",
+    "answer": "b",
+    "options": [
+      {
+        "id": "a",
+        "text": "Kevin cannot rely on diminished responsibility because he understood what he was doing — killing the neighbour — even if his reason was delusional",
+        "correct": false,
+        "feedback": "Incorrect. While Kevin may have understood the nature of his conduct (s.52(1A)(a)), he may still be substantially impaired in his ability to form a rational judgment (s.52(1A)(b)). The delusional belief that the neighbour was an alien goes directly to rational judgment."
+      },
+      {
+        "id": "b",
+        "text": "Kevin satisfies s.52 — paranoid schizophrenia is a recognised medical condition; it caused an abnormality of mental functioning; it substantially impaired his ability to form a rational judgment; and it explains the killing",
+        "correct": true,
+        "feedback": "Correct. Schizophrenia is a quintessential recognised medical condition. The abnormality of mental functioning (paranoid delusions) substantially impaired Kevin's ability to form a rational judgment. The causal connection is clear — the delusion explains why he killed. This is a textbook s.52 case."
+      },
+      {
+        "id": "c",
+        "text": "The defence fails because Kevin must be impaired in ALL three capacities, and he could still exercise self-control",
+        "correct": false,
+        "feedback": "Incorrect. Section 52(1A) requires substantial impairment of ANY ONE of the three capacities, not all three. Impaired rational judgment alone suffices."
+      },
+      {
+        "id": "d",
+        "text": "Kevin must rely on insanity, not diminished responsibility, because his delusions mean he did not know the nature of his act",
+        "correct": false,
+        "feedback": "Incorrect. Kevin knew he was killing a person (knew the nature of his act) but did not form a rational judgment about it. This is a diminished responsibility case, not insanity under M'Naghten."
+      }
+    ],
+    "feedback": "This is a model s.52 case. Schizophrenia is the paradigmatic recognised medical condition. Kevin's paranoid delusions constitute an abnormality of mental functioning, substantially impairing his rational judgment. The delusion directly explains (provides the reason for) the killing, satisfying the causal connection requirement. The defence succeeds, reducing murder to manslaughter.",
+    "oscoaReferences": [
+      "Coroners and Justice Act 2009, s.52"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "cja-2009",
+      "schizophrenia",
+      "rational-judgment",
+      "scenario"
+    ]
+  },
+  {
+    "lessonId": "lesson-C1-4",
+    "microSkill": "C1.4",
+    "block": "B",
+    "phase": "teaching",
+    "type": "spot_error",
+    "question": "Spot the legal error in this statement:\n\n'Under s.52 CJA 2009, any condition listed in the ICD-10 or DSM-5 automatically qualifies as a recognised medical condition. Acute voluntary intoxication is listed in the ICD-10, so a defendant who was drunk at the time of killing can rely on diminished responsibility without more.'",
+    "answer": "Acute voluntary intoxication is NOT a recognised medical condition under s.52 (*R v Dowds* [2012]). The fact a condition appears in the ICD-10 is not determinative — the condition must be one the medical profession recognises for the purpose of treatment. Voluntary intoxication, without an underlying dependency syndrome, does not qualify.",
+    "options": [],
+    "feedback": "Found it. *R v Dowds* [2012] — the Court of Appeal held that acute voluntary intoxication, even though listed in the ICD-10, is not a 'recognised medical condition' for s.52 purposes. The court distinguished between intoxication as a symptom of an underlying condition (like alcohol dependency syndrome) and intoxication as voluntary consumption. The latter is not a qualifying condition.",
+    "oscoaReferences": [
+      "R v Dowds [2012] EWCA Crim 281",
+      "Coroners and Justice Act 2009, s.52"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "dowds",
+      "recognised-medical-condition",
+      "spot-error"
+    ]
+  },
+  {
+    "lessonId": "lesson-C1-4",
+    "microSkill": "C1.4",
+    "block": "B",
+    "phase": "teaching",
+    "type": "msq",
+    "question": "Compared to the old s.2 Homicide Act 1957, which TWO of the following are key changes introduced by s.52 CJA 2009?",
+    "answer": "b,d",
+    "options": [
+      {
+        "id": "a",
+        "text": "The burden of proof shifted from the defendant to the prosecution",
+        "correct": false,
+        "feedback": "Incorrect. The burden remained on D on the balance of probabilities under s.52(7). This is a continuity, not a change."
+      },
+      {
+        "id": "b",
+        "text": "The defence now requires a 'recognised medical condition,' replacing the broader and vaguer 'abnormality of mind'",
+        "correct": true,
+        "feedback": "Correct. Section 52(1)(a) requires a 'recognised medical condition.' This aligns the defence with modern psychiatric diagnosis. *Dowds* [2012] confirmed that not every condition suffices — it must be one the medical profession recognises for treatment."
+      },
+      {
+        "id": "c",
+        "text": "The defence no longer requires the abnormality to substantially impair D's responsibility",
+        "correct": false,
+        "feedback": "Incorrect. Substantial impairment remains a core requirement — s.52(1)(b) requires substantial impairment of one or more specified capacities."
+      },
+      {
+        "id": "d",
+        "text": "The law now specifies three capacities that must be substantially impaired: understanding the nature of conduct, forming a rational judgment, and exercising self-control",
+        "correct": true,
+        "feedback": "Correct. Section 52(1A) specifies the three capacities. This replaces the vague 'mental responsibility' concept of the old law, giving the jury clearer guidance."
+      },
+      {
+        "id": "e",
+        "text": "The defence is now available for attempted murder as well as murder",
+        "correct": false,
+        "feedback": "Incorrect. Diminished responsibility remains a partial defence to murder only. It does not apply to attempted murder or other offences."
+      }
+    ],
+    "feedback": "Correct answers: (b) and (d). The two most significant changes are the 'recognised medical condition' requirement and the specification of three capacities. The burden of proof remains on D, and substantial impairment remains required. The defence applies only to murder.",
+    "oscoaReferences": [
+      "Coroners and Justice Act 2009, s.52",
+      "Homicide Act 1957, s.2"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "cja-2009",
+      "msq",
+      "reforms"
+    ]
+  },
+  {
+    "lessonId": "lesson-C1-4",
+    "microSkill": "C1.4",
+    "block": "C",
+    "phase": "teaching",
+    "teachingSummary": "**Core Rule:** Intoxication interacts with diminished responsibility in complex ways. The general principle is that voluntary intoxication does not, by itself, ground diminished responsibility. However, where D suffers from alcohol dependency syndrome (ADS) — a recognised medical condition — the analysis becomes more nuanced, particularly where the killing involves a combination of underlying condition and acute intoxication.\n\n**Alcohol Dependency Syndrome as a Recognised Medical Condition:** In *R v Wood* [2008] EWCA Crim 1305 (decided under the old law but still relevant), the Court of Appeal held that alcohol dependency syndrome can constitute an 'abnormality of mind' (now an 'abnormality of mental functioning') if it is severe and long-standing. But D must show that their drinking at the time of the killing was involuntary — the result of the dependency, not a voluntary choice to drink. If D simply chose to drink (voluntary consumption), the defence fails even if D has ADS. The jury must ask: was the drinking truly compulsive, or a voluntary act?\n\n**The Two-Stage Approach:** In *R v Dietschmann* [2003] 1 AC 1209, the House of Lords held that where D suffers from a mental abnormality AND was voluntarily intoxicated, the jury must disregard the effects of voluntary intoxication and ask whether the underlying abnormality, on its own, substantially impaired D's responsibility. If D had ADS and was drunk, the jury must ask: setting aside the drink D chose to consume, did the ADS itself substantially impair D's mental responsibility for the killing?\n\n**Interaction with Loss of Control:** Diminished responsibility and loss of control are alternative partial defences. Both reduce murder to voluntary manslaughter. A defendant may raise both. Sexual infidelity, excluded as a standalone trigger for loss of control under s.55(6)(c), may still be relevant to diminished responsibility as part of the factual background affecting D's mental state. Where a mental condition affects D's capacity for tolerance (excluded from the objective test in loss of control under s.54(3)), it may ground diminished responsibility instead.\n\n**In short:** ADS may ground diminished responsibility if the drinking was involuntary (*Wood* [2008]). Where voluntary intoxication co-exists with an underlying condition, the jury must exclude the effects of the drink and assess the condition alone (*Dietschmann* [2003]). Diminished responsibility and loss of control may be pleaded in the alternative.",
+    "type": "teaching",
+    "question": "",
+    "answer": "",
+    "options": [],
+    "feedback": "",
+    "oscoaReferences": [
+      "R v Wood [2008] EWCA Crim 1305",
+      "R v Dietschmann [2003] 1 AC 1209",
+      "Coroners and Justice Act 2009, ss.52, 54-55"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "intoxication",
+      "alcohol-dependency",
+      "wood",
+      "dietschmann"
+    ]
+  },
+  {
+    "lessonId": "lesson-C1-4",
+    "microSkill": "C1.4",
+    "block": "C",
+    "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "R v __________ [2008] EWCA Crim 1305 held that alcohol dependency syndrome can constitute an abnormality of mental functioning, but D must show the drinking at the time of the killing was involuntary — the result of dependency, not voluntary choice.",
+    "answer": "Wood",
+    "options": [],
+    "feedback": "Correct. *R v Wood* [2008] — the Court of Appeal drew a key distinction: ADS is a qualifying condition, but D must prove the consumption at the time was involuntary (compelled by the dependency). If D simply chose to drink, the defence fails regardless of the underlying ADS.",
+    "oscoaReferences": [
+      "R v Wood [2008] EWCA Crim 1305"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "wood",
+      "alcohol-dependency",
+      "involuntary-consumption"
+    ]
+  },
+  {
+    "lessonId": "lesson-C1-4",
+    "microSkill": "C1.4",
+    "block": "C",
+    "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "In R v __________ [2003] 1 AC 1209, the House of Lords held that where D suffers from a mental abnormality AND was voluntarily intoxicated, the jury must set aside the effects of the drink and ask whether the abnormality alone substantially impaired D's responsibility.",
+    "answer": "Dietschmann",
+    "options": [],
+    "feedback": "Correct. *R v Dietschmann* [2003] — the two-stage approach: the jury disregards the voluntarily consumed alcohol and assesses whether the underlying condition (e.g. ADS) itself substantially impaired D's responsibility. This remains good law under the CJA 2009.",
+    "oscoaReferences": [
+      "R v Dietschmann [2003] 1 AC 1209"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "dietschmann",
+      "intoxication",
+      "two-stage"
+    ]
+  },
+  {
+    "lessonId": "lesson-C1-4",
+    "microSkill": "C1.4",
+    "block": "C",
+    "phase": "teaching",
+    "type": "drag_elements",
+    "question": "Match each principle regarding intoxication and diminished responsibility to the correct case:",
+    "answer": "ADS qualifies as a condition but drinking must be involuntary=R v Wood [2008]; Exclude voluntary intoxication; assess the underlying condition alone=R v Dietschmann [2003]; Acute voluntary intoxication alone is not a recognised medical condition=R v Dowds [2012]",
+    "options": [
+      {
+        "id": "c1",
+        "text": "ADS qualifies as a condition but drinking must be involuntary",
+        "pair": "R v Wood [2008]"
+      },
+      {
+        "id": "c2",
+        "text": "Exclude voluntary intoxication; assess the underlying condition alone",
+        "pair": "R v Dietschmann [2003]"
+      },
+      {
+        "id": "c3",
+        "text": "Acute voluntary intoxication alone is not a recognised medical condition",
+        "pair": "R v Dowds [2012]"
+      }
+    ],
+    "feedback": "Well matched. These three cases establish the hierarchy: (1) voluntary intoxication alone is not a condition (*Dowds*); (2) ADS may be a condition, but the drinking must be involuntary (*Wood*); (3) where voluntary intoxication co-exists with a condition, the jury must separate them (*Dietschmann*).",
+    "oscoaReferences": [
+      "R v Wood [2008] EWCA Crim 1305",
+      "R v Dietschmann [2003] 1 AC 1209",
+      "R v Dowds [2012] EWCA Crim 281"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "intoxication",
+      "matching",
+      "alcohol-dependency"
+    ]
+  },
+  {
+    "lessonId": "lesson-C1-4",
+    "microSkill": "C1.4",
+    "block": "C",
+    "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "Alan has a long-standing, severe alcohol dependency syndrome (ADS) diagnosed by a psychiatrist. He attends a party and voluntarily drinks a large amount of vodka, becoming heavily intoxicated. In this state, he kills a fellow guest during a trivial argument. Medical evidence shows his ADS, without the acute intoxication, would not have substantially impaired his responsibility. Applying *Dietschmann* [2003] and *Wood* [2008]:",
+    "answer": "c",
+    "options": [
+      {
+        "id": "a",
+        "text": "Alan can rely on diminished responsibility because ADS is a recognised medical condition and he was drinking due to his dependency",
+        "correct": false,
+        "feedback": "Incorrect. Under *Wood* [2008], D must show the drinking was involuntary. Alan chose to attend a party and drink heavily — this was voluntary consumption, not compulsive drinking compelled by dependency."
+      },
+      {
+        "id": "b",
+        "text": "Alan cannot rely on diminished responsibility at all because he was voluntarily intoxicated — the defence is barred entirely",
+        "correct": false,
+        "feedback": "Incorrect. The defence is not barred — the *Dietschmann* approach requires the jury to assess the underlying condition separately. The question is whether ADS alone substantially impaired D."
+      },
+      {
+        "id": "c",
+        "text": "Under *Dietschmann* [2003], the jury must set aside the effects of the voluntarily consumed vodka and ask whether Alan's ADS, on its own, substantially impaired his responsibility. Here, it did not — the defence fails",
+        "correct": true,
+        "feedback": "Correct. *R v Dietschmann* [2003] — the jury removes the voluntary intoxication from the equation and assesses the underlying condition. The medical evidence says ADS alone would not have substantially impaired Alan. The defence fails because the voluntary drinking, not the condition, was the operative cause."
+      },
+      {
+        "id": "d",
+        "text": "Alan can rely on diminished responsibility because any drinking by a person with ADS is automatically involuntary",
+        "correct": false,
+        "feedback": "Incorrect. *Wood* [2008] rejected any automatic equation of ADS with involuntary drinking. The jury must assess whether the specific consumption was compelled by dependency or was a free choice."
+      }
+    ],
+    "feedback": "The *Dietschmann* [2003] two-stage approach is critical. The jury must mentally separate the condition from the drink. If the condition alone would not have caused substantial impairment, the voluntary drinking is the true cause of the killing — and voluntary intoxication does not ground the defence (*Dowds* [2012]). D's ADS is a condition, but the voluntary vodka undermined it.",
+    "oscoaReferences": [
+      "R v Dietschmann [2003] 1 AC 1209",
+      "R v Wood [2008] EWCA Crim 1305",
+      "R v Dowds [2012] EWCA Crim 281"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "dietschmann",
+      "alcohol-dependency",
+      "scenario",
+      "two-stage"
+    ]
+  },
+  {
+    "lessonId": "lesson-C1-4",
+    "microSkill": "C1.4",
+    "block": "C",
+    "phase": "teaching",
+    "type": "spot_error",
+    "question": "Spot the legal error in this advice:\n\n'If your client has alcohol dependency syndrome, he automatically qualifies for diminished responsibility whenever he kills while drunk. ADS is a recognised medical condition, so the defence always succeeds. It does not matter whether he chose to drink or was compelled — the condition alone is sufficient.'",
+    "answer": "Two errors: (1) ADS is not an automatic defence — D must show the drinking was involuntary (*Wood* [2008]). Choosing to drink breaks the causal link. (2) Under *Dietschmann* [2003], where D voluntarily drinks, the jury must disregard the drink and assess whether the ADS alone substantially impaired D. If it did not (independently of the drink), the defence fails.",
+    "options": [],
+    "feedback": "Found them. *R v Wood* [2008] — ADS only grounds the defence where the drinking was involuntary (compelled by dependency). *R v Dietschmann* [2003] — where D chooses to drink, the jury assesses the underlying condition on its own. ADS is never an automatic defence; voluntary intoxication remains a barrier.",
+    "oscoaReferences": [
+      "R v Wood [2008] EWCA Crim 1305",
+      "R v Dietschmann [2003] 1 AC 1209"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "intoxication",
+      "ads",
+      "spot-error"
+    ]
+  },
+  {
+    "lessonId": "lesson-C1-4",
+    "microSkill": "C1.4",
+    "block": "C",
+    "phase": "teaching",
+    "type": "msq",
+    "question": "Which TWO of the following correctly state the law on intoxication and diminished responsibility?",
+    "answer": "b,d",
+    "options": [
+      {
+        "id": "a",
+        "text": "Any defendant who was drunk at the time of killing can rely on diminished responsibility if they are an alcoholic",
+        "correct": false,
+        "feedback": "Incorrect. *Wood* [2008] requires the drinking to have been involuntary. An alcoholic who chooses to drink heavily does not automatically satisfy the defence."
+      },
+      {
+        "id": "b",
+        "text": "Under *Dietschmann* [2003], the jury must set aside the effects of voluntary intoxication and assess whether the underlying recognised medical condition alone substantially impaired D's responsibility",
+        "correct": true,
+        "feedback": "Correct. The *Dietschmann* two-stage approach: remove the voluntary drink; assess the condition alone. If the condition alone caused substantial impairment, the defence may succeed despite the voluntary drinking."
+      },
+      {
+        "id": "c",
+        "text": "Acute voluntary intoxication is a recognised medical condition under s.52 CJA 2009 because it is listed in the ICD-10",
+        "correct": false,
+        "feedback": "Incorrect. *R v Dowds* [2012] — acute voluntary intoxication is not a 'recognised medical condition' under s.52, even though it appears in the ICD-10. The condition must be one the medical profession recognises for treatment."
+      },
+      {
+        "id": "d",
+        "text": "Alcohol dependency syndrome may constitute a recognised medical condition under s.52, but only if D can show the drinking at the time was involuntary — the result of the dependency",
+        "correct": true,
+        "feedback": "Correct. *R v Wood* [2008] — ADS may qualify, but the key question is whether the specific consumption was involuntary (compelled by dependency) or a voluntary choice."
+      },
+      {
+        "id": "e",
+        "text": "Voluntary intoxication and an underlying condition are treated identically — both qualify equally under s.52",
+        "correct": false,
+        "feedback": "Incorrect. *Dietschmann* [2003] and *Dowds* [2012] — voluntary intoxication and underlying conditions are treated very differently. Intoxication alone does not qualify; even where a condition exists, voluntary intoxication is separated from the analysis."
+      }
+    ],
+    "feedback": "Correct answers: (b) and (d). The *Dietschmann* two-stage approach and the *Wood* requirement that ADS drinking be involuntary are the key principles. *Dowds* [2012] confirms that acute intoxication alone is not a condition. The law carefully distinguishes between voluntary drinking and compulsive dependency-driven consumption.",
+    "oscoaReferences": [
+      "R v Dietschmann [2003] 1 AC 1209",
+      "R v Wood [2008] EWCA Crim 1305",
+      "R v Dowds [2012] EWCA Crim 281"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "intoxication",
+      "msq",
+      "dietschmann",
+      "wood"
+    ]
+  },
+  {
+    "lessonId": "lesson-C1-4",
+    "microSkill": "C1.4",
+    "block": "C",
+    "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "The three capacities specified in s.52(1A) CJA 2009 that may be substantially impaired are: understanding the nature of conduct, forming a __________ judgment, and exercising self-control.",
+    "answer": "rational",
+    "options": [],
+    "feedback": "Correct. Section 52(1A)(b) — forming a rational judgment. This is one of the three specified capacities. The other two are understanding the nature of D's conduct and exercising self-control. Impairment of any one suffices.",
+    "oscoaReferences": [
+      "Coroners and Justice Act 2009, s.52(1A)"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "cja-2009",
+      "capacities",
+      "rational-judgment"
+    ]
+  },
+  {
+    "lessonId": "lesson-C1-4",
+    "microSkill": "C1.4",
+    "block": "C",
+    "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "Marie suffers from severe PTSD following years of domestic abuse by her partner, Carl. One evening, after Carl berates her for hours and threatens to kill her, Marie drinks half a bottle of whisky (voluntarily) and then kills Carl. She raises both diminished responsibility and loss of control. Applying the interaction between the two defences:",
+    "answer": "d",
+    "options": [
+      {
+        "id": "a",
+        "text": "Marie must choose one defence — she cannot plead both diminished responsibility and loss of control simultaneously",
+        "correct": false,
+        "feedback": "Incorrect. The two partial defences may be pleaded in the alternative. A defendant can raise both and succeed on either or both."
+      },
+      {
+        "id": "b",
+        "text": "Marie's voluntary intoxication automatically defeats both defences — she has no partial defence available",
+        "correct": false,
+        "feedback": "Incorrect. While intoxication affects each defence differently, it does not automatically defeat both. The two defences must be analysed separately."
+      },
+      {
+        "id": "c",
+        "text": "Marie can succeed on loss of control because her PTSD lowers the objective standard of self-control under s.54(3)",
+        "correct": false,
+        "feedback": "Incorrect. *Rejmanski* [2017] — PTSD that merely reduces D's capacity for tolerance and self-restraint is excluded from the objective test for loss of control under s.54(3). It may be relevant at Stage 2 (gravity of the trigger) but not Stage 3."
+      },
+      {
+        "id": "d",
+        "text": "Marie may raise both defences. For loss of control: the fear trigger and anger trigger may apply (threat to kill, sustained berating as extremely grave). Her voluntary intoxication is excluded at Stage 3 (*Asmelash* [2013]). For diminished responsibility: PTSD is a recognised medical condition; the whisky must be excluded under *Dietschmann* [2003]; the jury assesses whether PTSD alone substantially impaired her",
+        "correct": true,
+        "feedback": "Correct. The two defences operate independently. Loss of control analyses the qualifying triggers and objective test (excluding intoxication and mere reduced restraint). Diminished responsibility analyses whether PTSD — a recognised medical condition — substantially impaired one of Marie's capacities, with the voluntary whisky excluded under *Dietschmann*. She may succeed on one, both, or neither."
+      }
+    ],
+    "feedback": "The interaction between diminished responsibility and loss of control is a sophisticated exam topic. Defendants may raise both. Factors excluded from one defence (e.g. reduced self-restraint under s.54(3) for loss of control) may ground the other (a recognised medical condition causing substantial impairment under s.52). This is a deliberate feature of the parallel defences.",
+    "oscoaReferences": [
+      "Coroners and Justice Act 2009, ss.52, 54-55",
+      "R v Dietschmann [2003] 1 AC 1209",
+      "R v Asmelash [2013] EWCA Crim 157",
+      "R v Rejmanski [2017] EWCA Crim 2061"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "interaction",
+      "diminished-responsibility",
+      "loss-of-control",
+      "scenario"
+    ]
+  },
+  {
+    "lessonId": "lesson-C1-4",
+    "microSkill": "C1.4",
+    "block": "consolidation",
+    "phase": "consolidation",
+    "teachingSummary": "",
+    "type": "scenario_choice",
+    "question": "[CONSOLIDATION — Block A] In 2009, Henry, who has a severe personality disorder diagnosed by a consultant psychiatrist, kills his father during an argument. The psychiatrist testifies that the disorder constitutes an 'abnormality of mind' that substantially impaired Henry's mental responsibility. Applying s.2 Homicide Act 1957:",
+    "answer": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "Henry may rely on s.2 Homicide Act 1957 — the killing occurred before the CJA 2009 came into force. A personality disorder may constitute an 'abnormality of mind' under *Byrne* [1960] if it is so different from the norm that the reasonable man would term it abnormal",
+        "correct": true,
+        "feedback": "Correct. The killing occurred in 2009, so the old law applies. Under *Byrne* [1960], personality disorders could constitute an abnormality of mind if severe enough. The psychiatrist's evidence supports the substantial impairment requirement."
+      },
+      {
+        "id": "b",
+        "text": "Henry must rely on the new s.52 CJA 2009 because it provides a fairer framework",
+        "correct": false,
+        "feedback": "Incorrect. The CJA 2009 does not apply retrospectively. Killings before 4 October 2010 are governed by the old law."
+      },
+      {
+        "id": "c",
+        "text": "A personality disorder cannot constitute an abnormality of mind — only psychotic illnesses qualify",
+        "correct": false,
+        "feedback": "Incorrect. *Byrne* [1960] broadly defined abnormality of mind to include personality disorders, sexual psychopathy, and other non-psychotic conditions."
+      },
+      {
+        "id": "d",
+        "text": "Henry has no defence because personality disorders are excluded under the Homicide Act 1957",
+        "correct": false,
+        "feedback": "Incorrect. The old law's list of causes (arrested development, inherent causes, disease/injury) was broad enough to encompass personality disorders as 'inherent causes.'"
+      }
+    ],
+    "feedback": "This consolidates Block A. The old s.2 Homicide Act 1957 applied to pre-2010 killings. The definition of 'abnormality of mind' in *Byrne* [1960] was broad, encompassing personality disorders, sexual psychopathy, depression, and other non-psychotic conditions. The burden was on D on the balance of probabilities.",
+    "oscoaReferences": [
+      "Homicide Act 1957, s.2",
+      "R v Byrne [1960] 2 QB 396"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "consolidation",
+      "old-law",
+      "byrne"
+    ]
+  },
+  {
+    "lessonId": "lesson-C1-4",
+    "microSkill": "C1.4",
+    "block": "consolidation",
+    "phase": "consolidation",
+    "teachingSummary": "",
+    "type": "fill_gap_case",
+    "question": "[CONSOLIDATION — Block A] The case of R v __________ [1965] AC 1030 established that the burden of proving diminished responsibility under s.2 Homicide Act 1957 lies on the defendant on the balance of probabilities.",
+    "answer": "Dunbar",
+    "options": [],
+    "feedback": "Correct. *R v Dunbar* [1957/1965] — the House of Lords settled that D must prove diminished responsibility on the balance of probabilities. This rule has been retained under s.52(7) CJA 2009, though subject to Art 6 ECHR compatibility challenges.",
+    "oscoaReferences": [
+      "R v Dunbar [1965] AC 1030",
+      "Homicide Act 1957, s.2"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "consolidation",
+      "dunbar",
+      "burden-of-proof"
+    ]
+  },
+  {
+    "lessonId": "lesson-C1-4",
+    "microSkill": "C1.4",
+    "block": "consolidation",
+    "phase": "consolidation",
+    "teachingSummary": "",
+    "type": "scenario_choice",
+    "question": "[CONSOLIDATION — Blocks B & C] In 2022, Tony, diagnosed with severe alcohol dependency syndrome, kills a pub landlord after being refused another drink. He had been drinking heavily for 12 hours. Psychiatric evidence says Tony's ADS substantially impaired his self-control independently of the acute intoxication, but the immediate trigger was the voluntary consumption. Applying *Wood* [2008] and *Dietschmann* [2003]:",
+    "answer": "c",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tony cannot rely on diminished responsibility because he was refused a drink — trivial provocations exclude the defence",
+        "correct": false,
+        "feedback": "Incorrect. The triviality of the trigger is not a formal bar to diminished responsibility. The question is whether the condition substantially impaired D's capacities."
+      },
+      {
+        "id": "b",
+        "text": "Tony's ADS automatically qualifies him — he has a recognised medical condition and was drinking compulsively for 12 hours",
+        "correct": false,
+        "feedback": "Incorrect. The duration of drinking does not make it involuntary. *Wood* [2008] requires the jury to find the drinking was compelled by dependency, not simply that D drank for a long time."
+      },
+      {
+        "id": "c",
+        "text": "Under *Dietschmann* [2003], the jury must set aside the voluntary intoxication and ask whether ADS alone substantially impaired Tony's self-control. The psychiatric evidence says yes — the defence may succeed despite voluntary drinking",
+        "correct": true,
+        "feedback": "Correct. *R v Dietschmann* [2003] — the jury separates out the voluntary consumption. The evidence here says the underlying condition (ADS) itself substantially impaired Tony's self-control. If the jury accepts this, the defence can succeed despite the voluntary drinking. The jury must also consider whether any of the drinking was involuntary under *Wood* [2008]."
+      },
+      {
+        "id": "d",
+        "text": "Tony loses because he was voluntarily drinking for 12 hours — all drinking by alcoholics is voluntary as a matter of law",
+        "correct": false,
+        "feedback": "Incorrect. *Wood* [2008] recognised that some drinking by alcoholics may be involuntary (compelled by dependency). It is a jury question, not a matter of law."
+      }
+    ],
+    "feedback": "This consolidates Blocks B and C: the interaction between voluntary intoxication and an underlying recognised medical condition. Under *Dietschmann* [2003], voluntarily consumed alcohol is separated out; the condition is assessed independently. If ADS alone (without the voluntary drink) substantially impaired Tony's capacities, the defence can succeed. The jury must carefully distinguish between voluntary and involuntary consumption.",
+    "oscoaReferences": [
+      "R v Dietschmann [2003] 1 AC 1209",
+      "R v Wood [2008] EWCA Crim 1305"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "consolidation",
+      "dietschmann",
+      "wood",
+      "scenario"
+    ]
+  },
+  {
+    "lessonId": "lesson-C1-4",
+    "microSkill": "C1.4",
+    "block": "consolidation",
+    "phase": "consolidation",
+    "teachingSummary": "",
+    "type": "msq",
+    "question": "[CONSOLIDATION — All Blocks] Which TWO of the following correctly distinguish the old s.2 Homicide Act 1957 from the new s.52 CJA 2009?",
+    "answer": "a,d",
+    "options": [
+      {
+        "id": "a",
+        "text": "The old law required an 'abnormality of mind' arising from specified causes; the new law requires an 'abnormality of mental functioning' arising from a 'recognised medical condition'",
+        "correct": true,
+        "feedback": "Correct. The new law replaces the vague 'abnormality of mind' with 'abnormality of mental functioning' and requires a 'recognised medical condition' tied to modern diagnostic practice."
+      },
+      {
+        "id": "b",
+        "text": "The new law abolished the requirement of substantial impairment, replacing it with a test of total impairment",
+        "correct": false,
+        "feedback": "Incorrect. Substantial impairment remains under s.52(1)(b). *Brennan* [2014] confirmed it retains the *Lloyd* [1967] meaning — more than trivial, less than total."
+      },
+      {
+        "id": "c",
+        "text": "The old law required a formal psychiatric diagnosis under the DSM; the new law has no such requirement",
+        "correct": false,
+        "feedback": "Incorrect. This is reversed. The old law did not require a formal diagnosis; the new law requires a 'recognised medical condition' which is tied to medical diagnostic frameworks."
+      },
+      {
+        "id": "d",
+        "text": "The new law specifies three capacities (understanding, rational judgment, self-control) that may be substantially impaired, providing greater clarity than the old law's 'mental responsibility'",
+        "correct": true,
+        "feedback": "Correct. Section 52(1A) specifies three capacities. This is a significant improvement over the old law's undefined 'mental responsibility,' giving the jury clearer guidance."
+      },
+      {
+        "id": "e",
+        "text": "Under the new law, D no longer bears the burden of proof — the prosecution must disprove the defence",
+        "correct": false,
+        "feedback": "Incorrect. The burden remains on D on the balance of probabilities under s.52(7), as it was under s.2(2) Homicide Act 1957."
+      }
+    ],
+    "feedback": "Correct answers: (a) and (d). The two key changes: the shift from 'abnormality of mind' to 'abnormality of mental functioning' tied to a 'recognised medical condition,' and the specification of three capacities replacing 'mental responsibility.' The burden of proof and substantial impairment requirement remain unchanged.",
+    "oscoaReferences": [
+      "Homicide Act 1957, s.2",
+      "Coroners and Justice Act 2009, s.52"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "consolidation",
+      "msq",
+      "old-vs-new"
+    ]
+  },
+  {
+    "lessonId": "lesson-C1-4",
+    "microSkill": "C1.4",
+    "block": "consolidation",
+    "phase": "consolidation",
+    "teachingSummary": "",
+    "type": "fill_gap_statute",
+    "question": "[CONSOLIDATION — Block B] Under s.52 of the CJA 2009, the abnormality of mental functioning must arise from a __________ medical condition and must substantially impair D's ability to understand, form a rational judgment, or exercise self-control.",
+    "answer": "recognised",
+    "options": [],
+    "feedback": "Correct. Section 52(1)(a) — 'recognised medical condition.' This aligns the defence with modern psychiatric diagnosis. *Dowds* [2012] confirmed it must be a condition the medical profession recognises for treatment, not merely one listed in a diagnostic manual.",
+    "oscoaReferences": [
+      "Coroners and Justice Act 2009, s.52",
+      "R v Dowds [2012] EWCA Crim 281"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "consolidation",
+      "recognised-medical-condition",
+      "cja-2009"
+    ]
+  }
+]
