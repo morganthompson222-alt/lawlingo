@@ -1,0 +1,971 @@
+[
+  {
+    "lessonId": "lesson-D3-1",
+    "microSkill": "D3.1",
+    "block": "A",
+    "phase": "teaching",
+    "teachingSummary": "**Core Rule:** Section 2(1) of the Fraud Act 2006 provides: 'A person is in breach of this section if he \u2014 (a) dishonestly makes a false representation, and (b) intends, by making the representation \u2014 (i) to make a gain for himself or another, or (ii) to cause loss to another or to expose another to a risk of loss.' The maximum penalty on indictment is ten years' imprisonment (s.2(3)).\n\n**Making a False Representation:** A representation is a statement of fact or law, including a representation as to the state of mind of the maker or another. It may be express or implied. Section 2(4) provides that a representation may be made by words, conduct, or submission to a system or device. It can be made to a person or to a machine.\n\n**Express Representations:** The classic form \u2014 a statement communicated directly. In *R v Barnard* (1837) 7 C & P 784 (decided under the old law but still instructive), the defendant wore an Oxford cap and gown to deceive a shopkeeper into giving him goods on credit. This was both an express representation (by appearance) and implied representation (that he was a student entitled to credit).\n\n**Implied Representations:** Conduct can convey a false impression. In *R v Lambie* [1982] AC 449, the defendant used a credit card knowing she had exceeded her credit limit. The House of Lords held that presenting the card was an implied representation that she had the bank's authority to use it. In *R v Hendy* [2006] EWCA Crim 819, the defendant used a stolen bank card at an ATM \u2014 the representation was to the machine, and s.2(5) confirms this satisfies the actus reus.\n\n**In short:** A false representation can be express, implied by conduct, made to a person or a machine, and can arise by omission in certain circumstances. The breadth of the definition is deliberate.",
+    "type": "teaching",
+    "question": "",
+    "answer": "",
+    "options": [],
+    "feedback": "",
+    "oscoaReferences": [
+      "Fraud Act 2006, s.2",
+      "R v Barnard (1837) 7 C & P 784",
+      "R v Lambie [1982] AC 449",
+      "R v Hendy [2006] EWCA Crim 819"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "fraud",
+      "false-representation",
+      "s2",
+      "fraud-act-2006"
+    ]
+  },
+  {
+    "lessonId": "lesson-D3-1",
+    "microSkill": "D3.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "Under s.2(4) of the Fraud Act 2006, a representation may be express or __________.",
+    "answer": "implied",
+    "options": [],
+    "feedback": "Correct. s.2(4): 'A representation may be express or implied.' An implied representation arises from conduct or circumstances \u2014 e.g., presenting a credit card implies authority to use it (*Lambie* [1982]).",
+    "oscoaReferences": [
+      "Fraud Act 2006, s.2(4)"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "fraud",
+      "implied-representation",
+      "s2"
+    ]
+  },
+  {
+    "lessonId": "lesson-D3-1",
+    "microSkill": "D3.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "In R v __________ [1982] AC 449, the House of Lords held that presenting a credit card to a retailer is an implied representation that the cardholder has the bank's authority to use it.",
+    "answer": "Lambie",
+    "options": [],
+    "feedback": "Correct. *R v Lambie* [1982] AC 449 \u2014 the defendant used her Barclaycard knowing she had exceeded her credit limit. Presenting the card was an implied false representation that she was authorised to use it for that transaction.",
+    "oscoaReferences": [
+      "R v Lambie [1982] AC 449"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "r-v-lambie",
+      "implied-representation",
+      "credit-card"
+    ]
+  },
+  {
+    "lessonId": "lesson-D3-1",
+    "microSkill": "D3.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "drag_elements",
+    "question": "Classify each representation as express or implied:",
+    "answer": "D states 'I am a doctor'=Express; D wears a police uniform to enter a building=Implied; D hands over a cheque in payment=Implied \u2014 represents cheque will be honoured; D fills in an online form stating income as \u00a380,000=Express; D uses a stolen Oyster card at a tube barrier=Implied \u2014 represents authority to travel",
+    "options": [
+      {
+        "id": "e1",
+        "text": "D tells a victim: 'I am a qualified doctor'",
+        "pair": "Express"
+      },
+      {
+        "id": "e2",
+        "text": "D wears a stolen NHS uniform and enters a restricted hospital ward",
+        "pair": "Implied"
+      },
+      {
+        "id": "e3",
+        "text": "D hands over a cheque to pay for goods, knowing the account has insufficient funds",
+        "pair": "Implied"
+      },
+      {
+        "id": "e4",
+        "text": "D fills in a mortgage application form stating income as \u00a380,000 (actually \u00a320,000)",
+        "pair": "Express"
+      },
+      {
+        "id": "e5",
+        "text": "D uses a stolen Oyster card to pass through a tube station barrier",
+        "pair": "Implied"
+      }
+    ],
+    "feedback": "Correctly classified. Implied representations arise from conduct \u2014 in *Lambie* [1982] (credit card), the handing over of a cheque (*Gilmartin* [1983]), and wearing a uniform (*Barnard* (1837)). Express representations are communicated through words or documents.",
+    "oscoaReferences": [
+      "Fraud Act 2006, s.2(4)",
+      "R v Lambie [1982] AC 449",
+      "R v Barnard (1837) 7 C & P 784"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "fraud",
+      "representation",
+      "express",
+      "implied"
+    ]
+  },
+  {
+    "lessonId": "lesson-D3-1",
+    "microSkill": "D3.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "Omar uses contactless payment with a stolen bank card to buy a \u00a345 train ticket at a self-service machine. The machine processes the payment. No human is involved. Has Omar made a 'representation' under s.2 Fraud Act 2006?",
+    "answer": "b",
+    "options": [
+      {
+        "id": "a",
+        "text": "No \u2014 a representation can only be made to a human being; machines cannot be deceived",
+        "correct": false,
+        "feedback": "Incorrect. s.2(5) Fraud Act 2006 expressly provides that a representation may be made to a machine operating in response to the representation."
+      },
+      {
+        "id": "b",
+        "text": "Yes \u2014 s.2(5) FA 2006 provides that representations can be made to a machine; Omar's use of the stolen card is an implied false representation that he is authorised to use it",
+        "correct": true,
+        "feedback": "Correct. s.2(5): 'a representation may be regarded as made if it is submitted in any form to any system or device designed to receive, convey or respond to communications.' The contactless machine receives and responds to the card data. The representation is implied \u2014 that Omar is the authorised user."
+      },
+      {
+        "id": "c",
+        "text": "No \u2014 contactless payment does not involve a 'representation' because it is purely electronic",
+        "correct": false,
+        "feedback": "Incorrect. The electronic submission of card data to the payment system is exactly the scenario s.2(5) was designed to address. *R v Hendy* [2006] is authority (though decided under the old law, the principle was codified in s.2(5))."
+      },
+      {
+        "id": "d",
+        "text": "Yes \u2014 but only if the machine rejects the transaction, creating a 'risk of loss'",
+        "correct": false,
+        "feedback": "Incorrect. The representation is made at the moment the card is presented, not when the transaction succeeds or fails. Success confirms the false representation was acted on; failure may mean the fraud is incomplete or attempted."
+      }
+    ],
+    "feedback": "Section 2(5) Fraud Act 2006 was specifically designed to address machine-based transactions \u2014 ATM withdrawals, self-service tills, contactless payments. The representation is the implied statement (communicated via the card data) that Omar is authorised to use the card. *R v Hendy* [2006] EWCA Crim 819, decided under the old law, reached the same result. The FA 2006 codified this.",
+    "oscoaReferences": [
+      "Fraud Act 2006, s.2(5)",
+      "R v Hendy [2006] EWCA Crim 819"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "fraud",
+      "machine",
+      "s2-5",
+      "scenario"
+    ]
+  },
+  {
+    "lessonId": "lesson-D3-1",
+    "microSkill": "D3.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "spot_error",
+    "question": "Spot the legal error:\n\n'Under the Fraud Act 2006, a false representation must be express. Silence or conduct can never constitute a representation because the offence requires the defendant to make a positive statement. A person who stays silent or implies something through behaviour cannot be convicted of fraud by false representation.'",
+    "answer": "s.2(4) FA 2006: representations may be express or implied. Conduct (e.g., wearing a uniform, presenting a credit card) can be an implied representation. Silence in certain contexts may also constitute a representation.",
+    "options": [],
+    "feedback": "Found it. The Fraud Act 2006 abandons the old deception-based approach. s.2(4) expressly provides for implied representations. Conduct-based representations are well established: *Lambie* [1982] (credit card), *Barnard* (1837) (wearing a gown). Furthermore, a representation may arise by omission in circumstances where there is a duty to disclose.",
+    "oscoaReferences": [
+      "Fraud Act 2006, s.2(4)",
+      "R v Lambie [1982] AC 449",
+      "R v Barnard (1837) 7 C & P 784"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "fraud",
+      "implied",
+      "spot-error"
+    ]
+  },
+  {
+    "lessonId": "lesson-D3-1",
+    "microSkill": "D3.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "msq",
+    "question": "Under s.2 Fraud Act 2006, a false representation may be made in which TWO of the following ways?",
+    "answer": "a,c",
+    "options": [
+      {
+        "id": "a",
+        "text": "Expressly \u2014 by words, spoken or written",
+        "correct": true,
+        "feedback": "Correct. s.2(2): a representation is false if it is untrue or misleading. s.2(4): a representation may be express or implied. Express representations are the traditional form."
+      },
+      {
+        "id": "b",
+        "text": "Only in writing \u2014 oral representations are excluded by the Fraud Act",
+        "correct": false,
+        "feedback": "Incorrect. s.2 does not restrict the form of representation. It can be spoken, written, by conduct, or by submission to a system or device (s.2(4)-(5))."
+      },
+      {
+        "id": "c",
+        "text": "Impliedly \u2014 through conduct, dress, or submission of data",
+        "correct": true,
+        "feedback": "Correct. s.2(4): representations may be implied. *Lambie* [1982] (credit card), *Barnard* (1837) (gown). Submitting data to a machine is also a form of representation (s.2(5))."
+      },
+      {
+        "id": "d",
+        "text": "Only to a human being \u2014 machine representations do not count",
+        "correct": false,
+        "feedback": "Incorrect. s.2(5) FA 2006 explicitly provides for representations made to 'any system or device designed to receive, convey or respond to communications.'"
+      },
+      {
+        "id": "e",
+        "text": "Only if the representation is accompanied by a written statement of truth",
+        "correct": false,
+        "feedback": "Incorrect. There is no requirement of a written statement of truth. The representation stands alone; the question is whether it is false, dishonest, and made with intent to gain/cause loss."
+      }
+    ],
+    "feedback": "Correct answers: (a) and (c). The Fraud Act 2006 deliberately drafted s.2 broadly \u2014 express, implied, to persons, to machines. The breadth reflects the fact that the old deception offences had left gaps in the law, particularly regarding machines and non-deceit conduct.",
+    "oscoaReferences": [
+      "Fraud Act 2006, s.2"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "fraud",
+      "representation",
+      "msq"
+    ]
+  },
+  {
+    "lessonId": "lesson-D3-1",
+    "microSkill": "D3.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "Clara applies for a job requiring a degree. On her CV she lists 'BSc Computer Science, University of Bristol.' In fact, she attended but never graduated. She gets the job at \u00a335,000 pa. After six months, her employer discovers the truth and reports her to the police. Applying s.2 FA 2006:",
+    "answer": "c",
+    "options": [
+      {
+        "id": "a",
+        "text": "No fraud \u2014 Clara attended university, so the statement was not 'wholly false'",
+        "correct": false,
+        "feedback": "Incorrect. The representation was that she had a degree, not that she merely attended. It was false \u2014 misleading in a material respect."
+      },
+      {
+        "id": "b",
+        "text": "No fraud \u2014 CV statements are 'mere puffs' and not legally actionable",
+        "correct": false,
+        "feedback": "Incorrect. A CV statement about a qualification is a representation of fact, not a puff. It is capable of being a false representation under s.2."
+      },
+      {
+        "id": "c",
+        "text": "Likely fraud \u2014 Clara made an express false representation (the degree), she knew it was false, the Ivey test would likely find it dishonest, and she intended to make a gain (the salary)",
+        "correct": true,
+        "feedback": "Correct. All elements of s.2 FA 2006 are present: (1) false representation \u2014 the CV states a degree, which is untrue/misleading; (2) knowledge of falsity \u2014 she knew she had not graduated; (3) dishonesty \u2014 Ivey test, likely dishonest by ordinary standards; (4) intent to gain \u2014 the \u00a335,000 salary. The gain need not be permanent."
+      },
+      {
+        "id": "d",
+        "text": "Not fraud \u2014 the employer should have verified the degree; caveat emptor applies",
+        "correct": false,
+        "feedback": "Incorrect. There is no 'caveat employor' principle that relieves a dishonest applicant of criminal liability. The employer's failure to verify does not make the representation true or not dishonest."
+      }
+    ],
+    "feedback": "This is a straightforward application of s.2 Fraud Act 2006. A false statement on a CV about a qualification is an express false representation. The mens rea \u2014 knowledge, dishonesty, intent to gain \u2014 all appear satisfied. The fact that the employer could have verified is irrelevant: the offence is complete once the false representation is made with the requisite mens rea, even if the victim could have discovered the truth.",
+    "oscoaReferences": [
+      "Fraud Act 2006, s.2"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "fraud",
+      "false-representation",
+      "cv",
+      "scenario"
+    ]
+  },
+  {
+    "lessonId": "lesson-D3-1",
+    "microSkill": "D3.1",
+    "block": "B",
+    "phase": "teaching",
+    "teachingSummary": "**Core Rule:** The mens rea of fraud by false representation under s.2 Fraud Act 2006 has three components: (1) knowledge that the representation is or might be false; (2) dishonesty; and (3) intention to make a gain or cause a loss (or expose another to a risk of loss). All three must be established.\n\n**Knowledge of Falsity:** Section 2(2)(b) provides three alternatives: D knows the representation is false; D knows it might be false; or D knows it is misleading. 'Might be' captures recklessness \u2014 D need not know for certain, only that there is a risk of falsity. This is assessed subjectively.\n\n**Dishonesty \u2014 The Ivey Test:** The same Ivey test applies as for theft. *Ivey v Genting Casinos* [2017] UKSC 67 \u2014 (1) ascertain the facts as D believed them to be; (2) assess whether the conduct was dishonest by the standards of ordinary decent people. There is no requirement that D realised their conduct was dishonest. D's own moral views are irrelevant.\n\n**Intention to Make Gain or Cause Loss:** Section 5 defines 'gain' and 'loss' broadly: (a) gain includes keeping what one has as well as getting what one does not have; (b) loss includes not getting what one might get as well as parting with what one has. 'Gain' and 'loss' extend only to money or other property (real, personal, things in action, intangible). Gain includes temporary gain.\n\n**No Need for Actual Gain or Loss:** The offence is conduct-based, not result-based. The prosecution need not prove anyone was actually deceived or that any gain/loss occurred \u2014 the intention is sufficient. The offence is complete when the false representation is made with the requisite mens rea.\n\n**In short:** The mens rea is (a) knowledge or suspicion of falsity, (b) dishonesty (Ivey test), (c) intention to gain or cause loss. No deception, no reliance, no actual gain/loss needed.",
+    "type": "teaching",
+    "question": "",
+    "answer": "",
+    "options": [],
+    "feedback": "",
+    "oscoaReferences": [
+      "Fraud Act 2006, ss.2, 5",
+      "Ivey v Genting Casinos (UK) Ltd [2017] UKSC 67"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "fraud",
+      "mens-rea",
+      "dishonesty",
+      "ivey"
+    ]
+  },
+  {
+    "lessonId": "lesson-D3-1",
+    "microSkill": "D3.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "Under s.2(2)(b) of the Fraud Act 2006, a representation is false if the person making it knows that it is, or __________ be, untrue or misleading.",
+    "answer": "might",
+    "options": [],
+    "feedback": "Correct. s.2(2)(b): 'the person making it knows that it is, or might be, untrue or misleading.' The 'might be' language captures recklessness \u2014 D need not be certain. Wilful blindness also suffices.",
+    "oscoaReferences": [
+      "Fraud Act 2006, s.2(2)(b)"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "fraud",
+      "knowledge",
+      "recklessness"
+    ]
+  },
+  {
+    "lessonId": "lesson-D3-1",
+    "microSkill": "D3.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "In __________ v Genting Casinos (UK) Ltd [2017] UKSC 67, the Supreme Court abolished the second limb of the Ghosh test for dishonesty, which now applies equally to fraud under the Fraud Act 2006.",
+    "answer": "Ivey",
+    "options": [],
+    "feedback": "Correct. *Ivey v Genting Casinos* [2017] UKSC 67 \u2014 the Ivey dishonesty test applies across the criminal law, including the Fraud Act 2006. The test is: determine the facts as D believed them; assess whether the conduct was dishonest by the standards of ordinary decent people.",
+    "oscoaReferences": [
+      "Ivey v Genting Casinos (UK) Ltd [2017] UKSC 67"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "ivey",
+      "dishonesty",
+      "fraud"
+    ]
+  },
+  {
+    "lessonId": "lesson-D3-1",
+    "microSkill": "D3.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "drag_elements",
+    "question": "Place the elements of fraud by false representation in the correct analytical order:",
+    "answer": "Step 1=Did D make a representation? (express or implied, to person or machine); Step 2=Was the representation false or misleading?; Step 3=Did D know it was or might be false?; Step 4=Was D dishonest? (Ivey test); Step 5=Did D intend to make a gain or cause a loss?",
+    "options": [
+      {
+        "id": "1",
+        "text": "Did D make a representation? (express/implied, to person/ machine \u2014 s.2(3)-(5))",
+        "order": 1
+      },
+      {
+        "id": "2",
+        "text": "Was the representation false or misleading? (s.2(2)(a))",
+        "order": 2
+      },
+      {
+        "id": "3",
+        "text": "Did D know it was, or might be, false or misleading? (s.2(2)(b))",
+        "order": 3
+      },
+      {
+        "id": "4",
+        "text": "Was D dishonest? (Ivey v Genting Casinos [2017])",
+        "order": 4
+      },
+      {
+        "id": "5",
+        "text": "Did D intend to make a gain for himself or another, or cause loss/exposure to loss? (s.2(1)(b))",
+        "order": 5
+      }
+    ],
+    "feedback": "Correct. This is the standard analytical order: representation \u2192 falsity \u2192 knowledge \u2192 dishonesty \u2192 intention to gain/cause loss. Note that no actual deception or gain is required \u2014 the offence is complete when the false representation is made with the requisite mens rea.",
+    "oscoaReferences": [
+      "Fraud Act 2006, s.2",
+      "Ivey v Genting Casinos (UK) Ltd [2017] UKSC 67"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "fraud",
+      "elements",
+      "framework"
+    ]
+  },
+  {
+    "lessonId": "lesson-D3-1",
+    "microSkill": "D3.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "Piotr sells a car online, stating: '2018 Toyota, 40,000 miles, full service history, excellent condition.' In fact, the car was a category-S write-off that Piotr had poorly repaired, the odometer had been tampered with, and the real mileage was 120,000. The buyer pays \u00a38,000. Applying s.2 FA 2006:",
+    "answer": "c",
+    "options": [
+      {
+        "id": "a",
+        "text": "Not fraud \u2014 'excellent condition' is a matter of opinion and cannot be a false representation",
+        "correct": false,
+        "feedback": "Incorrect. While opinions can be harder to prove, the statement about mileage and service history are matters of fact, not opinion. The 'excellent condition' representation is potentially misleading given the write-off history."
+      },
+      {
+        "id": "b",
+        "text": "Not fraud \u2014 civil fraud applies, but the criminal law does not cover private car sales",
+        "correct": false,
+        "feedback": "Incorrect. The Fraud Act 2006 applies to all persons \u2014 private individuals as well as traders. There is no requirement that the defendant be acting in the course of a business."
+      },
+      {
+        "id": "c",
+        "text": "Fraud \u2014 Piotr made multiple false representations (mileage, history, condition), he knew they were false, he was dishonest, and he intended to make a gain (the \u00a38,000)",
+        "correct": true,
+        "feedback": "Correct. Each false statement (mileage, service history, condition of a write-off car) is a false representation. The knowledge, dishonesty, and gain elements are clearly satisfied. The offence is complete when the representations are made."
+      },
+      {
+        "id": "d",
+        "text": "Not fraud \u2014 the buyer could have inspected the car and discovered the truth; the representation was not the cause of the loss",
+        "correct": false,
+        "feedback": "Incorrect. Causation is not an element of s.2 FA 2006. The prosecution need not prove anyone was deceived or relied on the representation. The buyer's failure to inspect is irrelevant to criminal liability."
+      }
+    ],
+    "feedback": "This scenario illustrates the breadth of s.2. The statement about mileage is an express false representation. The representation about condition is misleading in context (a write-off). The mens rea is clearly satisfied. The offence is conduct-based \u2014 no need to prove the buyer relied on the statements; it is enough that Piotr made them with the requisite intent and dishonesty.",
+    "oscoaReferences": [
+      "Fraud Act 2006, s.2"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "fraud",
+      "false-representation",
+      "car-sale",
+      "scenario"
+    ]
+  },
+  {
+    "lessonId": "lesson-D3-1",
+    "microSkill": "D3.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "spot_error",
+    "question": "Spot the legal error:\n\n'For fraud by false representation, the prosecution must prove that the victim was actually deceived and suffered a loss. Without proof of reliance and causation, the offence is not made out. A defendant whose lies were not believed cannot be convicted, even if they intended to cause loss.'",
+    "answer": "Fraud by false representation is a conduct crime, not a result crime. No actual deception, reliance, or loss need be proved. The offence is complete when the false representation is made with dishonest intent to gain/cause loss.",
+    "options": [],
+    "feedback": "Found it. Under s.2 FA 2006, the offence is complete when the false representation is made with the requisite mens rea. The prosecution need not prove: (1) that anyone was actually deceived; (2) that anyone relied on the representation; (3) that any gain or loss actually occurred. A defendant whose lies were not believed may still be convicted (the gain/loss intention is sufficient).",
+    "oscoaReferences": [
+      "Fraud Act 2006, s.2"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "fraud",
+      "conduct-crime",
+      "spot-error"
+    ]
+  },
+  {
+    "lessonId": "lesson-D3-1",
+    "microSkill": "D3.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "msq",
+    "question": "Which TWO of the following are required for the mens rea of fraud by false representation under s.2 Fraud Act 2006?",
+    "answer": "b,c",
+    "options": [
+      {
+        "id": "a",
+        "text": "The defendant must know for certain that the representation is false",
+        "correct": false,
+        "feedback": "Incorrect. s.2(2)(b): knowledge that the representation 'is, or might be, untrue or misleading.' Recklessness \u2014 'might be' false \u2014 satisfies the knowledge element. Certainty is not required."
+      },
+      {
+        "id": "b",
+        "text": "Dishonesty, assessed under the Ivey objective test",
+        "correct": true,
+        "feedback": "Correct. *Ivey v Genting Casinos* [2017] UKSC 67 applies across the criminal law. The test is objective \u2014 the standard of ordinary decent people \u2014 based on the facts as D believed them."
+      },
+      {
+        "id": "c",
+        "text": "Intention to make a gain for himself or another, or to cause loss to another or expose another to a risk of loss",
+        "correct": true,
+        "feedback": "Correct. s.2(1)(b): the representation must be made with the specified intent. 'Gain' and 'loss' are defined in s.5 \u2014 limited to money or other property."
+      },
+      {
+        "id": "d",
+        "text": "Intention to permanently deprive the victim of property",
+        "correct": false,
+        "feedback": "Incorrect. Intention to permanently deprive is an element of theft (s.1 TA 1968), not fraud. Fraud under s.2 FA 2006 requires intention to gain or cause loss \u2014 which includes temporary gain (s.5(2)(a))."
+      },
+      {
+        "id": "e",
+        "text": "Proof that the victim actually relied on the false representation",
+        "correct": false,
+        "feedback": "Incorrect. Reliance is not an element. The offence is conduct-based \u2014 it is complete when the representation is made with the requisite mens rea, regardless of the victim's response."
+      }
+    ],
+    "feedback": "Correct answers: (b) and (c). The mens rea is: knowledge/suspicion of falsity + dishonesty (Ivey test) + intention to gain or cause loss. No certainty required; no reliance required; no permanent deprivation required.",
+    "oscoaReferences": [
+      "Fraud Act 2006, ss.2, 5",
+      "Ivey v Genting Casinos (UK) Ltd [2017] UKSC 67"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "fraud",
+      "mens-rea",
+      "msq"
+    ]
+  },
+  {
+    "lessonId": "lesson-D3-1",
+    "microSkill": "D3.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "Mei is a financial advisor. She recommends a high-risk investment to an elderly client, stating: 'This is a safe, government-backed savings plan.' In fact, it is an unregulated cryptocurrency scheme. The client invests \u00a350,000 and loses it all. Mei believed the scheme 'probably would work' and earned a 10% commission on the sale. Applying s.2 FA 2006:",
+    "answer": "d",
+    "options": [
+      {
+        "id": "a",
+        "text": "Not fraud \u2014 Mei genuinely believed the investment would work, so she lacked dishonesty",
+        "correct": false,
+        "feedback": "Incorrect. Dishonesty under the Ivey test is objective. Even if Mei believed the scheme would work, representing it as 'safe and government-backed' when it was not was dishonest. Her genuine belief in the investment's profitability does not excuse the false representation about its nature."
+      },
+      {
+        "id": "b",
+        "text": "Not fraud \u2014 this is a regulatory matter for the FCA, not a criminal offence",
+        "correct": false,
+        "feedback": "Incorrect. The FCA has regulatory jurisdiction, but the conduct potentially also constitutes fraud. There is no exclusivity between regulatory and criminal proceedings."
+      },
+      {
+        "id": "c",
+        "text": "Fraud \u2014 but only because the client lost money. If the investment had succeeded, there would be no offence",
+        "correct": false,
+        "feedback": "Incorrect. The offence is complete when the false representation is made. The actual outcome (loss) is evidentially significant but not an element. A successful investment would not erase the dishonesty of the false representation."
+      },
+      {
+        "id": "d",
+        "text": "Fraud \u2014 Mei made a false representation ('safe, government-backed'), she knew or must have known it was false, her conduct was objectively dishonest (misleading a vulnerable client for commission), and she intended to make a gain (the commission)",
+        "correct": true,
+        "feedback": "Correct. The representation was false on two counts: not safe, not government-backed. Mei knew this (she knew it was unregulated crypto). Objectively dishonest by Ivey standards: exploiting a vulnerable client with false safety assurances for personal gain. The commission satisfies the 'intention to make a gain' element."
+      }
+    ],
+    "feedback": "The commission motive is strong evidence of dishonesty. The Ivey test asks: based on the facts as Mei knew them (unregulated crypto, vulnerable client, false 'government-backed' label, commission motive), would ordinary decent people consider her conduct dishonest? The answer is clearly yes. The outcome (loss) is not an element of the offence but is relevant to evidence and sentencing.",
+    "oscoaReferences": [
+      "Fraud Act 2006, s.2",
+      "Ivey v Genting Casinos (UK) Ltd [2017] UKSC 67"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "fraud",
+      "ivey",
+      "scenario",
+      "financial-advice"
+    ]
+  },
+  {
+    "lessonId": "lesson-D3-1",
+    "microSkill": "D3.1",
+    "block": "C",
+    "phase": "teaching",
+    "teachingSummary": "**Core Rule:** The Fraud Act 2006 creates three principal offences: s.2 (fraud by false representation), s.3 (fraud by failing to disclose information), and s.4 (fraud by abuse of position). All three share the same mens rea \u2014 dishonesty and intention to make a gain or cause a loss. The difference lies in the actus reus.\n\n**Section 3 \u2014 Failure to Disclose:** This applies where D is under a legal duty to disclose information, fails to do so, and intends to make a gain or cause a loss. The duty may arise from statute, contract, a fiduciary relationship, or custom. There is no requirement of a positive representation \u2014 silence suffices where there is a duty to speak.\n\n**Section 4 \u2014 Abuse of Position:** This applies where D occupies a position in which they are expected to safeguard, or not to act against, the financial interests of another. D dishonestly abuses that position, intending to make a gain or cause a loss. The position may be formal (trustee, company director, employee) or informal (family carer). The abuse may be by act or omission.\n\n**Relationship to Theft:** Fraud and theft overlap but are distinct. Theft requires appropriation of property belonging to another with intent to permanently deprive. Fraud under s.2 requires a false representation with intent to gain or cause loss \u2014 no appropriation or deprivation required. The key distinction: where D obtains property by deception, fraud may be the appropriate charge (especially post-FA 2006); where D simply takes property without any representation, theft applies. The two can be charged as alternatives.\n\n**False Accounting \u2014 Section 17 Theft Act 1968:** This older offence remains in force alongside the FA 2006. It applies where D dishonestly falsifies, destroys, or conceals accounting documents with a view to gain or with intent to cause loss. Unlike s.2 FA 2006, s.17 requires a document.\n\n**In short:** The Fraud Act provides three overlapping routes (misrepresentation, non-disclosure, abuse of position) plus the older false accounting offence. Always consider which best fits the facts.",
+    "type": "teaching",
+    "question": "",
+    "answer": "",
+    "options": [],
+    "feedback": "",
+    "oscoaReferences": [
+      "Fraud Act 2006, ss.2, 3, 4",
+      "Theft Act 1968, s.17"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "fraud",
+      "failure-to-disclose",
+      "abuse-of-position",
+      "false-accounting"
+    ]
+  },
+  {
+    "lessonId": "lesson-D3-1",
+    "microSkill": "D3.1",
+    "block": "C",
+    "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "Under s.____ of the Fraud Act 2006, a person commits fraud by failing to disclose information where there is a legal duty to disclose, and the failure is dishonest and intended to make a gain or cause a loss.",
+    "answer": "3",
+    "options": [],
+    "feedback": "Correct. s.3 Fraud Act 2006 \u2014 fraud by failing to disclose. The key difference from s.2 is that s.3 requires a legal duty to disclose. The duty may arise from statute, contract, or the common law (e.g., fiduciary relationships).",
+    "oscoaReferences": [
+      "Fraud Act 2006, s.3"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "fraud",
+      "s3",
+      "failure-to-disclose"
+    ]
+  },
+  {
+    "lessonId": "lesson-D3-1",
+    "microSkill": "D3.1",
+    "block": "C",
+    "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "Under the Fraud Act 2006, the case of __________ v Cornelius [2012] EWCA Crim 500 illustrates the scope of s.4 fraud by abuse of position \u2014 the jury must identify the nature of the position and how it was abused.",
+    "answer": "R",
+    "options": [],
+    "feedback": "Correct. *R v Cornelius* [2012] \u2014 the Court of Appeal provided guidance on s.4: the prosecution must identify (1) the position occupied, (2) the nature of the abuse, and (3) why it was dishonest. The concept of 'position' is broad and fact-specific.",
+    "oscoaReferences": [
+      "R v Cornelius [2012] EWCA Crim 500"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "r-v-cornelius",
+      "s4",
+      "abuse-of-position"
+    ]
+  },
+  {
+    "lessonId": "lesson-D3-1",
+    "microSkill": "D3.1",
+    "block": "C",
+    "phase": "teaching",
+    "type": "drag_elements",
+    "question": "Match each fraud scenario to the most appropriate Fraud Act 2006 charge:",
+    "answer": "D lies on a loan application form=s.2 \u2014 false representation; D's solicitor, discovering a legal error benefiting the client, stays silent=s.3 \u2014 failure to disclose (fiduciary duty); A company director diverts a corporate opportunity to his own company=s.4 \u2014 abuse of position; D falsifies the company's sales ledger to hide embezzlement=s.17 Theft Act 1968 \u2014 false accounting",
+    "options": [
+      {
+        "id": "f1",
+        "text": "D lies on a mortgage application, inflating her income by 300%",
+        "pair": "s.2 \u2014 false representation"
+      },
+      {
+        "id": "f2",
+        "text": "A solicitor discovers a legal drafting error that would cost his client \u00a3100,000 but says nothing",
+        "pair": "s.3 \u2014 failure to disclose"
+      },
+      {
+        "id": "f3",
+        "text": "A company director diverts a lucrative contract from the company to his own private business",
+        "pair": "s.4 \u2014 abuse of position"
+      },
+      {
+        "id": "f4",
+        "text": "D alters the company's sales records to conceal money he has been stealing",
+        "pair": "s.17 Theft Act 1968 \u2014 false accounting"
+      }
+    ],
+    "feedback": "Well matched. The solicitor's silence is the classic s.3 scenario: a fiduciary duty to disclose. The director's diversion is a textbook s.4 abuse. False accounting under s.17 TA 1968 covers document-based accounting fraud, which may overlap with (or be charged alongside) s.2 FA 2006.",
+    "oscoaReferences": [
+      "Fraud Act 2006, ss.2, 3, 4",
+      "Theft Act 1968, s.17"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "fraud",
+      "charge-selection",
+      "matching"
+    ]
+  },
+  {
+    "lessonId": "lesson-D3-1",
+    "microSkill": "D3.1",
+    "block": "C",
+    "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "Brenda cares for her elderly mother, who has dementia. Under a lasting power of attorney, Brenda manages her mother's \u00a3120,000 savings. Over two years, Brenda transfers \u00a340,000 to her own account to fund holidays and a new car. She records the transfers in the care accounts as 'Care expenses \u2014 miscellaneous.' Applying s.4 FA 2006:",
+    "answer": "b",
+    "options": [
+      {
+        "id": "a",
+        "text": "Not fraud \u2014 this is a civil matter of breach of fiduciary duty. The criminal law does not regulate family financial arrangements",
+        "correct": false,
+        "feedback": "Incorrect. Section 4 FA 2006 expressly criminalises abuse of a position of trust, including informal family arrangements. The lasting power of attorney creates a formal legal position."
+      },
+      {
+        "id": "b",
+        "text": "Fraud by abuse of position under s.4 FA 2006 \u2014 Brenda occupied a position (attorney/carer) in which she was expected to safeguard her mother's financial interests, she abused it by taking money for personal use, she was dishonest, and intended to make a gain",
+        "correct": true,
+        "feedback": "Correct. All elements of s.4 are satisfied. The position is the lasting power of attorney and carer relationship. The abuse is the self-dealing. The false accounting entries provide evidence. Dishonesty (Ivey test) and intention to gain are clearly present."
+      },
+      {
+        "id": "c",
+        "text": "Fraud by false representation under s.2 \u2014 because Brenda made a false entry in the care accounts",
+        "correct": false,
+        "feedback": "Partially correct \u2014 the false entry could support a s.2 or s.17 charge. But the primary gravamen is the abuse of the fiduciary position, making s.4 the more natural charge. Multiple charges can be laid."
+      },
+      {
+        "id": "d",
+        "text": "Not fraud \u2014 Brenda was entitled to reasonable remuneration as a carer",
+        "correct": false,
+        "feedback": "Incorrect. The lasting power of attorney does not entitle the attorney to appropriate the donor's funds for personal luxuries. Even if some remuneration were justifiable, \u00a340,000 for holidays and a car is clearly beyond any reasonable interpretation."
+      }
+    ],
+    "feedback": "This scenario illustrates s.4 FA 2006 \u2014 fraud by abuse of position. The concept of 'position' is flexible: it includes trustees, directors, employees, and informal carers/attorneys. The key question is whether D occupied a position in which they were expected to safeguard (or not act against) another's financial interests. The false accounting entries provide corroboration but are not essential to the s.4 charge. The overlapping offences (s.2, s.4, possibly theft) can all be charged.",
+    "oscoaReferences": [
+      "Fraud Act 2006, s.4",
+      "Theft Act 1968, s.17"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "fraud",
+      "s4",
+      "abuse-of-position",
+      "scenario"
+    ]
+  },
+  {
+    "lessonId": "lesson-D3-1",
+    "microSkill": "D3.1",
+    "block": "C",
+    "phase": "teaching",
+    "type": "spot_error",
+    "question": "Spot the legal error:\n\n'The Fraud Act 2006 replaced all previous deception and fraud-related offences. False accounting under the Theft Act 1968 was repealed by the Fraud Act and can no longer be charged. All fraud cases must now be charged under the Fraud Act 2006.'",
+    "answer": "The Fraud Act 2006 did not repeal s.17 Theft Act 1968 (false accounting). It remains in force and may be charged alongside or instead of FA 2006 offences. Other preserved offences include s.20 TA 1968 (blackmail) and various other deception-offence remnants.",
+    "options": [],
+    "feedback": "Found it. The Fraud Act 2006 repealed the old deception offences (ss.15, 15A, 15B, 16, 20(2) Theft Act 1968; ss.1, 2 Theft Act 1978) but did NOT repeal s.17 TA 1968 (false accounting). s.17 remains in force and provides an alternative where accounting documents are falsified. Blackmail (s.21 TA 1968) also remains in force.",
+    "oscoaReferences": [
+      "Fraud Act 2006",
+      "Theft Act 1968, s.17"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "fraud",
+      "false-accounting",
+      "spot-error"
+    ]
+  },
+  {
+    "lessonId": "lesson-D3-1",
+    "microSkill": "D3.1",
+    "block": "C",
+    "phase": "teaching",
+    "type": "msq",
+    "question": "Which TWO of the following offences are created by the Fraud Act 2006?",
+    "answer": "a,d",
+    "options": [
+      {
+        "id": "a",
+        "text": "Fraud by false representation",
+        "correct": true,
+        "feedback": "Correct. s.2 FA 2006. This is the most commonly charged fraud offence."
+      },
+      {
+        "id": "b",
+        "text": "Fraud by deception",
+        "correct": false,
+        "feedback": "Incorrect. The old 'deception' offences (ss.15, 16 Theft Act 1968, ss.1, 2 Theft Act 1978) were repealed by the FA 2006. The FA 2006 uses 'false representation,' not 'deception.' The distinction: no actual deception of a victim is required."
+      },
+      {
+        "id": "c",
+        "text": "Obtaining property by deception",
+        "correct": false,
+        "feedback": "Incorrect. s.15 Theft Act 1968 (obtaining property by deception) was repealed by the FA 2006 and replaced by s.2 fraud by false representation. The FA 2006 does not require that anything is 'obtained.'"
+      },
+      {
+        "id": "d",
+        "text": "Fraud by abuse of position",
+        "correct": true,
+        "feedback": "Correct. s.4 FA 2006. This covers breaches of trust, fiduciary duty, and employment relationships where the defendant is expected to safeguard another's financial interests."
+      },
+      {
+        "id": "e",
+        "text": "Conspiracy to defraud",
+        "correct": false,
+        "feedback": "Incorrect. Conspiracy to defraud is a common law offence, not created by the FA 2006. It was preserved by s.12 FA 2006 and remains available alongside the statutory offences."
+      }
+    ],
+    "feedback": "Correct answers: (a) and (d). The FA 2006 created three principal offences: s.2 (false representation), s.3 (failure to disclose), and s.4 (abuse of position). The old deception offences were repealed. Conspiracy to defraud (common law) was deliberately preserved.",
+    "oscoaReferences": [
+      "Fraud Act 2006, ss.2, 3, 4, 12"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "fraud",
+      "offences",
+      "msq"
+    ]
+  },
+  {
+    "lessonId": "lesson-D3-1",
+    "microSkill": "D3.1",
+    "block": "consolidation",
+    "phase": "consolidation",
+    "teachingSummary": "",
+    "type": "scenario_choice",
+    "question": "[CONSOLIDATION \u2014 Block A] Yusuf lists a designer handbag on eBay with the description: '100% genuine Chanel, bought from Harrods, unworn.' In fact, it is a counterfeit bought from a street market. The buyer pays \u00a31,200. Applying s.2 FA 2006:",
+    "answer": "b",
+    "options": [
+      {
+        "id": "a",
+        "text": "Not fraud \u2014 online marketplace descriptions are 'mere puffs' and cannot be false representations",
+        "correct": false,
+        "feedback": "Incorrect. A specific claim about authenticity and source ('genuine Chanel, bought from Harrods') is a representation of fact, not a puff."
+      },
+      {
+        "id": "b",
+        "text": "Fraud \u2014 Yusuf made an express false representation (genuine Chanel), he knew it was false (he knew it was counterfeit), he was dishonest, and he intended to make a gain (the \u00a31,200)",
+        "correct": true,
+        "feedback": "Correct. All s.2 elements are established. The eBay listing is an express false representation. The facts as known to Yusuf (counterfeit purchase) establish knowledge and dishonesty. The intended gain is the sale price."
+      },
+      {
+        "id": "c",
+        "text": "Not fraud \u2014 the buyer received a handbag; the representation about brand is not serious enough for criminal liability",
+        "correct": false,
+        "feedback": "Incorrect. The value difference between a genuine Chanel and a counterfeit is substantial and goes to the core of the transaction. The representation is clearly material."
+      },
+      {
+        "id": "d",
+        "text": "Fraud \u2014 but only if Yusuf is a business seller; private sellers cannot commit fraud under s.2",
+        "correct": false,
+        "feedback": "Incorrect. The FA 2006 applies to all persons. There is no requirement that the defendant be a trader or business. Private individuals who make dishonest false representations for gain commit fraud."
+      }
+    ],
+    "feedback": "This consolidates Block A. A false representation under s.2 can be made in any medium \u2014 online listings, verbal statements, written forms. The representation ('genuine Chanel') was false, Yusuf knew it was false, his conduct was dishonest, and he intended to gain. The medium (eBay) is irrelevant.",
+    "oscoaReferences": [
+      "Fraud Act 2006, s.2"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "consolidation",
+      "false-representation",
+      "ebay",
+      "scenario"
+    ]
+  },
+  {
+    "lessonId": "lesson-D3-1",
+    "microSkill": "D3.1",
+    "block": "consolidation",
+    "phase": "consolidation",
+    "teachingSummary": "",
+    "type": "fill_gap_case",
+    "question": "[CONSOLIDATION \u2014 Block A] In R v __________ [1982] AC 449, the House of Lords held that presenting a credit card is an implied representation that the holder is authorised to use it for that transaction.",
+    "answer": "Lambie",
+    "options": [],
+    "feedback": "Correct. *R v Lambie* [1982] AC 449 \u2014 though decided under the old law, the principle that presenting a payment card implies authority was preserved and codified in s.2(4) FA 2006 which recognises implied representations.",
+    "oscoaReferences": [
+      "R v Lambie [1982] AC 449",
+      "Fraud Act 2006, s.2(4)"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "consolidation",
+      "lambie",
+      "implied-representation"
+    ]
+  },
+  {
+    "lessonId": "lesson-D3-1",
+    "microSkill": "D3.1",
+    "block": "consolidation",
+    "phase": "consolidation",
+    "teachingSummary": "",
+    "type": "msq",
+    "question": "[CONSOLIDATION \u2014 Block B] Which TWO of the following correctly state the law on fraud by false representation?",
+    "answer": "a,d",
+    "options": [
+      {
+        "id": "a",
+        "text": "The prosecution need not prove that anyone was actually deceived or suffered a loss \u2014 the offence is conduct-based",
+        "correct": true,
+        "feedback": "Correct. The offence is complete when the false representation is made with dishonest intent to gain or cause loss. No deception, reliance, or loss is required."
+      },
+      {
+        "id": "b",
+        "text": "A representation can only be made to a person \u2014 representations to machines are not covered",
+        "correct": false,
+        "feedback": "Incorrect. s.2(5) FA 2006 expressly provides that representations can be made to systems or devices \u2014 ATMs, self-service tills, online forms."
+      },
+      {
+        "id": "c",
+        "text": "Dishonesty is assessed subjectively \u2014 the defendant must realise their conduct is dishonest by ordinary standards",
+        "correct": false,
+        "feedback": "Incorrect. This was the Ghosh second limb \u2014 abolished by Ivey. Dishonesty is now assessed objectively by the standards of ordinary decent people."
+      },
+      {
+        "id": "d",
+        "text": "'Gain' includes keeping what one has, and 'loss' includes not getting what one might get \u2014 s.5 FA 2006",
+        "correct": true,
+        "feedback": "Correct. s.5 defines gain and loss broadly. Temporary gain is included (s.5(2)(a)). Loss includes exposure to risk of loss."
+      },
+      {
+        "id": "e",
+        "text": "A representation that is true in fact can never found a fraud charge, even if intended to mislead",
+        "correct": false,
+        "feedback": "Incorrect. s.2(2)(a) includes representations that are 'misleading' as well as 'untrue.' A statement that is technically true but misleading may still be a false representation. Half-truths and statements that omit material context can be misleading."
+      }
+    ],
+    "feedback": "Correct answers: (a) and (d). The FA 2006 is a conduct-based statute \u2014 no result is required. s.5 defines gain and loss broadly. Dishonesty is assessed under Ivey (objective). Representations can be to machines. Even literally true statements can be 'misleading' and thus false representations.",
+    "oscoaReferences": [
+      "Fraud Act 2006, ss.2, 5",
+      "Ivey v Genting Casinos (UK) Ltd [2017] UKSC 67"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "consolidation",
+      "fraud",
+      "msq"
+    ]
+  },
+  {
+    "lessonId": "lesson-D3-1",
+    "microSkill": "D3.1",
+    "block": "consolidation",
+    "phase": "consolidation",
+    "teachingSummary": "",
+    "type": "scenario_choice",
+    "question": "[CONSOLIDATION \u2014 Block C] Imran is a financial advisor employed by a bank. A client asks whether a particular investment product is suitable for retirement savings. Imran knows the product carries high risk and is unsuitable, but he recommends it because it pays the highest commission. He does not disclose the risk. The client invests \u00a360,000, which drops by 70%. Applying the Fraud Act 2006:",
+    "answer": "c",
+    "options": [
+      {
+        "id": "a",
+        "text": "No offence \u2014 there was no false representation because Imran only recommended a product, which is a matter of opinion",
+        "correct": false,
+        "feedback": "Incorrect. Financial advice carries implied representations of suitability. An advisor who recommends a product he knows is unsuitable makes an implied false representation. Additionally, silence in the face of a duty to disclose triggers s.3."
+      },
+      {
+        "id": "b",
+        "text": "Fraud by false representation only \u2014 the recommendation was an implied representation of suitability",
+        "correct": false,
+        "feedback": "Partially correct but incomplete. s.3 (failure to disclose) and s.4 (abuse of position as a financial advisor) should also be considered."
+      },
+      {
+        "id": "c",
+        "text": "Imran may be liable under s.2 (implied false representation of suitability), s.3 (failure to disclose risk despite legal duty as FCA-regulated advisor), and s.4 (abuse of position as financial advisor)",
+        "correct": true,
+        "feedback": "Correct. The facts support all three FA 2006 offences. s.2: the recommendation implied suitability. s.3: Imran had a regulatory (FCA) and contractual duty to disclose material risks to the client. s.4: as a financial advisor, Imran was in a position of trust expected to safeguard the client's financial interests. The overlapping charges give the CPS charging options."
+      },
+      {
+        "id": "d",
+        "text": "No offence \u2014 this is a civil negligence claim, not criminal fraud",
+        "correct": false,
+        "feedback": "Incorrect. Dishonest financial advice for personal gain (commission) crosses the line from civil negligence to criminal fraud. The key is dishonesty \u2014 Imran knew the product was unsuitable and prioritised his commission over the client's interests."
+      }
+    ],
+    "feedback": "This consolidates Block C. The Fraud Act 2006 provides three overlapping offences (ss.2, 3, 4) plus preserved common law conspiracy to defraud. A single set of facts may support multiple charges. The CPS selects the most appropriate. Here, the advisor's dishonest recommendation for commission implicates all three FA 2006 sections. The key is Imran's knowledge of the product's unsuitability combined with the commission motive.",
+    "oscoaReferences": [
+      "Fraud Act 2006, ss.2, 3, 4"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "consolidation",
+      "s3",
+      "s4",
+      "scenario"
+    ]
+  },
+  {
+    "lessonId": "lesson-D3-1",
+    "microSkill": "D3.1",
+    "block": "consolidation",
+    "phase": "consolidation",
+    "teachingSummary": "",
+    "type": "fill_gap_statute",
+    "question": "[CONSOLIDATION \u2014 Block C] Section ____ of the Theft Act 1968 (false accounting) remains in force alongside the Fraud Act 2006 and applies where D dishonestly destroys, defaces, conceals, or falsifies accounting documents with a view to gain or with intent to cause loss.",
+    "answer": "17",
+    "options": [],
+    "feedback": "Correct. s.17 Theft Act 1968 \u2014 false accounting. This was not repealed by the Fraud Act 2006. It requires dishonesty and destruction/concealment/falsification of an accounting record or document, with a view to gain or intent to cause loss.",
+    "oscoaReferences": [
+      "Theft Act 1968, s.17"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "consolidation",
+      "false-accounting",
+      "s17"
+    ]
+  }
+]

@@ -1,0 +1,964 @@
+[
+  {
+    "lessonId": "lesson-D2-1",
+    "microSkill": "D2.1",
+    "block": "A",
+    "phase": "teaching",
+    "teachingSummary": "**Core Rule:** Robbery is defined in s.8(1) of the Theft Act 1968: 'A person is guilty of robbery if he steals, and immediately before or at the time of doing so, and in order to do so, he uses force on any person or puts or seeks to put any person in fear of being then and there subjected to force.' The maximum penalty is life imprisonment (s.8(2)).\n\n**Essential Structure:** Robbery is theft *plus* force or threat of force. If there is no completed theft, there is no robbery \u2014 though attempted robbery may be charged. The prosecution must prove all five elements of theft (appropriation, property, belonging to another, dishonesty, intention to permanently deprive) AND the force element.\n\n**Force and Timing:** Section 8 requires force 'immediately before or at the time of stealing.' In *R v Hale* [1979] 68 Cr App R 415, the defendants entered a house, stole jewellery, and then tied up the occupant before escaping. The Court of Appeal held that appropriation can be a continuing act \u2014 the theft was ongoing when the force was used, so it was robbery. The force need not be substantial: *R v Clouden* [1987] Crim LR 56 \u2014 wrenching a shopping basket from a victim's hand was sufficient force. In *R v Dawson and James* [1976] 64 Cr App R 170, a nudge or push (one defendant pushed the victim to enable the other to take his wallet) was enough force.\n\n**In short:** Robbery = theft + force immediately before/at the time of stealing + force used 'in order to steal.' Force can be minimal. The appropriation can be a continuing act.",
+    "type": "teaching",
+    "question": "",
+    "answer": "",
+    "options": [],
+    "feedback": "",
+    "oscoaReferences": [
+      "Theft Act 1968, s.8",
+      "R v Hale [1979] 68 Cr App R 415",
+      "R v Clouden [1987] Crim LR 56",
+      "R v Dawson and James [1976] 64 Cr App R 170"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "robbery",
+      "s8",
+      "theft",
+      "force"
+    ]
+  },
+  {
+    "lessonId": "lesson-D2-1",
+    "microSkill": "D2.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "Under s.8(2) of the Theft Act 1968, a person guilty of robbery is liable on conviction on indictment to imprisonment for __________.",
+    "answer": "life",
+    "options": [],
+    "feedback": "Correct. s.8(2): 'A person guilty of robbery, or of an assault with intent to rob, shall on conviction on indictment be liable to imprisonment for life.' This is the maximum sentence \u2014 not the mandatory sentence.",
+    "oscoaReferences": [
+      "Theft Act 1968, s.8(2)"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "robbery",
+      "sentence",
+      "life"
+    ]
+  },
+  {
+    "lessonId": "lesson-D2-1",
+    "microSkill": "D2.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "In R v __________ [1979] 68 Cr App R 415, the Court of Appeal held that appropriation can be a continuing act, so force used after the initial taking but while the thief is still on the premises can still constitute robbery.",
+    "answer": "Hale",
+    "options": [],
+    "feedback": "Correct. *R v Hale* [1979] \u2014 the defendants stole jewellery upstairs and then tied up the occupant. The Court held the appropriation continued while they were on the premises, so the force was 'at the time of stealing.'",
+    "oscoaReferences": [
+      "R v Hale [1979] 68 Cr App R 415"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "r-v-hale",
+      "continuing-act",
+      "robbery"
+    ]
+  },
+  {
+    "lessonId": "lesson-D2-1",
+    "microSkill": "D2.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "drag_elements",
+    "question": "Arrange the elements of robbery under s.8 Theft Act 1968 in the correct logical order of analysis:",
+    "answer": "Step 1=Has D committed theft? (All 5 elements of s.1); Step 2=Did D use force on any person, or put/seek to put any person in fear of force?; Step 3=Was the force used immediately before or at the time of stealing?; Step 4=Was the force used in order to steal?",
+    "options": [
+      {
+        "id": "1",
+        "text": "Has D committed theft? (All 5 elements of s.1: appropriation, property, belonging to another, dishonesty, intention to permanently deprive)",
+        "order": 1
+      },
+      {
+        "id": "2",
+        "text": "Did D use force on any person, or put/seek to put any person in fear of force?",
+        "order": 2
+      },
+      {
+        "id": "3",
+        "text": "Was the force used immediately before or at the time of stealing?",
+        "order": 3
+      },
+      {
+        "id": "4",
+        "text": "Was the force used in order to steal?",
+        "order": 4
+      }
+    ],
+    "feedback": "Correct. This is the standard analytical framework. If there is no completed theft, there is no robbery (though attempted robbery may be charged). The force must be linked to the theft in both time and purpose.",
+    "oscoaReferences": [
+      "Theft Act 1968, s.8",
+      "R v Hale [1979] 68 Cr App R 415"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "robbery",
+      "elements",
+      "framework"
+    ]
+  },
+  {
+    "lessonId": "lesson-D2-1",
+    "microSkill": "D2.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "Tariq approaches a woman on the street and snatches her handbag from her shoulder without any struggle. The bag's strap breaks easily and Tariq runs off. Has Tariq used 'force' for the purposes of robbery under s.8?",
+    "answer": "c",
+    "options": [
+      {
+        "id": "a",
+        "text": "No \u2014 snatching is not 'force' because Tariq only touched the bag, not the victim",
+        "correct": false,
+        "feedback": "Incorrect. The force need not be applied directly to the person. *R v Clouden* [1987] \u2014 wrenching a shopping basket from the victim's hand was force. The force was transmitted through the object."
+      },
+      {
+        "id": "b",
+        "text": "No \u2014 force requires a weapon or serious violence",
+        "correct": false,
+        "feedback": "Incorrect. Force can be minimal \u2014 *R v Dawson and James* [1976] \u2014 a push or nudge can satisfy s.8. No weapon is required."
+      },
+      {
+        "id": "c",
+        "text": "Yes \u2014 the snatching of the bag from the victim's person is force. *R v Clouden* [1987] confirms that wrenching property from a person's grasp constitutes force for robbery",
+        "correct": true,
+        "feedback": "Correct. In *R v Clouden* [1987] Crim LR 56, the Court of Appeal upheld a robbery conviction where the defendant wrenched a shopping basket from the victim's hand. Snatching a handbag from a shoulder is analogous \u2014 force is applied to the bag in a way that affects the victim."
+      },
+      {
+        "id": "d",
+        "text": "Yes \u2014 but only if the victim resisted or was injured",
+        "correct": false,
+        "feedback": "Incorrect. Neither resistance nor injury is required. The wording of s.8 is 'uses force on any person or puts or seeks to put any person in fear of being then and there subjected to force.' Actual resistance is not an element."
+      }
+    ],
+    "feedback": "The force threshold for robbery is low. *R v Clouden* [1987] \u2014 wrenching a basket from a hand. *R v Dawson and James* [1976] \u2014 a push or nudge. However, mere stealthy removal without any contact with or jostling of the victim is not force \u2014 the element distinguishes pickpocketing (theft) from bag snatching (robbery). The question is always: was force used on the person? The jury determines this as a question of fact.",
+    "oscoaReferences": [
+      "R v Clouden [1987] Crim LR 56",
+      "R v Dawson and James [1976] 64 Cr App R 170"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "robbery",
+      "force",
+      "clouden",
+      "snatching"
+    ]
+  },
+  {
+    "lessonId": "lesson-D2-1",
+    "microSkill": "D2.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "spot_error",
+    "question": "Spot the legal error:\n\n'Robbery requires the defendant to use a weapon or cause serious injury. A simple push or shove is not enough because the law treats robbery as an aggravated form of theft requiring substantial violence. Without actual injury to the victim, the proper charge is theft, not robbery.'",
+    "answer": "No weapon or injury is required. Minimal force suffices \u2014 *Dawson & James* [1976] (push/nudge) and *Clouden* [1987] (wrenching bag). The force need only be more than trivial.",
+    "options": [],
+    "feedback": "Found it. s.8 Theft Act 1968 does not require a weapon, injury, or substantial violence. The force can be minimal \u2014 a push, nudge (*Dawson and James* [1976]), or bag-snatch (*Clouden* [1987]). The jury assess whether what occurred amounts to force. The question is whether force was used 'on any person,' not whether injury was caused.",
+    "oscoaReferences": [
+      "Theft Act 1968, s.8",
+      "R v Dawson and James [1976] 64 Cr App R 170",
+      "R v Clouden [1987] Crim LR 56"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "robbery",
+      "force",
+      "spot-error"
+    ]
+  },
+  {
+    "lessonId": "lesson-D2-1",
+    "microSkill": "D2.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "msq",
+    "question": "Which TWO of the following are required for robbery under s.8 Theft Act 1968?",
+    "answer": "b,c",
+    "options": [
+      {
+        "id": "a",
+        "text": "The victim must suffer actual bodily harm",
+        "correct": false,
+        "feedback": "Incorrect. Robbery does not require injury. Putting a person in fear of force ('seek to put') is sufficient \u2014 no physical contact is required."
+      },
+      {
+        "id": "b",
+        "text": "Force must be used or threatened immediately before or at the time of stealing",
+        "correct": true,
+        "feedback": "Correct. s.8(1): 'immediately before or at the time of doing so.' The force must be temporally linked to the theft."
+      },
+      {
+        "id": "c",
+        "text": "The defendant must have committed theft (all five elements under s.1)",
+        "correct": true,
+        "feedback": "Correct. Robbery is an aggravated form of theft. If there is no completed theft (e.g., because of a s.2(1) defence to dishonesty), there is no robbery."
+      },
+      {
+        "id": "d",
+        "text": "The force must be used with a weapon",
+        "correct": false,
+        "feedback": "Incorrect. Possession of a weapon is an aggravating factor for sentencing but is not an element of robbery. (It may separately constitute an offence under the Prevention of Crime Act 1953 or Criminal Justice Act 1988.)"
+      },
+      {
+        "id": "e",
+        "text": "The defendant must intend to cause serious injury",
+        "correct": false,
+        "feedback": "Incorrect. The mens rea for the force element is intention to use force in order to steal. There is no requirement of intention to cause injury."
+      }
+    ],
+    "feedback": "Correct answers: (b) and (c). Robbery = completed theft + force/threat of force + temporal link (immediately before/at time) + purposive link (in order to steal). Injury, weapon, and serious intent are not required elements.",
+    "oscoaReferences": [
+      "Theft Act 1968, s.8"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "robbery",
+      "elements",
+      "msq"
+    ]
+  },
+  {
+    "lessonId": "lesson-D2-1",
+    "microSkill": "D2.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "Diana steals a necklace from a jewellery store. As she runs out, a security guard blocks the door. Diana pushes the guard aside and escapes. The push happens after the necklace is in Diana's bag. Applying *Hale* [1979]:",
+    "answer": "b",
+    "options": [
+      {
+        "id": "a",
+        "text": "Theft only \u2014 the force was used after the theft was complete, so it cannot be robbery",
+        "correct": false,
+        "feedback": "Incorrect. *R v Hale* [1979] \u2014 appropriation can be a continuing act. The Court of Appeal held that force used to escape while still on the premises may be 'at the time of stealing.'"
+      },
+      {
+        "id": "b",
+        "text": "Robbery \u2014 under *Hale* [1979], appropriation continued while Diana was still on the premises escaping; the force was therefore 'at the time of stealing'",
+        "correct": true,
+        "feedback": "Correct. *R v Hale* [1979] 68 Cr App R 415 \u2014 the defendants tied up the occupant after stealing jewellery. The Court held appropriation was ongoing during the escape on the premises. Here, Diana's push of the guard at the exit occurs during a continuing appropriation."
+      },
+      {
+        "id": "c",
+        "text": "Robbery \u2014 but only if the push caused the guard to fall or suffer injury",
+        "correct": false,
+        "feedback": "Incorrect. The question of force is separate from injury. A push is force regardless of whether injury results. *Dawson and James* [1976]."
+      },
+      {
+        "id": "d",
+        "text": "Theft only \u2014 Hale applies only to domestic burglaries, not shop thefts",
+        "correct": false,
+        "feedback": "Incorrect. *Hale* concerned a domestic burglary, but the principle \u2014 appropriation as a continuing act \u2014 is of general application. It has been applied in commercial contexts."
+      }
+    ],
+    "feedback": "*R v Hale* [1979] 68 Cr App R 415 established that appropriation is not necessarily instantaneous \u2014 it can continue while the defendant remains on the premises. Force used to make good an escape while still on the premises can therefore be 'at the time of stealing' for the purposes of s.8. The jury decides when the appropriation ended.",
+    "oscoaReferences": [
+      "R v Hale [1979] 68 Cr App R 415",
+      "Theft Act 1968, s.8"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "hale",
+      "continuing-act",
+      "robbery",
+      "scenario"
+    ]
+  },
+  {
+    "lessonId": "lesson-D2-1",
+    "microSkill": "D2.1",
+    "block": "B",
+    "phase": "teaching",
+    "teachingSummary": "**Core Rule:** The mens rea of robbery has two components: (1) the mens rea for the underlying theft (dishonesty + intention to permanently deprive); and (2) the intention to use force in order to steal. The force must be purposive \u2014 used 'in order to steal.' If force is used for a different purpose (e.g., to escape after the theft, or out of anger unrelated to the theft), the nexus is broken.\n\n**The 'In Order to Steal' Requirement:** Section 8(1) requires that the force be used 'in order to steal.' This is a purposive requirement \u2014 the force must be a means to the theft. In *R v Lockley* [1995] Crim LR 656, the defendant stole cans of beer from an off-licence and used force on the shopkeeper who tried to stop him escaping. The Court of Appeal upheld the robbery conviction: the force was used to complete the theft by making good the escape. The 'in order to steal' requirement was satisfied.\n\n**Threats and Fear:** The s.8 alternative is 'puts or seeks to put any person in fear of being then and there subjected to force.' There is no requirement that the victim actually felt fear \u2014 'seeks to put' covers ineffectual threats. The threat must be of immediate force ('then and there'), not future force. A threat of future violence is blackmail (s.21), not robbery.\n\n**No Additional Mens Rea for Force:** The prosecution need not prove an intention to cause harm or fear \u2014 only that D intended to use force (or to create fear of force) in order to steal. The mens rea for the force element is intention (or subjective recklessness as to the use of force), judged subjectively.\n\n**In short:** Force must be (1) intended, and (2) directed towards the purpose of stealing. Without this purposive nexus, there is theft plus assault \u2014 but not robbery.",
+    "type": "teaching",
+    "question": "",
+    "answer": "",
+    "options": [],
+    "feedback": "",
+    "oscoaReferences": [
+      "Theft Act 1968, s.8",
+      "R v Lockley [1995] Crim LR 656",
+      "Theft Act 1968, s.21"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "robbery",
+      "mens-rea",
+      "lockley",
+      "in-order-to-steal"
+    ]
+  },
+  {
+    "lessonId": "lesson-D2-1",
+    "microSkill": "D2.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "In R v __________ [1995] Crim LR 656, the Court of Appeal upheld a robbery conviction where the defendant used force on a shopkeeper who tried to stop him escaping with stolen beer \u2014 the force was used 'in order to steal.'",
+    "answer": "Lockley",
+    "options": [],
+    "feedback": "Correct. *R v Lockley* [1995] Crim LR 656 \u2014 force used to make good an escape while in the act of stealing satisfies the 'in order to steal' requirement. The theft was not yet complete; the force facilitated its completion.",
+    "oscoaReferences": [
+      "R v Lockley [1995] Crim LR 656"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "r-v-lockley",
+      "in-order-to-steal",
+      "robbery"
+    ]
+  },
+  {
+    "lessonId": "lesson-D2-1",
+    "microSkill": "D2.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "Under s.8(1) Theft Act 1968, the defendant must use force on any person, or put or seek to put any person in __________ of being then and there subjected to force.",
+    "answer": "fear",
+    "options": [],
+    "feedback": "Correct. s.8(1): 'uses force on any person or puts or seeks to put any person in fear of being then and there subjected to force.' The 'fear' element can be satisfied by putting someone in fear OR by attempting (seeking) to put them in fear \u2014 actual fear is not required.",
+    "oscoaReferences": [
+      "Theft Act 1968, s.8(1)"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "robbery",
+      "fear",
+      "s8"
+    ]
+  },
+  {
+    "lessonId": "lesson-D2-1",
+    "microSkill": "D2.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "drag_elements",
+    "question": "Match each scenario to the correct robbery analysis:",
+    "answer": "D pushes V, takes wallet=Robbery \u2014 force used to steal; D steals wallet, then punches V for insulting him=Theft + assault \u2014 force not 'in order to steal'; D says 'Give me your money or I'll hit you'=Robbery \u2014 puts V in fear of then-and-there force; D says 'Give me money or I'll hurt you tomorrow'=Blackmail (s.21), not robbery \u2014 threat of future force",
+    "options": [
+      {
+        "id": "s1",
+        "text": "D pushes V to the ground and takes V's wallet",
+        "pair": "Robbery \u2014 force used immediately before stealing, in order to steal"
+      },
+      {
+        "id": "s2",
+        "text": "D steals V's wallet; V calls D a thief; D punches V in anger",
+        "pair": "Theft + assault \u2014 force used after theft complete, not 'in order to steal'"
+      },
+      {
+        "id": "s3",
+        "text": "D says 'Give me your money or I'll hit you right now'",
+        "pair": "Robbery \u2014 puts V in fear of then-and-there force"
+      },
+      {
+        "id": "s4",
+        "text": "D says 'Give me your money or I'll find you tomorrow and hurt you'",
+        "pair": "Blackmail (s.21) \u2014 threat is of future, not immediate force"
+      }
+    ],
+    "feedback": "Well matched. The key distinction: robbery requires force (or threat of force) to be (1) immediate ('then and there') and (2) purposively linked to the theft ('in order to steal'). Future threats are blackmail; after-the-fact force is separate assault.",
+    "oscoaReferences": [
+      "Theft Act 1968, ss.8, 21",
+      "R v Lockley [1995] Crim LR 656"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "robbery",
+      "mens-rea",
+      "matching"
+    ]
+  },
+  {
+    "lessonId": "lesson-D2-1",
+    "microSkill": "D2.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "Jacob, a drug addict, enters a pharmacy and tells the cashier, 'Open the till and give me the money, or I'll smash this place up.' He is unarmed and makes no threatening gesture. The cashier, frightened, hands over \u00a3300. Is this robbery?",
+    "answer": "d",
+    "options": [
+      {
+        "id": "a",
+        "text": "No \u2014 Jacob did not use actual force, and threats alone cannot constitute robbery",
+        "correct": false,
+        "feedback": "Incorrect. s.8(1) expressly includes 'puts or seeks to put any person in fear of being then and there subjected to force.' A threat of immediate force satisfies the element."
+      },
+      {
+        "id": "b",
+        "text": "No \u2014 the threat must be of force against a person, not property ('smash this place up')",
+        "correct": false,
+        "feedback": "Incorrect. A threat to smash up the pharmacy implies the threat of force against anyone present. The jury may infer that the cashier was put in fear of force against her person."
+      },
+      {
+        "id": "c",
+        "text": "Yes \u2014 because he obtained the money, and any obtaining of money by threat is robbery",
+        "correct": false,
+        "feedback": "Incorrect. Overbroad. The threat must be of immediate force \u2014 not future force (which is blackmail, s.21). And the theft must be completed (appropriation, dishonesty, etc.)."
+      },
+      {
+        "id": "d",
+        "text": "Probably yes \u2014 the threat to 'smash this place up' while standing at the till is arguably a threat of immediate force sufficient to put the cashier in fear. The threat was 'in order to steal,' and the remaining theft elements are satisfied",
+        "correct": true,
+        "feedback": "Correct. The threat of immediate force (smashing up the premises while present) puts the cashier in fear of then-and-there force. The money was appropriated dishonestly with intent to permanently deprive. The elements of robbery under s.8 are satisfied."
+      }
+    ],
+    "feedback": "The threat of 'smashing up' a premises while standing in it can constitute putting a person in fear of then-and-there force \u2014 especially when directed at a cashier who would be directly affected. The key is the immediacy of the threat. If Jacob had said 'I'll come back tomorrow and smash the place up,' that would be blackmail, not robbery.",
+    "oscoaReferences": [
+      "Theft Act 1968, s.8(1)",
+      "Theft Act 1968, s.21"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "robbery",
+      "threat",
+      "scenario"
+    ]
+  },
+  {
+    "lessonId": "lesson-D2-1",
+    "microSkill": "D2.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "spot_error",
+    "question": "Spot the legal error:\n\n'If a person commits theft and later uses force to escape, the force is always treated as occurring \"at the time of stealing\" under s.8. It does not matter whether the theft was already complete at the time the force was used. The courts treat all force used in the course of a theft as robbery.'",
+    "answer": "Force must be used immediately before or at the time of stealing. If the theft is complete and D later uses force \u2014 e.g., to escape \u2014 the nexus may be broken. *Hale* [1979] extends the timeframe but not indefinitely.",
+    "options": [],
+    "feedback": "Found it. The force must be 'immediately before or at the time of stealing.' *R v Hale* [1979] permits force during a continuing appropriation, but this does not mean all force during a criminal episode is robbery. If the theft is truly complete and the defendant later uses force for an unrelated reason (or at a different location and time), it may be theft plus assault, not robbery. The jury decides when the appropriation ended.",
+    "oscoaReferences": [
+      "Theft Act 1968, s.8(1)",
+      "R v Hale [1979] 68 Cr App R 415"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "robbery",
+      "timing",
+      "spot-error"
+    ]
+  },
+  {
+    "lessonId": "lesson-D2-1",
+    "microSkill": "D2.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "msq",
+    "question": "Which TWO of the following correctly describe the mens rea for robbery under s.8 Theft Act 1968?",
+    "answer": "b,c",
+    "options": [
+      {
+        "id": "a",
+        "text": "The defendant must intend to cause serious injury to the victim",
+        "correct": false,
+        "feedback": "Incorrect. Robbery requires intention to use force in order to steal, not intention to cause injury. Injury is not an element (though it is relevant to sentencing as an aggravating factor)."
+      },
+      {
+        "id": "b",
+        "text": "The force must be used 'in order to steal' \u2014 there must be a purposive link between the force and the theft",
+        "correct": true,
+        "feedback": "Correct. s.8(1): 'and in order to do so.' The force must be a means to the theft, not incidental or for an unrelated purpose. *R v Lockley* [1995]."
+      },
+      {
+        "id": "c",
+        "text": "The defendant must have the mens rea for theft (dishonesty + intention to permanently deprive) plus intention to use force in order to steal",
+        "correct": true,
+        "feedback": "Correct. Robbery requires all the mens rea elements of theft plus the additional mental element for the force. If the defendant is not dishonest (e.g., s.2(1) applies), there is no robbery."
+      },
+      {
+        "id": "d",
+        "text": "The defendant must have a separate intention to cause the victim to fear for their life",
+        "correct": false,
+        "feedback": "Incorrect. s.8(1) requires 'put or seek to put any person in fear of being then and there subjected to force.' Fear of force \u2014 not fear of death \u2014 is the standard."
+      },
+      {
+        "id": "e",
+        "text": "The defendant can be convicted of robbery even if no theft is committed, provided force is used",
+        "correct": false,
+        "feedback": "Incorrect. If no theft is committed, the maximum charge is attempted robbery or assault with intent to rob (s.8(2)). There is no completed robbery without completed theft."
+      }
+    ],
+    "feedback": "Correct answers: (b) and (c). Robbery is theft + intentional force with a purposive link ('in order to steal'). The mens rea is the theft MR plus intention to use force for the purpose of stealing. No additional mens rea regarding injury or fear is required beyond what s.8 specifies.",
+    "oscoaReferences": [
+      "Theft Act 1968, s.8",
+      "R v Lockley [1995] Crim LR 656"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "robbery",
+      "mens-rea",
+      "msq"
+    ]
+  },
+  {
+    "lessonId": "lesson-D2-1",
+    "microSkill": "D2.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "Neil picks a fight with a man outside a pub, punches him to the ground, and then \u2014 seeing the man's wallet has fallen out \u2014 picks it up and keeps it. He did not plan to steal before the fight. Is Neil guilty of robbery?",
+    "answer": "c",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yes \u2014 force was used, and immediately afterwards Neil stole the wallet",
+        "correct": false,
+        "feedback": "Incorrect. The force must be 'in order to steal.' If Neil used force for the purpose of fighting (not stealing), the nexus is absent."
+      },
+      {
+        "id": "b",
+        "text": "No \u2014 the wallet fell out, so Neil did not 'use force' \u2014 the force caused the wallet to fall accidentally",
+        "correct": false,
+        "feedback": "Incoherent. The wallet falling out is a consequence of the force. The question is whether the force was used *in order to* steal."
+      },
+      {
+        "id": "c",
+        "text": "No \u2014 the force was not used 'in order to steal.' Neil used force to fight, and the theft was an opportunistic afterthought. The purposive link required by s.8 is absent",
+        "correct": true,
+        "feedback": "Correct. s.8 requires force to be used 'in order to steal.' The force must be a means to the theft. Neil's force was for fighting; he only formed the intention to steal after the wallet fell out. This is theft (and possibly ABH/GBH for the punch), but not robbery."
+      },
+      {
+        "id": "d",
+        "text": "Yes \u2014 any theft that follows force is robbery, regardless of the sequence of intentions",
+        "correct": false,
+        "feedback": "Incorrect. The timing of the intention to steal is critical. The force must be intentional and the intention to steal must exist at the time the force is used. If D first uses force and only later decides to steal, there is no robbery."
+      }
+    ],
+    "feedback": "The 'in order to steal' requirement is a purposive nexus. If D uses force for a purpose other than stealing, and only afterwards decides to steal, the s.8 nexus is not satisfied. The force was not the means by which the theft was carried out. The correct charges would be theft and assault occasioning actual bodily harm (or a more serious assault offence), but not robbery.",
+    "oscoaReferences": [
+      "Theft Act 1968, s.8"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "robbery",
+      "in-order-to-steal",
+      "purposive-nexus",
+      "scenario"
+    ]
+  },
+  {
+    "lessonId": "lesson-D2-1",
+    "microSkill": "D2.1",
+    "block": "C",
+    "phase": "teaching",
+    "teachingSummary": "**Core Rule:** Robbery sits within a family of related offences that should be considered in problem questions. Where robbery fails on one element, a lesser or alternative offence may apply.\n\n**Assault with Intent to Rob (s.8(2)):** Section 8(2) creates a separate offence of assault with intent to rob, carrying the same maximum penalty (life imprisonment). This applies where D uses force or threatens force with the intention of stealing, but no theft is actually completed. For example: D threatens a cashier who sets off a silent alarm; police arrive before money is taken. No completed theft = no robbery, but assault with intent to rob is available.\n\n**Burglary \u2014 Section 9:** Where D enters a building as a trespasser and steals (or attempts to steal) or inflicts GBH, s.9(1)(a) burglary may be charged. If D enters as a trespasser and, having entered, commits theft or GBH, s.9(1)(b) applies. Burglary can be an alternative to robbery where theft occurs inside a building but the entry is trespassory.\n\n**Aggravated Burglary \u2014 Section 10:** Where D commits burglary while in possession of a firearm, imitation firearm, weapon of offence, or explosive, s.10 applies \u2014 maximum penalty: life imprisonment. In practice, many robberies inside buildings are also burglaries, and many burglaries involve force, so overlapping charges are common.\n\n**In short:** Always consider the related hierarchy: theft \u2192 robbery (theft + force), theft after trespassory entry \u2192 burglary \u2192 aggravated burglary (with weapon). Where robbery fails because the theft is incomplete, consider assault with intent to rob.",
+    "type": "teaching",
+    "question": "",
+    "answer": "",
+    "options": [],
+    "feedback": "",
+    "oscoaReferences": [
+      "Theft Act 1968, ss.9, 10",
+      "Theft Act 1968, s.8(2)"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "robbery",
+      "related-offences",
+      "burglary",
+      "assault-with-intent"
+    ]
+  },
+  {
+    "lessonId": "lesson-D2-1",
+    "microSkill": "D2.1",
+    "block": "C",
+    "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "Under s.____(1)(a) of the Theft Act 1968, a person commits burglary if he enters any building as a trespasser with intent to steal, inflict grievous bodily harm, or cause unlawful damage.",
+    "answer": "9",
+    "options": [],
+    "feedback": "Correct. s.9(1)(a) Theft Act 1968 \u2014 burglary at the point of entry, based on intent. s.9(1)(b) \u2014 burglary where D, having entered as a trespasser, actually commits theft or GBH.",
+    "oscoaReferences": [
+      "Theft Act 1968, s.9"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "burglary",
+      "s9"
+    ]
+  },
+  {
+    "lessonId": "lesson-D2-1",
+    "microSkill": "D2.1",
+    "block": "C",
+    "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "__________ v Walkington [1979] 1 WLR 1169 established that a person who enters a restricted part of a shop (e.g., behind the counter) with intent to steal may be a trespasser for the purposes of burglary under s.9.",
+    "answer": "R",
+    "options": [],
+    "feedback": "Correct. *R v Walkington* [1979] \u2014 the defendant entered the area behind a shop counter (accessible to staff only) and opened the till. He was a trespasser in that part of the building, satisfying the entry element of burglary.",
+    "oscoaReferences": [
+      "R v Walkington [1979] 1 WLR 1169"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "r-v-walkington",
+      "burglary",
+      "trespasser"
+    ]
+  },
+  {
+    "lessonId": "lesson-D2-1",
+    "microSkill": "D2.1",
+    "block": "C",
+    "phase": "teaching",
+    "type": "drag_elements",
+    "question": "Match each offence to its distinguishing feature:",
+    "answer": "Theft=Dishonest appropriation of property with intention to permanently deprive; Robbery=Theft + force/threat of force immediately before or at time of stealing; Burglary (s.9)=Entry as a trespasser + intent to steal/GBH/damage (or actual theft/GBH after entry); Aggravated Burglary (s.10)=Burglary + possession of firearm/weapon/explosive; Assault with intent to rob (s.8(2))=Force/threat with intent to steal, but no completed theft",
+    "options": [
+      {
+        "id": "o1",
+        "text": "Dishonest appropriation of property with intention to permanently deprive",
+        "pair": "Theft"
+      },
+      {
+        "id": "o2",
+        "text": "Theft + force/threat of force immediately before or at time of stealing, in order to steal",
+        "pair": "Robbery"
+      },
+      {
+        "id": "o3",
+        "text": "Entry as a trespasser with intent to steal, inflict GBH, or cause unlawful damage (or doing so after entry)",
+        "pair": "Burglary (s.9)"
+      },
+      {
+        "id": "o4",
+        "text": "Burglary while possessing a firearm, imitation firearm, weapon of offence, or explosive",
+        "pair": "Aggravated Burglary (s.10)"
+      },
+      {
+        "id": "o5",
+        "text": "Force or threat of force with intent to steal, but the theft was not completed",
+        "pair": "Assault with intent to rob (s.8(2))"
+      }
+    ],
+    "feedback": "Well matched. The hierarchy: theft (base offence) \u2192 robbery (theft + force) / burglary (theft + trespassory entry) \u2192 aggravated burglary (burglary + weapon). Assault with intent to rob is an inchoate robbery analogue.",
+    "oscoaReferences": [
+      "Theft Act 1968, ss.1, 8, 9, 10"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "robbery",
+      "related-offences",
+      "matching"
+    ]
+  },
+  {
+    "lessonId": "lesson-D2-1",
+    "microSkill": "D2.1",
+    "block": "C",
+    "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "At midnight, Levi climbs through an unlocked window into a house, intending to steal a laptop. He picks up a laptop worth \u00a3800. The homeowner, woken by the noise, confronts Levi. Levi pushes the homeowner aside and escapes with the laptop. What is the most appropriate charge?",
+    "answer": "d",
+    "options": [
+      {
+        "id": "a",
+        "text": "Theft only",
+        "correct": false,
+        "feedback": "Incomplete. There is both trespassory entry (burglary) and force (robbery). Theft is the least serious and fails to capture the aggravating features."
+      },
+      {
+        "id": "b",
+        "text": "Robbery only",
+        "correct": false,
+        "feedback": "Incomplete. The trespassory entry adds the distinct offence of burglary. The force adds robbery. Both may be charged."
+      },
+      {
+        "id": "c",
+        "text": "Burglary only",
+        "correct": false,
+        "feedback": "Incomplete. The force used on the homeowner adds robbery. Theft and robbery are not subsumed by burglary."
+      },
+      {
+        "id": "d",
+        "text": "The most appropriate charging strategy includes both burglary (s.9(1)(a) \u2014 entry as trespasser with intent to steal) and robbery (s.8 \u2014 theft + force)",
+        "correct": true,
+        "feedback": "Correct. Levi committed burglary at the moment of entry (he entered as a trespasser with intent to steal). The completed theft + force on the homeowner constitutes robbery. Both may be charged on the indictment."
+      }
+    ],
+    "feedback": "This scenario illustrates that offences under the Theft Act 1968 frequently overlap. Levi's conduct potentially constitutes burglary (s.9(1)(a) \u2014 entry with intent), robbery (s.8 \u2014 theft + force), and the base offence of theft. The CPS would typically charge the most serious available offences. Note that if Levi had been carrying a weapon, s.10 aggravated burglary would also apply.",
+    "oscoaReferences": [
+      "Theft Act 1968, ss.8, 9"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "robbery",
+      "burglary",
+      "overlap",
+      "scenario"
+    ]
+  },
+  {
+    "lessonId": "lesson-D2-1",
+    "microSkill": "D2.1",
+    "block": "C",
+    "phase": "teaching",
+    "type": "spot_error",
+    "question": "Spot the legal error:\n\n'If a defendant commits robbery, she cannot also be convicted of theft because robbery includes theft and the two offences merge. Similarly, if a burglary is committed, the defendant cannot be separately convicted of theft for the items stolen during the burglary.'",
+    "answer": "There is no rule of merger. A defendant may be convicted of multiple offences arising from the same facts. Theft, robbery, and burglary can all be charged and convictions recorded, though the court will consider totality in sentencing.",
+    "options": [],
+    "feedback": "Found it. English law does not have a doctrine of merger in this context. A defendant may be convicted of theft, robbery, and burglary arising from the same incident. However, the principle of totality in sentencing means the court will structure sentences to avoid double punishment \u2014 typically by imposing concurrent sentences or making certain counts lie on the file.",
+    "oscoaReferences": [
+      "Theft Act 1968, ss.1, 8, 9"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "robbery",
+      "merger",
+      "spot-error"
+    ]
+  },
+  {
+    "lessonId": "lesson-D2-1",
+    "microSkill": "D2.1",
+    "block": "C",
+    "phase": "teaching",
+    "type": "msq",
+    "question": "Which TWO offences may be charged where a defendant enters a house as a trespasser with a knife and steals a television, pushing the homeowner in the process?",
+    "answer": "b,c",
+    "options": [
+      {
+        "id": "a",
+        "text": "Theft only \u2014 all other offences are subsumed",
+        "correct": false,
+        "feedback": "Incorrect. Theft is the base offence but the additional elements (trespassory entry, weapon, force) each create more serious charges."
+      },
+      {
+        "id": "b",
+        "text": "Aggravated burglary under s.10 Theft Act 1968",
+        "correct": true,
+        "feedback": "Correct. s.10 \u2014 burglary committed while possessing a weapon of offence (the knife). Liable to life imprisonment."
+      },
+      {
+        "id": "c",
+        "text": "Robbery under s.8 Theft Act 1968",
+        "correct": true,
+        "feedback": "Correct. The push is force used immediately before/at the time of stealing, in order to steal. The theft and force elements are satisfied."
+      },
+      {
+        "id": "d",
+        "text": "Blackmail under s.21 Theft Act 1968",
+        "correct": false,
+        "feedback": "Incorrect. Blackmail requires an unwarranted demand with menaces. The push is force, not a demand with menaces. The s.8 robbery charge better captures the conduct."
+      },
+      {
+        "id": "e",
+        "text": "Handling stolen goods under s.22 Theft Act 1968",
+        "correct": false,
+        "feedback": "Incorrect. Handling applies to those who receive/dispose of stolen goods after the fact, not the original thief. A person cannot be convicted of both theft and handling the same goods."
+      }
+    ],
+    "feedback": "Correct answers: (b) and (c). The conduct potentially constitutes theft, robbery, burglary (s.9), and aggravated burglary (s.10). The CPS would charge the most serious combination. In practice, the aggravated burglary charge would likely head the indictment.",
+    "oscoaReferences": [
+      "Theft Act 1968, ss.8, 9, 10"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "robbery",
+      "burglary",
+      "aggravated-burglary",
+      "msq"
+    ]
+  },
+  {
+    "lessonId": "lesson-D2-1",
+    "microSkill": "D2.1",
+    "block": "consolidation",
+    "phase": "consolidation",
+    "teachingSummary": "",
+    "type": "scenario_choice",
+    "question": "[CONSOLIDATION \u2014 Block A] A pickpocket, Grace, expertly removes a wallet from a man's jacket pocket on a crowded train. The man feels nothing and only discovers the loss later. Has Grace committed robbery?",
+    "answer": "b",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yes \u2014 the taking of the wallet involved 'force' because Grace had to touch the jacket",
+        "correct": false,
+        "feedback": "Incorrect. Mere touching incidental to theft is not 'force' for s.8. The force must be directed at the person, not merely the property."
+      },
+      {
+        "id": "b",
+        "text": "No \u2014 Grace committed theft, not robbery. There was no force used on the person (the victim felt nothing), nor was the victim put in fear of force",
+        "correct": true,
+        "feedback": "Correct. Pickpocketing without any force against the person is theft, not robbery. The distinction: a bag-snatch that wrestles the bag from the grasp involves force (*Clouden*); a stealthy removal of a wallet from a pocket does not."
+      },
+      {
+        "id": "c",
+        "text": "Yes \u2014 any theft from the person is automatically robbery",
+        "correct": false,
+        "feedback": "Incorrect. Robbery requires force or threat of force. Stealthy theft from the person without force is theft, not robbery."
+      },
+      {
+        "id": "d",
+        "text": "No \u2014 but it is burglary because it occurred on a train",
+        "correct": false,
+        "feedback": "Incorrect. A train is not a 'building' for the purposes of s.9 burglary. (Though it is a 'conveyance' for other purposes.)"
+      }
+    ],
+    "feedback": "This consolidates Block A: the distinction between theft and robbery is *force*. Pickpocketing without force = theft. Bag-snatching with force = robbery. The jury decides on the facts whether the defendant's actions crossed the (low) force threshold.",
+    "oscoaReferences": [
+      "Theft Act 1968, s.8",
+      "R v Clouden [1987] Crim LR 56"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "consolidation",
+      "robbery",
+      "force",
+      "pickpocketing"
+    ]
+  },
+  {
+    "lessonId": "lesson-D2-1",
+    "microSkill": "D2.1",
+    "block": "consolidation",
+    "phase": "consolidation",
+    "teachingSummary": "",
+    "type": "fill_gap_case",
+    "question": "[CONSOLIDATION \u2014 Block A] In R v __________ and James [1976] 64 Cr App R 170, the Court of Appeal held that a push or nudge can constitute force for the purposes of robbery.",
+    "answer": "Dawson",
+    "options": [],
+    "feedback": "Correct. *R v Dawson and James* [1976] \u2014 one defendant pushed the victim, enabling the other to take his wallet. The push was sufficient force. The force threshold for robbery is low.",
+    "oscoaReferences": [
+      "R v Dawson and James [1976] 64 Cr App R 170"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "consolidation",
+      "dawson-and-james",
+      "force"
+    ]
+  },
+  {
+    "lessonId": "lesson-D2-1",
+    "microSkill": "D2.1",
+    "block": "consolidation",
+    "phase": "consolidation",
+    "teachingSummary": "",
+    "type": "msq",
+    "question": "[CONSOLIDATION \u2014 Block B] Which TWO of the following statements about the 'in order to steal' requirement are correct?",
+    "answer": "a,d",
+    "options": [
+      {
+        "id": "a",
+        "text": "Force used to facilitate escape while still on the premises can satisfy the requirement \u2014 *Lockley* [1995]",
+        "correct": true,
+        "feedback": "Correct. *R v Lockley* [1995] Crim LR 656 \u2014 force used to make good an escape while the theft is still ongoing is force used 'in order to steal.'"
+      },
+      {
+        "id": "b",
+        "text": "Force used after the defendant has left the building and is running down the street is still 'in order to steal'",
+        "correct": false,
+        "feedback": "Incorrect. Once the defendant has left the premises and the theft is complete, subsequent force is not robbery. The 'continuing appropriation' principle in *Hale* [1979] is limited to the time on the premises."
+      },
+      {
+        "id": "c",
+        "text": "Force used before the defendant decides to steal satisfies the requirement provided theft follows",
+        "correct": false,
+        "feedback": "Incorrect. The force must be *in order to* steal. If force is used without an existing intention to steal, the purposive link is absent. The intention must exist at the time force is used."
+      },
+      {
+        "id": "d",
+        "text": "The force need not be the sole or main purpose \u2014 it is sufficient if the force is used to enable or facilitate the theft",
+        "correct": true,
+        "feedback": "Correct. The force need not be the exclusive purpose. It is enough that one purpose of the force was to steal. Multiple concurrent purposes do not defeat robbery."
+      },
+      {
+        "id": "e",
+        "text": "Force used on a bystander who is not the owner of the property cannot be 'in order to steal'",
+        "correct": false,
+        "feedback": "Incorrect. s.8(1) applies to force used 'on any person.' The force need not be directed at the property owner \u2014 it can be used on a security guard, a bystander, or anyone who obstructs or might obstruct the theft."
+      }
+    ],
+    "feedback": "Correct answers: (a) and (d). The 'in order to steal' requirement is purposive but flexible: force facilitating escape during an ongoing theft (*Lockley*) satisfies it, and the force need not be the sole purpose. However, force after the theft is complete, or force before the intention to steal was formed, does not.",
+    "oscoaReferences": [
+      "Theft Act 1968, s.8",
+      "R v Lockley [1995] Crim LR 656",
+      "R v Hale [1979] 68 Cr App R 415"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "consolidation",
+      "in-order-to-steal",
+      "msq"
+    ]
+  },
+  {
+    "lessonId": "lesson-D2-1",
+    "microSkill": "D2.1",
+    "block": "consolidation",
+    "phase": "consolidation",
+    "teachingSummary": "",
+    "type": "scenario_choice",
+    "question": "[CONSOLIDATION \u2014 Block C] Vic, a homeless man, enters an unlocked warehouse to sleep. While inside, he spots valuable copper wiring. Using wirecutters he brought (for a different job), he cuts out the wiring and walks out. He encounters no one and uses no force. What is Vic's criminal liability?",
+    "answer": "c",
+    "options": [
+      {
+        "id": "a",
+        "text": "Robbery \u2014 because he used the wirecutters, which are a weapon, and theft from a building is automatically robbery",
+        "correct": false,
+        "feedback": "Incorrect. Robbery requires force or threat of force. Vic used none."
+      },
+      {
+        "id": "b",
+        "text": "Theft only \u2014 there is no burglary because he entered to sleep, not to steal",
+        "correct": false,
+        "feedback": "Partially correct \u2014 theft is applicable. But burglary should also be considered: s.9(1)(b) applies where D enters as a trespasser and, having entered, steals or inflicts GBH. The initial purpose of entry is irrelevant."
+      },
+      {
+        "id": "c",
+        "text": "Theft and burglary under s.9(1)(b) \u2014 he entered as a trespasser (to sleep) and, having entered, committed theft. Aggravated burglary under s.10 should also be considered because he possessed a weapon of offence (wirecutters) at the time of the theft",
+        "correct": true,
+        "feedback": "Correct. s.9(1)(b) burglary is made out: trespassory entry + subsequent theft. If the wirecutters qualify as a 'weapon of offence' under s.10(1)(b) (an article made or adapted for causing injury OR intended for such use), aggravated burglary is also made out. The wirecutters were adapted for cutting \u2014 if Vic intended to use them to cause injury if necessary, s.10 applies."
+      },
+      {
+        "id": "d",
+        "text": "Burglary only \u2014 the theft merges with the burglary charge",
+        "correct": false,
+        "feedback": "Incorrect. There is no doctrine of merger. Theft, burglary, and aggravated burglary may all be charged."
+      }
+    ],
+    "feedback": "This consolidates Block C: where trespassory entry and theft occur, always consider burglary (s.9) and aggravated burglary (s.10). s.9(1)(b) applies even where the defendant enters for a non-theft purpose but later steals. The wirecutters potentially upgrade the offence to aggravated burglary if they are a 'weapon of offence.' This demonstrates the need to consider all related Theft Act offences in problem questions.",
+    "oscoaReferences": [
+      "Theft Act 1968, ss.9, 10"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "consolidation",
+      "burglary",
+      "aggravated-burglary",
+      "scenario"
+    ]
+  },
+  {
+    "lessonId": "lesson-D2-1",
+    "microSkill": "D2.1",
+    "block": "consolidation",
+    "phase": "consolidation",
+    "teachingSummary": "",
+    "type": "fill_gap_statute",
+    "question": "[CONSOLIDATION \u2014 Block C] Under s.____ of the Theft Act 1968, a person commits aggravated burglary if he commits any burglary and at the time has with him any firearm, imitation firearm, weapon of offence, or explosive.",
+    "answer": "10",
+    "options": [],
+    "feedback": "Correct. s.10 Theft Act 1968 \u2014 aggravated burglary. Maximum penalty: life imprisonment. The weapon must be with the defendant at the time of the burglary. The defendant need not use or display it.",
+    "oscoaReferences": [
+      "Theft Act 1968, s.10"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "consolidation",
+      "aggravated-burglary",
+      "s10"
+    ]
+  }
+]

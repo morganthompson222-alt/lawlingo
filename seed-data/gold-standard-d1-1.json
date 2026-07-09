@@ -1,0 +1,959 @@
+[
+  {
+    "lessonId": "lesson-D1-1",
+    "microSkill": "D1.1",
+    "block": "A",
+    "phase": "teaching",
+    "teachingSummary": "**Core Rule:** Theft is defined in s.1(1) of the Theft Act 1968: 'A person is guilty of theft if he dishonestly appropriates property belonging to another with the intention of permanently depriving the other of it.' The maximum penalty on indictment is seven years' imprisonment (s.7).\n\n**Five Elements:** The offence breaks into three actus reus elements \u2014 (i) appropriation, (ii) property, (iii) belonging to another \u2014 and two mens rea elements \u2014 (iv) dishonesty, (v) intention to permanently deprive. All five must be present simultaneously for theft to be committed.\n\n**The Actus Reus\u2013Mens Rea Overlap:** Although the elements are conventionally separated, the courts have recognised considerable overlap. *R v Morris* [1984] AC 320 confirmed that appropriation and dishonesty are not entirely distinct \u2014 a dishonest dealing with property is often the actus reus that constitutes appropriation. Nevertheless, examination questions expect you to address each element in turn.\n\n**In short:** Theft = appropriation + property + belonging to another (AR) + dishonesty + intention to permanently deprive (MR). All five must be proved.",
+    "type": "teaching",
+    "question": "",
+    "answer": "",
+    "options": [],
+    "feedback": "",
+    "oscoaReferences": [
+      "Theft Act 1968, ss.1, 7",
+      "R v Morris [1984] AC 320"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "theft",
+      "s1",
+      "actus-reus",
+      "mens-rea"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-1",
+    "microSkill": "D1.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "Under s.1(1) of the Theft Act 1968, a person is guilty of theft if he __________ appropriates property belonging to another with the intention of permanently depriving the other of it.",
+    "answer": "dishonestly",
+    "options": [],
+    "feedback": "Correct. s.1(1) Theft Act 1968: 'dishonestly appropriates property belonging to another with the intention of permanently depriving the other of it.' All five words are critical elements of the offence.",
+    "oscoaReferences": [
+      "Theft Act 1968, s.1(1)"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "theft",
+      "s1",
+      "dishonesty"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-1",
+    "microSkill": "D1.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "drag_elements",
+    "question": "Categorise each element of theft under s.1 Theft Act 1968 as Actus Reus (AR) or Mens Rea (MR):",
+    "answer": "Appropriation=AR; Property=AR; Belonging to another=AR; Dishonesty=MR; Intention to permanently deprive=MR",
+    "options": [
+      {
+        "id": "a1",
+        "text": "Appropriation \u2014 s.3",
+        "pair": "AR"
+      },
+      {
+        "id": "a2",
+        "text": "Property \u2014 s.4",
+        "pair": "AR"
+      },
+      {
+        "id": "a3",
+        "text": "Belonging to another \u2014 s.5",
+        "pair": "AR"
+      },
+      {
+        "id": "a4",
+        "text": "Dishonesty \u2014 s.2 (partially)",
+        "pair": "MR"
+      },
+      {
+        "id": "a5",
+        "text": "Intention to permanently deprive \u2014 s.6",
+        "pair": "MR"
+      }
+    ],
+    "feedback": "Correct. Actus reus: appropriation, property, belonging to another. Mens rea: dishonesty, intention to permanently deprive. The prosecution must prove all five elements to secure a conviction for theft.",
+    "oscoaReferences": [
+      "Theft Act 1968, ss.3-6"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "theft",
+      "actus-reus",
+      "mens-rea",
+      "elements"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-1",
+    "microSkill": "D1.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "David takes a laptop from his colleague's desk, intending to use it for a week and then return it. He has no permission. Has David committed theft under s.1 Theft Act 1968?",
+    "answer": "c",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yes \u2014 he appropriated property belonging to another",
+        "correct": false,
+        "feedback": "Incomplete. While the actus reus of appropriation is satisfied, the mens rea of intention to permanently deprive must also be established. Borrowing for a week may not be enough."
+      },
+      {
+        "id": "b",
+        "text": "No \u2014 borrowing can never be theft",
+        "correct": false,
+        "feedback": "Incorrect. Under s.6(1), borrowing can be theft if the borrowing is for a period and in circumstances making it equivalent to an outright taking."
+      },
+      {
+        "id": "c",
+        "text": "Probably not \u2014 a week's borrowing may not satisfy the intention to permanently deprive under s.6, unless the property's value is in its use during that specific period",
+        "correct": true,
+        "feedback": "Correct. The missing element is likely the intention to permanently deprive. Under s.6 and *R v Lloyd* [1985] QB 829, borrowing is not theft unless it amounts to an outright taking. A week's use of a general laptop, with intent to return it, probably falls short."
+      },
+      {
+        "id": "d",
+        "text": "Yes \u2014 borrowing for any length of time is deemed theft under s.6",
+        "correct": false,
+        "feedback": "Incorrect. s.6 does not deem all borrowing as theft. It only applies where the borrowing is equivalent to an outright taking \u2014 where the property is returned in such a changed state that all its goodness has gone."
+      }
+    ],
+    "feedback": "The key gap in the scenario is the intention to permanently deprive. Under s.6 Theft Act 1968 and *R v Lloyd* [1985] QB 829, borrowing per se is not theft. Borrowing must be 'for a period and in circumstances making it equivalent to an outright taking or disposal.' A week's use of a laptop, with intent to return it, is probably not theft \u2014 though it may constitute unauthorised access to computer material or other offences.",
+    "oscoaReferences": [
+      "Theft Act 1968, ss.1, 6",
+      "R v Lloyd [1985] QB 829"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "theft",
+      "borrowing",
+      "intention-to-deprive",
+      "s6"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-1",
+    "microSkill": "D1.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "spot_error",
+    "question": "Spot the legal error:\n\n'Theft is committed whenever a person takes any item without permission. The prosecution need only prove that the defendant took something that did not belong to them. Dishonesty and intention are irrelevant \u2014 the act of taking is sufficient.'",
+    "answer": "Theft requires proof of dishonesty and intention to permanently deprive, not merely taking. The five elements (appropriation, property, belonging to another, dishonesty, intention to permanently deprive) must all be proved.",
+    "options": [],
+    "feedback": "Found it. Theft is not a strict-liability offence. The prosecution must prove all five elements under s.1 Theft Act 1968, including the two mens rea elements: dishonesty and intention to permanently deprive. Mere unauthorised taking is not theft.",
+    "oscoaReferences": [
+      "Theft Act 1968, s.1"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "theft",
+      "elements",
+      "mens-rea"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-1",
+    "microSkill": "D1.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "The maximum penalty for theft on indictment under s.____ of the Theft Act 1968 is seven years' imprisonment.",
+    "answer": "7",
+    "options": [],
+    "feedback": "Correct. s.7 Theft Act 1968: 'A person guilty of theft shall on conviction on indictment be liable to imprisonment for a term not exceeding seven years.'",
+    "oscoaReferences": [
+      "Theft Act 1968, s.7"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "theft",
+      "sentence",
+      "s7"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-1",
+    "microSkill": "D1.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "msq",
+    "question": "Which THREE of the following are elements of theft under s.1 Theft Act 1968?",
+    "answer": "a,c,d",
+    "options": [
+      {
+        "id": "a",
+        "text": "Appropriation",
+        "correct": true,
+        "feedback": "Correct. Appropriation is the first actus reus element, defined in s.3."
+      },
+      {
+        "id": "b",
+        "text": "Use of force or threat of force",
+        "correct": false,
+        "feedback": "Incorrect. Force is an element of robbery (s.8), not theft. Theft may be committed without any force."
+      },
+      {
+        "id": "c",
+        "text": "Property belonging to another",
+        "correct": true,
+        "feedback": "Correct. These are the second and third actus reus elements: property (s.4) and belonging to another (s.5)."
+      },
+      {
+        "id": "d",
+        "text": "Dishonesty",
+        "correct": true,
+        "feedback": "Correct. Dishonesty is one of the two mens rea elements. The Ivey test governs dishonesty."
+      },
+      {
+        "id": "e",
+        "text": "Entry as a trespasser",
+        "correct": false,
+        "feedback": "Incorrect. Entry as a trespasser is an element of burglary (s.9), not theft."
+      }
+    ],
+    "feedback": "Correct answers: (a), (c), and (d). The five elements are: appropriation, property, belonging to another (AR), dishonesty, and intention to permanently deprive (MR). The other options relate to robbery and burglary.",
+    "oscoaReferences": [
+      "Theft Act 1968, s.1"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "theft",
+      "elements",
+      "msq"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-1",
+    "microSkill": "D1.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "In R v __________ [1984] AC 320, Lord Roskill stated that appropriation and dishonesty are not always separate inquiries \u2014 a dishonest dealing may itself constitute the appropriation.",
+    "answer": "Morris",
+    "options": [],
+    "feedback": "Correct. *R v Morris* [1984] AC 320 \u2014 the defendant switched price labels on goods in a supermarket. Lord Roskill noted the overlap between appropriation and dishonesty, though analysis of each element separately remains standard practice.",
+    "oscoaReferences": [
+      "R v Morris [1984] AC 320"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "r-v-morris",
+      "appropriation",
+      "overlap"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-1",
+    "microSkill": "D1.1",
+    "block": "B",
+    "phase": "teaching",
+    "teachingSummary": "**Core Rule:** Appropriation is defined in s.3(1) of the Theft Act 1968: 'Any assumption by a person of the rights of an owner amounts to an appropriation.' This includes any situation where the defendant assumes a single right of the owner \u2014 not necessarily all the rights. There is no requirement of adverse interference or unauthorised dealing.\n\n**The Key Trilogy:** Three House of Lords decisions define the modern scope of appropriation: (1) *R v Morris* [1984] AC 320 \u2014 switching price labels in a supermarket; assuming any single right of the owner (e.g., the right to price goods) is appropriation. (2) *R v Gomez* [1993] AC 442 \u2014 an assistant manager who persuaded his manager to accept worthless cheques for goods was held to have appropriated. The House of Lords emphatically rejected the argument that an act authorised by the owner cannot be appropriation. Consent is irrelevant to the actus reus of appropriation \u2014 the question is instead dealt with by dishonesty. (3) *R v Hinks* [2001] 2 AC 241 \u2014 a defendant who befriended a man of limited intelligence and received gifts and money from him was held to have appropriated. The receipt of a gift, even where valid under civil law, can be appropriation for the purposes of theft.\n\n**In short:** Post-Gomez and Hinks, appropriation means any assumption of an owner's rights, whether with or without consent, and even where title passes in civil law. The criminality is controlled by dishonesty, not by narrowing appropriation.",
+    "type": "teaching",
+    "question": "",
+    "answer": "",
+    "options": [],
+    "feedback": "",
+    "oscoaReferences": [
+      "Theft Act 1968, s.3",
+      "R v Morris [1984] AC 320",
+      "R v Gomez [1993] AC 442",
+      "R v Hinks [2001] 2 AC 241"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "appropriation",
+      "s3",
+      "gomez",
+      "hinks"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-1",
+    "microSkill": "D1.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "In R v __________ [1993] AC 442, the House of Lords held that an act authorised by the owner of goods can still constitute an appropriation for the purposes of theft.",
+    "answer": "Gomez",
+    "options": [],
+    "feedback": "Correct. *R v Gomez* [1993] AC 442 \u2014 Lord Keith stated: 'I see no ground whatever for concluding that the offence of theft... requires that the taking should be without the owner's consent.' Consent is dealt with by dishonesty, not appropriation.",
+    "oscoaReferences": [
+      "R v Gomez [1993] AC 442"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "r-v-gomez",
+      "appropriation",
+      "consent"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-1",
+    "microSkill": "D1.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "Under s.3(1) of the Theft Act 1968, any __________ by a person of the rights of an owner amounts to an appropriation.",
+    "answer": "assumption",
+    "options": [],
+    "feedback": "Correct. s.3(1) Theft Act 1968: 'Any assumption by a person of the rights of an owner amounts to an appropriation.' The defendant need not assume all of the owner's rights \u2014 any single right suffices.",
+    "oscoaReferences": [
+      "Theft Act 1968, s.3(1)"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "appropriation",
+      "s3",
+      "assumption"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-1",
+    "microSkill": "D1.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "drag_elements",
+    "question": "Match each case to its ratio decidendi on appropriation:",
+    "answer": "R v Morris [1984]=Switching price labels; assuming any single right of the owner is appropriation; R v Gomez [1993]=Appropriation can occur even with the owner's consent; R v Hinks [2001]=Receipt of a gift can be appropriation even where valid under civil law",
+    "options": [
+      {
+        "id": "c1",
+        "text": "Switching price labels; assuming any single right of the owner is appropriation",
+        "pair": "R v Morris [1984]"
+      },
+      {
+        "id": "c2",
+        "text": "Appropriation can occur even with the owner's consent; consent irrelevant to actus reus",
+        "pair": "R v Gomez [1993]"
+      },
+      {
+        "id": "c3",
+        "text": "Receipt of a gift can be appropriation even where title passes under civil law",
+        "pair": "R v Hinks [2001]"
+      }
+    ],
+    "feedback": "Well matched. These three House of Lords decisions \u2014 *Morris*, *Gomez*, and *Hinks* \u2014 collectively establish that appropriation is construed extremely broadly. The control mechanism is dishonesty, not the scope of appropriation.",
+    "oscoaReferences": [
+      "R v Morris [1984] AC 320",
+      "R v Gomez [1993] AC 442",
+      "R v Hinks [2001] 2 AC 241"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "appropriation",
+      "case-matching",
+      "morris",
+      "gomez",
+      "hinks"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-1",
+    "microSkill": "D1.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "Priya works at a jewellery shop. A customer offers to buy a \u00a32,000 ring using what Priya knows is a stolen credit card. Priya processes the sale anyway, and the customer leaves with the ring. The shop manager had authorised Priya to accept card payments. Applying *Gomez* [1993], has Priya appropriated?",
+    "answer": "b",
+    "options": [
+      {
+        "id": "a",
+        "text": "No \u2014 the manager authorised Priya to sell, and authorised acts cannot be appropriation",
+        "correct": false,
+        "feedback": "Incorrect. *Gomez* [1993] explicitly rejected the argument that authorisation prevents appropriation. The House of Lords held an act may be appropriation even if done with the owner's consent."
+      },
+      {
+        "id": "b",
+        "text": "Yes \u2014 under *Gomez* [1993], an act done with the owner's consent can still be appropriation; the criminality is dealt with by dishonesty, not by narrowing appropriation",
+        "correct": true,
+        "feedback": "Correct. *R v Gomez* [1993] AC 442 is directly on point. The assistant manager in Gomez was authorised to accept cheques, yet the HL held he had appropriated. The question is whether the act was dishonest, not whether it was authorised."
+      },
+      {
+        "id": "c",
+        "text": "No \u2014 the customer appropriated the ring, not Priya",
+        "correct": false,
+        "feedback": "Incorrect. More than one person can appropriate the same property. Priya's act of handing over the ring to the customer was an assumption of the owner's right to dispose of the goods."
+      },
+      {
+        "id": "d",
+        "text": "Yes, but only if Priya personally benefited from the sale",
+        "correct": false,
+        "feedback": "Incorrect. Theft does not require personal gain. The prosecution must prove intention to permanently deprive, but this need not be for the defendant's own benefit."
+      }
+    ],
+    "feedback": "This scenario mirrors *R v Gomez* [1993] AC 442. The defendant in Gomez was authorised to accept payment by cheque but knowingly accepted worthless cheques. The House of Lords held that appropriation occurred. The key takeaway: post-Gomez, any dealing with property as owner \u2014 with or without consent \u2014 can be appropriation. The criminality is filtered by dishonesty.",
+    "oscoaReferences": [
+      "R v Gomez [1993] AC 442",
+      "Theft Act 1968, s.3"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "gomez",
+      "appropriation",
+      "consent",
+      "scenario"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-1",
+    "microSkill": "D1.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "spot_error",
+    "question": "Spot the legal error:\n\n'Appropriation requires the defendant to take property without the owner's consent. If the owner agrees to the defendant's dealings with the property, no appropriation occurs. This is why a person who receives a valid gift can never be guilty of theft.'",
+    "answer": "Under *Gomez* [1993] and *Hinks* [2001], appropriation can occur even with consent and even where title passes in civil law. Receipt of a gift can be appropriation.",
+    "options": [],
+    "feedback": "Found it. Both *R v Gomez* [1993] AC 442 and *R v Hinks* [2001] 2 AC 241 confirm that consent is no bar to appropriation. In *Hinks*, the receipt of a gift \u2014 valid under civil law \u2014 was held to be appropriation. The criminality is controlled by dishonesty, not by a narrow definition of appropriation.",
+    "oscoaReferences": [
+      "R v Gomez [1993] AC 442",
+      "R v Hinks [2001] 2 AC 241"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "appropriation",
+      "consent",
+      "spot-error"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-1",
+    "microSkill": "D1.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "msq",
+    "question": "Which TWO of the following statements correctly reflect the law on appropriation under s.3 Theft Act 1968?",
+    "answer": "b,d",
+    "options": [
+      {
+        "id": "a",
+        "text": "The defendant must assume all the rights of the owner for appropriation to occur",
+        "correct": false,
+        "feedback": "Incorrect. *R v Morris* [1984] \u2014 assumption of any single right of the owner suffices. Switching a price label was held to be appropriation."
+      },
+      {
+        "id": "b",
+        "text": "An act may be appropriation even if the owner consented to it",
+        "correct": true,
+        "feedback": "Correct. *R v Gomez* [1993] AC 442 \u2014 the House of Lords held that consent is irrelevant to the actus reus of appropriation."
+      },
+      {
+        "id": "c",
+        "text": "Appropriation always requires a physical taking or removal of property",
+        "correct": false,
+        "feedback": "Incorrect. Appropriation can involve any dealing with property, including switching labels (*Morris*), accepting a gift (*Hinks*), or retaining property dealt with by mistake (s.3(2))."
+      },
+      {
+        "id": "d",
+        "text": "The receipt of a gift can constitute appropriation for the purposes of theft",
+        "correct": true,
+        "feedback": "Correct. *R v Hinks* [2001] 2 AC 241 \u2014 receipt of gifts and money from a vulnerable man was held to be appropriation, even though title passed in civil law."
+      },
+      {
+        "id": "e",
+        "text": "A bona fide purchaser for value without notice can never appropriate",
+        "correct": false,
+        "feedback": "Incorrect. While s.3(2) provides a defence where the defendant purchased in good faith and for value, the language is permissive \u2014 it states the defendant 'is not to be regarded as having appropriated,' not that appropriation cannot occur."
+      }
+    ],
+    "feedback": "Correct answers: (b) and (d). Post-Gomez and Hinks, appropriation is extremely broad. Consent is no bar, and the receipt of a gift can be appropriation. The real question in most theft cases is dishonesty, not appropriation.",
+    "oscoaReferences": [
+      "Theft Act 1968, s.3",
+      "R v Morris [1984] AC 320",
+      "R v Gomez [1993] AC 442",
+      "R v Hinks [2001] 2 AC 241"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "appropriation",
+      "msq",
+      "s3"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-1",
+    "microSkill": "D1.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "Ethan is a carer for an elderly man, George, who has dementia. George signs over his house to Ethan as a 'gift'. Ethan knows George lacks capacity to understand the transaction. Applying *Hinks* [2001], has Ethan appropriated?",
+    "answer": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yes \u2014 under *Hinks* [2001], the receipt of a gift can be appropriation even if title passes in civil law, and Ethan's knowledge of George's incapacity is relevant to dishonesty",
+        "correct": true,
+        "feedback": "Correct. *R v Hinks* [2001] 2 AC 241 \u2014 the defendant received gifts from a vulnerable man. The House of Lords held that receipt of a gift can be appropriation. The criminality is in the dishonesty of the circumstances."
+      },
+      {
+        "id": "b",
+        "text": "No \u2014 a valid gift transfers title in civil law and therefore cannot be theft",
+        "correct": false,
+        "feedback": "Incorrect. *Hinks* [2001] expressly rejected this argument. The criminal law is not bound by the civil law concept of title. An act can be both a valid gift in civil law and an appropriation for theft."
+      },
+      {
+        "id": "c",
+        "text": "Yes \u2014 but only if the gift is later revoked by a court",
+        "correct": false,
+        "feedback": "Incorrect. The theft is complete at the moment of appropriation with the requisite mens rea. Subsequent revocation is not a prerequisite."
+      },
+      {
+        "id": "d",
+        "text": "No \u2014 this is a matter for the Court of Protection, not the criminal law",
+        "correct": false,
+        "feedback": "Incorrect. The Court of Protection deals with capacity and best interests, but a criminal offence may be committed simultaneously. The two jurisdictions are not mutually exclusive."
+      }
+    ],
+    "feedback": "This scenario is directly analogous to *R v Hinks* [2001] 2 AC 241. The House of Lords upheld the theft conviction. The critical point is that criminal law and civil law operate independently \u2014 a transaction valid under civil law can still constitute theft if the defendant acted dishonestly. The breadth of appropriation is deliberate policy: to protect vulnerable victims from exploitation where the civil law is too slow or inadequate.",
+    "oscoaReferences": [
+      "R v Hinks [2001] 2 AC 241",
+      "Theft Act 1968, s.3(1)"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "hinks",
+      "appropriation",
+      "gift",
+      "scenario"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-1",
+    "microSkill": "D1.1",
+    "block": "C",
+    "phase": "teaching",
+    "teachingSummary": "**Core Rule:** Section 4(1) of the Theft Act 1968 defines property broadly: 'Property includes money and all other property, real or personal, including things in action and other intangible property.' This covers money, land (in limited circumstances \u2014 s.4(2)), personal chattels, choses in action (e.g., debts, company shares, bank account credits), and other intangible property (e.g., patents).\n\n**Key Exclusions:** Several categories are excluded from the definition of property for theft purposes. (1) Land: s.4(2) \u2014 land and things forming part of land cannot be stolen except in three specific situations (trustees/mortgagees, severing fixtures, tenants taking fixtures). (2) Wild plants and fungi: s.4(3) \u2014 wild mushrooms, flowers, fruit, or foliage cannot be stolen unless taken for reward, sale, or other commercial purpose. (3) Wild creatures: s.4(4) \u2014 untamed wild creatures or their carcasses cannot be stolen unless they are ordinarily kept in captivity or have been (or are being) reduced into possession. (4) Information: *Oxford v Moss* [1979] 68 Cr App R 183 \u2014 confidential information is not intangible property within s.4(1); a student who read an exam paper and returned it was not guilty of theft of the information. (5) Electricity: s.13 creates a separate offence of abstracting electricity; electricity is not 'property' for theft purposes.\n\n**In short:** The definition of property is intentionally broad but carefully bounded. Information and electricity are the two most important exclusions \u2014 remember them for problem questions.",
+    "type": "teaching",
+    "question": "",
+    "answer": "",
+    "options": [],
+    "feedback": "",
+    "oscoaReferences": [
+      "Theft Act 1968, s.4",
+      "Oxford v Moss [1979] 68 Cr App R 183"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "property",
+      "s4",
+      "exclusions",
+      "information"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-1",
+    "microSkill": "D1.1",
+    "block": "C",
+    "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "Under s.4(1) of the Theft Act 1968, property includes money, real and personal property, things in __________ and other intangible property.",
+    "answer": "action",
+    "options": [],
+    "feedback": "Correct. s.4(1): 'Property includes money and all other property, real or personal, including things in action and other intangible property.' A thing in action (chose in action) is a right enforceable by legal action \u2014 e.g., a debt or a bank balance.",
+    "oscoaReferences": [
+      "Theft Act 1968, s.4(1)"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "property",
+      "s4",
+      "chose-in-action"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-1",
+    "microSkill": "D1.1",
+    "block": "C",
+    "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "In Oxford v __________ [1979] 68 Cr App R 183, the Divisional Court held that confidential information is not 'intangible property' within s.4 Theft Act 1968.",
+    "answer": "Moss",
+    "options": [],
+    "feedback": "Correct. *Oxford v Moss* [1979] \u2014 a university student obtained an exam paper, read it, and returned it. He was not guilty of theft of the information because information is not property. (He was, however, convicted of another offence.)",
+    "oscoaReferences": [
+      "Oxford v Moss [1979] 68 Cr App R 183"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "oxford-v-moss",
+      "information",
+      "property"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-1",
+    "microSkill": "D1.1",
+    "block": "C",
+    "phase": "teaching",
+    "type": "drag_elements",
+    "question": "Classify each item as 'Property capable of being stolen' or 'Not property for theft purposes':",
+    "answer": "Banknotes=Property; A debt owed by a company=Property; A patent=Property; Wild mushrooms picked for personal use=Not property; Confidential information=Not property; Electricity=Not property; A tamed parrot=Property",
+    "options": [
+      {
+        "id": "p1",
+        "text": "Banknotes (\u00a320 note)",
+        "pair": "Property"
+      },
+      {
+        "id": "p2",
+        "text": "A debt owed by a company (chose in action)",
+        "pair": "Property"
+      },
+      {
+        "id": "p3",
+        "text": "A registered patent",
+        "pair": "Property"
+      },
+      {
+        "id": "p4",
+        "text": "Wild mushrooms picked for personal use",
+        "pair": "Not property"
+      },
+      {
+        "id": "p5",
+        "text": "Confidential information (exam paper content)",
+        "pair": "Not property"
+      },
+      {
+        "id": "p6",
+        "text": "Electricity",
+        "pair": "Not property"
+      },
+      {
+        "id": "p7",
+        "text": "A tamed parrot ordinarily kept in captivity",
+        "pair": "Property"
+      }
+    ],
+    "feedback": "Well categorised. The key exclusions to remember: wild plants/fungi (unless commercial), wild creatures (unless tamed/captive), information (*Oxford v Moss*), and electricity (s.13 separate offence).",
+    "oscoaReferences": [
+      "Theft Act 1968, s.4",
+      "Oxford v Moss [1979] 68 Cr App R 183"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "property",
+      "classification",
+      "exclusions"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-1",
+    "microSkill": "D1.1",
+    "block": "C",
+    "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "Maya, a student, gains access to her lecturer's office and photographs the final exam paper with her phone. She returns the physical paper to the desk untouched. She then sells the exam questions to other students for \u00a320 each. Applying *Oxford v Moss* [1979], can Maya be convicted of theft of the exam paper or its contents?",
+    "answer": "b",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yes \u2014 she stole the information by photographing it",
+        "correct": false,
+        "feedback": "Incorrect. *Oxford v Moss* [1979] held that confidential information is not property under s.4. Photographing information is not theft."
+      },
+      {
+        "id": "b",
+        "text": "Not of the information \u2014 *Oxford v Moss* [1979] confirms that information is not property; she may be liable for other offences (e.g., computer misuse, misconduct in public office) but not theft of the information",
+        "correct": true,
+        "feedback": "Correct. The exam paper information is not property capable of being stolen. However, the physical paper is \u2014 but Maya returned it, so no intention to permanently deprive. Other offences may apply but theft of information does not."
+      },
+      {
+        "id": "c",
+        "text": "Yes \u2014 by selling the information, she appropriated intangible property",
+        "correct": false,
+        "feedback": "Incorrect. Selling information does not convert it into property for theft purposes. The House of Lords in *R v Preddy* [1996] considered limits on intangible property."
+      },
+      {
+        "id": "d",
+        "text": "Not of the information, but she stole the paper because she 'dealt with it as owner' by photographing it",
+        "correct": false,
+        "feedback": "Incorrect. She returned the paper, so there was no intention to permanently deprive the university of the physical paper. Temporary use without permanent deprivation intent is not theft (*R v Lloyd* [1985])."
+      }
+    ],
+    "feedback": "This scenario tests the *Oxford v Moss* [1979] exclusion. Information is not property under s.4 Theft Act 1968. The physical paper was returned, so there is no intention to permanently deprive. Maya may be liable for offences under the Computer Misuse Act 1990, fraud, or other offences \u2014 but not theft of information.",
+    "oscoaReferences": [
+      "Oxford v Moss [1979] 68 Cr App R 183",
+      "Theft Act 1968, s.4",
+      "R v Lloyd [1985] QB 829"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "oxford-v-moss",
+      "information",
+      "property",
+      "scenario"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-1",
+    "microSkill": "D1.1",
+    "block": "C",
+    "phase": "teaching",
+    "type": "spot_error",
+    "question": "Spot the legal error:\n\n'Under the Theft Act 1968, \"property\" is defined to include everything of value, including electricity, confidential information, and wild plants. A person who taps into a neighbour's electricity supply commits theft of the electricity under s.1.'",
+    "answer": "Electricity is not property for theft \u2014 s.13 creates a separate offence of abstracting electricity. Confidential information is not property (*Oxford v Moss* [1979]). Wild plants are generally excluded by s.4(3).",
+    "options": [],
+    "feedback": "Found it. Three errors: (1) Electricity is not property \u2014 s.13 Theft Act 1968 creates the separate offence of abstracting electricity. (2) Information is not property \u2014 *Oxford v Moss* [1979] 68 Cr App R 183. (3) Wild plants (mushrooms, flowers, fruit, foliage) are excluded from the definition of property by s.4(3) unless taken for reward, sale, or commercial purpose.",
+    "oscoaReferences": [
+      "Theft Act 1968, ss.4, 13",
+      "Oxford v Moss [1979] 68 Cr App R 183"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "property",
+      "exclusions",
+      "spot-error"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-1",
+    "microSkill": "D1.1",
+    "block": "C",
+    "phase": "teaching",
+    "type": "msq",
+    "question": "Which TWO of the following can be stolen under the Theft Act 1968?",
+    "answer": "a,c",
+    "options": [
+      {
+        "id": "a",
+        "text": "A bank account balance (chose in action)",
+        "correct": true,
+        "feedback": "Correct. A bank account balance is a thing in action \u2014 a debt owed by the bank to the customer \u2014 and is expressly included in s.4(1) as intangible property."
+      },
+      {
+        "id": "b",
+        "text": "Confidential trade secrets",
+        "correct": false,
+        "feedback": "Incorrect. *Oxford v Moss* [1979] \u2014 confidential information is not property within s.4. Trade secrets may be protected by civil law (breach of confidence) but are not property for theft."
+      },
+      {
+        "id": "c",
+        "text": "A domestic cat",
+        "correct": true,
+        "feedback": "Correct. A domesticated animal is property, and s.4(4) excludes only wild creatures not ordinarily kept in captivity. A pet cat is property."
+      },
+      {
+        "id": "d",
+        "text": "A wild badger roaming freely in a forest",
+        "correct": false,
+        "feedback": "Incorrect. s.4(4) \u2014 wild creatures not tamed or ordinarily kept in captivity, and not reduced into possession, are not property for theft. The badger is protected separately by wildlife legislation."
+      },
+      {
+        "id": "e",
+        "text": "Electricity",
+        "correct": false,
+        "feedback": "Incorrect. Electricity is dealt with separately under s.13 of the Theft Act 1968 \u2014 abstracting electricity is a distinct offence, not theft."
+      }
+    ],
+    "feedback": "Correct answers: (a) and (c). The Theft Act 1968 defines property broadly (s.4(1)) but with specific exclusions in s.4(2)-(4). The most important exclusions are wild creatures, wild plants (non-commercial), information, and electricity.",
+    "oscoaReferences": [
+      "Theft Act 1968, s.4",
+      "Oxford v Moss [1979] 68 Cr App R 183"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "property",
+      "msq",
+      "exclusions"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-1",
+    "microSkill": "D1.1",
+    "block": "consolidation",
+    "phase": "consolidation",
+    "teachingSummary": "",
+    "type": "scenario_choice",
+    "question": "[CONSOLIDATION \u2014 Block A] Fatima sees a handbag on an empty seat in a caf\u00e9. She genuinely believes the owner has abandoned it. She takes it and keeps the \u00a3100 inside. In fact, the owner has just gone to the counter to order. Has Fatima committed theft?",
+    "answer": "c",
+    "options": [
+      {
+        "id": "a",
+        "text": "No \u2014 abandoned property cannot be stolen, and Fatima believed it was abandoned",
+        "correct": false,
+        "feedback": "Incomplete. While abandoned property cannot be stolen, Fatima's belief is relevant to the dishonesty element, not the AR. If her belief was unreasonable, she may still be dishonest."
+      },
+      {
+        "id": "b",
+        "text": "Yes \u2014 any taking from a caf\u00e9 is theft regardless of belief",
+        "correct": false,
+        "feedback": "Incorrect. Dishonesty is a core mens rea element. If the jury finds Fatima's belief genuine (even if unreasonable under the old Ghosh test), this goes to dishonesty."
+      },
+      {
+        "id": "c",
+        "text": "Her liability turns on dishonesty \u2014 even if she appropriated property belonging to another, she may lack the mens rea if her belief in abandonment was genuine under the Ivey test",
+        "correct": true,
+        "feedback": "Correct. The property was not actually abandoned (owner was at the counter). But the key issue is dishonesty. Under the Ivey test (*Ivey v Genting Casinos* [2017]), if Fatima's belief was genuinely held and her conduct was not dishonest by the standards of ordinary decent people, she is not guilty."
+      },
+      {
+        "id": "d",
+        "text": "Yes \u2014 the handbag belonged to another, so all five elements are satisfied",
+        "correct": false,
+        "feedback": "Incorrect. Belonging to another is satisfied, but dishonesty and intention to permanently deprive are mens rea elements to be separately proved. A genuine belief in abandonment may negate dishonesty."
+      }
+    ],
+    "feedback": "This consolidates Block A: all five elements must be proved. Even where the three actus reus elements are satisfied, the prosecution must still prove dishonesty and intention to permanently deprive. A genuine belief in abandonment \u2014 even if unreasonable \u2014 may lead to acquittal on the dishonesty element under the Ivey test.",
+    "oscoaReferences": [
+      "Theft Act 1968, s.1",
+      "Ivey v Genting Casinos (UK) Ltd [2017] UKSC 67"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "consolidation",
+      "elements",
+      "dishonesty",
+      "scenario"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-1",
+    "microSkill": "D1.1",
+    "block": "consolidation",
+    "phase": "consolidation",
+    "teachingSummary": "",
+    "type": "fill_gap_case",
+    "question": "[CONSOLIDATION \u2014 Block A] The case of R v __________ [1993] AC 442 established that an act may be appropriation even when done with the owner's consent.",
+    "answer": "Gomez",
+    "options": [],
+    "feedback": "Correct. *R v Gomez* [1993] AC 442 is the leading House of Lords authority confirming that consent does not prevent a finding of appropriation.",
+    "oscoaReferences": [
+      "R v Gomez [1993] AC 442"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "consolidation",
+      "gomez",
+      "appropriation"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-1",
+    "microSkill": "D1.1",
+    "block": "consolidation",
+    "phase": "consolidation",
+    "teachingSummary": "",
+    "type": "msq",
+    "question": "[CONSOLIDATION \u2014 Block B] In the context of appropriation under s.3, which TWO statements are correct?",
+    "answer": "a,d",
+    "options": [
+      {
+        "id": "a",
+        "text": "Switching price labels on goods in a supermarket is an appropriation",
+        "correct": true,
+        "feedback": "Correct. *R v Morris* [1984] AC 320 \u2014 the defendant assumed the owner's right to price goods. Any single right of the owner suffices."
+      },
+      {
+        "id": "b",
+        "text": "Appropriation requires physical removal of the property from the owner's premises",
+        "correct": false,
+        "feedback": "Incorrect. Appropriation can occur on the premises \u2014 e.g., switching labels (*Morris*), or concealing goods in a bag while still in the shop."
+      },
+      {
+        "id": "c",
+        "text": "A defendant who receives property as a valid gift can never be convicted of theft",
+        "correct": false,
+        "feedback": "Incorrect. *R v Hinks* [2001] 2 AC 241 \u2014 the receipt of gifts was held to be appropriation. Civil validity does not preclude criminal liability."
+      },
+      {
+        "id": "d",
+        "text": "Appropriation can be a continuing act \u2014 for example, keeping property after a mistaken overpayment can be appropriation",
+        "correct": true,
+        "feedback": "Correct. s.3(2) expressly provides that a person who acquires property without stealing it but later assumes a right to it by keeping or dealing with it as owner may appropriate it. *R v Atakpu* [1994] QB 69 also confirms appropriation can be a continuing act for some purposes."
+      },
+      {
+        "id": "e",
+        "text": "Only the person who physically takes the property can appropriate it",
+        "correct": false,
+        "feedback": "Incorrect. Multiple people can appropriate the same property. In *Gomez* [1993], both the assistant manager and the accomplice appropriated."
+      }
+    ],
+    "feedback": "Correct answers: (a) and (d). Appropriation is an extremely broad concept \u2014 it covers any assumption of a right of the owner, can occur over time, and multiple people can appropriate the same property.",
+    "oscoaReferences": [
+      "Theft Act 1968, s.3",
+      "R v Morris [1984] AC 320",
+      "R v Hinks [2001] 2 AC 241"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "consolidation",
+      "appropriation",
+      "msq"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-1",
+    "microSkill": "D1.1",
+    "block": "consolidation",
+    "phase": "consolidation",
+    "teachingSummary": "",
+    "type": "scenario_choice",
+    "question": "[CONSOLIDATION \u2014 Block C] Amir hacks into a software company's server and downloads the source code of a proprietary algorithm worth millions. He leaves the physical server untouched. He then sells the code to a competitor. Can Amir be convicted of theft of the source code?",
+    "answer": "b",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yes \u2014 source code is intangible property under s.4(1) and Amir appropriated it",
+        "correct": false,
+        "feedback": "Incorrect. While intangible property is included in s.4(1), *Oxford v Moss* [1979] held that confidential information is not property for theft. Source code as pure information is problematic."
+      },
+      {
+        "id": "b",
+        "text": "Unlikely for theft \u2014 *Oxford v Moss* [1979] suggests that information (including source code) is not property; Amir is more likely liable under the Computer Misuse Act 1990 or for fraud-related offences",
+        "correct": true,
+        "feedback": "Correct. The source code as information is analogous to the exam paper in *Oxford v Moss*. Theft is probably not applicable. The appropriate charge is likely under the Computer Misuse Act 1990 (unauthorised access), and potentially the Fraud Act 2006 or the common law offence of conspiracy to defraud."
+      },
+      {
+        "id": "c",
+        "text": "Yes \u2014 he appropriated the whole of the company's server by hacking into it",
+        "correct": false,
+        "feedback": "Incorrect. He did not appropriate the physical server \u2014 he left it untouched. There was no intention to permanently deprive the company of the server."
+      },
+      {
+        "id": "d",
+        "text": "No \u2014 digital property can never be stolen under English law",
+        "correct": false,
+        "feedback": "Incorrect. Some digital assets can be property \u2014 e.g., a bank balance (a chose in action) is intangible property. The issue is not 'digital' vs 'physical' but whether the specific thing falls within the s.4 definition and is not excluded by case law."
+      }
+    ],
+    "feedback": "This consolidates Block C: the limits of 'property' under s.4. Information is excluded by *Oxford v Moss* [1979]. Students must be able to distinguish between property that can be stolen (money, choses in action, patents, tangibles) and that which cannot (information, electricity, wild plants). Practical problem-solving requires identifying the correct offence, not forcing theft on facts where it does not fit.",
+    "oscoaReferences": [
+      "Oxford v Moss [1979] 68 Cr App R 183",
+      "Theft Act 1968, s.4",
+      "Computer Misuse Act 1990",
+      "Fraud Act 2006"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "consolidation",
+      "property",
+      "information",
+      "scenario"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-1",
+    "microSkill": "D1.1",
+    "block": "consolidation",
+    "phase": "consolidation",
+    "teachingSummary": "",
+    "type": "fill_gap_case",
+    "question": "[CONSOLIDATION \u2014 Block C] The case of Oxford v ________ [1979] 68 Cr App R 183 is authority that confidential information cannot be stolen because it is not property within s.4 Theft Act 1968.",
+    "answer": "Moss",
+    "options": [],
+    "feedback": "Correct. *Oxford v Moss* [1979] \u2014 the defendant read an exam paper and returned it. The information was not stolen. The Divisional Court confirmed information is not 'intangible property' for theft.",
+    "oscoaReferences": [
+      "Oxford v Moss [1979] 68 Cr App R 183"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "consolidation",
+      "oxford-v-moss",
+      "property"
+    ]
+  }
+]

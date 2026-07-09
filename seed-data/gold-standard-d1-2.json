@@ -1,0 +1,973 @@
+[
+  {
+    "lessonId": "lesson-D1-2",
+    "microSkill": "D1.2",
+    "block": "A",
+    "phase": "teaching",
+    "teachingSummary": "**Core Rule:** Section 5(1) of the Theft Act 1968 provides: 'Property shall be regarded as belonging to any person having possession or control of it, or having in it any proprietary right or interest.' This is deliberately wider than ownership \u2014 property 'belongs to' anyone with possession, control, or a proprietary interest. A person can therefore steal their own property from someone who has a superior right to possess.\n\n**The Turner Principle:** In *R v Turner (No 2)* [1971] 1 WLR 901, the defendant took his own car from a garage where repairs had been completed. The garage had possession and control of the car (and a lien for unpaid repairs). The Court of Appeal held the car 'belonged to another' under s.5(1) \u2014 the garage's possession was a proprietary interest the defendant could not ignore. You can steal your own property.\n\n**Section 5(3) \u2014 Obligation to Retain and Deal:** Where property is received under an obligation to deal with it in a particular way, s.5(3) deems it to 'belong to another' for theft purposes. In *R v Wain* [1995] 2 Cr App R 660, the defendant raised money for charity, paid it into a separate account, then spent it on himself. Because he was under an obligation to retain the proceeds, the money was deemed to belong to the charity. In *R v Hall* [1973] QB 126, by contrast, travel agents who received deposits from clients into their general trading account were not under an obligation to deal with those deposits in a particular way \u2014 s.5(3) did not apply.\n\n**In short:** Property 'belongs to another' more widely than you may think. Possession and control count; liens and equitable interests count; and s.5(3)-(4) extend the concept further.",
+    "type": "teaching",
+    "question": "",
+    "answer": "",
+    "options": [],
+    "feedback": "",
+    "oscoaReferences": [
+      "Theft Act 1968, s.5",
+      "R v Turner (No 2) [1971] 1 WLR 901",
+      "R v Wain [1995] 2 Cr App R 660",
+      "R v Hall [1973] QB 126"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "belonging-to-another",
+      "s5",
+      "turner",
+      "wain"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-2",
+    "microSkill": "D1.2",
+    "block": "A",
+    "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "In R v __________ (No 2) [1971] 1 WLR 901, the Court of Appeal held that a person can steal their own property if another person has possession, control, or a proprietary interest in it.",
+    "answer": "Turner",
+    "options": [],
+    "feedback": "Correct. *R v Turner (No 2)* [1971] \u2014 the defendant took his car from a garage without paying for repairs. The garage had possession and control (and a lien). The car 'belonged to another' under s.5(1).",
+    "oscoaReferences": [
+      "R v Turner (No 2) [1971] 1 WLR 901"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "r-v-turner",
+      "belonging-to-another",
+      "own-property"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-2",
+    "microSkill": "D1.2",
+    "block": "A",
+    "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "Under s.5(1) of the Theft Act 1968, property belongs to any person having __________ or control of it, or having any proprietary right or interest in it.",
+    "answer": "possession",
+    "options": [],
+    "feedback": "Correct. s.5(1): 'Property shall be regarded as belonging to any person having possession or control of it, or having in it any proprietary right or interest.' This is wider than mere ownership.",
+    "oscoaReferences": [
+      "Theft Act 1968, s.5(1)"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "s5",
+      "possession",
+      "belonging-to-another"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-2",
+    "microSkill": "D1.2",
+    "block": "A",
+    "phase": "teaching",
+    "type": "drag_elements",
+    "question": "Match each scenario to the correct legal basis for 'belonging to another' under s.5:",
+    "answer": "Garage holds car pending payment=Possession/control + lien (s.5(1)); Charity fundraiser spends donations=Obligation to retain and deal (s.5(3)); Trustee misappropriates trust property=Proprietary interest of beneficiaries (s.5(1)); Money received by mistake=Obligation to restore (s.5(4))",
+    "options": [
+      {
+        "id": "s1",
+        "text": "Garage retains car pending payment for repairs",
+        "pair": "Possession/control + lien \u2014 s.5(1)"
+      },
+      {
+        "id": "s2",
+        "text": "Charity fundraiser spends donations on personal items",
+        "pair": "Obligation to retain and deal \u2014 s.5(3)"
+      },
+      {
+        "id": "s3",
+        "text": "Trustee transfers trust property to personal account",
+        "pair": "Proprietary interest of beneficiaries \u2014 s.5(1)"
+      },
+      {
+        "id": "s4",
+        "text": "Bank accidentally credits account with \u00a310,000",
+        "pair": "Obligation to make restoration \u2014 s.5(4)"
+      }
+    ],
+    "feedback": "Well matched. s.5 is structured: s.5(1) \u2014 general rule (possession, control, proprietary interest); s.5(3) \u2014 obligation to retain and deal; s.5(4) \u2014 property obtained by mistake. Each extends the concept of 'belonging to another.'",
+    "oscoaReferences": [
+      "Theft Act 1968, s.5"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "s5",
+      "matching",
+      "belonging-to-another"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-2",
+    "microSkill": "D1.2",
+    "block": "A",
+    "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "Sam leaves his Rolex watch with a jeweller for a battery replacement. The jeweller calls to say it is ready. Sam arrives, tries on the watch, and leaves without paying the \u00a350 fee. Has Sam committed theft of the watch?",
+    "answer": "b",
+    "options": [
+      {
+        "id": "a",
+        "text": "No \u2014 it is his own watch, and you cannot steal your own property",
+        "correct": false,
+        "feedback": "Incorrect. *R v Turner (No 2)* [1971] \u2014 a person can steal their own property if another has possession, control, or a proprietary interest in it."
+      },
+      {
+        "id": "b",
+        "text": "Yes \u2014 under *R v Turner (No 2)* [1971] and s.5(1), the watch belonged to the jeweller (who had possession and a lien for the unpaid fee); Sam dishonestly appropriated it with the intention of permanently depriving the jeweller",
+        "correct": true,
+        "feedback": "Correct. The jeweller had possession and control of the watch and a lien over it until the fee was paid. Under s.5(1), the watch 'belonged to another.' Sam dishonestly assumed the rights of an owner by taking it."
+      },
+      {
+        "id": "c",
+        "text": "No \u2014 the jeweller only had a right to payment, not a property interest",
+        "correct": false,
+        "feedback": "Incorrect. The jeweller had both possession and a lien \u2014 a recognised proprietary interest. s.5(1) is satisfied."
+      },
+      {
+        "id": "d",
+        "text": "Yes \u2014 but only if the watch has increased in value due to the repair",
+        "correct": false,
+        "feedback": "Incorrect. The value is irrelevant. The question is whether the watch 'belonged to another' under s.5(1). The jeweller's possession and lien are sufficient regardless of the watch's value."
+      }
+    ],
+    "feedback": "This is a direct application of *R v Turner (No 2)* [1971] 1 WLR 901. The garage in Turner had a lien over the car for the unpaid repair bill. The Court of Appeal upheld the theft conviction. The defendant's ownership of the property did not prevent the property 'belonging to another' \u2014 the garage's possession and lien were sufficient.",
+    "oscoaReferences": [
+      "R v Turner (No 2) [1971] 1 WLR 901",
+      "Theft Act 1968, s.5(1)"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "turner",
+      "belonging-to-another",
+      "lien",
+      "scenario"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-2",
+    "microSkill": "D1.2",
+    "block": "A",
+    "phase": "teaching",
+    "type": "spot_error",
+    "question": "Spot the legal error:\n\n'Property belongs to another only if that person owns it. A person who takes their own property back can never be guilty of theft because the owner cannot steal from themselves. This is an absolute rule under English law.'",
+    "answer": "Under s.5(1), property belongs to anyone with possession, control, or a proprietary interest \u2014 not only ownership. A person can steal their own property: *R v Turner (No 2)* [1971].",
+    "options": [],
+    "feedback": "Found it. s.5(1) Theft Act 1968 uses 'possession or control' and 'proprietary right or interest' \u2014 not merely 'ownership'. *R v Turner (No 2)* [1971] 1 WLR 901 confirms a person can be convicted of stealing their own property from someone with a superior possessory interest. It is not an 'absolute rule' that you cannot steal your own property.",
+    "oscoaReferences": [
+      "Theft Act 1968, s.5(1)",
+      "R v Turner (No 2) [1971] 1 WLR 901"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "belonging-to-another",
+      "turner",
+      "spot-error"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-2",
+    "microSkill": "D1.2",
+    "block": "A",
+    "phase": "teaching",
+    "type": "msq",
+    "question": "Under s.5 Theft Act 1968, in which TWO of the following situations does property 'belong to another'?",
+    "answer": "b,c",
+    "options": [
+      {
+        "id": "a",
+        "text": "The defendant picks up a \u00a310 note discarded in a public bin",
+        "correct": false,
+        "feedback": "Incorrect. Abandoned property does not belong to anyone for the purposes of the Theft Act \u2014 unless someone else has possession or control of the place where it was discarded (*R v Woodman* [1974] QB 754 \u2014 scrap metal left on a site in the control of the occupier)."
+      },
+      {
+        "id": "b",
+        "text": "A customer's coat is hanging in a restaurant cloakroom; the restaurant has taken custody of it",
+        "correct": true,
+        "feedback": "Correct. The restaurant has possession or control of the coat under s.5(1). It therefore 'belongs to another' in addition to the customer."
+      },
+      {
+        "id": "c",
+        "text": "An employee receives cash from customers on behalf of the employer but keeps it for personal use",
+        "correct": true,
+        "feedback": "Correct. The cash belongs to the employer. Under s.5(1), the employer has both possession (constructively) and ownership. The employee appropriates property belonging to another."
+      },
+      {
+        "id": "d",
+        "text": "The defendant takes wild mushrooms from a public forest for personal consumption",
+        "correct": false,
+        "feedback": "Incorrect. Wild mushrooms taken for non-commercial purposes are excluded from the definition of property by s.4(3). Even where they would belong to the landowner, they cannot be stolen."
+      },
+      {
+        "id": "e",
+        "text": "The defendant steals his neighbour's confidential business plan by memorising it",
+        "correct": false,
+        "feedback": "Incorrect. Information is not property (*Oxford v Moss* [1979]). The business plan as information cannot be stolen regardless of who it 'belongs to.'"
+      }
+    ],
+    "feedback": "Correct answers: (b) and (c). The cloakroom has possession/control; the employer has ownership and constructive possession. The other scenarios fail on other elements (property definition or abandonment).",
+    "oscoaReferences": [
+      "Theft Act 1968, s.5",
+      "Oxford v Moss [1979] 68 Cr App R 183",
+      "R v Woodman [1974] QB 754"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "belonging-to-another",
+      "msq",
+      "s5"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-2",
+    "microSkill": "D1.2",
+    "block": "A",
+    "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "Ravi runs a crowdfunding campaign, raising \u00a350,000 for an orphanage. He deposits the money in a dedicated account labelled 'Orphanage Fund'. He then transfers \u00a315,000 to his personal account and spends it on a holiday. Applying *Wain* [1995] and *Hall* [1973], has the money 'belonged to another' under s.5(3)?",
+    "answer": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yes \u2014 Ravi received the money under an obligation to retain and deal with it for the orphanage; the dedicated account is evidence of this obligation. Under *Wain* [1995] and s.5(3), the money belonged to the orphanage",
+        "correct": true,
+        "feedback": "Correct. *R v Wain* [1995] 2 Cr App R 660 \u2014 the defendant raised money for charity, paid it into a separate account, then spent it. Because the money was held under an obligation to retain it for the charity, s.5(3) deemed it to belong to another. The dedicated account is strong evidence of the obligation."
+      },
+      {
+        "id": "b",
+        "text": "No \u2014 under *Hall* [1973], money paid into a bank account loses its identity and s.5(3) does not apply",
+        "correct": false,
+        "feedback": "Distinguish *R v Hall* [1973] \u2014 in Hall, the travel agents received deposits into their general trading account with no obligation to retain them separately. There was no obligation to deal with the specific deposits in a particular way."
+      },
+      {
+        "id": "c",
+        "text": "Yes \u2014 but only for the proportion of money not spent on the orphanage",
+        "correct": false,
+        "feedback": "Incorrect. Under s.5(3), the obligation attaches to the property received. If Ravi was obliged to retain the entire \u00a350,000 for the orphanage, all of it 'belongs to another.' The spending of some on the orphanage does not affect the character of the remainder."
+      },
+      {
+        "id": "d",
+        "text": "No \u2014 crowdfunding is not covered by s.5(3) because it is not a legal obligation",
+        "correct": false,
+        "feedback": "Incorrect. s.5(3) does not require a legally enforceable obligation \u2014 a moral or social obligation can suffice, provided it is an 'obligation' in the ordinary sense."
+      }
+    ],
+    "feedback": "The critical distinction is between *Wain* [1995] and *Hall* [1973]. In Hall, the travel agents put deposits into their general trading account \u2014 there was no legal or moral obligation to keep those specific deposits separate. In Wain, the charity fundraiser had a dedicated account and an obligation to retain the money for charity. The dedicated account here is analogous to Wain, not Hall.",
+    "oscoaReferences": [
+      "Theft Act 1968, s.5(3)",
+      "R v Wain [1995] 2 Cr App R 660",
+      "R v Hall [1973] QB 126"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "wain",
+      "hall",
+      "s5-3",
+      "obligation"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-2",
+    "microSkill": "D1.2",
+    "block": "B",
+    "phase": "teaching",
+    "teachingSummary": "**Core Rule:** Section 6(1) of the Theft Act 1968 provides: 'A person appropriating property belonging to another without meaning the other permanently to lose the thing itself is nevertheless to be regarded as having the intention of permanently depriving the other of it if his intention is to treat the thing as his own to dispose of regardless of the other's rights.' This is an extended definition \u2014 it catches borrowers who treat the property as their own.\n\n**Borrowing and Theft:** In *R v Lloyd* [1985] QB 829, the projectionist at a cinema borrowed films overnight so accomplices could make pirate copies. The Court of Appeal quashed the theft convictions: borrowing is not theft unless the intention is to return the property in such a changed state that 'all its goodness or virtue has gone.' The films were returned undamaged and on time. The 'goodness' test is narrow \u2014 mere temporary deprivation is not theft.\n\n**Conditional Intent:** In *R v Easom* [1971] 2 QB 315, the defendant picked up a handbag in a cinema, rummaged through it, and left it without taking anything. The Court held there was no intention to permanently deprive \u2014 the defendant's intent was conditional on finding something worth stealing. This 'conditional intent' would now support a charge of attempted theft, but not completed theft.\n\n**Ransom and Pawning:** In *R v Velumyl* [1989] Crim LR 299, the defendant took cash from his employer's safe intending to repay it later. The Court of Appeal upheld the theft conviction: taking money with the intention of replacing it with different notes or coins is still an intention to permanently deprive of the specific notes taken. Similarly, pawning another's property without authority is theft \u2014 *R v Lavender* [1994] Crim LR 297.\n\n**In short:** Intention to permanently deprive does not require an intention that the owner never see the property again. Treating property as one's own, returning it in a worthless state, or replacing specific property with equivalent (but different) property all satisfy s.6.",
+    "type": "teaching",
+    "question": "",
+    "answer": "",
+    "options": [],
+    "feedback": "",
+    "oscoaReferences": [
+      "Theft Act 1968, s.6",
+      "R v Lloyd [1985] QB 829",
+      "R v Easom [1971] 2 QB 315",
+      "R v Velumyl [1989] Crim LR 299",
+      "R v Lavender [1994] Crim LR 297"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "intention-to-deprive",
+      "s6",
+      "lloyd",
+      "borrowing"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-2",
+    "microSkill": "D1.2",
+    "block": "B",
+    "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "In R v __________ [1985] QB 829, the Court of Appeal held that borrowing a film for a few hours to make a pirate copy, then returning it undamaged, was not theft because the intention was not to permanently deprive.",
+    "answer": "Lloyd",
+    "options": [],
+    "feedback": "Correct. *R v Lloyd* [1985] QB 829 \u2014 the cinema projectionist who lent films to accomplices for copying was not guilty of theft. The films were returned undamaged. Borrowing is not theft unless the property is returned in a state where 'all its goodness or virtue has gone.'",
+    "oscoaReferences": [
+      "R v Lloyd [1985] QB 829"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "r-v-lloyd",
+      "borrowing",
+      "intention-to-deprive"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-2",
+    "microSkill": "D1.2",
+    "block": "B",
+    "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "Under s.____(1) of the Theft Act 1968, a person who treats property as their own to dispose of regardless of the owner's rights is regarded as having the intention to permanently deprive.",
+    "answer": "6",
+    "options": [],
+    "feedback": "Correct. s.6(1): the extended definition of intention to permanently deprive. Treating property as one's own \u2014 e.g., pawning it, ransoming it, or destroying its value \u2014 satisfies the mens rea.",
+    "oscoaReferences": [
+      "Theft Act 1968, s.6(1)"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "s6",
+      "intention-to-deprive"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-2",
+    "microSkill": "D1.2",
+    "block": "B",
+    "phase": "teaching",
+    "type": "drag_elements",
+    "question": "Categorise each scenario as satisfying or not satisfying the intention to permanently deprive under s.6:",
+    "answer": "Taking cash from a safe intending to replace it later=Satisfies \u2014 specific notes taken; Pawning a borrowed laptop=Satisfies \u2014 treating as own to dispose; Borrowing a cinema film overnight and returning it undamaged=Does not satisfy \u2014 *R v Lloyd*; Picking up a handbag to see if anything valuable, then leaving it=Does not satisfy \u2014 conditional intent only",
+    "options": [
+      {
+        "id": "v1",
+        "text": "Taking \u00a350 from a safe planning to return \u00a350 next week (*Velumyl*)",
+        "pair": "Satisfies"
+      },
+      {
+        "id": "v2",
+        "text": "Pawning a borrowed laptop without the owner's knowledge (*Lavender*)",
+        "pair": "Satisfies"
+      },
+      {
+        "id": "v3",
+        "text": "Borrowing a cinema film overnight and returning it on time (*Lloyd*)",
+        "pair": "Does not satisfy"
+      },
+      {
+        "id": "v4",
+        "text": "Picking up a handbag in a cinema to see if it has valuables, then leaving it (*Easom*)",
+        "pair": "Does not satisfy"
+      }
+    ],
+    "feedback": "Correctly categorised. The key distinction: s.6 extends the intention beyond simple 'keeping forever' to include treating property as one's own (*Velumyl*, *Lavender*) and destroying its value (*Lloyd* test). But mere temporary use without value-destruction (*Lloyd*) and conditional intent (*Easom*) do not satisfy.",
+    "oscoaReferences": [
+      "Theft Act 1968, s.6",
+      "R v Velumyl [1989] Crim LR 299",
+      "R v Lavender [1994] Crim LR 297",
+      "R v Lloyd [1985] QB 829",
+      "R v Easom [1971] 2 QB 315"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "intention-to-deprive",
+      "categorisation",
+      "s6"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-2",
+    "microSkill": "D1.2",
+    "block": "B",
+    "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "Kai, a student, borrows a unique library book that has been out of print for decades. He keeps it for six months, ignores overdue notices, and when he finally returns it, the spine is broken, pages are torn, and the book is essentially worthless. Applying *Lloyd* [1985]:",
+    "answer": "c",
+    "options": [
+      {
+        "id": "a",
+        "text": "Not theft \u2014 Kai returned the book, so there was no intention to permanently deprive",
+        "correct": false,
+        "feedback": "Incorrect. Borrowing can be theft if the property is returned in such a changed state that 'all its goodness or virtue has gone' \u2014 *R v Lloyd* [1985]."
+      },
+      {
+        "id": "b",
+        "text": "Theft \u2014 because Kai kept the book for more than a few days",
+        "correct": false,
+        "feedback": "Incomplete. The length of borrowing alone is not determinative. The key is whether Kai treated the book as his own and/or the book's value was destroyed."
+      },
+      {
+        "id": "c",
+        "text": "Theft \u2014 Kai treated the book as his own (s.6(1)), and by the time of return its 'goodness or virtue had gone' under *Lloyd* [1985]; the destruction of the book's value satisfies the extended intention to permanently deprive",
+        "correct": true,
+        "feedback": "Correct. Two routes to guilt: (1) s.6(1) \u2014 Kai treated the book as his own to dispose of regardless of the library's rights (keeping it for six months despite notices). (2) The *Lloyd* test \u2014 the book's 'goodness' was destroyed. Either route satisfies the mens rea."
+      },
+      {
+        "id": "d",
+        "text": "Not theft \u2014 damage to a library book is a civil matter only",
+        "correct": false,
+        "feedback": "Incorrect. Criminal damage is a separate offence, but the scenario also raises a complete theft charge: Kai dishonestly appropriated the library's property with an intention to permanently deprive."
+      }
+    ],
+    "feedback": "The *Lloyd* 'goodness' test is the key. In *Lloyd* [1985], the films were returned undamaged, so the 'goodness' remained. Here, the book's value has been destroyed \u2014 analogous to returning an empty bottle after drinking the wine. Additionally, the six-month retention with ignored notices shows Kai treated the book as his own under s.6(1).",
+    "oscoaReferences": [
+      "R v Lloyd [1985] QB 829",
+      "Theft Act 1968, s.6(1)"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "lloyd",
+      "intention-to-deprive",
+      "goodness",
+      "scenario"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-2",
+    "microSkill": "D1.2",
+    "block": "B",
+    "phase": "teaching",
+    "type": "spot_error",
+    "question": "Spot the legal error:\n\n'If a person intends to return the property they have taken, they can never have the intention to permanently deprive. The law only punishes those who intend to keep the property forever. This is why anyone who borrows an item with the intention of giving it back cannot be convicted of theft.'",
+    "answer": "Intention to replace (even with equivalent property) can satisfy s.6 \u2014 *Velumyl* [1989]. Treating property as one's own (*Lavender* [1994]) also satisfies. Borrowing can be theft where property's value is destroyed (*Lloyd* [1985]).",
+    "options": [],
+    "feedback": "Found it. s.6 Theft Act 1968 provides an extended definition that catches more than intention to keep forever. (1) Replacing specific coins with different coins is intention to permanently deprive of those coins \u2014 *R v Velumyl* [1989]. (2) Pawning another's property is treating it as one's own \u2014 *R v Lavender* [1994]. (3) Borrowing where the property's value is destroyed satisfies the *Lloyd* test.",
+    "oscoaReferences": [
+      "Theft Act 1968, s.6(1)",
+      "R v Velumyl [1989] Crim LR 299",
+      "R v Lavender [1994] Crim LR 297",
+      "R v Lloyd [1985] QB 829"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "intention-to-deprive",
+      "s6",
+      "spot-error"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-2",
+    "microSkill": "D1.2",
+    "block": "B",
+    "phase": "teaching",
+    "type": "msq",
+    "question": "Which TWO of the following satisfy the intention to permanently deprive under s.6 Theft Act 1968?",
+    "answer": "a,d",
+    "options": [
+      {
+        "id": "a",
+        "text": "D takes a friend's watch and pawns it, intending to redeem and return it later",
+        "correct": true,
+        "feedback": "Correct. *R v Lavender* [1994] \u2014 pawning property without authority is treating it as one's own to dispose of regardless of the owner's rights, satisfying s.6(1)."
+      },
+      {
+        "id": "b",
+        "text": "D borrows a neighbour's lawnmower for 30 minutes and returns it undamaged",
+        "correct": false,
+        "feedback": "Incorrect. Temporary use with full return undamaged does not satisfy s.6. The property's 'goodness' is preserved (*Lloyd* [1985])."
+      },
+      {
+        "id": "c",
+        "text": "D takes a company car for a joyride and abandons it a mile away in perfect condition",
+        "correct": false,
+        "feedback": "Incorrect. This is the offence of taking a conveyance without authority (TWOC) under s.12 Theft Act 1968, not theft. There is no intention to permanently deprive the owner of the car."
+      },
+      {
+        "id": "d",
+        "text": "D takes \u00a3100 from his employer's till, intending to repay with his salary next week",
+        "correct": true,
+        "feedback": "Correct. *R v Velumyl* [1989] \u2014 the defendant intended to permanently deprive the employer of the specific notes and coins taken, even though he planned to replace them with equivalent (but different) money."
+      },
+      {
+        "id": "e",
+        "text": "D takes an exam paper, reads it, and returns it to the lecturer's desk the same day",
+        "correct": false,
+        "feedback": "Incorrect. This is the *Oxford v Moss* [1979] problem: the physical paper was returned, so no intention to permanently deprive the paper. The information cannot be stolen."
+      }
+    ],
+    "feedback": "Correct answers: (a) and (d). The extended definition in s.6 catches pawning (*Lavender*) and replacing specific property with equivalent property (*Velumyl*). Temporary use (*Lloyd*), joyriding (TWOC, not theft), and reading-and-returning (*Oxford v Moss*) do not satisfy the mens rea for theft.",
+    "oscoaReferences": [
+      "Theft Act 1968, s.6",
+      "R v Lavender [1994] Crim LR 297",
+      "R v Velumyl [1989] Crim LR 299",
+      "R v Lloyd [1985] QB 829"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "intention-to-deprive",
+      "msq",
+      "s6"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-2",
+    "microSkill": "D1.2",
+    "block": "B",
+    "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "A hacker, Ling, gains access to a gaming company's server and deletes all user accounts \u2014 500,000 records \u2014 causing the company \u00a32 million in losses. She never downloads or transfers any data; she simply deletes it. Has Ling an intention to permanently deprive under s.6?",
+    "answer": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yes \u2014 by destroying the data, Ling intended to permanently deprive the company of it; her intention was to treat the data as her own to dispose of regardless of the company's rights",
+        "correct": true,
+        "feedback": "Correct. Destroying property is the ultimate act of treating it as one's own to dispose of. There is no clearer case of intention to permanently deprive than destruction. Although the data as 'information' may present property issues (see *Oxford v Moss* [1979]), the Computer Misuse Act 1990 provides specific offences for this kind of conduct."
+      },
+      {
+        "id": "b",
+        "text": "No \u2014 she did not keep or benefit from the data, so there was no intention to deprive",
+        "correct": false,
+        "feedback": "Incorrect. Intention to permanently deprive requires that the defendant intends the owner never to have the property \u2014 not that the defendant personally keeps it. Destruction satisfies this."
+      },
+      {
+        "id": "c",
+        "text": "No \u2014 data is not property under the Theft Act 1968",
+        "correct": false,
+        "feedback": "Partially correct \u2014 data as pure information is not property (*Oxford v Moss* [1979]). But if the data were part of a chose in action or other intangible property, theft may arise. In any event, the CMA 1990 is the more appropriate charge."
+      },
+      {
+        "id": "d",
+        "text": "Yes \u2014 the intention to permanently deprive is satisfied, but there is no appropriation because she never 'took' anything",
+        "correct": false,
+        "feedback": "Incorrect. Appropriation includes any assumption of the owner's rights, including the right to destroy. There is no requirement of physical removal."
+      }
+    ],
+    "feedback": "Destruction is the paradigm case of intention to permanently deprive. The question also highlights the intersection between the Theft Act 1968 and the Computer Misuse Act 1990. In practice, a prosecutor would likely charge under the CMA 1990 (unauthorised acts with intent to impair operation \u2014 s.3) because of the *Oxford v Moss* [1979] limitation on data-as-information. But conceptually, destruction satisfies s.6.",
+    "oscoaReferences": [
+      "Theft Act 1968, s.6",
+      "Computer Misuse Act 1990, s.3",
+      "Oxford v Moss [1979] 68 Cr App R 183"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "intention-to-deprive",
+      "destruction",
+      "scenario"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-2",
+    "microSkill": "D1.2",
+    "block": "C",
+    "phase": "teaching",
+    "teachingSummary": "**Core Rule:** Dishonesty is the central mens rea element of theft. The Theft Act 1968 does not define dishonesty positively; instead, s.2(1) lists three situations where a defendant is *not* dishonest: (a) belief in a legal right to deprive; (b) belief that the owner would consent; (c) belief that the owner cannot be discovered by taking reasonable steps. Where none of these apply, the common law test determines dishonesty.\n\n**From Ghosh to Ivey:** The test for dishonesty has evolved. For 35 years, the two-limb *R v Ghosh* [1982] QB 1053 test applied: (1) Was D's conduct dishonest by the standards of ordinary reasonable and honest people? (2) Did D realise his conduct was dishonest by those standards? This 'subjective second limb' allowed the 'Robin Hood' defence \u2014 a defendant who believed stealing was morally justified could be acquitted. In *Ivey v Genting Casinos (UK) Ltd* [2017] UKSC 67, the Supreme Court abolished the second limb: the test is now (1) what was D's actual state of knowledge or belief as to the facts? and (2) was D's conduct dishonest by the standards of ordinary decent people? D's own moral assessment is irrelevant.\n\n**Barton Confirmation:** *R v Barton* [2020] EWCA Crim 575 confirmed that Ivey applies in criminal law. The Court of Appeal stated that Ghosh 'does not correctly represent the law' and Ivey is now the sole test. Dishonesty is an objective standard assessed against the defendant's actual knowledge of the facts.\n\n**In short:** The Ivey test: (i) ascertain D's actual knowledge/belief as to the facts; (ii) assess whether D's conduct was dishonest by the standards of ordinary decent people. No second limb. No subjective moral gloss.",
+    "type": "teaching",
+    "question": "",
+    "answer": "",
+    "options": [],
+    "feedback": "",
+    "oscoaReferences": [
+      "Theft Act 1968, s.2",
+      "R v Ghosh [1982] QB 1053",
+      "Ivey v Genting Casinos (UK) Ltd [2017] UKSC 67",
+      "R v Barton [2020] EWCA Crim 575"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "dishonesty",
+      "ivey",
+      "ghosh",
+      "barton"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-2",
+    "microSkill": "D1.2",
+    "block": "C",
+    "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "In __________ v Genting Casinos (UK) Ltd [2017] UKSC 67, the Supreme Court abolished the second limb of the Ghosh test and established an objective test for dishonesty.",
+    "answer": "Ivey",
+    "options": [],
+    "feedback": "Correct. *Ivey v Genting Casinos* [2017] UKSC 67 \u2014 Lord Hughes stated that the second limb of Ghosh was wrong and should not be followed. The test is: determine the facts as D believed them, then assess dishonesty by the standard of ordinary decent people.",
+    "oscoaReferences": [
+      "Ivey v Genting Casinos (UK) Ltd [2017] UKSC 67"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "ivey",
+      "dishonesty",
+      "test"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-2",
+    "microSkill": "D1.2",
+    "block": "C",
+    "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "Under s.2(1)(a) of the Theft Act 1968, a person is not dishonest if he appropriates property in the belief that he has in law the __________ to deprive the other of it.",
+    "answer": "right",
+    "options": [],
+    "feedback": "Correct. s.2(1)(a): belief in a legal right to deprive. This includes a genuine (even unreasonable) belief that the law entitles D to the property. s.2(1) provides three specific negative definitions \u2014 if any applies, D is not dishonest.",
+    "oscoaReferences": [
+      "Theft Act 1968, s.2(1)"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "dishonesty",
+      "s2",
+      "defences"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-2",
+    "microSkill": "D1.2",
+    "block": "C",
+    "phase": "teaching",
+    "type": "drag_elements",
+    "question": "Place the steps of the Ivey dishonesty test in the correct order:",
+    "answer": "Step 1=Ascertain D's actual state of knowledge or belief as to the facts; Step 2=In light of those facts, assess whether D's conduct was dishonest by the objective standards of ordinary decent people",
+    "options": [
+      {
+        "id": "1",
+        "text": "Ascertain D's actual state of knowledge or belief as to the facts",
+        "order": 1
+      },
+      {
+        "id": "2",
+        "text": "In light of those facts, assess whether D's conduct was dishonest by the objective standards of ordinary decent people",
+        "order": 2
+      }
+    ],
+    "feedback": "Correct. Under *Ivey v Genting Casinos* [2017] UKSC 67, this two-stage test is the sole test for dishonesty. There is no longer a second limb requiring D to realise his conduct was dishonest \u2014 *R v Barton* [2020] confirmed this applies in criminal law.",
+    "oscoaReferences": [
+      "Ivey v Genting Casinos (UK) Ltd [2017] UKSC 67",
+      "R v Barton [2020] EWCA Crim 575"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "ivey",
+      "dishonesty",
+      "test"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-2",
+    "microSkill": "D1.2",
+    "block": "C",
+    "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "Derek is owed \u00a3500 by his neighbour. After six months of ignored requests, Derek enters the neighbour's shed and takes a lawnmower worth \u00a3500, leaving a note: 'Debt settled.' He genuinely believes he is legally entitled to take the mower to settle the debt. Applying s.2(1)(a):",
+    "answer": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "Derek is not dishonest \u2014 s.2(1)(a) provides that a person who believes they have a legal right to deprive the other of the property is not dishonest, even if the belief is unreasonable",
+        "correct": true,
+        "feedback": "Correct. s.2(1)(a) provides a 'negative definition' \u2014 if D genuinely believes he has a legal right to the property, he is not dishonest. The belief need not be reasonable; it need only be genuinely held. *R v Holden* [1991] Crim LR 478 \u2014 a genuine belief in a right to take scrap tyres led to acquittal."
+      },
+      {
+        "id": "b",
+        "text": "Derek is dishonest because self-help remedies are not permitted in English law",
+        "correct": false,
+        "feedback": "Incorrect. Self-help is generally discouraged, but s.2(1)(a) specifically provides for a belief in a legal right as a shield against a finding of dishonesty \u2014 it is a statutory exception."
+      },
+      {
+        "id": "c",
+        "text": "Derek is not dishonest under s.2(1)(a), but he commits the separate offence of taking without consent under s.12",
+        "correct": false,
+        "feedback": "Incorrect. s.12 (TWOC) applies only to conveyances. A lawnmower is not a conveyance. If s.2(1)(a) applies, there is no theft at all \u2014 the mens rea is negated."
+      },
+      {
+        "id": "d",
+        "text": "Derek is dishonest because his belief is unreasonable \u2014 taking the full \u00a3500 worth of property is disproportionate",
+        "correct": false,
+        "feedback": "Incorrect. s.2(1)(a) does not require reasonableness or proportionality. The question is whether the belief was genuinely held. Under *R v Robinson* [1977] Crim LR 173, even a belief arising from a threat may be covered. Disproportionality may go to whether the belief was actually held, but if it was, s.2(1)(a) applies."
+      }
+    ],
+    "feedback": "Section 2(1) provides three negative definitions of dishonesty \u2014 if any applies, the defendant is not dishonest regardless of the jury's view. For s.2(1)(a), the belief need only be genuine \u2014 it need not be reasonable (*R v Holden* [1991]). The defendant's willingness to commit a criminal act to enforce the debt is separately regulated (e.g., harassment, blackmail) but does not make him dishonest for theft purposes.",
+    "oscoaReferences": [
+      "Theft Act 1968, s.2(1)(a)",
+      "R v Holden [1991] Crim LR 478",
+      "R v Robinson [1977] Crim LR 173"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "dishonesty",
+      "s2",
+      "belief-in-right"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-2",
+    "microSkill": "D1.2",
+    "block": "C",
+    "phase": "teaching",
+    "type": "spot_error",
+    "question": "Spot the legal error:\n\n'The correct test for dishonesty in theft cases is the Ghosh test: the jury must find the defendant's conduct dishonest by ordinary standards AND the defendant must have realised their conduct was dishonest. If the defendant genuinely believed they were acting morally, they must be acquitted even if ordinary people would disapprove.'",
+    "answer": "The Ghosh second limb has been abolished by *Ivey v Genting Casinos* [2017] UKSC 67 and *R v Barton* [2020]. The defendant's own moral assessment is irrelevant \u2014 the test is objective.",
+    "options": [],
+    "feedback": "Found it. *Ivey v Genting Casinos* [2017] UKSC 67 abolished the second limb of Ghosh. The test is now: (1) ascertain D's knowledge/belief of the facts; (2) assess whether the conduct was dishonest by the objective standards of ordinary decent people. D's own views on morality are irrelevant. *R v Barton* [2020] EWCA Crim 575 confirmed this in criminal law.",
+    "oscoaReferences": [
+      "Ivey v Genting Casinos (UK) Ltd [2017] UKSC 67",
+      "R v Barton [2020] EWCA Crim 575",
+      "R v Ghosh [1982] QB 1053"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "dishonesty",
+      "ivey",
+      "ghosh",
+      "spot-error"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-2",
+    "microSkill": "D1.2",
+    "block": "C",
+    "phase": "teaching",
+    "type": "msq",
+    "question": "Which TWO of the following correctly state the current law on dishonesty in theft?",
+    "answer": "b,c",
+    "options": [
+      {
+        "id": "a",
+        "text": "Under s.2(1), a belief need be both genuine and reasonable to negate dishonesty",
+        "correct": false,
+        "feedback": "Incorrect. s.2(1) beliefs need only be genuine, not reasonable. The jury assess whether the belief was actually held, not whether it was reasonable."
+      },
+      {
+        "id": "b",
+        "text": "The Ghosh test has been replaced by the Ivey test: dishonesty is assessed objectively by the standards of ordinary decent people, based on the facts as D believed them to be",
+        "correct": true,
+        "feedback": "Correct. *Ivey v Genting Casinos* [2017] UKSC 67 and *R v Barton* [2020] EWCA Crim 575. The second (subjective) limb of Ghosh has been abolished."
+      },
+      {
+        "id": "c",
+        "text": "If D genuinely believes the owner would have consented to the taking, D is not dishonest under s.2(1)(b)",
+        "correct": true,
+        "feedback": "Correct. s.2(1)(b) provides that a person is not dishonest if he appropriates property in the belief that the owner would consent if they knew of the appropriation and circumstances. The belief need only be genuine."
+      },
+      {
+        "id": "d",
+        "text": "The dishonesty question is always left entirely to the jury with no legal guidance",
+        "correct": false,
+        "feedback": "Incorrect. While dishonesty is a jury question, the judge directs the jury on the Ivey test: determine the facts as D believed them, then apply the objective standard of ordinary decent people."
+      },
+      {
+        "id": "e",
+        "text": "A defendant who believes taking from the rich to give to the poor is morally right is not dishonest under the Ivey test",
+        "correct": false,
+        "feedback": "Incorrect. The Ivey test explicitly removed the 'Robin Hood' defence. D's personal moral code is irrelevant \u2014 the standard is that of ordinary decent people. Taking property to give to charity is dishonest by that standard."
+      }
+    ],
+    "feedback": "Correct answers: (b) and (c). The Ivey test (objective, no second limb) is now the law. s.2(1) provides three negative definitions \u2014 any genuinely held belief within those categories negates dishonesty. The Robin Hood defence is no longer available.",
+    "oscoaReferences": [
+      "Theft Act 1968, s.2",
+      "Ivey v Genting Casinos (UK) Ltd [2017] UKSC 67",
+      "R v Barton [2020] EWCA Crim 575"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "dishonesty",
+      "ivey",
+      "msq"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-2",
+    "microSkill": "D1.2",
+    "block": "consolidation",
+    "phase": "consolidation",
+    "teachingSummary": "",
+    "type": "scenario_choice",
+    "question": "[CONSOLIDATION \u2014 Block A] Marcia leaves her bicycle with a repair shop. The mechanic fixes it and bills \u00a380. Marcia returns after hours, climbs the fence, and retrieves her bike without paying. Applying *Turner (No 2)* [1971], has Marcia committed theft?",
+    "answer": "b",
+    "options": [
+      {
+        "id": "a",
+        "text": "No \u2014 you cannot steal your own property under any circumstances",
+        "correct": false,
+        "feedback": "Incorrect. *R v Turner (No 2)* [1971] \u2014 a person can steal their own property if another has possession, control, or a proprietary interest in it."
+      },
+      {
+        "id": "b",
+        "text": "Yes \u2014 the repair shop had possession and control of the bike and a lien for the unpaid fee; the bike 'belonged to another' under s.5(1)",
+        "correct": true,
+        "feedback": "Correct. Directly analogous to Turner. The shop's possession and lien mean the bike 'belongs to another.' Marcia dishonestly appropriated it with the intention to permanently deprive the shop of its security for payment."
+      },
+      {
+        "id": "c",
+        "text": "No \u2014 Marcia only intended to avoid paying, not to permanently deprive the shop of the bike (they never owned it)",
+        "correct": false,
+        "feedback": "Incorrect. The shop's lien is a proprietary interest. By removing the bike, Marcia permanently deprived the shop of that proprietary interest \u2014 the security over the bike. s.5(1) covers proprietary interests, not just full ownership."
+      },
+      {
+        "id": "d",
+        "text": "Yes \u2014 but only if she sold the bike afterwards",
+        "correct": false,
+        "feedback": "Incorrect. Theft is complete at the moment of appropriation with the requisite mens rea. Subsequent dealing is irrelevant to the completed offence (though it may go to evidence of intention)."
+      }
+    ],
+    "feedback": "This consolidates Block A. *R v Turner (No 2)* [1971] 1 WLR 901 is the leading authority. The breadth of s.5(1) \u2014 'possession or control' and 'proprietary right or interest' \u2014 means that a repairer's lien is sufficient to make the property 'belong to another.' The owner who takes back their own property against a valid lien commits theft.",
+    "oscoaReferences": [
+      "R v Turner (No 2) [1971] 1 WLR 901",
+      "Theft Act 1968, s.5(1)"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "consolidation",
+      "turner",
+      "belonging-to-another"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-2",
+    "microSkill": "D1.2",
+    "block": "consolidation",
+    "phase": "consolidation",
+    "teachingSummary": "",
+    "type": "fill_gap_case",
+    "question": "[CONSOLIDATION \u2014 Block B] The case of R v __________ [1989] Crim LR 299 confirms that taking cash from an employer's safe intending to replace it later is theft, because the intention is to permanently deprive of the specific notes taken.",
+    "answer": "Velumyl",
+    "options": [],
+    "feedback": "Correct. *R v Velumyl* [1989] Crim LR 299 \u2014 the defendant intended to return equivalent money, but the employer was permanently deprived of the specific notes and coins taken. The intention relates to the specific property, not its equivalent value.",
+    "oscoaReferences": [
+      "R v Velumyl [1989] Crim LR 299"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "consolidation",
+      "velumyl",
+      "intention-to-deprive"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-2",
+    "microSkill": "D1.2",
+    "block": "consolidation",
+    "phase": "consolidation",
+    "teachingSummary": "",
+    "type": "msq",
+    "question": "[CONSOLIDATION \u2014 Block B & C] Which TWO of the following statements correctly state the law on theft?",
+    "answer": "a,c",
+    "options": [
+      {
+        "id": "a",
+        "text": "Borrowing property and returning it after all its value has been exhausted satisfies the intention to permanently deprive under *Lloyd* [1985]",
+        "correct": true,
+        "feedback": "Correct. *R v Lloyd* [1985] QB 829 \u2014 the 'goodness or virtue' test. If property is returned after all value has gone, the intention to permanently deprive is satisfied. Example: returning an empty bottle after drinking the wine."
+      },
+      {
+        "id": "b",
+        "text": "The Ivey test requires the jury to consider whether the defendant realised they were acting dishonestly",
+        "correct": false,
+        "feedback": "Incorrect. This was the old Ghosh second limb \u2014 abolished by Ivey. The Ivey test is objective only."
+      },
+      {
+        "id": "c",
+        "text": "A defendant who believes the owner would consent to the taking is not dishonest under s.2(1)(b), even if that belief is unreasonable",
+        "correct": true,
+        "feedback": "Correct. s.2(1)(b) \u2014 the belief need only be genuinely held, not reasonable. The jury must assess whether the belief was actually held."
+      },
+      {
+        "id": "d",
+        "text": "Money received by mistake can never be the subject of theft",
+        "correct": false,
+        "feedback": "Incorrect. s.5(4) expressly provides that property obtained by mistake is to be regarded as belonging to another if there is an obligation to make restoration. *Attorney-General's Reference (No 1 of 1983)* [1985] QB 182 \u2014 a police officer who received an overpayment of wages was liable for theft when she failed to repay it."
+      },
+      {
+        "id": "e",
+        "text": "Under s.2(1)(a), a belief in a legal right to deprive must be reasonable to negate dishonesty",
+        "correct": false,
+        "feedback": "Incorrect. s.2(1)(a) requires only a genuine belief \u2014 reasonableness is evidence of genuineness but not a separate requirement. *R v Holden* [1991]."
+      }
+    ],
+    "feedback": "Correct answers: (a) and (c). The Lloyd 'goodness' test extends the intention to permanently deprive to value-destruction borrowing. s.2(1) negative definitions require only genuine belief, not reasonableness. The Ivey test has abolished the subjective second limb of Ghosh.",
+    "oscoaReferences": [
+      "R v Lloyd [1985] QB 829",
+      "Theft Act 1968, s.2",
+      "Ivey v Genting Casinos (UK) Ltd [2017] UKSC 67",
+      "R v Holden [1991] Crim LR 478"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "consolidation",
+      "lloyd",
+      "dishonesty",
+      "msq"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-2",
+    "microSkill": "D1.2",
+    "block": "consolidation",
+    "phase": "consolidation",
+    "teachingSummary": "",
+    "type": "scenario_choice",
+    "question": "[CONSOLIDATION \u2014 Block C] A nurse, Helen, is given \u00a3200 by an elderly patient who says, 'Use this to buy Christmas presents for the children's ward.' Helen spends \u00a3150 on presents but uses \u00a350 to buy herself a new uniform. Her employer later says she should have spent it all on the children. Applying s.5(3) and *Wain* [1995]:",
+    "answer": "c",
+    "options": [
+      {
+        "id": "a",
+        "text": "Helen is liable for theft of the entire \u00a3200 because she failed to spend it all on the children's ward",
+        "correct": false,
+        "feedback": "Incorrect. She spent \u00a3150 in accordance with the obligation. The only issue is the \u00a350 she spent on herself."
+      },
+      {
+        "id": "b",
+        "text": "Helen is not liable \u2014 the money was a gift, and she could spend it however she wished",
+        "correct": false,
+        "feedback": "Incorrect. The money was given for a specific purpose \u2014 Christmas presents for the children's ward. This creates an obligation under s.5(3) to retain and deal with it for that purpose."
+      },
+      {
+        "id": "c",
+        "text": "Helen may be liable for theft of the \u00a350 \u2014 under s.5(3), she received money under an obligation to deal with it for the children's ward. The \u00a350 spent on herself was an appropriation of property belonging to another",
+        "correct": true,
+        "feedback": "Correct. The \u00a350 was subject to the obligation to spend on the children's ward. By spending it on herself, Helen appropriated property that 'belonged to another' under s.5(3). The \u00a3150 spent on presents was in accordance with the obligation and is not theft."
+      },
+      {
+        "id": "d",
+        "text": "Helen is liable only if she made a profit from the \u00a350 spent on her uniform",
+        "correct": false,
+        "feedback": "Incorrect. Personal benefit or profit is not an element of theft. The question is whether she dishonestly appropriated property belonging to another with the intention to permanently deprive."
+      }
+    ],
+    "feedback": "This consolidates Block C \u2014 the s.5(3) obligation. The \u00a350 was subject to a specific obligation. By diverting it to her personal use, Helen appropriated property that (by virtue of s.5(3)) belonged to the children's ward. The \u00a3150 was properly dealt with and is not theft. This mirrors *R v Wain* [1995] 2 Cr App R 660 where the defendant spent charity proceeds on himself.",
+    "oscoaReferences": [
+      "Theft Act 1968, s.5(3)",
+      "R v Wain [1995] 2 Cr App R 660"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "consolidation",
+      "wain",
+      "s5-3",
+      "obligation"
+    ]
+  },
+  {
+    "lessonId": "lesson-D1-2",
+    "microSkill": "D1.2",
+    "block": "consolidation",
+    "phase": "consolidation",
+    "teachingSummary": "",
+    "type": "fill_gap_case",
+    "question": "[CONSOLIDATION \u2014 Block C] The case of R v __________ [2020] EWCA Crim 575 confirmed that the Ivey dishonesty test applies in criminal law, replacing the old Ghosh test.",
+    "answer": "Barton",
+    "options": [],
+    "feedback": "Correct. *R v Barton* [2020] EWCA Crim 575 \u2014 the Court of Appeal held that *Ivey* represents the law and Ghosh 'does not correctly represent the law.' The test in criminal cases is now the objective Ivey test.",
+    "oscoaReferences": [
+      "R v Barton [2020] EWCA Crim 575",
+      "Ivey v Genting Casinos (UK) Ltd [2017] UKSC 67"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "consolidation",
+      "barton",
+      "ivey",
+      "dishonesty"
+    ]
+  }
+]
