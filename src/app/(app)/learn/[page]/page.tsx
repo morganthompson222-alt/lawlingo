@@ -53,19 +53,25 @@ function LearnPageContent({ page }: { page: string }) {
   const [error, setError] = useState('')
   const [phase, setPhase] = useState<'select' | 'playing' | 'results'>('select')
   const [results, setResults] = useState<any>(null)
+  const [saveState, setSaveState] = useState<any>(null)
+  const [lessonCompleted, setLessonCompleted] = useState(false)
 
-  const lessonId = `lesson-${page}1-1` // e.g., lesson-A1-1, lesson-B1-1
+  const lessonId = `lesson-${page}1-1`
+  const microSkill = `${page}1.1`
 
   useEffect(() => {
     async function load() {
       setLoading(true)
       setError('')
       try {
-        const res = await fetch(`/api/lessons?lessonId=${lessonId}&microSkill=${page}1.1`)
-        if (res.ok) {
-          const data = await res.json()
+        const [lessonRes, progressRes] = await Promise.all([
+          fetch(`/api/lessons?lessonId=${lessonId}&microSkill=${microSkill}`),
+          fetch(`/api/progress/lessons?lessonId=${lessonId}`),
+        ])
+
+        if (lessonRes.ok) {
+          const data = await lessonRes.json()
           setLesson(data)
-          // Flatten all questions for the player
           const all = [
             ...data.blocks.flatMap((b: any) => [b.teaching, ...b.questions]),
             ...(data.consolidation?.questions || []),
@@ -73,6 +79,16 @@ function LearnPageContent({ page }: { page: string }) {
           setAllQuestions(all)
         } else {
           setError('No Seneca-style lesson available yet. Try a different page.')
+        }
+
+        if (progressRes.ok) {
+          const progressData = await progressRes.json()
+          if (progressData.saveState?.state) {
+            setSaveState(progressData.saveState.state)
+          }
+          if (progressData.completion) {
+            setLessonCompleted(true)
+          }
         }
       } catch {
         setError('Could not load lesson data')
@@ -82,9 +98,22 @@ function LearnPageContent({ page }: { page: string }) {
     load()
   }, [page, crownLevel])
 
-  function startLesson() {
+  function startLesson(resume = false) {
     if (allQuestions.length === 0) return
+    if (!resume) {
+      // Clear saved state if starting fresh
+      setSaveState(null)
+      fetch(`/api/progress/lessons?lessonId=${lessonId}`, { method: 'DELETE' }).catch(() => {})
+    }
     setPhase('playing')
+  }
+
+  function handleProgressSave(state: Record<string, unknown>) {
+    fetch('/api/progress/lessons', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ lessonId, microSkill, state }),
+    }).catch(() => {})
   }
 
   async function handleComplete(r: { correct: number; total: number; mistakes: string[] }) {
@@ -94,6 +123,18 @@ function LearnPageContent({ page }: { page: string }) {
     addXP(xp.total)
     addGems(gems)
     setPhase('results')
+
+    // Persist completion to server & unlock crown
+    fetch('/api/progress/lessons', {
+      method: 'PATCH',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        lessonId, microSkill,
+        correct: r.correct, total: r.total,
+        mistakes: r.mistakes,
+        complete: true,
+      }),
+    }).catch(() => {})
   }
 
   return (
@@ -117,20 +158,44 @@ function LearnPageContent({ page }: { page: string }) {
               <div className="bg-red-50 rounded-xl p-4 text-red-600 text-sm">{error}</div>
             ) : allQuestions.length > 0 ? (
               <div className="space-y-4">
-                <div className="bg-white rounded-xl p-4 border border-gray-100 text-left">
-                  <div className="flex items-center gap-3 mb-2">
-                    <BookOpen className="w-5 h-5 text-green-600" />
-                    <span className="font-semibold text-gray-900">{lesson?.microSkill} — {lesson?.blocks?.length || 3} Teaching Blocks</span>
+                {lessonCompleted && (
+                  <div className="bg-green-50 rounded-xl p-4 border border-green-200">
+                    <p className="text-green-700 font-semibold">Lesson Completed</p>
+                    <p className="text-green-600 text-sm mt-1">You've already finished this lesson. You can replay it.</p>
                   </div>
-                  <p className="text-sm text-gray-500">{allQuestions.filter((q: any) => q.type !== 'teaching').length} practice questions</p>
-                  <p className="text-sm text-gray-500">3 teaching summaries + consolidation + mistake review</p>
-                </div>
-                <button
-                  onClick={startLesson}
-                  className="w-64 bg-[#58CC02] text-white font-bold py-3.5 rounded-xl hover:bg-[#46A302] transition-all flex items-center justify-center gap-2 mx-auto"
-                >
-                  <Play className="w-5 h-5" /> Start Lesson
-                </button>
+                )}
+                {saveState && !lessonCompleted && (
+                  <div className="bg-amber-50 rounded-xl p-4 border border-amber-200">
+                    <p className="text-amber-700 font-semibold">Lesson In Progress</p>
+                    <p className="text-amber-600 text-sm mt-1">You have a saved lesson. Resume from where you left off?</p>
+                    <div className="flex gap-3 mt-3">
+                      <button onClick={() => startLesson(true)} className="bg-amber-500 text-white font-bold py-2.5 px-6 rounded-xl text-sm">
+                        Resume Lesson
+                      </button>
+                      <button onClick={() => startLesson(false)} className="text-amber-600 font-medium py-2.5 px-4 rounded-xl text-sm border border-amber-200">
+                        Start Fresh
+                      </button>
+                    </div>
+                  </div>
+                )}
+                {!saveState && !saveState && (
+                  <>
+                    <div className="bg-white rounded-xl p-4 border border-gray-100 text-left">
+                      <div className="flex items-center gap-3 mb-2">
+                        <BookOpen className="w-5 h-5 text-green-600" />
+                        <span className="font-semibold text-gray-900">{lesson?.microSkill} — {lesson?.blocks?.length || 3} Teaching Blocks</span>
+                      </div>
+                      <p className="text-sm text-gray-500">{allQuestions.filter((q: any) => q.type !== 'teaching').length} practice questions</p>
+                      <p className="text-sm text-gray-500">3 teaching summaries + consolidation + mistake review</p>
+                    </div>
+                    <button
+                      onClick={() => startLesson(false)}
+                      className="w-64 bg-[#58CC02] text-white font-bold py-3.5 rounded-xl hover:bg-[#46A302] transition-all flex items-center justify-center gap-2 mx-auto"
+                    >
+                      <Play className="w-5 h-5" /> Start Lesson
+                    </button>
+                  </>
+                )}
               </div>
             ) : (
               <div className="bg-amber-50 rounded-xl p-6 border border-amber-200">
@@ -147,8 +212,11 @@ function LearnPageContent({ page }: { page: string }) {
           <SenecaLessonPlayer
             lessonId={lessonId}
             questions={allQuestions}
+            microSkill={microSkill}
             onComplete={handleComplete}
             onExit={() => setPhase('select')}
+            onProgressSave={handleProgressSave}
+            initialState={saveState}
           />
         </ErrorBoundary>
       )}

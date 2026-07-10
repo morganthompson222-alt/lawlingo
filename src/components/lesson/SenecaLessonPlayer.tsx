@@ -24,31 +24,72 @@ interface LessonQuestion {
 interface Props {
   lessonId: string
   questions: LessonQuestion[]
+  microSkill: string
   onComplete: (results: { correct: number; total: number; mistakes: string[] }) => void
   onExit: () => void
+  onProgressSave: (state: Record<string, unknown>) => void
+  initialState?: Record<string, unknown> | null
 }
 
 type Phase = 'reading' | 'answering' | 'feedback'
 
-export default function SenecaLessonPlayer({ lessonId, questions, onComplete, onExit }: Props) {
-  const [currentBlockIndex, setCurrentBlockIndex] = useState(0)
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0)
-  const [phase, setPhase] = useState<Phase>('reading')
-  const [hearts, setHearts] = useState(5)
-  const [totalCorrect, setTotalCorrect] = useState(0)
-  const [totalQuestions, setTotalQuestions] = useState(0)
-  const [mistakes, setMistakes] = useState<string[]>([])
+export default function SenecaLessonPlayer({ lessonId, questions, microSkill, onComplete, onExit, onProgressSave, initialState }: Props) {
+  const [currentBlockIndex, setCurrentBlockIndex] = useState((initialState?.currentBlockIndex as number) ?? 0)
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState((initialState?.currentQuestionIndex as number) ?? 0)
+  const [phase, setPhase] = useState<Phase>((initialState?.phase as Phase) ?? 'reading')
+  const [hearts, setHearts] = useState((initialState?.hearts as number) ?? 5)
+  const [totalCorrect, setTotalCorrect] = useState((initialState?.totalCorrect as number) ?? 0)
+  const [totalQuestions, setTotalQuestions] = useState((initialState?.totalQuestions as number) ?? 0)
+  const [mistakes, setMistakes] = useState<string[]>((initialState?.mistakes as string[]) ?? [])
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null)
   const [isCorrect, setIsCorrect] = useState(false)
   const [isAlmostCorrect, setIsAlmostCorrect] = useState(false)
+  const [showMistakeReview, setShowMistakeReview] = useState(false)
+  const [mistakeQueue, setMistakeQueue] = useState<LessonQuestion[]>((initialState?.mistakeQueue as LessonQuestion[]) ?? [])
+  const [completing, setCompleting] = useState(false)
+  const [textAnswer, setTextAnswer] = useState('')
+  const [showConsolidation, setShowConsolidation] = useState(false)
+  const [consolidationIndex, setConsolidationIndex] = useState(0)
   const [selectedMsqAnswers, setSelectedMsqAnswers] = useState<string[]>([])
   const [dragOrder, setDragOrder] = useState<string[]>([])
   const [dragInitialised, setDragInitialised] = useState(false)
-  const [showMistakeReview, setShowMistakeReview] = useState(false)
-  const [mistakeQueue, setMistakeQueue] = useState<LessonQuestion[]>([])
-  const [completing, setCompleting] = useState(false)
-  const [textAnswer, setTextAnswer] = useState('')
   const textInputRef = useRef<HTMLInputElement | null>(null)
+  const saveTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
+
+  // Auto-save progress every 3 seconds when state changes
+  useEffect(() => {
+    if (saveTimerRef.current) clearTimeout(saveTimerRef.current)
+    saveTimerRef.current = setTimeout(() => {
+      const state: Record<string, unknown> = {
+        currentBlockIndex, currentQuestionIndex, phase, hearts,
+        totalCorrect, totalQuestions, mistakes, mistakeQueue,
+        showConsolidation, consolidationIndex, completing, showMistakeReview,
+      }
+      onProgressSave(state)
+    }, 3000)
+    return () => { if (saveTimerRef.current) clearTimeout(saveTimerRef.current) }
+  }, [currentBlockIndex, currentQuestionIndex, phase, hearts, totalCorrect, totalQuestions])
+
+  // Save on unmount
+  useEffect(() => {
+    const handleBeforeUnload = () => {
+      const state: Record<string, unknown> = {
+        currentBlockIndex, currentQuestionIndex, phase, hearts,
+        totalCorrect, totalQuestions, mistakes, mistakeQueue,
+      }
+      navigator.sendBeacon('/api/progress/lessons', JSON.stringify({ lessonId, microSkill, state }))
+    }
+    window.addEventListener('beforeunload', handleBeforeUnload)
+    return () => {
+      window.removeEventListener('beforeunload', handleBeforeUnload)
+      const state: Record<string, unknown> = {
+        currentBlockIndex, currentQuestionIndex, phase, hearts,
+        totalCorrect, totalQuestions, mistakes, mistakeQueue,
+        showConsolidation, consolidationIndex, completing, showMistakeReview,
+      }
+      onProgressSave(state)
+    }
+  }, [])
 
   // Organise questions by block
   const blocks = ['A', 'B', 'C']
@@ -203,6 +244,14 @@ export default function SenecaLessonPlayer({ lessonId, questions, onComplete, on
         setDragOrder([])
         setDragInitialised(false)
         setPhase('reading')
+      } else if (consolidationQuestions.length > 0 && !showConsolidation) {
+        setShowConsolidation(true)
+        setConsolidationIndex(0)
+        setCurrentQuestionIndex(0)
+        setSelectedAnswer(null)
+        setIsAlmostCorrect(false)
+        setSelectedMsqAnswers([])
+        setPhase('answering')
       } else {
         setCompleting(true)
       }
@@ -571,7 +620,121 @@ export default function SenecaLessonPlayer({ lessonId, questions, onComplete, on
     )
   }
 
-  // Completing — show consolidation or mistake review
+  // Consolidation phase
+  if (showConsolidation && consolidationQuestions.length > 0 && !completing) {
+    const cq = consolidationQuestions[consolidationIndex]
+    const isFillGapC = cq?.type?.startsWith('fill_gap') || cq?.type === 'spot_error'
+    const hasOptionsC = (cq?.options?.length || 0) > 0
+    const isMsqC = cq?.type === 'msq'
+
+    return (
+      <div className="min-h-screen bg-white flex flex-col">
+        <div className="px-4 pt-4 pb-2">
+          <div className="flex items-center justify-between mb-2">
+            <button onClick={onExit} className="text-gray-400 text-sm font-semibold">✕ Exit</button>
+            <div className="flex items-center gap-1">
+              {Array.from({ length: 5 }).map((_, i) => (
+                <Heart key={i} className={cn('w-4 h-4', i < hearts ? 'text-red-500 fill-red-500' : 'text-gray-200')} />
+              ))}
+            </div>
+          </div>
+          <div className="h-1.5 bg-gray-100 rounded-full overflow-hidden">
+            <motion.div className="h-full bg-purple-500" animate={{ width: `${((consolidationIndex + 1) / consolidationQuestions.length) * 100}%` }} />
+          </div>
+          <p className="text-xs text-gray-400 mt-1">Consolidation · Q{consolidationIndex + 1}/{consolidationQuestions.length}</p>
+        </div>
+
+        <div className="flex-1 flex flex-col px-4 pt-4">
+          <motion.div key={cq.id} initial={{ opacity: 0, x: 30 }} animate={{ opacity: 1, x: 0 }} className="flex-1">
+            <h2 className="text-lg font-bold text-gray-900 mb-6">{cq.question}</h2>
+
+            {isFillGapC && (
+              <div className="space-y-4">
+                <input
+                  ref={textInputRef}
+                  type="text" value={textAnswer}
+                  onChange={(e) => setTextAnswer(e.target.value)}
+                  onKeyDown={(e) => { if (e.key === 'Enter') handleSubmitText() }}
+                  disabled={phase === 'feedback'}
+                  placeholder="Type your answer..."
+                  className="w-full px-4 py-4 rounded-xl border-2 border-gray-200 focus:border-[#58CC02] focus:ring-1 focus:ring-[#58CC02] outline-none text-lg font-medium"
+                  autoFocus
+                />
+                {phase !== 'feedback' && textAnswer.trim() && (
+                  <button onClick={handleSubmitText} className="w-full bg-[#58CC02] text-white font-bold py-3.5 rounded-xl">Check Answer</button>
+                )}
+              </div>
+            )}
+
+            {hasOptionsC && (
+              <div className="space-y-2.5">
+                {cq.options?.map((opt: any, i: number) => {
+                  const sel = isMsqC ? selectedMsqAnswers.includes(opt.id || '') : selectedAnswer === opt.id
+                  return (
+                    <motion.button key={opt.id || i} whileTap={{ scale: 0.98 }} disabled={phase === 'feedback'}
+                      onClick={() => handleAnswer(opt.id || '')}
+                      className={cn('w-full text-left p-3.5 rounded-xl border-2 font-medium text-sm',
+                        phase === 'feedback' && !sel && !opt.correct && 'opacity-40',
+                        phase === 'feedback' && sel && opt.correct && 'border-green-500 bg-green-50',
+                        phase === 'feedback' && sel && !opt.correct && 'border-red-400 bg-red-50',
+                        sel && phase !== 'feedback' && 'border-[#58CC02] bg-green-50/50',
+                        !sel && phase !== 'feedback' && 'border-gray-100 hover:border-gray-200'
+                      )}
+                    >
+                      <div className="flex items-center gap-3">
+                        <span className={cn('w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold border-2 shrink-0',
+                          sel && phase !== 'feedback' ? 'border-[#58CC02] bg-[#58CC02] text-white' : 'border-gray-200 text-gray-500')}>
+                          {String.fromCharCode(65 + i)}
+                        </span>
+                        <span>{opt.text}</span>
+                        {phase === 'feedback' && sel && opt.correct && <CheckCircle2 className="w-4 h-4 text-green-500 ml-auto" />}
+                        {phase === 'feedback' && sel && !opt.correct && <XCircle className="w-4 h-4 text-red-400 ml-auto" />}
+                      </div>
+                    </motion.button>
+                  )
+                })}
+              </div>
+            )}
+
+            {phase === 'feedback' && (
+              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}
+                className={cn('mt-6 p-4 rounded-xl', isCorrect ? 'bg-green-50 border border-green-200' :
+                  isAlmostCorrect ? 'bg-amber-50 border border-amber-200' : 'bg-red-50 border border-red-200')}
+              >
+                <p className={cn('text-sm font-bold mb-1', isCorrect ? 'text-green-700' : isAlmostCorrect ? 'text-amber-700' : 'text-red-600')}>
+                  {isCorrect ? 'Correct!' : isAlmostCorrect ? 'Almost there!' : 'Not quite'}
+                </p>
+                <p className="text-sm text-gray-700">{cq.feedback}</p>
+              </motion.div>
+            )}
+          </motion.div>
+        </div>
+
+        {phase === 'feedback' &&
+          <div className="px-4 py-4 border-t border-gray-100">
+            <button onClick={() => {
+              setTotalQuestions(t => t + 1)
+              if (isCorrect || isAlmostCorrect) setTotalCorrect(c => c + 1)
+              else { setHearts(h => Math.max(0, h - 1)); setMistakeQueue(m => [...m, cq]) }
+              if (consolidationIndex + 1 < consolidationQuestions.length) {
+                setConsolidationIndex(i => i + 1)
+                setSelectedAnswer(null); setIsAlmostCorrect(false); setTextAnswer(''); setPhase('answering')
+                setTimeout(() => textInputRef.current?.focus(), 100)
+              } else {
+                setShowConsolidation(false)
+                setCompleting(true)
+              }
+            }} className="w-full bg-[#58CC02] text-white font-bold py-3.5 rounded-xl flex items-center justify-center gap-2">
+              {consolidationIndex + 1 >= consolidationQuestions.length ? 'Complete Lesson' : 'Continue'}
+              <ArrowRight className="w-5 h-5" />
+            </button>
+          </div>
+        }
+      </div>
+    )
+  }
+
+  // Completing — show mistake review or completion
   if (completing && !showMistakeReview) {
     return (
       <div className="min-h-screen bg-white flex items-center justify-center px-6">
