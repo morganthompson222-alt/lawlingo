@@ -58,39 +58,44 @@ export default function SenecaLessonPlayer({ lessonId, questions, microSkill, on
   const [pairOrder, setPairOrder] = useState<string[]>([])
   const textInputRef = useRef<HTMLInputElement | null>(null)
   const saveTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
+  const stateRef = useRef<Record<string, unknown>>({})
+  const stateUnmountedRef = useRef(false)
+
+  // Keep stateRef up to date with latest state
+  useEffect(() => {
+    stateRef.current = {
+      currentBlockIndex, currentQuestionIndex, phase, hearts,
+      totalCorrect, totalQuestions, mistakes,
+      mistakeQueue,
+      showConsolidation, consolidationIndex, completing, showMistakeReview,
+    }
+  })
 
   // Auto-save progress every 3 seconds when state changes
   useEffect(() => {
     if (saveTimerRef.current) clearTimeout(saveTimerRef.current)
     saveTimerRef.current = setTimeout(() => {
-      const state: Record<string, unknown> = {
-        currentBlockIndex, currentQuestionIndex, phase, hearts,
-        totalCorrect, totalQuestions, mistakes, mistakeQueue,
-        showConsolidation, consolidationIndex, completing, showMistakeReview,
-      }
+      const state = { ...stateRef.current }
       onProgressSave(state)
     }, 3000)
     return () => { if (saveTimerRef.current) clearTimeout(saveTimerRef.current) }
   }, [currentBlockIndex, currentQuestionIndex, phase, hearts, totalCorrect, totalQuestions])
 
-  // Save on unmount
+  // Save on unmount + beforeunload — reads from stateRef (latest values)
   useEffect(() => {
     const handleBeforeUnload = () => {
-      const state: Record<string, unknown> = {
-        currentBlockIndex, currentQuestionIndex, phase, hearts,
-        totalCorrect, totalQuestions, mistakes, mistakeQueue,
-      }
-      navigator.sendBeacon('/api/progress/lessons', JSON.stringify({ lessonId, microSkill, state }))
+      const state = { ...stateRef.current }
+      const body = JSON.stringify({ lessonId, microSkill, state })
+      navigator.sendBeacon('/api/progress/lessons', new Blob([body], { type: 'application/json' }))
     }
     window.addEventListener('beforeunload', handleBeforeUnload)
     return () => {
       window.removeEventListener('beforeunload', handleBeforeUnload)
-      const state: Record<string, unknown> = {
-        currentBlockIndex, currentQuestionIndex, phase, hearts,
-        totalCorrect, totalQuestions, mistakes, mistakeQueue,
-        showConsolidation, consolidationIndex, completing, showMistakeReview,
+      if (!stateUnmountedRef.current) {
+        stateUnmountedRef.current = true
+        const state = { ...stateRef.current }
+        onProgressSave(state)
       }
-      onProgressSave(state)
     }
   }, [])
 
