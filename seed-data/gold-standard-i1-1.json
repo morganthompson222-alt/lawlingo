@@ -1,0 +1,973 @@
+[
+  {
+    "lessonId": "lesson-I1-1",
+    "microSkill": "I1.1",
+    "block": "A",
+    "phase": "teaching",
+    "teachingSummary": "**The Overriding Objective — CPR 1.1:** The Civil Procedure Rules 1998 are governed by the Overriding Objective: to enable the court to deal with cases *justly* and *at proportionate cost*. CPR 1.1(2) sets out the components of dealing with a case justly: (a) ensuring parties are on an equal footing; (b) saving expense; (c) dealing with the case in ways proportionate to the amount of money involved, the importance of the case, the complexity of the issues, and the financial position of each party; (d) ensuring the case is dealt with expeditiously and fairly; (e) allotting an appropriate share of the court's resources while taking into account the need to allot resources to other cases; and (f) enforcing compliance with rules, practice directions, and orders.\n\n**Active Case Management — CPR 1.4:** The court must further the Overriding Objective by actively managing cases, including encouraging cooperation, identifying issues early, deciding which issues need full investigation, and encouraging ADR. The Overriding Objective is the lens through which every procedural decision is taken.\n\n**Proportionality:** The proportionality element is crucial — the cost of litigation should not exceed what is at stake. The court will limit disclosure, expert evidence, and trials to what is proportionate. *Lownds v Home Office* [2002] EWCA Civ 365 established the proportionality test for costs.\n\n**In short:** CPR 1.1 requires courts to deal with cases justly and at proportionate cost. Every procedural rule and every exercise of discretion must give effect to the Overriding Objective.",
+    "type": "teaching",
+    "question": "",
+    "answer": "",
+    "options": [],
+    "feedback": "",
+    "oscoaReferences": [
+      "Civil Procedure Rules 1998, rr.1.1, 1.4",
+      "Lownds v Home Office [2002] EWCA Civ 365"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "cpr",
+      "overriding-objective",
+      "proportionality"
+    ]
+  },
+  {
+    "lessonId": "lesson-I1-1",
+    "microSkill": "I1.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "Under CPR ____, the Overriding Objective requires the court to deal with cases justly and at proportionate cost, ensuring so far as practicable that parties are on an equal footing.",
+    "answer": "1.1",
+    "options": [],
+    "feedback": "Correct. CPR 1.1(1) establishes the Overriding Objective. CPR 1.1(2) lists the factors that constitute dealing with a case justly, including equality of arms, saving expense, proportionality, expedition, and appropriate allocation of court resources.",
+    "oscoaReferences": [
+      "Civil Procedure Rules 1998, r.1.1"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "cpr-1.1",
+      "overriding-objective"
+    ]
+  },
+  {
+    "lessonId": "lesson-I1-1",
+    "microSkill": "I1.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "In __________ v Home Office [2002] EWCA Civ 365, the Court of Appeal established that when assessing proportionality of costs, the court must consider the amount at stake, the complexity of the litigation, and the conduct of the parties.",
+    "answer": "Lownds",
+    "options": [],
+    "feedback": "Correct. *Lownds v Home Office* [2002] EWCA Civ 365 is a leading authority on proportionality. The court held that costs must be proportionate to the value and complexity of the case, and the court should first consider the global proportionality of the bill before the item-by-item assessment.",
+    "oscoaReferences": [
+      "Lownds v Home Office [2002] EWCA Civ 365",
+      "Civil Procedure Rules 1998, r.44.4"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "lownds",
+      "proportionality",
+      "costs"
+    ]
+  },
+  {
+    "lessonId": "lesson-I1-1",
+    "microSkill": "I1.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "drag_elements",
+    "question": "Match each component of the Overriding Objective (CPR 1.1(2)) to its description:",
+    "answer": "Equal footing=Parties must be on a level playing field; Saving expense=Reducing costs where possible; Proportionality=Costs and procedures proportionate to the amount at stake and case complexity; Expedition=Dealing with cases expeditiously and fairly; Court resources=Allotting an appropriate share of the court's resources",
+    "options": [
+      {
+        "id": "equal",
+        "text": "Parties must be on a level playing field — CPR 1.1(2)(a)",
+        "pair": "Equal footing"
+      },
+      {
+        "id": "save",
+        "text": "Reducing costs where possible — CPR 1.1(2)(b)",
+        "pair": "Saving expense"
+      },
+      {
+        "id": "proportion",
+        "text": "Costs and procedures must be proportionate to the amount at stake and the complexity — CPR 1.1(2)(c)",
+        "pair": "Proportionality"
+      },
+      {
+        "id": "expedition",
+        "text": "Dealing with cases expeditiously and fairly — CPR 1.1(2)(d)",
+        "pair": "Expedition"
+      },
+      {
+        "id": "resources",
+        "text": "Allotting an appropriate share of the court's resources — CPR 1.1(2)(e)",
+        "pair": "Court resources"
+      }
+    ],
+    "feedback": "Well matched. These five components collectively define dealing with a case justly under CPR 1.1(2). The sixth — enforcing compliance — is found in CPR 1.1(2)(f).",
+    "oscoaReferences": [
+      "Civil Procedure Rules 1998, r.1.1(2)"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "cpr-1.1",
+      "components",
+      "matching"
+    ]
+  },
+  {
+    "lessonId": "lesson-I1-1",
+    "microSkill": "I1.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "A claimant issues proceedings for a £3,500 debt. The claimant's solicitor proposes 14 days of disclosure, three expert reports, a five-day trial, and a costs budget of £85,000. The defendant applies for the court to limit the scope of the litigation. Applying the Overriding Objective under CPR 1.1:",
+    "answer": "c",
+    "options": [
+      {
+        "id": "a",
+        "text": "The court must permit the claimant to run the case as they wish — parties are entitled to litigate as they choose",
+        "correct": false,
+        "feedback": "Incorrect. Under CPR 1.4 (active case management), the court controls the scope of litigation. The Overriding Objective empowers the court to limit disproportionate procedures."
+      },
+      {
+        "id": "b",
+        "text": "The court will allow the budget but cap the claimant's recoverable costs at £3,500 regardless of the outcome",
+        "correct": false,
+        "feedback": "Costs capping is a mechanism, but the court's primary tool here is to restrict the procedures themselves — limiting disclosure, expert evidence, and trial length."
+      },
+      {
+        "id": "c",
+        "text": "The court is likely to limit disclosure, expert evidence, and trial length because a budget of £85,000 for a £3,500 debt is disproportionate under CPR 1.1(2)(c). The Overriding Objective requires dealing with the case at proportionate cost",
+        "correct": true,
+        "feedback": "Correct. Spending £85,000 to recover £3,500 violates CPR 1.1(2)(c). The court will limit the case to a proportionate scope — likely fast track, limited disclosure, and a one-day trial. Active case management requires the court to prevent disproportionate litigation."
+      },
+      {
+        "id": "d",
+        "text": "The court will strike out the claim as an abuse of process",
+        "correct": false,
+        "feedback": "A valid £3,500 debt claim is not an abuse of process. The issue is proportionality, not abuse. The court will manage the case, not strike it out."
+      }
+    ],
+    "feedback": "Proportionality is at the heart of the Overriding Objective. CPR 1.1(2)(c) requires the case to be dealt with in ways proportionate to its value. A £85,000 costs budget for a £3,500 claim is manifestly disproportionate. Under CPR 1.4 (active case management), the court will restrict the procedures to what is reasonable. *Lownds v Home Office* [2002] confirms the proportionality approach.",
+    "oscoaReferences": [
+      "Civil Procedure Rules 1998, rr.1.1, 1.4",
+      "Lownds v Home Office [2002] EWCA Civ 365"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "proportionality",
+      "costs",
+      "scenario"
+    ]
+  },
+  {
+    "lessonId": "lesson-I1-1",
+    "microSkill": "I1.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "spot_error",
+    "question": "Spot the legal error:\n\n'The Overriding Objective under CPR 1.1 requires the court to ensure that each party has an equal number of witnesses, an equal amount of court time, and equal legal representation. If one party has a QC and the other a junior barrister, the court must order the weaker party to upgrade their representation.'",
+    "answer": "CPR 1.1(2)(a) requires parties to be on an *equal footing*, not identical treatment. It means neither party should be at an unfair procedural disadvantage. The court cannot compel a party to instruct more expensive counsel. Equality of arms is about removing procedural barriers, not mandating equal resources.",
+    "options": [],
+    "feedback": "Correct. Equal footing means ensuring neither party is procedurally disadvantaged — for example, a litigant in person should be given reasonable assistance by the court. It does not mean the court equalises legal teams or witness numbers. The error statement confuses equality of footing with equality of outcome.",
+    "oscoaReferences": [
+      "Civil Procedure Rules 1998, r.1.1(2)(a)"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "equal-footing",
+      "cpr-1.1",
+      "spot-error"
+    ]
+  },
+  {
+    "lessonId": "lesson-I1-1",
+    "microSkill": "I1.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "msq",
+    "question": "Which TWO of the following are express components of the Overriding Objective under CPR 1.1(2)?",
+    "answer": "b,c",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ensuring the wealthier party pays the costs of the poorer party",
+        "correct": false,
+        "feedback": "Incorrect. This is not an express component. Costs orders follow the event (CPR 44.2). The financial position of a party is a factor in proportionality but does not compel costs orders against the wealthier party."
+      },
+      {
+        "id": "b",
+        "text": "Ensuring the parties are on an equal footing",
+        "correct": true,
+        "feedback": "Correct. CPR 1.1(2)(a) — equality of arms. The court must ensure so far as practicable that neither party has an unfair procedural advantage."
+      },
+      {
+        "id": "c",
+        "text": "Allotting to the case an appropriate share of the court's resources",
+        "correct": true,
+        "feedback": "Correct. CPR 1.1(2)(e) — the court must balance the needs of the instant case against the demands of other cases. This is a public resource management principle."
+      },
+      {
+        "id": "d",
+        "text": "Granting summary judgment in every case where the defence appears weak on paper",
+        "correct": false,
+        "feedback": "Incorrect. Summary judgment is a specific procedure under CPR Part 24, not a component of the Overriding Objective."
+      },
+      {
+        "id": "e",
+        "text": "Requiring the parties to mediate before issuing proceedings",
+        "correct": false,
+        "feedback": "The court encourages ADR (CPR 1.4(2)(e)) but does not require it. Mandatory mediation has been proposed but is not an express component of the Overriding Objective."
+      }
+    ],
+    "feedback": "Correct answers: (b) and (c). CPR 1.1(2) lists six components: equal footing, saving expense, proportionality, expedition, court resources, and enforcing compliance. Costs and ADR are related but are governed by separate rules.",
+    "oscoaReferences": [
+      "Civil Procedure Rules 1998, r.1.1(2)"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "cpr-1.1",
+      "overriding-objective",
+      "msq"
+    ]
+  },
+  {
+    "lessonId": "lesson-I1-1",
+    "microSkill": "I1.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "CPR ____(2)(c) requires the court to deal with the case in ways which are proportionate to the amount of money involved, the importance of the case, the complexity of the issues, and the financial position of each party.",
+    "answer": "1.1",
+    "options": [],
+    "feedback": "Correct. CPR 1.1(2)(c) is the proportionality limb. It is the centrepiece of modern civil procedure — the cost of litigation should not exceed what is at stake.",
+    "oscoaReferences": [
+      "Civil Procedure Rules 1998, r.1.1(2)(c)"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "cpr-1.1",
+      "proportionality"
+    ]
+  },
+  {
+    "lessonId": "lesson-I1-1",
+    "microSkill": "I1.1",
+    "block": "B",
+    "phase": "teaching",
+    "teachingSummary": "**Striking Out — CPR 3.4:** The court may strike out a statement of case (or part of it) if: (a) it discloses no reasonable grounds for bringing or defending the claim; (b) it is an abuse of the court's process or is otherwise likely to obstruct the just disposal of the proceedings; or (c) there has been a failure to comply with a rule, practice direction, or court order. Striking out is a draconian sanction — it terminates the claim or defence without trial. The court must consider whether a lesser sanction would suffice.\n\n**Summary Judgment — CPR 24:** The court may give summary judgment against a claimant or defendant if (a) the claimant has no real prospect of succeeding on the claim or issue, or the defendant has no real prospect of successfully defending the claim or issue; and (b) there is no other compelling reason why the case or issue should proceed to trial. The test is not whether the claim or defence is likely to succeed, but whether it has a *real* prospect — more than merely arguable. *Easyair Ltd v Opal Telecom Ltd* [2009] EWHC 339 (Ch) confirmed that summary judgment is appropriate where the factual basis is not in dispute and the legal argument is hopeless.\n\n**Distinction:** Striking out (CPR 3.4) attacks the *form* and *compliance* of the statement of case — does it even state a cause of action? Summary judgment (CPR 24) attacks the *merits* — does the claim or defence have a real prospect of success? Both are early disposal mechanisms that avoid the cost and delay of a trial.\n\n**In short:** CPR 3.4 strips out defective or abusive cases. CPR 24 dismisses cases that, while properly pleaded, have no real prospect of success at trial.",
+    "type": "teaching",
+    "question": "",
+    "answer": "",
+    "options": [],
+    "feedback": "",
+    "oscoaReferences": [
+      "Civil Procedure Rules 1998, rr.3.4, 24.2",
+      "Easyair Ltd v Opal Telecom Ltd [2009] EWHC 339 (Ch)"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "cpr-3.4",
+      "cpr-24",
+      "striking-out",
+      "summary-judgment"
+    ]
+  },
+  {
+    "lessonId": "lesson-I1-1",
+    "microSkill": "I1.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "Under CPR ____, the court may strike out a statement of case if it discloses no reasonable grounds for bringing or defending the claim, is an abuse of process, or there has been a failure to comply with a rule or order.",
+    "answer": "3.4",
+    "options": [],
+    "feedback": "Correct. CPR 3.4 sets out the court's power to strike out. The three grounds are: no reasonable grounds (3.4(2)(a)), abuse of process (3.4(2)(b)), and non-compliance (3.4(2)(c)).",
+    "oscoaReferences": [
+      "Civil Procedure Rules 1998, r.3.4"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "cpr-3.4",
+      "striking-out"
+    ]
+  },
+  {
+    "lessonId": "lesson-I1-1",
+    "microSkill": "I1.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "In __________ Ltd v Opal Telecom Ltd [2009] EWHC 339 (Ch), the court confirmed that summary judgment under CPR 24 is appropriate where the factual basis is undisputed and the legal argument has no real prospect of success.",
+    "answer": "Easyair",
+    "options": [],
+    "feedback": "Correct. *Easyair Ltd v Opal Telecom Ltd* [2009] EWHC 339 (Ch) — summary judgment does not require a trial if the facts are agreed and the only question is a point of law that the court can decide summarily.",
+    "oscoaReferences": [
+      "Easyair Ltd v Opal Telecom Ltd [2009] EWHC 339 (Ch)",
+      "Civil Procedure Rules 1998, r.24.2"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "easyair",
+      "summary-judgment",
+      "cpr-24"
+    ]
+  },
+  {
+    "lessonId": "lesson-I1-1",
+    "microSkill": "I1.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "drag_elements",
+    "question": "Match each early disposal mechanism to its correct ground:",
+    "answer": "CPR 3.4(2)(a)=Statement of case discloses no reasonable grounds; CPR 3.4(2)(b)=Abuse of process or obstruction of just disposal; CPR 24.2(a)=No real prospect of succeeding on the claim or defence; CPR 3.4(2)(c)=Failure to comply with a rule, practice direction, or court order",
+    "options": [
+      {
+        "id": "rga",
+        "text": "Statement of case discloses no reasonable grounds for bringing or defending the claim",
+        "pair": "CPR 3.4(2)(a)"
+      },
+      {
+        "id": "abuse",
+        "text": "Statement of case is an abuse of process or likely to obstruct the just disposal",
+        "pair": "CPR 3.4(2)(b)"
+      },
+      {
+        "id": "merits",
+        "text": "Claimant/defendant has no real prospect of succeeding on the claim or defence",
+        "pair": "CPR 24.2(a)"
+      },
+      {
+        "id": "comply",
+        "text": "There has been a failure to comply with a rule, practice direction, or court order",
+        "pair": "CPR 3.4(2)(c)"
+      }
+    ],
+    "feedback": "Well matched. CPR 3.4 addresses pleading and compliance defects. CPR 24 addresses substantive merits. Together they provide early disposal mechanisms consistent with the Overriding Objective of dealing with cases justly and at proportionate cost.",
+    "oscoaReferences": [
+      "Civil Procedure Rules 1998, rr.3.4, 24.2"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "cpr-3.4",
+      "cpr-24",
+      "matching"
+    ]
+  },
+  {
+    "lessonId": "lesson-I1-1",
+    "microSkill": "I1.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "A claimant issues proceedings against a former employer for unfair dismissal. The Particulars of Claim state only: 'I was dismissed unfairly. The employer was mean to me.' The claim form and particulars disclose no facts about the dismissal, no date, and no legal basis. The employer applies to strike out. Applying CPR 3.4:",
+    "answer": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "The court is likely to strike out the claim under CPR 3.4(2)(a) — the statement of case discloses no reasonable grounds for bringing the claim. It is a bare assertion without facts",
+        "correct": true,
+        "feedback": "Correct. The Particulars of Claim disclose no cause of action. A statement that 'the employer was mean' does not state the facts on which the claimant relies. The court will strike out under CPR 3.4(2)(a), though it may give permission to amend."
+      },
+      {
+        "id": "b",
+        "text": "The court will give summary judgment for the employer under CPR 24 because the claim has no real prospect of success",
+        "correct": false,
+        "feedback": "Summary judgment attacks the *merits*, but here there are no pleaded merits to attack. The defect is in the *pleading* itself — the appropriate tool is striking out under CPR 3.4."
+      },
+      {
+        "id": "c",
+        "text": "The court will do nothing — a claimant is entitled to have any case tried regardless of how it is pleaded",
+        "correct": false,
+        "feedback": "Incorrect. The Overriding Objective requires early disposal of defective claims. The court will not allow a claim with no pleaded cause of action to proceed to trial."
+      },
+      {
+        "id": "d",
+        "text": "The court will strike out under CPR 3.4(2)(c) for failure to comply with a practice direction",
+        "correct": false,
+        "feedback": "While the pleading fails to comply with PD 16, the primary ground is CPR 3.4(2)(a) — no reasonable grounds. (c) is for non-compliance with an order, not defective drafting."
+      }
+    ],
+    "feedback": "CPR 3.4(2)(a) is the correct ground: the statement of case discloses no reasonable grounds. It is not a question of merits but of pleading adequacy. The claim does not state the facts on which the allegation is based, so there is no discernible cause of action. The court may allow an opportunity to amend rather than striking out finally.",
+    "oscoaReferences": [
+      "Civil Procedure Rules 1998, r.3.4",
+      "Practice Direction 16"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "striking-out",
+      "cpr-3.4",
+      "scenario",
+      "pleading"
+    ]
+  },
+  {
+    "lessonId": "lesson-I1-1",
+    "microSkill": "I1.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "spot_error",
+    "question": "Spot the legal error:\n\n'Summary judgment under CPR 24 is available whenever the court considers that a claim is unlikely to succeed. The test is whether the claim is more likely to fail than to succeed on the balance of probabilities.'",
+    "answer": "The test for summary judgment is NOT the balance of probabilities. It is whether the claim or defence has a *real* prospect of success — more than merely arguable but less than likely to succeed. A claim need not be likely to succeed to survive summary judgment; it only needs a real prospect.",
+    "options": [],
+    "feedback": "Correct. The Court of Appeal has repeatedly emphasised that summary judgment is not a mini-trial. The test is real prospect, not likelihood. A claim with a 40% chance of success has a real prospect and must go to trial. *Swain v Hillman* [2001] 1 All ER 91 — the threshold is whether the claim is fanciful or merely arguable.",
+    "oscoaReferences": [
+      "Civil Procedure Rules 1998, r.24.2",
+      "Swain v Hillman [2001] 1 All ER 91"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "summary-judgment",
+      "cpr-24",
+      "real-prospect",
+      "spot-error"
+    ]
+  },
+  {
+    "lessonId": "lesson-I1-1",
+    "microSkill": "I1.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "msq",
+    "question": "Which TWO of the following correctly describe the summary judgment test under CPR 24.2?",
+    "answer": "c,d",
+    "options": [
+      {
+        "id": "a",
+        "text": "The claimant must prove the claim on the balance of probabilities to obtain summary judgment",
+        "correct": false,
+        "feedback": "Incorrect. That is the trial standard. Summary judgment is a lower threshold — the defendant must have *no real prospect* of success."
+      },
+      {
+        "id": "b",
+        "text": "Summary judgment can be granted whenever the court thinks the claim is weak",
+        "correct": false,
+        "feedback": "Weak is not the same as no real prospect. A weak claim may still have a real prospect and proceed to trial."
+      },
+      {
+        "id": "c",
+        "text": "The test is whether the respondent has no real prospect of succeeding, not whether the court considers the claim unlikely",
+        "correct": true,
+        "feedback": "Correct. No real prospect is a higher bar for the applicant than unlikely to succeed. The respondent need only show a real (not fanciful) prospect of success."
+      },
+      {
+        "id": "d",
+        "text": "Summary judgment is available for both claimants and defendants — a claimant can seek summary judgment on the claim, and a defendant can seek summary judgment on the defence or counterclaim",
+        "correct": true,
+        "feedback": "Correct. CPR 24.2 applies both ways. A claimant may apply for summary judgment on a defence (or issue), and a defendant may apply for summary judgment on a claim."
+      },
+      {
+        "id": "e",
+        "text": "If there is another compelling reason for trial, the court may deny summary judgment even if the case has no real prospect of success",
+        "correct": false,
+        "feedback": "This is partially correct but misstated. CPR 24.2(b) states that summary judgment must be refused where there is some other compelling reason — not that the court may refuse; it must refuse."
+      }
+    ],
+    "feedback": "Correct answers: (c) and (d). The test under CPR 24.2 is no real prospect — more than fanciful, less than likelihood. Summary judgment works both ways. *Easyair* [2009] confirms it is available where the law is clear and the facts are undisputed.",
+    "oscoaReferences": [
+      "Civil Procedure Rules 1998, r.24.2",
+      "Easyair Ltd v Opal Telecom Ltd [2009] EWHC 339 (Ch)"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "cpr-24",
+      "summary-judgment",
+      "msq",
+      "real-prospect"
+    ]
+  },
+  {
+    "lessonId": "lesson-I1-1",
+    "microSkill": "I1.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "A defendant files a Defence stating: 'The Defendant denies the claim and puts the Claimant to proof.' The Defence includes no facts, no alternative version of events, and no response to any of the allegations in the Particulars of Claim. The claimant applies for the Defence to be struck out. What is the most likely outcome?",
+    "answer": "b",
+    "options": [
+      {
+        "id": "a",
+        "text": "The Defence survives — a defendant is entitled to simply deny and put the claimant to proof in all cases",
+        "correct": false,
+        "feedback": "A bare denial is not sufficient. CPR 16.5 requires a defendant to state which allegations are denied, the reasons for denial, and to put forward an alternative version if one exists."
+      },
+      {
+        "id": "b",
+        "text": "The Defence is struck out under CPR 3.4(2)(a) — it discloses no reasonable grounds for defending the claim. A bare denial without engaging with the allegations does not constitute a valid defence",
+        "correct": true,
+        "feedback": "Correct. CPR 16.5 requires a defence to address each allegation, stating reasons for denial and, if the defendant intends to put forward a different version, to state their own version. A bare denial that puts the claimant to proof without engaging with the pleaded case is insufficient and will be struck out."
+      },
+      {
+        "id": "c",
+        "text": "The court will grant summary judgment under CPR 24 because the defendant has no real prospect of success",
+        "correct": false,
+        "feedback": "The defect is the *form* of the Defence (pleading), not its *merits*. Striking out under CPR 3.4 is the appropriate remedy. Summary judgment addresses merit, not pleading adequacy."
+      },
+      {
+        "id": "d",
+        "text": "The court will allow the Defence but order the defendant to pay the claimant's costs",
+        "correct": false,
+        "feedback": "A bare denial is not just an issue of costs — it is an invalid defence. The court will strike it out, though likely with permission to re-serve a proper Defence."
+      }
+    ],
+    "feedback": "A bare denial is not a valid statement of case. CPR 16.5 imposes an obligation to set out the defendant's case. Putting the claimant to proof without more is inadequate. The Defence would be struck out under CPR 3.4(2)(a) — no reasonable grounds — but the defendant would typically be given one opportunity to file a compliant Defence.",
+    "oscoaReferences": [
+      "Civil Procedure Rules 1998, rr.3.4, 16.5"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "striking-out",
+      "cpr-3.4",
+      "defence",
+      "scenario"
+    ]
+  },
+  {
+    "lessonId": "lesson-I1-1",
+    "microSkill": "I1.1",
+    "block": "C",
+    "phase": "teaching",
+    "teachingSummary": "**Pre-Action Protocols:** The CPR Practice Direction on Pre-Action Conduct establishes that before commencing proceedings, parties should exchange information, disclose key documents, and explore settlement. Specific protocols exist for personal injury (the APIL/PI Protocol), professional negligence, construction, and defamation. The objectives are to: (a) understand each other's position; (b) make decisions about how to proceed; (c) try to settle without proceedings; (d) consider ADR; and (e) reduce costs.\n\n**The Personal Injury Protocol:** For PI claims up to £25,000, the claimant sends a Letter of Claim with a summary of facts, allegations of negligence, and details of injury and financial loss. The defendant has 21 days to acknowledge and 3 months to investigate and respond on liability. Both parties must disclose key documents. The protocol encourages rehabilitation and early settlement.\n\n**Consequences of Non-Compliance:** CPR 3.1(4)—(6) and the Practice Direction empower the court to impose sanctions for failure to comply with pre-action protocols, including: (a) staying proceedings until compliance; (b) adverse costs orders (even against a successful party); (c) ordering costs on the indemnity basis; (d) depriving a successful party of interest on damages; and (e) requiring the defaulting party to pay costs immediately. The court considers the extent of non-compliance and prejudice caused. In *Halsey v Milton Keynes General NHS Trust* [2004] EWCA Civ 576, the Court of Appeal emphasised that unreasonable refusal to engage in ADR can attract cost sanctions.\n\n**In short:** Pre-action protocols require parties to communicate, disclose, and attempt settlement before litigation. Non-compliance risks severe costs sanctions regardless of the trial outcome.",
+    "type": "teaching",
+    "question": "",
+    "answer": "",
+    "options": [],
+    "feedback": "",
+    "oscoaReferences": [
+      "Civil Procedure Rules 1998, Practice Direction — Pre-Action Conduct",
+      "Halsey v Milton Keynes General NHS Trust [2004] EWCA Civ 576"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "pre-action",
+      "protocols",
+      "pi-protocol",
+      "costs"
+    ]
+  },
+  {
+    "lessonId": "lesson-I1-1",
+    "microSkill": "I1.1",
+    "block": "C",
+    "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "Under the CPR Practice Direction on Pre-Action Conduct, parties are required to exchange sufficient information to understand each other's position, make decisions about how to proceed, and try to settle without __________.",
+    "answer": "proceedings",
+    "options": [],
+    "feedback": "Correct. The objectives of pre-action protocols include trying to settle the dispute without issuing proceedings. The court expects parties to have explored settlement and ADR before issuing a claim form.",
+    "oscoaReferences": [
+      "Civil Procedure Rules 1998, Practice Direction — Pre-Action Conduct"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "pre-action",
+      "settlement",
+      "protocols"
+    ]
+  },
+  {
+    "lessonId": "lesson-I1-1",
+    "microSkill": "I1.1",
+    "block": "C",
+    "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "In __________ v Milton Keynes General NHS Trust [2004] EWCA Civ 576, the Court of Appeal held that an unreasonable refusal to engage in ADR can be penalised in costs, even if the refusing party wins at trial.",
+    "answer": "Halsey",
+    "options": [],
+    "feedback": "Correct. *Halsey v Milton Keynes General NHS Trust* [2004] EWCA Civ 576 — the Court emphasised that litigation should be a last resort. A party who unreasonably refuses to mediate may face adverse costs consequences. The court set out factors to consider when determining the reasonableness of a refusal to mediate.",
+    "oscoaReferences": [
+      "Halsey v Milton Keynes General NHS Trust [2004] EWCA Civ 576"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "halsey",
+      "adr",
+      "costs",
+      "mediation"
+    ]
+  },
+  {
+    "lessonId": "lesson-I1-1",
+    "microSkill": "I1.1",
+    "block": "C",
+    "phase": "teaching",
+    "type": "drag_elements",
+    "question": "Arrange the steps under the Personal Injury Pre-Action Protocol:",
+    "answer": "Claimant sends Letter of Claim → Defendant acknowledges within 21 days → Defendant investigates for up to 3 months → Defendant responds on liability and quantum → Parties exchange key documents and explore settlement → If unresolved, claimant issues proceedings",
+    "options": [
+      {
+        "id": "1",
+        "text": "Claimant sends Letter of Claim with summary of facts, allegations, and injury details",
+        "order": 1
+      },
+      {
+        "id": "2",
+        "text": "Defendant acknowledges Letter of Claim within 21 days",
+        "order": 2
+      },
+      {
+        "id": "3",
+        "text": "Defendant has 3 months to investigate and respond on liability",
+        "order": 3
+      },
+      {
+        "id": "4",
+        "text": "Defendant responds on liability and quantum (making offers where appropriate)",
+        "order": 4
+      },
+      {
+        "id": "5",
+        "text": "Parties exchange key documents and explore settlement/ADR",
+        "order": 5
+      },
+      {
+        "id": "6",
+        "text": "If unresolved, claimant issues proceedings",
+        "order": 6
+      }
+    ],
+    "feedback": "Correct. The PI Protocol follows a structured timetable: 21 days for acknowledgment, 3 months for investigation and response. The aim is to resolve the claim without litigation. If a party fails to comply, the court may impose costs sanctions.",
+    "oscoaReferences": [
+      "Civil Procedure Rules 1998, Practice Direction — Pre-Action Conduct",
+      "Personal Injury Pre-Action Protocol"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "pi-protocol",
+      "pre-action",
+      "sequence"
+    ]
+  },
+  {
+    "lessonId": "lesson-I1-1",
+    "microSkill": "I1.1",
+    "block": "C",
+    "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "A claimant in a personal injury claim sends a Letter of Claim. The defendant insurer does not respond for 6 months. The claimant issues and serves proceedings. The defendant immediately admits liability and settles. The claimant applies for costs on the indemnity basis, citing the defendant's failure to comply with the PI Protocol. What is the likely outcome?",
+    "answer": "b",
+    "options": [
+      {
+        "id": "a",
+        "text": "No costs sanction — the defendant settled and the claimant got their damages, so compliance is irrelevant",
+        "correct": false,
+        "feedback": "Incorrect. Settlement after proceedings are issued does not cure pre-action non-compliance. The costs sanction is for the failure to engage pre-action, which caused unnecessary proceedings."
+      },
+      {
+        "id": "b",
+        "text": "The court is likely to order costs on the indemnity basis against the defendant for failure to comply with the PI Protocol, which caused unnecessary proceedings and costs",
+        "correct": true,
+        "feedback": "Correct. The defendant's 6-month silence was a clear breach of the PI Protocol (which requires acknowledgment within 21 days and response within 3 months). The claimant was forced to issue proceedings unnecessarily. Indemnity costs are appropriate to reflect the court's disapproval."
+      },
+      {
+        "id": "c",
+        "text": "The court will make no costs order because the defendant admitted liability — this is the best outcome",
+        "correct": false,
+        "feedback": "Admission after proceedings does not erase the pre-action breach. The court will mark its disapproval with costs sanctions."
+      },
+      {
+        "id": "d",
+        "text": "The claimant must pay the defendant's costs for issuing proceedings prematurely",
+        "correct": false,
+        "feedback": "Incorrect. The claimant waited 6 months — double the 3-month response period. Issuing proceedings was reasonable and necessary. The defendant caused the issue of proceedings."
+      }
+    ],
+    "feedback": "Pre-action non-compliance has real consequences. The PI Protocol demands a timely response. The defendant's failure to respond for 6 months forced the claimant to issue proceedings — a waste of court resources and costs. Indemnity costs reflect the court's disapproval and compensate the claimant for the unnecessary litigation. *Halsey* [2004] principles apply by analogy.",
+    "oscoaReferences": [
+      "Civil Procedure Rules 1998, Practice Direction — Pre-Action Conduct",
+      "Personal Injury Pre-Action Protocol",
+      "Halsey v Milton Keynes General NHS Trust [2004] EWCA Civ 576"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "pre-action",
+      "costs",
+      "pi-protocol",
+      "scenario"
+    ]
+  },
+  {
+    "lessonId": "lesson-I1-1",
+    "microSkill": "I1.1",
+    "block": "C",
+    "phase": "teaching",
+    "type": "spot_error",
+    "question": "Spot the legal error:\n\n'Pre-action protocols are voluntary guidance only. A party who ignores the protocol and issues proceedings immediately suffers no penalty, because the court only considers conduct after proceedings are issued when making costs orders.'",
+    "answer": "Pre-action protocols are NOT merely voluntary guidance. They have teeth — the court can impose significant costs sanctions for pre-action non-compliance, including indemnity costs, even against the successful party. CPR 3.1(4)—(6) gives the court express power to sanction pre-action conduct.",
+    "options": [],
+    "feedback": "Correct. The CPR Practice Direction on Pre-Action Conduct is not voluntary guidance but a mandatory code of conduct. Non-compliance attracts real sanctions: adverse costs orders, indemnity costs, deprivation of interest, and stays of proceedings. The court considers pre-action conduct when making costs orders under CPR 44.2(4)—(5). The error statement fundamentally misunderstands the status and enforceability of pre-action protocols.",
+    "oscoaReferences": [
+      "Civil Procedure Rules 1998, rr.3.1(4)—(6), 44.2(4)—(5)",
+      "Practice Direction — Pre-Action Conduct"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "pre-action",
+      "costs",
+      "spot-error",
+      "compliance"
+    ]
+  },
+  {
+    "lessonId": "lesson-I1-1",
+    "microSkill": "I1.1",
+    "block": "C",
+    "phase": "teaching",
+    "type": "msq",
+    "question": "Which TWO of the following are potential consequences of a party's failure to comply with a pre-action protocol?",
+    "answer": "a,d",
+    "options": [
+      {
+        "id": "a",
+        "text": "The court may order the defaulting party to pay costs on the indemnity basis",
+        "correct": true,
+        "feedback": "Correct. Indemnity costs are a higher rate of costs and reflect court disapproval. They are a recognised sanction for pre-action non-compliance."
+      },
+      {
+        "id": "b",
+        "text": "The defaulting party's claim is automatically struck out",
+        "correct": false,
+        "feedback": "Incorrect. There is no automatic strike-out for pre-action non-compliance. The court may stay proceedings but will not strike out the claim unless the non-compliance is very serious and prejudices the other party."
+      },
+      {
+        "id": "c",
+        "text": "The defaulting party is prevented from issuing proceedings for 6 months",
+        "correct": false,
+        "feedback": "Incorrect. The court cannot bar a party from issuing proceedings. It can stay proceedings, impose costs sanctions, or make adverse case management orders, but not prevent access to the court."
+      },
+      {
+        "id": "d",
+        "text": "The court may deprive a successful defaulting party of interest on damages awarded",
+        "correct": true,
+        "feedback": "Correct. CPR 3.1(4)—(6) and the Practice Direction permit the court to deprive a party of interest on damages or costs as a sanction for pre-action non-compliance, even if that party wins at trial."
+      },
+      {
+        "id": "e",
+        "text": "The claim is transferred to the High Court automatically",
+        "correct": false,
+        "feedback": "Incorrect. Transfer to the High Court is determined by the value and complexity of the claim and the appropriate track, not by pre-action non-compliance."
+      }
+    ],
+    "feedback": "Correct answers: (a) and (d). Indemnity costs and deprivation of interest are two of the sanctions available. The court has a broad discretion to mark pre-action non-compliance with costs orders, interest adjustments, and stays. *Halsey* [2004] confirms that ADR refusal can also attract costs penalties.",
+    "oscoaReferences": [
+      "Civil Procedure Rules 1998, rr.3.1(4)—(6)",
+      "Practice Direction — Pre-Action Conduct",
+      "Halsey v Milton Keynes General NHS Trust [2004] EWCA Civ 576"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "pre-action",
+      "costs",
+      "sanctions",
+      "msq"
+    ]
+  },
+  {
+    "lessonId": "lesson-I1-1",
+    "microSkill": "I1.1",
+    "block": "C",
+    "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "A defendant in a professional negligence claim refuses to mediate despite three invitations from the claimant. The defendant wins at trial — the judge finds no negligence. The defendant seeks its costs. The claimant argues the defendant should be deprived of costs for unreasonably refusing ADR. Applying *Halsey* [2004]:",
+    "answer": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "The defendant may still be deprived of part of its costs if the refusal to mediate was unreasonable. Under *Halsey* [2004], a successful party can face costs sanctions for unreasonable ADR refusal",
+        "correct": true,
+        "feedback": "Correct. *Halsey* [2004] makes clear that a successful party is not immune from costs sanctions for unreasonable refusal to mediate. The court will consider the nature of the dispute, the merits, the extent to which other settlement methods were attempted, whether the costs of ADR would be disproportionate, and whether ADR had a reasonable prospect of success."
+      },
+      {
+        "id": "b",
+        "text": "The defendant is automatically entitled to all its costs because it won — *Halsey* does not apply to the successful party",
+        "correct": false,
+        "feedback": "Incorrect. *Halsey* [2004] expressly rejected this proposition. A successful party who unreasonably refuses ADR can face costs sanctions."
+      },
+      {
+        "id": "c",
+        "text": "The claimant is entitled to its costs because the defendant refused ADR — the trial outcome is irrelevant",
+        "correct": false,
+        "feedback": "Incorrect. The trial outcome is relevant. The court balances the success at trial against the pre-trial conduct. The defendant winning is a significant factor, but not determinative."
+      },
+      {
+        "id": "d",
+        "text": "The court will order the defendant to pay the claimant's costs as a penalty for refusing ADR",
+        "correct": false,
+        "feedback": "Incorrect. Depriving the successful party of some of its costs is possible, but ordering the successful party to pay the losing party's costs would be extreme and unjustified. The sanction is typically a reduction in recoverable costs, not a reversal of the costs order."
+      }
+    ],
+    "feedback": "*Halsey v Milton Keynes General NHS Trust* [2004] EWCA Civ 576 established that an unreasonable refusal to engage in ADR can be penalised in costs, even against a successful party. The court identified six factors: the nature of the dispute, the merits, other settlement attempts, the costs of ADR, whether ADR had a reasonable prospect of success, and any prejudice from delay. The defendant's refusal here may result in a percentage reduction in its recoverable costs.",
+    "oscoaReferences": [
+      "Halsey v Milton Keynes General NHS Trust [2004] EWCA Civ 576"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "halsey",
+      "adr",
+      "costs",
+      "scenario"
+    ]
+  },
+  {
+    "lessonId": "lesson-I1-1",
+    "microSkill": "I1.1",
+    "block": "consolidation",
+    "phase": "consolidation",
+    "teachingSummary": "",
+    "type": "scenario_choice",
+    "question": "[CONSOLIDATION — Block A] A judge, faced with two competing applications, grants a 30-minute hearing to a £2,000 small claim and allocates a 3-day trial to a £2 million commercial dispute. The small claim claimant appeals, arguing the overriding objective requires equal court time for all parties. Applying CPR 1.1:",
+    "answer": "c",
+    "options": [
+      {
+        "id": "a",
+        "text": "The appeal succeeds — CPR 1.1(2)(a) requires equal footing, which means equal court time for all litigants",
+        "correct": false,
+        "feedback": "Equal footing does not mean equal court time. It prevents procedural disadvantage, not unequal resource allocation."
+      },
+      {
+        "id": "b",
+        "text": "The appeal succeeds — judicial discretion cannot override the right to a full hearing",
+        "correct": false,
+        "feedback": "The right to a fair hearing does not entitle a party to disproportionate court time. Active case management under CPR 1.4 permits the court to allocate time proportionately."
+      },
+      {
+        "id": "c",
+        "text": "The appeal fails — CPR 1.1(2)(e) requires allotting an appropriate share of the court's resources, and allocating more time to a £2m dispute than a £2k claim is an appropriate allocation. Proportionality under CPR 1.1(2)(c) also supports this",
+        "correct": true,
+        "feedback": "Correct. The court must allocate resources appropriately (CPR 1.1(2)(e)). A 30-minute hearing for a £2,000 claim and a 3-day trial for a £2 million dispute is proportionate and consistent with the Overriding Objective. Equality does not mean identical allocation."
+      },
+      {
+        "id": "d",
+        "text": "The judge should have recused themselves for apparent bias towards wealthier litigants",
+        "correct": false,
+        "feedback": "Incorrect. Allocating more resources to a more complex, higher-value case is proper case management, not bias."
+      }
+    ],
+    "feedback": "This consolidates Block A: CPR 1.1(2)(e) requires the court to allot an appropriate share of resources, balancing the needs of the instant case against the needs of other cases. A £2m dispute with complex issues requires more court time. A £2k small claim is appropriately dealt with in a 30-minute small claims hearing. This is proper case management, not unequal treatment.",
+    "oscoaReferences": [
+      "Civil Procedure Rules 1998, r.1.1(2)(c), (e)"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "consolidation",
+      "proportionality",
+      "court-resources",
+      "scenario"
+    ]
+  },
+  {
+    "lessonId": "lesson-I1-1",
+    "microSkill": "I1.1",
+    "block": "consolidation",
+    "phase": "consolidation",
+    "teachingSummary": "",
+    "type": "fill_gap_statute",
+    "question": "[CONSOLIDATION — Block B] The power to strike out a statement of case that discloses no reasonable grounds for bringing or defending a claim is found in CPR _____.",
+    "answer": "3.4",
+    "options": [],
+    "feedback": "Correct. CPR 3.4(2)(a) — the striking out power for statements of case that disclose no reasonable grounds. This consolidates Block B: the distinction between striking out (pleading defects) and summary judgment (substantive merits).",
+    "oscoaReferences": [
+      "Civil Procedure Rules 1998, r.3.4"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "consolidation",
+      "cpr-3.4",
+      "striking-out"
+    ]
+  },
+  {
+    "lessonId": "lesson-I1-1",
+    "microSkill": "I1.1",
+    "block": "consolidation",
+    "phase": "consolidation",
+    "teachingSummary": "",
+    "type": "msq",
+    "question": "[CONSOLIDATION] Which TWO of the following correctly state the position under the Civil Procedure Rules?",
+    "answer": "b,e",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pre-action protocols are advisory only and carry no sanction for non-compliance",
+        "correct": false,
+        "feedback": "Incorrect. Pre-action protocols are mandatory and non-compliance carries sanctions including adverse costs orders."
+      },
+      {
+        "id": "b",
+        "text": "Summary judgment under CPR 24 requires the respondent to have no real prospect of success — a different test from the balance of probabilities",
+        "correct": true,
+        "feedback": "Correct. The test is real prospect, not probability. A weak claim may still survive summary judgment if it has a real prospect."
+      },
+      {
+        "id": "c",
+        "text": "The Overriding Objective requires every case to receive the same amount of court time",
+        "correct": false,
+        "feedback": "Incorrect. CPR 1.1(2)(e) requires an *appropriate* share of resources, not an equal share."
+      },
+      {
+        "id": "d",
+        "text": "A party who wins at trial is always entitled to all their costs regardless of pre-action conduct",
+        "correct": false,
+        "feedback": "Incorrect. CPR 44.2(4)—(5) permits the court to consider pre-action conduct when making costs orders, including against a successful party."
+      },
+      {
+        "id": "e",
+        "text": "CPR 3.4 strikes out statements of case for pleading defects, while CPR 24 provides summary judgment on the substantive merits",
+        "correct": true,
+        "feedback": "Correct. CPR 3.4 addresses the form of the pleading; CPR 24 addresses the substance of the claim or defence. They are complementary early disposal mechanisms."
+      }
+    ],
+    "feedback": "Correct answers: (b) and (e). The real prospect test (CPR 24) and the distinction between striking out and summary judgment (CPR 3.4 vs CPR 24) are core concepts. Pre-action protocols have teeth, proportionality governs resource allocation, and costs follow the event but can be modified for conduct.",
+    "oscoaReferences": [
+      "Civil Procedure Rules 1998, rr.1.1, 3.4, 24.2, 44.2"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "consolidation",
+      "cpr",
+      "msq"
+    ]
+  },
+  {
+    "lessonId": "lesson-I1-1",
+    "microSkill": "I1.1",
+    "block": "consolidation",
+    "phase": "consolidation",
+    "teachingSummary": "",
+    "type": "scenario_choice",
+    "question": "[CONSOLIDATION — Blocks B & C] A claimant issues proceedings without sending a Letter of Claim. The defendant immediately applies to strike out the claim as an abuse of process and seeks summary judgment on the grounds that the claimant has no real prospect of success because limitation has expired. The claimant argues the pre-action protocol would have been futile because the defendant was known to refuse all settlement offers. What is the likely outcome?",
+    "answer": "d",
+    "options": [
+      {
+        "id": "a",
+        "text": "The claim is struck out automatically — issuing proceedings without a pre-action letter is always fatal",
+        "correct": false,
+        "feedback": "Incorrect. Non-compliance with pre-action protocols is not an automatic ground for striking out. The court will consider the extent of non-compliance and any prejudice caused."
+      },
+      {
+        "id": "b",
+        "text": "The court must stay the proceedings to allow the pre-action protocol to be complied with retrospectively",
+        "correct": false,
+        "feedback": "A stay is one option, but the court may consider that the protocol would have been futile, or that a stay would serve no purpose. It is not mandatory."
+      },
+      {
+        "id": "c",
+        "text": "Summary judgment is granted because the claimant's non-compliance with the protocol proves the claim is hopeless",
+        "correct": false,
+        "feedback": "Incorrect. Pre-action non-compliance is a conduct issue, not a merits issue. It does not by itself prove the claim has no real prospect of success."
+      },
+      {
+        "id": "d",
+        "text": "The court will not strike out the claim but is likely to impose costs sanctions — such as depriving the claimant of costs even if successful, or requiring them to pay the defendant's costs of the application. Summary judgment will be determined on the limitation issue separately",
+        "correct": true,
+        "feedback": "Correct. The court separates the conduct issue (pre-action non-compliance) from the merits (limitation). The Civil Procedure Rules do not require the court to strike out automatically. The appropriate response is costs sanctions — the claimant may be ordered to pay the costs thrown away by the pre-action failure. The limitation defence is a separate matter for summary judgment or trial."
+      }
+    ],
+    "feedback": "This consolidates Blocks B and C: pre-action non-compliance attracts costs sanctions, not automatic strike-out. The court manages the two issues separately — the conduct (costs) and the merits (limitation). The Overriding Objective requires a proportionate response, not a draconian one. Striking out for pre-action non-compliance would be disproportionate where the claim may have merit.",
+    "oscoaReferences": [
+      "Civil Procedure Rules 1998, rr.3.4, 24.2",
+      "Practice Direction — Pre-Action Conduct",
+      "Halsey v Milton Keynes General NHS Trust [2004] EWCA Civ 576"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "consolidation",
+      "pre-action",
+      "striking-out",
+      "scenario"
+    ]
+  }
+]

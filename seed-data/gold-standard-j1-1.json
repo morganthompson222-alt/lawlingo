@@ -1,0 +1,951 @@
+[
+  {
+    "lessonId": "lesson-J1-1",
+    "microSkill": "J1.1",
+    "block": "A",
+    "phase": "teaching",
+    "teachingSummary": "**Stop & Search — s.1 PACE 1984:** Section 1 of the Police and Criminal Evidence Act 1984 empowers a constable to stop and search any person or vehicle in a public place if the constable has *reasonable grounds to suspect* that they will find stolen or prohibited articles. Prohibited articles include offensive weapons, articles for use in burglary, theft, obtaining property by deception, or criminal damage. The search must be limited to what is reasonably required to discover the suspected article.\n\n**Reasonable Grounds to Suspect:** This is an objective standard — the constable must have a genuine suspicion based on objective facts, not a mere hunch or gut feeling. Code A, paragraph 2.2 provides that reasonable grounds to suspect cannot be based solely on personal factors such as race, age, appearance, or previous convictions. In *R (on the application of Roberts) v Commissioner of Police of the Metropolis* [2015] UKSC 79, the Supreme Court confirmed that s.60 CJPOA searches (which do not require reasonable suspicion) must still be justified under Convention rights.\n\n**Scope of the Search:** Under s.2 PACE, the constable must give their name, the police station to which they are attached, the object of the proposed search, and the grounds for the search (if not in uniform, documentary evidence of identity). The search must be at or near the place where the person was stopped. Only outer clothing (jacket, coat, gloves) may be removed in public.\n\n**In short:** Section 1 PACE requires reasonable grounds for suspicion based on objective facts. The search is limited in scope and the constable must comply with statutory safeguards. Code A provides detailed guidance.",
+    "type": "teaching",
+    "question": "",
+    "answer": "",
+    "options": [],
+    "feedback": "",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, ss.1–2",
+      "R (Roberts) v Commissioner of Police of the Metropolis [2015] UKSC 79",
+      "PACE Code A"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "pace-1984",
+      "s1",
+      "stop-search",
+      "reasonable-suspicion"
+    ]
+  },
+  {
+    "lessonId": "lesson-J1-1",
+    "microSkill": "J1.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "Under s.____ of the Police and Criminal Evidence Act 1984, a constable may stop and search a person in a public place if the constable has reasonable grounds to suspect they will find stolen or prohibited articles.",
+    "answer": "1",
+    "options": [],
+    "feedback": "Correct. Section 1 PACE 1984 provides the statutory power. The constable must have reasonable grounds to suspect, not merely a hunch. Prohibited articles include offensive weapons and articles for use in burglary, theft, or criminal damage.",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, s.1"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "pace-1984",
+      "s1",
+      "stop-search"
+    ]
+  },
+  {
+    "lessonId": "lesson-J1-1",
+    "microSkill": "J1.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "In R (on the application of __________) v Commissioner of Police of the Metropolis [2015] UKSC 79, the Supreme Court considered the use of suspicionless stop and search powers under s.60 CJPOA and their compatibility with Article 5 ECHR.",
+    "answer": "Roberts",
+    "options": [],
+    "feedback": "Correct. *R (Roberts) v Commissioner of Police of the Metropolis* [2015] UKSC 79 — the Supreme Court held that s.60 searches must be lawful under the ECHR. While s.60 does not require reasonable suspicion, the authorisation mechanism is a safeguard.",
+    "oscoaReferences": [
+      "R (Roberts) v Commissioner of Police of the Metropolis [2015] UKSC 79",
+      "Criminal Justice and Public Order Act 1994, s.60"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "roberts",
+      "stop-search",
+      "echr",
+      "supreme-court"
+    ]
+  },
+  {
+    "lessonId": "lesson-J1-1",
+    "microSkill": "J1.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "drag_elements",
+    "question": "Match each article class to its definition under s.1 PACE 1984:",
+    "answer": "Stolen articles=Articles obtained through theft or burglary; Prohibited articles=Offensive weapons or articles intended for use in criminal offences; Fireworks=Items whose possession constitutes an offence under s.1 of the Fireworks Act 2003",
+    "options": [
+      {
+        "id": "stolen",
+        "text": "Articles obtained through theft or burglary — s.1(7)",
+        "pair": "Stolen articles"
+      },
+      {
+        "id": "prohibited",
+        "text": "Offensive weapons or articles intended for use in burglary, theft, deception, or criminal damage — s.1(7)—(8)",
+        "pair": "Prohibited articles"
+      },
+      {
+        "id": "fireworks",
+        "text": "Articles whose possession constitutes an offence under s.1 Fireworks Act 2003 — s.1(8A)",
+        "pair": "Fireworks"
+      }
+    ],
+    "feedback": "Well matched. Section 1(7) defines stolen articles, s.1(8) defines prohibited articles (offensive weapons and articles made/adapted/intended for criminal use), and s.1(8A) adds fireworks. The constable may search for these classes.",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, s.1(7)—(8A)"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "pace-1984",
+      "s1",
+      "articles",
+      "matching"
+    ]
+  },
+  {
+    "lessonId": "lesson-J1-1",
+    "microSkill": "J1.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "PC Khan sees a young man walking through a shopping centre at 2pm on a Tuesday. The man is wearing a hooded jacket with the hood up. The shopping centre has had recent reports of shoplifting. PC Khan stops the man and says, 'I'm searching you under s.1 PACE because you look suspicious.' Does PC Khan have lawful grounds for the search?",
+    "answer": "d",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yes — the recent shoplifting reports justify any search in the shopping centre",
+        "correct": false,
+        "feedback": "Incorrect. The existence of shoplifting reports provides context but does not by itself constitute reasonable grounds to suspect *this particular individual*."
+      },
+      {
+        "id": "b",
+        "text": "Yes — wearing a hooded jacket is inherently suspicious",
+        "correct": false,
+        "feedback": "Incorrect. Code A, para 2.2 prohibits suspicion based on personal appearance alone. A hooded jacket, worn in a shopping centre during the day, is not objectively suspicious."
+      },
+      {
+        "id": "c",
+        "text": "Yes — the officer's subjective belief that the man looks suspicious is sufficient",
+        "correct": false,
+        "feedback": "Incorrect. The test is objective, not subjective. The officer must have reasonable grounds based on objective facts. A subjective feeling is not sufficient."
+      },
+      {
+        "id": "d",
+        "text": "No — PC Khan has no objective facts giving reasonable grounds to suspect the man possesses stolen or prohibited articles. The generic context plus appearance does not meet the s.1 threshold. Code A requires specific, objective facts relating to the individual",
+        "correct": true,
+        "feedback": "Correct. Under Code A, para 2.2, reasonable grounds to suspect require objective facts specific to the individual. The man's age, race, appearance, or clothing alone cannot form the basis of suspicion. The existence of recent shoplifting reports provides context but is not specific to this individual. The search is unlawful."
+      }
+    ],
+    "feedback": "Under s.1 PACE 1984 and Code A, reasonable suspicion must be based on objective facts specific to the individual. A hooded jacket, standing alone, is not objectively suspicious. PACE Code A, paragraph 2.2 expressly states that personal factors (including appearance and clothing) cannot support reasonable suspicion. The officer needed more: for example, the man matching a specific description, or seen acting suspiciously near shop entrances.",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, s.1",
+      "PACE Code A, para 2.2"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "s1",
+      "reasonable-suspicion",
+      "scenario",
+      "code-a"
+    ]
+  },
+  {
+    "lessonId": "lesson-J1-1",
+    "microSkill": "J1.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "spot_error",
+    "question": "Spot the legal error:\n\n'Under s.1 PACE 1984, a police officer may stop and search anyone they consider suspicious based on their instincts and experience. The officer does not need to give any reason for the search, and the person stopped has no right to ask why they are being searched.'",
+    "answer": "The officer MUST have reasonable grounds based on objective facts (not instinct alone), MUST give their name, station, object of the search, and grounds for the search under s.2 PACE. The person stopped has a statutory right to be informed of these matters.",
+    "options": [],
+    "feedback": "Correct. Section 2 PACE 1984 imposes mandatory information requirements. The officer must state: (1) their name, (2) their station, (3) the object of the search, and (4) the grounds for the search. Section 1 requires objective reasonable suspicion. Instinct or experience without specific objective facts is insufficient. The statement wrongly asserts that officers need no objective basis and owe no information duties.",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, ss.1–2",
+      "PACE Code A"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "s1",
+      "s2",
+      "spot-error",
+      "safeguards"
+    ]
+  },
+  {
+    "lessonId": "lesson-J1-1",
+    "microSkill": "J1.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "msq",
+    "question": "Under s.1 PACE 1984, which TWO of the following are required for a lawful stop and search?",
+    "answer": "b,c",
+    "options": [
+      {
+        "id": "a",
+        "text": "The officer's honest subjective belief that the person is suspicious",
+        "correct": false,
+        "feedback": "Incorrect. The test is objective. The officer must have reasonable grounds based on objective facts, not merely a subjective belief or hunch. Code A, para 2.2."
+      },
+      {
+        "id": "b",
+        "text": "The search must take place in a public place (or a place to which the public have access)",
+        "correct": true,
+        "feedback": "Correct. Section 1(1) limits the power to public places. The definition includes any place to which the public have access — including car parks, private roads, and gardens if the constable has reasonable grounds to believe the person does not reside there."
+      },
+      {
+        "id": "c",
+        "text": "The constable must have reasonable grounds to suspect they will find stolen or prohibited articles",
+        "correct": true,
+        "feedback": "Correct. This is the core *mens rea* of the s.1 power. The suspicion must relate to the finding of specified articles."
+      },
+      {
+        "id": "d",
+        "text": "The search may include removal of all clothing in public",
+        "correct": false,
+        "feedback": "Incorrect. Under s.2(9), only outer clothing (jacket, coat, gloves) may be removed in public. Anything more than outer clothing requires a private place (e.g., police station or vehicle)."
+      },
+      {
+        "id": "e",
+        "text": "The officer must have a warrant issued by a magistrate",
+        "correct": false,
+        "feedback": "Incorrect. Section 1 PACE does not require a warrant. Section 1 is a warrantless power. The warrant requirement applies to other search powers (e.g., premises searches under s.8 PACE)."
+      }
+    ],
+    "feedback": "Correct answers: (b) and (c). Section 1 PACE 1984 requires (1) a public place, (2) reasonable grounds to suspect stolen or prohibited articles, (3) limited scope (outer clothing only in public), and (4) compliance with s.2 information requirements. No warrant is required.",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, s.1"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "s1",
+      "stop-search",
+      "requirements",
+      "msq"
+    ]
+  },
+  {
+    "lessonId": "lesson-J1-1",
+    "microSkill": "J1.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "Under s.2 of PACE 1984, a constable carrying out a stop and search must give their name, the name of the police __________ to which they are attached, the object of the proposed search, and the grounds for the search.",
+    "answer": "station",
+    "options": [],
+    "feedback": "Correct. Section 2(3) requires the constable to provide: (a) their name; (b) the name of the police station to which they are attached; (c) the object of the proposed search; (d) the grounds for making it. If not in uniform, the constable must also produce documentary identification.",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, s.2(3)"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "s2",
+      "safeguards",
+      "information"
+    ]
+  },
+  {
+    "lessonId": "lesson-J1-1",
+    "microSkill": "J1.1",
+    "block": "B",
+    "phase": "teaching",
+    "teachingSummary": "**Code A Safeguards — Procedure & Records:** PACE Code of Practice A provides mandatory safeguards for stop and search. Under Code A, paragraph 3, the search must be conducted with courtesy, consideration, and respect. The officer must ensure the search lasts no longer than necessary. Before the search, the officer must take reasonable steps to bring the statutory information (name, station, object, grounds) to the person's attention.\n\n**Search Records:** Under s.3 PACE and Code A, paragraph 4, the constable must make a record of the search as soon as practicable. The record must include the officer's name, the object of the search, the grounds, the date, time, place, the ethnic identity of the person searched, and the outcome. A copy of the record must be provided to the person searched unless it is impracticable to do so.\n\n**Reasonable Force:** Section 117 PACE provides that a constable may use reasonable force in the exercise of any power under the Act. If the person resists, the constable may use reasonable force to detain and search. Code A, para 3.2 states that the search must be conducted at or near the place where the person was stopped. The use of force beyond what is reasonable renders the search unlawful.\n\n**Exclusion of Evidence:** Under s.78 PACE, the court may exclude evidence obtained as a result of an unlawful search if its admission would have such an adverse effect on the fairness of the proceedings that the court ought not to admit it. In *R v Bristol* [2007] EWCA Crim 3214, the Court of Appeal excluded evidence from a search where the officer failed to comply with s.2 requirements.\n\n**In short:** Code A mandates procedural safeguards — information, records, limited use of force. Non-compliance can lead to exclusion of evidence under s.78 PACE.",
+    "type": "teaching",
+    "question": "",
+    "answer": "",
+    "options": [],
+    "feedback": "",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, ss.3, 78, 117",
+      "PACE Code A",
+      "R v Bristol [2007] EWCA Crim 3214"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "code-a",
+      "safeguards",
+      "records",
+      "s78",
+      "exclusion"
+    ]
+  },
+  {
+    "lessonId": "lesson-J1-1",
+    "microSkill": "J1.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "Under s.____ of PACE 1984, the court may exclude evidence obtained as a result of an unlawful search if its admission would have such an adverse effect on the fairness of the proceedings that it ought not to be admitted.",
+    "answer": "78",
+    "options": [],
+    "feedback": "Correct. Section 78 PACE 1984 is the principal exclusionary power. The court has a broad discretion to exclude evidence where the circumstances in which it was obtained — including a breach of PACE or Code A — render the trial unfair.",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, s.78"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "s78",
+      "exclusion",
+      "evidence",
+      "pace"
+    ]
+  },
+  {
+    "lessonId": "lesson-J1-1",
+    "microSkill": "J1.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "In R v __________ [2007] EWCA Crim 3214, the Court of Appeal excluded evidence obtained during a search where the officer failed to comply with the s.2 PACE requirement to give grounds for the search.",
+    "answer": "Bristol",
+    "options": [],
+    "feedback": "Correct. *R v Bristol* [2007] EWCA Crim 3214 — non-compliance with the mandatory information requirements under s.2 PACE led to the exclusion of evidence. The court held that the breach was serious and rendered the proceedings unfair.",
+    "oscoaReferences": [
+      "R v Bristol [2007] EWCA Crim 3214",
+      "Police and Criminal Evidence Act 1984, ss.2, 78"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "bristol",
+      "exclusion",
+      "s2",
+      "code-a"
+    ]
+  },
+  {
+    "lessonId": "lesson-J1-1",
+    "microSkill": "J1.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "drag_elements",
+    "question": "Arrange the mandatory steps of a lawful stop and search under PACE Code A:",
+    "answer": "Officer gives name, station, object, and grounds → Officer conducts search at or near the stopping place → Search limited to outer clothing in public → Officer makes written record as soon as practicable → Officer provides copy of record to the person",
+    "options": [
+      {
+        "id": "1",
+        "text": "Officer gives name, station, object of search, and grounds (s.2 PACE)",
+        "order": 1
+      },
+      {
+        "id": "2",
+        "text": "Officer conducts search at or near the stopping place",
+        "order": 2
+      },
+      {
+        "id": "3",
+        "text": "Search is limited to outer clothing only in public (s.2(9) PACE)",
+        "order": 3
+      },
+      {
+        "id": "4",
+        "text": "Officer makes a written record as soon as practicable (s.3 PACE, Code A para 4)",
+        "order": 4
+      },
+      {
+        "id": "5",
+        "text": "Officer provides a copy of the record to the person searched",
+        "order": 5
+      }
+    ],
+    "feedback": "Correct. This is the procedural sequence mandated by ss.1–3 PACE 1984 and Code A. Failure at any step — particularly failure to give information or make a record — may render the search unlawful and lead to exclusion of evidence under s.78.",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, ss.1–3",
+      "PACE Code A"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "code-a",
+      "procedure",
+      "sequence"
+    ]
+  },
+  {
+    "lessonId": "lesson-J1-1",
+    "microSkill": "J1.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "PC Evans stops a man in the street and searches his rucksack under s.1 PACE. PC Evans finds a knife. At trial, it emerges that PC Evans did not give his name or station, did not state the grounds for the search, and made no written record. The defendant applies to exclude the knife under s.78 PACE. Applying *R v Bristol* [2007]:",
+    "answer": "c",
+    "options": [
+      {
+        "id": "a",
+        "text": "The knife is admissible — the police found illegal contraband and the ends justify the means",
+        "correct": false,
+        "feedback": "Incorrect. The legality of the search is not determined by its outcome. An unlawful search remains unlawful regardless of what is found."
+      },
+      {
+        "id": "b",
+        "text": "The knife is admissible — s.78 only excludes confession evidence, not real evidence",
+        "correct": false,
+        "feedback": "Incorrect. Section 78 applies to all prosecution evidence, not just confessions. Real evidence (such as a knife) can be excluded under s.78 if obtained in breach of PACE."
+      },
+      {
+        "id": "c",
+        "text": "The knife is likely to be excluded — PC Evans committed multiple breaches of ss.2 and 3 PACE (no name, no grounds, no record) and, following *R v Bristol* [2007], such significant and deliberate non-compliance renders the trial unfair if the evidence is admitted",
+        "correct": true,
+        "feedback": "Correct. Multiple breaches of the mandatory PACE safeguards — failure to give information (s.2) and failure to make a record (s.3) — are serious. Under *R v Bristol* [2007] and s.78, the court is likely to exclude the evidence because the breaches are significant and the admission of evidence obtained by such disregard for statutory safeguards would adversely affect trial fairness."
+      },
+      {
+        "id": "d",
+        "text": "The knife is admissible because the defendant could not have been prejudiced — he was clearly guilty",
+        "correct": false,
+        "feedback": "Incorrect. The s.78 test is about the fairness of the *proceedings*, not the guilt of the defendant. The court may exclude reliable evidence if it was obtained in a way that undermines the integrity of the criminal justice process."
+      }
+    ],
+    "feedback": "Multiple, serious breaches of the s.2 and s.3 PACE requirements are a strong ground for exclusion under s.78. *R v Bristol* [2007] EWCA Crim 3214 confirms that the court will exclude evidence where the search was conducted in flagrant disregard of statutory safeguards. The integrity of the process matters as much as the reliability of the evidence.",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, ss.2, 3, 78",
+      "R v Bristol [2007] EWCA Crim 3214"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "s78",
+      "exclusion",
+      "scenario",
+      "bristol"
+    ]
+  },
+  {
+    "lessonId": "lesson-J1-1",
+    "microSkill": "J1.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "spot_error",
+    "question": "Spot the legal error:\n\n'A police officer who stops and searches a person is entitled to use any level of force necessary to ensure the search is effective, including taking the person to the station for a more thorough search if the officer is not satisfied with the street search results.'",
+    "answer": "Section 117 PACE permits only *reasonable* force. The search must be conducted at or near the place of the stop (Code A, para 3.2). The officer cannot take the person to the station merely to conduct a more effective search — that requires arrest or other lawful power.",
+    "options": [],
+    "feedback": "Correct. Section 117 PACE limits force to what is reasonable in the circumstances. Code A, para 3.2 provides that the search must be at or near the stopping place. The officer cannot remove the person to the station to conduct a more thorough search without arresting them. Removing to the station without an arrest transforms a street search into an unlawful detention. The use of excessive force also renders the search unlawful.",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, s.117",
+      "PACE Code A, para 3.2"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "s117",
+      "reasonable-force",
+      "code-a",
+      "spot-error"
+    ]
+  },
+  {
+    "lessonId": "lesson-J1-1",
+    "microSkill": "J1.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "msq",
+    "question": "Which TWO of the following must be included in the record of a stop and search under Code A, paragraph 4?",
+    "answer": "b,d",
+    "options": [
+      {
+        "id": "a",
+        "text": "The person's full name and address",
+        "correct": false,
+        "feedback": "Incorrect. The person searched is not required to provide their name or address. The record includes the officer's details, not the subject's personal identifying information (unless voluntarily provided)."
+      },
+      {
+        "id": "b",
+        "text": "The ethnic identity of the person searched",
+        "correct": true,
+        "feedback": "Correct. Code A, para 4 requires the record to include the ethnic appearance of the person searched. This is a transparency and accountability measure aimed at monitoring disproportionate use of stop and search powers."
+      },
+      {
+        "id": "c",
+        "text": "The name of the person's solicitor",
+        "correct": false,
+        "feedback": "Incorrect. The record does not include solicitor information. It records the officer's name, the object of the search, grounds, date/time, place, ethnic identity, and outcome."
+      },
+      {
+        "id": "d",
+        "text": "The grounds for the search and the object of the search",
+        "correct": true,
+        "feedback": "Correct. Code A, para 4 requires both the grounds (why the officer formed suspicion) and the object (what the officer was looking for) to be recorded. These are essential for accountability."
+      },
+      {
+        "id": "e",
+        "text": "The person's previous criminal record",
+        "correct": false,
+        "feedback": "Incorrect. While previous convictions may form part of the officer's grounds for suspicion, the record is of the search itself, not the person's history. The person's previous convictions are not required to be recorded."
+      }
+    ],
+    "feedback": "Correct answers: (b) and (d). The record must include: officer's name, station, object, grounds, date, time, place, ethnic identity, and outcome. The ethnicity recording is designed to enable monitoring of the use of stop and search powers across different demographic groups.",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, s.3",
+      "PACE Code A, para 4"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "code-a",
+      "records",
+      "msq"
+    ]
+  },
+  {
+    "lessonId": "lesson-J1-1",
+    "microSkill": "J1.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "During a lawful s.1 stop and search, a suspect becomes verbally abusive and pushes the officer. The officer restrains the suspect on the ground, handcuffs them, and searches them. The suspect complains of excessive force. Applying s.117 PACE:",
+    "answer": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "The use of force was likely reasonable — the suspect physically pushed the officer, escalating the encounter. Restraint and handcuffing to complete the search is proportionate to the risk the suspect presented",
+        "correct": true,
+        "feedback": "Correct. Section 117 PACE permits reasonable force. The suspect's physical push escalated the situation. The officer's response — restraint and handcuffing — was proportionate to the threat. The force used was to effect the search, not to punish."
+      },
+      {
+        "id": "b",
+        "text": "The force was unlawful — an officer may never use handcuffs during a stop and search",
+        "correct": false,
+        "feedback": "Incorrect. There is no absolute prohibition on handcuffing during a stop and search. The test is reasonableness. Where the suspect is physically resistant, handcuffing may be reasonable."
+      },
+      {
+        "id": "c",
+        "text": "The search became unlawful the moment the officer used any force — s.1 searches must be conducted without force",
+        "correct": false,
+        "feedback": "Incorrect. Section 117 PACE expressly permits reasonable force in the exercise of any PACE power, including s.1 searches."
+      },
+      {
+        "id": "d",
+        "text": "The force was excessive because the suspect was only verbally abusive before being restrained",
+        "correct": false,
+        "feedback": "The suspect pushed the officer — that is physical, not merely verbal. The question states the suspect became verbally abusive *and* pushed the officer. The physical push justified the force used."
+      }
+    ],
+    "feedback": "Section 117 PACE provides that a constable may use reasonable force in exercising any power under the Act. The suspect's physical push escalated the encounter from a routine search to one involving risk of harm. Restraint and handcuffing were proportionate to complete the search safely. The force was deployed to effect the search, not as punishment. If the officer had continued to use force after the search was complete, that would be unlawful.",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, s.117"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "s117",
+      "reasonable-force",
+      "scenario"
+    ]
+  },
+  {
+    "lessonId": "lesson-J1-1",
+    "microSkill": "J1.1",
+    "block": "C",
+    "phase": "teaching",
+    "teachingSummary": "**Suspicionless Search — s.60 CJPOA 1994:** Section 60 of the Criminal Justice and Public Order Act 1994 permits a senior officer (inspector or above) to authorise stop and search in a specified locality for up to 24 hours (extendable to 48 hours by a superintendent) if the officer reasonably believes that incidents involving serious violence may occur or that persons are carrying dangerous instruments or offensive weapons. Crucially, s.60 searches do **not** require reasonable grounds to suspect the individual — a significant departure from s.1 PACE. The authorisation is the safeguard. *R (Roberts) v Commissioner of Police of the Metropolis* [2015] UKSC 79 upheld s.60 but emphasised the need for rigorous authorisation and review.\n\n**Section 44 Terrorism Act 2000 (Repealed):** Section 44 allowed a senior officer to authorise suspicionless stop and search for articles connected with terrorism. In *Gillan and Quinton v United Kingdom* (2010) 50 EHRR 45, the European Court of Human Rights held that s.44 violated Article 8 ECHR because the power was too broad, the authorisation was not subject to adequate legal safeguards, and there was no requirement of reasonable suspicion. Following *Gillan*, s.44 was repealed and replaced by s.47A Terrorism Act 2000, which requires reasonable suspicion.\n\n**Distinction:** s.1 PACE requires reasonable suspicion of the *individual*. s.60 CJPOA requires authorisation based on a *locality-based* risk assessment (no individual suspicion needed). Section 44 Terrorism Act was the extreme case — no individual suspicion *and* insufficient safeguards — and was struck down by the ECtHR.\n\n**In short:** s.60 CJPOA permits suspicionless search where authorised by a senior officer on locality-based risk grounds. s.44 Terrorism Act was the broadest power but was held incompatible with Article 8 ECHR and repealed.",
+    "type": "teaching",
+    "question": "",
+    "answer": "",
+    "options": [],
+    "feedback": "",
+    "oscoaReferences": [
+      "Criminal Justice and Public Order Act 1994, s.60",
+      "Terrorism Act 2000, s.44 (repealed), s.47A",
+      "Gillan and Quinton v United Kingdom (2010) 50 EHRR 45",
+      "R (Roberts) v Commissioner of Police of the Metropolis [2015] UKSC 79"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "s60",
+      "cjpoa",
+      "suspicionless",
+      "terrorism",
+      "gillan"
+    ]
+  },
+  {
+    "lessonId": "lesson-J1-1",
+    "microSkill": "J1.1",
+    "block": "C",
+    "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "Under s.____ of the Criminal Justice and Public Order Act 1994, a senior police officer may authorise suspicionless stop and search in a designated area for up to 24 hours if they reasonably believe serious violence may occur, or persons are carrying offensive weapons.",
+    "answer": "60",
+    "options": [],
+    "feedback": "Correct. Section 60 CJPOA 1994. A senior officer (inspector or above) may authorise search powers for 24 hours (extendable by a superintendent to 48 hours). No reasonable suspicion of the individual is required — the authorisation is the safeguard.",
+    "oscoaReferences": [
+      "Criminal Justice and Public Order Act 1994, s.60"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "s60",
+      "cjpoa",
+      "suspicionless"
+    ]
+  },
+  {
+    "lessonId": "lesson-J1-1",
+    "microSkill": "J1.1",
+    "block": "C",
+    "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "In __________ and Quinton v United Kingdom (2010) 50 EHRR 45, the European Court of Human Rights held that s.44 Terrorism Act 2000 violated Article 8 because the power was too broad and lacked adequate legal safeguards.",
+    "answer": "Gillan",
+    "options": [],
+    "feedback": "Correct. *Gillan and Quinton v United Kingdom* (2010) 50 EHRR 45 — the ECtHR held that the suspicionless search power under s.44 was not in accordance with the law. The safeguards were insufficient to protect against arbitrary interference with privacy rights. Following the judgment, s.44 was repealed and replaced with s.47A.",
+    "oscoaReferences": [
+      "Gillan and Quinton v United Kingdom (2010) 50 EHRR 45",
+      "Terrorism Act 2000, s.44 (repealed)"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "gillan",
+      "echr",
+      "article-8",
+      "terrorism"
+    ]
+  },
+  {
+    "lessonId": "lesson-J1-1",
+    "microSkill": "J1.1",
+    "block": "C",
+    "phase": "teaching",
+    "type": "drag_elements",
+    "question": "Match each stop and search power to its requirement for individual suspicion:",
+    "answer": "s.1 PACE 1984=Reasonable grounds to suspect individual; s.60 CJPOA 1994=No individual suspicion required — senior officer authorisation based on locality risk; s.44 Terrorism Act 2000 (repealed)=No individual suspicion required — broad ministerial authorisation — held incompatible with ECHR",
+    "options": [
+      {
+        "id": "s1",
+        "text": "Reasonable grounds to suspect the individual possesses stolen or prohibited articles",
+        "pair": "s.1 PACE 1984"
+      },
+      {
+        "id": "s60",
+        "text": "No individual suspicion required — senior officer authorisation based on locality risk of serious violence or weapons",
+        "pair": "s.60 CJPOA 1994"
+      },
+      {
+        "id": "s44",
+        "text": "No individual suspicion required — broad ministerial authorisation — held incompatible with Article 8 ECHR in *Gillan* (2010)",
+        "pair": "s.44 Terrorism Act 2000 (repealed)"
+      }
+    ],
+    "feedback": "Well matched. The key difference is the suspicion threshold. s.1 requires individualised suspicion. s.60 requires a locality-based authorisation. s.44 required neither and was struck down. Section 47A Terrorism Act 2000 now requires reasonable suspicion.",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, s.1",
+      "Criminal Justice and Public Order Act 1994, s.60",
+      "Gillan and Quinton v United Kingdom (2010) 50 EHRR 45"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "stop-search",
+      "suspicion",
+      "matching"
+    ]
+  },
+  {
+    "lessonId": "lesson-J1-1",
+    "microSkill": "J1.1",
+    "block": "C",
+    "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "A Chief Inspector authorises a s.60 CJPOA search zone around a football stadium for 24 hours, citing intelligence that rival supporters may carry weapons. During this period, PC Ali stops and searches a 45-year-old woman pushing a pram near the stadium. She is clean. She brings a claim for unlawful search. Does s.60 CJPOA provide a defence?",
+    "answer": "c",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yes — s.60 authorises suspicionless search of any person in the designated zone during the authorisation period, regardless of their apparent connection to the risk",
+        "correct": false,
+        "feedback": "While s.60 does not require individual suspicion, the search must still be lawful. The officer must act within the scope of the authorisation and Convention rights. An entirely random search of someone with no possible connection to the risk may be unlawful."
+      },
+      {
+        "id": "b",
+        "text": "Yes — the Chief Inspector's authorisation is conclusive and cannot be challenged",
+        "correct": false,
+        "feedback": "Incorrect. The authorisation is subject to judicial review. The woman can challenge the lawfulness of the authorisation and the individual search decision."
+      },
+      {
+        "id": "c",
+        "text": "Possibly not — while s.60 permits suspicionless search, the officer's discretion must not be exercised arbitrarily. Following *R (Roberts)* [2015], the search must be compatible with Article 8 ECHR. Searching a 45-year-old woman with a pram, with no possible connection to football violence, may be arbitrary and disproportionate",
+        "correct": true,
+        "feedback": "Correct. *R (Roberts)* [2015] UKSC 79 confirmed that while s.60 does not require individual suspicion, the search must still be lawful under the ECHR. A search that is arbitrary — with no conceivable basis for believing the person might be connected to the risk — may breach Article 8. The authorisation is not a blanket immunity."
+      },
+      {
+        "id": "d",
+        "text": "No — s.60 CJPOA only applies to men aged 18–30",
+        "correct": false,
+        "feedback": "Incorrect. Section 60 applies to any person in the designated area. There is no statutory age or gender restriction. However, that does not mean the search is automatically lawful — the ECHR imposes proportionality requirements."
+      }
+    ],
+    "feedback": "Section 60 CJPOA does not require individual suspicion, but it does not grant officers carte blanche to search anyone for any reason. Under *R (Roberts)* [2015] UKSC 79, the search must be Convention-compliant. An officer who searches a person with no possible connection to the risk — such as a woman with a pram during a football-related authorisation — may be acting arbitrarily and disproportionately. The European Court of Human Rights in *Gillan* [2010] emphasised the need for safeguards against arbitrary intrusion.",
+    "oscoaReferences": [
+      "Criminal Justice and Public Order Act 1994, s.60",
+      "R (Roberts) v Commissioner of Police of the Metropolis [2015] UKSC 79",
+      "Gillan and Quinton v United Kingdom (2010) 50 EHRR 45"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "s60",
+      "suspicionless",
+      "scenario",
+      "echr"
+    ]
+  },
+  {
+    "lessonId": "lesson-J1-1",
+    "microSkill": "J1.1",
+    "block": "C",
+    "phase": "teaching",
+    "type": "spot_error",
+    "question": "Spot the legal error:\n\n'Section 60 CJPOA 1994 gives police officers an unlimited power to stop and search anyone, anywhere, at any time, without any authorisation or oversight. The power is permanent and may be exercised by any constable as part of routine patrol.'",
+    "answer": "Section 60 requires authorisation by a senior officer (inspector or above), is limited to a specified locality, lasts for 24 hours (up to 48 with superintendent extension), and requires a reasonable belief that serious violence may occur or that persons are carrying weapons. It is not an unlimited, permanent power.",
+    "options": [],
+    "feedback": "Correct. Section 60 CJPOA is not a universal, permanent power. It requires: (1) authorisation by a senior officer (inspector or above), (2) reasonable belief of serious violence or weapons, (3) a specified locality, (4) a maximum 24-hour period (extendable by a superintendent to 48 hours). The officer must communicate the authorisation to the constables exercising the power. The error statement misrepresents s.60 as unrestricted — it is, in fact, tightly circumscribed by the authorisation mechanism.",
+    "oscoaReferences": [
+      "Criminal Justice and Public Order Act 1994, s.60"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "s60",
+      "cjpoa",
+      "authorisation",
+      "spot-error"
+    ]
+  },
+  {
+    "lessonId": "lesson-J1-1",
+    "microSkill": "J1.1",
+    "block": "C",
+    "phase": "teaching",
+    "type": "msq",
+    "question": "Which TWO of the following correctly describe the distinction between s.1 PACE and s.60 CJPOA stop and search?",
+    "answer": "c,d",
+    "options": [
+      {
+        "id": "a",
+        "text": "s.60 CJPOA requires reasonable suspicion of the individual; s.1 PACE does not",
+        "correct": false,
+        "feedback": "Incorrect. It is the opposite: s.1 PACE requires reasonable individual suspicion; s.60 CJPOA does not require individual suspicion but requires a senior officer's authorisation."
+      },
+      {
+        "id": "b",
+        "text": "Both s.1 and s.60 require authorisation by a senior officer before they can be exercised",
+        "correct": false,
+        "feedback": "Incorrect. s.1 PACE does not require prior authorisation — any constable can exercise it based on their own reasonable suspicion. s.60 requires senior officer authorisation."
+      },
+      {
+        "id": "c",
+        "text": "s.1 PACE requires reasonable grounds to suspect the individual; s.60 CJPOA requires authorisation by a senior officer based on a locality risk of serious violence or weapons",
+        "correct": true,
+        "feedback": "Correct. This is the key distinction. s.1 needs individual suspicion; s.60 needs a senior officer authorisation. Both must be Convention-compliant."
+      },
+      {
+        "id": "d",
+        "text": "Evidence obtained during a s.60 search that exceeds the scope of the authorisation may be excluded under s.78 PACE",
+        "correct": true,
+        "feedback": "Correct. Section 78 applies to all PACE and related powers. If a s.60 search is conducted outside the authorisation (wrong locality, wrong time, or the officer acts arbitrarily), the evidence may be excluded."
+      },
+      {
+        "id": "e",
+        "text": "s.60 CJPOA authorisation lasts for 7 days",
+        "correct": false,
+        "feedback": "Incorrect. A s.60 authorisation lasts for 24 hours. It may be extended by a superintendent for a further 24 hours (total 48 hours)."
+      }
+    ],
+    "feedback": "Correct answers: (c) and (d). The fundamental distinction is the suspicion threshold: s.1 requires individualised suspicion; s.60 replaces it with senior officer authorisation for locality-based risk. Evidence from unlawful searches under either power may be excluded under s.78 PACE.",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, s.1",
+      "Criminal Justice and Public Order Act 1994, s.60",
+      "Police and Criminal Evidence Act 1984, s.78"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "s1",
+      "s60",
+      "distinction",
+      "msq"
+    ]
+  },
+  {
+    "lessonId": "lesson-J1-1",
+    "microSkill": "J1.1",
+    "block": "C",
+    "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "The repeal of s.44 Terrorism Act 2000 and its replacement with s.47A (requiring reasonable suspicion) followed the ECtHR judgment in Gillan and __________ v United Kingdom (2010) 50 EHRR 45.",
+    "answer": "Quinton",
+    "options": [],
+    "feedback": "Correct. The case name is *Gillan and Quinton v United Kingdom* (2010) 50 EHRR 45. Both claimants had been stopped and searched under s.44 at an arms fair. The Court found the power violated Article 8.",
+    "oscoaReferences": [
+      "Gillan and Quinton v United Kingdom (2010) 50 EHRR 45",
+      "Terrorism Act 2000, ss.44 (repealed), 47A"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "gillan",
+      "quinton",
+      "echr",
+      "terrorism"
+    ]
+  },
+  {
+    "lessonId": "lesson-J1-1",
+    "microSkill": "J1.1",
+    "block": "consolidation",
+    "phase": "consolidation",
+    "teachingSummary": "",
+    "type": "scenario_choice",
+    "question": "[CONSOLIDATION — Blocks A & B] PC Taylor sees a man at 11pm in a residential area carrying a large holdall and looking repeatedly over his shoulder. PC Taylor stops him and says, 'Stop — police. I'm searching you for stolen goods.' The search reveals stolen jewellery. At trial, the defendant challenges the search. PC Taylor testifies she formed suspicion based on the time of night, the holdall, and the man's nervous behaviour. Applying s.1 PACE and Code A:",
+    "answer": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "The search is likely lawful — the combination of factors (time, place, large holdall at night, evasive behaviour) provides objective reasonable grounds for suspicion under s.1 PACE. Code A, para 2.2 permits suspicion based on behaviour",
+        "correct": true,
+        "feedback": "Correct. Unlike appearance or race, nervous and evasive behaviour, combined with contextual factors (time, location, possession of a large container), can provide objective reasonable grounds. PC Taylor identified specific objective facts, not merely a hunch."
+      },
+      {
+        "id": "b",
+        "text": "The search is unlawful — a person is entitled to look over their shoulder without being suspected of crime",
+        "correct": false,
+        "feedback": "The evasive behaviour is one factor among several. Reasonable suspicion can be formed from a combination of objective factors. Any single factor in isolation (looking over the shoulder) might be insufficient, but the combination is enough."
+      },
+      {
+        "id": "c",
+        "text": "The search is unlawful because PC Taylor failed to state her station and the grounds before the search",
+        "correct": false,
+        "feedback": "The question does not state she failed to give information. You should assume compliance unless stated otherwise. But even if she failed to give information, the question asks whether she had reasonable *grounds* — which she did. The s.2 compliance is a separate issue."
+      },
+      {
+        "id": "d",
+        "text": "The search is unlawful because holdalls are everyday objects and cannot ground suspicion",
+        "correct": false,
+        "feedback": "A large holdall at 11pm in a residential area is not an everyday object — it is a contextual factor. Code A does not prohibit suspicion based on items carried — it prohibits suspicion based solely on personal factors like race or age."
+      }
+    ],
+    "feedback": "Reasonable suspicion is formed from the totality of objective circumstances. Time (late at night), place (residential area where thefts may occur), the item (large holdall — capable of carrying stolen goods), and behaviour (nervous, repeatedly looking over shoulder) together provide reasonable grounds. Code A, para 2.2B permits suspicion based on behaviour. The search was lawful under s.1 PACE.",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, s.1",
+      "PACE Code A, para 2.2"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "consolidation",
+      "reasonable-suspicion",
+      "scenario"
+    ]
+  },
+  {
+    "lessonId": "lesson-J1-1",
+    "microSkill": "J1.1",
+    "block": "consolidation",
+    "phase": "consolidation",
+    "teachingSummary": "",
+    "type": "fill_gap_statute",
+    "question": "[CONSOLIDATION — Block C] Section 44 of the __________ Act 2000, which permitted suspicionless stop and search for terrorism-related articles, was repealed following the ECtHR ruling in *Gillan* (2010).",
+    "answer": "Terrorism",
+    "options": [],
+    "feedback": "Correct. The Terrorism Act 2000, s.44 was the broadest suspicionless search power. It was held incompatible with Article 8 ECHR in *Gillan and Quinton v United Kingdom* (2010) and replaced by s.47A, which requires reasonable suspicion.",
+    "oscoaReferences": [
+      "Terrorism Act 2000, ss.44 (repealed), 47A",
+      "Gillan and Quinton v United Kingdom (2010) 50 EHRR 45"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "consolidation",
+      "s44",
+      "terrorism-act",
+      "gillan"
+    ]
+  },
+  {
+    "lessonId": "lesson-J1-1",
+    "microSkill": "J1.1",
+    "block": "consolidation",
+    "phase": "consolidation",
+    "teachingSummary": "",
+    "type": "msq",
+    "question": "[CONSOLIDATION] Which TWO of the following statements about stop and search powers are correct?",
+    "answer": "b,d",
+    "options": [
+      {
+        "id": "a",
+        "text": "s.1 PACE and s.60 CJPOA both require reasonable grounds to suspect the individual",
+        "correct": false,
+        "feedback": "Incorrect. s.60 CJPOA does NOT require individual suspicion — that is its defining feature. It requires senior officer authorisation instead."
+      },
+      {
+        "id": "b",
+        "text": "The court may exclude evidence under s.78 PACE if the search was conducted in breach of Code A safeguards, even if the evidence is reliable",
+        "correct": true,
+        "feedback": "Correct. Section 78 PACE permits exclusion where the circumstances in which the evidence was obtained would render the proceedings unfair. The test is procedural fairness, not reliability. *R v Bristol* [2007]."
+      },
+      {
+        "id": "c",
+        "text": "All stop and search powers require a warrant issued by a magistrate",
+        "correct": false,
+        "feedback": "Incorrect. Neither s.1 PACE nor s.60 CJPOA requires a warrant. They are warrantless powers with different safeguards."
+      },
+      {
+        "id": "d",
+        "text": "s.60 CJPOA authorisation requires a senior officer to reasonably believe that serious violence may occur or that persons are carrying dangerous weapons in the locality",
+        "correct": true,
+        "feedback": "Correct. Section 60(1) CJPOA 1994 requires the authorising officer to reasonably believe that incidents involving serious violence may occur or that persons are carrying dangerous instruments or offensive weapons."
+      },
+      {
+        "id": "e",
+        "text": "A person stopped under s.1 PACE is not entitled to know the officer's name or the grounds for the search",
+        "correct": false,
+        "feedback": "Incorrect. Section 2(3) PACE requires the officer to give name, station, object, and grounds. This is a mandatory safeguard."
+      }
+    ],
+    "feedback": "Correct answers: (b) and (d). The exclusionary power under s.78 PACE and the s.60 authorisation requirement are fundamental. s.1 requires individual suspicion; s.60 replaces it with authorisation. Both are subject to Convention compliance. The s.2 information duties are mandatory.",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, ss.1–3, 78",
+      "Criminal Justice and Public Order Act 1994, s.60"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "consolidation",
+      "stop-search",
+      "msq"
+    ]
+  },
+  {
+    "lessonId": "lesson-J1-1",
+    "microSkill": "J1.1",
+    "block": "consolidation",
+    "phase": "consolidation",
+    "teachingSummary": "",
+    "type": "scenario_choice",
+    "question": "[CONSOLIDATION] An Inspector authorises a s.60 CJPOA search zone following reports of knife crime in an estate. During the authorised period, PC Dunn stops a teenager cycling through the estate wearing a heavy coat in summer. PC Dunn does not state the grounds or object of the search, finds a knife, and arrests the teenager. At trial, the teenager's solicitor challenges both the lawfulness of the search and the admissibility of the knife. Which is the strongest argument?",
+    "answer": "c",
+    "options": [
+      {
+        "id": "a",
+        "text": "The s.60 authorisation was unlawful because knife crime is not serious violence",
+        "correct": false,
+        "feedback": "Carrying knives falls within s.60 — persons carrying offensive weapons is an express ground. The authorisation is likely lawful."
+      },
+      {
+        "id": "b",
+        "text": "The search is lawful — s.60 CJPOA does not require the officer to give grounds or object, because no individual suspicion is needed",
+        "correct": false,
+        "feedback": "Incorrect. While s.60 does not require individual *suspicion*, it does not override the s.2 PACE requirement to give the object and grounds. The officer must still comply with Code A safeguards."
+      },
+      {
+        "id": "c",
+        "text": "The knife is likely excluded under s.78 PACE — the officer's failure to state the object and grounds (s.2 PACE) is a serious breach of procedural safeguards, rendering the evidence inadmissible following *R v Bristol* [2007]",
+        "correct": true,
+        "feedback": "Correct. Regardless of whether the s.60 authorisation was lawful, the officer failed to give the mandatory s.2 information (object of search, grounds). This is a serious breach. Under s.78 PACE and *R v Bristol* [2007], the court is likely to exclude the evidence because admitting it would render the trial unfair."
+      },
+      {
+        "id": "d",
+        "text": "The knife is admissible because s.60 CJPOA overrides all PACE safeguards",
+        "correct": false,
+        "feedback": "Incorrect. Section 60 CJPOA supplements, but does not override, PACE. Section 2 PACE and Code A safeguards apply to s.60 searches. The officer must still comply with the information and recording requirements."
+      }
+    ],
+    "feedback": "This consolidates all three blocks: (1) the s.1/s.60 distinction in Block C — s.60 does not require individual suspicion but the authorisation must be lawful; (2) the Code A safeguards in Block B — regardless of the power, the s.2 information duties apply; (3) non-compliance leads to exclusion under s.78 PACE (Block B). The officer's failure to give information is fatal to the admissibility of the evidence.",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, ss.2, 78",
+      "Criminal Justice and Public Order Act 1994, s.60",
+      "R v Bristol [2007] EWCA Crim 3214"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "consolidation",
+      "s60",
+      "s2",
+      "exclusion",
+      "scenario"
+    ]
+  }
+]

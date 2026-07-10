@@ -1,0 +1,1047 @@
+[
+  {
+    "lessonId": "lesson-J2-1",
+    "microSkill": "J2.1",
+    "block": "A",
+    "phase": "teaching",
+    "teachingSummary": "**Detention Time Limits — PACE 1984, ss.41–44:** The Police and Criminal Evidence Act 1984 imposes strict time limits on detention without charge, designed to prevent arbitrary detention and protect the right to liberty under Article 5 ECHR. The limits operate as a cascading sequence of authorisation.\n\n**Initial Period — s.41:** A person arrested and detained at a police station may be detained for up to 24 hours from the *relevant time* (the time of arrival at the station or 24 hours after arrest for those arrested outside the relevant police area). The custody officer must review the detention at regular intervals (s.40). If at the end of 24 hours the person has not been charged, they must be released unless further detention is authorised.\n\n**Extension by Superintendent — s.42:** An officer of superintendent rank or above may authorise continued detention beyond 24 hours, up to a total of 36 hours, if: (a) the offence is an indictable offence; (b) the investigation is being conducted diligently and expeditiously; and (c) detention is necessary to secure or preserve evidence or obtain evidence by questioning. The authorisation must be in writing and the grounds recorded.\n\n**Warrant of Further Detention — ss.43–44:** Beyond 36 hours, the police must apply to a magistrates' court for a warrant of further detention. The magistrates may grant a warrant for up to 36 hours (s.43), and may extend it further on application up to a total of 96 hours (s.44). The total maximum period of detention without charge is 96 hours (4 days). After 96 hours, the person must be charged or released.\n\n**In short:** The PACE clock runs: 24 hours initial (s.41), extension to 36 hours by superintendent (s.42), warrant to 96 hours by magistrates (ss.43–44). After 96 hours, charge or release.",
+    "type": "teaching",
+    "question": "",
+    "answer": "",
+    "options": [],
+    "feedback": "",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, ss.41–44"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "pace-1984",
+      "detention",
+      "time-limits",
+      "ss41-44"
+    ]
+  },
+  {
+    "lessonId": "lesson-J2-1",
+    "microSkill": "J2.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "Under s.____ PACE 1984, a person arrested and detained at a police station may be detained for up to 24 hours from the relevant time without being charged.",
+    "answer": "41",
+    "options": [],
+    "feedback": "Correct. Section 41 PACE 1984 provides for the initial 24-hour detention period. The relevant time is the time of arrival at the station (or 24 hours after arrest for those arrested outside the force area). At the end of 24 hours, the person must be released or charged unless further detention is authorised.",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, s.41"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "s41",
+      "24-hours",
+      "detention"
+    ]
+  },
+  {
+    "lessonId": "lesson-J2-1",
+    "microSkill": "J2.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "Under s.42 PACE 1984, an officer of at least the rank of __________ may authorise continued detention beyond 24 hours up to a total of 36 hours, for indictable offences, where the investigation is being conducted diligently and detention is necessary.",
+    "answer": "superintendent",
+    "options": [],
+    "feedback": "Correct. Section 42 requires a superintendent or above. The three conditions are: (1) indictable offence, (2) diligent and expeditious investigation, (3) detention necessary to secure/preserve evidence or obtain evidence by questioning.",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, s.42"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "s42",
+      "superintendent",
+      "36-hours"
+    ]
+  },
+  {
+    "lessonId": "lesson-J2-1",
+    "microSkill": "J2.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "The total maximum period of detention without charge under PACE 1984, including magistrates' extensions under ss.43–44, is ____ hours.",
+    "answer": "96",
+    "options": [],
+    "feedback": "Correct. The maximum is 96 hours (4 days): 24 hours initial (s.41) + 12 hours superintendent extension (s.42) to 36 hours + warrant for 36 hours (s.43) + further warrant (s.44) to 96 hours total. After 96 hours, the person must be charged or released.",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, ss.41–44"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "96-hours",
+      "maximum",
+      "detention"
+    ]
+  },
+  {
+    "lessonId": "lesson-J2-1",
+    "microSkill": "J2.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "drag_elements",
+    "question": "Arrange the stages of detention without charge under PACE 1984 in the correct chronological order:",
+    "answer": "Arrest and arrival at police station → 24-hour initial detention (s.41) → Superintendent authorisation to 36 hours (s.42) → Application to magistrates' court for warrant (s.43) → Magistrates grant up to 36 hours further detention → Further extension by magistrates up to 96 hours total (s.44) → Charge or release",
+    "options": [
+      {
+        "id": "1",
+        "text": "Arrest and arrival at police station (relevant time starts)",
+        "order": 1
+      },
+      {
+        "id": "2",
+        "text": "24-hour initial detention period (s.41)",
+        "order": 2
+      },
+      {
+        "id": "3",
+        "text": "Superintendent authorises extension to 36 hours (s.42)",
+        "order": 3
+      },
+      {
+        "id": "4",
+        "text": "Application to magistrates' court for warrant of further detention (s.43)",
+        "order": 4
+      },
+      {
+        "id": "5",
+        "text": "Magistrates grant warrant for up to 36 hours further detention",
+        "order": 5
+      },
+      {
+        "id": "6",
+        "text": "Further extension by magistrates up to 96 hours total maximum (s.44)",
+        "order": 6
+      },
+      {
+        "id": "7",
+        "text": "Charge or release — no detention beyond 96 hours",
+        "order": 7
+      }
+    ],
+    "feedback": "Correct. The sequence reflects the cascading authorisation under ss.41–44 PACE 1984. Each stage requires a higher level of authorisation: custody officer → superintendent → magistrates → magistrates (further). The total cannot exceed 96 hours from the relevant time.",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, ss.41–44"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "detention",
+      "time-limits",
+      "sequence"
+    ]
+  },
+  {
+    "lessonId": "lesson-J2-1",
+    "microSkill": "J2.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "David is arrested on suspicion of burglary (an indictable offence) at 10pm on Friday night. He arrives at the police station at 10:30pm. The custody officer authorises detention. At 9pm on Saturday (22.5 hours in), the investigating officer asks a superintendent for an extension to 36 hours, arguing they need more time to search David's home and interview him. The superintendent authorises the extension. At 10am on Sunday (36 hours), the police apply to magistrates for a warrant of further detention. Has the superintendent's extension been lawfully granted?",
+    "answer": "b",
+    "options": [
+      {
+        "id": "a",
+        "text": "No — the superintendent must wait until exactly 24 hours before authorising an extension",
+        "correct": false,
+        "feedback": "Section 42 permits the superintendent to authorise the extension at any time before the 24-hour period expires. It does not require the police to wait until the last moment. The authorisation takes effect from the end of the 24-hour period."
+      },
+      {
+        "id": "b",
+        "text": "Yes — the superintendent may authorise an extension at any time before the 24-hour period expires. The three conditions (indictable offence, diligent investigation, necessity) were satisfied. The total will not exceed 36 hours",
+        "correct": true,
+        "feedback": "Correct. Under s.42, the superintendent's authorisation may be given at any time before the expiry of the 24-hour period. Burglary is an indictable offence; the officer stated the investigation is still active (search and interview); and the detention appears necessary. The extension is lawful."
+      },
+      {
+        "id": "c",
+        "text": "No — the superintendent can only extend to 36 hours for offences triable only on indictment, and burglary is triable either way",
+        "correct": false,
+        "feedback": "Incorrect. Section 42 applies to any indictable offence, which includes triable either way offences. Burglary is an indictable offence. The s.42 extension is not limited to offences triable only on indictment."
+      },
+      {
+        "id": "d",
+        "text": "No — time between 10pm and 8am does not count towards the detention clock under PACE",
+        "correct": false,
+        "feedback": "Incorrect. All time counts towards the detention clock. There is no overnight exclusion. The 24-hour period runs continuously from the relevant time."
+      }
+    ],
+    "feedback": "The superintendent's authorisation under s.42 PACE may be granted at any time before the 24 hours expire. The three conditions are: indictable offence, diligent and expeditious investigation, and necessity to obtain or preserve evidence. Burglary is an indictable offence. The investigation was ongoing (search and interview pending). The authorisation was lawful. The magistrates' application at 36 hours is the next stage under s.43.",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, s.42"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "s42",
+      "superintendent",
+      "scenario",
+      "time-limits"
+    ]
+  },
+  {
+    "lessonId": "lesson-J2-1",
+    "microSkill": "J2.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "spot_error",
+    "question": "Spot the legal error:\n\n'Under PACE 1984, the police may detain a person indefinitely without charge as long as the investigation is continuing and the offence is serious. There is no absolute time limit — each extension may be granted repeatedly as needed.'",
+    "answer": "There is an absolute maximum of 96 hours under ss.41–44 PACE. After 96 hours, the person MUST be charged or released. The magistrates cannot grant unlimited extensions — the total cannot exceed 96 hours from the relevant time.",
+    "options": [],
+    "feedback": "Correct. The 96-hour limit is absolute. It is not renewable indefinitely. Section 44(3)(b) provides that the total period of detention shall not exceed 96 hours. This limit implements Article 5 ECHR — detention without charge must be for a reasonable time. If the police cannot charge within 96 hours, the person must be released (on bail or without bail). The error statement wrongly asserts indefinite detention.",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, ss.41–44",
+      "European Convention on Human Rights, Article 5"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "96-hours",
+      "maximum",
+      "spot-error"
+    ]
+  },
+  {
+    "lessonId": "lesson-J2-1",
+    "microSkill": "J2.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "msq",
+    "question": "Which TWO of the following conditions must be satisfied for a superintendent to authorise an extension of detention beyond 24 hours under s.42 PACE 1984?",
+    "answer": "a,c",
+    "options": [
+      {
+        "id": "a",
+        "text": "The offence must be an indictable offence",
+        "correct": true,
+        "feedback": "Correct. Section 42(1)(b) — the superintendent must have reasonable grounds for believing the arrest was for an indictable offence. Summary-only offences cannot be extended."
+      },
+      {
+        "id": "b",
+        "text": "The detainee must have confessed to the offence",
+        "correct": false,
+        "feedback": "Incorrect. A confession is not required. In fact, if the detainee has confessed, the police may charge them — making continued detention for questioning unnecessary."
+      },
+      {
+        "id": "c",
+        "text": "The investigation must be conducted diligently and expeditiously",
+        "correct": true,
+        "feedback": "Correct. Section 42(1)(d) — the investigation must be pursued with due diligence. The superintendent must be satisfied the police are not delaying unnecessarily."
+      },
+      {
+        "id": "d",
+        "text": "The superintendent must have personally interviewed the detainee",
+        "correct": false,
+        "feedback": "Incorrect. The superintendent is not required to personally interview the detainee. The authorisation is based on representations from the investigating officer and the custody record."
+      },
+      {
+        "id": "e",
+        "text": "The detainee's solicitor must consent to the extension",
+        "correct": false,
+        "feedback": "Incorrect. The solicitor has no power to consent or veto. The solicitor may make representations against continued detention, but the superintendent alone decides."
+      }
+    ],
+    "feedback": "Correct answers: (a) and (c). Section 42 requires: (1) an indictable offence, (2) diligent and expeditious investigation, (3) detention is necessary to secure/preserve evidence or obtain evidence by questioning. There is no requirement for a confession, personal interview by the superintendent, or solicitor consent.",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, s.42"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "s42",
+      "conditions",
+      "msq"
+    ]
+  },
+  {
+    "lessonId": "lesson-J2-1",
+    "microSkill": "J2.1",
+    "block": "A",
+    "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "At 35 hours into detention, a superintendent considers the s.42 extension (already granted) and the custody record. The superintendent notes the investigating officer has taken a 6-hour break overnight and has not conducted any interviews for the past 8 hours. The officer requests the magistrates' warrant application to reach 96 hours. Is the superintendent obliged to refuse to support the application?",
+    "answer": "d",
+    "options": [
+      {
+        "id": "a",
+        "text": "No — the superintendent has no power to refuse to support a magistrates' application",
+        "correct": false,
+        "feedback": "Incorrect. The superintendent has a duty under s.42 to ensure the investigation is diligent and expeditious. If it is not, the continued detention is unlawful."
+      },
+      {
+        "id": "b",
+        "text": "No — police officers are entitled to rest breaks and this does not affect the legality of detention",
+        "correct": false,
+        "feedback": "Rest breaks are acceptable, but if the investigation has been dormant for 8 hours, the detention may no longer be necessary or the investigation not diligent."
+      },
+      {
+        "id": "c",
+        "text": "Yes — any break in the investigation automatically terminates the power to detain",
+        "correct": false,
+        "feedback": "Incorrect. Breaks do not automatically terminate detention. The test is whether the investigation *overall* is diligent and expeditious. A reasonable rest break does not defeat diligence."
+      },
+      {
+        "id": "d",
+        "text": "The superintendent should review whether detention remains necessary and whether the investigation is being conducted diligently. A 6-hour break coupled with 8 hours of investigative inactivity raises serious doubts about whether the s.42 conditions continue to be met. The detainee's release may be required",
+        "correct": true,
+        "feedback": "Correct. Section 42 requires continued diligence. An 8-hour period with no investigation (beyond a reasonable rest break) strongly suggests the investigation is not expeditious. The superintendent must be satisfied that the s.42 conditions are met at the time the extension operates. If the investigation has stalled, the detainee should be released or charged."
+      }
+    ],
+    "feedback": "The s.42 conditions are not one-time checks — they must continue to be satisfied throughout the detention. If the investigation stalls due to officer inaction (as opposed to, for example, waiting for a forensic report), the diligence requirement is not met. The superintendent has an ongoing duty to ensure detention remains lawful. The custody officer's reviews under s.40 also require consideration of whether detention remains necessary.",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, ss.40, 42"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "s42",
+      "diligence",
+      "scenario",
+      "review"
+    ]
+  },
+  {
+    "lessonId": "lesson-J2-1",
+    "microSkill": "J2.1",
+    "block": "B",
+    "phase": "teaching",
+    "teachingSummary": "**Reviews of Detention — s.40 PACE 1984:** Section 40 requires the custody officer (or another officer not involved in the investigation, of at least inspector rank) to review the detention of each person at regular intervals to determine whether the grounds for detention continue to apply. The first review must be within 6 hours of the authorisation of detention. Subsequent reviews must be at intervals of not more than 9 hours. The review must be carried out in person (or via live link) and the detainee must be given the opportunity to make representations.\n\n**Review Officer:** The review officer must be an officer of at least the rank of inspector who is not connected with the investigation. This independence is a key safeguard. The review officer must consider the custody record and any representations made by the detainee or their solicitor. The review officer has the power to order release (with or without bail) if the grounds for detention are no longer satisfied.\n\n**What the Review Covers:** The review officer must be satisfied that: (a) detention without charge remains necessary (i) to secure or preserve evidence or (ii) to obtain evidence by questioning; (b) the investigation is being conducted diligently and expeditiously; and (c) the detention is not disproportionate. If the review officer is not satisfied, the detainee must be released.\n\n**In short:** Section 40 reviews are mandatory checkpoints — first review within 6 hours, subsequent reviews every 9 hours, by an independent inspector or above. The review ensures detention remains lawful and justified.",
+    "type": "teaching",
+    "question": "",
+    "answer": "",
+    "options": [],
+    "feedback": "",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, s.40"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "s40",
+      "review",
+      "custody-officer",
+      "detention"
+    ]
+  },
+  {
+    "lessonId": "lesson-J2-1",
+    "microSkill": "J2.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "Under s.____ PACE 1984, the detention of a person in police custody must be reviewed by a review officer (an inspector not connected with the investigation) within 6 hours of authorisation and thereafter at intervals of not more than 9 hours.",
+    "answer": "40",
+    "options": [],
+    "feedback": "Correct. Section 40 PACE 1984. The first review must be within 6 hours. Thereafter, reviews at intervals of no more than 9 hours. The review officer must be unconnected with the investigation.",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, s.40"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "s40",
+      "review",
+      "intervals"
+    ]
+  },
+  {
+    "lessonId": "lesson-J2-1",
+    "microSkill": "J2.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "The review officer under s.40 PACE 1984 must be an officer of at least the rank of __________ who is not connected with the investigation.",
+    "answer": "inspector",
+    "options": [],
+    "feedback": "Correct. Section 40(1)(b) — the review officer must be an inspector or above. This ensures sufficient seniority and independence from the investigating team. The independence requirement is fundamental to the fairness of the review.",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, s.40(1)(b)"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "s40",
+      "inspector",
+      "review-officer"
+    ]
+  },
+  {
+    "lessonId": "lesson-J2-1",
+    "microSkill": "J2.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "drag_elements",
+    "question": "Arrange the steps of a detention review under s.40 PACE 1984 in order:",
+    "answer": "Custody officer opens custody record → Review officer (inspector, independent) appointed → Review officer examines custody record and grounds for detention → Detainee and solicitor make representations (if any) → Review officer decides if detention grounds continue → If satisfied: detention continues; if not: release (with or without bail)",
+    "options": [
+      {
+        "id": "1",
+        "text": "Custody officer opens custody record on arrival at station",
+        "order": 1
+      },
+      {
+        "id": "2",
+        "text": "Review officer of at least inspector rank, unconnected with the investigation, appointed",
+        "order": 2
+      },
+      {
+        "id": "3",
+        "text": "Review officer examines custody record: grounds, necessity, progress, detainee's condition",
+        "order": 3
+      },
+      {
+        "id": "4",
+        "text": "Detainee and solicitor given opportunity to make oral or written representations",
+        "order": 4
+      },
+      {
+        "id": "5",
+        "text": "Review officer decides whether detention grounds continue to be satisfied",
+        "order": 5
+      },
+      {
+        "id": "6",
+        "text": "If satisfied: detention continues; if not satisfied: release with or without bail",
+        "order": 6
+      }
+    ],
+    "feedback": "Correct. The s.40 review is a structured process. It must be face-to-face (or by live link). The review officer must make a written record. The detainee must be told the outcome. If the review is late or absent, continued detention becomes unlawful.",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, s.40"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "s40",
+      "review",
+      "sequence"
+    ]
+  },
+  {
+    "lessonId": "lesson-J2-1",
+    "microSkill": "J2.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "James is arrested at 2pm for affray. He arrives at the station at 2:30pm and the custody officer authorises detention. At 9pm (6.5 hours later), no review has been conducted. At 10pm, the investigating inspector (who is also the case officer) purports to carry out the review. James' solicitor objects that the review is unlawful. Applying s.40 PACE:",
+    "answer": "c",
+    "options": [
+      {
+        "id": "a",
+        "text": "The review is lawful — any inspector can carry it out regardless of connection to the investigation",
+        "correct": false,
+        "feedback": "Incorrect. Section 40(1)(b) expressly requires the review officer to be unconnected with the investigation. The investigating inspector is disqualified."
+      },
+      {
+        "id": "b",
+        "text": "The review is lawful — the timing requirement (within 6 hours) is directory, not mandatory",
+        "correct": false,
+        "feedback": "Incorrect. While a short delay may not automatically make the detention unlawful, the review must still be conducted by a *qualified* officer. The investigating inspector is not qualified."
+      },
+      {
+        "id": "c",
+        "text": "The review is unlawful on two grounds: (1) it was conducted outside the 6-hour window, and (2) the reviewing officer was connected with the investigation, breaching s.40(1)(b). Continued detention is unlawful",
+        "correct": true,
+        "feedback": "Correct. Two breaches: the review was late (beyond 6 hours) and conducted by a disqualified officer (the investigating inspector). The independent review is the central safeguard. Without a valid review, the grounds for detention were not lawfully confirmed, and the continued detention is unlawful."
+      },
+      {
+        "id": "d",
+        "text": "The review is lawful — the custody officer can retrospectively validate it",
+        "correct": false,
+        "feedback": "Incorrect. A retrospective validation is not possible. The review must be carried out at or before the prescribed time by a qualified officer. A failure cannot be cured retrospectively."
+      }
+    ],
+    "feedback": "Section 40 PACE imposes two key requirements: (1) the review must be within 6 hours of first authorisation and every 9 hours thereafter; and (2) the review officer must be unconnected with the investigation. Both are mandatory. The investigating inspector was disqualified, and the review was late. The detention after 8:30pm (6 hours from 2:30pm arrival) became unlawful until a valid review was conducted. Any evidence obtained during the period of unlawful detention may be excluded under s.76 or s.78 PACE.",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, s.40",
+      "Police and Criminal Evidence Act 1984, ss.76, 78"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "s40",
+      "review",
+      "scenario",
+      "independence"
+    ]
+  },
+  {
+    "lessonId": "lesson-J2-1",
+    "microSkill": "J2.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "spot_error",
+    "question": "Spot the legal error:\n\n'A review officer conducting a review under s.40 PACE need only check the custody record form. There is no requirement to speak to the detainee or consider representations. The review is an administrative formality that can be completed at any time before the detention period expires.'",
+    "answer": "The review officer MUST give the detainee (and their solicitor) the opportunity to make representations. The review is not a formality — it is a substantive check on the lawfulness and necessity of continued detention. It must be conducted within the statutory timetable.",
+    "options": [],
+    "feedback": "Correct. Section 40(12) requires the review officer to give the detainee (or their solicitor) the opportunity to make representations about the detention. The review officer may conduct the review in person or via live link, but must engage with the detainee. The review is a fundamental safeguard, not a tick-box exercise. The timing is mandatory. A purely administrative review without engagement is unlawful.",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, s.40(12)"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "s40",
+      "representations",
+      "spot-error",
+      "safeguards"
+    ]
+  },
+  {
+    "lessonId": "lesson-J2-1",
+    "microSkill": "J2.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "msq",
+    "question": "Which TWO of the following correctly state the position regarding reviews of detention under s.40 PACE 1984?",
+    "answer": "b,e",
+    "options": [
+      {
+        "id": "a",
+        "text": "The first review must be within 12 hours of authorisation of detention",
+        "correct": false,
+        "feedback": "Incorrect. The first review must be within 6 hours (s.40(3)). Subsequent reviews are at intervals of no more than 9 hours."
+      },
+      {
+        "id": "b",
+        "text": "The review officer must be an officer of at least inspector rank who is not connected with the investigation",
+        "correct": true,
+        "feedback": "Correct. Section 40(1)(b) — inspector or above, unconnected. This ensures independent oversight."
+      },
+      {
+        "id": "c",
+        "text": "The detainee has no right to make representations during the review",
+        "correct": false,
+        "feedback": "Incorrect. Section 40(12) expressly gives the detainee (or solicitor) the right to make oral or written representations."
+      },
+      {
+        "id": "d",
+        "text": "Reviews only apply to persons detained for indictable offences",
+        "correct": false,
+        "feedback": "Incorrect. Section 40 applies to all persons in police detention, regardless of the offence classification."
+      },
+      {
+        "id": "e",
+        "text": "If the review officer is not satisfied detention is justified, they must order the detainee's release, with or without bail",
+        "correct": true,
+        "feedback": "Correct. Section 40(8) — the review officer must release the detainee (with or without bail) if the grounds for detention are no longer satisfied. The review has teeth."
+      }
+    ],
+    "feedback": "Correct answers: (b) and (e). The review officer must be independent (inspector, unconnected). If not satisfied detention is justified, release must follow. Reviews apply to all detainees. The first review deadline is 6 hours, not 12. The detainee has the right to make representations.",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, s.40"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "s40",
+      "review",
+      "msq"
+    ]
+  },
+  {
+    "lessonId": "lesson-J2-1",
+    "microSkill": "J2.1",
+    "block": "B",
+    "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "A custody officer authorises the detention of a suspect at 4pm. The review officer (an independent inspector) attends at 9pm (5 hours later) and conducts the review. The detainee is asleep in the cell. The review officer reviews the custody record, notes the investigation is active, and authorises continued detention without waking the detainee. Has the review been conducted lawfully?",
+    "answer": "d",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yes — the review was within the 6-hour window and the officer checked the custody record",
+        "correct": false,
+        "feedback": "The review was timely, but the officer failed to comply with s.40(12) — the duty to give the detainee the opportunity to make representations."
+      },
+      {
+        "id": "b",
+        "text": "Yes — the detainee was asleep, so the officer had no obligation to wake them",
+        "correct": false,
+        "feedback": "Section 40 does not contain an exception for a sleeping detainee. The officer must take reasonable steps to give the detainee the opportunity to make representations, which may include waking them."
+      },
+      {
+        "id": "c",
+        "text": "No — the review must be conducted at exactly 6 hours, not before",
+        "correct": false,
+        "feedback": "Incorrect. The review must be within 6 hours — it can be conducted earlier. Section 40(3) says 'not later than 6 hours' — earlier is permitted."
+      },
+      {
+        "id": "d",
+        "text": "Probably not — the review officer breached s.40(12) by failing to give the detainee the opportunity to make representations. While the detainee was asleep, the officer should have taken reasonable steps to ascertain whether the detainee wished to make representations",
+        "correct": true,
+        "feedback": "Correct. Section 40(12) requires the review officer to give the detainee (or their solicitor) the opportunity to make representations. There is no 'sleeping detainee' exception. The officer should have woken the detainee or at minimum asked whether they wished to make representations. The failure to do so renders the review defective."
+      }
+    ],
+    "feedback": "Section 40(12) imposes a duty to afford the detainee the opportunity to make representations. A sleeping detainee does not extinguish this duty. The officer should take reasonable steps — typically, waking the detainee and informing them of the review. A review conducted without complying with s.40(12) is procedurally defective and continued detention may be unlawful. However, a court might consider whether the detainee suffered any prejudice if the detention would have been authorised regardless.",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, s.40(12)"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "s40",
+      "representations",
+      "scenario",
+      "sleeping-detainee"
+    ]
+  },
+  {
+    "lessonId": "lesson-J2-1",
+    "microSkill": "J2.1",
+    "block": "C",
+    "phase": "teaching",
+    "teachingSummary": "**Rights of the Detainee — PACE 1984:** PACE 1984 and Code C confer important rights on persons detained at a police station. These rights are not merely administrative — violation may render detention unlawful and lead to exclusion of evidence.\n\n**Right to Legal Advice — s.58:** Section 58 PACE provides that a person arrested and held in custody is entitled to consult a solicitor privately at any time. The custody officer must inform the detainee of this right. The right may be delayed (but not denied) in the case of an indictable offence where an officer of at least superintendent rank authorises the delay on the grounds that exercising the right will: (a) lead to interference with evidence, (b) alert other suspects, or (c) hinder the recovery of property. Delay cannot exceed 36 hours. In *R v Samuel* [1988] QB 615, the Court of Appeal held that denial of access to a solicitor rendered the interview unfair and led to exclusion of the confession under s.78 PACE.\n\n**Right to Have Someone Informed — s.56:** Section 56 provides the right to have a named person (friend, relative, or other person) informed of the arrest and place of detention. This is the 'intimation' right. Like s.58, it may be delayed on similar grounds by a superintendent for indictable offences. The right ensures the detainee is not held incommunicado.\n\n**Appropriate Adult:** Under Code C, para 11.15, where a detainee is a juvenile (under 18) or a vulnerable adult, an 'appropriate adult' must be present during key procedures including interviews, reviews, and the taking of intimate samples. The appropriate adult is not merely an observer — they have a duty to ensure the detainee understands the process and that the police act fairly. In *R v Aspinall* [1999] EWCA Crim 125, the Court held that interviews conducted without an appropriate adult for a vulnerable detainee were unfair.\n\n**In short:** The three key detainee rights are: solicitor (s.58), intimation (s.56), and appropriate adult (Code C). Violation of these rights can lead to exclusion of evidence and render detention unlawful.",
+    "type": "teaching",
+    "question": "",
+    "answer": "",
+    "options": [],
+    "feedback": "",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, ss.56, 58",
+      "PACE Code C, para 11.15",
+      "R v Samuel [1988] QB 615",
+      "R v Aspinall [1999] EWCA Crim 125"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "detainee-rights",
+      "s56",
+      "s58",
+      "appropriate-adult"
+    ]
+  },
+  {
+    "lessonId": "lesson-J2-1",
+    "microSkill": "J2.1",
+    "block": "C",
+    "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "Under s.____ PACE 1984, a person arrested and held in custody is entitled to consult a solicitor privately at any time. This right may only be delayed by a superintendent for an indictable offence on specified grounds.",
+    "answer": "58",
+    "options": [],
+    "feedback": "Correct. Section 58 PACE 1984 — the right to legal advice. The right is fundamental and can only be delayed (not denied) in limited circumstances. *R v Samuel* [1988] — denial of a solicitor renders a subsequent confession likely to be excluded under s.78.",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, s.58",
+      "R v Samuel [1988] QB 615"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "s58",
+      "solicitor",
+      "legal-advice"
+    ]
+  },
+  {
+    "lessonId": "lesson-J2-1",
+    "microSkill": "J2.1",
+    "block": "C",
+    "phase": "teaching",
+    "type": "fill_gap_statute",
+    "question": "Under s.56 PACE 1984, a detainee has the right to have a named person informed of their arrest and place of __________. This is known as the intimation right.",
+    "answer": "detention",
+    "options": [],
+    "feedback": "Correct. Section 56 — the intimation right. The detainee may nominate a friend, relative, or other person to be told of their arrest. The right may be delayed on similar grounds to s.58 (superintendent authorisation, indictable offence, specified risks).",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, s.56"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "s56",
+      "intimation",
+      "detainee-rights"
+    ]
+  },
+  {
+    "lessonId": "lesson-J2-1",
+    "microSkill": "J2.1",
+    "block": "C",
+    "phase": "teaching",
+    "type": "fill_gap_case",
+    "question": "In R v __________ [1988] QB 615, the Court of Appeal held that a denial of access to a solicitor, in breach of s.58 PACE, rendered the subsequent confession interview unfair and the confession was excluded under s.78.",
+    "answer": "Samuel",
+    "options": [],
+    "feedback": "Correct. *R v Samuel* [1988] QB 615 — the police refused the detainee access to a solicitor. The Court of Appeal held this was a serious breach of s.58 PACE. The confession obtained during the subsequent interview was excluded. The case established that access to a solicitor is a fundamental right, not a privilege.",
+    "oscoaReferences": [
+      "R v Samuel [1988] QB 615",
+      "Police and Criminal Evidence Act 1984, ss.58, 78"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "r-v-samuel",
+      "s58",
+      "solicitor",
+      "exclusion"
+    ]
+  },
+  {
+    "lessonId": "lesson-J2-1",
+    "microSkill": "J2.1",
+    "block": "C",
+    "phase": "teaching",
+    "type": "drag_elements",
+    "question": "Match each detainee right to its statutory or Code provision:",
+    "answer": "Right to legal advice=s.58 PACE 1984; Right to have someone informed of arrest=s.56 PACE 1984; Right to appropriate adult (juvenile/vulnerable)=Code C, para 11.15; Right to consult Codes of Practice=s.67 PACE 1984",
+    "options": [
+      {
+        "id": "la",
+        "text": "Right to consult a solicitor privately at any time",
+        "pair": "Right to legal advice — s.58 PACE 1984"
+      },
+      {
+        "id": "inti",
+        "text": "Right to have a friend, relative, or other person told of the arrest and detention",
+        "pair": "Right to intimation — s.56 PACE 1984"
+      },
+      {
+        "id": "aa",
+        "text": "Right to an appropriate adult during key procedures for juveniles and vulnerable adults",
+        "pair": "Right to appropriate adult — Code C, para 11.15"
+      },
+      {
+        "id": "codes",
+        "text": "Right to consult the PACE Codes of Practice",
+        "pair": "Right to consult Codes — s.67 PACE 1984"
+      }
+    ],
+    "feedback": "Well matched. The three core rights are: solicitor (s.58), intimation (s.56), and appropriate adult (Code C). The right to consult the Codes of Practice (s.67) is an additional safeguard ensuring detainees know their rights.",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, ss.56, 58, 67",
+      "PACE Code C, para 11.15"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "detainee-rights",
+      "matching"
+    ]
+  },
+  {
+    "lessonId": "lesson-J2-1",
+    "microSkill": "J2.1",
+    "block": "C",
+    "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "Tom, aged 16, is arrested for robbery (an indictable offence). He arrives at the police station at 8pm. The custody officer telephones Tom's mother, who says she will come to the station but lives 2 hours away. The custody officer decides to interview Tom immediately without waiting for his mother, stating that the investigation cannot be delayed. Tom confesses. At trial, Tom's solicitor argues the confession should be excluded. Applying Code C and *R v Aspinall* [1999]:",
+    "answer": "c",
+    "options": [
+      {
+        "id": "a",
+        "text": "The confession is admissible — the police were entitled to proceed without an appropriate adult because the mother was 2 hours away and the investigation was urgent",
+        "correct": false,
+        "feedback": "Incorrect. The police must wait for an appropriate adult for a juvenile unless there are truly exceptional circumstances. A 2-hour wait is not exceptional."
+      },
+      {
+        "id": "b",
+        "text": "The confession is admissible — the right to an appropriate adult only applies to suspects under 14",
+        "correct": false,
+        "feedback": "Incorrect. Code C, para 11.15 applies to all juveniles — persons under 18. Robbery is an indictable offence, and Tom is 16 — he falls squarely within the protection."
+      },
+      {
+        "id": "c",
+        "text": "The confession is likely to be excluded — under Code C, para 11.15, a juvenile MUST have an appropriate adult present during interview. The police's failure to wait for Tom's mother (only 2 hours away) breached this right, and following *R v Aspinall* [1999], the interview was unfair. Exclusion under s.76 or s.78 PACE follows",
+        "correct": true,
+        "feedback": "Correct. Code C, para 11.15 imposes an absolute requirement for an appropriate adult for juveniles. The police must wait unless exceptional circumstances exist. A 2-hour delay is not exceptional. The confession obtained in the absence of an appropriate adult is vulnerable to exclusion. *R v Aspinall* [1999] — interviews without an appropriate adult are inherently unfair for vulnerable suspects."
+      },
+      {
+        "id": "d",
+        "text": "The confession is admissible because Tom's mother consented over the phone",
+        "correct": false,
+        "feedback": "Incorrect. The mother's consent over the phone does not waive the requirement. The appropriate adult must be physically present. A telephone conversation is not sufficient."
+      }
+    ],
+    "feedback": "Code C, para 11.15 is mandatory: 'a juvenile must not be interviewed or asked to provide or sign a written statement... in the absence of the appropriate adult.' The only exception is where delay would involve an immediate risk of harm to persons or serious loss of property — neither applies here. A 2-hour wait is reasonable. The confession is likely excluded under s.76(2)(b) (unreliability/unfairness) or s.78 PACE. *R v Aspinall* [1999] is directly on point.",
+    "oscoaReferences": [
+      "PACE Code C, para 11.15",
+      "R v Aspinall [1999] EWCA Crim 125",
+      "Police and Criminal Evidence Act 1984, ss.76, 78"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "appropriate-adult",
+      "juvenile",
+      "code-c",
+      "scenario"
+    ]
+  },
+  {
+    "lessonId": "lesson-J2-1",
+    "microSkill": "J2.1",
+    "block": "C",
+    "phase": "teaching",
+    "type": "spot_error",
+    "question": "Spot the legal error:\n\n'A detainee's right to a solicitor under s.58 PACE is a privilege that may be denied by the custody officer in any case where the police believe the solicitor might inadvertently alert other suspects. The superintendent's authorisation is not required — the custody officer has the authority to refuse access.'",
+    "answer": "The right to a solicitor under s.58 can only be DELAYED, not denied, and only by a superintendent (not custody officer) for an indictable offence on specified grounds. The belief must be that the solicitor will *inadvertently or otherwise* lead to interference, not merely a speculative risk.",
+    "options": [],
+    "feedback": "Correct. Section 58(6)—(8) provides that access to a solicitor may be *delayed* (not denied) only by a superintendent or above, for an indictable offence, and on specified grounds: (a) interference with evidence; (b) alerting other suspects; (c) hindering recovery of property. The custody officer cannot authorise the delay. The delay cannot exceed 36 hours. The suspect must eventually be permitted access. The error statement is wrong in at least three respects: (1) it says denied, not delayed; (2) it says custody officer, not superintendent; (3) it omits the need for an indictable offence and specified grounds.",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, s.58(6)—(8)"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "s58",
+      "solicitor",
+      "spot-error",
+      "delay"
+    ]
+  },
+  {
+    "lessonId": "lesson-J2-1",
+    "microSkill": "J2.1",
+    "block": "C",
+    "phase": "teaching",
+    "type": "msq",
+    "question": "Which TWO of the following correctly describe the rights of a detainee under PACE 1984 and Code C?",
+    "answer": "c,d",
+    "options": [
+      {
+        "id": "a",
+        "text": "The right to a solicitor can be permanently denied if the offence is serious",
+        "correct": false,
+        "feedback": "Incorrect. Section 58 permits only *delay*, not denial. The suspect must eventually be allowed access to a solicitor. Section 58(8) — delay cannot exceed 36 hours."
+      },
+      {
+        "id": "b",
+        "text": "The right to have someone informed of arrest (s.56) applies only to solicitors",
+        "correct": false,
+        "feedback": "Incorrect. Section 56 applies to a friend, relative, or other person known to the detainee. It is not limited to solicitors. It is the intimation right — a separate right from the s.58 solicitor right."
+      },
+      {
+        "id": "c",
+        "text": "An appropriate adult must be present during the interview of a juvenile or vulnerable adult under Code C, para 11.15",
+        "correct": true,
+        "feedback": "Correct. This is a mandatory requirement. The appropriate adult safeguards the fairness of the process for those who may not understand or cope with police questioning."
+      },
+      {
+        "id": "d",
+        "text": "The right to a solicitor under s.58 may be delayed (not denied) by a superintendent for an indictable offence on specified grounds such as risk of interference with evidence",
+        "correct": true,
+        "feedback": "Correct. Section 58(6)—(8) sets out the limited delay power. The superintendent must have reasonable grounds, the grounds must be specified, and the delay cannot exceed 36 hours."
+      },
+      {
+        "id": "e",
+        "text": "The appropriate adult has no active role — they are merely an observer",
+        "correct": false,
+        "feedback": "Incorrect. Code C, para 11.17 provides that the appropriate adult has an active duty to advise the detainee, observe whether the interview is conducted properly and fairly, and facilitate communication. They are not passive observers."
+      }
+    ],
+    "feedback": "Correct answers: (c) and (d). The appropriate adult requirement under Code C and the limited delay power under s.58 are fundamental. The right to a solicitor can only be delayed, not denied. The intimation right (s.56) is separate and distinct. The appropriate adult has an active, not passive, role.",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, ss.56, 58",
+      "PACE Code C, paras 11.15, 11.17"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "detainee-rights",
+      "code-c",
+      "msq"
+    ]
+  },
+  {
+    "lessonId": "lesson-J2-1",
+    "microSkill": "J2.1",
+    "block": "C",
+    "phase": "teaching",
+    "type": "scenario_choice",
+    "question": "A detainee requests a solicitor at 10pm. The custody officer contacts the duty solicitor scheme and is told a solicitor will attend by 8am the next morning. The investigating officer (not a superintendent) decides to interview the detainee at midnight without waiting for the solicitor, arguing the matter is urgent. The detainee makes incriminating statements. Are the statements admissible?",
+    "answer": "b",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yes — the police cannot be expected to wait for a solicitor to attend and the interview was urgent",
+        "correct": false,
+        "feedback": "Incorrect. The police must wait for the solicitor unless a superintendent authorises delay under s.58(6)—(8). No such authorisation was given. The urgency argument is not a substitute for the statutory procedure."
+      },
+      {
+        "id": "b",
+        "text": "No — the detainee's s.58 right to legal advice was breached. No superintendent authorised delay. The interview took place despite the solicitor being due at 8am. The confession is likely to be excluded under s.78 PACE following *R v Samuel* [1988]",
+        "correct": true,
+        "feedback": "Correct. The investigating officer had no authority to override the s.58 right. Only a superintendent can authorise delay. The solicitor was available (due at 8am) — the police chose not to wait. This is a serious breach. Under *R v Samuel* [1988] and s.78 PACE, the confession is likely excluded."
+      },
+      {
+        "id": "c",
+        "text": "Yes — the right to a solicitor at 10pm is suspended until 8am, so the midnight interview was lawful",
+        "correct": false,
+        "feedback": "Incorrect. The s.58 right is not suspended overnight. The police must wait for the solicitor unless a superintendent authorises delay. The detainee's request triggered the right immediately."
+      },
+      {
+        "id": "d",
+        "text": "No — but only because the investigating officer, not the custody officer, made the decision",
+        "correct": false,
+        "feedback": "The decision-maker's identity is relevant but not dispositive. Even the custody officer could not override s.58 — only a superintendent can authorise delay. The fundamental breach is the failure to wait for the solicitor or obtain proper authorisation."
+      }
+    ],
+    "feedback": "*R v Samuel* [1988] QB 615 established that the right to a solicitor is fundamental. A breach of s.58, particularly where the solicitor is available but the police choose not to wait, almost invariably leads to exclusion of resulting evidence. The custody officer must respect the s.58 request and not permit an interview until the solicitor arrives or a superintendent authorises delay. The investigating officer's decision to proceed was a serious breach and the confession is highly vulnerable to exclusion.",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, ss.58, 78",
+      "R v Samuel [1988] QB 615"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "s58",
+      "solicitor",
+      "scenario",
+      "samuel"
+    ]
+  },
+  {
+    "lessonId": "lesson-J2-1",
+    "microSkill": "J2.1",
+    "block": "consolidation",
+    "phase": "consolidation",
+    "teachingSummary": "",
+    "type": "fill_gap_statute",
+    "question": "[CONSOLIDATION — Block A] The total maximum detention period without charge under ss.41–44 PACE 1984 is ____ hours. The clock starts from the relevant time (arrival at the station).",
+    "answer": "96",
+    "options": [],
+    "feedback": "Correct. The maximum is 96 hours. This consolidates Block A: 24h (s.41) + 12h (s.42) to 36h + warrant to 36h further (s.43) + further extension (s.44) to 96h total. Charge or release is mandatory at 96 hours.",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, ss.41–44"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "consolidation",
+      "96-hours",
+      "time-limits"
+    ]
+  },
+  {
+    "lessonId": "lesson-J2-1",
+    "microSkill": "J2.1",
+    "block": "consolidation",
+    "phase": "consolidation",
+    "teachingSummary": "",
+    "type": "scenario_choice",
+    "question": "[CONSOLIDATION — Blocks A & B] A detainee is held for 30 hours. The custody officer has conducted reviews at 5 hours, 14 hours, and 23 hours. The review at 14 hours was conducted 8 hours after the first review (within the 9-hour limit). The review at 23 hours was conducted by the investigating sergeant (who is involved in the case). The superintendent extension to 36 hours was properly granted at 22 hours. Is the detention lawful at 30 hours?",
+    "answer": "c",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yes — all reviews were conducted within the time limits and the extension was properly granted",
+        "correct": false,
+        "feedback": "The third review (at 23 hours) was conducted by the investigating sergeant — a breach of s.40(1)(b) which requires an officer unconnected with the investigation."
+      },
+      {
+        "id": "b",
+        "text": "No — the second review was late because it should have been within 6 hours of the first",
+        "correct": false,
+        "feedback": "The first review must be within 6 hours of authorisation. Subsequent reviews must be within 9 hours of the previous review. 5h + 9h = 14h maximum. The review at 14 hours was exactly 9 hours later — it was within time. The third review at 23 hours was 9 hours after the second — also within time. The timing is not the issue."
+      },
+      {
+        "id": "c",
+        "text": "No — the review at 23 hours was conducted by the investigating sergeant, who is connected with the investigation, breaching s.40(1)(b). Without a valid review, the detention after 23 hours (or at least from the point the breach was identified) is unlawful",
+        "correct": true,
+        "feedback": "Correct. The timing was compliant, but the review officer at 23 hours was the investigating sergeant — not independent. Section 40(1)(b) requires a review officer of at least inspector rank, unconnected with the investigation. The investigating sergeant fails both criteria (not inspector rank, connected). The detention after the invalid review is unlawful."
+      },
+      {
+        "id": "d",
+        "text": "Yes — the superintendent extension cures any defect in the reviews",
+        "correct": false,
+        "feedback": "Incorrect. The superintendent extension under s.42 is a separate authorisation from the s.40 reviews. A defective review is not cured by a valid s.42 extension. Both must be independently lawful."
+      }
+    ],
+    "feedback": "This consolidates Blocks A and B: the detention clock (Block A) and the review requirements (Block B). The s.42 extension was properly granted, but the s.40 review at 23 hours was defective because the investigating sergeant was not independent. An investigating officer cannot review their own case. The s.40 safeguard is independent of the s.42 safeguard. Both must be satisfied for continued detention to be lawful.",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, ss.40, 42"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "consolidation",
+      "s40",
+      "s42",
+      "review",
+      "scenario"
+    ]
+  },
+  {
+    "lessonId": "lesson-J2-1",
+    "microSkill": "J2.1",
+    "block": "consolidation",
+    "phase": "consolidation",
+    "teachingSummary": "",
+    "type": "msq",
+    "question": "[CONSOLIDATION] Which TWO of the following correctly state the legal position regarding police detention under PACE 1984?",
+    "answer": "b,e",
+    "options": [
+      {
+        "id": "a",
+        "text": "A detainee has an absolute right to a solicitor that can never be delayed or restricted",
+        "correct": false,
+        "feedback": "Incorrect. Section 58(6)—(8) permits delay by a superintendent for indictable offences on specified grounds. The right can be delayed, but not denied."
+      },
+      {
+        "id": "b",
+        "text": "A custody officer must review detention within 6 hours of authorisation and at least every 9 hours thereafter",
+        "correct": true,
+        "feedback": "Correct. Section 40(3)—(4). First review: within 6 hours. Subsequent reviews: within 9 hours of the previous review. The review officer must be independent (inspector, unconnected)."
+      },
+      {
+        "id": "c",
+        "text": "Once a superintendent authorises extension to 36 hours under s.42, the detainee cannot be released until the 36 hours expire",
+        "correct": false,
+        "feedback": "Incorrect. The detainee can be released at any time if the grounds for detention cease to exist. The s.42 authorisation permits, but does not compel, detention up to 36 hours."
+      },
+      {
+        "id": "d",
+        "text": "Magistrates can grant warrants of further detention for an unlimited number of 36-hour periods",
+        "correct": false,
+        "feedback": "Incorrect. The total period cannot exceed 96 hours (s.44(3)(b)). The magistrates cannot grant extensions beyond this absolute maximum."
+      },
+      {
+        "id": "e",
+        "text": "Failure to conduct a valid s.40 review renders continued detention unlawful, and evidence obtained during the period of unlawful detention may be excluded under s.78 PACE",
+        "correct": true,
+        "feedback": "Correct. A defective review means the detention was not lawfully authorised beyond that point. Evidence obtained during unlawful detention is vulnerable to exclusion. The review is a mandatory safeguard, not a formality."
+      }
+    ],
+    "feedback": "Correct answers: (b) and (e). The review timetable (6h/9h) and the consequences of non-compliance (unlawful detention, potential s.78 exclusion) are fundamental. The right to a solicitor can be delayed (not denied). A s.42 extension does not compel detention. The 96-hour maximum is absolute.",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, ss.40–44, 58, 78"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "consolidation",
+      "detention",
+      "msq"
+    ]
+  },
+  {
+    "lessonId": "lesson-J2-1",
+    "microSkill": "J2.1",
+    "block": "consolidation",
+    "phase": "consolidation",
+    "teachingSummary": "",
+    "type": "scenario_choice",
+    "question": "[CONSOLIDATION] At 30 hours into detention, the custody record shows: (1) the investigating team has been idle for the last 6 hours (shift change); (2) the most recent s.40 review was 10 hours ago (beyond the 9-hour limit); (3) the detainee requested a solicitor at 28 hours but has not been provided access; (4) the detainee is an adult with no vulnerabilities. The superintendent refuses to apply for a magistrates' warrant for further detention. The detainee's solicitor makes a habeas corpus application. What is the likely outcome?",
+    "answer": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "The court orders release — multiple PACE breaches (delayed review, failure to provide solicitor, lack of investigative diligence) render continued detention unlawful. The s.40 review being overdue alone is sufficient ground",
+        "correct": true,
+        "feedback": "Correct. Three independent breaches: (1) the s.40 review is overdue (10h > 9h maximum) — continued detention past 9 hours from last review is unlawful; (2) the investigation is not diligent (6 hours idle); (3) the s.58 solicitor request at 28 hours has not been honoured. Any one of these renders detention unlawful. Habeas corpus will be granted. The superintendent was correct to refuse a magistrates' warrant — it would not have been granted given the breaches."
+      },
+      {
+        "id": "b",
+        "text": "The court orders continued detention — the breaches are technical and the detainee is an adult with no vulnerabilities",
+        "correct": false,
+        "feedback": "Incorrect. The breaches are not merely technical. An overdue review (s.40) is a serious breach that goes to the lawfulness of detention, not a minor procedural error. The lack of vulnerability does not cure the breach."
+      },
+      {
+        "id": "c",
+        "text": "The court orders detention to continue for a further 6 hours to allow the police to rectify the breaches",
+        "correct": false,
+        "feedback": "Incorrect. The court cannot authorise detention to cure a breach. If detention is unlawful, the remedy is release. The court does not extend detention to allow the police to fix procedural errors."
+      },
+      {
+        "id": "d",
+        "text": "The court refuses habeas corpus because the superintendent has already refused the magistrates' warrant, which is sufficient protection",
+        "correct": false,
+        "feedback": "Incorrect. The superintendent's refusal to apply for a warrant is protective of the detainee, but does not address the existing breaches. The detention at 30 hours is already unlawful due to the overdue review. The court will order release."
+      }
+    ],
+    "feedback": "This consolidates all three blocks: Block A (time limits — the s.42 extension requires diligence, which has lapsed); Block B (reviews — the s.40 review is overdue, rendering detention unlawful); Block C (detainee rights — the s.58 solicitor request has not been actioned). Multiple independent breaches make the detention unlawful. Habeas corpus will be granted and the detainee released. The superintendent correctly refused to compound the breaches with a magistrates' application.",
+    "oscoaReferences": [
+      "Police and Criminal Evidence Act 1984, ss.40, 42, 58"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "consolidation",
+      "habeas-corpus",
+      "detention",
+      "scenario"
+    ]
+  }
+]
