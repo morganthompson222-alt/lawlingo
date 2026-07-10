@@ -53,6 +53,9 @@ export default function SenecaLessonPlayer({ lessonId, questions, microSkill, on
   const [selectedMsqAnswers, setSelectedMsqAnswers] = useState<string[]>([])
   const [dragOrder, setDragOrder] = useState<string[]>([])
   const [dragInitialised, setDragInitialised] = useState(false)
+  const [selectedLeftItem, setSelectedLeftItem] = useState<string | null>(null)
+  const [matchedPairs, setMatchedPairs] = useState<Record<string, string>>({})
+  const [pairOrder, setPairOrder] = useState<string[]>([])
   const textInputRef = useRef<HTMLInputElement | null>(null)
   const saveTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
 
@@ -111,14 +114,26 @@ export default function SenecaLessonPlayer({ lessonId, questions, microSkill, on
   const isFillGap = currentQuestion?.type?.startsWith('fill_gap') || currentQuestion?.type === 'spot_error'
   const isMsq = currentQuestion?.type === 'msq'
   const isDragElements = currentQuestion?.type === 'drag_elements'
+  const isDragMatching = isDragElements && (currentQuestion?.options || []).some(o => o.pair)
   const hasOptions = (currentQuestion?.options?.length || 0) > 0 && !isDragElements
   const msqCorrectCount = isMsq ? currentQuestion?.options?.filter(o => o.correct).length ?? 0 : 0
 
   useEffect(() => {
     if (isDragElements && currentQuestion && !dragInitialised) {
-      const ids = (currentQuestion.options || []).map(o => o.id || '')
-      const shuffled = [...ids].sort(() => Math.random() - 0.5)
-      setDragOrder(shuffled)
+      if (isDragMatching) {
+        const ids = (currentQuestion.options || []).map(o => o.id || '')
+        const shuffled = [...ids].sort(() => Math.random() - 0.5)
+        setDragOrder(shuffled)
+        const pairLabels = [...new Set((currentQuestion.options || []).map(o => o.pair || '').filter(Boolean))]
+        const shuffledPairs = [...pairLabels].sort(() => Math.random() - 0.5)
+        setPairOrder(shuffledPairs)
+        setMatchedPairs({})
+        setSelectedLeftItem(null)
+      } else {
+        const ids = (currentQuestion.options || []).map(o => o.id || '')
+        const shuffled = [...ids].sort(() => Math.random() - 0.5)
+        setDragOrder(shuffled)
+      }
       setDragInitialised(true)
     }
     if (!isDragElements) {
@@ -168,6 +183,44 @@ export default function SenecaLessonPlayer({ lessonId, questions, microSkill, on
       setIsCorrect(false)
       setIsAlmostCorrect(false)
       setSelectedAnswer(selectedMsqAnswers.join(','))
+    }
+    setPhase('feedback')
+  }
+
+  function handleMatchClick(optionId: string, side: 'left' | 'right') {
+    if (phase === 'feedback') return
+    if (side === 'left') {
+      setSelectedLeftItem(prev => prev === optionId ? null : optionId)
+    } else if (side === 'right' && selectedLeftItem) {
+      setMatchedPairs(prev => ({ ...prev, [selectedLeftItem]: optionId }))
+      setSelectedLeftItem(null)
+    }
+  }
+
+  function handleRemoveMatch(optionId: string) {
+    if (phase === 'feedback') return
+    setMatchedPairs(prev => {
+      const next = { ...prev }
+      delete next[optionId]
+      return next
+    })
+  }
+
+  function handleSubmitMatching() {
+    if (!currentQuestion) return
+    const totalPairs = currentQuestion.options?.filter(o => o.pair).length || 0
+    const matchedCount = Object.keys(matchedPairs).length
+    let correctCount = 0
+    for (const [optId, pairVal] of Object.entries(matchedPairs)) {
+      const opt = currentQuestion.options?.find(o => o.id === optId)
+      if (opt && opt.pair === pairVal) correctCount++
+    }
+    if (correctCount === totalPairs && matchedCount === totalPairs) {
+      setIsCorrect(true); setIsAlmostCorrect(false)
+    } else if (correctCount >= 1 && correctCount < totalPairs) {
+      setIsCorrect(false); setIsAlmostCorrect(true)
+    } else {
+      setIsCorrect(false); setIsAlmostCorrect(false)
     }
     setPhase('feedback')
   }
@@ -229,6 +282,9 @@ export default function SenecaLessonPlayer({ lessonId, questions, microSkill, on
       setIsAlmostCorrect(false)
       setTextAnswer('')
       setSelectedMsqAnswers([])
+      setMatchedPairs({})
+      setPairOrder([])
+      setSelectedLeftItem(null)
       setDragOrder([])
       setDragInitialised(false)
       setPhase(currentQuestion.type === 'teaching' ? 'reading' : 'answering')
@@ -241,6 +297,9 @@ export default function SenecaLessonPlayer({ lessonId, questions, microSkill, on
         setIsAlmostCorrect(false)
         setTextAnswer('')
         setSelectedMsqAnswers([])
+        setMatchedPairs({})
+        setPairOrder([])
+        setSelectedLeftItem(null)
         setDragOrder([])
         setDragInitialised(false)
         setPhase('reading')
@@ -291,9 +350,9 @@ export default function SenecaLessonPlayer({ lessonId, questions, microSkill, on
       const keyMatches = keyTerms.filter(k => userNorm.includes(k)).length
       const adjustedScore = Math.max(score, keyMatches / Math.min(keyTerms.length, 12))
       const keywordRich = keyMatches >= 3
-
-      if (adjustedScore >= 0.6 || (adjustedScore >= 0.4 && keywordRich)) return { score: adjustedScore, correct: false, almost: true }
-      return { score: adjustedScore, correct: adjustedScore >= 0.85, almost: adjustedScore >= 0.4 && adjustedScore < 0.85 }
+      if (keywordRich && adjustedScore >= 0.5) return { score: adjustedScore, correct: true, almost: false }
+      if (keywordRich && adjustedScore >= 0.35) return { score: adjustedScore, correct: false, almost: true }
+      return { score: adjustedScore, correct: adjustedScore >= 0.85, almost: adjustedScore >= 0.5 && adjustedScore < 0.85 }
     }
 
     const threshold = type === 'msq' ? 0.7 : 0.6
@@ -415,7 +474,7 @@ export default function SenecaLessonPlayer({ lessonId, questions, microSkill, on
               )}
 
               {/* Drag elements — sequencing/ordering questions */}
-              {isDragElements && (
+              {isDragElements && !isDragMatching && (
                 <div className="space-y-2">
                   <p className="text-sm text-gray-400 font-medium mb-1">
                     Tap arrows to arrange in the correct order
@@ -600,8 +659,96 @@ export default function SenecaLessonPlayer({ lessonId, questions, microSkill, on
                       {currentQuestion.oscoaReferences.map((ref, i) => (
                         <p key={i} className="text-xs text-gray-500 italic">{ref}</p>
                       ))}
+                </div>
+              )}
+
+              {/* Drag elements — matching column-to-column questions */}
+              {isDragMatching && (
+                <div className="space-y-2">
+                  <p className="text-sm text-gray-400 font-medium mb-1">
+                    Tap a concept, then tap its definition to match them
+                  </p>
+                  {Object.keys(matchedPairs).length > 0 && phase !== 'feedback' && (
+                    <div className="flex flex-wrap gap-1.5 mb-2">
+                      {Object.entries(matchedPairs).map(([optId, pairVal]) => (
+                        <button key={optId} onClick={() => handleRemoveMatch(optId)}
+                          className="text-xs bg-green-50 text-green-600 border border-green-200 px-2 py-0.5 rounded flex items-center gap-1">
+                          {pairVal} ✕
+                        </button>
+                      ))}
                     </div>
                   )}
+                  <div className="grid grid-cols-2 gap-3">
+                    {/* Left column: option texts */}
+                    <div className="space-y-2">
+                      {dragOrder.map(optId => {
+                        const opt = currentQuestion?.options?.find(o => o.id === optId)
+                        if (!opt) return null
+                        const matched = matchedPairs[optId]
+                        const isSelected = selectedLeftItem === optId
+                        const correctPair = phase === 'feedback' && opt.pair === matched
+                        const wrongPair = phase === 'feedback' && matched && opt.pair !== matched
+                        const missingPair = phase === 'feedback' && !matched
+                        return (
+                          <button key={optId} disabled={phase === 'feedback'}
+                            onClick={() => handleMatchClick(optId, 'left')}
+                            className={cn(
+                              'w-full text-left p-3 rounded-xl border-2 text-sm font-medium transition-all',
+                              correctPair && 'border-green-500 bg-green-50',
+                              wrongPair && 'border-red-400 bg-red-50',
+                              missingPair && 'border-dashed border-gray-300 bg-gray-50/50',
+                              isSelected && 'border-[#58CC02] bg-green-50 scale-[1.02]',
+                              !isSelected && !correctPair && !wrongPair && !missingPair && 'border-gray-200 bg-white hover:border-gray-300'
+                            )}
+                          >
+                            {opt.text}
+                          </button>
+                        )
+                      })}
+                    </div>
+                    {/* Right column: pair labels */}
+                    <div className="space-y-2">
+                      {pairOrder.map(pairVal => {
+                        const matchedBy = Object.entries(matchedPairs).find(([, v]) => v === pairVal)?.[0]
+                        const leftOpt = matchedBy ? currentQuestion?.options?.find(o => o.id === matchedBy) : null
+                        const correctPair = phase === 'feedback' && leftOpt?.pair === pairVal
+                        const wrongPair = phase === 'feedback' && matchedBy && leftOpt && leftOpt.pair !== pairVal
+                        return (
+                          <button key={pairVal} disabled={phase === 'feedback'}
+                            onClick={() => handleMatchClick(pairVal, 'right')}
+                            className={cn(
+                              'w-full text-left p-3 rounded-xl border-2 text-sm font-medium transition-all',
+                              correctPair && 'border-green-500 bg-green-50',
+                              wrongPair && 'border-red-400 bg-red-50',
+                              matchedBy && !correctPair && !wrongPair && 'border-[#58CC02] bg-green-50/50',
+                              !matchedBy && 'border-gray-200 bg-white hover:border-gray-300 text-gray-600'
+                            )}
+                          >
+                            <span className={cn(
+                              matchedBy ? 'font-semibold text-gray-900' : 'text-gray-500'
+                            )}>{pairVal}</span>
+                            {phase === 'feedback' && correctPair && (
+                              <CheckCircle2 className="w-4 h-4 text-green-500 inline ml-1" />
+                            )}
+                            {phase === 'feedback' && wrongPair && (
+                              <XCircle className="w-4 h-4 text-red-400 inline ml-1" />
+                            )}
+                          </button>
+                        )
+                      })}
+                    </div>
+                  </div>
+                  {phase !== 'feedback' && (
+                    <button
+                      onClick={handleSubmitMatching}
+                      disabled={Object.keys(matchedPairs).length === 0}
+                      className="w-full bg-[#58CC02] text-white font-bold py-3.5 rounded-xl hover:bg-[#46A302] transition-colors mt-2 disabled:bg-gray-200 disabled:text-gray-400"
+                    >
+                      Check Matches ({Object.keys(matchedPairs).length}/{currentQuestion?.options?.filter(o => o.pair).length || '?'})
+                    </button>
+                  )}
+                </div>
+              )}
                 </motion.div>
               )}
             </motion.div>
