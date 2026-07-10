@@ -71,13 +71,12 @@ export default function SenecaLessonPlayer({ lessonId, questions, microSkill, on
     }
   })
 
-  // Auto-save progress every 3 seconds when state changes
+  // Auto-save progress — debounced 1s
   useEffect(() => {
     if (saveTimerRef.current) clearTimeout(saveTimerRef.current)
     saveTimerRef.current = setTimeout(() => {
-      const state = { ...stateRef.current }
-      onProgressSave(state)
-    }, 3000)
+      onProgressSave({ ...stateRef.current })
+    }, 1000)
     return () => { if (saveTimerRef.current) clearTimeout(saveTimerRef.current) }
   }, [currentBlockIndex, currentQuestionIndex, phase, hearts, totalCorrect, totalQuestions])
 
