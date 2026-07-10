@@ -346,13 +346,14 @@ export default function SenecaLessonPlayer({ lessonId, questions, microSkill, on
     }
 
     if (type === 'spot_error') {
-      const keyTerms = ['invitation', 'treat', 'offer', 'contract', 'binding', 'refuse', 'accept', 'till', 'checkout', 'display', 'boots', 'immediate', 'formed', 'not', 'no', 'legal', 'customer', 'shop']
-      const keyMatches = keyTerms.filter(k => userNorm.includes(k)).length
-      const adjustedScore = Math.max(score, keyMatches / Math.min(keyTerms.length, 12))
-      const keywordRich = keyMatches >= 3
-      if (keywordRich && adjustedScore >= 0.5) return { score: adjustedScore, correct: true, almost: false }
-      if (keywordRich && adjustedScore >= 0.35) return { score: adjustedScore, correct: false, almost: true }
-      return { score: adjustedScore, correct: adjustedScore >= 0.85, almost: adjustedScore >= 0.5 && adjustedScore < 0.85 }
+      const stopWords = new Set(['the', 'a', 'an', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for', 'of', 'by', 'with', 'is', 'are', 'was', 'were', 'be', 'been', 'being', 'have', 'has', 'had', 'do', 'does', 'did', 'will', 'would', 'could', 'should', 'may', 'might', 'shall', 'not', 'no', 'nor', 'it', 'its', 'this', 'that', 'these', 'those', 'can', 'i', 'we', 'they', 'he', 'she', 'who', 'what', 'which', 'from', 'as', 'so', 'if', 'than'])
+      const correctWords = correctNorm.split(/\s+/).filter(w => w.length > 3 && !stopWords.has(w))
+      const userWords = new Set(userNorm.split(/\s+/))
+      const matchedWords = correctWords.filter(w => userWords.has(w)).length
+      const contentScore = correctWords.length > 0 ? matchedWords / correctWords.length : 0
+      if (contentScore >= 0.4) return { score: contentScore, correct: true, almost: false }
+      if (contentScore >= 0.2) return { score: contentScore, correct: false, almost: true }
+      return { score: contentScore, correct: false, almost: false }
     }
 
     const threshold = type === 'msq' ? 0.7 : 0.6
