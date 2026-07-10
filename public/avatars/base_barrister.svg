@@ -1,6 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <rect width="512" height="512" fill="transparent"/>
-  <circle cx="256" cy="220" r="120" fill="#FF6B6B" opacity="0.3"/>
-  <circle cx="256" cy="220" r="120" fill="none" stroke="#FF6B6B" stroke-width="4"/>
-  <text x="256" y="230" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#FF6B6B" font-weight="600">Barrister</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="body2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1A1A2E"/>
+      <stop offset="100%" stop-color="#16213E"/>
+    </linearGradient>
+    <linearGradient id="skin2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F5CBA7"/>
+      <stop offset="100%" stop-color="#E0A87C"/>
+    </linearGradient>
+  </defs>
+  <!-- Dark suit body -->
+  <path d="M140 512V340c0-8 6-14 14-14h196c8 0 14 6 14 14v172H140z" fill="url(#body2)"/>
+  <ellipse cx="256" cy="360" rx="100" ry="18" fill="#0F0F23" opacity="0.4"/>
+  <ellipse cx="256" cy="310" rx="85" ry="55" fill="url(#body2)"/>
+  <!-- White shirt -->
+  <path d="M225 295L256 325L287 295L276 278H236L225 295Z" fill="#fff" stroke="#ddd" stroke-width="1.5"/>
+  <!-- Red tie -->
+  <path d="M250 285L256 340L262 285H275L265 345H247L237 285Z" fill="#C0392B"/>
+  <!-- Neck -->
+  <rect x="236" y="258" width="40" height="24" rx="8" fill="url(#skin2)"/>
+  <!-- Confident head -->
+  <ellipse cx="256" cy="225" rx="52" ry="62" fill="url(#skin2)"/>
+  <!-- Hair -->
+  <path d="M204 220Q204 155 256 155Q308 155 308 220V235Q308 245 298 245H214Q204 245 204 235Z" fill="#2C1810"/>
+  <path d="M204 220Q195 200 200 185Q220 175 256 175Q292 175 312 185Q317 200 308 220" fill="#3D2B1F"/>
+  <!-- Eyes - sharper, more confident -->
+  <ellipse cx="236" cy="220" rx="5" ry="6" fill="#1A0A00"/>
+  <ellipse cx="276" cy="220" rx="5" ry="6" fill="#1A0A00"/>
+  <ellipse cx="238" cy="218" rx="2" ry="2" fill="#fff"/>
+  <ellipse cx="278" cy="218" rx="2" ry="2" fill="#fff"/>
+  <!-- Eyebrows -->
+  <path d="M226 208Q236 204 246 208" fill="none" stroke="#2C1810" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M266 208Q276 204 286 208" fill="none" stroke="#2C1810" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Mouth - slight smirk -->
+  <path d="M246 242Q256 248 266 242" fill="none" stroke="#C0765A" stroke-width="2" stroke-linecap="round"/>
 </svg>

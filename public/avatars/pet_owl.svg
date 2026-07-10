@@ -1,6 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <rect width="512" height="512" fill="transparent"/>
-  <circle cx="256" cy="220" r="120" fill="#FF6B6B" opacity="0.3"/>
-  <circle cx="256" cy="220" r="120" fill="none" stroke="#FF6B6B" stroke-width="4"/>
-  <text x="256" y="230" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#FF6B6B" font-weight="600">Owl</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Wise Owl -->
+  <!-- Body -->
+  <ellipse cx="370" cy="400" rx="35" ry="45" fill="#8B7355"/>
+  <ellipse cx="370" cy="400" rx="20" ry="35" fill="#D2B48C" opacity="0.5"/>
+  <!-- Head -->
+  <ellipse cx="370" cy="350" rx="30" ry="28" fill="#8B7355"/>
+  <!-- Ear tufts -->
+  <path d="M350 328L340 310L355 320Z" fill="#6B5335"/>
+  <path d="M390 328L400 310L385 320Z" fill="#6B5335"/>
+  <!-- Face disc -->
+  <ellipse cx="370" cy="350" rx="22" ry="20" fill="#D2B48C"/>
+  <!-- Big wise eyes -->
+  <circle cx="358" cy="348" r="9" fill="#FFD700"/>
+  <circle cx="382" cy="348" r="9" fill="#FFD700"/>
+  <circle cx="358" cy="348" r="4" fill="#1A1A2E"/>
+  <circle cx="382" cy="348" r="4" fill="#1A1A2E"/>
+  <circle cx="360" cy="346" r="1.5" fill="#fff"/>
+  <circle cx="384" cy="346" r="1.5" fill="#fff"/>
+  <!-- Beak -->
+  <path d="M367 357L370 362L373 357Z" fill="#F5A623"/>
+  <!-- Spectacles -->
+  <circle cx="358" cy="348" r="11" fill="none" stroke="#333" stroke-width="1.5"/>
+  <circle cx="382" cy="348" r="11" fill="none" stroke="#333" stroke-width="1.5"/>
+  <line x1="369" y1="348" x2="371" y2="348" stroke="#333" stroke-width="1.5"/>
+  <!-- Wing -->
+  <path d="M330 380Q340 420 370 430" fill="none" stroke="#6B5335" stroke-width="3"/>
 </svg>

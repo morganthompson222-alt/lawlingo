@@ -1,6 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <rect width="512" height="512" fill="transparent"/>
-  <circle cx="256" cy="220" r="120" fill="#FF6B6B" opacity="0.3"/>
-  <circle cx="256" cy="220" r="120" fill="none" stroke="#FF6B6B" stroke-width="4"/>
-  <text x="256" y="230" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#FF6B6B" font-weight="600">Silk QC Robe</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="qcRobe" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1A1A2E"/>
+      <stop offset="100%" stop-color="#0D0D1A"/>
+    </linearGradient>
+  </defs>
+  <!-- QC Silk Robe - black with gold trim -->
+  <path d="M145 512V310Q145 300 155 300H357Q367 300 367 310V512H145Z" fill="url(#qcRobe)"/>
+  <!-- Gold trim -->
+  <path d="M145 310H367" stroke="#DAA520" stroke-width="4"/>
+  <!-- Left lapel -->
+  <path d="M155 300L230 390L290 390L290 512" fill="none" stroke="#DAA520" stroke-width="2"/>
+  <path d="M367 300L290 390L230 390L230 512" fill="none" stroke="#DAA520" stroke-width="2"/>
+  <!-- Shoulder pieces -->
+  <path d="M155 300L180 270L220 280" fill="#1A1A2E" stroke="#DAA520" stroke-width="1.5"/>
+  <path d="M357 300L332 270L292 280" fill="#1A1A2E" stroke="#DAA520" stroke-width="1.5"/>
 </svg>
